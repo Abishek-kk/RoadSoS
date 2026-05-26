@@ -22554,5 +22554,87 @@
     ],
     "location_link": "https://maps.google.com/?q=11.5309794,76.1551866",
     "pincode": "626 101"
+  },
+  {
+    "id": "MELUR001",
+    "name": "Government Hospital, Melur",
+    "city": "Melur",
+    "state": "Tamil Nadu",
+    "address": "Government Hospital Taluk, Alagarkovil Road, Melur, Madurai Dt. - 625106",
+    "phone": "108",
+    "type": "Government",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine"
+    ],
+    "lat": 10.0324,
+    "lng": 78.3393,
+    "location_link": "https://maps.google.com/?q=10.0324,78.3393",
+    "pincode": "625106"
+  },
+  {
+    "id": "MELUR002",
+    "name": "Muthuvel Hospital",
+    "city": "Melur",
+    "state": "Tamil Nadu",
+    "address": "Madurai Road, Melur, Tamil Nadu 625106",
+    "phone": "9843133390",
+    "type": "Private",
+    "specialties": [
+      "General Medicine"
+    ],
+    "lat": 10.0318,
+    "lng": 78.3385,
+    "location_link": "https://maps.google.com/?q=10.0318,78.3385",
+    "pincode": "625106"
+  },
+  {
+    "id": "MELUR003",
+    "name": "Dr. Rao's Services Hospital",
+    "city": "Melur",
+    "state": "Tamil Nadu",
+    "address": "59, Channel Road, Melur, Madurai - 625106",
+    "phone": "0452-2415240",
+    "type": "Private",
+    "specialties": [
+      "Multi Speciality",
+      "Emergency Care"
+    ],
+    "lat": 10.032309,
+    "lng": 78.334472,
+    "location_link": "https://maps.google.com/?q=10.032309,78.334472",
+    "pincode": "625106"
+  },
+  {
+    "id": "MELUR004",
+    "name": "Aravind Eye Hospital - Melur",
+    "city": "Melur",
+    "state": "Tamil Nadu",
+    "address": "15/C, Channel Road, Near SBI Bank, Opposite to Apple Shopping Mall, Melur - 625106",
+    "phone": "0452-4210595",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "lat": 10.0321,
+    "lng": 78.3348,
+    "location_link": "https://maps.google.com/?q=10.0321,78.3348",
+    "pincode": "625106"
+  },
+  {
+    "id": "MELUR005",
+    "name": "Preethi Hospitals",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "50, Melur Main Road, Uthangudi, Madurai - 625107",
+    "phone": "108",
+    "type": "Private",
+    "specialties": [
+      "Multi Speciality"
+    ],
+    "lat": 9.9594,
+    "lng": 78.1757,
+    "location_link": "https://maps.google.com/?q=9.9594,78.1757",
+    "pincode": "625107"
   }
 ]

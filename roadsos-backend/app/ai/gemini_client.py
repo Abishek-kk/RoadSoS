@@ -62,7 +62,10 @@ def generate_chat_response(prompt: str, context: str = "", system_instruction: s
             system_instruction=system_instruction or None
         )
 
-        response = model.generate_content(full_prompt)
+        response = model.generate_content(
+            full_prompt,
+            request_options={"timeout": 8},
+        )
         return response.text
     except Exception as e:
         logger.error(f"Error calling Gemini API: {e}", exc_info=True)

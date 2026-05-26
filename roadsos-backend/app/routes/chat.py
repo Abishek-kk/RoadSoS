@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
+import anyio
 
 from app.ai.rag_pipeline import run_rag_pipeline
 from app.ai.retrieval import NUMBER_WORDS, normalize, requested_limit, tokenize
@@ -35,13 +36,29 @@ async def chat(payload: ChatPayload):
             )
         }
 
-    result = run_rag_pipeline(
-        effective_message,
-        messages=[message.model_dump() for message in payload.messages],
-        lat=payload.lat,
-        lng=payload.lng,
-        skip=3 if is_followup and requested_limit(user_message, default=0) == 0 else 0,
-    )
+    use_llm = should_use_llm(effective_message)
+    try:
+        with anyio.fail_after(6):
+            result = await anyio.to_thread.run_sync(
+                lambda: run_rag_pipeline(
+                    effective_message,
+                    messages=[message.model_dump() for message in payload.messages],
+                    lat=payload.lat,
+                    lng=payload.lng,
+                    use_llm=use_llm,
+                    skip=3 if is_followup and requested_limit(user_message, default=0) == 0 else 0,
+                ),
+                abandon_on_cancel=True,
+            )
+    except TimeoutError:
+        result = run_rag_pipeline(
+            effective_message,
+            messages=[message.model_dump() for message in payload.messages],
+            lat=payload.lat,
+            lng=payload.lng,
+            use_llm=False,
+            skip=3 if is_followup and requested_limit(user_message, default=0) == 0 else 0,
+        )
     return {"reply": result.reply}
 
 
@@ -84,3 +101,31 @@ def is_more_followup(message: str) -> bool:
 
 def is_greeting(message: str) -> bool:
     return normalize(message) in {"hi", "hello", "hey", "hai", "hii", "yo"}
+
+
+def should_use_llm(message: str) -> bool:
+    normalized = normalize(message)
+    tokens = tokenize(normalized)
+    instant_terms = {
+        "hospital",
+        "hospitals",
+        "police",
+        "station",
+        "stations",
+        "tow",
+        "towing",
+        "mechanic",
+        "nearby",
+        "nearest",
+        "alert",
+        "alerts",
+        "danger",
+        "accident",
+        "crash",
+        "bleeding",
+        "fire",
+        "ambulance",
+        "sos",
+        "help",
+    }
+    return not bool(tokens & instant_terms)

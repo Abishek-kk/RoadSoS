@@ -1,9 +1,12 @@
-const BASE = (import.meta as any).env?.VITE_API_URL ?? "http://localhost:8000";
+const BASE = (import.meta as any).env?.VITE_API_URL ?? "http://127.0.0.1:8000";
 
 async function request<T>(path: string, init?: RequestInit, fallback?: T): Promise<T> {
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), 12000);
   try {
     const res = await fetch(`${BASE}${path}`, {
       headers: { "Content-Type": "application/json" },
+      signal: controller.signal,
       ...init,
     });
     if (!res.ok) throw new Error(`${res.status}`);
@@ -11,6 +14,8 @@ async function request<T>(path: string, init?: RequestInit, fallback?: T): Promi
   } catch (e) {
     if (fallback !== undefined) return fallback;
     throw e;
+  } finally {
+    window.clearTimeout(timeoutId);
   }
 }
 
@@ -77,24 +82,6 @@ function locationQuery(lat?: number, lng?: number) {
   return query ? `?${query}` : "";
 }
 
-const MOCK_HOSPITALS: Hospital[] = [
-  { id: "h1", name: "Apollo Emergency Hospital", lat: 13.0827, lng: 80.2707, phone: "+91 044 2829 0200", address: "Greams Lane, Chennai", distance_km: 2.4 },
-  { id: "h2", name: "Fortis Trauma Center", lat: 13.0067, lng: 80.2206, phone: "+91 044 4289 2222", address: "Vadapalani, Chennai", distance_km: 5.1 },
-  { id: "h3", name: "MIOT International", lat: 13.0136, lng: 80.1908, phone: "+91 044 4200 2288", address: "Manapakkam, Chennai", distance_km: 7.8 },
-  { id: "h4", name: "Government General Hospital", lat: 13.0805, lng: 80.2785, phone: "+91 044 2530 5000", address: "Park Town, Chennai", distance_km: 3.2 },
-];
-
-const MOCK_POLICE: PoliceStation[] = [
-  { id: "p1", name: "Anna Nagar Police Station", lat: 13.0850, lng: 80.2101, phone: "100", address: "Anna Nagar, Chennai", distance_km: 1.8 },
-  { id: "p2", name: "T. Nagar Police Station", lat: 13.0418, lng: 80.2341, phone: "100", address: "T. Nagar, Chennai", distance_km: 3.9 },
-  { id: "p3", name: "Highway Patrol Unit 14", lat: 13.0598, lng: 80.2497, phone: "103", address: "NH-48 Junction", distance_km: 6.2 },
-];
-
-const MOCK_TOWING: TowingService[] = [
-  { id: "tw1", name: "Roadside Towing Support", lat: 13.0827, lng: 80.2707, phone: "112", address: "Chennai", type: "Car/Bike Towing", open_24x7: true, distance_km: 2.7 },
-  { id: "tw2", name: "Highway Recovery Service", lat: 13.0598, lng: 80.2497, phone: "112", address: "NH Junction", type: "Car/Truck Towing", open_24x7: true, distance_km: 5.4 },
-];
-
 const MOCK_ALERTS: RoadAlert[] = [
   { id: "a1", type: "Blackspot", severity: "critical", message: "Accident-prone curve 2.4 km ahead. Reduce speed.", lat: 13.09, lng: 80.27, distance_km: 2.4, created_at: new Date().toISOString() },
   { id: "a2", type: "Construction", severity: "high", message: "Road work in progress on NH-48. Lane shift active.", lat: 13.07, lng: 80.25, distance_km: 5.6, created_at: new Date().toISOString() },
@@ -121,13 +108,13 @@ export const api = {
     ),
 
   hospitals: (lat?: number, lng?: number) =>
-    request<Hospital[]>(`/api/hospitals${locationQuery(lat, lng)}`, undefined, MOCK_HOSPITALS),
+    request<Hospital[]>(`/api/hospitals${locationQuery(lat, lng)}`),
 
   police: (lat?: number, lng?: number) =>
-    request<PoliceStation[]>(`/api/police${locationQuery(lat, lng)}`, undefined, MOCK_POLICE),
+    request<PoliceStation[]>(`/api/police${locationQuery(lat, lng)}`),
 
   towing: (lat?: number, lng?: number) =>
-    request<TowingService[]>(`/api/towing${locationQuery(lat, lng)}`, undefined, MOCK_TOWING),
+    request<TowingService[]>(`/api/towing${locationQuery(lat, lng)}`),
 
   alerts: (lat?: number, lng?: number) =>
     request<RoadAlert[]>(`/api/alerts${locationQuery(lat, lng)}`, undefined, MOCK_ALERTS),
