@@ -1,8 +1,10 @@
 # config.py — env vars, API keys, settings
 import os
 from dotenv import dotenv_values, load_dotenv
+from pathlib import Path
 
-load_dotenv()
+DOTENV_PATH = Path(__file__).resolve().parent.parent / ".env"
+load_dotenv(dotenv_path=DOTENV_PATH, override=True)
 
 # API Keys
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
@@ -40,8 +42,8 @@ settings = Settings()
 
 def get_gemini_api_key() -> str:
     """Return the active Gemini key without requiring a backend restart after .env edits."""
-    return os.getenv("GEMINI_API_KEY") or (dotenv_values().get("GEMINI_API_KEY") or "")
+    return os.getenv("GEMINI_API_KEY") or (dotenv_values(dotenv_path=DOTENV_PATH).get("GEMINI_API_KEY") or "")
 
 
 def get_env_value(name: str) -> str:
-    return os.getenv(name) or (dotenv_values().get(name) or "")
+    return os.getenv(name) or (dotenv_values(dotenv_path=DOTENV_PATH).get(name) or "")

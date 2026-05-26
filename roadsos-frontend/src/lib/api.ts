@@ -107,10 +107,17 @@ export const api = {
     request<{ ok: boolean }>("/api/location", { method: "POST", body: JSON.stringify({ lat, lng }) }, { ok: true }),
 
   triggerSOS: (payload: { lat: number; lng: number; user?: string; note?: string }) =>
-    request<{ ok: boolean; sos_id: string; notifications?: { contacts: number; sent: number; dry_run: number; failed: number } }>(
+    request<{
+      ok: boolean;
+      sos_id: string;
+      status: string;
+      maps_url?: string;
+      message?: string;
+      emergency_numbers?: string[];
+      notifications?: { contacts: number; queued?: number; sent: number; dry_run: number; failed: number; skipped?: number };
+    }>(
       "/api/sos",
-      { method: "POST", body: JSON.stringify(payload) },
-      { ok: true, sos_id: "mock-" + Date.now(), notifications: { contacts: 0, sent: 0, dry_run: 0, failed: 0 } }
+      { method: "POST", body: JSON.stringify(payload) }
     ),
 
   hospitals: (lat?: number, lng?: number) =>

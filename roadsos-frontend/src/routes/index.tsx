@@ -167,16 +167,41 @@ function Dashboard() {
     setCountdown(3);
     sosTimerRef.current = window.setTimeout(async () => {
       sosTimerRef.current = null;
-      if (!coords) return;
-      const res = await api.triggerSOS({ ...coords, user: "Abishek", note: "Manual SOS" });
-      const sent = res.notifications?.sent ?? 0;
-      const dryRun = res.notifications?.dry_run ?? 0;
-      const failed = res.notifications?.failed ?? 0;
-      setSosActive(true);
-      setCountdown(0);
-      toast.error("SOS dispatched", {
-        description: `Emergency ID ${res.sos_id}. WhatsApp requests submitted: ${sent}. Dry runs: ${dryRun}. Failed: ${failed}.`,
-      });
+      try {
+        const currentCoords = coords ?? await getLocation();
+        setCoords(currentCoords);
+        reverseGeocode(currentCoords.lat, currentCoords.lng);
+
+        const res = await api.triggerSOS({ ...currentCoords, user: "Abishek", note: "Manual SOS" });
+        const sent = res.notifications?.sent ?? 0;
+        const dryRun = res.notifications?.dry_run ?? 0;
+        const failed = res.notifications?.failed ?? 0;
+        const skipped = res.notifications?.skipped ?? 0;
+        const queued = res.notifications?.queued ?? 0;
+        const successful = sent + dryRun + queued;
+
+        setSosActive(true);
+        if (queued > 0) {
+          toast.error("SOS active", {
+            description: `Emergency ID ${res.sos_id}. Contact notifications queued: ${queued}. Call 112 or 108 now if you are in danger.`,
+          });
+        } else if (successful > 0) {
+          toast.error("SOS active", {
+            description: `Emergency ID ${res.sos_id}. Submitted: ${sent}. Dry runs: ${dryRun}. Failed: ${failed}.`,
+          });
+        } else {
+          toast.warning("SOS recorded, but contacts were not notified", {
+            description: `Emergency ID ${res.sos_id}. Failed: ${failed}. Skipped: ${skipped}. Call 112 or 108 now if you are in danger.`,
+          });
+        }
+      } catch {
+        setSosActive(false);
+        toast.error("SOS failed to send", {
+          description: "Could not reach the RoadSoS backend. Call 112 or 108 immediately if this is an emergency.",
+        });
+      } finally {
+        setCountdown(0);
+      }
     }, 3000);
   };
 

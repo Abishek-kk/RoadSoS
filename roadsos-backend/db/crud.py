@@ -15,9 +15,32 @@ def get_user(db: Session, user_id: int) -> Optional[models.User]:
     return db.query(models.User).filter(models.User.id == user_id).first()
 
 
+DEFAULT_SYSTEM_USER_PHONE = "+10000000000"
+
+
 def get_user_by_phone(db: Session, phone: str) -> Optional[models.User]:
     """Retrieve a user by their unique phone number."""
     return db.query(models.User).filter(models.User.phone == phone).first()
+
+
+def get_system_user(db: Session) -> Optional[models.User]:
+    """Retrieve the shared RoadSoS system user used for anonymous contact persistence."""
+    return get_user_by_phone(db, DEFAULT_SYSTEM_USER_PHONE)
+
+
+def get_or_create_system_user(db: Session) -> models.User:
+    """Get or create the shared RoadSoS system user for anonymous persistence."""
+    user = get_system_user(db)
+    if user:
+        return user
+
+    default_user = user_schema.UserCreate(
+        name="RoadSoS User",
+        phone=DEFAULT_SYSTEM_USER_PHONE,
+        email=None,
+        firebase_token=None,
+    )
+    return create_user(db, default_user)
 
 
 def get_users(db: Session, skip: int = 0, limit: int = 100) -> List[models.User]:
@@ -78,7 +101,12 @@ def create_emergency_contact(db: Session, contact: user_schema.ContactCreate, us
         user_id=user_id,
         name=contact.name,
         phone=contact.phone,
-        relation=contact.relation
+        relation=contact.relation,
+        is_primary=contact.is_primary,
+        priority=contact.priority,
+        notify_sms=contact.notify_sms,
+        notify_whatsapp=contact.notify_whatsapp,
+        notify_call=contact.notify_call,
     )
     db.add(db_contact)
     db.commit()
@@ -124,12 +152,20 @@ def create_sos_event(
     """Record a new active SOS event in the system."""
     db_sos = models.SOSEvent(
         user_id=sos.user_id,
+        user_name=sos.user,
         lat=sos.lat,
         lng=sos.lng,
+        speed=sos.speed,
+        accuracy_m=sos.accuracy_m,
+        battery_percent=sos.battery_percent,
+        device_id=sos.device_id,
         status="active",
+        severity=str(sos.severity),
+        emergency_type=sos.emergency_type,
+        note=sos.note,
         danger_zone_id=danger_zone_id,
         nearest_hospital_id=nearest_hospital_id,
-        nearest_police_id=nearest_police_id
+        nearest_police_id=nearest_police_id,
     )
     db.add(db_sos)
     db.commit()

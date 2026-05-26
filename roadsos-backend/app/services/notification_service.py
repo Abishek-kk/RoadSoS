@@ -22,8 +22,8 @@ def build_sos_message(user_name: str, lat: float, lng: float, note: str | None =
     maps_link = f"https://maps.google.com/?q={lat},{lng}"
     detail = f" Note: {note}." if note else ""
     return (
-        f"Emergency SOS: Your friend {user_name} may be in an accident and needs help."
-        f"{detail} Last known location: {maps_link}. Please call them immediately or contact 112/108."
+        f"Emergency SOS: Your friend {user_name} is in an accident and needs help."
+        f"{detail} Last known location: {maps_link}. Please respond immediately or contact 112/108."
     )
 
 
@@ -41,7 +41,11 @@ def notify_emergency_contacts(
         phone = normalize_phone_number(contact.get("phone") or "")
         name = contact.get("name") or "Emergency contact"
         if not phone:
-            results.append(NotificationResult(name, phone, "sms", "skipped", error="Missing phone number"))
+            results.append(NotificationResult(name, phone, "whatsapp", "skipped", error="Missing phone number"))
+            continue
+
+        if contact.get("notify_whatsapp") is False:
+            results.append(NotificationResult(name, phone, "whatsapp", "skipped", error="WhatsApp notifications disabled"))
             continue
 
         results.append(send_whatsapp(name, phone, message))
