@@ -235,4 +235,3 @@ npm run lint
 ## Team
 
 Team Accelerate  
-IIT Madras Road Safety Hackathon 2026
