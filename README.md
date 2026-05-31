@@ -1,6 +1,6 @@
 # RoadSoS
 
-AI-powered road safety and emergency coordination system built by Team Accelerate .
+AI-powered road safety and emergency coordination system .
 
 RoadSoS helps users monitor nearby danger zones, trigger SOS alerts, find emergency services, and get concise AI safety guidance during road incidents.
 
