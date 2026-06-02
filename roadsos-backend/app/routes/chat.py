@@ -38,7 +38,7 @@ async def chat(payload: ChatPayload):
 
     use_llm = should_use_llm(effective_message)
     try:
-        with anyio.fail_after(6):
+        with anyio.fail_after(20):
             result = await anyio.to_thread.run_sync(
                 lambda: run_rag_pipeline(
                     effective_message,

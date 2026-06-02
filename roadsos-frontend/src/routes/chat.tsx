@@ -68,7 +68,13 @@ function Chat() {
               </div>
             </div>
           ))}
-          {busy && <div className="text-xs text-muted-foreground">AI is thinking…</div>}
+          {busy && (
+            <div className="flex justify-start">
+              <div className="max-w-[80%] rounded-2xl bg-muted px-4 py-2.5 text-sm text-muted-foreground">
+                Thinking…
+              </div>
+            </div>
+          )}
           <div ref={bottomRef} />
         </div>
         <div className="shrink-0 border-t border-border p-3 flex gap-2">
