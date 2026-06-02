@@ -13,7 +13,7 @@ import logging
 import time
 
 # --- Route imports ---
-from app.routes import location, sos, hospitals, police, towing, chat, alerts, contacts
+from app.routes import location, sos, hospitals, police, towing, chat, alerts, contacts, risk
 
 # --- Logging setup ---
 logging.basicConfig(
@@ -143,6 +143,12 @@ app.include_router(
     tags=["Emergency Contacts"],
 )
 
+app.include_router(
+    risk.router,
+    prefix="/api",
+    tags=["Risk Assessment"],
+)
+
 # -------------------------------------------------------------------
 # Health & root endpoints
 # -------------------------------------------------------------------
@@ -187,6 +193,7 @@ async def api_status():
             "chat":      "/api/chat",
             "alerts":    "/api/alerts",
             "contacts":  "/api/contacts",
+            "risk":      "/api/risk",
         },
         "ai": {
             "model":    "Google Gemini",

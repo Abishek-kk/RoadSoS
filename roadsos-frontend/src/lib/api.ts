@@ -65,6 +65,16 @@ export type RoadAlert = {
   created_at: string;
 };
 
+export type RiskAssessment = {
+  score: number;
+  risk_level: "low" | "medium" | "high" | "critical";
+  summary: string;
+  safety_tips: string[];
+  nearest_danger_zones: unknown[];
+  active_alerts: unknown[];
+  factors: unknown[];
+};
+
 export type Contact = {
   id: string;
   name: string;
@@ -118,6 +128,9 @@ export const api = {
 
   alerts: (lat?: number, lng?: number) =>
     request<RoadAlert[]>(`/api/alerts${locationQuery(lat, lng)}`, undefined, MOCK_ALERTS),
+
+  risk: (lat: number, lng: number) =>
+    request<RiskAssessment>(`/api/risk${locationQuery(lat, lng)}`),
 
   contacts: () =>
     request<Contact[]>("/api/contacts", undefined, [

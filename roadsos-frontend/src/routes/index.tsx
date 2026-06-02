@@ -19,7 +19,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { api, type RoadAlert } from "@/lib/api";
+import { api, type RiskAssessment, type RoadAlert } from "@/lib/api";
 import { toast } from "sonner";
 import { getLocation, saveLocation, clearSavedLocation, hasSavedLocation } from "@/lib/location";
 
@@ -60,6 +60,7 @@ function isVoiceSOSPhrase(transcript: string) {
 function Dashboard() {
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [alerts, setAlerts] = useState<RoadAlert[]>([]);
+  const [risk, setRisk] = useState<RiskAssessment | null>(null);
   const [sosActive, setSosActive] = useState(false);
   const [countdown, setCountdown] = useState(0);
   const [locationName, setLocationName] = useState<string | null>(null);
@@ -174,6 +175,7 @@ function Dashboard() {
     if (!coords) return;
     api.postLocation(coords.lat, coords.lng);
     api.alerts(coords.lat, coords.lng).then(setAlerts);
+    api.risk(coords.lat, coords.lng).then(setRisk).catch(() => setRisk(null));
 
     // Fetch nearest hospital dynamically
     api
@@ -424,10 +426,13 @@ function Dashboard() {
             )}
           </div>
         </div>
-        <Badge variant="outline" className="border-green-500 text-green-400">
-          <span className="h-2 w-2 rounded-full bg-green-500 mr-2 animate-pulse" />
-          Monitoring active
-        </Badge>
+        <div className="flex items-center gap-2">
+          {risk && <RiskBadge risk={risk} />}
+          <Badge variant="outline" className="border-green-500 text-green-400">
+            <span className="h-2 w-2 rounded-full bg-green-500 mr-2 animate-pulse" />
+            Monitoring active
+          </Badge>
+        </div>
       </header>
 
       {/* ──── Top Alert Banner ──── */}
@@ -675,6 +680,23 @@ function SeverityDot({ s }: { s: string }) {
     low: "bg-green-500",
   };
   return <span className={`h-2.5 w-2.5 rounded-full ${map[s] ?? "bg-muted"}`} />;
+}
+
+function RiskBadge({ risk }: { risk: RiskAssessment }) {
+  const level = risk.risk_level === "low" ? "Low" : risk.risk_level === "medium" ? "Medium" : "High";
+  const className =
+    risk.risk_level === "low"
+      ? "border-green-500/60 bg-green-500/15 text-green-400"
+      : risk.risk_level === "medium"
+        ? "border-yellow-500/60 bg-yellow-500/15 text-yellow-300"
+        : "border-red-500/60 bg-red-500/15 text-red-400";
+
+  return (
+    <Badge variant="outline" className={`${className} gap-1.5`}>
+      <AlertTriangle className="h-3 w-3" />
+      {level} Risk
+    </Badge>
+  );
 }
 
 function formatDistance(distance?: number | null) {
