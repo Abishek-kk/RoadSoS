@@ -75,6 +75,25 @@ export type RiskAssessment = {
   factors: unknown[];
 };
 
+export type DangerZoneAlert = {
+  zone_id: string;
+  zone_name: string;
+  status: string;
+  risk_level: string;
+  risk_score: number;
+  distance_km: number;
+  inside_zone: boolean;
+  message: string;
+  advisory?: string;
+};
+
+export type PostLocationResponse = {
+  ok: boolean;
+  alerts?: DangerZoneAlert[];
+  risk?: unknown;
+  location?: unknown;
+};
+
 export type Contact = {
   id: string;
   name: string;
@@ -101,7 +120,7 @@ const MOCK_ALERTS: RoadAlert[] = [
 
 export const api = {
   postLocation: (lat: number, lng: number) =>
-    request<{ ok: boolean }>("/api/location", { method: "POST", body: JSON.stringify({ lat, lng }) }, { ok: true }),
+    request<PostLocationResponse>("/api/location", { method: "POST", body: JSON.stringify({ lat, lng }) }, { ok: true, alerts: [] }),
 
   triggerSOS: (payload: { lat: number; lng: number; user?: string; note?: string }) =>
     request<{

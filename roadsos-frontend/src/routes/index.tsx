@@ -19,7 +19,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { api, type RiskAssessment, type RoadAlert } from "@/lib/api";
+import { api, type DangerZoneAlert, type RiskAssessment, type RoadAlert } from "@/lib/api";
 import { toast } from "sonner";
 import { getLocation, saveLocation, clearSavedLocation, hasSavedLocation } from "@/lib/location";
 
@@ -66,6 +66,7 @@ function Dashboard() {
   const [locationName, setLocationName] = useState<string | null>(null);
   const sosTimerRef = useRef<number | null>(null);
   const recognitionRef = useRef<BrowserSpeechRecognition | null>(null);
+  const warnedDangerZonesRef = useRef<Set<string>>(new Set());
   const [speechSupported, setSpeechSupported] = useState(false);
   const [listeningForSOS, setListeningForSOS] = useState(false);
 
@@ -173,7 +174,32 @@ function Dashboard() {
   // Post location and fetch alerts when coords change
   useEffect(() => {
     if (!coords) return;
-    api.postLocation(coords.lat, coords.lng);
+    warnedDangerZonesRef.current.clear();
+
+    const showDangerZoneWarnings = (dangerZoneAlerts: DangerZoneAlert[] = []) => {
+      for (const alert of dangerZoneAlerts) {
+        const zoneKey = alert.zone_id || alert.zone_name;
+        if (!zoneKey || warnedDangerZonesRef.current.has(zoneKey)) continue;
+        warnedDangerZonesRef.current.add(zoneKey);
+
+        toast.warning(`Danger zone: ${alert.zone_name}`, {
+          description: `${formatRiskLevel(alert.risk_level)} risk · ${formatDistance(alert.distance_km)}`,
+        });
+      }
+    };
+
+    const pollLocationAlerts = () => {
+      api
+        .postLocation(coords.lat, coords.lng)
+        .then((response) => showDangerZoneWarnings(response.alerts))
+        .catch(() => {
+          // Keep proactive polling quiet on transient backend/network failures.
+        });
+    };
+
+    pollLocationAlerts();
+    const pollingId = window.setInterval(pollLocationAlerts, 15000);
+
     api.alerts(coords.lat, coords.lng).then(setAlerts);
     api.risk(coords.lat, coords.lng).then(setRisk).catch(() => setRisk(null));
 
@@ -214,6 +240,8 @@ function Dashboard() {
         }
       })
       .catch(() => setNearestTowingDist("Error"));
+
+    return () => window.clearInterval(pollingId);
   }, [coords]);
 
   // SOS countdown timer
@@ -701,4 +729,8 @@ function RiskBadge({ risk }: { risk: RiskAssessment }) {
 
 function formatDistance(distance?: number | null) {
   return distance == null ? "nearby" : `${distance} km`;
+}
+
+function formatRiskLevel(riskLevel?: string) {
+  return riskLevel ? riskLevel.charAt(0).toUpperCase() + riskLevel.slice(1) : "Unknown";
 }
