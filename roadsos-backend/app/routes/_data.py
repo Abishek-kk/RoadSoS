@@ -9,17 +9,30 @@ from typing import Any
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 logger = logging.getLogger("roadsos.data")
+_JSON_CACHE: dict[str, list[dict[str, Any]]] = {}
+
+
+def cache_clear() -> None:
+    """Clear cached JSON data for tests or development reload scenarios."""
+    _JSON_CACHE.clear()
 
 
 def load_json(name: str) -> list[dict[str, Any]]:
+    if name in _JSON_CACHE:
+        return _JSON_CACHE[name]
+
     with (DATA_DIR / name).open("r", encoding="utf-8") as f:
         data = json.load(f)
 
     if isinstance(data, list):
-        return data
+        _JSON_CACHE[name] = data
+        return _JSON_CACHE[name]
     if isinstance(data, dict) and isinstance(data.get("services"), list):
-        return data["services"]
-    return data
+        _JSON_CACHE[name] = data["services"]
+        return _JSON_CACHE[name]
+
+    _JSON_CACHE[name] = data
+    return _JSON_CACHE[name]
 
 
 def distance_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
