@@ -104,6 +104,25 @@ def _upgrade_sqlite_schema():
             if "resolution_note" not in existing_cols:
                 conn.execute(text("ALTER TABLE sos_events ADD COLUMN resolution_note TEXT"))
 
+        if "location_logs" in existing_tables:
+            existing_cols = {col["name"] for col in inspector.get_columns("location_logs")}
+            if "device_id" not in existing_cols:
+                conn.execute(text("ALTER TABLE location_logs ADD COLUMN device_id VARCHAR(120)"))
+            if "heading" not in existing_cols:
+                conn.execute(text("ALTER TABLE location_logs ADD COLUMN heading FLOAT"))
+            if "accuracy_m" not in existing_cols:
+                conn.execute(text("ALTER TABLE location_logs ADD COLUMN accuracy_m FLOAT"))
+            if "altitude_m" not in existing_cols:
+                conn.execute(text("ALTER TABLE location_logs ADD COLUMN altitude_m FLOAT"))
+            if "source" not in existing_cols:
+                conn.execute(text("ALTER TABLE location_logs ADD COLUMN source VARCHAR(30) NOT NULL DEFAULT 'unknown'"))
+            if "battery_percent" not in existing_cols:
+                conn.execute(text("ALTER TABLE location_logs ADD COLUMN battery_percent INTEGER"))
+            if "is_mock_location" not in existing_cols:
+                conn.execute(text("ALTER TABLE location_logs ADD COLUMN is_mock_location BOOLEAN NOT NULL DEFAULT 0"))
+            if "recorded_at" not in existing_cols:
+                conn.execute(text("ALTER TABLE location_logs ADD COLUMN recorded_at DATETIME"))
+
 
 def init_db():
     """

@@ -193,9 +193,17 @@ def create_location_log(db: Session, location: location_schema.LocationCreate) -
     """Log a user's current GPS location and speed for history tracking."""
     db_log = models.LocationLog(
         user_id=location.user_id,
+        device_id=location.device_id,
         lat=location.lat,
         lng=location.lng,
-        speed=location.speed
+        speed=location.speed,
+        heading=location.heading,
+        accuracy_m=location.accuracy_m,
+        altitude_m=location.altitude_m,
+        source=str(location.source),
+        battery_percent=location.battery_percent,
+        is_mock_location=location.is_mock_location,
+        recorded_at=location.recorded_at,
     )
     db.add(db_log)
     db.commit()
