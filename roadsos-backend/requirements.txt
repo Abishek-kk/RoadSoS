@@ -9,3 +9,6 @@ google-generativeai>=0.3.0
 firebase-admin>=6.2.0
 twilio>=8.10.0
 httpx>=0.25.0
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+

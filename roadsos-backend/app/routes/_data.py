@@ -84,7 +84,11 @@ def with_distance(
     )
 
     if max_km is not None:
-        enriched_sorted = [r for r in enriched_sorted if r.get("distance_km") is not None and r["distance_km"] <= float(max_km)]
+        enriched_sorted = [
+            r
+            for r in enriched_sorted
+            if r.get("distance_km") is not None and r["distance_km"] <= float(max_km)
+        ]
 
     if limit is not None and isinstance(limit, int) and limit > 0:
         enriched_sorted = enriched_sorted[:limit]
@@ -116,7 +120,9 @@ def normalize_coordinates(row: dict[str, Any]) -> dict[str, Any]:
         return row
 
     location_link = str(row.get("location_link") or "")
-    match = re.search(r"[?&]q=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)", location_link)
+    match = re.search(
+        r"[?&]q=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)", location_link
+    )
     if not match:
         return row
 
@@ -129,33 +135,36 @@ def clean_phone_number(phone_str: Any, default_fallback: str) -> str:
     phone_str = str(phone_str).strip()
     if not phone_str:
         return default_fallback
-    
+
     # Split by common delimiters
     parts = re.split(r"[/,;]|\band\b", phone_str)
     first_part = parts[0].strip()
-    
+
     # If the first part has no digits, return fallback
     if not any(char.isdigit() for char in first_part):
         return default_fallback
-        
+
     return first_part
 
 
-async def fetch_osm_amenities(lat: float, lng: float, amenity: str) -> list[dict[str, Any]]:
+async def fetch_osm_amenities(
+    lat: float, lng: float, amenity: str
+) -> list[dict[str, Any]]:
     """
     Fetches amenities (hospital or police) near the given lat/lng using the
-    Overpass API, which queries OSM for nodes/ways tagged with the specified
-    amenity type within a 25 km radius.
+    Overpass API.
 
-    This replaces the previous Nominatim-based approach which was unreliable
-    for smaller towns (Nominatim /search is a geocoder, not a POI finder).
+    Notes:
+    - We must fail fast if Overpass is unreachable/slow, because the frontend
+      relies on this route and we already have a bundled JSON fallback.
     """
     radius_m = 25000  # 25 km search radius
     overpass_url = "https://overpass-api.de/api/interpreter"
 
-    # Query for nodes AND ways tagged amenity=<type> within the radius
+    # Keep the server-side Overpass computation timeout short.
+    overpass_query_timeout_s = 4
     query = f"""
-    [out:json][timeout:15];
+    [out:json][timeout:{overpass_query_timeout_s}];
     (
       node["amenity"="{amenity}"](around:{radius_m},{lat},{lng});
       way["amenity"="{amenity}"](around:{radius_m},{lat},{lng});
@@ -166,15 +175,20 @@ async def fetch_osm_amenities(lat: float, lng: float, amenity: str) -> list[dict
     headers = {
         "User-Agent": "RoadSoSApp/1.0 (contact: team_accelerate@roadsos.app)"
     }
+
+    # Fail fast if Overpass is unreachable (connect/read).
+    # This endpoint has a fallback; don't block the frontend.
     try:
-        async with httpx.AsyncClient(timeout=15.0) as client:
+        async with httpx.AsyncClient(timeout=4.0) as client:
             response = await client.post(
                 overpass_url,
                 data={"data": query},
                 headers=headers,
             )
             if response.status_code != 200:
-                logger.error(f"Overpass returned status {response.status_code}: {response.text[:300]}")
+                logger.error(
+                    f"Overpass returned status {response.status_code}: {response.text[:300]}"
+                )
                 return []
 
             data = response.json()
@@ -200,37 +214,46 @@ async def fetch_osm_amenities(lat: float, lng: float, amenity: str) -> list[dict
 
                     # Build address from available tags
                     addr_parts = []
-                    for key in ["addr:street", "addr:suburb", "addr:city",
-                                "addr:district", "addr:state"]:
+                    for key in [
+                        "addr:street",
+                        "addr:suburb",
+                        "addr:city",
+                        "addr:district",
+                        "addr:state",
+                    ]:
                         val = tags.get(key)
                         if val:
                             addr_parts.append(val)
                     address = ", ".join(addr_parts) if addr_parts else ""
 
-                    city = (tags.get("addr:city")
-                            or tags.get("addr:town")
-                            or tags.get("addr:village")
-                            or "")
+                    city = (
+                        tags.get("addr:city")
+                        or tags.get("addr:town")
+                        or tags.get("addr:village")
+                        or ""
+                    )
                     state = tags.get("addr:state", "")
 
                     # Phone number
-                    raw_phone = (tags.get("phone")
-                                 or tags.get("contact:phone")
-                                 or "")
+                    raw_phone = tags.get("phone") or tags.get(
+                        "contact:phone"
+                    ) or ""
                     fallback_phone = "108" if amenity == "hospital" else "100"
                     phone = clean_phone_number(raw_phone, fallback_phone)
 
-                    results.append({
-                        "id": f"OSM_{el['type']}_{el['id']}",
-                        "name": name,
-                        "city": city,
-                        "state": state,
-                        "address": address,
-                        "lat": osm_lat,
-                        "lng": osm_lng,
-                        "phone": phone,
-                        "distance_km": distance_km(lat, lng, osm_lat, osm_lng),
-                    })
+                    results.append(
+                        {
+                            "id": f"OSM_{el['type']}_{el['id']}",
+                            "name": name,
+                            "city": city,
+                            "state": state,
+                            "address": address,
+                            "lat": osm_lat,
+                            "lng": osm_lng,
+                            "phone": phone,
+                            "distance_km": distance_km(lat, lng, osm_lat, osm_lng),
+                        }
+                    )
                 except Exception as parse_err:
                     logger.error(f"Error parsing Overpass element: {parse_err}")
 
@@ -238,16 +261,14 @@ async def fetch_osm_amenities(lat: float, lng: float, amenity: str) -> list[dict
             return results
 
     except Exception as e:
-        logger.error(f"Error fetching amenities from Overpass: {e}", exc_info=True)
+        logger.error(
+            f"Error fetching amenities from Overpass: {e}", exc_info=True
+        )
     return []
 
 
 async def fetch_overpass_towing(lat: float, lng: float) -> list[dict[str, Any]]:
-    """
-    Fetches towing / car-repair services near the given lat/lng using the
-    Overpass API. Searches for shop=car_repair, craft=car_repair, and
-    shop=car within a 25 km radius.
-    """
+    """Fetch towing / car-repair services near the given lat/lng using Overpass."""
     radius_m = 25000
     overpass_url = "https://overpass-api.de/api/interpreter"
 
@@ -267,15 +288,18 @@ async def fetch_overpass_towing(lat: float, lng: float) -> list[dict[str, Any]]:
     headers = {
         "User-Agent": "RoadSoSApp/1.0 (contact: team_accelerate@roadsos.app)"
     }
+
     try:
-        async with httpx.AsyncClient(timeout=15.0) as client:
+        async with httpx.AsyncClient(timeout=4.0) as client:
             response = await client.post(
                 overpass_url,
                 data={"data": query},
                 headers=headers,
             )
             if response.status_code != 200:
-                logger.error(f"Overpass (towing) returned status {response.status_code}: {response.text[:300]}")
+                logger.error(
+                    f"Overpass (towing) returned status {response.status_code}: {response.text[:300]}"
+                )
                 return []
 
             data = response.json()
@@ -296,50 +320,72 @@ async def fetch_overpass_towing(lat: float, lng: float) -> list[dict[str, Any]]:
                         continue
 
                     tags = el.get("tags", {})
-                    name = tags.get("name", tags.get("name:en", "Car Repair / Towing"))
+                    name = tags.get(
+                        "name", tags.get("name:en", "Car Repair / Towing")
+                    )
 
                     addr_parts = []
-                    for key in ["addr:street", "addr:suburb", "addr:city",
-                                "addr:district", "addr:state"]:
+                    for key in [
+                        "addr:street",
+                        "addr:suburb",
+                        "addr:city",
+                        "addr:district",
+                        "addr:state",
+                    ]:
                         val = tags.get(key)
                         if val:
                             addr_parts.append(val)
                     address = ", ".join(addr_parts) if addr_parts else ""
 
-                    raw_phone = (tags.get("phone")
-                                 or tags.get("contact:phone")
-                                 or "")
+                    raw_phone = tags.get("phone") or tags.get(
+                        "contact:phone"
+                    ) or ""
                     phone = clean_phone_number(raw_phone, "112")
 
                     # Determine service type from tags
                     svc_type = "Car Repair / Towing"
-                    if tags.get("shop") == "car_repair" or tags.get("craft") == "car_repair":
+                    if tags.get("shop") == "car_repair" or tags.get(
+                        "craft"
+                    ) == "car_repair":
                         svc_type = "Car Repair"
                     elif tags.get("shop") == "car":
                         svc_type = "Car Service"
 
-                    results.append({
-                        "id": f"OSM_{el['type']}_{el['id']}",
-                        "name": name,
-                        "district": (tags.get("addr:city")
-                                     or tags.get("addr:district")
-                                     or ""),
-                        "state": tags.get("addr:state", ""),
-                        "address": address,
-                        "phone": phone,
-                        "type": svc_type,
-                        "open_24x7": tags.get("opening_hours", "").lower().startswith("24"),
-                        "lat": osm_lat,
-                        "lng": osm_lng,
-                        "rating": None,
-                        "distance_km": distance_km(lat, lng, osm_lat, osm_lng),
-                    })
+                    results.append(
+                        {
+                            "id": f"OSM_{el['type']}_{el['id']}",
+                            "name": name,
+                            "district": (
+                                tags.get("addr:city")
+                                or tags.get("addr:district")
+                                or ""
+                            ),
+                            "state": tags.get("addr:state", ""),
+                            "address": address,
+                            "phone": phone,
+                            "type": svc_type,
+                            "open_24x7": tags.get(
+                                "opening_hours", ""
+                            ).lower().startswith("24"),
+                            "lat": osm_lat,
+                            "lng": osm_lng,
+                            "rating": None,
+                            "distance_km": distance_km(
+                                lat, lng, osm_lat, osm_lng
+                            ),
+                        }
+                    )
                 except Exception as parse_err:
-                    logger.error(f"Error parsing Overpass towing element: {parse_err}")
+                    logger.error(
+                        f"Error parsing Overpass towing element: {parse_err}"
+                    )
 
             results.sort(key=lambda x: x["distance_km"])
             return results
 
     except Exception as e:
-        logger.error(f"Error fetching towing from Overpass: {e}", exc_info=True)
+        logger.error(
+            f"Error fetching towing from Overpass: {e}", exc_info=True
+        )
     return []
+

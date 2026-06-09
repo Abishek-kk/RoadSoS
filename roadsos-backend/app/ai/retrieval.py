@@ -1,17 +1,22 @@
 """
 retrieval.py - lightweight RAG retrieval for RoadSoS.
 
-Builds context chunks from local RoadSoS data and ranks them with deterministic
-keyword, intent, phrase, and distance signals. This keeps chat useful even when
-LLM or embedding services are unavailable.
+Builds context chunks from local RoadSoS data and ranks them with
+sentence-transformers (all-MiniLM-L6-v2) + FAISS cosine similarity.
+Fallback distance and intent boosts are applied on top of semantic scores.
 """
 
 from __future__ import annotations
 
+import logging
 import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+
+import faiss
+import numpy as np
+from sentence_transformers import SentenceTransformer
 
 from app.routes._data import DATA_DIR, distance_km, load_json, with_distance
 
@@ -20,7 +25,7 @@ from app.routes._data import DATA_DIR, distance_km, load_json, with_distance
 class ContextChunk:
     title: str
     body: str
-    score: int = 0
+    score: float = 0.0
     metadata: dict[str, Any] | None = None
 
 
@@ -77,6 +82,46 @@ INTENT_PREFIX = {
     "alert": "Road Alert:",
 }
 
+_logger = logging.getLogger("roadsos.retrieval")
+_encoder: SentenceTransformer | None = None
+_faiss_index: faiss.IndexFlatIP | None = None
+_chunks: list[ContextChunk] = []
+
+
+def init_embedding_index() -> None:
+    global _encoder, _faiss_index, _chunks
+    if _faiss_index is not None:
+        return
+    _logger.info("Initializing semantic search index (all-MiniLM-L6-v2)...")
+    _encoder = SentenceTransformer("all-MiniLM-L6-v2")
+
+    # Index must be built from knowledge_chunks() as requested.
+    # Note: For place/alert chunks, we keep lat/lng as None during indexing.
+    # Distance is enriched per-query in retrieve_context() on top of semantic scores.
+    chunks: list[ContextChunk] = knowledge_chunks(None, None)
+
+    if not chunks:
+        _logger.warning("No knowledge chunks found for indexing.")
+        _faiss_index = faiss.IndexFlatIP(384)
+        _chunks = []
+        return
+
+    texts = [f"{chunk.title} {chunk.body}" for chunk in chunks]
+    embeddings = _encoder.encode(
+        texts,
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    )
+    embeddings = np.ascontiguousarray(embeddings.astype("float32"))
+
+    # With normalize_embeddings=True, inner product == cosine similarity.
+    index = faiss.IndexFlatIP(embeddings.shape[1])
+    index.add(embeddings)
+
+    _faiss_index = index
+    _chunks = chunks
+    _logger.info(f"Indexed {index.ntotal} chunks (dim={embeddings.shape[1]}).")
+
 
 def retrieve_context(
     question: str,
@@ -84,23 +129,44 @@ def retrieve_context(
     lng: float | None = None,
     limit: int | None = None,
 ) -> list[ContextChunk]:
-    """Return ranked context chunks for a user question."""
+    init_embedding_index()
     normalized_question = normalize(question)
-    tokens = tokenize(question)
     intent = detect_intent(normalized_question)
-    chunks = knowledge_chunks(lat, lng)
 
-    for chunk in chunks:
-        chunk.score = score_chunk(chunk, tokens, normalized_question, intent)
+    if not _chunks or _faiss_index is None or _faiss_index.ntotal == 0:
+        return []
 
-    ranked = sorted(
-        chunks,
-        key=lambda chunk: (
-            chunk.score,
-            -distance_sort_value(chunk),
-        ),
-        reverse=True,
-    )
+    q_emb = _encoder.encode([question], normalize_embeddings=True)
+    q_emb = np.ascontiguousarray(q_emb.astype("float32"))
+
+    k = min(len(_chunks), _faiss_index.ntotal)
+    scores, indices = _faiss_index.search(q_emb, k=k)
+
+    scored: list[tuple[int, float]] = []
+    for rank in range(k):
+        idx = int(indices[0][rank])
+        score = float(scores[0][rank])
+        if 0 <= idx < len(_chunks):
+            scored.append((idx, score))
+    scored.sort(key=lambda x: (-x[1], distance_sort_value(_chunks[x[0]])))
+
+    DISTANCE_SCALE = 0.01
+    ranked: list[ContextChunk] = []
+    for idx, semantic_score in scored:
+        chunk = _chunks[idx]
+        chunk = ContextChunk(
+            title=chunk.title,
+            body=chunk.body,
+            metadata=dict(chunk.metadata or {}),
+            score=0.0,
+        )
+        if chunk.title.startswith(("Hospitals:", "Police:", "Towing:")):
+            _enrich_distance(chunk, lat, lng)
+        boost = intent_boost(intent, chunk.title)
+        if intent in INTENT_PREFIX:
+            boost += distance_boost(chunk) * DISTANCE_SCALE
+        chunk.score = semantic_score + boost
+        ranked.append(chunk)
 
     if intent in INTENT_PREFIX:
         selected = filter_intent_chunks(intent, ranked)
@@ -109,39 +175,25 @@ def retrieve_context(
     selected = [
         chunk
         for chunk in ranked
-        if chunk.score > 0 and not chunk.title.startswith(("Hospitals:", "Police:", "Road Alert:", "Towing:"))
+        if chunk.score > 0
+        and not chunk.title.startswith(("Hospitals:", "Police:", "Road Alert:", "Towing:"))
     ]
     selected = selected[: limit or 5]
     return selected or ranked[: limit or 3]
 
 
-def score_chunk(
-    chunk: ContextChunk,
-    tokens: set[str],
-    normalized_question: str,
-    intent: str,
-) -> int:
-    title = normalize(chunk.title)
-    text = normalize(f"{chunk.title} {chunk.body}")
-    score = 0
-
-    for token in tokens:
-        if token in text:
-            score += weight_for_token(token)
-        if token in title:
-            score += weight_for_token(token)
-
-    for phrase in important_phrases(normalized_question):
-        if phrase in text:
-            score += 12
-        if phrase in title:
-            score += 10
-
-    score += intent_boost(intent, chunk.title)
-    if intent in INTENT_PREFIX:
-        score += distance_boost(chunk)
-
-    return score
+def _enrich_distance(chunk: ContextChunk, lat: float | None, lng: float | None) -> None:
+    if lat is None or lng is None:
+        return
+    metadata = chunk.metadata or {}
+    chunk_lat = metadata.get("lat")
+    chunk_lng = metadata.get("lng")
+    if chunk_lat is None or chunk_lng is None:
+        return
+    try:
+        chunk.metadata["distance_km"] = distance_km(lat, lng, float(chunk_lat), float(chunk_lng))
+    except Exception:
+        pass
 
 
 def distance_sort_value(chunk: ContextChunk) -> float:
@@ -258,6 +310,13 @@ def weight_for_token(token: str) -> int:
 
 
 def knowledge_chunks(lat: float | None = None, lng: float | None = None) -> list[ContextChunk]:
+    """Builds the full offline knowledge-base chunk list.
+
+    NOTE: If lat/lng are provided, distance fields are embedded into the chunks.
+    During semantic indexing we call this with (None, None) and then enrich
+    distance on top of semantic scores per-query in retrieve_context().
+    """
+
     chunks: list[ContextChunk] = []
     chunks.extend(text_file_chunks("emergency_guides.txt"))
     chunks.extend(text_file_chunks("safety_rules.txt"))
@@ -323,6 +382,49 @@ def alert_chunks(lat: float | None = None, lng: float | None = None) -> list[Con
                 },
             )
         )
+    return chunks
+
+
+def place_chunks_index() -> list[ContextChunk]:
+    chunks: list[ContextChunk] = []
+    for filename, title in [
+        ("hospitals.json", "Hospitals"),
+        ("police_stations.json", "Police"),
+        ("towing.json", "Towing"),
+    ]:
+        for place in load_json(filename):
+            phone = place.get("emergency_phone") or place.get("phone") or "not listed"
+            city = place.get("city") or place.get("district") or "nearby area"
+            state = place.get("state") or "unknown state"
+            distance = place.get("distance_km")
+            distance_text = f" Distance: {distance} km." if distance is not None else ""
+            address = place.get("address") or "Address not listed"
+
+            body = (
+                f"{place.get('name', title)} in {city}, {state}. "
+                f"Address: {address}. Phone: {phone}. "
+                f"Open 24x7: {place.get('open_24x7', 'unknown')}.{distance_text}"
+            )
+            if place.get("specialties"):
+                body += f" Specialties: {', '.join(map(str, place['specialties']))}."
+            if place.get("jurisdiction"):
+                body += f" Jurisdiction: {place['jurisdiction']}."
+            if place.get("services"):
+                body += f" Services: {', '.join(map(str, place['services']))}."
+
+            chunks.append(
+                ContextChunk(
+                    title=f"{title}: {place.get('name', title)}",
+                    body=body,
+                    metadata={
+                        "source": filename,
+                        "id": place.get("id"),
+                        "distance_km": distance,
+                        "lat": place.get("lat"),
+                        "lng": place.get("lng"),
+                    },
+                )
+            )
     return chunks
 
 
