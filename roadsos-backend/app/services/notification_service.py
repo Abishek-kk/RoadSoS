@@ -1,4 +1,4 @@
-# notification_service.py - Firebase FCM + Twilio WhatsApp
+# notification_service.py - Firebase FCM + Twilio SMS/WhatsApp
 
 import logging
 from dataclasses import dataclass
@@ -44,13 +44,38 @@ def notify_emergency_contacts(
             results.append(NotificationResult(name, phone, "whatsapp", "skipped", error="Missing phone number"))
             continue
 
-        if contact.get("notify_whatsapp") is False:
-            results.append(NotificationResult(name, phone, "whatsapp", "skipped", error="WhatsApp notifications disabled"))
-            continue
+        wants_sms = contact.get("notify_sms") is not False
+        wants_whatsapp = contact.get("notify_whatsapp") is not False
 
-        results.append(send_whatsapp(name, phone, message))
+        if wants_sms:
+            results.append(send_sms(name, phone, message))
+        else:
+            results.append(NotificationResult(name, phone, "sms", "skipped", error="SMS notifications disabled"))
+
+        if wants_whatsapp:
+            results.append(send_whatsapp(name, phone, message))
+        else:
+            results.append(NotificationResult(name, phone, "whatsapp", "skipped", error="WhatsApp notifications disabled"))
 
     return results
+
+
+def send_sms(contact_name: str, phone: str, message: str) -> NotificationResult:
+    if not twilio_sms_configured():
+        logger.info("SMS dry run to %s: %s", phone, message)
+        return NotificationResult(contact_name, phone, "sms", "dry_run", error="TWILIO_PHONE_NUMBER is not configured")
+
+    try:
+        client = twilio_client()
+        sent = client.messages.create(
+            body=message,
+            from_=normalize_phone_number(get_env_value("TWILIO_PHONE_NUMBER")),
+            to=phone,
+        )
+        return NotificationResult(contact_name, phone, "sms", sent.status or "submitted", sid=sent.sid)
+    except Exception as exc:
+        logger.error("Failed to send SMS to %s", phone, exc_info=True)
+        return NotificationResult(contact_name, phone, "sms", "failed", error=str(exc))
 
 
 def send_whatsapp(contact_name: str, phone: str, message: str) -> NotificationResult:
@@ -82,6 +107,14 @@ def twilio_whatsapp_configured() -> bool:
         get_env_value("TWILIO_ACCOUNT_SID")
         and get_env_value("TWILIO_AUTH_TOKEN")
         and get_env_value("TWILIO_WHATSAPP_NUMBER")
+    )
+
+
+def twilio_sms_configured() -> bool:
+    return bool(
+        get_env_value("TWILIO_ACCOUNT_SID")
+        and get_env_value("TWILIO_AUTH_TOKEN")
+        and get_env_value("TWILIO_PHONE_NUMBER")
     )
 
 

@@ -10,12 +10,14 @@ from db import crud
 
 def _notification_summary(results: list[NotificationResult]) -> dict[str, int | list[dict[str, Any]]]:
     sent_statuses = {"accepted", "queued", "sending", "sent", "submitted"}
+    contact_count = len({(result.contact_name, result.phone) for result in results})
     sent = sum(1 for result in results if str(result.status) in sent_statuses)
     dry_run = sum(1 for result in results if str(result.status) == "dry_run")
     failed = sum(1 for result in results if str(result.status) == "failed")
     skipped = sum(1 for result in results if str(result.status) == "skipped")
     return {
-        "contacts": len(results),
+        "contacts": contact_count,
+        "attempts": len(results),
         "sent": sent,
         "dry_run": dry_run,
         "failed": failed,

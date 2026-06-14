@@ -47,8 +47,7 @@ async def chat(payload: ChatPayload):
                     lng=payload.lng,
                     use_llm=use_llm,
                     skip=3 if is_followup and requested_limit(user_message, default=0) == 0 else 0,
-                ),
-                abandon_on_cancel=True,
+                )
             )
     except TimeoutError:
         result = run_rag_pipeline(
