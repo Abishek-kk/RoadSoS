@@ -2,7 +2,7 @@ const BASE = (import.meta as any).env?.VITE_API_URL ?? "http://127.0.0.1:8000";
 
 async function request<T>(path: string, init?: RequestInit, fallback?: T): Promise<T> {
   const controller = new AbortController();
-  const timeoutId = window.setTimeout(() => controller.abort(), 12000);
+  const timeoutId = window.setTimeout(() => controller.abort(), 30000);
   try {
     const res = await fetch(`${BASE}${path}`, {
       headers: { "Content-Type": "application/json" },
@@ -17,6 +17,16 @@ async function request<T>(path: string, init?: RequestInit, fallback?: T): Promi
   } finally {
     window.clearTimeout(timeoutId);
   }
+}
+
+export function apiErrorMessage(error: unknown) {
+  if (error instanceof DOMException && error.name === "AbortError") {
+    return "The RoadSoS backend is taking too long to answer. Please try again.";
+  }
+  if (error instanceof TypeError) {
+    return "I could not reach the RoadSoS backend. Please make sure the backend is running on port 8000.";
+  }
+  return "The RoadSoS backend had trouble answering that request. Please try again.";
 }
 
 export type Hospital = {

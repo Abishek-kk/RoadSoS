@@ -4,7 +4,7 @@ import { Send, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { api, type ChatMessage } from "@/lib/api";
+import { api, apiErrorMessage, type ChatMessage } from "@/lib/api";
 import { getLocation } from "@/lib/location";
 
 export const Route = createFileRoute("/chat")({ component: Chat });
@@ -32,14 +32,16 @@ function Chat() {
     setInput("");
     setBusy(true);
     try {
-      const res = await api.chat(next, coords);
+      const currentCoords = coords ?? await getLocation();
+      setCoords(currentCoords);
+      const res = await api.chat(next, currentCoords);
       setMessages([...next, { role: "assistant", content: res.reply }]);
-    } catch {
+    } catch (error) {
       setMessages([
         ...next,
         {
           role: "assistant",
-          content: "I could not reach the RoadSoS backend. Please make sure the backend is running on port 8000.",
+          content: apiErrorMessage(error),
         },
       ]);
     } finally {

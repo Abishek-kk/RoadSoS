@@ -18,7 +18,14 @@ import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-from app.routes._data import DATA_DIR, distance_km, load_json, with_distance
+from app.routes._data import (
+    DATA_DIR,
+    clean_phone_number,
+    distance_km,
+    load_json,
+    nearest_with_fallback,
+    with_distance,
+)
 
 
 @dataclass
@@ -86,41 +93,51 @@ _logger = logging.getLogger("roadsos.retrieval")
 _encoder: SentenceTransformer | None = None
 _faiss_index: faiss.IndexFlatIP | None = None
 _chunks: list[ContextChunk] = []
+_semantic_search_available = False
 
 
 def init_embedding_index() -> None:
-    global _encoder, _faiss_index, _chunks
-    if _faiss_index is not None:
+    global _encoder, _faiss_index, _chunks, _semantic_search_available
+    if _chunks:
         return
     _logger.info("Initializing semantic search index (all-MiniLM-L6-v2)...")
-    _encoder = SentenceTransformer("all-MiniLM-L6-v2")
 
     # Index must be built from knowledge_chunks() as requested.
     # Note: For place/alert chunks, we keep lat/lng as None during indexing.
     # Distance is enriched per-query in retrieve_context() on top of semantic scores.
     chunks: list[ContextChunk] = knowledge_chunks(None, None)
+    _chunks = chunks
 
     if not chunks:
         _logger.warning("No knowledge chunks found for indexing.")
         _faiss_index = faiss.IndexFlatIP(384)
-        _chunks = []
         return
 
-    texts = [f"{chunk.title} {chunk.body}" for chunk in chunks]
-    embeddings = _encoder.encode(
-        texts,
-        normalize_embeddings=True,
-        show_progress_bar=False,
-    )
-    embeddings = np.ascontiguousarray(embeddings.astype("float32"))
+    try:
+        _encoder = SentenceTransformer("all-MiniLM-L6-v2", local_files_only=True)
+        texts = [f"{chunk.title} {chunk.body}" for chunk in chunks]
+        embeddings = _encoder.encode(
+            texts,
+            normalize_embeddings=True,
+            show_progress_bar=False,
+        )
+        embeddings = np.ascontiguousarray(embeddings.astype("float32"))
 
-    # With normalize_embeddings=True, inner product == cosine similarity.
-    index = faiss.IndexFlatIP(embeddings.shape[1])
-    index.add(embeddings)
+        # With normalize_embeddings=True, inner product == cosine similarity.
+        index = faiss.IndexFlatIP(embeddings.shape[1])
+        index.add(embeddings)
 
-    _faiss_index = index
-    _chunks = chunks
-    _logger.info(f"Indexed {index.ntotal} chunks (dim={embeddings.shape[1]}).")
+        _faiss_index = index
+        _semantic_search_available = True
+        _logger.info(f"Indexed {index.ntotal} chunks (dim={embeddings.shape[1]}).")
+    except Exception as exc:
+        _encoder = None
+        _faiss_index = None
+        _semantic_search_available = False
+        _logger.warning(
+            "Semantic search unavailable; using local keyword retrieval. Error: %s",
+            exc,
+        )
 
 
 def retrieve_context(
@@ -129,12 +146,19 @@ def retrieve_context(
     lng: float | None = None,
     limit: int | None = None,
 ) -> list[ContextChunk]:
-    init_embedding_index()
     normalized_question = normalize(question)
     intent = detect_intent(normalized_question)
 
-    if not _chunks or _faiss_index is None or _faiss_index.ntotal == 0:
+    if lat is not None and lng is not None and intent in {"hospital", "police", "towing"}:
+        return nearest_service_chunks(intent, lat, lng, limit or requested_limit(question, default=4))
+
+    init_embedding_index()
+
+    if not _chunks:
         return []
+
+    if not _semantic_search_available or _encoder is None or _faiss_index is None or _faiss_index.ntotal == 0:
+        return retrieve_context_keyword(question, lat, lng, limit, intent)
 
     q_emb = _encoder.encode([question], normalize_embeddings=True)
     q_emb = np.ascontiguousarray(q_emb.astype("float32"))
@@ -167,6 +191,116 @@ def retrieve_context(
             boost += distance_boost(chunk) * DISTANCE_SCALE
         chunk.score = semantic_score + boost
         ranked.append(chunk)
+
+    if intent in INTENT_PREFIX:
+        selected = filter_intent_chunks(intent, ranked)
+        return selected[:limit] if limit else selected
+
+    selected = [
+        chunk
+        for chunk in ranked
+        if chunk.score > 0
+        and not chunk.title.startswith(("Hospitals:", "Police:", "Road Alert:", "Towing:"))
+    ]
+    selected = selected[: limit or 5]
+    return selected or ranked[: limit or 3]
+
+
+def nearest_service_chunks(intent: str, lat: float, lng: float, limit: int) -> list[ContextChunk]:
+    service_config = {
+        "hospital": ("Hospitals", "hospitals.json", 25.0, "108"),
+        "police": ("Police", "police_stations.json", 25.0, "100"),
+        "towing": ("Towing", "towing.json", 50.0, "112"),
+    }
+    title, filename, max_km, fallback_phone = service_config[intent]
+    rows = nearest_with_fallback(
+        load_json(filename),
+        lat,
+        lng,
+        max_km=max_km,
+        limit=max(1, min(limit, 20)),
+        fallback_limit=max(1, min(limit, 20)),
+    )
+
+    chunks: list[ContextChunk] = []
+    for row in rows:
+        chunks.append(place_row_chunk(title, filename, row, fallback_phone))
+    return chunks
+
+
+def place_row_chunk(
+    title: str,
+    filename: str,
+    place: dict[str, Any],
+    fallback_phone: str,
+) -> ContextChunk:
+    phone = clean_phone_number(
+        place.get("emergency_phone") or place.get("phone"),
+        fallback_phone,
+    )
+    city = place.get("city") or place.get("district") or "nearby area"
+    state = place.get("state") or "unknown state"
+    distance = place.get("distance_km")
+    distance_text = f" Distance: {distance} km." if distance is not None else ""
+    address = place.get("address") or "Address not listed"
+
+    body = (
+        f"{place.get('name', title)} in {city}, {state}. "
+        f"Address: {address}. Phone: {phone}."
+        f"{distance_text}"
+    )
+    if place.get("specialties"):
+        body += f" Specialties: {', '.join(map(str, place['specialties']))}."
+    if place.get("jurisdiction"):
+        body += f" Jurisdiction: {place['jurisdiction']}."
+    if place.get("services"):
+        body += f" Services: {', '.join(map(str, place['services']))}."
+
+    return ContextChunk(
+        title=f"{title}: {place.get('name', title)}",
+        body=body,
+        metadata={
+            "source": filename,
+            "id": place.get("id"),
+            "distance_km": distance,
+            "lat": place.get("lat"),
+            "lng": place.get("lng"),
+        },
+        score=100 - float(distance or 0),
+    )
+
+
+def retrieve_context_keyword(
+    question: str,
+    lat: float | None,
+    lng: float | None,
+    limit: int | None,
+    intent: str,
+) -> list[ContextChunk]:
+    tokens = tokenize(question)
+    phrases = important_phrases(normalize(question))
+    ranked: list[ContextChunk] = []
+
+    for base_chunk in _chunks:
+        chunk = ContextChunk(
+            title=base_chunk.title,
+            body=base_chunk.body,
+            metadata=dict(base_chunk.metadata or {}),
+            score=0.0,
+        )
+        if chunk.title.startswith(("Hospitals:", "Police:", "Towing:")):
+            _enrich_distance(chunk, lat, lng)
+
+        haystack = normalize(f"{chunk.title} {chunk.body}")
+        token_score = sum(weight_for_token(token) for token in tokens if token in haystack)
+        phrase_score = sum(12 for phrase in phrases if phrase in haystack)
+        score = token_score + phrase_score + intent_boost(intent, chunk.title)
+        if intent in INTENT_PREFIX:
+            score += distance_boost(chunk) * 0.01
+        chunk.score = score
+        ranked.append(chunk)
+
+    ranked.sort(key=lambda chunk: (-chunk.score, distance_sort_value(chunk)))
 
     if intent in INTENT_PREFIX:
         selected = filter_intent_chunks(intent, ranked)
