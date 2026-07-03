@@ -129,7 +129,109 @@ def test_fallback_location_question_uses_location_name():
     )
 
     assert "Madurai, Tamil Nadu" in reply
-    assert "urgent" in reply
+
+
+def test_live_context_location_question_answers_directly():
+    result = rag_pipeline.run_rag_pipeline(
+        "Where am I?",
+        lat=9.9252,
+        lng=78.1198,
+        location_name="Madurai, Tamil Nadu, India",
+        current_datetime="Friday, July 03, 2026 at 10:30 AM IST",
+        use_llm=False,
+    )
+
+    assert result.used_llm is False
+    assert "Madurai, Tamil Nadu, India" in result.reply
+    assert "9.92520" in result.reply
+
+
+def test_live_context_time_question_uses_current_datetime():
+    result = rag_pipeline.run_rag_pipeline(
+        "what's today's date?",
+        current_datetime="Friday, July 03, 2026 at 10:30 AM IST",
+        use_llm=False,
+    )
+
+    assert result.reply == "Today's date is Friday, July 03, 2026 at 10:30 AM IST."
+
+
+def test_live_context_nearby_places_filter_by_category():
+    result = rag_pipeline.run_rag_pipeline(
+        "nearest hospital",
+        current_datetime="Friday, July 03, 2026 at 10:30 AM IST",
+        nearby_places=[
+            {
+                "name": "Far Hospital",
+                "category": "hospital",
+                "distance_km": 3.4,
+                "address": "Far Road",
+            },
+            {
+                "name": "Central Police Station",
+                "category": "police_station",
+                "distance_km": 0.5,
+                "address": "Station Road",
+            },
+            {
+                "name": "Near Hospital",
+                "category": "hospital",
+                "distance_km": 1.2,
+                "address": "Main Road",
+            },
+        ],
+        use_llm=False,
+    )
+
+    assert result.reply.startswith("Nearest hospital:")
+    assert "Near Hospital - 1.2 km, Main Road" in result.reply
+    assert "Far Hospital" not in result.reply
+    assert "Central Police Station" not in result.reply
+
+
+def test_live_context_unsupported_nearby_category_does_not_fabricate():
+    result = rag_pipeline.run_rag_pipeline(
+        "ATMs nearby",
+        current_datetime="Friday, July 03, 2026 at 10:30 AM IST",
+        nearby_places=[
+            {
+                "name": "Near Hospital",
+                "category": "hospital",
+                "distance_km": 1.2,
+                "address": "Main Road",
+            }
+        ],
+        use_llm=False,
+    )
+
+    assert "do not have any ATM entries" in result.reply
+
+
+def test_live_context_emergency_surfaces_hospital_and_police_first():
+    result = rag_pipeline.run_rag_pipeline(
+        "I had an accident and someone is bleeding",
+        current_datetime="Friday, July 03, 2026 at 10:30 AM IST",
+        nearby_places=[
+            {
+                "name": "Near Police Station",
+                "category": "police_station",
+                "distance_km": 1.8,
+                "address": "Station Road",
+            },
+            {
+                "name": "Near Hospital",
+                "category": "hospital",
+                "distance_km": 1.2,
+                "address": "Main Road",
+            },
+        ],
+        use_llm=False,
+    )
+
+    lines = result.reply.splitlines()
+    assert lines[0] == "Nearest hospital: Near Hospital - 1.2 km, Main Road"
+    assert lines[1] == "Nearest police station: Near Police Station - 1.8 km, Station Road"
+    assert "call 112/108" in result.reply
 
 
 def test_llm_context_includes_location_name_and_safety_snapshot():
@@ -142,6 +244,30 @@ def test_llm_context_includes_location_name_and_safety_snapshot():
     assert "User's approximate location: Madurai." in context
     assert "Always-available nearby safety info" in context
     assert "Nearest hospital: Apollo" in context
+    assert "Retrieved context" in context
+
+
+def test_llm_context_includes_structured_live_context():
+    live_context = rag_pipeline.build_live_context(
+        lat=1.0,
+        lng=2.0,
+        location_name="Madurai, Tamil Nadu, India",
+        current_datetime="Friday, July 03, 2026 at 10:30 AM IST",
+        nearby_places=[
+            {
+                "name": "Near Hospital",
+                "category": "hospital",
+                "distance_km": 1.2,
+                "address": "Main Road",
+            }
+        ],
+    )
+
+    context = rag_pipeline.build_llm_context("Road safety guidance.", live_context=live_context)
+
+    assert "LIVE CONTEXT" in context
+    assert "Friday, July 03, 2026" in context
+    assert '"category": "hospital"' in context
     assert "Retrieved context" in context
 
 

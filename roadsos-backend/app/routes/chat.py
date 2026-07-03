@@ -17,11 +17,28 @@ class ChatMessage(BaseModel):
     content: str
 
 
+class NearbyPlacePayload(BaseModel):
+    name: str
+    category: str
+    distance_km: float | None = None
+    address: str
+    phone: str | None = None
+    city: str | None = None
+    state: str | None = None
+    country: str | None = None
+
+
 class ChatPayload(BaseModel):
     messages: list[ChatMessage]
     lat: float | None = None
     lng: float | None = None
     location_name: str | None = None
+    current_datetime: str | None = None
+    city: str | None = None
+    state: str | None = None
+    country: str | None = None
+    radius_km: float | None = None
+    nearby_places: list[NearbyPlacePayload] | None = None
 
 
 @router.post("")
@@ -65,6 +82,15 @@ async def chat(payload: ChatPayload):
                     use_llm=use_llm,
                     skip=3 if is_followup and requested_limit(user_message, default=0) == 0 else 0,
                     location_name=location_name,
+                    current_datetime=payload.current_datetime,
+                    city=payload.city,
+                    state=payload.state,
+                    country=payload.country,
+                    radius_km=payload.radius_km,
+                    nearby_places=[
+                        place.model_dump()
+                        for place in (payload.nearby_places or [])
+                    ],
                 )
             )
     except TimeoutError:
@@ -76,6 +102,15 @@ async def chat(payload: ChatPayload):
             use_llm=False,
             skip=3 if is_followup and requested_limit(user_message, default=0) == 0 else 0,
             location_name=location_name,
+            current_datetime=payload.current_datetime,
+            city=payload.city,
+            state=payload.state,
+            country=payload.country,
+            radius_km=payload.radius_km,
+            nearby_places=[
+                place.model_dump()
+                for place in (payload.nearby_places or [])
+            ],
         )
     return response_payload(
         reply=result.reply,

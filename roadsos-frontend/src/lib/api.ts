@@ -185,6 +185,7 @@ export const api = {
           messages,
           ...(coords ?? {}),
           location_name: locationName ?? undefined,
+          current_datetime: new Date().toString(),
         }),
       },
       undefined,
