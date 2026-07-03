@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Any
 
+from app.ai.retrieval import nearby_safety_snapshot
 from app.ai.risk_scorer import nearby_danger_zones
 from app.services.hospital_service import HospitalService
 from app.services.police_service import PoliceService
@@ -89,6 +90,7 @@ class ContextPackage:
     retrieved_context: str
     live_context: LiveContext
     location_services_block: str
+    safety_snapshot_block: str
     confidence: float
     documents: list[RetrievalDocument]
 
@@ -138,10 +140,12 @@ def build_context_package(
 ) -> ContextPackage:
     retrieved_context = format_retrieved_context(retrieval_result.documents)
     location_services_block = build_location_services_block(profile, live_context)
+    safety_snapshot_block = build_safety_snapshot_block(live_context)
     blocks = [
         "EMERGENCY CONTEXT" if profile.emergency_detected else "ROADSOS CONTEXT",
         format_live_context_block(live_context),
         location_services_block,
+        safety_snapshot_block,
         emergency_block,
         f"RETRIEVED CONTEXT\n{retrieved_context}" if retrieved_context else "",
         f"CONVERSATION MEMORY\n{conversation_memory}" if conversation_memory else "",
@@ -157,6 +161,7 @@ def build_context_package(
         retrieved_context=retrieved_context,
         live_context=live_context,
         location_services_block=location_services_block,
+        safety_snapshot_block=safety_snapshot_block,
         confidence=confidence,
         documents=retrieval_result.documents,
     )
@@ -219,6 +224,19 @@ def build_location_services_block(profile: QueryProfile, live_context: LiveConte
             lines.append("Nearby danger zones: none found in local danger-zone data.")
 
     return "\n".join(lines)
+
+
+def build_safety_snapshot_block(live_context: LiveContext) -> str:
+    if not live_context.has_coordinates():
+        return ""
+    snapshot = nearby_safety_snapshot(live_context.latitude, live_context.longitude)
+    if not snapshot:
+        return ""
+    return (
+        "NEARBY SAFETY INFO\n"
+        "Always-available nearby safety info. Mention if relevant, but do not force it:\n"
+        f"{snapshot}"
+    )
 
 
 def verified_direct_answer(

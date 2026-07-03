@@ -6,7 +6,7 @@ import numpy as np
 
 from app.ai import local_llm_client, rag_pipeline, retrieval
 from app.routes import chat as chat_route
-from app.services import rag_service
+from app.services import context_builder, rag_service
 from app.services.llm_router import GenerationResult
 from app.services.retriever import RetrievalDocument, RetrievalResult
 
@@ -143,6 +143,57 @@ def test_pipeline_passes_retrieved_context_to_llm(monkeypatch):
     assert "For a road accident, call 112 or 108" in captured["context"]
     assert "USER QUESTION" in captured["prompt"]
     assert "Every factual answer must be based only" in captured["system_instruction"]
+
+
+def test_pipeline_adds_safety_snapshot_to_llm_context(monkeypatch):
+    captured = {}
+
+    def fake_retrieve(*args, **kwargs):
+        return RetrievalResult(documents=[], confidence=0.0, query="hi")
+
+    def fake_generate(prompt, context, system_instruction):
+        captured["context"] = context
+        captured["system_instruction"] = system_instruction
+        return GenerationResult(reply="Hi, how can I help?", provider="gemini", used_llm=True)
+
+    monkeypatch.setattr(rag_service, "retrieve", fake_retrieve)
+    monkeypatch.setattr(rag_service, "generate", fake_generate)
+    monkeypatch.setattr(
+        context_builder,
+        "nearby_safety_snapshot",
+        lambda lat, lng: "Nearest hospital: Apollo Hospital, 2.3 km away, phone 108.",
+    )
+
+    result = rag_service.run_rag_pipeline("hi", lat=9.9252, lng=78.1198)
+
+    assert result.used_llm is True
+    assert "NEARBY SAFETY INFO" in captured["context"]
+    assert "Nearest hospital: Apollo Hospital" in captured["context"]
+    assert "If a message could plausibly be an emergency" in captured["system_instruction"]
+    assert "Do not dump all nearby options" in captured["system_instruction"]
+
+
+def test_safety_snapshot_does_not_make_unrelated_queries_reliable(monkeypatch):
+    def fake_retrieve(*args, **kwargs):
+        return RetrievalResult(documents=[], confidence=0.0, query="who won the world cup")
+
+    def fail_generate(*args, **kwargs):
+        raise AssertionError("Safety snapshot should not authorize unrelated questions")
+
+    monkeypatch.setattr(rag_service, "retrieve", fake_retrieve)
+    monkeypatch.setattr(rag_service, "generate", fail_generate)
+    monkeypatch.setattr(
+        context_builder,
+        "nearby_safety_snapshot",
+        lambda lat, lng: "Nearest police station: Anna Nagar PS, 1.8 km away, phone 100.",
+    )
+
+    result = rag_service.run_rag_pipeline("who won the world cup", lat=9.9252, lng=78.1198)
+
+    assert result.used_llm is False
+    assert result.reply == "I don't have enough verified information to answer that."
+    assert "NEARBY SAFETY INFO" in result.context
+    assert "Anna Nagar PS" in result.context
 
 
 def test_chat_route_resolves_server_location_name(monkeypatch):
