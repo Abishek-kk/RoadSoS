@@ -163,6 +163,8 @@ def retrieve_context(
     if not _semantic_search_available or _encoder is None or _faiss_index is None or _faiss_index.ntotal == 0:
         return retrieve_context_keyword(question, lat, lng, limit, intent)
 
+    import numpy as np
+
     q_emb = _encoder.encode([question], normalize_embeddings=True)
     q_emb = np.ascontiguousarray(q_emb.astype("float32"))
 

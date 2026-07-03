@@ -1,6 +1,7 @@
 import httpx
+import numpy as np
 
-from app.ai import local_llm_client, rag_pipeline
+from app.ai import local_llm_client, rag_pipeline, retrieval
 
 
 def test_ollama_client_builds_chat_payload(monkeypatch):
@@ -69,3 +70,37 @@ def test_rag_pipeline_keeps_gemini_key_gate(monkeypatch):
 
     assert rag_pipeline.get_llm_client() is rag_pipeline.gemini_client
     assert rag_pipeline.should_attempt_llm() is False
+
+
+def test_semantic_retrieval_query_encoding_has_numpy_available(monkeypatch):
+    class DummyEncoder:
+        def encode(self, texts, normalize_embeddings):
+            return np.array([[1.0, 0.0]], dtype="float32")
+
+    class DummyIndex:
+        ntotal = 1
+
+        def search(self, query_embedding, k):
+            return (
+                np.array([[0.75]], dtype="float32"),
+                np.array([[0]], dtype="int64"),
+            )
+
+    monkeypatch.setattr(retrieval, "init_embedding_index", lambda: None)
+    monkeypatch.setattr(
+        retrieval,
+        "_chunks",
+        [
+            retrieval.ContextChunk(
+                title="Emergency Guide",
+                body="For a road accident, call 112 or 108 and move away from traffic if safe.",
+            )
+        ],
+    )
+    monkeypatch.setattr(retrieval, "_semantic_search_available", True)
+    monkeypatch.setattr(retrieval, "_encoder", DummyEncoder())
+    monkeypatch.setattr(retrieval, "_faiss_index", DummyIndex())
+
+    chunks = retrieval.retrieve_context("What should I do after a road accident?", limit=1)
+
+    assert chunks[0].title == "Emergency Guide"
