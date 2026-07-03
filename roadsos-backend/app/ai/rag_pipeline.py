@@ -515,6 +515,9 @@ def build_direct_live_context_reply(
     if is_datetime_question(question):
         return build_datetime_reply(question, live_context)
 
+    if is_small_talk_question(question):
+        return build_small_talk_reply(question)
+
     category = requested_place_category(question, intent)
     if category and is_nearby_place_question(question):
         return build_nearby_place_reply(category, question, live_context)
@@ -542,6 +545,26 @@ def build_datetime_reply(question: str, live_context: LiveContext) -> str:
     if "time" in normalized and "date" not in normalized:
         return f"The current time is {live_context.current_datetime}."
     return f"Current date and time: {live_context.current_datetime}."
+
+
+def build_small_talk_reply(question: str) -> str:
+    normalized = normalize(question)
+    if normalized in {"how are you", "how r you", "how are u", "how you doing", "how are you doing"}:
+        return (
+            "I'm doing well and ready to help. If you're on the road, I can help with "
+            "nearby hospitals, police stations, towing, alerts, SOS steps, or first aid."
+        )
+    if normalized in {"thanks", "thank you", "thank you so much", "thx"}:
+        return "You're welcome. Stay safe, and tell me if you need nearby help or road-safety guidance."
+    if normalized in {"who are you", "what can you do", "help"}:
+        return (
+            "I'm RoadSoS AI. I can help with road emergencies, nearby hospitals, police stations, "
+            "towing services, road alerts, safer routes, SOS steps, and first aid."
+        )
+    return (
+        "I'm here and ready to help with road safety, nearby emergency services, towing, "
+        "alerts, SOS steps, or first aid."
+    )
 
 
 def build_nearby_place_reply(
@@ -689,6 +712,25 @@ def is_datetime_question(question: str) -> bool:
     if "time" in tokens and tokens & {"current", "what", "whats", "now"}:
         return True
     return False
+
+
+def is_small_talk_question(question: str) -> bool:
+    normalized = normalize(question)
+    small_talk = {
+        "how are you",
+        "how r you",
+        "how are u",
+        "how you doing",
+        "how are you doing",
+        "thanks",
+        "thank you",
+        "thank you so much",
+        "thx",
+        "who are you",
+        "what can you do",
+        "help",
+    }
+    return normalized in small_talk
 
 
 def category_label(category: str) -> str:

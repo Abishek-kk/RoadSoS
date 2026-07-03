@@ -156,6 +156,19 @@ def test_live_context_time_question_uses_current_datetime():
     assert result.reply == "Today's date is Friday, July 03, 2026 at 10:30 AM IST."
 
 
+def test_small_talk_offline_reply_does_not_use_random_safety_chunks():
+    result = rag_pipeline.run_rag_pipeline(
+        "how are you",
+        current_datetime="Friday, July 03, 2026 at 10:30 AM IST",
+        use_llm=False,
+    )
+
+    assert result.used_llm is False
+    assert "I'm doing well" in result.reply
+    assert "Here is the safest next move" not in result.reply
+    assert "waterlogged" not in result.reply
+
+
 def test_live_context_nearby_places_filter_by_category():
     result = rag_pipeline.run_rag_pipeline(
         "nearest hospital",
