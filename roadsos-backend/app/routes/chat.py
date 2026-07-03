@@ -5,6 +5,7 @@ import anyio
 from app.ai.rag_pipeline import run_rag_pipeline
 from app.ai.retrieval import NUMBER_WORDS, normalize, requested_limit, tokenize
 from app.config import get_llm_provider
+from app.routes._data import reverse_geocode
 
 
 router = APIRouter(prefix="/chat", tags=["Chat"])
@@ -20,6 +21,7 @@ class ChatPayload(BaseModel):
     messages: list[ChatMessage]
     lat: float | None = None
     lng: float | None = None
+    location_name: str | None = None
 
 
 @router.post("")
@@ -50,6 +52,7 @@ async def chat(payload: ChatPayload):
             lng=payload.lng,
         )
 
+    location_name = await resolve_location_name(payload)
     use_llm = should_use_llm(effective_message)
     try:
         with anyio.fail_after(CHAT_LLM_TIMEOUT_SECONDS):
@@ -61,6 +64,7 @@ async def chat(payload: ChatPayload):
                     lng=payload.lng,
                     use_llm=use_llm,
                     skip=3 if is_followup and requested_limit(user_message, default=0) == 0 else 0,
+                    location_name=location_name,
                 )
             )
     except TimeoutError:
@@ -71,6 +75,7 @@ async def chat(payload: ChatPayload):
             lng=payload.lng,
             use_llm=False,
             skip=3 if is_followup and requested_limit(user_message, default=0) == 0 else 0,
+            location_name=location_name,
         )
     return response_payload(
         reply=result.reply,
@@ -81,6 +86,15 @@ async def chat(payload: ChatPayload):
         lng=payload.lng,
         emergency_detected=bool(result.emergency and result.emergency.get("detected")),
     )
+
+
+async def resolve_location_name(payload: ChatPayload) -> str | None:
+    location_name = (payload.location_name or "").strip()
+    if location_name:
+        return location_name
+    if payload.lat is None or payload.lng is None:
+        return None
+    return await reverse_geocode(payload.lat, payload.lng)
 
 
 def latest_user_message(messages: list[ChatMessage]) -> str:

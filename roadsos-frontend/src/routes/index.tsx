@@ -21,7 +21,7 @@ import { Badge } from "@/components/ui/badge";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { api, type DangerZoneAlert, type RiskAssessment, type RoadAlert } from "@/lib/api";
 import { toast } from "sonner";
-import { getLocation, saveLocation, clearSavedLocation, hasSavedLocation } from "@/lib/location";
+import { getLocation, saveLocation, clearSavedLocation, hasSavedLocation, reverseGeocode } from "@/lib/location";
 
 export const Route = createFileRoute("/")({ component: Dashboard });
 
@@ -91,8 +91,8 @@ function Dashboard() {
         setShowSetup(true);
       }
 
-      // Reverse geocode to get a readable name
-      reverseGeocode(c.lat, c.lng);
+      const name = await reverseGeocode(c.lat, c.lng);
+      if (name) setLocationName(name);
     };
     init();
     return () => {
@@ -104,28 +104,6 @@ function Dashboard() {
   useEffect(() => {
     setSpeechSupported(Boolean(getSpeechRecognitionConstructor()));
   }, []);
-
-  // Reverse geocode to display a human-readable location name
-  const reverseGeocode = async (lat: number, lng: number) => {
-    try {
-      const res = await fetch(
-        `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&zoom=10`,
-      );
-      if (res.ok) {
-        const data = await res.json();
-        const city =
-          data.address?.city ||
-          data.address?.town ||
-          data.address?.village ||
-          data.address?.county ||
-          data.address?.state ||
-          "";
-        if (city) setLocationName(city);
-      }
-    } catch {
-      // ignore
-    }
-  };
 
   // Search for a city/place by name using Nominatim geocoding
   const handleSearch = useCallback(async () => {
@@ -164,9 +142,10 @@ function Dashboard() {
   const handleReset = useCallback(() => {
     clearSavedLocation();
     setLocationName(null);
-    getLocation().then((c) => {
+    getLocation().then(async (c) => {
       setCoords(c);
-      reverseGeocode(c.lat, c.lng);
+      const name = await reverseGeocode(c.lat, c.lng);
+      if (name) setLocationName(name);
       toast.success("Location reset to auto-detect");
     });
   }, []);
@@ -260,7 +239,8 @@ function Dashboard() {
         try {
           const currentCoords = coords ?? (await getLocation());
           setCoords(currentCoords);
-          reverseGeocode(currentCoords.lat, currentCoords.lng);
+          const name = await reverseGeocode(currentCoords.lat, currentCoords.lng);
+          if (name) setLocationName(name);
 
           const res = await api.triggerSOS({ ...currentCoords, user: "Abishek", note });
           const sent = res.notifications?.sent ?? 0;

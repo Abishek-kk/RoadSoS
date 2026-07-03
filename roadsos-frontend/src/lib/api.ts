@@ -176,10 +176,17 @@ export const api = {
       { id: "4", name: "Friend 2", phone: "+916284170998", relation: "Friend" },
     ]),
 
-  chat: (messages: ChatMessage[], coords?: { lat: number; lng: number } | null) =>
+  chat: (messages: ChatMessage[], coords?: { lat: number; lng: number } | null, locationName?: string | null) =>
     request<ChatResponse>(
       "/api/chat",
-      { method: "POST", body: JSON.stringify({ messages, ...coords }) },
+      {
+        method: "POST",
+        body: JSON.stringify({
+          messages,
+          ...(coords ?? {}),
+          location_name: locationName ?? undefined,
+        }),
+      },
       undefined,
       120000
     ),

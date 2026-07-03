@@ -17,6 +17,7 @@ from app.ai.retrieval import (
     ContextChunk,
     detect_intent,
     important_phrases,
+    nearby_safety_snapshot,
     normalize,
     requested_limit,
     retrieve_context,
@@ -42,6 +43,19 @@ Safety rules:
   availability that are not in context.
 - If a user asks for nearby services and location is missing, ask them to allow
   location or share a city/landmark.
+- When you know the user's approximate location from context, reference it
+  naturally when relevant, such as if asked "where am I" or when it helps frame
+  an answer. Do not repeat the location in every reply if it is not relevant.
+- If a message could plausibly be an emergency but does not clearly say so, such
+  as "my car stopped", "I feel dizzy", or vague distress, briefly ask whether it
+  is an emergency right now before or alongside your answer. If the message is
+  clearly not urgent, answer normally.
+- You may be given a short nearby safety info block listing the closest hospital,
+  police station, and towing service. Use your judgment: if the user asked about
+  one specific thing and the conversation is casual, just answer that. If the
+  situation sounds urgent, stressful, or safety-related, briefly mention other
+  nearby options too and restate 112 or 108 as appropriate. Do not dump all
+  three options into every reply regardless of context.
 
 Response style:
 - Prefer short sections with clear bullets.
@@ -94,6 +108,7 @@ def run_rag_pipeline(
     use_llm: bool = True,
     context_limit: int | None = None,
     skip: int = 0,
+    location_name: str | None = None,
 ) -> RagResult:
     """
     Generate a RoadSoS chat answer from local retrieval plus an optional LLM.
@@ -105,6 +120,7 @@ def run_rag_pipeline(
         use_llm: If False, always return the deterministic fallback answer.
         context_limit: Maximum chunks to retrieve. Explicit user limits still win
             when lower-level callers pass them in.
+        location_name: Optional human-readable approximate user location.
     """
     question = (question or "").strip()
     if not question:
@@ -125,11 +141,17 @@ def run_rag_pipeline(
 
     llm_provider = get_llm_provider()
     if use_llm and should_attempt_llm(llm_provider):
-        prompt = build_prompt(question, messages, lat=lat, lng=lng)
+        prompt = build_prompt(question, messages, lat=lat, lng=lng, location_name=location_name)
+        safety_snapshot = nearby_safety_snapshot(lat, lng)
         llm_client = get_llm_client(llm_provider)
         reply = llm_client.generate_chat_response(
             prompt=prompt,
-            context=build_llm_context(context, emergency),
+            context=build_llm_context(
+                context,
+                emergency,
+                location_name=location_name,
+                safety_snapshot=safety_snapshot,
+            ),
             system_instruction=SYSTEM_INSTRUCTION,
         )
         if reply and not reply.lower().startswith("error:"):
@@ -143,12 +165,13 @@ def run_rag_pipeline(
             )
 
     fallback_reply = build_fallback_reply(
-            question,
-            chunks,
-            skip=skip,
-            limit_override=limit_override,
-            emergency=emergency,
-        )
+        question,
+        chunks,
+        skip=skip,
+        limit_override=limit_override,
+        emergency=emergency,
+        location_name=location_name,
+    )
     return RagResult(
         reply=fallback_reply,
         context=context,
@@ -192,23 +215,40 @@ def build_context(chunks: list[ContextChunk], max_chars: int = 9000) -> str:
     return "\n\n".join(parts)
 
 
-def build_llm_context(context: str, emergency: dict[str, Any] | None = None) -> str:
-    if not emergency or not emergency.get("detected"):
-        return context
+def build_llm_context(
+    context: str,
+    emergency: dict[str, Any] | None = None,
+    location_name: str | None = None,
+    safety_snapshot: str = "",
+) -> str:
+    blocks: list[str] = []
+    if location_name:
+        blocks.append(f"User's approximate location: {location_name}.")
+    if safety_snapshot:
+        blocks.append(
+            "Always-available nearby safety info (mention if relevant, do not force it):\n"
+            f"{safety_snapshot}"
+        )
 
-    primary = emergency.get("primary") or {}
-    actions = "\n".join(f"- {action}" for action in primary.get("actions", []))
-    avoid = "\n".join(f"- {item}" for item in primary.get("avoid", []))
-    emergency_block = (
-        "Emergency rule match\n"
-        f"Title: {primary.get('title')}\n"
-        f"Severity: {primary.get('severity')}\n"
-        f"Emergency numbers: {', '.join(primary.get('emergency_numbers', []))}\n"
-        f"Actions:\n{actions}"
-    )
-    if avoid:
-        emergency_block += f"\nAvoid:\n{avoid}"
-    return f"{emergency_block}\n\nRetrieved context\n{context}"
+    if emergency and emergency.get("detected"):
+        primary = emergency.get("primary") or {}
+        actions = "\n".join(f"- {action}" for action in primary.get("actions", []))
+        avoid = "\n".join(f"- {item}" for item in primary.get("avoid", []))
+        emergency_block = (
+            "Emergency rule match\n"
+            f"Title: {primary.get('title')}\n"
+            f"Severity: {primary.get('severity')}\n"
+            f"Emergency numbers: {', '.join(primary.get('emergency_numbers', []))}\n"
+            f"Actions:\n{actions}"
+        )
+        if avoid:
+            emergency_block += f"\nAvoid:\n{avoid}"
+        blocks.append(emergency_block)
+
+    if context:
+        blocks.append(f"Retrieved context\n{context}")
+
+    return "\n\n".join(blocks) if blocks else context
 
 
 def build_prompt(
@@ -216,10 +256,14 @@ def build_prompt(
     messages: list[dict[str, str]] | None = None,
     lat: float | None = None,
     lng: float | None = None,
+    location_name: str | None = None,
 ) -> str:
-    location = ""
+    location_details: list[str] = []
+    if location_name:
+        location_details.append(f"near {location_name}")
     if lat is not None and lng is not None:
-        location = f"\nUser location: lat {lat}, lng {lng}"
+        location_details.append(f"lat {lat}, lng {lng}")
+    location = f"\nUser location: {'; '.join(location_details)}" if location_details else ""
 
     if not messages:
         return f"Current user request: {question}{location}"
@@ -254,12 +298,19 @@ def build_fallback_reply(
     skip: int = 0,
     limit_override: int | None = None,
     emergency: dict[str, Any] | None = None,
+    location_name: str | None = None,
 ) -> str:
     lower = question.lower()
     intent = detect_intent(normalize(question))
 
     if emergency and emergency.get("detected") and should_prioritize_rule(intent):
         return build_emergency_reply(emergency, chunks)
+
+    if location_name and is_location_question(question):
+        return (
+            f"You're near {location_name}. Are you doing okay - is this urgent, "
+            "or are you just checking your location?"
+        )
 
     if not chunks:
         return (
@@ -287,6 +338,21 @@ def build_fallback_reply(
 
     follow_up = "\n\nTell me your location or nearest landmark and I can narrow this down."
     return f"{intro}\n" + "\n".join(bullets) + follow_up
+
+
+def is_location_question(question: str) -> bool:
+    normalized = normalize(question)
+    location_questions = {
+        "where am i",
+        "where am i now",
+        "where are we",
+        "where are we now",
+        "my location",
+        "current location",
+        "what is my location",
+        "which city am i in",
+    }
+    return normalized in location_questions
 
 
 def should_prioritize_rule(intent: str) -> bool:

@@ -15,6 +15,9 @@ FOLDER_DATASETS = {
     "police_stations.json": "police_stations",
     "towing.json": "towing_services",
 }
+OSM_HEADERS = {
+    "User-Agent": "RoadSoSApp/1.0 (contact: team_accelerate@roadsos.app)"
+}
 
 
 def cache_clear() -> None:
@@ -249,10 +252,6 @@ async def fetch_osm_amenities(
     out center body qt 20;
     """
 
-    headers = {
-        "User-Agent": "RoadSoSApp/1.0 (contact: team_accelerate@roadsos.app)"
-    }
-
     # Fail fast if Overpass is unreachable (connect/read).
     # This endpoint has a fallback; don't block the frontend.
     try:
@@ -260,7 +259,7 @@ async def fetch_osm_amenities(
             response = await client.post(
                 overpass_url,
                 data={"data": query},
-                headers=headers,
+                headers=OSM_HEADERS,
             )
             if response.status_code != 200:
                 logger.error(
@@ -362,16 +361,12 @@ async def fetch_overpass_towing(lat: float, lng: float) -> list[dict[str, Any]]:
     out center body qt 20;
     """
 
-    headers = {
-        "User-Agent": "RoadSoSApp/1.0 (contact: team_accelerate@roadsos.app)"
-    }
-
     try:
         async with httpx.AsyncClient(timeout=4.0) as client:
             response = await client.post(
                 overpass_url,
                 data={"data": query},
-                headers=headers,
+                headers=OSM_HEADERS,
             )
             if response.status_code != 200:
                 logger.error(
@@ -465,3 +460,32 @@ async def fetch_overpass_towing(lat: float, lng: float) -> list[dict[str, Any]]:
             f"Error fetching towing from Overpass: {e}", exc_info=True
         )
     return []
+
+
+async def reverse_geocode(lat: float, lng: float) -> str | None:
+    """Return a coarse human-readable place name for coordinates, or None."""
+    params = {
+        "format": "json",
+        "lat": str(lat),
+        "lon": str(lng),
+        "zoom": "10",
+    }
+    try:
+        async with httpx.AsyncClient(timeout=4.0) as client:
+            response = await client.get(
+                "https://nominatim.openstreetmap.org/reverse",
+                params=params,
+                headers=OSM_HEADERS,
+            )
+            if response.status_code != 200:
+                return None
+            data = response.json()
+    except Exception:
+        return None
+
+    address = data.get("address") or {}
+    for key in ("city", "town", "village", "county", "state"):
+        value = address.get(key)
+        if isinstance(value, str) and value.strip():
+            return value.strip()
+    return None

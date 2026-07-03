@@ -235,6 +235,44 @@ def nearest_service_chunks(intent: str, lat: float, lng: float, limit: int) -> l
     return chunks
 
 
+def nearby_safety_snapshot(lat: float | None, lng: float | None) -> str:
+    """
+    Return one-line nearest hospital, police, and towing context for LLM use.
+    """
+    if lat is None or lng is None:
+        return ""
+
+    service_config = [
+        ("hospital", "hospitals.json", 25.0, "108", "Nearest hospital"),
+        ("police station", "police_stations.json", 25.0, "100", "Nearest police station"),
+        ("towing service", "towing.json", 50.0, "112", "Nearest towing service"),
+    ]
+    lines: list[str] = []
+
+    for default_name, filename, max_km, fallback_phone, label in service_config:
+        rows = nearest_with_fallback(
+            load_json(filename),
+            lat,
+            lng,
+            max_km=max_km,
+            limit=1,
+            fallback_limit=1,
+        )
+        if not rows:
+            continue
+        place = rows[0]
+        name = place.get("name") or place.get("station_name") or default_name
+        phone = clean_phone_number(
+            place.get("emergency_phone") or place.get("phone"),
+            fallback_phone,
+        )
+        distance = place.get("distance_km")
+        distance_text = f"{distance} km away" if distance is not None else "distance unknown"
+        lines.append(f"{label}: {name}, {distance_text}, phone {phone}.")
+
+    return "\n".join(lines)
+
+
 def place_row_chunk(
     title: str,
     filename: str,

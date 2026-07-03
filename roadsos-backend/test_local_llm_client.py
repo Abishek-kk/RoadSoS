@@ -1,3 +1,6 @@
+from types import SimpleNamespace
+
+import anyio
 import httpx
 import numpy as np
 
@@ -85,6 +88,80 @@ def test_chat_response_payload_includes_llm_provider():
 
     assert payload["used_llm"] is True
     assert payload["llm_provider"] == "ollama"
+
+
+def test_chat_route_resolves_server_location_name(monkeypatch):
+    captured = {}
+
+    async def fake_reverse_geocode(lat, lng):
+        captured["reverse_geocode_coords"] = (lat, lng)
+        return "Madurai"
+
+    def fake_run_rag_pipeline(*args, location_name=None, **kwargs):
+        captured["location_name"] = location_name
+        return SimpleNamespace(
+            reply="You're near Madurai.",
+            intent="general",
+            used_llm=False,
+            emergency=None,
+        )
+
+    monkeypatch.setattr(chat_route, "reverse_geocode", fake_reverse_geocode)
+    monkeypatch.setattr(chat_route, "run_rag_pipeline", fake_run_rag_pipeline)
+
+    payload = chat_route.ChatPayload(
+        messages=[chat_route.ChatMessage(role="user", content="where am I")],
+        lat=9.9252,
+        lng=78.1198,
+    )
+    response = anyio.run(chat_route.chat, payload)
+
+    assert response["reply"] == "You're near Madurai."
+    assert captured["reverse_geocode_coords"] == (9.9252, 78.1198)
+    assert captured["location_name"] == "Madurai"
+
+
+def test_fallback_location_question_uses_location_name():
+    reply = rag_pipeline.build_fallback_reply(
+        "where am I",
+        [],
+        location_name="Madurai, Tamil Nadu",
+    )
+
+    assert "Madurai, Tamil Nadu" in reply
+    assert "urgent" in reply
+
+
+def test_llm_context_includes_location_name_and_safety_snapshot():
+    context = rag_pipeline.build_llm_context(
+        "Road safety guidance.",
+        location_name="Madurai",
+        safety_snapshot="Nearest hospital: Apollo, 2.3 km away, phone 108.",
+    )
+
+    assert "User's approximate location: Madurai." in context
+    assert "Always-available nearby safety info" in context
+    assert "Nearest hospital: Apollo" in context
+    assert "Retrieved context" in context
+
+
+def test_nearby_safety_snapshot_formats_nearest_services(monkeypatch):
+    datasets = {
+        "hospitals.json": [{"id": "h1", "name": "Apollo Hospital", "lat": 0.01, "lng": 0.0, "phone": ""}],
+        "police_stations.json": [{"id": "p1", "name": "Anna Nagar PS", "lat": 0.02, "lng": 0.0, "phone": ""}],
+        "towing.json": [{"id": "t1", "name": "XYZ Recovery", "lat": 0.03, "lng": 0.0, "phone": ""}],
+    }
+
+    monkeypatch.setattr(retrieval, "load_json", lambda filename: datasets[filename])
+
+    snapshot = retrieval.nearby_safety_snapshot(0.0, 0.0)
+
+    assert "Nearest hospital: Apollo Hospital" in snapshot
+    assert "phone 108" in snapshot
+    assert "Nearest police station: Anna Nagar PS" in snapshot
+    assert "phone 100" in snapshot
+    assert "Nearest towing service: XYZ Recovery" in snapshot
+    assert "phone 112" in snapshot
 
 
 def test_semantic_retrieval_query_encoding_has_numpy_available(monkeypatch):

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { api, apiErrorMessage, type ChatMessage } from "@/lib/api";
-import { getLocation } from "@/lib/location";
+import { getLocation, reverseGeocode } from "@/lib/location";
 
 export const Route = createFileRoute("/chat")({ component: Chat });
 
@@ -42,6 +42,7 @@ function Chat() {
   const [busy, setBusy] = useState(false);
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [locationReady, setLocationReady] = useState(false);
+  const [locationName, setLocationName] = useState<string | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
 
   const latestAssistant = [...messages].reverse().find((message) => message.role === "assistant");
@@ -52,12 +53,21 @@ function Chat() {
   }, [messages, busy]);
 
   useEffect(() => {
+    let cancelled = false;
     getLocation()
-      .then((position) => {
+      .then(async (position) => {
+        if (cancelled) return;
         setCoords(position);
         setLocationReady(true);
+        const name = await reverseGeocode(position.lat, position.lng);
+        if (!cancelled && name) setLocationName(name);
       })
-      .catch(() => setLocationReady(false));
+      .catch(() => {
+        if (!cancelled) setLocationReady(false);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const resolveCoords = async () => {
@@ -66,6 +76,8 @@ function Chat() {
       const currentCoords = await getLocation();
       setCoords(currentCoords);
       setLocationReady(true);
+      const name = await reverseGeocode(currentCoords.lat, currentCoords.lng);
+      if (name) setLocationName(name);
       return currentCoords;
     } catch {
       setLocationReady(false);
@@ -77,8 +89,13 @@ function Chat() {
     setBusy(true);
     try {
       const currentCoords = await resolveCoords();
+      let currentLocationName = locationName;
+      if (!currentLocationName && currentCoords) {
+        currentLocationName = await reverseGeocode(currentCoords.lat, currentCoords.lng);
+        if (currentLocationName) setLocationName(currentLocationName);
+      }
       const payloadMessages = nextMessages.map(({ role, content }) => ({ role, content }));
-      const res = await api.chat(payloadMessages, currentCoords);
+      const res = await api.chat(payloadMessages, currentCoords, currentLocationName);
       setMessages([
         ...nextMessages,
         {

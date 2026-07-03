@@ -24,6 +24,29 @@ export async function getLocation(): Promise<{ lat: number; lng: number }> {
   return { lat: 9.9252, lng: 78.1198 }; // Madurai
 }
 
+export async function reverseGeocode(lat: number, lng: number): Promise<string | null> {
+  try {
+    const params = new URLSearchParams({
+      format: "json",
+      lat: String(lat),
+      lon: String(lng),
+      zoom: "10",
+    });
+    const res = await fetch(`https://nominatim.openstreetmap.org/reverse?${params.toString()}`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    const city =
+      data.address?.city ||
+      data.address?.town ||
+      data.address?.village ||
+      data.address?.county ||
+      data.address?.state;
+    return typeof city === "string" && city.trim() ? city.trim() : null;
+  } catch {
+    return null;
+  }
+}
+
 async function tryBrowserGeolocation(): Promise<{ lat: number; lng: number } | null> {
   if (typeof window === "undefined" || !("geolocation" in navigator)) return null;
 
