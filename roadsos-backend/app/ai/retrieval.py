@@ -79,12 +79,7 @@ NUMBER_WORDS = {
     "ten": 10,
 }
 
-INTENT_PREFIX = {
-    "hospital": "Hospitals:",
-    "police": "Police:",
-    "towing": "Towing:",
-    "alert": "Road Alert:",
-}
+INTENT_PREFIX: dict[str, str] = {}
 
 _logger = logging.getLogger("roadsos.retrieval")
 _encoder: Any | None = None
@@ -160,9 +155,6 @@ def retrieve_context(
 ) -> list[ContextChunk]:
     normalized_question = normalize(question)
     intent = detect_intent(normalized_question)
-
-    if lat is not None and lng is not None and intent in {"hospital", "police", "towing"}:
-        return nearest_service_chunks(intent, lat, lng, limit or requested_limit(question, default=4))
 
     init_embedding_index()
 
@@ -409,6 +401,8 @@ def detect_intent(text: str) -> str:
 
 
 def intent_boost(intent: str, title: str) -> int:
+    if intent not in INTENT_PREFIX:
+        return 0
     title = title.lower()
     if intent == "police":
         return 35 if title.startswith("police:") else -8
@@ -510,10 +504,6 @@ def knowledge_chunks(lat: float | None = None, lng: float | None = None) -> list
     chunks: list[ContextChunk] = []
     chunks.extend(text_file_chunks("emergency_guides.txt"))
     chunks.extend(text_file_chunks("safety_rules.txt"))
-    chunks.extend(alert_chunks(lat, lng))
-    chunks.extend(place_chunks("Hospitals", "hospitals.json", lat, lng))
-    chunks.extend(place_chunks("Police", "police_stations.json", lat, lng))
-    chunks.extend(place_chunks("Towing", "towing.json", lat, lng))
     return chunks
 
 

@@ -1,8 +1,11 @@
-from fastapi import APIRouter, Depends
+from typing import Any
+
+from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
 from app.models.location import LocationCreate, LocationLogResponse
 from app.services import danger_zone_service, location_service
+from app.services.route_service import get_route_between_points
 from db.database import get_db
 
 
@@ -33,3 +36,95 @@ async def post_location(payload: LocationCreate, db: Session = Depends(get_db)):
         "alerts": alerts,
         "risk": risk,
     }
+
+
+@router.get("/nearest-hospital")
+async def nearest_hospital(
+    lat: float = Query(..., ge=-90, le=90),
+    lng: float = Query(..., ge=-180, le=180),
+    limit: int = Query(3, ge=1, le=10),
+) -> dict[str, Any]:
+    return {
+        "ok": True,
+        "results": location_service.findNearestHospital(lat, lng, limit=limit),
+    }
+
+
+@router.get("/nearest-police")
+async def nearest_police(
+    lat: float = Query(..., ge=-90, le=90),
+    lng: float = Query(..., ge=-180, le=180),
+    limit: int = Query(3, ge=1, le=10),
+) -> dict[str, Any]:
+    return {
+        "ok": True,
+        "results": location_service.findNearestPolice(lat, lng, limit=limit),
+    }
+
+
+@router.get("/nearest-tow")
+async def nearest_tow(
+    lat: float = Query(..., ge=-90, le=90),
+    lng: float = Query(..., ge=-180, le=180),
+    limit: int = Query(3, ge=1, le=10),
+) -> dict[str, Any]:
+    return {
+        "ok": True,
+        "results": location_service.findNearestTow(lat, lng, limit=limit),
+    }
+
+
+@router.get("/route")
+async def route_to_service(
+    lat: float = Query(..., ge=-90, le=90),
+    lng: float = Query(..., ge=-180, le=180),
+    service: str = Query("hospital", description="hospital, police, tow, or towing"),
+    to_lat: float | None = Query(None, ge=-90, le=90),
+    to_lng: float | None = Query(None, ge=-180, le=180),
+) -> dict[str, Any]:
+    destination = None
+    normalized_service = service.strip().lower()
+
+    if to_lat is not None and to_lng is not None:
+        destination = {
+            "id": "custom_destination",
+            "name": "Selected destination",
+            "category": normalized_service,
+            "lat": to_lat,
+            "lng": to_lng,
+        }
+    elif normalized_service == "police":
+        destination = first_result(location_service.findNearestPolice(lat, lng, limit=1))
+    elif normalized_service in {"tow", "towing", "towing_service"}:
+        destination = first_result(location_service.findNearestTow(lat, lng, limit=1))
+    else:
+        destination = first_result(location_service.findNearestHospital(lat, lng, limit=1))
+        normalized_service = "hospital"
+
+    if not destination or destination.get("lat") is None or destination.get("lng") is None:
+        return {
+            "ok": False,
+            "service": normalized_service,
+            "destination": destination,
+            "route": None,
+            "message": "No verified routable destination found in local data.",
+        }
+
+    route = get_route_between_points(
+        lat,
+        lng,
+        float(destination["lat"]),
+        float(destination["lng"]),
+        destination_id=str(destination.get("id") or "destination"),
+        destination_name=str(destination.get("name") or "Destination"),
+    )
+    return {
+        "ok": True,
+        "service": normalized_service,
+        "destination": destination,
+        "route": route,
+    }
+
+
+def first_result(results: list[dict[str, Any]]) -> dict[str, Any] | None:
+    return results[0] if results else None

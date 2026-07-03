@@ -1,11 +1,17 @@
 # sos_service.py — SOS workflow + notifications
+import logging
 from datetime import datetime, timezone
 from typing import Any
 from sqlalchemy.orm import Session
 
 from app.models.sos import SOSCreate
+from app.services import location_service
 from app.services.notification_service import notify_emergency_contacts, NotificationResult
+from app.services.route_service import get_route_between_points
 from db import crud
+
+
+logger = logging.getLogger("roadsos.sos")
 
 
 def _notification_summary(results: list[NotificationResult]) -> dict[str, int | list[dict[str, Any]]]:
@@ -56,6 +62,7 @@ def trigger_sos_workflow(db: Session, payload: SOSCreate) -> dict[str, Any]:
 
     results = notify_emergency_contacts(contact_list, user_name, payload.lat, payload.lng, payload.note)
     crud.create_sos_event(db, payload)
+    emergency_context = build_emergency_context(payload)
 
     return {
         "ok": True,
@@ -66,4 +73,45 @@ def trigger_sos_workflow(db: Session, payload: SOSCreate) -> dict[str, Any]:
         "emergency_numbers": ["112", "108"],
         "message": "SOS recorded and WhatsApp notifications were sent to your saved contacts.",
         "notifications": _notification_summary(results),
+        "emergency_context": emergency_context,
     }
+
+
+def build_emergency_context(payload: SOSCreate) -> dict[str, Any]:
+    nearest_hospital = safe_first_result("hospital", location_service.findNearestHospital, payload.lat, payload.lng)
+    nearest_police = safe_first_result("police", location_service.findNearestPolice, payload.lat, payload.lng)
+    nearest_tow = safe_first_result("towing", location_service.findNearestTow, payload.lat, payload.lng)
+
+    route = None
+    if nearest_hospital and nearest_hospital.get("lat") is not None and nearest_hospital.get("lng") is not None:
+        try:
+            route = get_route_between_points(
+                payload.lat,
+                payload.lng,
+                float(nearest_hospital["lat"]),
+                float(nearest_hospital["lng"]),
+                destination_id=str(nearest_hospital.get("id") or "nearest_hospital"),
+                destination_name=str(nearest_hospital.get("name") or "Nearest hospital"),
+            )
+        except Exception as exc:
+            logger.warning("SOS route enrichment failed; returning service data without route. Error: %s", exc)
+
+    return {
+        "user_location": {"lat": payload.lat, "lng": payload.lng},
+        "nearest_hospital": nearest_hospital,
+        "nearest_police": nearest_police,
+        "nearest_tow": nearest_tow,
+        "route": route,
+    }
+
+
+def first_result(results: list[dict[str, Any]]) -> dict[str, Any] | None:
+    return results[0] if results else None
+
+
+def safe_first_result(label: str, finder, lat: float, lng: float) -> dict[str, Any] | None:
+    try:
+        return first_result(finder(lat, lng, limit=1))
+    except Exception as exc:
+        logger.warning("SOS %s lookup failed. Error: %s", label, exc)
+        return None

@@ -22,6 +22,7 @@ DEBUG = os.getenv("DEBUG", "false").lower() == "true"
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
+OSRM_BASE_URL = os.getenv("OSRM_BASE_URL", "")
 
 
 # Settings Object Pattern
@@ -37,6 +38,7 @@ class Settings:
     LLM_PROVIDER = LLM_PROVIDER
     OLLAMA_BASE_URL = OLLAMA_BASE_URL
     OLLAMA_MODEL = OLLAMA_MODEL
+    OSRM_BASE_URL = OSRM_BASE_URL
     JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "roadsos_jwt_super_secret_signing_key_2026")
     JWT_ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
     INTERNAL_API_KEY = os.getenv("INTERNAL_API_KEY", "roadsos_internal_secret_key")
@@ -72,3 +74,8 @@ def get_ollama_base_url() -> str:
 def get_ollama_model() -> str:
     """Return the active Ollama model without requiring a backend restart."""
     return (_get_live_env_value("OLLAMA_MODEL", OLLAMA_MODEL) or "llama3.1:8b").strip()
+
+
+def get_osrm_base_url() -> str:
+    """Return an optional OSRM base URL used for route geometry."""
+    return (_get_live_env_value("OSRM_BASE_URL", OSRM_BASE_URL) or "").strip().rstrip("/")

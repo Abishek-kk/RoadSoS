@@ -16,6 +16,14 @@ logger = logging.getLogger("roadsos.ai.retriever")
 CONFIDENCE_THRESHOLD = 0.25
 MAX_CACHE_ITEMS = 128
 _RETRIEVAL_CACHE: dict[tuple[Any, ...], "RetrievalResult"] = {}
+ALLOWED_RAG_SOURCES = {
+    "emergency_guides.txt",
+    "safety_rules.txt",
+    "structured/knowledge_base.json",
+    "faqs.json",
+    "faq.json",
+    "emergency_guides.json",
+}
 
 
 @dataclass
@@ -78,7 +86,6 @@ def retrieve(
         remember(cache_key, result)
         logger.info("Retrieval completed: documents=0 confidence=0.000")
         return result.cache_copy()
-    documents.extend(danger_zone_documents(profile, lat, lng))
     documents.extend(structured_knowledge_documents(profile))
     documents.extend(emergency_contact_documents(profile, emergency_contacts or []))
 
@@ -108,6 +115,8 @@ def static_knowledge_documents(
     documents: list[RetrievalDocument] = []
     for chunk in chunks:
         source = str((chunk.metadata or {}).get("source") or "local_knowledge_base")
+        if source not in ALLOWED_RAG_SOURCES:
+            continue
         documents.append(
             RetrievalDocument(
                 title=chunk.title,
@@ -269,9 +278,6 @@ def score_text(profile: QueryProfile, text: str) -> float:
 def structured_candidate_paths() -> list[Path]:
     paths = [
         DATA_DIR / "structured" / "knowledge_base.json",
-        DATA_DIR / "structured" / "emergency_services.json",
-        DATA_DIR / "structured" / "danger_zones.json",
-        DATA_DIR / "structured" / "road_alerts.json",
         DATA_DIR / "faqs.json",
         DATA_DIR / "faq.json",
         DATA_DIR / "emergency_guides.json",

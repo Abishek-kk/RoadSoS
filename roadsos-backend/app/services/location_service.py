@@ -1,9 +1,12 @@
 # location_service.py — GPS processing + Haversine
 from sqlalchemy.orm import Session
-from typing import List, Optional, Mapping, Any, Iterable
+from typing import List, Optional
 
 from app.algorithms import haversine
 from app.models.location import LocationCreate
+from app.services.hospital_service import HospitalService
+from app.services.police_service import PoliceService
+from app.services.towing_service import TowingService
 from db import crud, models
 
 
@@ -47,3 +50,30 @@ def get_latest_location(db: Session, user_id: int) -> Optional[models.LocationLo
     Get the most recent location log for a user.
     """
     return crud.get_latest_user_location(db, user_id)
+
+
+def findNearestHospital(lat: float, lng: float, limit: int = 3) -> list[dict]:
+    """Return top nearest hospitals from the verified local hospital dataset."""
+    return HospitalService().find_nearest(lat, lng, limit=limit)
+
+
+def findNearestPolice(lat: float, lng: float, limit: int = 3) -> list[dict]:
+    """Return top nearest police stations from the verified local police dataset."""
+    return PoliceService().find_nearest(lat, lng, limit=limit)
+
+
+def findNearestTow(lat: float, lng: float, limit: int = 3) -> list[dict]:
+    """Return top nearest towing services from the verified local towing dataset."""
+    return TowingService().find_nearest(lat, lng, limit=limit)
+
+
+def find_nearest_hospital(lat: float, lng: float, limit: int = 3) -> list[dict]:
+    return findNearestHospital(lat, lng, limit=limit)
+
+
+def find_nearest_police(lat: float, lng: float, limit: int = 3) -> list[dict]:
+    return findNearestPolice(lat, lng, limit=limit)
+
+
+def find_nearest_tow(lat: float, lng: float, limit: int = 3) -> list[dict]:
+    return findNearestTow(lat, lng, limit=limit)

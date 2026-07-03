@@ -18,13 +18,31 @@ EMERGENCY_KEYWORDS = {
     "fire",
     "harassment",
     "help",
-    "hospital",
     "kidnap",
-    "police",
     "road rage",
     "sos",
     "unsafe",
 }
+
+ROAD_SAFETY_TERMS = {
+    "helmet",
+    "licence",
+    "license",
+    "seatbelt",
+    "speed",
+    "speeding",
+    "traffic",
+    "rule",
+    "rules",
+    "safety",
+    "safe",
+    "driving",
+    "first",
+    "aid",
+    "cpr",
+}
+
+FAQ_TERMS = {"faq", "question", "questions", "how", "what", "why"}
 
 GREETING_TEXTS = {"hi", "hello", "hey", "hai", "hii", "yo", "good morning", "good evening"}
 THANKS_TEXTS = {"thanks", "thank you", "thank you so much", "thx"}
@@ -70,6 +88,7 @@ class QueryProfile:
     thanks: bool = False
     goodbye: bool = False
     datetime_intent: bool = False
+    category: str = "General Chat"
 
     @property
     def social_only(self) -> bool:
@@ -85,6 +104,7 @@ def classify_query(question: str, history: list[ConversationTurn] | None = None)
     retrieval_tokens = set(WORD_RE.findall(retrieval_normalized))
     emergency_keywords = matched_emergency_keywords(retrieval_normalized)
     intent = detect_intent(retrieval_normalized, retrieval_tokens)
+    category = detect_category(retrieval_normalized, retrieval_tokens, intent, bool(emergency_keywords))
     location_intent = detect_location_intent(retrieval_normalized, intent)
     datetime_intent = detect_datetime_intent(retrieval_normalized)
 
@@ -104,6 +124,7 @@ def classify_query(question: str, history: list[ConversationTurn] | None = None)
         thanks=normalized in THANKS_TEXTS,
         goodbye=normalized in GOODBYE_TEXTS,
         datetime_intent=datetime_intent,
+        category=category,
     )
 
 
@@ -120,6 +141,10 @@ def detect_intent(text: str, tokens: set[str]) -> str:
         return "hospital"
     if tokens & {"alert", "alerts", "traffic", "jam"} or re.search(r"\bnh\s*\d+\b", text):
         return "alert"
+    if tokens & ROAD_SAFETY_TERMS:
+        return "road_safety"
+    if "faq" in tokens or "frequently asked" in text:
+        return "faq"
     if text in GREETING_TEXTS:
         return "greeting"
     if text in THANKS_TEXTS:
@@ -127,6 +152,26 @@ def detect_intent(text: str, tokens: set[str]) -> str:
     if text in GOODBYE_TEXTS:
         return "goodbye"
     return "general"
+
+
+def detect_category(text: str, tokens: set[str], intent: str, emergency_detected: bool) -> str:
+    if text in GREETING_TEXTS:
+        return "Greeting"
+    if emergency_detected:
+        return "Emergency"
+    if intent == "route":
+        return "Navigation"
+    if intent == "hospital":
+        return "Hospital"
+    if intent == "police":
+        return "Police"
+    if intent == "towing":
+        return "Tow"
+    if intent in {"road_safety", "alert", "danger_zone"} or tokens & ROAD_SAFETY_TERMS:
+        return "Road Safety"
+    if intent == "faq" or tokens & FAQ_TERMS:
+        return "FAQ"
+    return "General Chat"
 
 
 def detect_location_intent(text: str, intent: str) -> bool:

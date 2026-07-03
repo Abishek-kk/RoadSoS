@@ -204,11 +204,15 @@ async def api_status():
             "contacts":  "/api/contacts",
             "risk":      "/api/risk",
             "route":     "/api/route",
+            "nearest_hospital": "/api/location/nearest-hospital",
+            "nearest_police": "/api/location/nearest-police",
+            "nearest_tow": "/api/location/nearest-tow",
+            "location_route": "/api/location/route",
         },
         "ai": {
             "provider": provider,
             "model":    model,
-            "pipeline": "File-based RAG",
+            "pipeline": "Hybrid structured services + RAG",
         },
     }
 

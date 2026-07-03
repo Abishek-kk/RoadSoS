@@ -15,7 +15,7 @@ from app.services.context_builder import (
 )
 from app.services.emergency_router import EmergencyContext, run_emergency_workflow
 from app.services.llm_router import GenerationResult, generate
-from app.services.memory import build_conversation_history
+from app.services.memory import build_conversation_history, format_history
 from app.services.prompt_builder import build_prompt
 from app.services.query_classifier import QueryProfile, classify_query
 from app.services.retriever import CONFIDENCE_THRESHOLD, RetrievalDocument, retrieve
@@ -87,8 +87,9 @@ def run_rag_pipeline(
     profile = classify_query(clean_question, history)
     logger.info("Query received: %s", profile.clean_question[:200])
     logger.info(
-        "Intent detected: intent=%s emergency=%s location=%s greeting=%s",
+        "Intent detected: intent=%s category=%s emergency=%s location=%s greeting=%s",
         profile.intent,
+        profile.category,
         profile.emergency_detected,
         profile.location_intent,
         profile.greeting,
@@ -133,6 +134,7 @@ def run_rag_pipeline(
         retrieval_result=retrieval_result,
         live_context=live_context,
         emergency_block=emergency_context.block,
+        conversation_memory=format_history(history[-20:]),
     )
 
     if not profile.clean_question:
@@ -169,7 +171,8 @@ def run_rag_pipeline(
             started=started,
         )
 
-    has_reliable_context = retrieval_result.confidence >= CONFIDENCE_THRESHOLD
+    has_structured_context = bool(context_package.location_services_block or emergency_context.block)
+    has_reliable_context = retrieval_result.confidence >= CONFIDENCE_THRESHOLD or has_structured_context
     if not has_reliable_context and not profile.social_only:
         return finalize(
             reply="I don't have enough verified information to answer that.",

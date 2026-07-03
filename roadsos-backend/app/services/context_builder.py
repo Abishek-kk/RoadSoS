@@ -7,9 +7,11 @@ from datetime import datetime
 from typing import Any
 
 from app.ai.risk_scorer import nearby_danger_zones
-from app.routes._data import clean_phone_number, load_json, nearest_with_fallback, with_distance
+from app.services.hospital_service import HospitalService
+from app.services.police_service import PoliceService
 from app.services.query_classifier import QueryProfile
 from app.services.retriever import RetrievalDocument, RetrievalResult
+from app.services.towing_service import TowingService
 
 
 LIVE_CONTEXT_RADIUS_KM = 25.0
@@ -26,6 +28,12 @@ class NearbyPlace:
     city: str | None = None
     state: str | None = None
     country: str | None = None
+    lat: float | None = None
+    lng: float | None = None
+    eta_minutes: int | None = None
+    eta: str | None = None
+    availability: str | None = None
+    officer: str | None = None
 
     def as_context_dict(self) -> dict[str, Any]:
         return {
@@ -37,6 +45,12 @@ class NearbyPlace:
             "city": self.city,
             "state": self.state,
             "country": self.country,
+            "lat": self.lat,
+            "lng": self.lng,
+            "eta_minutes": self.eta_minutes,
+            "eta": self.eta,
+            "availability": self.availability,
+            "officer": self.officer,
         }
 
 
@@ -120,22 +134,30 @@ def build_context_package(
     retrieval_result: RetrievalResult,
     live_context: LiveContext,
     emergency_block: str = "",
+    conversation_memory: str = "",
 ) -> ContextPackage:
     retrieved_context = format_retrieved_context(retrieval_result.documents)
     location_services_block = build_location_services_block(profile, live_context)
     blocks = [
+        "EMERGENCY CONTEXT" if profile.emergency_detected else "ROADSOS CONTEXT",
         format_live_context_block(live_context),
         location_services_block,
         emergency_block,
         f"RETRIEVED CONTEXT\n{retrieved_context}" if retrieved_context else "",
+        f"CONVERSATION MEMORY\n{conversation_memory}" if conversation_memory else "",
     ]
     context = "\n\n".join(block for block in blocks if block.strip())
+    confidence = retrieval_result.confidence
+    if location_services_block and "User coordinates are unavailable" not in location_services_block:
+        confidence = max(confidence, 0.9)
+    if emergency_block:
+        confidence = max(confidence, 0.95)
     return ContextPackage(
         context=context,
         retrieved_context=retrieved_context,
         live_context=live_context,
         location_services_block=location_services_block,
-        confidence=retrieval_result.confidence,
+        confidence=confidence,
         documents=retrieval_result.documents,
     )
 
@@ -292,19 +314,17 @@ def format_live_context_block(live_context: LiveContext) -> str:
 
 def collect_nearby_places(lat: float, lng: float, radius_km: float = LIVE_CONTEXT_RADIUS_KM) -> list[NearbyPlace]:
     service_config = [
-        ("hospital", "hospitals.json", "108"),
-        ("police_station", "police_stations.json", "100"),
-        ("towing_service", "towing.json", "112"),
+        ("hospital", HospitalService(), radius_km),
+        ("police_station", PoliceService(), radius_km),
+        ("towing_service", TowingService(), max(radius_km, 50.0)),
     ]
     places: list[NearbyPlace] = []
-    for category, filename, fallback_phone in service_config:
-        rows = nearest_with_fallback(
-            load_json(filename),
+    for category, service, search_radius in service_config:
+        rows = service.find_nearest(
             lat,
             lng,
-            max_km=radius_km if category != "towing_service" else max(radius_km, 50.0),
             limit=MAX_LIVE_PLACES_PER_CATEGORY,
-            fallback_limit=MAX_LIVE_PLACES_PER_CATEGORY,
+            radius_km=search_radius,
         )
         for row in rows:
             name = clean_optional(row.get("name") or row.get("station_name"))
@@ -316,10 +336,16 @@ def collect_nearby_places(lat: float, lng: float, radius_km: float = LIVE_CONTEX
                     category=category,
                     distance_km=parse_float(row.get("distance_km")),
                     address=clean_optional(row.get("address")) or "Address not listed",
-                    phone=clean_phone_number(row.get("emergency_phone") or row.get("phone"), fallback_phone),
+                    phone=clean_optional(row.get("phone")),
                     city=clean_optional(row.get("city") or row.get("district")),
                     state=clean_optional(row.get("state")),
                     country=clean_optional(row.get("country")),
+                    lat=parse_float(row.get("lat")),
+                    lng=parse_float(row.get("lng")),
+                    eta_minutes=parse_int(row.get("eta_minutes")),
+                    eta=clean_optional(row.get("eta")),
+                    availability=clean_optional(row.get("availability")),
+                    officer=clean_optional(row.get("officer")),
                 )
             )
     return sorted_places(places)
@@ -346,6 +372,12 @@ def normalize_nearby_places(rows: list[dict[str, Any]] | None) -> list[NearbyPla
                 city=clean_optional(row.get("city")),
                 state=clean_optional(row.get("state")),
                 country=clean_optional(row.get("country")),
+                lat=parse_float(row.get("lat")),
+                lng=parse_float(row.get("lng")),
+                eta_minutes=parse_int(row.get("eta_minutes")),
+                eta=clean_optional(row.get("eta")),
+                availability=clean_optional(row.get("availability")),
+                officer=clean_optional(row.get("officer")),
             )
         )
     return sorted_places(places)
@@ -504,7 +536,10 @@ def format_place_plain(place: NearbyPlace) -> str:
     if place.distance_km is not None:
         distance = f"{format_distance(place.distance_km)} km"
     phone = f", phone {place.phone}" if place.phone else ""
-    return f"{place.name} - {distance}, {place.address}{phone}"
+    eta = f", ETA {place.eta}" if place.eta else ""
+    availability = f", availability {place.availability}" if place.availability else ""
+    officer = f", officer {place.officer}" if place.officer else ""
+    return f"{place.name} - {distance}, {place.address}{phone}{eta}{availability}{officer}"
 
 
 def format_distance(value: float) -> str:
@@ -520,6 +555,15 @@ def parse_float(value: Any) -> float | None:
         if value is None or value == "":
             return None
         return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def parse_int(value: Any) -> int | None:
+    try:
+        if value is None or value == "":
+            return None
+        return int(value)
     except (TypeError, ValueError):
         return None
 
