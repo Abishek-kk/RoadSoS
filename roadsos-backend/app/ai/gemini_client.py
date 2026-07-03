@@ -4,6 +4,7 @@ Integrates Google's Gemini LLM to power RAG Chat, Risk Scoring, and Emergency Ex
 """
 
 import logging
+import time
 from typing import Any
 
 from app.config import get_gemini_api_key
@@ -20,9 +21,11 @@ _configured_key = ""
 _client: Any | None = None
 _success_logged = False
 _fallback_logged = False
+_last_generation_failure_at = 0.0
 
 
 DEFAULT_MODEL = "gemini-2.5-flash"
+GENERATION_FAILURE_COOLDOWN_SECONDS = 60
 
 
 def configure_gemini() -> Any | None:
@@ -71,6 +74,14 @@ def generate_chat_response(prompt: str, context: str = "", system_instruction: s
         context: Retrieved documents or safety knowledge base content.
         system_instruction: Guidelines for the model's persona/behavior.
     """
+    global _last_generation_failure_at
+
+    if (
+        _last_generation_failure_at
+        and time.monotonic() - _last_generation_failure_at < GENERATION_FAILURE_COOLDOWN_SECONDS
+    ):
+        return "Error: Gemini is temporarily unavailable."
+
     client = configure_gemini()
     if client is None:
         return "Error: Gemini API key is missing. Please check your configuration."
@@ -82,9 +93,9 @@ def generate_chat_response(prompt: str, context: str = "", system_instruction: s
         full_prompt += f"User Question: {prompt}"
 
         config = types.GenerateContentConfig(
-            temperature=0.3,
+            temperature=0.45,
             top_p=0.95,
-            max_output_tokens=1024,
+            max_output_tokens=1400,
             system_instruction=system_instruction or None,
         )
         response = client.models.generate_content(
@@ -92,9 +103,11 @@ def generate_chat_response(prompt: str, context: str = "", system_instruction: s
             contents=full_prompt,
             config=config,
         )
+        _last_generation_failure_at = 0.0
         _log_success_once()
         return response.text
     except Exception as e:
+        _last_generation_failure_at = time.monotonic()
         logger.error(
             "Gemini API request failed; RoadSoS will use the deterministic fallback. Error: %s",
             e,

@@ -112,6 +112,12 @@ export type Contact = {
 };
 
 export type ChatMessage = { role: "user" | "assistant"; content: string };
+export type ChatResponse = {
+  reply: string;
+  intent?: string;
+  used_llm?: boolean;
+  suggestions?: string[];
+};
 
 function locationQuery(lat?: number, lng?: number) {
   const params = new URLSearchParams();
@@ -170,7 +176,7 @@ export const api = {
     ]),
 
   chat: (messages: ChatMessage[], coords?: { lat: number; lng: number } | null) =>
-    request<{ reply: string }>(
+    request<ChatResponse>(
       "/api/chat",
       { method: "POST", body: JSON.stringify({ messages, ...coords }) }
     ),

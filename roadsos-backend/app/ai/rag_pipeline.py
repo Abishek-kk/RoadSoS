@@ -2,7 +2,7 @@
 rag_pipeline.py - retrieval + context builder for RoadSoS AI.
 
 This module orchestrates the local retrieval layer, deterministic emergency
-rules, Gemini generation, and offline fallback responses. It is intentionally
+rules, LLM generation, and offline fallback responses. It is intentionally
 dependency-light so chat can keep working without network or LLM access.
 """
 
@@ -12,7 +12,7 @@ import re
 from dataclasses import dataclass, field
 from typing import Any
 
-from app.ai.gemini_client import generate_chat_response
+from app.ai import gemini_client, local_llm_client
 from app.ai.retrieval import (
     ContextChunk,
     detect_intent,
@@ -24,15 +24,29 @@ from app.ai.retrieval import (
     weight_for_token,
 )
 from app.ai.rule_engine import evaluate_emergency
-from app.config import get_gemini_api_key
+from app.config import get_gemini_api_key, get_llm_provider
 
 
 SYSTEM_INSTRUCTION = """
-You are RoadSoS AI, a concise road-safety and emergency assistant for India.
-Use the provided context first. Give practical, ordered steps.
-For urgent medical, crash, fire, or police situations, tell the user to call 112/108 first.
-Do not invent phone numbers, distances, or official facts that are not in context.
-Keep the answer under 160 words unless the user asks for detail.
+You are RoadSoS AI, a calm, highly capable road-safety assistant for India.
+Behave like a strong ChatGPT-style helper: understand the user's intent, answer
+directly, keep a supportive tone, and ask one useful follow-up question when
+details are missing.
+
+Safety rules:
+- Use the provided RoadSoS context before general knowledge.
+- For crash, medical, fire, severe bleeding, or police emergencies, put the
+  emergency number first: 112 for emergency help, 108 for ambulance, 101 for fire,
+  100 for police, and 1033 for national-highway help.
+- Do not invent phone numbers, distances, addresses, official facts, or service
+  availability that are not in context.
+- If a user asks for nearby services and location is missing, ask them to allow
+  location or share a city/landmark.
+
+Response style:
+- Prefer short sections with clear bullets.
+- Give practical next steps, not generic advice.
+- Keep most answers under 220 words unless the user asks for detail.
 """
 
 
@@ -82,7 +96,7 @@ def run_rag_pipeline(
     skip: int = 0,
 ) -> RagResult:
     """
-    Generate a RoadSoS chat answer from local retrieval plus optional Gemini.
+    Generate a RoadSoS chat answer from local retrieval plus an optional LLM.
 
     Args:
         question: The current user question.
@@ -109,9 +123,11 @@ def run_rag_pipeline(
     intent = detect_intent(normalize(question))
     emergency = evaluate_emergency(question)
 
-    if use_llm and get_gemini_api_key():
-        prompt = build_prompt(question, messages)
-        reply = generate_chat_response(
+    llm_provider = get_llm_provider()
+    if use_llm and should_attempt_llm(llm_provider):
+        prompt = build_prompt(question, messages, lat=lat, lng=lng)
+        llm_client = get_llm_client(llm_provider)
+        reply = llm_client.generate_chat_response(
             prompt=prompt,
             context=build_llm_context(context, emergency),
             system_instruction=SYSTEM_INSTRUCTION,
@@ -126,20 +142,35 @@ def run_rag_pipeline(
                 emergency=emergency,
             )
 
-    return RagResult(
-        reply=build_fallback_reply(
+    fallback_reply = build_fallback_reply(
             question,
             chunks,
             skip=skip,
             limit_override=limit_override,
             emergency=emergency,
-        ),
+        )
+    return RagResult(
+        reply=fallback_reply,
         context=context,
         sources=source_cards(chunks),
         used_llm=False,
         intent=intent,
         emergency=emergency,
     )
+
+
+def get_llm_client(provider: str | None = None):
+    selected_provider = (provider or get_llm_provider()).strip().lower()
+    if selected_provider == "ollama":
+        return local_llm_client
+    return gemini_client
+
+
+def should_attempt_llm(provider: str | None = None) -> bool:
+    selected_provider = (provider or get_llm_provider()).strip().lower()
+    if selected_provider == "ollama":
+        return True
+    return bool(get_gemini_api_key())
 
 
 def build_context(chunks: list[ContextChunk], max_chars: int = 9000) -> str:
@@ -180,9 +211,18 @@ def build_llm_context(context: str, emergency: dict[str, Any] | None = None) -> 
     return f"{emergency_block}\n\nRetrieved context\n{context}"
 
 
-def build_prompt(question: str, messages: list[dict[str, str]] | None = None) -> str:
+def build_prompt(
+    question: str,
+    messages: list[dict[str, str]] | None = None,
+    lat: float | None = None,
+    lng: float | None = None,
+) -> str:
+    location = ""
+    if lat is not None and lng is not None:
+        location = f"\nUser location: lat {lat}, lng {lng}"
+
     if not messages:
-        return question
+        return f"Current user request: {question}{location}"
 
     recent = [
         f"{item.get('role', 'user')}: {item.get('content', '')}"
@@ -190,8 +230,8 @@ def build_prompt(question: str, messages: list[dict[str, str]] | None = None) ->
         if item.get("content")
     ]
     if not recent:
-        return question
-    return "\n".join(recent)
+        return f"Current user request: {question}{location}"
+    return "\n".join(recent) + location
 
 
 def source_cards(chunks: list[ContextChunk], limit: int = 8) -> list[RagSource]:
@@ -223,14 +263,15 @@ def build_fallback_reply(
 
     if not chunks:
         return (
-            "I can help with hospitals, police, towing, road alerts, first aid, "
-            "and SOS steps - what do you need?"
+            "I can help with hospitals, police, towing, road alerts, first aid, and SOS steps.\n\n"
+            "Tell me what happened, your city or landmark, and whether anyone is injured. "
+            "If this is urgent, call 112 now; for an ambulance call 108."
         )
 
     if intent in {"hospital", "police", "towing", "alert"}:
         return build_listing_reply(intent, chunks, question, skip, limit_override)
 
-    intro = "Based on the RoadSoS safety knowledge base:"
+    intro = "Here is the safest next move:"
     if any(word in lower for word in ["accident", "crash", "injured", "bleeding", "fire"]):
         intro = "Call 112 or 108 first. Then:"
     elif any(word in lower for word in ["hospital", "ambulance", "doctor"]):
@@ -244,7 +285,8 @@ def build_fallback_reply(
     for chunk in chunks[:3]:
         bullets.append(f"- {summarize_relevant(chunk.body, question)}")
 
-    return f"{intro}\n" + "\n".join(bullets)
+    follow_up = "\n\nTell me your location or nearest landmark and I can narrow this down."
+    return f"{intro}\n" + "\n".join(bullets) + follow_up
 
 
 def should_prioritize_rule(intent: str) -> bool:
@@ -261,7 +303,11 @@ def build_emergency_reply(emergency: dict[str, Any], chunks: list[ContextChunk])
     if chunks:
         actions.append(f"- Relevant guidance: {summarize_relevant(chunks[0].body, title)}")
 
-    return f"{title}: call {numbers} first.\n" + "\n".join(actions + avoid)
+    return (
+        f"{title}: call {numbers} first.\n"
+        + "\n".join(actions + avoid)
+        + "\n\nIf you can, share your location, number of injured people, and whether there is fire, fuel leak, or traffic danger."
+    )
 
 
 def build_listing_reply(
@@ -278,17 +324,21 @@ def build_listing_reply(
 
     if intent == "hospital":
         intro = "Here are the most relevant hospitals I found. For an emergency, call 108 first:"
+        next_step = "Share your exact location or allow GPS if you want me to rank them more tightly."
     elif intent == "police":
         intro = "Here are the most relevant police contacts. For immediate help, call 100 or 112:"
+        next_step = "Tell me the incident type and landmark so I can suggest the best contact path."
     elif intent == "towing":
         intro = "Here are the nearest towing services I found. If you are in danger on the road, call 112 first:"
+        next_step = "Move away from traffic, turn on hazard lights, and share vehicle type if you need a better match."
     else:
         intro = "Here are the relevant road alerts from the RoadSoS data:"
+        next_step = "Share your route or destination and I can focus on the alerts that matter most."
 
     if not rows:
         return "I could not find a matching record. Tell me your city, highway, or current location and I will narrow it down."
 
-    return intro + "\n" + "\n".join(f"- {row}" for row in rows)
+    return intro + "\n" + "\n".join(f"- {row}" for row in rows) + f"\n\nNext: {next_step}"
 
 
 def format_listing_row(text: str) -> str:

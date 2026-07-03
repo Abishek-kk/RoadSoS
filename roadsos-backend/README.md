@@ -70,3 +70,28 @@ roadsos-backend/
    ```bash
    uvicorn app.main:app --reload
    ```
+
+## Local Ollama LLM
+
+RoadSoS can use Gemini by default or a fully local Ollama model for `/api/chat`.
+
+1. Install Ollama and pull a chat model:
+   ```bash
+   ollama pull llama3.1:8b
+   ```
+
+2. Start Ollama if it is not already running:
+   ```bash
+   ollama serve
+   ```
+   On Windows and macOS, Ollama may already be running as a background service.
+
+3. Set these values in `roadsos-backend/.env` and restart the backend:
+   ```env
+   LLM_PROVIDER=ollama
+   OLLAMA_BASE_URL=http://localhost:11434
+   OLLAMA_MODEL=llama3.1:8b
+   ```
+
+If Ollama is stopped or unreachable, RoadSoS keeps serving chat requests by using
+the deterministic fallback response builder.

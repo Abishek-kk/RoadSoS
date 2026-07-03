@@ -19,6 +19,9 @@ DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./roadsos.db")
 
 # App Settings
 DEBUG = os.getenv("DEBUG", "false").lower() == "true"
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
 
 
 # Settings Object Pattern
@@ -31,6 +34,9 @@ class Settings:
     TWILIO_WHATSAPP_NUMBER = TWILIO_WHATSAPP_NUMBER
     DATABASE_URL = DATABASE_URL
     DEBUG = DEBUG
+    LLM_PROVIDER = LLM_PROVIDER
+    OLLAMA_BASE_URL = OLLAMA_BASE_URL
+    OLLAMA_MODEL = OLLAMA_MODEL
     JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "roadsos_jwt_super_secret_signing_key_2026")
     JWT_ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
     INTERNAL_API_KEY = os.getenv("INTERNAL_API_KEY", "roadsos_internal_secret_key")
@@ -47,3 +53,22 @@ def get_gemini_api_key() -> str:
 
 def get_env_value(name: str) -> str:
     return os.getenv(name) or (dotenv_values(dotenv_path=DOTENV_PATH).get(name) or "")
+
+
+def _get_live_env_value(name: str, default: str = "") -> str:
+    return dotenv_values(dotenv_path=DOTENV_PATH).get(name) or os.getenv(name) or default
+
+
+def get_llm_provider() -> str:
+    """Return the active chat LLM provider without requiring a backend restart."""
+    return (_get_live_env_value("LLM_PROVIDER", LLM_PROVIDER) or "gemini").strip().lower()
+
+
+def get_ollama_base_url() -> str:
+    """Return the active Ollama base URL without requiring a backend restart."""
+    return (_get_live_env_value("OLLAMA_BASE_URL", OLLAMA_BASE_URL) or "http://localhost:11434").strip()
+
+
+def get_ollama_model() -> str:
+    """Return the active Ollama model without requiring a backend restart."""
+    return (_get_live_env_value("OLLAMA_MODEL", OLLAMA_MODEL) or "llama3.1:8b").strip()
