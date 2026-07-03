@@ -33,9 +33,17 @@ def load_json(name: str) -> list[dict[str, Any]]:
             with path.open("r", encoding="utf-8") as f:
                 district_data = json.load(f)
             if isinstance(district_data, list):
-                data.extend(district_data)
+                data.extend(
+                    normalize_dataset_row(row, dataset_dir, path.stem)
+                    for row in district_data
+                    if isinstance(row, dict)
+                )
             elif isinstance(district_data, dict) and isinstance(district_data.get("services"), list):
-                data.extend(district_data["services"])
+                data.extend(
+                    normalize_dataset_row(row, dataset_dir, path.stem)
+                    for row in district_data["services"]
+                    if isinstance(row, dict)
+                )
         _JSON_CACHE[name] = data
         return _JSON_CACHE[name]
 
@@ -43,10 +51,18 @@ def load_json(name: str) -> list[dict[str, Any]]:
         data = json.load(f)
 
     if isinstance(data, list):
-        _JSON_CACHE[name] = data
+        _JSON_CACHE[name] = [
+            normalize_dataset_row(row, None, None)
+            for row in data
+            if isinstance(row, dict)
+        ]
         return _JSON_CACHE[name]
     if isinstance(data, dict) and isinstance(data.get("services"), list):
-        _JSON_CACHE[name] = data["services"]
+        _JSON_CACHE[name] = [
+            normalize_dataset_row(row, None, None)
+            for row in data["services"]
+            if isinstance(row, dict)
+        ]
         return _JSON_CACHE[name]
 
     _JSON_CACHE[name] = data
@@ -137,6 +153,13 @@ def normalize_coordinates(row: dict[str, Any]) -> dict[str, Any]:
     if row.get("lat") is not None and row.get("lng") is not None:
         return row
 
+    if row.get("latitude") is not None and row.get("longitude") is not None:
+        return {
+            **row,
+            "lat": float(row["latitude"]),
+            "lng": float(row["longitude"]),
+        }
+
     location_link = str(row.get("location_link") or "")
     match = re.search(
         r"[?&]q=(-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)", location_link
@@ -145,6 +168,42 @@ def normalize_coordinates(row: dict[str, Any]) -> dict[str, Any]:
         return row
 
     return {**row, "lat": float(match.group(1)), "lng": float(match.group(2))}
+
+
+def normalize_dataset_row(
+    row: dict[str, Any],
+    dataset_dir: str | None,
+    district_hint: str | None,
+) -> dict[str, Any]:
+    normalized = normalize_coordinates(row)
+
+    if not normalized.get("name") and normalized.get("station_name"):
+        normalized = {**normalized, "name": normalized["station_name"]}
+
+    if dataset_dir == "police_stations":
+        normalized = {
+            **normalized,
+            "district": normalized.get("district") or district_hint,
+            "city": normalized.get("city") or normalized.get("district") or district_hint,
+            "state": normalized.get("state") or "Tamil Nadu",
+            "type": normalized.get("type") or "Police Station",
+        }
+    elif dataset_dir == "hospitals":
+        normalized = {
+            **normalized,
+            "district": normalized.get("district") or normalized.get("city") or district_hint,
+            "state": normalized.get("state") or "Tamil Nadu",
+            "type": normalized.get("type") or "Hospital",
+        }
+    elif dataset_dir == "towing_services":
+        normalized = {
+            **normalized,
+            "district": normalized.get("district") or district_hint,
+            "state": normalized.get("state") or "Tamil Nadu",
+            "type": normalized.get("type") or "Towing Service",
+        }
+
+    return normalized
 
 
 def clean_phone_number(phone_str: Any, default_fallback: str) -> str:

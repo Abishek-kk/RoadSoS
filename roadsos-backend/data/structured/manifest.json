@@ -1,0 +1,98 @@
+{
+  "dataset": "RoadSoS local safety and emergency dataset",
+  "version": "1.0",
+  "generated_at": "2026-07-03T08:18:20.863563+00:00",
+  "source_root": "roadsos-backend/data",
+  "structured_root": "roadsos-backend/data/structured",
+  "repaired_source_files": [],
+  "structured_police_source_files": [
+    "police_stations/Ariyalur.json",
+    "police_stations/Chengalpattu.json",
+    "police_stations/Chennai.json",
+    "police_stations/Coimbatore.json",
+    "police_stations/Cuddalore.json",
+    "police_stations/Dharmapuri.json",
+    "police_stations/Dindigul.json",
+    "police_stations/Erode.json",
+    "police_stations/Kallakurichi.json",
+    "police_stations/Kancheepuram.json",
+    "police_stations/Kanniyakumari.json",
+    "police_stations/Karur.json",
+    "police_stations/Krishnagiri.json",
+    "police_stations/Madurai.json",
+    "police_stations/Mayiladuthurai.json",
+    "police_stations/Nagapattinam.json",
+    "police_stations/Namakkal.json",
+    "police_stations/Nilgiris.json",
+    "police_stations/Perambalur.json",
+    "police_stations/Pudukkottai.json",
+    "police_stations/Ramanathapuram.json",
+    "police_stations/Ranipet.json",
+    "police_stations/Salem.json",
+    "police_stations/Sivaganga.json",
+    "police_stations/Tenkasi.json",
+    "police_stations/Thanjavur.json",
+    "police_stations/Theni.json",
+    "police_stations/Thoothukudi.json",
+    "police_stations/Tiruchirappalli.json",
+    "police_stations/Tirunelveli.json",
+    "police_stations/Tirupathur.json",
+    "police_stations/Tiruppur.json",
+    "police_stations/Tiruvallur.json",
+    "police_stations/Tiruvannamalai.json",
+    "police_stations/Tiruvarur.json",
+    "police_stations/Vellore.json",
+    "police_stations/Viluppuram.json",
+    "police_stations/Virudhunagar.json"
+  ],
+  "collections": {
+    "knowledge_base": {
+      "path": "structured/knowledge_base.json",
+      "records": 24,
+      "types": [
+        "safety_rule_section",
+        "emergency_guide"
+      ]
+    },
+    "emergency_services": {
+      "path": "structured/emergency_services.json",
+      "records": 1672,
+      "counts_by_category": {
+        "hospital": 244,
+        "police": 1378,
+        "towing": 50
+      }
+    },
+    "police_stations": {
+      "path": "structured/police_stations.json",
+      "records": 1378
+    },
+    "road_alerts": {
+      "path": "structured/road_alerts.json",
+      "records": 15
+    },
+    "danger_zones": {
+      "path": "structured/danger_zones.json",
+      "records": 20
+    }
+  },
+  "common_service_schema": [
+    "id",
+    "record_type",
+    "category",
+    "name",
+    "service_type",
+    "district",
+    "city",
+    "state",
+    "address",
+    "phone",
+    "pincode",
+    "open_24x7",
+    "rating",
+    "location.lat",
+    "location.lng",
+    "source_file",
+    "metadata"
+  ]
+}

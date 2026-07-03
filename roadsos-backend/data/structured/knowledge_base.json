@@ -1,0 +1,593 @@
+{
+  "metadata": {
+    "title": "RoadSoS Safety Knowledge Base",
+    "record_count": 24,
+    "source_files": [
+      "safety_rules.txt",
+      "emergency_guides.txt"
+    ]
+  },
+  "records": [
+    {
+      "id": "SAFETY_SECTION_01",
+      "record_type": "safety_rule_section",
+      "title": "GENERAL DRIVING RULES & DOCUMENTATION",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 1,
+          "text": "Always carry a valid driving licence, vehicle registration certificate (RC), insurance certificate, and Pollution Under Control (PUC) certificate while driving."
+        },
+        {
+          "rule_no": 2,
+          "text": "Obey all traffic signals, road signs, and road markings at all times without exception."
+        },
+        {
+          "rule_no": 3,
+          "text": "Drive on the left side of the road at all times in India and allow oncoming traffic to pass on your right."
+        },
+        {
+          "rule_no": 4,
+          "text": "Always give way to emergency vehicles (ambulance, fire engine, police) by pulling to the left and stopping. Blocking emergency vehicles is a fineable offence (up to ₹10,000)."
+        },
+        {
+          "rule_no": 5,
+          "text": "Never use a mobile phone while driving unless using a hands-free device, and even then, limit conversations to avoid cognitive distraction."
+        },
+        {
+          "rule_no": 6,
+          "text": "Never drive under the influence of alcohol, drugs, or prescription medication that causes drowsiness. The legal Blood Alcohol Content (BAC) limit in India is 30 mg per 100 ml of blood."
+        },
+        {
+          "rule_no": 7,
+          "text": "Always wear your seatbelt — the driver and all passengers (both front and rear) are legally required to wear seatbelts."
+        },
+        {
+          "rule_no": 8,
+          "text": "Never jump a red light. Penalty under the Motor Vehicles Act: ₹1,000 to ₹5,000 and/or licence suspension."
+        },
+        {
+          "rule_no": 9,
+          "text": "Do not drive in reverse on a highway, expressway, or one-way street under any circumstances."
+        },
+        {
+          "rule_no": 10,
+          "text": "Yield to pedestrians at zebra crossings, school crossings, and residential street intersections."
+        },
+        {
+          "rule_no": 11,
+          "text": "Keep a safe distance behind the vehicle in front of you. Use the \"3-second rule\" in dry conditions, and increase it to 6 seconds in wet or low-visibility conditions."
+        },
+        {
+          "rule_no": 12,
+          "text": "Ensure all passengers keep their hands, heads, and limbs inside the vehicle at all times. Sunroof riding by children is extremely dangerous and illegal."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_02",
+      "record_type": "safety_rule_section",
+      "title": "SPEED LIMITS (Motor Vehicles Act, 2019)",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 13,
+          "text": "Urban/City Roads: Maximum 50 km/h for passenger cars unless lower limits are posted for specific areas."
+        },
+        {
+          "rule_no": 14,
+          "text": "National Highways: Maximum 100 km/h for passenger cars."
+        },
+        {
+          "rule_no": 15,
+          "text": "Expressways: Maximum 120 km/h for passenger cars."
+        },
+        {
+          "rule_no": 16,
+          "text": "Heavy Passenger and Goods Vehicles (Buses/Trucks): Maximum 80 km/h on highways and expressways."
+        },
+        {
+          "rule_no": 17,
+          "text": "Two-wheelers: Maximum speed limit of 80 km/h on national highways and expressways where they are permitted."
+        },
+        {
+          "rule_no": 18,
+          "text": "School Zones, Hospital Zones, and Commercial Areas: Maximum speed limit is 30 km/h."
+        },
+        {
+          "rule_no": 19,
+          "text": "Weather-adjusted speed: In fog, heavy rain, or dust storms, reduce speed to at least 50% of the posted limit or pull over safely if visibility is under 10 metres."
+        },
+        {
+          "rule_no": 20,
+          "text": "Speeding fines: ₹1,000 for light motor vehicles, ₹2,000 for medium passenger/goods vehicles, and suspension of driving licence for repeat offences."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_03",
+      "record_type": "safety_rule_section",
+      "title": "HIGHWAY AND EXPRESSWAY ETIQUETTE",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 21,
+          "text": "Keep Left unless overtaking: Always drive in the left-hand lanes and use the rightmost lane exclusively for overtaking. Return to the left lane immediately after completing the overtake."
+        },
+        {
+          "rule_no": 22,
+          "text": "Never stop on the main carriageway of a highway or expressway. If you must stop due to emergency or breakdown, pull entirely onto the hard shoulder or into a designated emergency refuge bay."
+        },
+        {
+          "rule_no": 23,
+          "text": "Never attempt a U-turn on an expressway. Use designated exits, interchanges, or loops to reverse direction."
+        },
+        {
+          "rule_no": 24,
+          "text": "Pedestrians, bicycles, three-wheelers (auto-rickshaws), non-motorised vehicles, and two-wheelers below 50cc are strictly prohibited on expressways."
+        },
+        {
+          "rule_no": 25,
+          "text": "Animals and farm machinery (such as tractors and tillers) are prohibited on expressways and controlled-access national highways."
+        },
+        {
+          "rule_no": 26,
+          "text": "Use turn indicators at least 50 metres before changing lanes or taking highway exits."
+        },
+        {
+          "rule_no": 27,
+          "text": "Maintain a steady speed. Avoid sudden deceleration on highway lanes which causes rear-end pile-ups."
+        },
+        {
+          "rule_no": 28,
+          "text": "Keep headlights on low beam during heavy rain or fog to improve your visibility to others without blinding them."
+        },
+        {
+          "rule_no": 29,
+          "text": "Avoid lane-weaving. Choose a lane and stay in it unless overtaking or preparing to exit the highway."
+        },
+        {
+          "rule_no": 30,
+          "text": "When entering a highway from a service road or ramp, yield to highway traffic and accelerate in the slip lane to match the speed of highway traffic before merging."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_04",
+      "record_type": "safety_rule_section",
+      "title": "TWO-WHEELER SAFETY",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 31,
+          "text": "Both the rider and the pillion passenger must wear ISI-certified helmets securely strapped. Failure to wear helmets attracts a ₹1,000 fine and a 3-month licence suspension."
+        },
+        {
+          "rule_no": 32,
+          "text": "Triple riding (carrying more than one pillion passenger) is strictly illegal and dangerous."
+        },
+        {
+          "rule_no": 33,
+          "text": "Children under 4 years old carried on a two-wheeler must wear an approved crash helmet and be secured to the rider using a safety harness."
+        },
+        {
+          "rule_no": 34,
+          "text": "Keep both hands on the handlebars except when making necessary hand signals."
+        },
+        {
+          "rule_no": 35,
+          "text": "Ride in a single file when travelling in groups. Do not ride side-by-side with another two-wheeler in the same lane."
+        },
+        {
+          "rule_no": 36,
+          "text": "Avoid riding in the blind spots of heavy vehicles (trucks and buses). If you cannot see the truck driver's side mirrors, they cannot see you."
+        },
+        {
+          "rule_no": 37,
+          "text": "Always keep the headlights on (using Daytime Running Lights/DRL or low beam) to increase your visibility to oncoming traffic."
+        },
+        {
+          "rule_no": 38,
+          "text": "Do not carry oversized goods on two-wheelers that extend beyond the width of the handlebars or the length of the vehicle."
+        },
+        {
+          "rule_no": 39,
+          "text": "Watch out for road hazards such as oil spills, wet leaves, metal plates, gravel, and potholes, which can easily cause a two-wheeler to slip."
+        },
+        {
+          "rule_no": 40,
+          "text": "Use both front and rear brakes together for controlled stopping. Applying only the front brake on slippery surfaces can cause the wheel to lock and slide."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_05",
+      "record_type": "safety_rule_section",
+      "title": "NIGHT DRIVING & FATIGUE MANAGEMENT",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 41,
+          "text": "Dip your headlights (switch from high beam to low beam) when oncoming vehicles are within 200 metres to avoid blinding the oncoming driver."
+        },
+        {
+          "rule_no": 42,
+          "text": "Dip your headlights when following closely behind another vehicle so your lights do not blind the driver through their rearview mirrors."
+        },
+        {
+          "rule_no": 43,
+          "text": "Do not drive continuously for more than 2 hours or 150 km without taking a 15-minute break to combat fatigue."
+        },
+        {
+          "rule_no": 44,
+          "text": "If you feel drowsy, pull over at a safe location, rest area, or fuel station, and take a nap. Do not rely on coffee or loud music to stay awake."
+        },
+        {
+          "rule_no": 45,
+          "text": "Avoid driving between 11:00 PM and 5:00 AM, as this is when the body's natural sleep drive is highest and heavy commercial vehicle traffic is densest."
+        },
+        {
+          "rule_no": 46,
+          "text": "Clean your windshield and headlights inside and out before night driving to reduce glare and halos from oncoming lights."
+        },
+        {
+          "rule_no": 47,
+          "text": "Keep your instrument cluster lights dimmed to avoid distracting your eyes and reducing your night-vision capability."
+        },
+        {
+          "rule_no": 48,
+          "text": "If blinded by oncoming high beams, look towards the left edge of the road (white fog line) to maintain your lane position instead of staring into the lights."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_06",
+      "record_type": "safety_rule_section",
+      "title": "MOUNTAIN AND GHAT DRIVING RULES",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 49,
+          "text": "Ascending vehicles have the right of way: Always yield and give way to vehicles driving uphill, as they require more momentum and have limited restart traction."
+        },
+        {
+          "rule_no": 50,
+          "text": "Drive in a lower gear when descending steep hills to utilise engine braking. Do not coast down hills in neutral or with the clutch depressed, as this overheats the brakes and can cause brake failure."
+        },
+        {
+          "rule_no": 51,
+          "text": "Never overtake on blind curves, sharp bends, hairpins, or narrow bridges in mountain areas."
+        },
+        {
+          "rule_no": 52,
+          "text": "Blow the horn gently before entering blind curves during daytime to alert oncoming drivers."
+        },
+        {
+          "rule_no": 53,
+          "text": "Watch for falling rocks and landslide warning signs, especially during the monsoon season (June to September)."
+        },
+        {
+          "rule_no": 54,
+          "text": "Park only in designated lay-bys. Never park on a curve or bend where your vehicle blocks the view of other drivers."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_07",
+      "record_type": "safety_rule_section",
+      "title": "MONSOON & WEATHER HAZARDS",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 55,
+          "text": "Hydroplaning/Aquaplaning: If the vehicle loses traction on wet roads, do not slam on the brakes or turn the steering wheel. Ease off the accelerator and keep the steering wheel straight until traction is regained."
+        },
+        {
+          "rule_no": 56,
+          "text": "Avoid driving through waterlogged roads where the water depth exceeds the centre of your wheels or your vehicle's exhaust pipe."
+        },
+        {
+          "rule_no": 57,
+          "text": "After driving through water, press the brake pedal gently several times at low speed to dry the brake pads/rotors and restore braking efficiency."
+        },
+        {
+          "rule_no": 58,
+          "text": "In heavy rain, switch on windshield wipers and rear defogger immediately. Use the air conditioner in fresh-air mode to prevent the windshield from fogging up inside."
+        },
+        {
+          "rule_no": 59,
+          "text": "During dust storms or sandstorms, pull off the road completely, turn off all lights (including hazard lights, so other drivers do not follow you off the road), and wait for the storm to pass."
+        },
+        {
+          "rule_no": 60,
+          "text": "During severe fog, if visibility drops below 10 metres, pull over to a safe parking lot or fuel station. Do not park on the highway shoulder unless it is an absolute emergency."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_08",
+      "record_type": "safety_rule_section",
+      "title": "CHILD AND PASSENGER SAFETY",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 61,
+          "text": "Children under 4 years of age must be secured in a certified child restraint system (car seat) suitable for their height and weight."
+        },
+        {
+          "rule_no": 62,
+          "text": "Children under 12 years of age must sit in the rear seat of the vehicle and must never ride in the front passenger seat."
+        },
+        {
+          "rule_no": 63,
+          "text": "Never leave children or pets unattended in a parked car, even with the windows cracked. Temperatures inside a closed car can reach fatal levels within minutes."
+        },
+        {
+          "rule_no": 64,
+          "text": "Activate child safety locks on rear doors to prevent children from accidentally opening doors while the vehicle is in motion."
+        },
+        {
+          "rule_no": 65,
+          "text": "Ensure rear seat passengers wear their seatbelts. Unbelted rear passengers can fly forward during a crash, severely injuring or killing the front seat occupants."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_09",
+      "record_type": "safety_rule_section",
+      "title": "PARKING & JUNCTION RULES",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 66,
+          "text": "Do not park within 5 metres of a fire hydrant, 15 metres of a bus stop, or 10 metres of a pedestrian crossing."
+        },
+        {
+          "rule_no": 67,
+          "text": "Do not park near intersections, on curves, on bridges, inside tunnels, or in front of property gates."
+        },
+        {
+          "rule_no": 68,
+          "text": "When parking on a hill:"
+        },
+        {
+          "rule_no": 69,
+          "text": "Roundabout Rules: Always give way to traffic already inside the roundabout coming from your right before entering."
+        },
+        {
+          "rule_no": 70,
+          "text": "Yield to traffic on the main road when turning from a minor or secondary road."
+        },
+        {
+          "rule_no": 71,
+          "text": "Do not enter an intersection unless there is clear space on the other side. Blocking the box causes severe gridlocks."
+        },
+        {
+          "rule_no": 72,
+          "text": "U-turns: Do not make a U-turn unless there is a clear view of oncoming traffic for at least 100 metres and no \"No U-Turn\" sign is posted."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_10",
+      "record_type": "safety_rule_section",
+      "title": "PEDESTRIAN & CYCLIST SAFETY",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 73,
+          "text": "Drivers must slow down and prepare to stop when approaching zebra crossings."
+        },
+        {
+          "rule_no": 74,
+          "text": "Maintain a side clearance of at least 1.5 metres when passing cyclists. Do not honk loudly immediately behind them, as it may startle them and cause a fall."
+        },
+        {
+          "rule_no": 75,
+          "text": "When opening your car door onto the street, use the \"Dutch Reach\" (open the door with your hand furthest from the door) to force yourself to look back for oncoming cyclists and motorcyclists."
+        },
+        {
+          "rule_no": 76,
+          "text": "Cyclists must ride on the left side of the road, wear reflective clothing at night, and have functioning front white lights and rear red reflectors."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_11",
+      "record_type": "safety_rule_section",
+      "title": "DEFENSIVE DRIVING & ROAD ETIQUETTE",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 77,
+          "text": "Avoid road rage: Do not retaliate against aggressive drivers. Maintain distance, avoid eye contact, and let them pass."
+        },
+        {
+          "rule_no": 78,
+          "text": "Avoid unnecessary honking, especially in residential areas, silent zones (near hospitals, schools, and courts), and during traffic jams where it serves no purpose."
+        },
+        {
+          "rule_no": 79,
+          "text": "Do not tailgate. Maintain the 3-second rule. Tailgating is the primary cause of multi-vehicle collisions."
+        },
+        {
+          "rule_no": 80,
+          "text": "Yield the right of way to merge lanes. Use the \"zipper merge\" method (alternate vehicles merging) during lane drops or construction bottlenecks."
+        },
+        {
+          "rule_no": 81,
+          "text": "Keep your vehicle's windshield, windows, and mirrors clean and free of cracks or obstructions (such as large hanging ornaments or sunshades)."
+        },
+        {
+          "rule_no": 82,
+          "text": "Ensure your vehicle's brake lights, indicators, and headlights are clean and working before starting a trip."
+        },
+        {
+          "rule_no": 83,
+          "text": "Do not throw trash, plastic bottles, or organic waste out of the vehicle windows. Keep a trash bag inside the car."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_12",
+      "record_type": "safety_rule_section",
+      "title": "EMERGENCY AND ACCIDENT PROTOCOLS",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 84,
+          "text": "In case of breakdown:"
+        },
+        {
+          "rule_no": 85,
+          "text": "In case of fire:"
+        },
+        {
+          "rule_no": 86,
+          "text": "Good Samaritan Law (India): Anyone who helps an injured person on the road is legally protected. You cannot be forced to disclose your identity, pay hospital admission fees, or participate in police hearings unless you volunteer."
+        },
+        {
+          "rule_no": 87,
+          "text": "If you are involved in an accident, you must stop immediately, render all possible first-aid, call 108/112, and report the accident to the nearest police station within 24 hours. Leaving the scene of an accident is a severe hit-and-run crime."
+        },
+        {
+          "rule_no": 88,
+          "text": "Always keep a basic first-aid kit, a small fire extinguisher, a seatbelt cutter, a window breaker, and emergency contact details inside the glove compartment."
+        },
+        {
+          "rule_no": 89,
+          "text": "In case of a stuck accelerator pedal: Shift the car into Neutral (N), apply steady firm brakes (do not pump them), steer to a safe spot, and turn off the engine once stopped."
+        },
+        {
+          "rule_no": 90,
+          "text": "In case of brake failure: Pump the brake pedal rapidly to build pressure, downshift through gears to slow the vehicle using engine braking, use the handbrake gently (do not lock it), and steer towards an uphill slope, sand, or gravel shoulder to stop."
+        }
+      ]
+    },
+    {
+      "id": "SAFETY_SECTION_13",
+      "record_type": "safety_rule_section",
+      "title": "VEHICLE MAINTENANCE & LAWS",
+      "source_file": "safety_rules.txt",
+      "items": [
+        {
+          "rule_no": 91,
+          "text": "Ensure your vehicle has a valid Pollution Under Control (PUC) certificate. Fines for driving a polluting vehicle or having an expired PUC are ₹10,000."
+        },
+        {
+          "rule_no": 92,
+          "text": "Keep tyres inflated to the manufacturer's recommended pressure. Under-inflated tyres overheat and are prone to dangerous blowouts at highway speeds."
+        },
+        {
+          "rule_no": 93,
+          "text": "Check tyre tread depth regularly. The legal minimum tread depth is 1.6 mm. Worn tyres lose traction and increase wet-braking distances."
+        },
+        {
+          "rule_no": 94,
+          "text": "Ensure your vehicle's high-security registration plates (HSRP) are clean, clearly visible, and not damaged."
+        },
+        {
+          "rule_no": 95,
+          "text": "Do not use tinted films on car windows. The law requires at least 70% visual light transmission for front/rear windscreens and 50% for side windows."
+        },
+        {
+          "rule_no": 96,
+          "text": "Do not modify your vehicle's exhaust system to exceed standard decibel levels. Loud aftermarket exhausts are illegal and subject to heavy fines."
+        },
+        {
+          "rule_no": 97,
+          "text": "Carry a spare tyre (stepney) and ensure it is inflated and in usable condition, along with a working jack and wheel spanner."
+        },
+        {
+          "rule_no": 98,
+          "text": "Do not overload your vehicle past its gross vehicle weight rating (GVWR). Overloading degrades handling, steering, suspension, and braking performance."
+        },
+        {
+          "rule_no": 99,
+          "text": "Ensure your windshield wiper blades are replaced at the start of every monsoon season, as dry heat ruins the rubber and causes streaking."
+        },
+        {
+          "rule_no": 100,
+          "text": "Always keep a physical or digital copy of all vehicle documents in the DigiLocker or mParivahan app for verified roadside police inspections."
+        }
+      ]
+    },
+    {
+      "id": "EMERGENCY_GUIDE_01",
+      "record_type": "emergency_guide",
+      "title": "ROAD ACCIDENT — INITIAL RESPONSE (DR-ABC Protocol)",
+      "source_file": "emergency_guides.txt",
+      "content": "Step 1 — DANGER: Check for danger to yourself and others (leaking fuel, oncoming traffic, fire). Do NOT become a victim yourself.\nStep 2 — RESPONSE: Check if the victim is responsive. Tap shoulders firmly and shout \"Are you okay?\"\nStep 3 — AIRWAY: If unconscious, gently tilt the head back and lift the chin to open the airway. Remove visible obstructions from mouth.\nStep 4 — BREATHING: Look, listen, and feel for breathing for 10 seconds.\nStep 5 — CIRCULATION (CPR): If no breathing detected, begin CPR immediately (see Guide 2).\nStep 6 — Call 108 immediately. State your location (landmark, highway name, km marker).\nDO NOT:\n- Move the victim if spinal injury is suspected (especially after high-speed crash or fall from vehicle).\n- Remove a helmet from a motorcyclist unless the airway is blocked and you cannot open it any other way.\n- Give water or food to an unconscious or semi-conscious person.\n- Remove any object impaled in the body."
+    },
+    {
+      "id": "EMERGENCY_GUIDE_02",
+      "record_type": "emergency_guide",
+      "title": "CARDIOPULMONARY RESUSCITATION (CPR)",
+      "source_file": "emergency_guides.txt",
+      "content": "When to perform: Victim is unresponsive and not breathing normally.\nFOR ADULTS (> 8 years):\n1. Place victim on their back on a firm, flat surface.\n2. Kneel beside the chest. Place the heel of one hand on the centre of the chest (lower half of breastbone/sternum).\n3. Place your other hand on top, interlocking fingers.\n4. Keep arms straight. Press down hard and fast — compress at least 5 cm deep.\n5. Rate: 100–120 compressions per minute (rhythm: \"Stayin' Alive\" by Bee Gees).\n6. After every 30 compressions, give 2 rescue breaths (if trained):\n- Tilt head back, lift chin, pinch nose, seal your mouth over theirs and breathe for 1 second — watch chest rise.\n7. Continue 30:2 ratio until ambulance arrives, victim regains consciousness, or you are physically unable to continue.\nFOR INFANTS (< 1 year):\n1. Use 2 fingers (index and middle) on the centre of the chest just below the nipple line.\n2. Compress 4 cm deep. Rate: 100–120 per minute.\n3. Give 2 gentle puffs of air (just enough to see chest rise).\nAED (Automated External Defibrillator): If available at the scene (many highways and expressways have them), switch it on and follow voice instructions — it will guide you step by step."
+    },
+    {
+      "id": "EMERGENCY_GUIDE_03",
+      "record_type": "emergency_guide",
+      "title": "SEVERE BLEEDING CONTROL",
+      "source_file": "emergency_guides.txt",
+      "content": "1. Apply firm, direct pressure with a clean cloth, bandage, or clothing over the wound.\n2. Do NOT remove the cloth if it soaks through — add more material on top and press harder.\n3. If bleeding is from a limb and is life-threatening, apply a tourniquet 5–8 cm above the wound (above the joint). Note the time applied and inform paramedics.\n4. Elevate the injured limb above heart level if no fracture is suspected.\n5. Keep the victim warm and calm — shock can develop rapidly after blood loss.\n6. Do NOT apply tourniquet on the neck, chest, or abdomen.\n7. Internal bleeding signs: Distended/rigid abdomen, bruising, dizziness, pale clammy skin, rapid weak pulse. Lay victim flat, raise legs 30 cm (if no spinal injury), and call 108 immediately."
+    },
+    {
+      "id": "EMERGENCY_GUIDE_04",
+      "record_type": "emergency_guide",
+      "title": "FRACTURES AND BONE INJURIES",
+      "source_file": "emergency_guides.txt",
+      "content": "Signs: Pain, swelling, deformity, inability to move the limb, bone visible through skin (open fracture).\n1. Do NOT try to realign or straighten the broken bone.\n2. Immobilise the fracture using a splint (rolled newspaper, thick cardboard, or a rigid stick) — pad it with soft material and bandage in place. Keep the joint above and below the fracture immobilised.\n3. For an open fracture (bone through skin): Cover the wound with a clean dressing. Do NOT push the bone back.\n4. Apply ice pack (wrapped in cloth) to reduce swelling — do not place ice directly on skin.\n5. Check circulation (pulse, warmth, colour) below the fracture every 5 minutes.\n6. Suspected spinal/neck fracture: Do NOT move the victim. Support the head and neck in the position found. Wait for paramedics with spinal board.\n7. Suspected pelvic fracture: Do not move victim. Keep legs flat and together. Call 108 urgently."
+    },
+    {
+      "id": "EMERGENCY_GUIDE_05",
+      "record_type": "emergency_guide",
+      "title": "BURNS — VEHICLE FIRE OR FUEL BURN",
+      "source_file": "emergency_guides.txt",
+      "content": "1. Stop the burning: Remove the victim from the fire source. Smother flames with a blanket or roll them on the ground. Call 101 (Fire) and 108 (Ambulance).\n2. Cool the burn: Run cool (not cold) water over the burned area for at least 20 minutes. Do NOT use ice, butter, toothpaste, or any home remedies.\n3. Remove jewellery, watches, and clothing near the burn ONLY if not stuck to skin.\n4. Cover with a clean, non-fluffy material (cling wrap or clean plastic bag works well).\n5. Do NOT break blisters.\n6. Do NOT remove clothing stuck to the burn.\n7. Keep the victim warm to prevent shock.\n8. Severity guide:\n- First degree: Redness, pain only (sunburn-like) — cool water, no hospital needed unless large area.\n- Second degree: Blisters, intense pain — hospital required.\n- Third degree: White/charred skin, no pain (nerve damage) — life-threatening, call 108 immediately.\n9. Burns to face, hands, feet, genitals, or over joints are always medical emergencies."
+    },
+    {
+      "id": "EMERGENCY_GUIDE_06",
+      "record_type": "emergency_guide",
+      "title": "HEAD INJURY AND CONCUSSION",
+      "source_file": "emergency_guides.txt",
+      "content": "Signs: Loss of consciousness (even brief), confusion, vomiting, unequal pupils, blood/fluid from nose or ears, severe headache.\n1. Keep the victim still — assume spinal injury if mechanism was high-speed crash.\n2. Gently support the head and neck in the position found — do NOT flex or rotate.\n3. If unconscious but breathing: Place in recovery position ONLY if no spinal injury suspected.\n4. If vomiting: Carefully roll victim onto their side (log roll — keep spine aligned with at least 2 helpers).\n5. Control any scalp bleeding with gentle pressure — do NOT apply firm pressure if skull fracture is suspected (depressed/crunchy feel).\n6. Do NOT give aspirin or ibuprofen for pain (increases bleeding risk).\n7. All head injuries with loss of consciousness must be evaluated at a hospital — call 108."
+    },
+    {
+      "id": "EMERGENCY_GUIDE_07",
+      "record_type": "emergency_guide",
+      "title": "SHOCK — TRAUMATIC SHOCK MANAGEMENT",
+      "source_file": "emergency_guides.txt",
+      "content": "Signs: Pale, cold, clammy skin; rapid weak pulse; rapid breathing; confusion or agitation; extreme thirst; fainting.\n1. Lay victim flat. Raise legs 20–30 cm (unless head, chest, spine, or leg injury is suspected).\n2. Keep warm — cover with a blanket or jacket.\n3. Do NOT give food or water by mouth.\n4. Loosen tight clothing around neck and chest.\n5. Reassure the victim — speak calmly and continuously.\n6. Monitor pulse and breathing every 2 minutes.\n7. Call 108 immediately — shock is life-threatening within minutes without medical intervention."
+    },
+    {
+      "id": "EMERGENCY_GUIDE_08",
+      "record_type": "emergency_guide",
+      "title": "CHOKING — AIRWAY OBSTRUCTION",
+      "source_file": "emergency_guides.txt",
+      "content": "Mild choking (victim can cough/speak):\n1. Encourage strong coughing — do not intervene.\nSevere choking (victim cannot speak, turning blue):\n1. Give 5 firm back blows between shoulder blades with the heel of your hand (victim leaning forward).\n2. If not cleared: Give 5 abdominal thrusts (Heimlich Manoeuvre):\n- Stand behind victim. Place one fist above the navel. Grasp fist with other hand. Pull sharply inward and upward.\n3. Alternate 5 back blows and 5 abdominal thrusts until object is cleared or victim loses consciousness.\n4. If victim loses consciousness: Start CPR — each time you open the airway to give breaths, look for and remove any visible object.\nFOR INFANTS (< 1 year): Use 5 back blows face-down on forearm + 5 chest thrusts (NOT abdominal thrusts)."
+    },
+    {
+      "id": "EMERGENCY_GUIDE_09",
+      "record_type": "emergency_guide",
+      "title": "DROWNING / WATER SUBMERSION (Flood/Waterlogged Roads)",
+      "source_file": "emergency_guides.txt",
+      "content": "1. Do NOT enter deep/fast-moving water yourself — use a rope, clothing, branch, or flotation device to pull victim out.\n2. Once out: Check for breathing. If not breathing, start CPR immediately (do NOT waste time trying to drain water from lungs — it is a myth).\n3. Even if victim appears to recover, take to hospital immediately — secondary drowning (delayed fluid build-up in lungs) can be fatal within 24 hours.\n4. Keep the victim warm — hypothermia is a major risk after water submersion."
+    },
+    {
+      "id": "EMERGENCY_GUIDE_10",
+      "record_type": "emergency_guide",
+      "title": "TYRE BURST — VEHICLE CONTROL EMERGENCY",
+      "source_file": "emergency_guides.txt",
+      "content": "1. DO NOT slam the brakes — this will cause the vehicle to spin.\n2. Grip the steering wheel firmly with both hands.\n3. Gently accelerate briefly to maintain forward momentum and regain control.\n4. Gradually ease off the accelerator — let the vehicle slow naturally.\n5. Gently steer toward the shoulder. Apply brakes softly only after speed has reduced to under 60 km/h.\n6. Switch on hazard lights. Pull fully off the road before stopping.\n7. Place emergency triangle 50 m behind the vehicle. Call for roadside assistance (1033 NHAI)."
+    },
+    {
+      "id": "EMERGENCY_GUIDE_11",
+      "record_type": "emergency_guide",
+      "title": "EMERGENCY CONTACTS (INDIA)",
+      "source_file": "emergency_guides.txt",
+      "content": "112  — National Emergency Number (Police, Ambulance, Fire — all in one)\n108  — Ambulance (Free — all states)\n102  — Ambulance (Maternal and Child Health — most states)\n100  — Police\n101  — Fire Department\n1033 — NHAI Road Helpline (Highways, accidents, breakdowns)\n1073 — Road Accident Emergency (Transport Ministry)\n181  — Women Helpline\n1098  — Child Helpline\n14567 — Senior Citizen Helpline\nGolden Hour: The first 60 minutes after a traumatic injury are critical.\nImmediate action and calling 108 can save lives. Do not wait."
+    }
+  ]
+}
