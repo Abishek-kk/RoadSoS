@@ -6,6 +6,9 @@ import numpy as np
 
 from app.ai import local_llm_client, rag_pipeline, retrieval
 from app.routes import chat as chat_route
+from app.services import rag_service
+from app.services.llm_router import GenerationResult
+from app.services.retriever import RetrievalDocument, RetrievalResult
 
 
 def test_ollama_client_builds_chat_payload(monkeypatch):
@@ -88,6 +91,58 @@ def test_chat_response_payload_includes_llm_provider():
 
     assert payload["used_llm"] is True
     assert payload["llm_provider"] == "ollama"
+
+
+def test_pipeline_blocks_unverified_non_social_query_before_llm(monkeypatch):
+    def fake_retrieve(*args, **kwargs):
+        return RetrievalResult(documents=[], confidence=0.0, query="who won the world cup")
+
+    def fail_generate(*args, **kwargs):
+        raise AssertionError("LLM should not run without verified retrieval context")
+
+    monkeypatch.setattr(rag_service, "retrieve", fake_retrieve)
+    monkeypatch.setattr(rag_service, "generate", fail_generate)
+
+    result = rag_service.run_rag_pipeline("who won the world cup")
+
+    assert result.used_llm is False
+    assert result.reply == "I don't have enough verified information to answer that."
+
+
+def test_pipeline_passes_retrieved_context_to_llm(monkeypatch):
+    captured = {}
+
+    def fake_retrieve(*args, **kwargs):
+        return RetrievalResult(
+            documents=[
+                RetrievalDocument(
+                    title="Emergency Guide",
+                    content="For a road accident, call 112 or 108 and move away from traffic if safe.",
+                    source="emergency_guides.txt",
+                    score=80.0,
+                )
+            ],
+            confidence=0.95,
+            query="road accident",
+        )
+
+    def fake_generate(prompt, context, system_instruction):
+        captured["prompt"] = prompt
+        captured["context"] = context
+        captured["system_instruction"] = system_instruction
+        return GenerationResult(reply="Call 112 or 108 and move away from traffic.", provider="gemini", used_llm=True)
+
+    monkeypatch.setattr(rag_service, "retrieve", fake_retrieve)
+    monkeypatch.setattr(rag_service, "generate", fake_generate)
+
+    result = rag_service.run_rag_pipeline("What should I do after a road accident?")
+
+    assert result.used_llm is True
+    assert result.llm_provider == "gemini"
+    assert "Emergency Guide" in captured["context"]
+    assert "For a road accident, call 112 or 108" in captured["context"]
+    assert "USER QUESTION" in captured["prompt"]
+    assert "Every factual answer must be based only" in captured["system_instruction"]
 
 
 def test_chat_route_resolves_server_location_name(monkeypatch):

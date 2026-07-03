@@ -1,15 +1,20 @@
+from __future__ import annotations
+
+from typing import Any
+
+import anyio
 from fastapi import APIRouter
 from pydantic import BaseModel
-import anyio
+from sqlalchemy.orm import Session
 
 from app.ai.rag_pipeline import run_rag_pipeline
-from app.ai.retrieval import NUMBER_WORDS, normalize, requested_limit, tokenize
-from app.config import get_llm_provider
+from app.dependencies import DbSession
 from app.routes._data import reverse_geocode
+from db import crud
 
 
 router = APIRouter(prefix="/chat", tags=["Chat"])
-CHAT_LLM_TIMEOUT_SECONDS = 100
+CHAT_LLM_TIMEOUT_SECONDS = 120
 
 
 class ChatMessage(BaseModel):
@@ -42,84 +47,53 @@ class ChatPayload(BaseModel):
 
 
 @router.post("")
-async def chat(payload: ChatPayload):
+async def chat(payload: ChatPayload, db: Session = DbSession):
     user_message = latest_user_message(payload.messages)
-    if not user_message:
-        return response_payload(
-            reply="Tell me what happened, and I will guide you through the safest next steps.",
-            intent="general",
-            used_llm=False,
-            llm_provider=get_llm_provider(),
-            lat=payload.lat,
-            lng=payload.lng,
-        )
-
-    is_followup = is_more_followup(user_message)
-    effective_message = expand_followup(user_message, payload.messages)
-    if is_greeting(user_message):
-        return response_payload(
-            reply=(
-                "Hi, I am RoadSoS AI. I can help with nearby hospitals, police stations, "
-                "towing services, road alerts, first-aid, SOS steps, and driving safety. What do you need right now?"
-            ),
-            intent="general",
-            used_llm=False,
-            llm_provider=get_llm_provider(),
-            lat=payload.lat,
-            lng=payload.lng,
-        )
-
     location_name = await resolve_location_name(payload)
-    use_llm = should_use_llm(effective_message)
+    emergency_contacts = load_emergency_contacts(db)
+
     try:
         with anyio.fail_after(CHAT_LLM_TIMEOUT_SECONDS):
             result = await anyio.to_thread.run_sync(
                 lambda: run_rag_pipeline(
-                    effective_message,
+                    user_message,
                     messages=[message.model_dump() for message in payload.messages],
                     lat=payload.lat,
                     lng=payload.lng,
-                    use_llm=use_llm,
-                    skip=3 if is_followup and requested_limit(user_message, default=0) == 0 else 0,
                     location_name=location_name,
                     current_datetime=payload.current_datetime,
                     city=payload.city,
                     state=payload.state,
                     country=payload.country,
                     radius_km=payload.radius_km,
-                    nearby_places=[
-                        place.model_dump()
-                        for place in (payload.nearby_places or [])
-                    ],
+                    nearby_places=[place.model_dump() for place in (payload.nearby_places or [])],
+                    emergency_contacts=emergency_contacts,
                 )
             )
     except TimeoutError:
-        result = run_rag_pipeline(
-            effective_message,
-            messages=[message.model_dump() for message in payload.messages],
+        return response_payload(
+            reply=(
+                "I could not complete the AI response in time. "
+                "Please try again, and call 112 immediately if this is urgent."
+            ),
+            intent="general",
+            used_llm=False,
+            llm_provider="none",
             lat=payload.lat,
             lng=payload.lng,
-            use_llm=False,
-            skip=3 if is_followup and requested_limit(user_message, default=0) == 0 else 0,
-            location_name=location_name,
-            current_datetime=payload.current_datetime,
-            city=payload.city,
-            state=payload.state,
-            country=payload.country,
-            radius_km=payload.radius_km,
-            nearby_places=[
-                place.model_dump()
-                for place in (payload.nearby_places or [])
-            ],
+            emergency_detected=False,
         )
+
     return response_payload(
         reply=result.reply,
         intent=result.intent,
         used_llm=result.used_llm,
-        llm_provider=get_llm_provider(),
+        llm_provider=getattr(result, "llm_provider", "none"),
         lat=payload.lat,
         lng=payload.lng,
         emergency_detected=bool(result.emergency and result.emergency.get("detected")),
+        retrieval_confidence=getattr(result, "retrieval_confidence", None),
+        sources=[source.as_dict() for source in getattr(result, "sources", [])],
     )
 
 
@@ -139,57 +113,24 @@ def latest_user_message(messages: list[ChatMessage]) -> str:
     return ""
 
 
-def expand_followup(message: str, messages: list[ChatMessage]) -> str:
-    normalized = normalize(message)
-    if not is_more_followup(message):
-        return message
-
-    previous_users = [
-        item.content.strip()
-        for item in messages
-        if item.role == "user" and item.content.strip() and item.content.strip() != message
+def load_emergency_contacts(db: Session) -> list[dict[str, Any]]:
+    if not hasattr(db, "query"):
+        return []
+    user = crud.get_system_user(db)
+    if not user:
+        return []
+    return [
+        {
+            "id": contact.id,
+            "name": contact.name,
+            "phone": contact.phone,
+            "relation": contact.relation,
+            "notify_sms": contact.notify_sms,
+            "notify_whatsapp": contact.notify_whatsapp,
+            "notify_call": contact.notify_call,
+        }
+        for contact in crud.get_emergency_contacts(db, user.id)
     ]
-    if not previous_users:
-        return message
-    return f"{previous_users[-1]} {message}"
-
-
-def is_more_followup(message: str) -> bool:
-    normalized = normalize(message)
-    if normalized in {
-        "any other",
-        "other",
-        "more",
-        "another",
-        "show more",
-        "anything else",
-        "next",
-    }:
-        return True
-    return requested_limit(message, default=0) > 0 and len(tokenize(message) - set(NUMBER_WORDS)) <= 2
-
-
-def is_greeting(message: str) -> bool:
-    return normalize(message) in {"hi", "hello", "hey", "hai", "hii", "yo"}
-
-
-def should_use_llm(message: str) -> bool:
-    normalized = normalize(message)
-    tokens = tokenize(normalized)
-    listing_terms = {
-        "hospitals",
-        "stations",
-        "contacts",
-        "services",
-        "nearby",
-        "nearest",
-        "list",
-        "show",
-    }
-    emergency_terms = {"accident", "crash", "bleeding", "fire", "ambulance", "sos"}
-    if tokens & emergency_terms:
-        return True
-    return not bool(tokens & listing_terms and requested_limit(message, default=0) > 0)
 
 
 def response_payload(
@@ -200,14 +141,21 @@ def response_payload(
     lat: float | None,
     lng: float | None,
     emergency_detected: bool = False,
-) -> dict:
-    return {
+    retrieval_confidence: float | None = None,
+    sources: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    payload: dict[str, Any] = {
         "reply": reply,
         "intent": intent,
         "used_llm": used_llm,
         "llm_provider": llm_provider,
         "suggestions": suggested_prompts(intent, lat=lat, lng=lng, emergency_detected=emergency_detected),
     }
+    if retrieval_confidence is not None:
+        payload["retrieval_confidence"] = retrieval_confidence
+    if sources is not None:
+        payload["sources"] = sources
+    return payload
 
 
 def suggested_prompts(

@@ -9,6 +9,7 @@ Fallback distance and intent boosts are applied on top of semantic scores.
 from __future__ import annotations
 
 import logging
+import os
 import re
 from dataclasses import dataclass
 from pathlib import Path
@@ -103,6 +104,14 @@ def init_embedding_index() -> None:
     # Distance is enriched per-query in retrieve_context() on top of semantic scores.
     chunks: list[ContextChunk] = knowledge_chunks(None, None)
     _chunks = chunks
+
+    if os.getenv("ROADSOS_ENABLE_SEMANTIC_SEARCH", "false").strip().lower() not in {"1", "true", "yes"}:
+        _semantic_search_available = False
+        _logger.info(
+            "Semantic search disabled; using cached local keyword retrieval. "
+            "Set ROADSOS_ENABLE_SEMANTIC_SEARCH=true to load embeddings."
+        )
+        return
 
     if not chunks:
         _logger.warning("No knowledge chunks found for indexing.")
