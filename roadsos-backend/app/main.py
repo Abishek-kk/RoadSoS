@@ -14,6 +14,7 @@ import time
 
 # --- Route imports ---
 from app.routes import location, sos, hospitals, police, towing, chat, alerts, contacts, risk, route
+from app.config import get_llm_provider, get_ollama_model
 
 # --- Logging setup ---
 logging.basicConfig(
@@ -31,7 +32,7 @@ app = FastAPI(
     description=(
         "AI-Powered Road Safety & Emergency Coordination System. "
         "Provides real-time danger zone alerts, one-tap SOS, "
-        "Gemini RAG chatbot, and emergency contact notifications."
+        "RAG chatbot support, and emergency contact notifications."
     ),
     version="1.0.0",
     docs_url="/docs",
@@ -128,7 +129,7 @@ app.include_router(
 app.include_router(
     chat.router,
     prefix="/api",
-    tags=["AI Chatbot (RAG + Gemini)"],
+    tags=["AI Chatbot"],
 )
 
 app.include_router(
@@ -188,6 +189,8 @@ async def api_status():
     Full API status — lists all active route modules.
     Useful for frontend to verify connectivity on app launch.
     """
+    provider = get_llm_provider()
+    model = get_ollama_model() if provider == "ollama" else "Google Gemini"
     return {
         "success": True,
         "routes": {
@@ -203,7 +206,8 @@ async def api_status():
             "route":     "/api/route",
         },
         "ai": {
-            "model":    "Google Gemini",
+            "provider": provider,
+            "model":    model,
             "pipeline": "File-based RAG",
         },
     }

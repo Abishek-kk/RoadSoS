@@ -14,6 +14,7 @@ type UiMessage = ChatMessage & {
   id: string;
   intent?: string;
   usedLlm?: boolean;
+  llmProvider?: string;
   suggestions?: string[];
   error?: boolean;
 };
@@ -86,6 +87,7 @@ function Chat() {
           content: res.reply,
           intent: res.intent,
           usedLlm: res.used_llm,
+          llmProvider: res.llm_provider,
           suggestions: res.suggestions,
         },
       ]);
@@ -155,7 +157,7 @@ function Chat() {
               </span>
               {latestAssistant?.intent && <span>Mode: {latestAssistant.intent}</span>}
               {latestAssistant?.usedLlm !== undefined && (
-                <span>{latestAssistant.usedLlm ? "Gemini response" : "RoadSoS offline response"}</span>
+                <span>{latestAssistant.usedLlm ? llmProviderLabel(latestAssistant.llmProvider) : "RoadSoS offline response"}</span>
               )}
             </div>
           </div>
@@ -249,6 +251,13 @@ function Chat() {
       </div>
     </TooltipProvider>
   );
+}
+
+function llmProviderLabel(provider?: string) {
+  const normalized = provider?.trim().toLowerCase();
+  if (normalized === "ollama") return "Ollama response";
+  if (normalized === "gemini") return "Gemini response";
+  return "LLM response";
 }
 
 function MessageBubble({ message, onCopy }: { message: UiMessage; onCopy: (content: string) => void }) {

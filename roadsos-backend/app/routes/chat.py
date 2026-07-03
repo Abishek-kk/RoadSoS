@@ -4,9 +4,11 @@ import anyio
 
 from app.ai.rag_pipeline import run_rag_pipeline
 from app.ai.retrieval import NUMBER_WORDS, normalize, requested_limit, tokenize
+from app.config import get_llm_provider
 
 
 router = APIRouter(prefix="/chat", tags=["Chat"])
+CHAT_LLM_TIMEOUT_SECONDS = 100
 
 
 class ChatMessage(BaseModel):
@@ -28,6 +30,7 @@ async def chat(payload: ChatPayload):
             reply="Tell me what happened, and I will guide you through the safest next steps.",
             intent="general",
             used_llm=False,
+            llm_provider=get_llm_provider(),
             lat=payload.lat,
             lng=payload.lng,
         )
@@ -42,13 +45,14 @@ async def chat(payload: ChatPayload):
             ),
             intent="general",
             used_llm=False,
+            llm_provider=get_llm_provider(),
             lat=payload.lat,
             lng=payload.lng,
         )
 
     use_llm = should_use_llm(effective_message)
     try:
-        with anyio.fail_after(20):
+        with anyio.fail_after(CHAT_LLM_TIMEOUT_SECONDS):
             result = await anyio.to_thread.run_sync(
                 lambda: run_rag_pipeline(
                     effective_message,
@@ -72,6 +76,7 @@ async def chat(payload: ChatPayload):
         reply=result.reply,
         intent=result.intent,
         used_llm=result.used_llm,
+        llm_provider=get_llm_provider(),
         lat=payload.lat,
         lng=payload.lng,
         emergency_detected=bool(result.emergency and result.emergency.get("detected")),
@@ -142,6 +147,7 @@ def response_payload(
     reply: str,
     intent: str,
     used_llm: bool,
+    llm_provider: str,
     lat: float | None,
     lng: float | None,
     emergency_detected: bool = False,
@@ -150,6 +156,7 @@ def response_payload(
         "reply": reply,
         "intent": intent,
         "used_llm": used_llm,
+        "llm_provider": llm_provider,
         "suggestions": suggested_prompts(intent, lat=lat, lng=lng, emergency_detected=emergency_detected),
     }
 

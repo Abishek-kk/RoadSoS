@@ -12,7 +12,7 @@ from app.config import get_ollama_base_url, get_ollama_model
 
 
 logger = logging.getLogger("roadsos.ollama")
-REQUEST_TIMEOUT_SECONDS = 20.0
+REQUEST_TIMEOUT_SECONDS = 90.0
 
 
 def generate_chat_response(prompt: str, context: str = "", system_instruction: str = "") -> str:

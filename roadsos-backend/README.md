@@ -16,7 +16,7 @@ roadsos-backend/
 │   │   ├── hospitals.py          — GET /api/hospitals
 │   │   ├── police.py             — GET /api/police
 │   │   ├── towing.py             — GET /api/towing
-│   │   ├── chat.py               — POST /api/chat (RAG + Gemini)
+│   │   ├── chat.py               — POST /api/chat (RAG + Ollama/Gemini)
 │   │   ├── alerts.py             — GET /api/alerts
 │   │   └── contacts.py           — POST /api/contacts
 │   ├── services/                 — core business logic
@@ -73,7 +73,8 @@ roadsos-backend/
 
 ## Local Ollama LLM
 
-RoadSoS can use Gemini by default or a fully local Ollama model for `/api/chat`.
+RoadSoS uses a fully local Ollama model for `/api/chat` by default, with Gemini
+still available if `LLM_PROVIDER=gemini` and a Gemini API key are configured.
 
 1. Install Ollama and pull a chat model:
    ```bash

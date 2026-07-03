@@ -2,6 +2,7 @@ import httpx
 import numpy as np
 
 from app.ai import local_llm_client, rag_pipeline, retrieval
+from app.routes import chat as chat_route
 
 
 def test_ollama_client_builds_chat_payload(monkeypatch):
@@ -70,6 +71,20 @@ def test_rag_pipeline_keeps_gemini_key_gate(monkeypatch):
 
     assert rag_pipeline.get_llm_client() is rag_pipeline.gemini_client
     assert rag_pipeline.should_attempt_llm() is False
+
+
+def test_chat_response_payload_includes_llm_provider():
+    payload = chat_route.response_payload(
+        reply="Use hazard lights.",
+        intent="general",
+        used_llm=True,
+        llm_provider="ollama",
+        lat=None,
+        lng=None,
+    )
+
+    assert payload["used_llm"] is True
+    assert payload["llm_provider"] == "ollama"
 
 
 def test_semantic_retrieval_query_encoding_has_numpy_available(monkeypatch):

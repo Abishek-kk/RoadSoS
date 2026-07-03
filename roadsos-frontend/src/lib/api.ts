@@ -1,8 +1,8 @@
 const BASE = (import.meta as any).env?.VITE_API_URL ?? "http://127.0.0.1:8000";
 
-async function request<T>(path: string, init?: RequestInit, fallback?: T): Promise<T> {
+async function request<T>(path: string, init?: RequestInit, fallback?: T, timeoutMs = 30000): Promise<T> {
   const controller = new AbortController();
-  const timeoutId = window.setTimeout(() => controller.abort(), 30000);
+  const timeoutId = window.setTimeout(() => controller.abort(), timeoutMs);
   try {
     const res = await fetch(`${BASE}${path}`, {
       headers: { "Content-Type": "application/json" },
@@ -116,6 +116,7 @@ export type ChatResponse = {
   reply: string;
   intent?: string;
   used_llm?: boolean;
+  llm_provider?: string;
   suggestions?: string[];
 };
 
@@ -178,7 +179,9 @@ export const api = {
   chat: (messages: ChatMessage[], coords?: { lat: number; lng: number } | null) =>
     request<ChatResponse>(
       "/api/chat",
-      { method: "POST", body: JSON.stringify({ messages, ...coords }) }
+      { method: "POST", body: JSON.stringify({ messages, ...coords }) },
+      undefined,
+      120000
     ),
 
   addContact: (c: Omit<Contact, "id">) =>
