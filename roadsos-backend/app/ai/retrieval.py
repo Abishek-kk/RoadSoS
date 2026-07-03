@@ -114,7 +114,7 @@ def init_embedding_index() -> None:
         return
 
     try:
-        _encoder = SentenceTransformer("all-MiniLM-L6-v2", local_files_only=True)
+        _encoder = SentenceTransformer("all-MiniLM-L6-v2")
         texts = [f"{chunk.title} {chunk.body}" for chunk in chunks]
         embeddings = _encoder.encode(
             texts,
@@ -135,7 +135,8 @@ def init_embedding_index() -> None:
         _faiss_index = None
         _semantic_search_available = False
         _logger.warning(
-            "Semantic search unavailable; using local keyword retrieval. Error: %s",
+            "Semantic search unavailable; falling back to local keyword retrieval. "
+            "The embedding model could not be loaded or downloaded. Error: %s",
             exc,
         )
 
@@ -184,7 +185,7 @@ def retrieve_context(
             metadata=dict(chunk.metadata or {}),
             score=0.0,
         )
-        if chunk.title.startswith(("Hospitals:", "Police:", "Towing:")):
+        if chunk.title.startswith(("Hospitals:", "Police:", "Road Alert:", "Towing:")):
             _enrich_distance(chunk, lat, lng)
         boost = intent_boost(intent, chunk.title)
         if intent in INTENT_PREFIX:
@@ -203,6 +204,8 @@ def retrieve_context(
         and not chunk.title.startswith(("Hospitals:", "Police:", "Road Alert:", "Towing:"))
     ]
     selected = selected[: limit or 5]
+    if ranked and ranked[0].score <= 0:
+        return []
     return selected or ranked[: limit or 3]
 
 
@@ -288,7 +291,7 @@ def retrieve_context_keyword(
             metadata=dict(base_chunk.metadata or {}),
             score=0.0,
         )
-        if chunk.title.startswith(("Hospitals:", "Police:", "Towing:")):
+        if chunk.title.startswith(("Hospitals:", "Police:", "Road Alert:", "Towing:")):
             _enrich_distance(chunk, lat, lng)
 
         haystack = normalize(f"{chunk.title} {chunk.body}")
@@ -313,6 +316,8 @@ def retrieve_context_keyword(
         and not chunk.title.startswith(("Hospitals:", "Police:", "Road Alert:", "Towing:"))
     ]
     selected = selected[: limit or 5]
+    if ranked and ranked[0].score <= 0:
+        return []
     return selected or ranked[: limit or 3]
 
 
@@ -512,6 +517,8 @@ def alert_chunks(lat: float | None = None, lng: float | None = None) -> list[Con
                     "source": "road_alerts.json",
                     "id": alert.get("id"),
                     "distance_km": distance,
+                    "lat": location.get("lat"),
+                    "lng": location.get("lng"),
                     "status": alert.get("status"),
                 },
             )

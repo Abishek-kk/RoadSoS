@@ -221,6 +221,12 @@ def build_fallback_reply(
     if emergency and emergency.get("detected") and should_prioritize_rule(intent):
         return build_emergency_reply(emergency, chunks)
 
+    if not chunks:
+        return (
+            "I can help with hospitals, police, towing, road alerts, first aid, "
+            "and SOS steps - what do you need?"
+        )
+
     if intent in {"hospital", "police", "towing", "alert"}:
         return build_listing_reply(intent, chunks, question, skip, limit_override)
 
@@ -237,9 +243,6 @@ def build_fallback_reply(
     bullets = []
     for chunk in chunks[:3]:
         bullets.append(f"- {summarize_relevant(chunk.body, question)}")
-
-    if not bullets:
-        bullets.append("- Share what happened, your location, and whether anyone is injured.")
 
     return f"{intro}\n" + "\n".join(bullets)
 
