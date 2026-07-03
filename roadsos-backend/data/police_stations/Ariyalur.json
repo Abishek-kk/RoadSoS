@@ -1,0 +1,200 @@
+[
+  {
+    "id": "PS001",
+    "station_name": "All Women Police Station, Ariyalur",
+    "officer": "WSI, Ariyalur",
+    "district": "Ariyalur",
+    "city": "Ariyalur",
+    "phone": "9498100724",
+    "pincode": "621704",
+    "latitude": 11.1402,
+    "longitude": 79.0706
+  },
+  {
+    "id": "PS002",
+    "station_name": "All Women Police Station, Jayankondam",
+    "officer": "WSI, Jayankondam",
+    "district": "Ariyalur",
+    "city": "Jayankondam",
+    "phone": "9498100725",
+    "pincode": "621802",
+    "latitude": 11.2144,
+    "longitude": 79.3456
+  },
+  {
+    "id": "PS003",
+    "station_name": "Police Station, Andimadam",
+    "officer": "SI, Andimadam",
+    "district": "Ariyalur",
+    "city": "Andimadam",
+    "phone": "9498100717",
+    "pincode": "621801",
+    "latitude": 11.3328,
+    "longitude": 79.3752
+  },
+  {
+    "id": "PS004",
+    "station_name": "Police Station, Ariyalur",
+    "officer": "SI, Ariyalur",
+    "district": "Ariyalur",
+    "city": "Ariyalur",
+    "phone": "9498100708",
+    "pincode": "621704",
+    "latitude": 11.1415,
+    "longitude": 79.0718
+  },
+  {
+    "id": "PS005",
+    "station_name": "Police Station, Irumbilikurichi",
+    "officer": "SI, Irumbilikurichi",
+    "district": "Ariyalur",
+    "city": "Irumbilikurichi",
+    "phone": "9498100721",
+    "pincode": "621804",
+    "latitude": 11.2583,
+    "longitude": 79.2312
+  },
+  {
+    "id": "PS006",
+    "station_name": "Police Station, Jayankondam",
+    "officer": "SI, Jayankondam",
+    "district": "Ariyalur",
+    "city": "Jayankondam",
+    "phone": "9498100716",
+    "pincode": "621802",
+    "latitude": 11.2131,
+    "longitude": 79.3468
+  },
+  {
+    "id": "PS007",
+    "station_name": "Police Station, Kairlabath",
+    "officer": "SI, Thelur",
+    "district": "Ariyalur",
+    "city": "Thelur",
+    "phone": "9498100709",
+    "pincode": "621704",
+    "latitude": 11.1852,
+    "longitude": 79.1124
+  },
+  {
+    "id": "PS008",
+    "station_name": "Police Station, Keelapalur",
+    "officer": "SI, Keelapalur",
+    "district": "Ariyalur",
+    "city": "Keelapalur",
+    "phone": "9498100713",
+    "pincode": "621704",
+    "latitude": 11.0427,
+    "longitude": 79.0732
+  },
+  {
+    "id": "PS009",
+    "station_name": "Police Station, Kuvagam",
+    "officer": "SI, Kuvagam",
+    "district": "Ariyalur",
+    "city": "Kuvagam",
+    "phone": "9498100711",
+    "pincode": "621710",
+    "latitude": 11.2891,
+    "longitude": 79.3023
+  },
+  {
+    "id": "PS010",
+    "station_name": "Police Station, Meensurity",
+    "officer": "SI, Meensurity",
+    "district": "Ariyalur",
+    "city": "Meensurity",
+    "phone": "9498100718",
+    "pincode": "612903",
+    "latitude": 11.2464,
+    "longitude": 79.4319
+  },
+  {
+    "id": "PS011",
+    "station_name": "Police Station, Sendurai",
+    "officer": "SI, Sendurai",
+    "district": "Ariyalur",
+    "city": "Sendurai",
+    "phone": "9498100710",
+    "pincode": "621714",
+    "latitude": 11.2458,
+    "longitude": 79.1725
+  },
+  {
+    "id": "PS012",
+    "station_name": "Police Station, T.Palur",
+    "officer": "SI, T.Palur",
+    "district": "Ariyalur",
+    "city": "T.Palur",
+    "phone": "9498100719",
+    "pincode": "612904",
+    "latitude": 11.1378,
+    "longitude": 79.3794
+  },
+  {
+    "id": "PS013",
+    "station_name": "Police Station, Thalavai",
+    "officer": "SI, Thalavai",
+    "district": "Ariyalur",
+    "city": "Thalavai",
+    "phone": "9498100712",
+    "pincode": "621730",
+    "latitude": 11.2045,
+    "longitude": 79.1189
+  },
+  {
+    "id": "PS014",
+    "station_name": "Police Station, Thirumanur",
+    "officer": "SI, Thirumanur",
+    "district": "Ariyalur",
+    "city": "Thirumanur",
+    "phone": "9498100715",
+    "pincode": "621715",
+    "latitude": 10.9856,
+    "longitude": 79.1242
+  },
+  {
+    "id": "PS015",
+    "station_name": "Police Station, Thuthur",
+    "officer": "SI, Thuthur",
+    "district": "Ariyalur",
+    "city": "Thuthur",
+    "phone": "9498100723",
+    "pincode": "621701",
+    "latitude": 10.9634,
+    "longitude": 79.2847
+  },
+  {
+    "id": "PS016",
+    "station_name": "Police Station, Udayarpalayam",
+    "officer": "SI, Udayarpalayam",
+    "district": "Ariyalur",
+    "city": "Udayarpalayam",
+    "phone": "9498100720",
+    "pincode": "621804",
+    "latitude": 11.1822,
+    "longitude": 79.2941
+  },
+  {
+    "id": "PS017",
+    "station_name": "Police Station, Venganur",
+    "officer": "SI, Venganur",
+    "district": "Ariyalur",
+    "city": "Venganur",
+    "phone": "9498100714",
+    "pincode": "621851",
+    "latitude": 11.3508,
+    "longitude": 79.0617
+  },
+  {
+    "id": "PS018",
+    "station_name": "Police Station, Vikkramangalam",
+    "officer": "SI, Vikkramangalam",
+    "district": "Ariyalur",
+    "city": "Vikkramangalam",
+    "phone": "9498100722",
+    "pincode": "621701",
+    "latitude": 11.0894,
+    "longitude": 79.2625
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "TN00802",
+    "name": "SCUDDER  MEMORIAL HOSPITAL,  RANIPET",
+    "city": "Ranipet",
+    "state": "Tamil nadu",
+    "address": "No. 42-D/1, Kellys Road, Ranipet",
+    "phone": "04172-270212  / 272741",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0076273,76.9664064",
+    "pincode": "632 401"
+  },
+  {
+    "id": "TN00803",
+    "name": "SUNDARAM  HEALTH CENTRE",
+    "city": "Ranipet",
+    "state": "Tamil nadu",
+    "address": "Sholinghur, Ranipet",
+    "phone": "9152584391",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0559034,76.9977152",
+    "pincode": "631  102"
+  },
+  {
+    "id": "TN00804",
+    "name": "THIRUMALAI  MISSION HOSPITAL",
+    "city": "Ranipet",
+    "state": "Tamil nadu",
+    "address": "Thirumalai Nagar, Vanapadi Road, Ranipet",
+    "phone": "04172- 244520 04172- 244521",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0133606,76.9553683",
+    "pincode": "632 404"
+  }
+]

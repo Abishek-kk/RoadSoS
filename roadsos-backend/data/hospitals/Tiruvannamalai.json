@@ -1,0 +1,275 @@
+[
+  {
+    "id": "TN01116",
+    "name": "ARUNAI  MEDICAL  COLLEGE &  HOSPITAL",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "Velu  Nagar,  Thenmathur, Tiruvannamalai",
+    "phone": "04175 -256256 04175 -256200",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1755255,77.4298446",
+    "pincode": "606  603"
+  },
+  {
+    "id": "TN01117",
+    "name": "K  V  S  HOSPITAL",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "No.7/12  Pey  Gopura  Street, Tiruvannamalai",
+    "phone": "04175-224003 04175-251875",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.3050711,77.226968",
+    "pincode": "606  601"
+  },
+  {
+    "id": "TN01118",
+    "name": "RAJ  HOSPITAL",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "No.10/7C,  Mannu  Pillai Nagar,  Pey Gopuram First  Street,Tiruvannamalai",
+    "phone": "04175-222555 04175-222666",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic & Facio Maxilliary",
+      "Vascular\nSurgery."
+    ],
+    "location_link": "https://maps.google.com/?q=8.1896985,77.4121685",
+    "pincode": "606  601"
+  },
+  {
+    "id": "TN01119",
+    "name": "R.K.HOSPITAL",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "135, Old Police Line S.T., Opp. to Bus Stand, Chengam, Tiruvannamalai",
+    "phone": "04188-222263",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1852223,77.2498082",
+    "pincode": "606 701"
+  },
+  {
+    "id": "TN01120",
+    "name": "S.S.  HOSPITAL",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "19, Mathalangulam Street,Tiruvannamalai",
+    "phone": "04175-254470",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=8.159025,77.4262597",
+    "pincode": "606 601"
+  },
+  {
+    "id": "TN01121",
+    "name": "SENTHIL  EYE CLINIC",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "No.40, High School Othavadi Street, Cheyyar, Tiruvannamalai",
+    "phone": "04182-222128 9444181366",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1815031,77.4264846",
+    "pincode": "604 407"
+  },
+  {
+    "id": "TN01122",
+    "name": "SHANTALA HOSPITAL",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "117-Polur Road, Tiruvannamalai",
+    "phone": "04188-222523",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1807356,77.4186064",
+    "pincode": "606 601"
+  },
+  {
+    "id": "TN01123",
+    "name": "SRI  BALAJI  NURSING  HOME",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "4/E2 Durb Ali Street, Tiruvannamalai",
+    "phone": "04175-221433 ,  222864",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1827756,77.4293661",
+    "pincode": "606 601"
+  },
+  {
+    "id": "TN01124",
+    "name": "SRI  RAMANA  MAHARISHI EYE  HOSPITAL",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "o.51/C, Somavara Kula St, Thiruvannamalai",
+    "phone": "04175-237108",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1807356,77.4186064",
+    "pincode": "606 601"
+  },
+  {
+    "id": "TN01125",
+    "name": "SRI  RAMANA  MAHARISHI RANGAMMAL  HOSPITAL",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "Siva Nagar, Athiyandal Village, Tiruvannamalai",
+    "phone": "04175-237108 ,  320030",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.3092791,77.2122765",
+    "pincode": "606 603"
+  },
+  {
+    "id": "TN01126",
+    "name": "ST.THOMAS  HOSPITAL  & LEPROSY  CENTRE",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "Chettupattu (Taluk), Tiruvannamalai",
+    "phone": "04181-252263 04181-252366",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1764679,77.4274576",
+    "pincode": "606 801"
+  },
+  {
+    "id": "TN01127",
+    "name": "SUGASTHALAA  HOSPITAL",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "No.2, 6th Street,Gandhi Nagar Main Road, Tiruvannamalai",
+    "phone": "04175-222605",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.308635,77.217394",
+    "pincode": "606 601"
+  },
+  {
+    "id": "TN01128",
+    "name": "T.N.K.  NURSING  HOME",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "Tiruvoodai St, Tiruvanamalai",
+    "phone": "04175-221982 ,  222982",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1126807,77.5333326",
+    "pincode": "606 601"
+  },
+  {
+    "id": "TN01129",
+    "name": "VIVEKANANDA EYE HOSPITAL",
+    "city": "Tiruvannamalai",
+    "state": "Tamil nadu",
+    "address": "32, G/C Vettavalam Road, Tiruvanamalai",
+    "phone": "04175-223771 ,  223783",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.1949484,77.3953236",
+    "pincode": "606 602"
+  }
+]

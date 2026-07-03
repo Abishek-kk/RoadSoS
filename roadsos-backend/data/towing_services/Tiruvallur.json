@@ -1,0 +1,28 @@
+[
+  {
+    "id": "TW022",
+    "name": "Kasthuri Crane & Towing Service",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "address": "Kakkalur, next to Akshai Bhavan Hotel, Tiruvallur",
+    "phone": null,
+    "type": "Heavy Vehicle Towing",
+    "open_24x7": false,
+    "lat": 13.3777,
+    "lng": 79.8827,
+    "rating": 4.6
+  },
+  {
+    "id": "TW029",
+    "name": "Sri Vignesh Cranes",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "address": "No.7, Veera Anjaneya Nagar, Putlur Railway Station Rd, Kakkalur, Tiruvallur-602003",
+    "phone": "+91 8044942186",
+    "type": "Heavy Vehicle Towing",
+    "open_24x7": false,
+    "lat": 13.3777,
+    "lng": 79.8827,
+    "rating": null
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "TN01109",
+    "name": "BHATS  EYE  HOSPITAL",
+    "city": "Tiruvallur",
+    "state": "Tamil nadu",
+    "address": "Vijaya Complex, No 1, M.T.H.Road, Ambattur OT, Chennai",
+    "phone": "044-26581566",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "VascularSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.178948,77.5358102",
+    "pincode": "600 053"
+  },
+  {
+    "id": "TN01110",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Tiruvallur",
+    "state": "Tamil nadu",
+    "address": "157, JN Road,Tiruvallur",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.9486886,77.3202772",
+    "pincode": "602001"
+  },
+  {
+    "id": "TN01111",
+    "name": "LOGIDASAN  HOSPITAL",
+    "city": "Tiruvallur",
+    "state": "Tamil nadu",
+    "address": "14, Rajaji Street, Manavala Nagar, Tiruvallur",
+    "phone": "044-27640496",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Surgical Gastroenterology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.9779242,77.4233596",
+    "pincode": "602 002"
+  },
+  {
+    "id": "TN01112",
+    "name": "B.R.  HOSPITAL",
+    "city": "Tiruvallur",
+    "state": "Tamil nadu",
+    "address": "No. 10 &  12, Alamaram Street, Tiruttani",
+    "phone": "044-27885635",
+    "type": "Private",
+    "specialties": [
+      "General Medicine- Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      ""
+    ],
+    "location_link": "https://maps.google.com/?q=8.9662937,77.3065952",
+    "pincode": "631 029"
+  }
+]

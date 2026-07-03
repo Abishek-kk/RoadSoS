@@ -1,0 +1,93 @@
+[
+  {
+    "id": "TW030",
+    "name": "Madurai Towing Service",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "No 5/2, Near Susee Nagar, Topaz Road, Anaiyur, Madurai-625017",
+    "phone": "+91 85114 45528",
+    "type": "Car/Bike Towing",
+    "open_24x7": true,
+    "lat": 9.9252,
+    "lng": 78.1198,
+    "rating": 4.8
+  },
+  {
+    "id": "TW034",
+    "name": "Gct Car Towing Service",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Madurai",
+    "phone": null,
+    "type": "Car Towing",
+    "open_24x7": false,
+    "lat": 9.9252,
+    "lng": 78.1198,
+    "rating": null
+  },
+  {
+    "id": "TW035",
+    "name": "Annamalaiyar Recovery & Towing Service",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Madurai",
+    "phone": null,
+    "type": "Car Towing",
+    "open_24x7": false,
+    "lat": 9.9252,
+    "lng": 78.1198,
+    "rating": null
+  },
+  {
+    "id": "TW036",
+    "name": "S R Recovery Service",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Madurai",
+    "phone": null,
+    "type": "Car Towing",
+    "open_24x7": false,
+    "lat": 9.9252,
+    "lng": 78.1198,
+    "rating": null
+  },
+  {
+    "id": "TW037",
+    "name": "Ajay Recovery Services",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Madurai",
+    "phone": null,
+    "type": "Car Towing",
+    "open_24x7": false,
+    "lat": 9.9252,
+    "lng": 78.1198,
+    "rating": null
+  },
+  {
+    "id": "TW038",
+    "name": "King Motors",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Madurai",
+    "phone": null,
+    "type": "Car Towing",
+    "open_24x7": false,
+    "lat": 9.9252,
+    "lng": 78.1198,
+    "rating": null
+  },
+  {
+    "id": "TW039",
+    "name": "Madurai Motors",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Madurai",
+    "phone": null,
+    "type": "Car Towing",
+    "open_24x7": false,
+    "lat": 9.9252,
+    "lng": 78.1198,
+    "rating": null
+  }
+]

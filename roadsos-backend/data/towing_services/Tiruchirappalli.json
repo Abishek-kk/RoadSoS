@@ -1,0 +1,28 @@
+[
+  {
+    "id": "TW020",
+    "name": "SONA Recovery",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "address": "Mannarpuram, Sangillyandapuram, Tiruchirappalli",
+    "phone": "+91 94441 38004",
+    "type": "Car/Bike Towing",
+    "open_24x7": true,
+    "lat": 10.7905,
+    "lng": 78.7047,
+    "rating": 4.6
+  },
+  {
+    "id": "TW021",
+    "name": "Jalal Recovery Service",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "address": "Tharanallur, Tiruchirappalli",
+    "phone": "+91 88256 28697",
+    "type": "Car/Bike Towing",
+    "open_24x7": true,
+    "lat": 10.7905,
+    "lng": 78.7047,
+    "rating": 5.0
+  }
+]

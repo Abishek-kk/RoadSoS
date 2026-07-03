@@ -1,0 +1,2048 @@
+[
+  {
+    "id": "TN00278",
+    "name": "A  S D  NURSING  HOME",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "91/1, Coimbatore Road, Pollachi",
+    "phone": "04259-223382",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "General Medicine - Medical Care",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.8948452,79.1300858",
+    "pincode": "642 002"
+  },
+  {
+    "id": "TN00279",
+    "name": "ABINAND HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "237-F,Pollachi Main Road, Sundarapuram, Coimbatore",
+    "phone": "0422-2573310",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.910526,79.1315098",
+    "pincode": "641 024"
+  },
+  {
+    "id": "TN00280",
+    "name": "ALVA  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "5, Kamarajar Street, Vettaikaran Pudur,Ambarampalayam, Pollachi",
+    "phone": "04259-253303",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine -Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9244714,79.1401712",
+    "pincode": "642 103"
+  },
+  {
+    "id": "TN00281",
+    "name": "ANP  NURSING  HOME",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.8/1, Jaya Nagar,  Poochiyur, Thondamuthur (PO), Coimbatore",
+    "phone": "0422-2617770 0422-2617773",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery",
+      "Cardiology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9459279,79.1373",
+    "pincode": "641 109"
+  },
+  {
+    "id": "TN00282",
+    "name": "ANURAG  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.8, Krishna Nagar, Sowri Palayam, Coimbatore",
+    "phone": "0422-4341486",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery",
+      "Cardiology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9684228,79.1369829",
+    "pincode": "641 028"
+  },
+  {
+    "id": "TN00283",
+    "name": "AR  ORTHO  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.42/1, New Scheme Road, Pollachi",
+    "phone": "04259-220440",
+    "type": "Private",
+    "specialties": [
+      "General Medical",
+      "Medicine-Care",
+      "Gerneral Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9367028,79.1676734",
+    "pincode": "642002"
+  },
+  {
+    "id": "TN00284",
+    "name": "ARATHANA  ORTHOPAEDIC SURGERY CENTRE",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "136, R C Polyclininc Building, Appar Street, Venkatesa Colony, Polachi",
+    "phone": "04259-226040 ,  226039",
+    "type": "Private",
+    "specialties": [
+      "General Medical",
+      "Medicine-Care",
+      "Gerneral Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.938334,79.1684223",
+    "pincode": "642  001"
+  },
+  {
+    "id": "TN00285",
+    "name": "ARTHY HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No:52, Nanjundapuram, Near Ramanathapuram Signal, Coimbatore",
+    "phone": "0422-2320400",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.915398,79.13347",
+    "pincode": "641 045"
+  },
+  {
+    "id": "TN00286",
+    "name": "ARUN HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "88, New Scheme Road, Pollachi",
+    "phone": "0416-2234217",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9106494,79.1331985",
+    "pincode": "642 002"
+  },
+  {
+    "id": "TN00287",
+    "name": "ARVIND  EYE HOSPITAL  & POSTGRADUATE  INSTITUTE OF OPHTHALMOLOGY",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Avinashi Road, Coimbatore",
+    "phone": "0422-4360400",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.8704797,79.089967",
+    "pincode": "641014"
+  },
+  {
+    "id": "TN00288",
+    "name": "ASWIN  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No  1, Alamunagar Sathy Road, Coimbatore",
+    "phone": "0422-2525252",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urninary Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9165167,79.1324986",
+    "pincode": "641 012"
+  },
+  {
+    "id": "TN00289",
+    "name": "BETHEL  HOSPITAL  (P)  LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "223, Dr.Rajendra Prasad Road, 100 Feet Road, Coimbatore",
+    "phone": "0422-2498884",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9076629,79.131862",
+    "pincode": "641 012"
+  },
+  {
+    "id": "TN00290",
+    "name": "BRAGATHI  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.336, Chinnasamy Road, Siddhapudur,Coimbatore",
+    "phone": "0422-2525259 9750600500",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical Care",
+      "Nephrology",
+      "Medical Gastro- enterology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Medical Oncology",
+      "Urology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9336394,79.3261499",
+    "pincode": "641 044"
+  },
+  {
+    "id": "TN00291",
+    "name": "BRJ  ORTHO CENTRE AND MAK  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No. 2-1, Raju Nagar, Fertilizer Company Stop, Mettupalayam  Road, Coimbatore",
+    "phone": "0422-2433306",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical Care",
+      "Nephrology",
+      "Medical Gastro- enterology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Medical Oncology",
+      "Urology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0846214,79.4379805",
+    "pincode": "641 043"
+  },
+  {
+    "id": "TN00292",
+    "name": "C.S.R.NURSING  HOME",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "272, 7th Street Extn, Coimbatore",
+    "phone": "0422-2524762",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9501903,79.3256855",
+    "pincode": "641 012"
+  },
+  {
+    "id": "TN00293",
+    "name": "CHINNIYAM PALAYAM HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "2/143 Avinashi Road, Coimbatore",
+    "phone": "0422-2627248",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecologys",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=12.49838,78.5633137",
+    "pincode": "641 062"
+  },
+  {
+    "id": "TN00294",
+    "name": "COIMBATORE  BONE &  JOINT FOUNDATION  (P)  LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "1091, Mettupalayam  Road, North Coimbatore Bus Stop, Coimbatore",
+    "phone": "0422-4334999",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecologys",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=12.5035105,78.5774408",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00295",
+    "name": "COIMBATORE DIABETES FOUNDATION  HOSPITAL  (P) LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "SF. No.357/2A,    S.J.Garden,Maruthamalai Road, Coimbatore",
+    "phone": "0422-3233333",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecologys",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=12.1900299,79.0817595",
+    "pincode": "641 046"
+  },
+  {
+    "id": "TN00296",
+    "name": "COIMBATORE KIDNEY CENTER",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Puliakulam Road, Near Lakshmi Mills, Coimbatore",
+    "phone": "0422-2312006 ,  23112007",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecologys",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=12.2295476,79.064891",
+    "pincode": "641 045"
+  },
+  {
+    "id": "TN00297",
+    "name": "D.J.  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.604 K-1, Ooty Main Road, Jothipuram (Post), Coimbatore",
+    "phone": "0422-2692517",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.2300631,79.0650511",
+    "pincode": "641 047"
+  },
+  {
+    "id": "TN00298",
+    "name": "DEEPAM  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.687, Trichy Road, Ramanathapuram, Coimbatore",
+    "phone": "04292-223131",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.3083948,78.7930421",
+    "pincode": "641045"
+  },
+  {
+    "id": "TN00299",
+    "name": "Dr.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.1091, Sakthi Arcade, Mettupalayam  Road, R.S. Puram, Near Old Maruthi Theatre,Coimbatore",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.2366589,79.0748665",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00300",
+    "name": "DR.DASARATHAN  MEMORIAL HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No  3/31, M.T.P Road,K.Vadamadurai, Coimbatore",
+    "phone": "0422-2642248",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.663401,79.5433622",
+    "pincode": "641017"
+  },
+  {
+    "id": "TN00301",
+    "name": "DR.MUTHU'S  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.291, Trichy Road,Opp to Bharath Petrol Bunk, Singanallur,Coimbatore",
+    "phone": "0422-4373517",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical Care",
+      "Orthopaedics",
+      "Neurology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.2307724,79.0758037",
+    "pincode": "641005"
+  },
+  {
+    "id": "TN00302",
+    "name": "ELLEN  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.284, Sathy Road, Gandhipuram, Coimbatore",
+    "phone": "0422-2521212  / 4373090",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Gynaecology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      "Renal transplant",
+      "Liver Transplant"
+    ],
+    "location_link": "https://maps.google.com/?q=12.2299206,79.0772618",
+    "pincode": "641012"
+  },
+  {
+    "id": "TN00303",
+    "name": "G  R  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.30 Ram Gardens, Sowripalayam Road, Sowripalayam,Coimbatore",
+    "phone": "0422-2315717 ,  2317012",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "Cardiothoracic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.2286325097846,79.0639390234754",
+    "pincode": "641 028"
+  },
+  {
+    "id": "TN00304",
+    "name": "GANGA  MEDICAL  CENTER  & HOSPITALS  LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "313, Mettupalayam Road,Coimbatore",
+    "phone": "0422-2485000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.225876,79.026192",
+    "pincode": "641 043"
+  },
+  {
+    "id": "TN00305",
+    "name": "GEM HOSPITAL INDIA PVT LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "45-A, Pankaja Mill Road, Ramanathapuram, Coimbatore",
+    "phone": "0422-2325100",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro - enterology",
+      "Surgical Gastro-entrology",
+      "Orthopaedics",
+      "Gynaecology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      "Renal transplant",
+      "Liver Transplant"
+    ],
+    "location_link": "https://maps.google.com/?q=12.466734,79.337122",
+    "pincode": "641 045"
+  },
+  {
+    "id": "TN00306",
+    "name": "GOWTHAM HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.414/1,Palghat Main Road, Kuniamuthur,Coimbatore",
+    "phone": "0422 2254456 / 57",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroentrology",
+      "Neurology",
+      "Plastic & Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=12.2307939,79.078297",
+    "pincode": "641 008"
+  },
+  {
+    "id": "TN00307",
+    "name": "H.S.  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Gandhinagar, Kavundampalayam, Coimbatore",
+    "phone": "0422-2440277",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroentrology",
+      "Neurology",
+      "Plastic & Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=12.2295941,79.0666381",
+    "pincode": "641 030"
+  },
+  {
+    "id": "TN00308",
+    "name": "HEM HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "5H,1-9, Mettupalayam  Road, Near Viswanathapuram Bus Stop, Thudiyalur, Coimbatore",
+    "phone": "0422-2647766",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "Cardiothoracic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=12.2253074,79.0812317",
+    "pincode": "641 034"
+  },
+  {
+    "id": "TN00309",
+    "name": "ISWARYA  WOMENS HOSPITAL  &  FERTILITY CENTRE",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.238, Avarampalayam, Opp to Women's Polytechnic College,Near Gandhipuram, Coimbatore",
+    "phone": "0422-2241777",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.9404411,79.4893269",
+    "pincode": "641044"
+  },
+  {
+    "id": "TN00310",
+    "name": "JOSEPH  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "10,1st Cross Street, Thirumalal Nagar, Peelamedu, Coimbatore",
+    "phone": "0422-2562345",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.9399495,79.4875035",
+    "pincode": "641 004"
+  },
+  {
+    "id": "TN00311",
+    "name": "K  M HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "110-14, Palakad Road, Pollachi,Coimbatore",
+    "phone": "044-26613655",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.9390935,79.4860588",
+    "pincode": "642 001"
+  },
+  {
+    "id": "TN00312",
+    "name": "K.G.HOSPITAL K.GOVINDASAMY NAIDU MEDICAL  TRUST",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Govt. Arts College Road, Coimbatore",
+    "phone": "0422-2212121 ,  29 , 2218001 , 09",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.933452,79.4847793",
+    "pincode": "641 018"
+  },
+  {
+    "id": "TN00313",
+    "name": "K.G.M.  HOSPITAL (P) LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "R. S. Puram, Coimbatore",
+    "phone": "0422-2627875",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.9364659,79.4849216",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00314",
+    "name": "K.P.S.  HOSPITALS  PRIVATE LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Annur Road, Mettupalayam",
+    "phone": "0422-223118 ,  223119 , 224314",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.2188838,79.6575153",
+    "pincode": "641 301"
+  },
+  {
+    "id": "TN00315",
+    "name": "K.R.HEALTH  CARE (P)  LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "93F, Mettupalayam Road, Periyanaicken Palayam, Coimbatore",
+    "phone": "0422-2692222 ,  2692223",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.9411788,79.4956689",
+    "pincode": "641 020"
+  },
+  {
+    "id": "TN00316",
+    "name": "K.T.V.R.  GROUP  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Narayana Guru Road, Saibaba Colony,Coimbatore",
+    "phone": "0422-2445451",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.939961,79.489061",
+    "pincode": "641 011"
+  },
+  {
+    "id": "TN00317",
+    "name": "KALPANA  MEDICAL  CENTRE PVT  LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Mettupalayam  Road, Kavundampalayam, Coimbatore",
+    "phone": "0422-2435597 ,  2435598",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.9386054,79.4791472",
+    "pincode": "641 030"
+  },
+  {
+    "id": "TN00318",
+    "name": "KAUSALYA MEDICAL  CENTER",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Opp. Kamachi Amman Kovil, Coimbatore",
+    "phone": "04259-2223959",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.7382719,78.9755941",
+    "pincode": "641 001"
+  },
+  {
+    "id": "TN00319",
+    "name": "KMCH CITY  CENTER",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.18, Vivekananda Road, Ram Nagar,Coimbatore",
+    "phone": "0422-4324647",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.7359843,78.9651457",
+    "pincode": "641 009"
+  },
+  {
+    "id": "TN00320",
+    "name": "KONGUNAD  HOSPITALS  (P) LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "79, 11Th Street, Tatabad,Coimbatore",
+    "phone": "0422-4316000",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.7383735,78.9638899",
+    "pincode": "641 012"
+  },
+  {
+    "id": "TN00321",
+    "name": "KOVAI  DIABETES SPECIALITY  CENTER  AND HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.15, Vivekananda Road, Ram Nagar,Coimbatore",
+    "phone": "0422-2236806",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.731198,78.960915",
+    "pincode": "641 009"
+  },
+  {
+    "id": "TN00322",
+    "name": "KOVAI  HEART  FOUNDATION (P)  LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "687/1, Trichy Road, Alvernia Convent Bus Stop, Ramanathapuram",
+    "phone": "0422-2320789",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.824778,78.9466031",
+    "pincode": "641 045"
+  },
+  {
+    "id": "TN00323",
+    "name": "KOVAI  MEDICAL  CENTER & HOSPITAL  LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Post Box No.3209,   Avinashi Road, Coimbatore",
+    "phone": "0422-4323602 ,  702",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.7390902,78.9600652",
+    "pincode": "641 014"
+  },
+  {
+    "id": "TN00324",
+    "name": "KOVAI  MEDICAL  CENTRE HOSPITAL  LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "242 B, Trichy Road, Mathiyalagan Nagar,   Sulur, Coimbatore",
+    "phone": "0422-2682940",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.729583,78.960395",
+    "pincode": "641 402"
+  },
+  {
+    "id": "TN00325",
+    "name": "KURINJI  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "522/3, Udayampalayam  Road, Behind EB Sub Station,Nava India, Sowripalayam Post, Coimbatore.",
+    "phone": "0427-2433304",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.7360476,78.9642468",
+    "pincode": "641 028"
+  },
+  {
+    "id": "TN00326",
+    "name": "LAKSHMI  MEDICAL  CENTRE AND  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "18/121, MTP  Road,Thudiyalur, Coimbatore",
+    "phone": "0422-2644133",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.7383735,78.9638899",
+    "pincode": "641 034"
+  },
+  {
+    "id": "TN00327",
+    "name": "LALITHAA  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "828A, Cross-Cut Road, Gandhipuram, Coimbatore",
+    "phone": "0422-2499533 ,  2499698",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.7385778,78.9664034",
+    "pincode": "641 012"
+  },
+  {
+    "id": "TN00328",
+    "name": "LOTUS EYE CARE  HOSPITAL LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "18-19, Cowley Brown Road, R.S.Puram,Coimbatore",
+    "phone": "0422-2626454 ,  2626565 ,  4229999",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Surgical Gastroenterology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.7559697,79.761194",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00329",
+    "name": "LOTUS EYE CARE  HOSPITAL LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "1, Avinashi Road, Civil Aerodrome Post,Coimbatore",
+    "phone": "0422-2626454 ,  2626565 ,  4229999",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Surgical Gastroenterology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.5196709,79.3237728",
+    "pincode": "641 014"
+  },
+  {
+    "id": "TN00330",
+    "name": "M.V.  EYE  CARE  CENTER",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "10, Kalidas Road, Ram Nagar, Coimbatore",
+    "phone": "0422-2231260 ,  2235296",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.5395043,79.48759",
+    "pincode": "641 009"
+  },
+  {
+    "id": "TN00331",
+    "name": "KUMARAN  MEDICAL  CENTRE",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.499/500, Sathy Main Road, Kurumbapalayam, S.S.Kulam(Po),Coimbatore",
+    "phone": "0422-2226222",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.3991631,79.6915953",
+    "pincode": "641 107"
+  },
+  {
+    "id": "TN00332",
+    "name": "MADURAI EYE CENTER",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "137, East Periasamy Road,R.S. Puram, Coimbatore",
+    "phone": "0422-2553077",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "Cardiothoracic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=11.7720602,79.7595137",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00333",
+    "name": "MANU  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.1, Paari nagar,Sungam Bye-pass, Sungam, Coimbatore",
+    "phone": "99526 69787 96777 65813",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.7619051,79.7616674",
+    "pincode": "641 045"
+  },
+  {
+    "id": "TN00334",
+    "name": "MEDWIN  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Site No.42&43, kothari Layout, Trichy Road,Coimbatore",
+    "phone": "0422-2316666",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.7652742,79.7224272",
+    "pincode": "641005"
+  },
+  {
+    "id": "TN00335",
+    "name": "MRS  HOSPITAL  & FERTILITY CENTRE",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "3, MHSS backside,Opp. to  ATSC Theatre, Pollachi, Coimbatore",
+    "phone": "04259-225743",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery. Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.7575142,79.7614558",
+    "pincode": "642 001"
+  },
+  {
+    "id": "TN00336",
+    "name": "N  G  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "577, Trichy Road, Singanallur, Coimbatore",
+    "phone": "0422-2595963",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=11.7611425,79.7540861",
+    "pincode": "641 005"
+  },
+  {
+    "id": "TN00337",
+    "name": "N.M HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "91,92, Rahman Sait Colony, Sowri Palayam Pirivu, Ramanatha Puram,Coimbatore",
+    "phone": "0422-2312383",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=11.7477847,79.7456191",
+    "pincode": "641 045"
+  },
+  {
+    "id": "TN00338",
+    "name": "NATARAJ  MEDICAL  CARE CENTRE",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Bazaar Street,Madukkarai, Coimbatore",
+    "phone": "0422-2622259 /  64",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.7702741,79.5520502",
+    "pincode": "641 105"
+  },
+  {
+    "id": "TN00339",
+    "name": "NEHRU  UROLOGY  CENTRE",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.58/1, 3rd Cross West, Bharathy Colony, Peelamedu, Coimbatore",
+    "phone": "0422-2560081",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.7559484,79.7613456",
+    "pincode": "641 004"
+  },
+  {
+    "id": "TN00340",
+    "name": "NRP HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.l, LIC Agents Colony, Sundarapuram, Coimbatore",
+    "phone": "0422- 2672886 0422- 2675979 0422- 2671954",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "General Medicine - Medical Care",
+      "Orthopaedic Surgery",
+      "Gastro Enterology",
+      "Genitourinary Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=11.7576227,79.7573626",
+    "pincode": "641 024"
+  },
+  {
+    "id": "TN00341",
+    "name": "ONE CARE MEDICAL  CENTER",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.61, N.S.R. Road,Saibaba Colony, Coimbatore",
+    "phone": "0422-2431010",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "General Medicine - Medical Care",
+      "Orthopaedic Surgery",
+      "Gastro Enterology",
+      "Genitourinary Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=11.7501062,79.7601977",
+    "pincode": "641 011"
+  },
+  {
+    "id": "TN00342",
+    "name": "ORTHO  ONE ORTHOPAEDIC SPECIALITY  CENTRE",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.657, Trichy Road, Singanallur Post, Near Stock Exchange, Coimbatore",
+    "phone": "0422-4055100",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "General Medicine - Medical Care",
+      "Orthopaedic Surgery",
+      "Gastro Enterology",
+      "Genitourinary Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=11.7438913,79.7455956",
+    "pincode": "641 005"
+  },
+  {
+    "id": "TN00343",
+    "name": "P.S.G.  HOSPITALS",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Avinashi Road, Peelamedu, Coimbatore",
+    "phone": "0422-2570170",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Pediatrics",
+      "Gastro-enterology",
+      "General Surgery",
+      "Gynaecology",
+      "Obsteritics",
+      "Medical\nOncology",
+      "Urology",
+      "Ophthalmology",
+      "Surgical\nOncology",
+      "Neurology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.2341858,78.8775685",
+    "pincode": "641 004"
+  },
+  {
+    "id": "TN00344",
+    "name": "PGS  HOSPITAL  (EECP)",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "14, Cowley Brown Road,  R S Puram, Coimbatore",
+    "phone": "0422-4366305 ,  6562955",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Paediatrics"
+    ],
+    "location_link": "https://maps.google.com/?q=11.1980964,78.8730223",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00345",
+    "name": "PILLS  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.70/53, Bharathi Road, LIG Colony - 1, Mahalingapuram, Pollachi",
+    "phone": "04259-235757",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Paediatrics"
+    ],
+    "location_link": "https://maps.google.com/?q=11.1283918,78.8382069",
+    "pincode": "642 002"
+  },
+  {
+    "id": "TN00346",
+    "name": "PONNAMMAL  DURAISAMY EYE  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.90, Vivekananda Road, Ram Nagar,Coimbatore",
+    "phone": "0422-2232466 /  0422-4206845",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Paediatrics"
+    ],
+    "location_link": "https://maps.google.com/?q=11.2342104,78.8806852",
+    "pincode": "641 009"
+  },
+  {
+    "id": "TN00347",
+    "name": "PRABHU  POLY  CLINIC",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.94, New Scheme Road, Pollachi Coimbatore",
+    "phone": "04259-224407",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Paediatrics"
+    ],
+    "location_link": "https://maps.google.com/?q=11.2404576,78.8643533",
+    "pincode": "642 002"
+  },
+  {
+    "id": "TN00348",
+    "name": "PREETHI  MEDICAL  CENTRE AND  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "258, 9th Street Exn., Opp. To CSI Church, Gandhipuram, Coimbatore",
+    "phone": "0422-2522544",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Surgical Oncology",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.2352792,78.8758687",
+    "pincode": "641 012"
+  },
+  {
+    "id": "TN00349",
+    "name": "RAM POLY  CLINIC",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "146/2A, New Scheme Road, Pollachi,Coimbatore",
+    "phone": "04259-22919 ,  228989",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.1400585,79.0786281",
+    "pincode": "642002"
+  },
+  {
+    "id": "TN00350",
+    "name": "RASI  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "558, D.B.Road,R.S.Puram, Coimbatore",
+    "phone": "0422-2540118 ,  2545120",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=11.1407698,79.0753823",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00351",
+    "name": "REX ORTHOPAEDIC SURGERY HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "43,   R & R Layout, Behind Shanmuga Theater, Poomarket Bus Stop, Mettupalayam  Road, Coimbatore",
+    "phone": "0422-2542542 ,  2542540",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=11.2091802,79.3690831",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00352",
+    "name": "RICHMOND  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "1287, Trichy Road, Opp. ICICI Bank, Coimbatore",
+    "phone": "0422-2303630 ,  2303603",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7660825,79.8408514",
+    "pincode": "641 018"
+  },
+  {
+    "id": "TN00353",
+    "name": "ROYAL  CARE SUPER SPECIALITY  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.372F, Dr. Nanjappa Road, Coimbatore",
+    "phone": "0422-4001000 0422-2233000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7846021,79.8352767",
+    "pincode": "641 018"
+  },
+  {
+    "id": "TN00354",
+    "name": "ROYAL  CARE SUPER SPECIALITY  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.554 & 555, L &T Road, Neelambur,Coimbatore",
+    "phone": "0422-4001000 0422-2233000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7569638,79.8258976",
+    "pincode": "641 062"
+  },
+  {
+    "id": "TN00355",
+    "name": "RS  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No. 224/6, East Sambandam Road, R.S. Puram, Coimbatore",
+    "phone": "0422-2555278 /  0422-2555288",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=10.765409,79.8409996",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00356",
+    "name": "S.P.T. HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "50, Vivekananda Road, Ram Nagar, Coimbatore",
+    "phone": "0422-2232525 ,  4380543",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=11.0971872,79.6531785",
+    "pincode": "641 009"
+  },
+  {
+    "id": "TN00357",
+    "name": "SANGEETHA  SUPER SPECIALITY  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.402, H-Palakkad Main Road, Kuniyamuthur,Coimbatore",
+    "phone": "0422-2252575",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0988421,79.6540828",
+    "pincode": "641 008"
+  },
+  {
+    "id": "TN00358",
+    "name": "SANKARA EYE CENTRE  (SRI KANCHI  KAMAKOTI MEDICAL TRUST)",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "16/16A,Sathyroad, Sivanandapuram, Coimbatore",
+    "phone": "0422-4256789",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0980923,79.6530086",
+    "pincode": "641 035"
+  },
+  {
+    "id": "TN00359",
+    "name": "SANKARA EYE HOSPITAL (R.S  PURAM)",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Sankara Eye Centre,Sathy Road, Sivananda Puram, Coimbatore",
+    "phone": "0422-4256789",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0993689,79.6543584",
+    "pincode": "641 033"
+  },
+  {
+    "id": "TN00360",
+    "name": "SATHYA  MEDICAL  CENTRE  & HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.58-63, Tatabad, 1st Street, Sivanandha Colony, Coimbatore",
+    "phone": "9150225005 /  9843267661",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=11.1017705,79.6525686",
+    "pincode": "641 012"
+  },
+  {
+    "id": "TN00361",
+    "name": "SATHYAM  KIDNEY  CARE CENTRE",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.5/621A, Thadagam Road,K.N.G. Pudur Pirivu, (Near Petrol Bunk),Coimbatore",
+    "phone": "0422-2400401",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=11.098357,79.6529924",
+    "pincode": "641 108"
+  },
+  {
+    "id": "TN00362",
+    "name": "SATHYAN  EYE CARE HOSPITAL  &  COIMBATORE GLAUCOMA  FOUNDATION",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.77, Om Sakthi Nagar, Sowripalayam Pirivu, Off. Trichy Road, Ramanathapuram, Coimbatore",
+    "phone": "0422-2321177 9489859147",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7770113,79.6367339",
+    "pincode": "641 045"
+  },
+  {
+    "id": "TN00363",
+    "name": "SENTHIL  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "8/1, R&R Layout, Mettupalayam  Road, Coimbatore",
+    "phone": "0422-2549222",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.5365485,79.6386093",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00364",
+    "name": "SHEELA CLINIC",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "46, East Power House Road, Coimbatore",
+    "phone": "0422-4334500 ,  4334563",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7755153,79.628729",
+    "pincode": "641 012"
+  },
+  {
+    "id": "TN00365",
+    "name": "SHRI  ANDAVAR  EYE CARE AND  RETINA CENTRE",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.4, LIG Colony, Palladam Road, Pollachi,Coimbatore",
+    "phone": "04259-221000 /  9442056767",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8090685,79.6377039",
+    "pincode": "642 002"
+  },
+  {
+    "id": "TN00366",
+    "name": "SINDHIA HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "54, LIC Colony, Mahalingapuram, Pollachi",
+    "phone": "04259-229163",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.535722,79.6358896",
+    "pincode": "642 001"
+  },
+  {
+    "id": "TN00367",
+    "name": "SNEKARAM  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "5-1, Venkateshvara Lay-Out, LIC Colony, Selvapuram, Opp. B10 Police Station.Coimbatore",
+    "phone": "0422-2341552",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7795174,79.6099246",
+    "pincode": "641 026"
+  },
+  {
+    "id": "TN00368",
+    "name": "SOWMIYA  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Kannarpalayam, Karamadai, Coimbatore",
+    "phone": "04254-272212 /  04254-272041",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.5377986,79.6459947",
+    "pincode": "641 104"
+  },
+  {
+    "id": "TN00369",
+    "name": "SREE  ABIRAMI  HOSPITAL  (P) LTD",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "33, Madukarai Road, Sundarapuram, Coimbatore",
+    "phone": "0422-2674999",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.6624547,79.4494108",
+    "pincode": "641 024"
+  },
+  {
+    "id": "TN00370",
+    "name": "SREE  ABISHEK  HOSPITALS",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No. 1 , Raju Gardens,Near T.V.S Nagar Bus Stop, Thadagam Road, Coimbatore",
+    "phone": "0422-2403030",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7661312,79.6343691",
+    "pincode": "641025"
+  },
+  {
+    "id": "TN00371",
+    "name": "SREE RAM  NURSING  HOME",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "5/33, N G G O Colony, Coimbatore",
+    "phone": "0422-2642933",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7754337,79.6051433",
+    "pincode": "641 022"
+  },
+  {
+    "id": "TN00372",
+    "name": "SREE RAMAKRISHNA HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "395, Sarojini Naidu Street, Coimbatore",
+    "phone": "0422-4500122 ,  4500123",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7776463,79.6366766",
+    "pincode": "641 044"
+  },
+  {
+    "id": "TN00373",
+    "name": "SRI  BALA  MEDICAL  CENTRE &  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "901, Trichy Road,Ramanathapuram (Near Signal), Coimbatore",
+    "phone": "0422-2323333",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8120147,78.6800894",
+    "pincode": "641 045"
+  },
+  {
+    "id": "TN00374",
+    "name": "SRI  BALAJI  HOSPITALS",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "314, Pollachi Main Road, Sundarapuram, Coimbatore",
+    "phone": "0422-2673788 ,  2670288",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.6056411,78.4201098",
+    "pincode": "641 024"
+  },
+  {
+    "id": "TN00375",
+    "name": "SRI KUMAR  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Koundampalayam, Coimbatore",
+    "phone": "0422-24484462",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8289292,78.6821572",
+    "pincode": "641 030"
+  },
+  {
+    "id": "TN00376",
+    "name": "SRI  LAVANYA GENERAL HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Kalveeran Palayam, Coimbatore",
+    "phone": "0422-2423131",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7002279,78.6752394",
+    "pincode": "641 046"
+  },
+  {
+    "id": "TN00377",
+    "name": "ST. MARY'S  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Church  Road, Podanur, Coimbatore",
+    "phone": "0422-2410832 ,  2411995 ,",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.1412669,78.5913547",
+    "pincode": "641 023"
+  },
+  {
+    "id": "TN00378",
+    "name": "SURIYA HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Arignar Anna Street, Annur Road, Mettupalayam",
+    "phone": "04254-227074",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8070322,78.7111298",
+    "pincode": "641 301"
+  },
+  {
+    "id": "TN00379",
+    "name": "THE  EYE  FOUNDATION",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Near CTC Bus Depot, Trichy Road, Sungam,Coimbatore",
+    "phone": "914224242000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8201285,78.67488",
+    "pincode": "641 018"
+  },
+  {
+    "id": "TN00380",
+    "name": "THE  EYE  FOUNDATION",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.146/D, K.A. Complex, New Scheme Road, Pollachi, Coimbatore",
+    "phone": "914224242000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8237684,78.6836753",
+    "pincode": "642002"
+  },
+  {
+    "id": "TN00381",
+    "name": "THE  EYE  FOUNDATION",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.4, Railway Station  Road, Mettupalayam,Coimbatore",
+    "phone": "914224242000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8099963,78.6793453",
+    "pincode": "641301"
+  },
+  {
+    "id": "TN00382",
+    "name": "THE  EYE  FOUNDATION, COIMBATORE.",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.582-A, D.B.Road,R.S.Puram, Coimbatore",
+    "phone": "0422-4242000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8264,78.6842247",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00383",
+    "name": "V.G  HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "Mettupalayam  Road, Coimbatore",
+    "phone": "0422-4226777",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.830781,78.6847839",
+    "pincode": "641 034"
+  },
+  {
+    "id": "TN00384",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.32 / 36, K. A. Complex, New Scheme Road, Pollachi",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.834532,78.6914866",
+    "pincode": "642 001"
+  },
+  {
+    "id": "TN00385",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "81/83,Thiruvenkata Samy Road (West), Opp.Kamachi Amman Koil, R.S.Puram,Coimbatore",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.9199322,78.7428878",
+    "pincode": "641 002"
+  },
+  {
+    "id": "TN00386",
+    "name": "VGM HOSPITAL INSTITUTE OF GASTERO-ENTROLOGY",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "No.2100, Trichy Road, (Rajalakshmi Mills Stop),No.2100, Trichy Road, (Rajalakshmi Mills Stop),\nCoimbatore",
+    "phone": "0422-2572573",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.9545471,78.7550805",
+    "pincode": "641 005"
+  },
+  {
+    "id": "TN00387",
+    "name": "VIKRAM  E  N  T HOSPITAL",
+    "city": "Coimbatore",
+    "state": "Tamil nadu",
+    "address": "69, West Venkatasamy Road, R S Puram,Coimbatore",
+    "phone": "0422-2550633",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.805109,78.6865239",
+    "pincode": "641 002"
+  }
+]

@@ -14,10 +14,6 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-import faiss
-import numpy as np
-from sentence_transformers import SentenceTransformer
-
 from app.routes._data import (
     DATA_DIR,
     clean_phone_number,
@@ -90,8 +86,8 @@ INTENT_PREFIX = {
 }
 
 _logger = logging.getLogger("roadsos.retrieval")
-_encoder: SentenceTransformer | None = None
-_faiss_index: faiss.IndexFlatIP | None = None
+_encoder: Any | None = None
+_faiss_index: Any | None = None
 _chunks: list[ContextChunk] = []
 _semantic_search_available = False
 
@@ -110,10 +106,16 @@ def init_embedding_index() -> None:
 
     if not chunks:
         _logger.warning("No knowledge chunks found for indexing.")
+        import faiss
+
         _faiss_index = faiss.IndexFlatIP(384)
         return
 
     try:
+        import faiss
+        import numpy as np
+        from sentence_transformers import SentenceTransformer
+
         _encoder = SentenceTransformer("all-MiniLM-L6-v2")
         texts = [f"{chunk.title} {chunk.body}" for chunk in chunks]
         embeddings = _encoder.encode(

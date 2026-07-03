@@ -61,9 +61,9 @@ team_accalerate/
       services/                SOS, notification, routing, risk services
     data/
       danger_zones.json
-      hospitals.json
-      police_stations.json
-      towing.json
+      hospitals/
+      police_stations/
+      towing_services/
       road_alerts.json
       emergency_guides.txt
       safety_rules.txt
@@ -186,9 +186,9 @@ The backend uses local files in `roadsos-backend/data/` as the knowledge base:
 
 - `danger_zones.json`: accident-prone blackspots and risk data.
 - `road_alerts.json`: active or sample traffic and road incident alerts.
-- `hospitals.json`: hospital locations and contacts.
-- `police_stations.json`: police station locations and contacts.
-- `towing.json`: towing and roadside recovery services.
+- `hospitals/`: district-wise hospital locations and contacts.
+- `police_stations/`: district-wise police station locations and contacts.
+- `towing_services/`: district-wise towing and roadside recovery services.
 - `emergency_guides.txt`: first-aid and emergency response instructions.
 - `safety_rules.txt`: road safety rules and legal guidance.
 

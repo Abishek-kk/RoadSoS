@@ -1,0 +1,301 @@
+[
+  {
+    "id": "TN00403",
+    "name": "BGR  HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "No  2B, Ramalingam Chetti Street, (Near LIC), Dharmapuri",
+    "phone": "0452-4268211",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8138838,78.6750836",
+    "pincode": "636 701"
+  },
+  {
+    "id": "TN00404",
+    "name": "DNV ORTHO  HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "No  72AB, Salem Main Road, Dharmapuri",
+    "phone": "04342-231822 /  230355",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8243154,78.6952013",
+    "pincode": "636 705"
+  },
+  {
+    "id": "TN00405",
+    "name": "DNV  POLYCLINIC",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "No.7, Rajagopal Goundar Street,Dharmapuri",
+    "phone": "04342-265091",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8399413,78.6564021",
+    "pincode": "636 701"
+  },
+  {
+    "id": "TN00406",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "136, Ist Floor, Nehthaji Bye Pass Road, Opp to Hotel Rama, Dharmapuri",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8166157,78.689072",
+    "pincode": "636 701"
+  },
+  {
+    "id": "TN00407",
+    "name": "JOTHI  LASER  EYE CARE CENTER",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "110, Duraisamy Naidu Street,Dharmapuri",
+    "phone": "04342-263636",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8042682,78.6737126",
+    "pincode": "636 701"
+  },
+  {
+    "id": "TN00408",
+    "name": "K.S.HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "1, CK Srinivasa Rao Street, Dharmapuri",
+    "phone": "04342-261948",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.814402,78.679514",
+    "pincode": "636 701"
+  },
+  {
+    "id": "TN00409",
+    "name": "KAMALAM  NURSING HOME",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "234, Nethaji Bye Pass Road, Dharmapuri",
+    "phone": "04342-260707",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8290242,78.6863937",
+    "pincode": "636 701"
+  },
+  {
+    "id": "TN00410",
+    "name": "KRISHNA EYE  FOUNDATION",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "No.5, P.R.Sundaram Iyyer Street, Opp to Senthil kumar Textiles,Dharmapurai",
+    "phone": "04342-262625",
+    "type": "Private",
+    "specialties": [
+      "E.N.T. & Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8021374,78.6913086",
+    "pincode": "636701"
+  },
+  {
+    "id": "TN00411",
+    "name": "MEENAKSHI  HOSPITAL  & FERTILITY  CENTRE",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "No.18/61,  Sengodipuram, Dharmapuri",
+    "phone": "04342-269010",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8270955,78.6795343",
+    "pincode": "636  701"
+  },
+  {
+    "id": "TN00412",
+    "name": "NITHYA HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "No.14-b, Nethaji Bye-Pass Road, Opp to Govt Hospital, Salem  Main Road,Dharmapuri",
+    "phone": "04342-260371",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.797197,78.6824194",
+    "pincode": "636 701"
+  },
+  {
+    "id": "TN00413",
+    "name": "OM SAKTHI HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "4, Sengodipuram,Dharmapuri",
+    "phone": "04343-233111",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "General Medicine - Medical Care",
+      "Orthopaedic Surgery",
+      "Gastro Enterology",
+      "Genitourinary Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8022986,78.6801383",
+    "pincode": "636 701"
+  },
+  {
+    "id": "TN00414",
+    "name": "SRI  ANNAI HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "No.5-C, Narasimha Achari Street, Dharmapuri",
+    "phone": "04342-260738",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7977713,78.707785",
+    "pincode": "636 701"
+  },
+  {
+    "id": "TN00415",
+    "name": "SRI  RAGAVENDARA HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "No.79, S.V. Road,Dharmapuri.",
+    "phone": "04342-265432",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.802273,78.6800369",
+    "pincode": "636701"
+  },
+  {
+    "id": "TN00416",
+    "name": "SUPA  HOSPITAL  CARDIAC CARE CENTRE",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "Siddha Veeraapa Chety Street, Near Bus Stand, Dharamapuri",
+    "phone": "04342-260576",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0080167,78.4524591",
+    "pincode": "636 107"
+  },
+  {
+    "id": "TN00417",
+    "name": "THANGAM  HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "76/41C, Salem  Main Road, Dharmapuri",
+    "phone": "04342-233888",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8573357,78.6895381",
+    "pincode": "636 705"
+  },
+  {
+    "id": "TN00418",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "1, P.R. Sundaram Street, Dharmapuri",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.820463,78.6830296",
+    "pincode": "636 701"
+  },
+  {
+    "id": "TN00419",
+    "name": "VIJAYA  MULTI  SPECIALITY HOSPITAL",
+    "city": "Dharmapuri",
+    "state": "Tamil nadu",
+    "address": "No.4/486-A,  Pennagaram Main  Road,Dharmapuri",
+    "phone": "04342-280108",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8180757,78.6850896",
+    "pincode": "636  703"
+  }
+]

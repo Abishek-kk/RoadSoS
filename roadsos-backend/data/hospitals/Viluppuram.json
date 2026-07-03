@@ -1,0 +1,207 @@
+[
+  {
+    "id": "TN00771",
+    "name": "SRI  VENKATESHWARAA MEDICAL  COLLEGE HOSPITAL",
+    "city": "Puducheery",
+    "state": "Puducheery",
+    "address": "No: 13-A, Pondy - Villupuram Main Road, Ariyur, Puducherry",
+    "phone": "0413-2260601",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0782275,76.9409744",
+    "pincode": "605102"
+  },
+  {
+    "id": "TN01177",
+    "name": "ASHWINI  HOSPITAL",
+    "city": "Villupuram",
+    "state": "Tamil nadu",
+    "address": "40, Nehruji Road,Villupuram",
+    "phone": "04146- 223044",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.1755996,77.8798059",
+    "pincode": "605 602"
+  },
+  {
+    "id": "TN01178",
+    "name": "DEVAKI HOSPITAL",
+    "city": "Villupuram",
+    "state": "Tamil nadu",
+    "address": "No.1, Chairman Chidambaram Street, West Shanmugapuram, Villupuram",
+    "phone": "04146-251023",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.1724372,77.8598519",
+    "pincode": "605 602"
+  },
+  {
+    "id": "TN01179",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL  LTD",
+    "city": "Villupuram",
+    "state": "Tamil nadu",
+    "address": "19-Trichy Trunk Road, Villuppuram",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 / 3141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.172847,77.861113",
+    "pincode": "605 602"
+  },
+  {
+    "id": "TN01180",
+    "name": "DURAI  GASTRO  CARE HOSPITAL",
+    "city": "Villupuram",
+    "state": "Tamil nadu",
+    "address": "Kamal Nagar Extn.,Opp.Collector Office, Villupuram",
+    "phone": "04146-251351 9443723677",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Gynaecology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      "Renal transplant",
+      "Liver Transplant"
+    ],
+    "location_link": "https://maps.google.com/?q=8.7442685,78.0503709",
+    "pincode": "605  602"
+  },
+  {
+    "id": "TN01181",
+    "name": "E.S.HOSPITAL",
+    "city": "Villupuram",
+    "state": "Tamil nadu",
+    "address": "32B, Trichy Trunk Road, Villupuram",
+    "phone": "04146-221100",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Gynaecology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      "Renal transplant",
+      "Liver Transplant"
+    ],
+    "location_link": "https://maps.google.com/?q=8.798869,78.1261497",
+    "pincode": "605 602"
+  },
+  {
+    "id": "TN01182",
+    "name": "i-MED  SUPER  SPECIALITY HOSPITALS",
+    "city": "Villupuram",
+    "state": "Tamil nadu",
+    "address": "No.55/1B, Wahab Nagar, Marakanam Road,Opp. To  Fire Station, Tindivanam",
+    "phone": "04147-250011",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.1674295,77.8530811",
+    "pincode": "604   001"
+  },
+  {
+    "id": "TN01183",
+    "name": "MARAGADAM HOSPITAL",
+    "city": "Villupuram",
+    "state": "Tamil nadu",
+    "address": "686/687, Nehruji Road, Villupuram",
+    "phone": "04146-225406",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.6203974,78.0706818",
+    "pincode": "605 602"
+  },
+  {
+    "id": "TN01184",
+    "name": "SRI  BHARANI HOSPITAL",
+    "city": "Villupuram",
+    "state": "Tamil nadu",
+    "address": "No.5, Chairman Subrayar Street, West Sanmugapuram, Villupuram",
+    "phone": "04146-224775",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.1953281,78.2248291",
+    "pincode": "605 602"
+  },
+  {
+    "id": "TN01185",
+    "name": "SUMATHY HOSPITAL",
+    "city": "Villupuram",
+    "state": "Tamil nadu",
+    "address": "No.39, Mampazhapattu Road, Villupuram",
+    "phone": "04146- 223217",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.1743915,77.8666789",
+    "pincode": "605 602"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "TW023",
+    "name": "Rainbow Recovery and Towing Service",
+    "district": "Salem",
+    "state": "Tamil Nadu",
+    "address": "Theevattipatti, Omalur, Bommidi, Salem",
+    "phone": "+91 8526765534",
+    "type": "Car/Truck Towing",
+    "open_24x7": true,
+    "lat": 11.6643,
+    "lng": 78.146,
+    "rating": null
+  },
+  {
+    "id": "TW024",
+    "name": "Rainbow Recovery and Towing Service",
+    "district": "Salem",
+    "state": "Tamil Nadu",
+    "address": "Theevattipatti, Omalur, Bommidi, Salem",
+    "phone": "+91 8667893399",
+    "type": "Car/Truck Towing",
+    "open_24x7": true,
+    "lat": 11.6643,
+    "lng": 78.146,
+    "rating": null
+  },
+  {
+    "id": "TW025",
+    "name": "Rainbow Recovery and Towing Service",
+    "district": "Salem",
+    "state": "Tamil Nadu",
+    "address": "Theevattipatti, Omalur, Bommidi, Salem",
+    "phone": "+91 9840760622",
+    "type": "Car/Truck Towing",
+    "open_24x7": true,
+    "lat": 11.6643,
+    "lng": 78.146,
+    "rating": null
+  }
+]

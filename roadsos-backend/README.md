@@ -42,9 +42,9 @@ roadsos-backend/
 │       └── location.py           — GPS payload schema
 ├── data/                         — knowledge base
 │   ├── danger_zones.json         — blackspots + risk levels
-│   ├── hospitals.json            — hospital GPS + contacts
-│   ├── police_stations.json      — station GPS + contacts
-│   ├── towing.json               — towing GPS + contacts
+│   ├── hospitals/                — district-wise hospital GPS + contacts
+│   ├── police_stations/          — district-wise station GPS + contacts
+│   ├── towing_services/          — district-wise towing GPS + contacts
 │   ├── road_alerts.json          — active incidents
 │   ├── emergency_guides.txt      — first-aid instructions
 │   └── safety_rules.txt          — road safety rules

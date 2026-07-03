@@ -1,0 +1,566 @@
+[
+  {
+    "id": "TN01130",
+    "name": "AARTHI HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "60, Santhaipettai,Kovilpatty",
+    "phone": "04632-221346 ,  221347 , 221348",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.2169459,77.4663891",
+    "pincode": "628  502"
+  },
+  {
+    "id": "TN01131",
+    "name": "ARAVIND  EYE HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "37, Meenakshipuram West, Near Old Bus Stand, Tuticorin",
+    "phone": "044-24895781",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.3321762,77.1730113",
+    "pincode": "628  002"
+  },
+  {
+    "id": "TN01132",
+    "name": "AVM HOSPITALS",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "135, Palayamcottai Road,Tuticorin",
+    "phone": "0461-2320733",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urninary Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.3045213,77.2274404",
+    "pincode": "628  003"
+  },
+  {
+    "id": "TN01133",
+    "name": "B.G.  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No. 1/393, Tuticorin Road, Veerapandianpatnam, Tiruchendur",
+    "phone": "04639- 245316",
+    "type": "Private",
+    "specialties": [
+      "General Medical",
+      "Medicine - Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1883792,77.4175201",
+    "pincode": "628 216"
+  },
+  {
+    "id": "TN01134",
+    "name": "BE  WELL  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.26, Thiruchendur Road, Thoothukudi",
+    "phone": "044-28151112",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1804662,77.2618997",
+    "pincode": "628  003"
+  },
+  {
+    "id": "TN01135",
+    "name": "CITY HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "106G/8A, Palani Main Road (West), Millerpuram  Corner, Tuticorin",
+    "phone": "0424-2214000 ,  4560046",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecologys",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=8.1796147,77.4331738",
+    "pincode": "628 008"
+  },
+  {
+    "id": "TN01136",
+    "name": "DR  AGARWAL  EYE  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "138/4, Palayamkottai Road, Tuticorin",
+    "phone": "04362-277826",
+    "type": "Private",
+    "specialties": [
+      "Orthopaedic Surgery",
+      "Plastic & Facio Maxilliary"
+    ],
+    "location_link": "https://maps.google.com/?q=8.2112598,77.3030565",
+    "pincode": "628  003"
+  },
+  {
+    "id": "TN01137",
+    "name": "EDISON  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "286, Kulasai Road, Thiruchendur, Tuticorin",
+    "phone": "04639-242212 ,  245629",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Gynaecology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      "Renal transplant",
+      "Liver Transplant"
+    ],
+    "location_link": "https://maps.google.com/?q=8.211353,77.302919",
+    "pincode": "628  215"
+  },
+  {
+    "id": "TN01138",
+    "name": "JEYANTH NALLATHAMBI HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.3/186, Periyanayagi Puram Main   Road, Korampallam, Opp New Collector Office, Thoothukudi",
+    "phone": "0461-2341122 /  2341113",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.211353,77.302919",
+    "pincode": "628101"
+  },
+  {
+    "id": "TN01139",
+    "name": "KAMALA  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "46 - B, Santhai Pettai Street, Kovilpatti",
+    "phone": "0427-2260468",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.194691,77.3941863",
+    "pincode": "628 502"
+  },
+  {
+    "id": "TN01140",
+    "name": "KAY  JEE NURSING HOME",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "73/10A, Polpettai, Tuticorin",
+    "phone": "0461-2345223 /  5",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Urology",
+      "Cardiology",
+      "Cardio-Thoracic Surgery",
+      "ENT",
+      "Neuro Surgery",
+      "Nephrology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.1892923,77.4041798",
+    "pincode": "628  002"
+  },
+  {
+    "id": "TN01141",
+    "name": "LAXMI  POLYCLINIC",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.152/18A, Polpettai, Near Uzhavar Santhai, New Bus Stand, Thoothukudi",
+    "phone": "0461-2337222 /  0461-2346410",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Surgical Gastroenterology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.3061598,77.223",
+    "pincode": "628 002"
+  },
+  {
+    "id": "TN01142",
+    "name": "NADAR URAVINMURAI SANGAM  PUBLIC  WELFARE HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.239-B/13,Ettayapuram Road, Kovilpatti, Thoothukudi",
+    "phone": "04632-232670 9688677166",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1886934,77.4059563",
+    "pincode": "628 501"
+  },
+  {
+    "id": "TN01143",
+    "name": "PADMA  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "2764/6, Main Road,(Opp. to Lakshmipuram Post Office, Kovilpatti",
+    "phone": "04322-221475 ,  220112",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Pediatrics",
+      "Gastro-enterology",
+      "General Surgery",
+      "Gynaecology",
+      "Obsteritics",
+      "Medical\nOncology",
+      "Urology",
+      "Ophthalmology",
+      "Surgical\nOncology",
+      "Neurology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1673162,77.4200776",
+    "pincode": "628 502"
+  },
+  {
+    "id": "TN01144",
+    "name": "PRIMELINE  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.6/2799 A-D,Tirunelveli Main Road,Opp. To Ramasamy dass Park,Kovilpatti",
+    "phone": "04632-229944",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Surgical Oncology",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.3039099,77.2232709",
+    "pincode": "628 502"
+  },
+  {
+    "id": "TN01145",
+    "name": "RADHU  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.4/105,  Main  Road, Kumaragiri,  Pudukottai, Thoothukudi",
+    "phone": "0461-2271258 9842171559",
+    "type": "Private",
+    "specialties": [
+      "General Medicine-Medical Care",
+      "General Surgery",
+      "Genitourinary Surgery",
+      "Gynaecology",
+      "Orthopaedics",
+      "Nephtology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.2034201,77.4550291",
+    "pincode": "628  103"
+  },
+  {
+    "id": "TN01146",
+    "name": "RAJESH  TILAK  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.107J/79/50G/1,2,3,P.C. Road West, Millerpuram, Thoothukudi",
+    "phone": "0461-2323536",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "General Medicine - Medical Care",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.1803899,77.4191439",
+    "pincode": "628 008"
+  },
+  {
+    "id": "TN01147",
+    "name": "SASI  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.3/535-D,  Nellai  Main Road,(Bye  Pass)  Inam Maniyachi,Kovilpatti",
+    "phone": "04632-290073 89731 90190",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1976911,77.3873629",
+    "pincode": "628  502"
+  },
+  {
+    "id": "TN01148",
+    "name": "SANKAR  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "Main Road, Authoor, Tuticorin",
+    "phone": "04639-238269",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1879111,77.3072662",
+    "pincode": "628  151"
+  },
+  {
+    "id": "TN01149",
+    "name": "SANTHI  MULTISPECIATITY HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.8/70B, Salaiyam Street, Vilathikulam,Thoothukudi",
+    "phone": "04638-233120 04638-234315",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=8.3065865,77.2225316",
+    "pincode": "628  907"
+  },
+  {
+    "id": "TN01150",
+    "name": "SREE CHENDUR MULTISPECIALITY  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.46-A-1, Santhai Pettai Street, Kovilpatti, Thoothukudi",
+    "phone": "04632-234205 /  04632-220965 /  9487710965",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.3592667,77.2914469",
+    "pincode": "628 501"
+  },
+  {
+    "id": "TN01151",
+    "name": "SRI  HOSPITALS",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.57, Ettayapuram Road, Kovilpatti",
+    "phone": "04632-234000",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.3051515,77.2338559",
+    "pincode": "628501"
+  },
+  {
+    "id": "TN01152",
+    "name": "SRI  MURALI  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "46-C, Santhai Pettai Street, Kovilpatti",
+    "phone": "04632-221444",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.2875306,77.2709872",
+    "pincode": "628 502"
+  },
+  {
+    "id": "TN01153",
+    "name": "SRINIVASA HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.87, A.K.S. Theatre Road, Kovilpatti,Thoothukudi",
+    "phone": "04652-277522",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.2954256,77.2471057",
+    "pincode": "628 502"
+  },
+  {
+    "id": "TN01154",
+    "name": "SUDIKSHA  PRABHU MULTISPECIALITY  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "59, 60 AKS Theater Road,Kovilpatti",
+    "phone": "04632-233939 ,  233828",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.119268,77.39159",
+    "pincode": "628 502"
+  },
+  {
+    "id": "TN01155",
+    "name": "SUNDARAM ARULRAJ HOSPITALS",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "145-5B, Jayaraj Road, Tuticorin",
+    "phone": "0461-4230001",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.3606775,77.293088",
+    "pincode": "628  002"
+  },
+  {
+    "id": "TN01156",
+    "name": "THEIVA NURSING  HOME",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.209-A. V.E.Road,Damodaranagar Main Road, Tuticorin",
+    "phone": "2323454 2320213",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1657015,77.4475098",
+    "pincode": "628  003"
+  },
+  {
+    "id": "TN01157",
+    "name": "THULASI  HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "6/6A, Muthanamthapuram, 2nd Street,Kovilpatti",
+    "phone": "04632-222612",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.2012124,77.4551152",
+    "pincode": "628  502"
+  },
+  {
+    "id": "TN01158",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "258-B, V. E. Road,Tuticorin",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.2721105,77.1513924",
+    "pincode": "628  003"
+  },
+  {
+    "id": "TN01159",
+    "name": "VENKATESWARA  HOSPITALS (P)  LTD",
+    "city": "Tuticorin",
+    "state": "Tamil nadu",
+    "address": "No.520, Thirunelveli N.H., K R Nagar (PO), Kovilpatti,Thoothukudi",
+    "phone": "04632-234991",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1968376,77.4309828",
+    "pincode": "628 502"
+  }
+]

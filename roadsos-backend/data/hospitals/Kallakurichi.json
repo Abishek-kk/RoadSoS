@@ -1,0 +1,176 @@
+[
+  {
+    "id": "TN00503",
+    "name": "ANNAI MEDICAL  CENTRE",
+    "city": "Kallakurichi",
+    "state": "Tamil nadu",
+    "address": "No.62/8A, Annamalai Towers, Durugam Road,Kallakurichi",
+    "phone": "04151-225333 /  04151-225444",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery",
+      "Cardiology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.1723075,78.9979203",
+    "pincode": "626 202"
+  },
+  {
+    "id": "TN00504",
+    "name": "DR.  MURUGESAN  HOSPITAL",
+    "city": "Kallakurichi",
+    "state": "Tamil nadu",
+    "address": "Sundaravinayagar Coil St, Kallakurichi",
+    "phone": "04151-222014 ,  226222",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Oncology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Vascular Surgery",
+      "Plastic & Facio Maxilliary."
+    ],
+    "location_link": "https://maps.google.com/?q=10.3805029,78.8167637",
+    "pincode": "606 202"
+  },
+  {
+    "id": "TN00505",
+    "name": "HI-TECH  EYE CARE HOSPITAL",
+    "city": "Kallakurichi",
+    "state": "Tamil nadu",
+    "address": "No.25/A,Chekkumettu Street, Kallakurichi",
+    "phone": "04151-224176",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "Cardiothoracic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=10.3870353,78.8144657",
+    "pincode": "606 202"
+  },
+  {
+    "id": "TN00506",
+    "name": "K.S.  EMERGENCY &  MEDICAL CENTRE",
+    "city": "Kallakurichi",
+    "state": "Tamil nadu",
+    "address": "Salem Main Road,Opp. to  KPR Petrol Bunk, Kallakurichi",
+    "phone": "04151-222026",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.3794048,78.8218912",
+    "pincode": "606 202"
+  },
+  {
+    "id": "TN00507",
+    "name": "SA  HOSPITAL",
+    "city": "Kallakurichi",
+    "state": "Tamil nadu",
+    "address": "No.351, Main Road, Moorarpalayam, Sankarapuram Taluk, Kallakurichi.",
+    "phone": "04151-230333",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=10.3815596,78.814818",
+    "pincode": "606202"
+  },
+  {
+    "id": "TN00508",
+    "name": "SAI  SPECIALITITY HOSPITAL",
+    "city": "Kallakurichi",
+    "state": "Tamil nadu",
+    "address": "No.27 K/2, Raja Nagar, Kallakurichi",
+    "phone": "04151-223355",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.3843176,78.8326016",
+    "pincode": "606 202"
+  },
+  {
+    "id": "TN00509",
+    "name": "SRI  HARI  MULTISPECIALITY HOSPITAL",
+    "city": "Kallakurichi",
+    "state": "Tamil nadu",
+    "address": "No.288/7B, Rajambal Nagar, Salem  Main road, Kallakurichi",
+    "phone": "04151- 227199",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.3722393,78.831922",
+    "pincode": "606 202"
+  },
+  {
+    "id": "TN00510",
+    "name": "SRI  RAJU  HEART  &  SKIN HOSPITAL  LLP",
+    "city": "Kallakurichi",
+    "state": "Tamil nadu",
+    "address": "No.13,  Manikoondu  street, Kallakurichi",
+    "phone": "04151-225555 97156 66770",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.3786057,78.8216522",
+    "pincode": "606  202"
+  },
+  {
+    "id": "TN00511",
+    "name": "SRI  RAM HOSPITAL",
+    "city": "Kallakurichi",
+    "state": "Tamil nadu",
+    "address": "No.1, Malligai Nagar Extension, Aasanur Road, Santhapet, Thirukovilur",
+    "phone": "04153-252522",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.3786058,78.8157312",
+    "pincode": "605 766"
+  },
+  {
+    "id": "TN00512",
+    "name": "SRI  SANJEEVI HOSPITAL",
+    "city": "Kallakurichi",
+    "state": "Tamil nadu",
+    "address": "Durga Road, Kallakurichi",
+    "phone": "04151-224447",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.3801861,78.8185323",
+    "pincode": "606 202"
+  }
+]

@@ -1,0 +1,757 @@
+[
+  {
+    "id": "TN00903",
+    "name": "AADHITHYA MEDICAL CENTRE",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No  64, 4th Cross Street. Cauvery Nagar, South, Thanjavur",
+    "phone": "04362- 272433 04362- 276433",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.9239708,78.1421497",
+    "pincode": "613 005"
+  },
+  {
+    "id": "TN00904",
+    "name": "ANBU  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "4&5, Lakshmi Villas Street, Near Selvam  Theatre, Kumbakonam",
+    "phone": "0435-2432165 ,  2432167 ,  2431114",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9426809,78.1284309",
+    "pincode": "612 001"
+  },
+  {
+    "id": "TN00905",
+    "name": "ANU  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "69, Trichy Road, (Near Convent), Thanjavur",
+    "phone": "04362-275091 ,  93",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery",
+      "Cardiology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9041113,78.095897",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00906",
+    "name": "APEX  HEART HOSPITAL PVT LTD",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.9A, Selvam Nagar, (Near Ganapathy Nagar Bus Stop),M.C. Road, Thanjavur",
+    "phone": "04362-273322 7373739413",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery",
+      "Cardiology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9041113,78.095897",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00907",
+    "name": "DR  AGARWAL  EYE  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.2851/  30A, VOC Nagar,Trichy Main  Road, Thanjavur",
+    "phone": "04362-277826",
+    "type": "Private",
+    "specialties": [
+      "Orthopaedic Surgery",
+      "Plastic & Facio Maxilliary"
+    ],
+    "location_link": "https://maps.google.com/?q=9.8982939,78.0903328",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00908",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "2/381, Indira Nagar, Kumbakonam",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9166782,78.0936582",
+    "pincode": "612 001"
+  },
+  {
+    "id": "TN00909",
+    "name": "DR.ARAVIND  VISION  CARE",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.12, Mutt Street, Kumbakonam,Thanjavur",
+    "phone": "0435- 2420088 8925086413",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9233743,78.113494",
+    "pincode": "612 001"
+  },
+  {
+    "id": "TN00910",
+    "name": "DR.R.G.K.EYE CARE CENTRE",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.29, Marutham, New Housing Unit,Thanjavur",
+    "phone": "04362- 227417 04362- 400514",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical Care",
+      "Orthopaedics",
+      "Neurology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9267039,78.143357",
+    "pincode": "613 005"
+  },
+  {
+    "id": "TN00911",
+    "name": "DR.R.K.NURSING  HOME",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "29A, Shivaji Nagar, Thanjavur",
+    "phone": "04362-276124 ,  271171",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical Care",
+      "Orthopaedics",
+      "Neurology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9380859,78.1455027",
+    "pincode": "613 001"
+  },
+  {
+    "id": "TN00912",
+    "name": "Dr.VANCHILINGAM HOSPITAL (TANJORE) PVT.  LTD",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No:7, K.S  Nagar, Pudukkottai Road, Thanjavur",
+    "phone": "04362-226297",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Gynaecology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      "Renal transplant",
+      "Liver Transplant"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9271736,78.1476654",
+    "pincode": "613 005"
+  },
+  {
+    "id": "TN00913",
+    "name": "K.G.  MULTISPECIALITY HOSPITAL  AND  RESEARCH CENTRE",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "3048, 3049, 2nd Street,V.O.C. Nagar, Thanjavur",
+    "phone": "04362-239919",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9271736,78.1476654",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00914",
+    "name": "K.S.  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.60, Mutt Street, Kumbakonam, Thanjavur",
+    "phone": "0435-2423004",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.8811419,78.0573055",
+    "pincode": "612 001"
+  },
+  {
+    "id": "TN00915",
+    "name": "KANNAN  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "2957, South  Rampart (Opp), Sivagangai Garden, Thanjavur",
+    "phone": "04142-230370 ,  230025",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9479215,78.1625445",
+    "pincode": "613 001"
+  },
+  {
+    "id": "TN00916",
+    "name": "KANNAN  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.40, MIG, Marutham New Housing Unit,  Pudhukottai Road, Thanjavur",
+    "phone": "04142-230370 ,  230025",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9261179,78.141083",
+    "pincode": "613  005"
+  },
+  {
+    "id": "TN00917",
+    "name": "KDR  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.1& 2, Ramakrishna Puram, Thanjavur",
+    "phone": "04362-230379",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Urology",
+      "Cardiology",
+      "Cardio-Thoracic Surgery",
+      "ENT",
+      "Neuro Surgery",
+      "Nephrology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.935481,78.1423378",
+    "pincode": "613  007"
+  },
+  {
+    "id": "TN00918",
+    "name": "KEERTHANA HOSPITAL  (P) LTD",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No  58, G.A.Canal Road, Near Hotel Parisutham, Thanjavur",
+    "phone": "04362-279827",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Urology",
+      "Cardiology",
+      "Cardio-Thoracic Surgery",
+      "ENT",
+      "Neuro Surgery",
+      "Nephrology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.9272833,78.2134346",
+    "pincode": "613 001"
+  },
+  {
+    "id": "TN00919",
+    "name": "KSDC  HOSPITAL  & RESEARCH CENTRE",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No:7, K.S  Nagar, Pudukkottai Road, Thanjavur",
+    "phone": "04362-226297 ,  227331",
+    "type": "Private",
+    "specialties": [
+      "E.N.T. & Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.901384,78.094331",
+    "pincode": "613 005"
+  },
+  {
+    "id": "TN00920",
+    "name": "M R  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "1, Yagappa Nagar, Pudukkottai Road,Thanjavur",
+    "phone": "04362-278005 ,",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Surgical Gastroenterology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.94118,78.101961",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00921",
+    "name": "M.V.K. NURSING  HOME",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "2771, South  Rampart, (Opp) Thilagar Thidal,Thanjavur",
+    "phone": "04362-230949 ,  231470",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.9499829,78.1471155",
+    "pincode": "613 001"
+  },
+  {
+    "id": "TN00922",
+    "name": "MEDWAY  HOSPITALS",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.142-B,Sri Balasubramaniyan Nagar, Pillayampettai, Ammachathiram(Post), Thiruvidaimarudhur(Taluk), Kumbakonam,Thanjavur",
+    "phone": "044-24734455 9962985985",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9272833,78.2134346",
+    "pincode": "612 103"
+  },
+  {
+    "id": "TN00923",
+    "name": "MEENAKSHI HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "244-2, Trichy Main Road, Near New Bus Stand, Nilagiri Therkku Thottam,Thanjavur",
+    "phone": "04362-226474",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.928844,78.1095797",
+    "pincode": "613 005"
+  },
+  {
+    "id": "TN00924",
+    "name": "N  M HOSPITAL  (P)  LTD",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "Plot No.3275, 1/A-1,Ramakrishna Puram, Thanjavur",
+    "phone": "04362-231824",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9601784,77.7889032",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00925",
+    "name": "NATIONAL  PHARMA HOSPITAL  &  RESEARCH INSTITUTE",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.111, Medical College Road, Thanjavur",
+    "phone": "04362-241241 9524241241",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.9523983,78.1683485",
+    "pincode": "613 004"
+  },
+  {
+    "id": "TN00926",
+    "name": "NAVAMANI  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.90, East Main Street, Thanjavur",
+    "phone": "94437 13985",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.9523983,78.1683485",
+    "pincode": "613 001"
+  },
+  {
+    "id": "TN00927",
+    "name": "OUR  LADY  OF HEALTH HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "Arulananda nagar, Thanjavur",
+    "phone": "04362-232827",
+    "type": "Private",
+    "specialties": [
+      "Orthopaedic Surgery",
+      "General Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9206962,78.1287022",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00928",
+    "name": "RAKHURAM EYE  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No-37, John Selvaraj Nagar, Near New Bus Stand, Kumbakonam",
+    "phone": "0433- 2430044 9443130550",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "General Medicine - Medical Care",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.9175688,78.1041353",
+    "pincode": "612 001"
+  },
+  {
+    "id": "TN00929",
+    "name": "RIGHT  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "35/3125, V O C Nagar, Near Jeevan  Chola, Trichy Road, Thanjavur",
+    "phone": "04362-279915",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9210157,78.1488898",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00930",
+    "name": "ROHINI HOSPITALS",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "T.S.No.3279-3281/1,Arulananda Nagar Extn. Pudukkottai Road, Thanjavur",
+    "phone": "04362-237421",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9161149,78.1396489",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00931",
+    "name": "ROYAL  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "1624, South  Main Road, Thanjavur",
+    "phone": "04362-659065",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=9.923524,78.142904",
+    "pincode": "613 009"
+  },
+  {
+    "id": "TN00932",
+    "name": "S.B. HOSPITAL  UROLOGY AND  FERTILITY  RESEARCH CENTRE",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "2nd Street, Rajappa Nagar,Medical College Road, Thanjavur",
+    "phone": "04362-230268 ,  04362-230169",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9236784,78.1396548",
+    "pincode": "613 001"
+  },
+  {
+    "id": "TN00933",
+    "name": "SRI  NAADI     HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.121 & 122, Nadiyambal puram, Mayilpalayam, Pattukottai",
+    "phone": "04373- 255499 04373- 256499",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9214229,78.142977",
+    "pincode": "614 602"
+  },
+  {
+    "id": "TN00934",
+    "name": "SRI KUMARAN  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "Municipal Colony, Eswari Nagar, Thanjavur",
+    "phone": "04332-261444 /  04332-261445",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9453937,78.0998993",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00935",
+    "name": "SUDAR  HOSPITAL  AND RESEARCH INSTITUTE",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "1085/2, Mission Church Street, Maharnombuchavady, Thanjavur",
+    "phone": "04362-233848",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9252007,78.1197754",
+    "pincode": "613 001"
+  },
+  {
+    "id": "TN00936",
+    "name": "SUGAM  MULTI  SPECIALITY HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.1, New Railway Station Road, Kumbakonam",
+    "phone": "0435-2402345 ,  2403020",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9327743,78.1092822",
+    "pincode": "612 001"
+  },
+  {
+    "id": "TN00937",
+    "name": "THANJAVUR  CANCER CENTRE (Unit  Of  Jeeva  Centenary Trust)",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.165/16, By-Pass Road, Mathakottai, Thulukkampatti,Thanjavur",
+    "phone": null,
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9414628,78.1251454",
+    "pincode": "613 005"
+  },
+  {
+    "id": "TN00938",
+    "name": "THIRUMALA  ORTHO  CENTRE KALPANA  HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.70, Trichy Road, Near Convent School, Thanjavur",
+    "phone": "04362-230626",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9202566,78.1507308",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00939",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No. 22, Nageshwaran East Street,Kumbakonam",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.939905,78.1751243",
+    "pincode": "612 001"
+  },
+  {
+    "id": "TN00940",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No. 51, Gandhiji Road, Near Railway Station,Tanjavur",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.947397,78.179816",
+    "pincode": "613 001"
+  },
+  {
+    "id": "TN00941",
+    "name": "VINODHAGAN  MEMORIAL HOSPITAL  (P)  LTD",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "3120 &  3121, Trichy Road,Thanjavur",
+    "phone": "04362-240527 ,  234885 , 234883",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.9380996,78.126086",
+    "pincode": "613 007"
+  },
+  {
+    "id": "TN00942",
+    "name": "VISHNU  MULTI  SPECIALITY HOSPITAL  &  CANCER INSTITUTE",
+    "city": "Thanjavur",
+    "state": "Tamil nadu",
+    "address": "No.52, 53, Centre Point Nagar, Opp. To  Kamalasubramaniam School, Pudukottai Road, Thanjavur",
+    "phone": "04362-227111",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.8277561,77.9892864",
+    "pincode": "613 005"
+  }
+]

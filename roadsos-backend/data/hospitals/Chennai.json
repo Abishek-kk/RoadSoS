@@ -1,0 +1,4469 @@
+[
+  {
+    "id": "TN00034",
+    "name": "AAKASH  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.393/1,Thiruvottiyur High Road,Chennai",
+    "phone": "044-25730099 , 044-42034109",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0506113,80.0986529",
+    "pincode": "600 019"
+  },
+  {
+    "id": "TN00035",
+    "name": "A  V  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "172, Solaiappan Street, Old Washermenpet, (Maharani Theater), Chennai-",
+    "phone": "044-25954786",
+    "type": "Private",
+    "specialties": [
+      "General Medicine- Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.043097,80.2452985",
+    "pincode": "600 021"
+  },
+  {
+    "id": "TN00036",
+    "name": "A.N.N.  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.81-85, Annai Teresa Street, Indira Nagar, Valasarvakkam,Chennai-",
+    "phone": "044-24869306 / 044-24869300",
+    "type": "Private",
+    "specialties": [
+      "General Medicine-Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9823769,80.1938473",
+    "pincode": "600 087"
+  },
+  {
+    "id": "TN00037",
+    "name": "A  G  EYE  CARE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "106, R.K Mutt Road, Mylapore, Chennai -",
+    "phone": "044-44431111",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.048103,80.245059",
+    "pincode": "600 004"
+  },
+  {
+    "id": "TN00038",
+    "name": "ABHIJAY  HOSPITAL  (P)  LTD.",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "22/2, E S I Hospital Road, Near TVK Nagar Junction, Peravallur[Perambur], Chennai",
+    "phone": "044- 490150501 / 490150532",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9080174,80.1397487",
+    "pincode": "600 011"
+  },
+  {
+    "id": "TN00039",
+    "name": "ADITYA HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.7, Barnaby Road, Kilpauk, Chenna",
+    "phone": "044-26411450",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0757774,80.2272901",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00040",
+    "name": "AGADA HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.8, Dr.Nair Road, T.Nagar, Chennai",
+    "phone": "044-28152604 /  06",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine -Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0274281,80.256635",
+    "pincode": "600 017"
+  },
+  {
+    "id": "TN00041",
+    "name": "AMMAYI  EYE  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "New No.80, 7th Avenue, Ashok Nagar,Chennai.",
+    "phone": "044-24896175",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9755397,80.2206438",
+    "pincode": "600 083"
+  },
+  {
+    "id": "TN00042",
+    "name": "AMRIT  LASIK  &  EYE SURGERY  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.28,  Marshalls  Road,Egmore,  Chennai",
+    "phone": "044-26650501 044-26610316",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Ophthalmology",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0519656,80.2454434",
+    "pincode": "600 008"
+  },
+  {
+    "id": "TN00043",
+    "name": "AMRIT  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "310, Mint Street, Sowcarepet, Chennai",
+    "phone": "044-25296786",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Ophthalmology",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0013988,80.2000481",
+    "pincode": "600 079"
+  },
+  {
+    "id": "TN00044",
+    "name": "AMRIT  MEDICAL  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.73/28,  Dr.Alagappa  Road,Purasaiwakkam,Chennai",
+    "phone": "044-26427711 044-26427722",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0057361,80.2396637",
+    "pincode": "600 084"
+  },
+  {
+    "id": "TN00045",
+    "name": "ANNAI ARUL  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.270, Gandhi Nagar,Mudichur Road, Tambaram, Chennai",
+    "phone": "044-71700700",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery",
+      "Cardiology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.94379,80.2381418",
+    "pincode": "600 063"
+  },
+  {
+    "id": "TN00046",
+    "name": "APOLLO  CHILDREN'S HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Shaffi Mohammed St. Thousand's Light,Chennai",
+    "phone": "044-28296300 ,  28298282 , 28296262",
+    "type": "Private",
+    "specialties": [
+      "Multi Speciality"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9788999,80.2248843",
+    "pincode": "600 006"
+  },
+  {
+    "id": "TN00047",
+    "name": "APOLLO  FIRST  MED HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "154, P.H. Road,Chennai",
+    "phone": "044-28211111",
+    "type": "Private",
+    "specialties": [
+      "Multi Speciality",
+      "Uterus removal Excluded."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0963871,80.2913914",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00048",
+    "name": "APOLLO  HOSPITAL - SOWCARPET",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "134, Mint Street, (Opp. Ramar Kovil), Chennai",
+    "phone": "044-25296080 ,  25296083",
+    "type": "Private",
+    "specialties": [
+      "Multi Speciality",
+      "Uterus removal Excluded."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9520709,80.2413103",
+    "pincode": "600 079"
+  },
+  {
+    "id": "TN00049",
+    "name": "APOLLO  HOSPITAL - TONDIARPET",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "645, T.H Road, Tondiarpet, Chennai",
+    "phone": "044-25915533",
+    "type": "Private",
+    "specialties": [
+      "Multi Speciality",
+      "Uterus removal Excluded."
+    ],
+    "location_link": "https://maps.google.com/?q=13.1296558,80.1309802",
+    "pincode": "600 081"
+  },
+  {
+    "id": "TN00050",
+    "name": "APOLLO  HOSPITAL - AYYAMBAKKAM",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "64, Vanagaram  to Ambattur Main Road, Ayyambakkam,Chennai",
+    "phone": "044-26537070 ,  26537777",
+    "type": "Private",
+    "specialties": [
+      "Multi Speciality",
+      "Uterus removal Excluded."
+    ],
+    "location_link": "https://maps.google.com/?q=12.7966511,80.217684",
+    "pincode": "600 095"
+  },
+  {
+    "id": "TN00051",
+    "name": "APOLLO  HOSPITALS ENTERPRISES LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "21, Greams Road, Opp. To Greams Lane,Chennai",
+    "phone": "044-28296022 ,  2920200 , 28293333",
+    "type": "Private",
+    "specialties": [
+      "Multi Speciality",
+      "Uterus removal Excluded."
+    ],
+    "location_link": "https://maps.google.com/?q=13.04389,80.27098",
+    "pincode": "600 006"
+  },
+  {
+    "id": "TN00052",
+    "name": "APOLLO  HOSPITALS,  OMR",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.05/639, Old Mahaballipuram, Perungudi,Chennai",
+    "phone": "044-33221401 /  33221055",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Cardiology",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery",
+      "ENT",
+      "Genitourinary Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1184498,80.2900771",
+    "pincode": "600 096"
+  },
+  {
+    "id": "TN00053",
+    "name": "APOLLO  SPECIALITY HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "320, Anna Salai, Nandanam, Padma Complex,Chennai",
+    "phone": "044-2433 6119",
+    "type": "Private",
+    "specialties": [
+      "Oncoloty"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9709247,80.1892117",
+    "pincode": "600 035"
+  },
+  {
+    "id": "TN00054",
+    "name": "APOLLO  SPECTRA HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Plot No. 41/42, 53/54,Sathyadev Avenue, M R C Nagar,R A puram,Chennai",
+    "phone": "044-66862000",
+    "type": "Private",
+    "specialties": [
+      "Oncoloty"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0458875,80.1136181",
+    "pincode": "600 028"
+  },
+  {
+    "id": "TN00055",
+    "name": "APOLLO  PROTON  CANCER CENTER",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.4/661  7th  Street,  Dr.Vasi Estate,  Phase  II,  Tharamani,Chennai",
+    "phone": "044-24548888 9840248885",
+    "type": "Private",
+    "specialties": [
+      "Oncoloty"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0886779,80.2159417",
+    "pincode": "600  096"
+  },
+  {
+    "id": "TN00056",
+    "name": "APPASAMY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "23, Friends Avenue,Arumbakkam,Chennai",
+    "phone": "044-30595959 ,  30595956 / 5947",
+    "type": "Private",
+    "specialties": [
+      "General Medical",
+      "Medicine-Care",
+      "Gerneral Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0877958,80.2422338",
+    "pincode": "600 106"
+  },
+  {
+    "id": "TN00057",
+    "name": "ARAVIND  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Poonamallee High  Road, Noombal, Chennai",
+    "phone": "044-24895781",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9293966,80.1174586",
+    "pincode": "600 077"
+  },
+  {
+    "id": "TN00058",
+    "name": "AROKYA HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "32, Pillaiyar Koil St.,\nNesapakkam, Chennai",
+    "phone": "044-24895781",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9618005,80.146775",
+    "pincode": "600 078"
+  },
+  {
+    "id": "TN00059",
+    "name": "ASWENE  SOUNDRA HOSPITAL  &  RESEARCH CENTER",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "24, Kasturi Rangan Road,Teynampet,Chennai",
+    "phone": "044-24990525 ,  24990780.",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urninary Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0839347,80.2501305",
+    "pincode": "600 018"
+  },
+  {
+    "id": "TN00060",
+    "name": "AVS  CARDIAC  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.93,  Triplicane High  Road, Triplicane, Chennai",
+    "phone": "044-28586363",
+    "type": "Private",
+    "specialties": [
+      "General Medical",
+      "Medicine - Care",
+      "General Medicine -Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Urology",
+      "Nephrology",
+      "Surgical Oncology",
+      "Nerosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9894319,80.2048096",
+    "pincode": "600  005"
+  },
+  {
+    "id": "TN00061",
+    "name": "B  M HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "36, 5th Main Road,Thillai Ganga Nagar,Nanganallur,Chennai",
+    "phone": "044–22671182",
+    "type": "Private",
+    "specialties": [
+      "General Medical",
+      "Medicine - Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0488323,80.2558288",
+    "pincode": "600 061"
+  },
+  {
+    "id": "TN00062",
+    "name": "B.M.  SILVER  JUBLIEE  MULTI SPECIALITY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "41, Durga Road, Pallavaram, Chennai",
+    "phone": "044-22662414",
+    "type": "Private",
+    "specialties": [
+      "General Medicine- Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      ""
+    ],
+    "location_link": "https://maps.google.com/?q=13.1042611,80.1037721",
+    "pincode": "600 043"
+  },
+  {
+    "id": "TN00063",
+    "name": "BALAKRISHNA  EYE HOSPITAL  &  EYE  RESEARCH CENTER",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "11/6, Sastri 1st Cross Street,Kaveri Road, Saidapet-PO,Chennai",
+    "phone": "044–24359514 32550260",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0380627,80.1619427",
+    "pincode": "600 015"
+  },
+  {
+    "id": "TN00064",
+    "name": "BE  WELL  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.5 A, Vijayaraghava Road,T.Nagar, Chennai",
+    "phone": "044-28151112",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.084873,80.2101753",
+    "pincode": "600 017"
+  },
+  {
+    "id": "TN00065",
+    "name": "BE  WELL  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.A1/1, Balaji Nagar,Thirumulaivoyal, Ambattur,Chennai",
+    "phone": "044-28151112",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9755397,80.2206438",
+    "pincode": "600 053"
+  },
+  {
+    "id": "TN00066",
+    "name": "BE  WELL  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.15, Bank Street, Kilpauk, Chennai",
+    "phone": "044-28151112",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1333633,80.2927235",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00067",
+    "name": "BE  WELL  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.186, Trunk Road,Poonamallee,Chennai",
+    "phone": "044-28151112",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0360443,80.2040243",
+    "pincode": "600 056"
+  },
+  {
+    "id": "TN00068",
+    "name": "BE  WELL  HOSPITALS PRIVATE LIMITED",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.106, Jawaharlal Nehru Salai, Near Koyambedu Junction, Thirumangalam,Anna Nagar,Chennai",
+    "phone": "7402723430",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=13.11374,80.2271773",
+    "pincode": "600 040"
+  },
+  {
+    "id": "TN00069",
+    "name": "BHARATH HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.72, 1st Main Road, Nanganallur,Chennai",
+    "phone": "044-22245477",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery",
+      "Oncology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0840634,80.1691662",
+    "pincode": "600 061"
+  },
+  {
+    "id": "TN00070",
+    "name": "BHARATHI  RAJAA SPECIALITY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.20, G N Chetty Road, T.Nagar, Chennai",
+    "phone": "044-30113011 ,  100",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "General Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9490411,80.2089503",
+    "pincode": "600 017"
+  },
+  {
+    "id": "TN00071",
+    "name": "BHAARATH  MEDICAL COLLEGE  AND  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.173,  Agaram  Main  Road,Selaiyur,Chennai",
+    "phone": "044-22291012 044-22291014",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0451352,80.2478189",
+    "pincode": "600  073"
+  },
+  {
+    "id": "TN00072",
+    "name": "BILLROTH HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.43, Lakshmi Talkies Road, Shenoy Nagar,Chennai",
+    "phone": "044-26641777",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0872058,80.2595824",
+    "pincode": "600 030"
+  },
+  {
+    "id": "TN00073",
+    "name": "BILLROTH HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.52, 2nd Main Road, R.A.Puram,Chennai",
+    "phone": "044-26641777",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0742542,80.2619846",
+    "pincode": "600 028"
+  },
+  {
+    "id": "TN00074",
+    "name": "BLOOM  FERTILITY & HEALTH  CARE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.32, Taramani Link Road, Velachery, Chennai",
+    "phone": "044-40000009",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical Care",
+      "Nephrology",
+      "Medical Gastro- enterology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Medical Oncology",
+      "Urology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9925857,80.2557651",
+    "pincode": "600 042"
+  },
+  {
+    "id": "TN00075",
+    "name": "BRS HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.28, Cathedral Garden Road, Nungambakkam, Chennai",
+    "phone": "044-30414250 044-28235859",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0525597,80.2736793",
+    "pincode": "600 034"
+  },
+  {
+    "id": "TN00076",
+    "name": "C  U  SHAH  SANKARA NETHRALAYA",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.8, GST Road,St.Thomas Mount, Chennai",
+    "phone": "044-22346022",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1218735,80.1472112",
+    "pincode": "600 016"
+  },
+  {
+    "id": "TN00077",
+    "name": "CANCER  INSTITUTE  [W.I.A]",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Canal Bank Road, Adayar, Chennai",
+    "phone": "044-24910754 ,  22350241",
+    "type": "Private",
+    "specialties": [
+      "Oncology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9828375,80.1892117",
+    "pincode": "600 020"
+  },
+  {
+    "id": "TN00078",
+    "name": "CENTRE  FOR  EYE &  HEALTH CARE PVT.  LTD.",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "3rd   Floor, Ramaniyam Isha, No.11, Rajiv Gandhi Salai, (OMR), Thoraipakkam, Chennai",
+    "phone": "044-24961414",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0811951,80.165007",
+    "pincode": "600 097"
+  },
+  {
+    "id": "TN00079",
+    "name": "CHENNAI  EYE CARE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No-6,12th Cross Street, Dhandeeswaram Nagar, Velachery (Near Tansi Nagar Bus Stop), Chennai",
+    "phone": "044-22435300",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9223919,80.1381081",
+    "pincode": "600 042"
+  },
+  {
+    "id": "TN00080",
+    "name": "CHENNAI  NATIONAL HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.12, Jaffer Serang Street, 2nd Line Beach  Road, Parrys, Chennai",
+    "phone": "044-66602222 /  044-66602220",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "Cardiology",
+      "ENT",
+      "Cardiothoracic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0538557,80.2577253",
+    "pincode": "600 001"
+  },
+  {
+    "id": "TN00081",
+    "name": "CHENNAI  UROLOGY  AND ROBOTICS  INSTITUTE PVT. LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.148, Okkiyam Thoraipakkam, OMR, Chennai",
+    "phone": "044-24964555",
+    "type": "Private",
+    "specialties": [
+      "Nephro - Urology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9549235,80.1388459",
+    "pincode": "600 096"
+  },
+  {
+    "id": "TN00082",
+    "name": "CHERISH  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.12, Cholambedu Road, Thirumullaivoiyal, Chennai",
+    "phone": "044-43833667 044-43833369",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.116564,80.2264183",
+    "pincode": "600 062"
+  },
+  {
+    "id": "TN00083",
+    "name": "CHETTINAD  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Chettinad Health City, Rajiv Gandhi Salai, Kelambakkam",
+    "phone": "044-47411042 ,  47411060 ,  47411000 ,  47428455",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecologys",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0509259,80.2120544",
+    "pincode": "603 103"
+  },
+  {
+    "id": "TN00084",
+    "name": "CSI KALYANI HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.15, Dr. Radhakrishnan Salai, Mylapore,Chennai",
+    "phone": "044-28470642",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery",
+      "Oncology",
+      "Cardiology",
+      "Cardiothoracic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1293907,80.2912864",
+    "pincode": "600 004"
+  },
+  {
+    "id": "TN00085",
+    "name": "CSI RAINY MULTISPECIALITY HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "45, G.A Road, Near Kalmandapam, Chennai",
+    "phone": "044-40405050",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.1302698,80.2029484",
+    "pincode": "600 021"
+  },
+  {
+    "id": "TN00086",
+    "name": "D.R.  EYE CARE  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.23, Vigneswara nagar, 2nd Street, Ullagaram, Madipakkam,Chennai",
+    "phone": "044-22445524",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1055203,80.2100829",
+    "pincode": "600 091"
+  },
+  {
+    "id": "TN00087",
+    "name": "D.R.R.EYE  CARE & OCULOPLASTY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.399, Trunk Road, Karayanchavadi, Poonamallee, Chennai",
+    "phone": "044-26272057 044-26491196",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0291467,80.2776837",
+    "pincode": "600 056"
+  },
+  {
+    "id": "TN00088",
+    "name": "DARSHAN  EYE CARE  & DARSHAN  SURGICAL  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No. T-80(New 24), 5th Main Road, Anna Nagar, Chennai",
+    "phone": "044-43500003 9940042273",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0474341,80.2042218",
+    "pincode": "600 040"
+  },
+  {
+    "id": "TN00089",
+    "name": "DEEPAM  EYE  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No:72, Medavakkam Tank Road, Kilpauk,Chennai",
+    "phone": "044-25321515 ,  65415450",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0100702,80.2587788",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00090",
+    "name": "DEEPAM  HOSPITAL  (P)  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "327, Muthurangan Road, West Tambaram,Chennai",
+    "phone": "044-22261317 ,  044-3973201",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic\nSurgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0477472,80.2745937",
+    "pincode": "600 045"
+  },
+  {
+    "id": "TN00091",
+    "name": "DEEPAM  HOSPITAL  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "30, Ayyasamy Street, Nehru Nagar, Chrompet,Chennai",
+    "phone": "044-64537727",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0877588,80.1857509",
+    "pincode": "600 044"
+  },
+  {
+    "id": "TN00092",
+    "name": "DOCTOR  REX'S  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "37, (Old No.19) Millers Road, Kilpauk, Chennai",
+    "phone": "044-26424656",
+    "type": "Private",
+    "specialties": [
+      "Orthopaedic Surgery",
+      "Plastic & Facio Maxilliary"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9264465,80.111767",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00093",
+    "name": "DR  PARTHAASARATHY MEMORIAL  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.20, Shastri Nagar Main Road, Adambakkam,Chennai",
+    "phone": "044-22552287",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.969197,80.2459847",
+    "pincode": "600 088"
+  },
+  {
+    "id": "TN00094",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "19, Cathedral Road,Chennai",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 / 3141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0439483,80.2406077",
+    "pincode": "600 086"
+  },
+  {
+    "id": "TN00095",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "3, 1st,   Floor, Main Road, Kamarajar Nagar, Avadi, Chennai",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.8980133,80.2062177",
+    "pincode": "600 071"
+  },
+  {
+    "id": "TN00096",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "49, Arcot Road, Porur, Chennai",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0780625,80.2416045",
+    "pincode": "600 116"
+  },
+  {
+    "id": "TN00097",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "AC-15, 2nd  Avenue, Anna Nagar, Chennai",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0764213,80.2274321",
+    "pincode": "600 040"
+  },
+  {
+    "id": "TN00098",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No:27, 100 Feet Road, Baby Nagar, Velachery,Chennai",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9847385,80.1906196",
+    "pincode": "600 042"
+  },
+  {
+    "id": "TN00099",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No:729, T.H. Road, Old Tamil Nadu Theater, New Washermenpet,Chennai",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0366742,80.2516743",
+    "pincode": "600 081"
+  },
+  {
+    "id": "TN00100",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Old No.20, New No.33, 7th Avenue, Near G.R.T.  School, Ashok Nagar,Chennai",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0705707,80.2155643",
+    "pincode": "600 083"
+  },
+  {
+    "id": "TN00101",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "The Federation Square, B-63, Siva Elango Salai, (70 Feet Road),Periyar Nagar, Chennai",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9505355,80.1455365",
+    "pincode": "600 082"
+  },
+  {
+    "id": "TN00102",
+    "name": "DR.  ARAVIND  VISION  CARE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Old No:61, New No:3, Reddy Palayam  Road,Mugappair West, Chennai",
+    "phone": "044-42605533",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1160229,80.2454072",
+    "pincode": "600 037"
+  },
+  {
+    "id": "TN00103",
+    "name": "DR.  KAMAKSHI  MEMORIAL HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "1, Radial Road,  Pallikaranai, Chennai",
+    "phone": "044-66300300",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Oncology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Vascular Surgery",
+      "Plastic & Facio Maxilliary."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0641643,80.2497975",
+    "pincode": "600 100"
+  },
+  {
+    "id": "TN00104",
+    "name": "DR.  RAI  MEMORIAL  MEDICAL CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "562, Anna Salai, Century Plaza, Teynampet,Chennai",
+    "phone": "044-42132054",
+    "type": "Private",
+    "specialties": [
+      "Oncology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0265725,80.2699285",
+    "pincode": "600 018"
+  },
+  {
+    "id": "TN00105",
+    "name": "DR.  RAVISHANKAR'S  EYE CLINIC  &  NURSING  HOME",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "11, Hunters Road, Vepery, Chennai",
+    "phone": "044-25323128 ,  26611530",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0506077,80.2298597",
+    "pincode": "600 112"
+  },
+  {
+    "id": "TN00106",
+    "name": "DR.AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.479, Patheon Road, Egmore, Chennai",
+    "phone": "044-28194001",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0884664,80.2420864",
+    "pincode": "600 008"
+  },
+  {
+    "id": "TN00107",
+    "name": "DR.AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.M 49/50, Classic Royal, 1st Floor, L.B road,Opp IMCOPS,Indira Nagar, Adyar,Chennai",
+    "phone": "044-28194001",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0792152,80.2526451",
+    "pincode": "600 020"
+  },
+  {
+    "id": "TN00108",
+    "name": "DR.AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Old No.214, New No.290, Dr.Natesan Road, Triplicane, Opp to Ice House Police station, Mirsahibpet,Chennai",
+    "phone": "044-28194001",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9304983,80.1184352",
+    "pincode": "600 014"
+  },
+  {
+    "id": "TN00109",
+    "name": "Dr.AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Chennai - Tiruvallur High Road, near Rakki Theatre, Ambattur, Chennai",
+    "phone": "044-28194001",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1281951,80.242238",
+    "pincode": "600 053"
+  },
+  {
+    "id": "TN00110",
+    "name": "DR.AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.10, 1st Main Road, Near Vodafone Showroom, Nanganallur,",
+    "phone": "044-28194001",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.038238,80.2571361",
+    "pincode": "600 061"
+  },
+  {
+    "id": "TN00111",
+    "name": "DR.AGARWAL'S  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Plot No.105&106, Near Airtel office, Nolambur Main road, Mogappair West,Chennai",
+    "phone": "044-28194001",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0846111,80.2130097",
+    "pincode": "600 037"
+  },
+  {
+    "id": "TN00112",
+    "name": "DR.K.K.  SURGICAL & PAEDIATRIC  CENTRE PVT. LTD.",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.238/310, Velachery Main Road, Selaiyur,East Tambaram, Chennai",
+    "phone": "044-22395525 /  044-22390394",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gastroenterology",
+      "Paediatrics",
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0782087,80.2451493",
+    "pincode": "600 073"
+  },
+  {
+    "id": "TN00113",
+    "name": "DR.MOHAN'S  DIABETES SPECIALITIES  CENTRE PVT. LTD.",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.6, Conran Smith Road, Gopalapuram,Chennai",
+    "phone": "044-43968888",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical Care",
+      "Orthopaedics",
+      "Neurology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0381856,80.2037885",
+    "pincode": "600 086"
+  },
+  {
+    "id": "TN00114",
+    "name": "DR.RELA  INSTITUTE AND MEDICAL  CENTER",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.7, CLC Works Road, Chromepet,Chennai",
+    "phone": "044-66667777",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Gynaecology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      "Renal transplant",
+      "Liver Transplant"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0344379,80.2340237",
+    "pincode": "600 044"
+  },
+  {
+    "id": "TN00115",
+    "name": "ESWARI  NURSING  HOME",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "1/255,10th Street, S.R.P.Colony, Chennai",
+    "phone": "044-25508343 ,  25508048",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0600654,80.23022",
+    "pincode": "600 082"
+  },
+  {
+    "id": "TN00116",
+    "name": "EYE  RESEARCH FOUNDATION  [VIJAYA]",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "180 - NSK Salai, Chennai",
+    "phone": "044–24802165 ,  6664666 ,  66616661",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0790214,80.2490449",
+    "pincode": "600 026"
+  },
+  {
+    "id": "TN00117",
+    "name": "EZHIL  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.583, Thiruvottiyur High Road, Tondiarpet,Chennai",
+    "phone": "044-25916556 044-25916868 044-25915747",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1267214,80.2489811",
+    "pincode": "600 081"
+  },
+  {
+    "id": "TN00118",
+    "name": "F.O.R. ORTHO  &  NEURO HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.39,40,41,Dhanrajpuram Extension, 200 Feet Road, Ambedkar Nagar Bus Stop, Kolathur, Chennai",
+    "phone": null,
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1368453,80.2086759",
+    "pincode": "600 099"
+  },
+  {
+    "id": "TN00119",
+    "name": "FAITH  MULTI SPECIALITY HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.33/17, Sannathi Street, Villivakkam,Chennai",
+    "phone": "044-43584333 /  43558777",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery",
+      "ENT",
+      "Genitourinary Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0435647,80.2636248",
+    "pincode": "600 049"
+  },
+  {
+    "id": "TN00120",
+    "name": "FATHIMAH  EYE CLINIC",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "23, Arulanandam  Street, Santhome,Chennai",
+    "phone": "044-24640902",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0315537,80.2218706",
+    "pincode": "600 004"
+  },
+  {
+    "id": "TN00121",
+    "name": "FORTIS HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.23/ 1 Arcot Road, Vadapalani,Chennai",
+    "phone": "044- 4020 4444 044- 4020 4020",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Nephrology",
+      "Pediatrics",
+      "Gastro- enterology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Obstetrics",
+      "Urology",
+      "Cardiothoracic Surgeries",
+      "ENT",
+      "Endocrinology",
+      "Ophthalmology",
+      "Rheumatology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0430977,80.237115",
+    "pincode": "600 026"
+  },
+  {
+    "id": "TN00122",
+    "name": "FORTIS MALAR  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "52, Gandhi Nagar, First Main Road, Chennai",
+    "phone": "044-42892222 ,  24914023",
+    "type": "Private",
+    "specialties": [
+      "Cardiology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0721361,80.2637714",
+    "pincode": "600 020"
+  },
+  {
+    "id": "TN00123",
+    "name": "FOUSIYA HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "New #119,Old # 56, Dr.Natesan Road,Triplicane, Chennai",
+    "phone": "044-28446033",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0779907,80.2336954",
+    "pincode": "600 005"
+  },
+  {
+    "id": "TN00124",
+    "name": "FRONTIER  LIFELINE DR.  K.  M.  CHERIAN  HEART FOUNDATION",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "R-30-C, Ambattur Industrial Estate Road, Mogappair, Chennai",
+    "phone": "044-28567200",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "Cardiothoracic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1232675,80.2876511",
+    "pincode": "600 101"
+  },
+  {
+    "id": "TN00125",
+    "name": "GAJANAN  HOSPITAL  (P)  LTD.",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "29, Kannan Street, West Tambaram,Chennai",
+    "phone": "044-22266550 ,  22266649",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0861477,80.1873735",
+    "pincode": "600 045"
+  },
+  {
+    "id": "TN00126",
+    "name": "GEM HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.227/2, MGR Road,Thiruvenkadam Nagar, Perungudi,Chennai",
+    "phone": "044-61666666",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro - enterology",
+      "Surgical Gastro-entrology",
+      "Orthopaedics",
+      "Gynaecology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      "Renal transplant",
+      "Liver Transplant"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1225965,80.1469712",
+    "pincode": "600 096"
+  },
+  {
+    "id": "TN00127",
+    "name": "GERI  CARE  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.8,  Dr.Nair  Road, Behind Vani  Mahal,  T.  Nagar, Chennai",
+    "phone": "044-40614061",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      ""
+    ],
+    "location_link": "https://maps.google.com/?q=13.0391573,80.1330678",
+    "pincode": "600  017"
+  },
+  {
+    "id": "TN00128",
+    "name": "GLOBAL  HOSPITALS & HEALTH  CITY",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "439, Cheran Nagar, Perumbakkam, Chennai",
+    "phone": "044-22777000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroentrology",
+      "Neurology",
+      "Plastic & Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0826802,80.2707184",
+    "pincode": "600 100"
+  },
+  {
+    "id": "TN00129",
+    "name": "HALSTEAD  SURGICAL CLINIC",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No:306, Poonamallee High Road, Kilpauk,Chennai",
+    "phone": "044-26413344 ,  26413300",
+    "type": "Private",
+    "specialties": [
+      "General Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0826802,80.2707184",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00130",
+    "name": "HANDE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "45, Lakshmi Talkies Road, Shenoy Nagar,Chennai",
+    "phone": "044-30584402 ,  30584403",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Surgical Gastroenterology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0460667,80.2607664",
+    "pincode": "600 030"
+  },
+  {
+    "id": "TN00131",
+    "name": "HARIHARAN DIABETES  AND HEART  CARE HOSPITALS  (P) LIMITED",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.24 &  2 :SWATHI\", 29th Street, Nanganallur, Chennai",
+    "phone": "044-22247720 ,  044-22247721 ,  044-22247722 ,  044-22247723",
+    "type": "Private",
+    "specialties": [
+      "General Medicine-Medical Care",
+      "General Surgery",
+      "Cardiology",
+      "Cardio- Thoracic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0536322,80.22752",
+    "pincode": "600 061"
+  },
+  {
+    "id": "TN00132",
+    "name": "HARVEY HEALTHCARE LIMITED",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "542, T.T.K. Road,Alwarpet,Chennai",
+    "phone": "044-28350136",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "Cardiothoracic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0731661,80.240801",
+    "pincode": "600 018"
+  },
+  {
+    "id": "TN00133",
+    "name": "HYCARE SUPER  SPECIALITY HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.37, Razack Garden Road,M.M.D.A. Colony, Arumbakkam, Chennai",
+    "phone": "044-23638800",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.073323,80.123188",
+    "pincode": "600 106"
+  },
+  {
+    "id": "TN00134",
+    "name": "I  CARE  EYE  CARE  EYE HOSPITAL,",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.20,  Hanumar  Koil  street, Radha  Nagar,  Chromepet, Chennai",
+    "phone": null,
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0709384,80.2218474",
+    "pincode": "600  044"
+  },
+  {
+    "id": "TN00135",
+    "name": "IYYAPPA  HOSPITALS  & DIABETES  RESEARCH CENTRE PRIVATE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.308, 310,   MPM Road,Vyasarpadi Post, Perambur,Chennai",
+    "phone": null,
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0011864,80.2572358",
+    "pincode": "600 039"
+  },
+  {
+    "id": "TN00136",
+    "name": "JAGADGURU KANCHI CHANDRASEKARA NETHRALAYA",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.33, Pycrofts Garden Road, Thousand Lights West, Nungambakkam,Chennai",
+    "phone": "044-28271616",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0225921,80.1863704",
+    "pincode": "600 006"
+  },
+  {
+    "id": "TN00137",
+    "name": "JAYA  EYE CARE  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.41/50, 4th Trust Cross Street, Mandavelipakkam, Chennai",
+    "phone": "044-24952573 044-24952574",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0272194,80.275635",
+    "pincode": "600 028"
+  },
+  {
+    "id": "TN00138",
+    "name": "JV  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.31, Railway Border Road, Akbarabad, Kodambakkam, Chennai",
+    "phone": "044-24725582",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro- enterology",
+      "Orthopaedics",
+      "Gynaecology",
+      "ENT",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0791508,80.170638",
+    "pincode": "600 024"
+  },
+  {
+    "id": "TN00139",
+    "name": "K  M HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.64, Medavakkam Tank Road, Kilpauk,Chennai",
+    "phone": "044-26613655",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0833879,80.2342535",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00140",
+    "name": "K.J.  HOSPITAL  PRIVATE LIMITED",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "New No.182, Poonamallee High Road, Chennai",
+    "phone": "044–26411000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0996761,80.2603545",
+    "pincode": "600 084"
+  },
+  {
+    "id": "TN00141",
+    "name": "K.K.  EYE  CARE  AND RESEARCH CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "34, Gandhi Road, West Tambaram,Chennai",
+    "phone": "044-22263130 ,  45076004",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.1173881,80.2893047",
+    "pincode": "600 045"
+  },
+  {
+    "id": "TN00142",
+    "name": "K.V.T.HEALTH  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.16, G.N.T.Road, Moolakadai, Chennai",
+    "phone": "044-64555777 044-64999555",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9328199,80.2315944",
+    "pincode": "600 060"
+  },
+  {
+    "id": "TN00143",
+    "name": "KAUVERY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.81, T.T.K. Road, Alwarpet, Chennai",
+    "phone": "044-39244444",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Urology",
+      "Cardiology",
+      "Cardio-Thoracic Surgery",
+      "ENT",
+      "Neuro Surgery",
+      "Nephrology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0897119,80.2546418",
+    "pincode": "600 018"
+  },
+  {
+    "id": "TN00144",
+    "name": "KHM  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "AB-14, 6th Main Road, Anna Nagar, Chennai",
+    "phone": "044-26212218",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0267473,80.2607329",
+    "pincode": "600 040"
+  },
+  {
+    "id": "TN00145",
+    "name": "KKR  ENT  HOSPITAL & RESEARCH INSTITUTE  (P) LTD.",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "274, Poonamallee High  Road, Kilpauk, Chennai",
+    "phone": "044-42601021",
+    "type": "Private",
+    "specialties": [
+      "E.N.T."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0777063,80.2415533",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00146",
+    "name": "KLARITI  EYE  CARE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.115,  Lakshmanasamy salai,  K.K.Nagar, Chennai",
+    "phone": "044-42035999 ,  94441 38088",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9225228,80.1521946",
+    "pincode": "600  078"
+  },
+  {
+    "id": "TN00147",
+    "name": "KRISHNA EYE  &  ENT HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "39, Burkit Road, T.Nagar, Chennai",
+    "phone": "044-24355152",
+    "type": "Private",
+    "specialties": [
+      "E.N.T. & Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0826802,80.2707184",
+    "pincode": "600 017"
+  },
+  {
+    "id": "TN00148",
+    "name": "KUMARAN  EYE  SPECIALITY CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "79,Choolaimedu High Road, Krishnapuram, Choolaimedu, Chennai",
+    "phone": "044-24839557",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0821506,80.2532396",
+    "pincode": "600 094"
+  },
+  {
+    "id": "TN00149",
+    "name": "KUMARAN  HOSPITALS  PVT LTD.",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "214, P.H. Road,Kilpauk, Chennai",
+    "phone": "044-42956777",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0454504,80.2669397",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00150",
+    "name": "KVT  SPECIALITY  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Plot No.1, 2, 3,  Ethirajsamy Salai, Erukkanchery, Chennai",
+    "phone": "044-42834516 /  044-42830256",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0480163,80.2123374",
+    "pincode": "600 118"
+  },
+  {
+    "id": "TN00151",
+    "name": "LAKE  VIEW HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "100 A, Kalpalayam, Red Hills Road, Chennai",
+    "phone": "044-25659911",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9459046,80.1365663",
+    "pincode": "600 099"
+  },
+  {
+    "id": "TN00152",
+    "name": "LAKSHA  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.15, P.S.Sivasamy Salai, Mylapore, Chennai",
+    "phone": "044-24997955 /  044-24997956",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "General Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.047769,80.206922",
+    "pincode": "600 004"
+  },
+  {
+    "id": "TN00153",
+    "name": "LAKSHMI  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "47, Govindan Road,  West Mambalam,Chennai",
+    "phone": "044-32559182 ,  24580400",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.1262317,80.2489773",
+    "pincode": "600 033"
+  },
+  {
+    "id": "TN00154",
+    "name": "LASER  AND  LAPROSCOPIC HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "New No-121, G N Chetty Road, T.Nagar,Chennai",
+    "phone": "044-28150651",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Surgical Gastroenterology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9646608,80.1602149",
+    "pincode": "600 017"
+  },
+  {
+    "id": "TN00155",
+    "name": "LIFE  CARE  HOSPITAL,",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Old  No.29,  New  No.77, Adithanar  Salai,  Pudupet, Chennai",
+    "phone": null,
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Surgical Gastroenterology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.1560188,80.3013523",
+    "pincode": "600  002"
+  },
+  {
+    "id": "TN00156",
+    "name": "LIFELINE  RIGID HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "47/3, New Avadi Road, Kilpauk, Chennai",
+    "phone": "044-42949494",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Surgical Gastroenterology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.978529,80.221329",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00157",
+    "name": "M.N.  EYE  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "781, T.H. Road, Tondiarpet, Chennai",
+    "phone": "044-25956403",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0731661,80.240801",
+    "pincode": "600 081"
+  },
+  {
+    "id": "TN00158",
+    "name": "MADRAS  MEDICAL  MISSION",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "4-A, Dr. J J Nagar, Mogappair, Chennai",
+    "phone": "044-26561801 ,  26565961",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "Cardiothoracic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9799677,80.2044693",
+    "pincode": "600 037"
+  },
+  {
+    "id": "TN00159",
+    "name": "MAHALAKSHMI  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.37, M.T.H  Road, Ambattur, Chennai",
+    "phone": "044-26581060 8056281666",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.076723,80.205766",
+    "pincode": "600 053"
+  },
+  {
+    "id": "TN00160",
+    "name": "MAHALAKSHMI MULTISPECIALITY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Old No.2/576, New No.1/164, Mount  Poonamallee High  Road, Iyyappanthangal,Chennai",
+    "phone": "044-48678283 044-48678284",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1192183,80.2890829",
+    "pincode": "600 056"
+  },
+  {
+    "id": "TN00161",
+    "name": "MAXIVISION  EYE CARE MEDFORT  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.116, Chamiers Road, Nandanam,Chennai",
+    "phone": "044–49001800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0359796,80.2216549",
+    "pincode": "600 035"
+  },
+  {
+    "id": "TN00162",
+    "name": "MAXIVISION  EYE CARE MEDFORT HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "78/6, 3rd Avenue, Anna Nagar, Chennai",
+    "phone": "044–49001800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0486852,80.2311539",
+    "pincode": "600 012"
+  },
+  {
+    "id": "TN00163",
+    "name": "MEDICARE  EYE  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.37, TTK Road,Royapettah, (Opp: Music Academy Entry Gate) Chennai",
+    "phone": "044-28111937",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0240842,80.227524",
+    "pincode": "600 014"
+  },
+  {
+    "id": "TN00164",
+    "name": "MEDWAY  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.2/26, 1st Main Road, United India colony, Kodambakkam, Chennai",
+    "phone": "044-24734455 9962985985",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.005817,80.2043232",
+    "pincode": "600 024"
+  },
+  {
+    "id": "TN00165",
+    "name": "MEHTA  MULTISPECIALITY HOSPITALS  INDIA  PVT.  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.2, MC Nichols Road, 3rd Lane Chetpet, Chennai",
+    "phone": "044-42271000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro- enterology",
+      "Orthopaedics",
+      "Gynaecology",
+      "ENT",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0341186,80.2401428",
+    "pincode": "600 031"
+  },
+  {
+    "id": "TN00166",
+    "name": "MEHTA  MULTISPECIALITY HOSPITALS  INDIA  PVT.  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.50, Poonamallee High Road, Velappanchavadi,Chennai",
+    "phone": "044-42271000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro- enterology",
+      "Orthopaedics",
+      "Gynaecology",
+      "ENT",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0439925,80.2727056",
+    "pincode": "600 077"
+  },
+  {
+    "id": "TN00167",
+    "name": "MGM HEALTH  CARE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.72, Nelson  Manickam Road, Near Sky Walk, Amjikarai, Chennai",
+    "phone": "044-23746574",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Gynaecology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      "Renal transplant",
+      "Liver Transplant"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0508347,80.243369",
+    "pincode": "600 029"
+  },
+  {
+    "id": "TN00168",
+    "name": "MINT  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.19/1,1st Avenue, Sastri Nagar,Adyar,Chennai",
+    "phone": "044-24466722 7338777222",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0329331,80.2302704",
+    "pincode": "600 020"
+  },
+  {
+    "id": "TN00169",
+    "name": "MIOT  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "4/112, Mount Poonamallee Road, Manapakam, Chennai",
+    "phone": "044-22492288",
+    "type": "Private",
+    "specialties": [
+      "Orthopaedic Surgery",
+      "Plastic & Facio Maxilliary",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0424706,80.1775086",
+    "pincode": "600 089"
+  },
+  {
+    "id": "TN00170",
+    "name": "MK   SPECIALITY   CLINIC",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Old No.86A, New No.161,  1 st Floor, Sree Sabari Complex Santhome   High Road,MRC   Nagar, R.A.Puram, Chennai",
+    "phone": "044- 2493 5555 91-99625 15555",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Nephrology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Obsteritics",
+      "Cardiothoracic Surgeries",
+      "ENT",
+      "Plastic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0425196,80.242962",
+    "pincode": "600 028"
+  },
+  {
+    "id": "TN00171",
+    "name": "MMRV  HOSPITAL  PVT.LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Plot No.5/PC  2, Bharathi Salai,J.J. Nagar, Mogappair West, Chennai",
+    "phone": "044-26534121 044-65104000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery. Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0617292,80.1629327",
+    "pincode": "600 037"
+  },
+  {
+    "id": "TN00172",
+    "name": "MURUGAN  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.264/125, Kilpauk Garden Road, Kilpauk,Chennai",
+    "phone": "044-26448989",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1310974,80.2138058",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00173",
+    "name": "MUTHU  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.105, Pulianthope High Road, Opp. P1 Police Station,Chennai",
+    "phone": "044-43599416",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0789558,80.2405398",
+    "pincode": "600 012"
+  },
+  {
+    "id": "TN00174",
+    "name": "NAGAMANI  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.186, 190 (Old  116, 118) G.A.Road,Old Washermenpet, Chennai",
+    "phone": "044- 2595 2727 044- 4043 4444",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Nephrology",
+      "Pediatrics",
+      "Gastro- enterology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Obsteritics",
+      "Medical Oncology",
+      "Urology",
+      "ENT",
+      "Endocrinology",
+      "Ophthalmology",
+      "Haematology",
+      "Rheumatology",
+      "Plastic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9534793,80.1387487",
+    "pincode": "600   021"
+  },
+  {
+    "id": "TN00175",
+    "name": "NANTHINI  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "168, Chandra Sekaran Avenue, Thoraipakkam,Chennai",
+    "phone": "044-24580400",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.1205542,80.1978368",
+    "pincode": "600 097"
+  },
+  {
+    "id": "TN00176",
+    "name": "NARAYANA HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "18, Tana Street, Purasawakam, Chennai",
+    "phone": "044-2650899",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0966622,80.2897289",
+    "pincode": "600 007"
+  },
+  {
+    "id": "TN00177",
+    "name": "NAVASUJA  SANKARA NETHRALAYA",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No. 73, Venkata Krishna Road, Raja Annamalaipuram, Chennai",
+    "phone": "044-49083500",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0570045,80.2757397",
+    "pincode": "600 028"
+  },
+  {
+    "id": "TN00178",
+    "name": "NEW HOPE  MEDICAL  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.814, Poonamllee High Road, Kilpauk,Chennai",
+    "phone": "044-43441544 044-25321532",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery",
+      "Neurology",
+      "Neuro Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0366621,80.272674",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00179",
+    "name": "NEW LIFE  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.174, Appar Street, Velachery Main Road, Rajakilpakkam, Chennai",
+    "phone": "044-22282477",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT",
+      "Paediatrics"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9651095,80.1284026",
+    "pincode": "600 073"
+  },
+  {
+    "id": "TN00180",
+    "name": "NIRMALS'  EYE HOSPITAL (A  unit of  Dr.Nirmals’ Healthcare  Pvt.  Ltd.)",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.108/5, Ayyasamy Street, West Tambaram,Chennai",
+    "phone": "044- 22266123 /  9840746062",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0622292,80.2513888",
+    "pincode": "600 045"
+  },
+  {
+    "id": "TN00181",
+    "name": "NOBLE  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.4, Audiappa Mudali Street, Purasawalkam,Chennai",
+    "phone": "044–40042222",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "General Medicine - Medical Care",
+      "Orthopaedic Surgery",
+      "Gastro Enterology",
+      "Genitourinary Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9952887,80.2691764",
+    "pincode": "600 084"
+  },
+  {
+    "id": "TN00182",
+    "name": "ORTHOMED  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.83, 85, Royapettah High Road, Royapettah,Chennai",
+    "phone": "044-42229222",
+    "type": "Private",
+    "specialties": [
+      "Orthopaedic Surgery",
+      "General Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.965521,80.2067433",
+    "pincode": "600 014"
+  },
+  {
+    "id": "TN00183",
+    "name": "P&G  NURSING  HOME",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.42, Old  No.60, 100 Feet Road, Vadapalani, Chennai",
+    "phone": "044-24842214 044-42811999",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Pediatrics",
+      "Gastro-enterology",
+      "General Surgery",
+      "Gynaecology",
+      "Obsteritics",
+      "Medical\nOncology",
+      "Urology",
+      "Ophthalmology",
+      "Surgical\nOncology",
+      "Neurology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0814701,80.2468994",
+    "pincode": "600 026"
+  },
+  {
+    "id": "TN00184",
+    "name": "PARVATHY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "241, G.S.T. Road,Chrompet, Chennai",
+    "phone": "044-22382748 ,  22382248",
+    "type": "Private",
+    "specialties": [
+      "Orthopaedic Surgery",
+      "Plastic & Facio Maxilliary."
+    ],
+    "location_link": "https://maps.google.com/?q=13.110833,80.2419017",
+    "pincode": "600 044"
+  },
+  {
+    "id": "TN00185",
+    "name": "PATERSON  CANCER  CENTRE [VIJAYA]",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "NSK Salai, Vadapalani, Chennai",
+    "phone": "044-24724243 ,  52 , 62 , 72.",
+    "type": "Private",
+    "specialties": [
+      "Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.2776745,80.2914435",
+    "pincode": "600 026"
+  },
+  {
+    "id": "TN00186",
+    "name": "PAVITHRA HOSPITALS  PVT LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.7,Ethiraj Swamy salai, Erukkencherry,Chennai",
+    "phone": "044-65175418 044-42810200",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.093857,80.200843",
+    "pincode": "600 118"
+  },
+  {
+    "id": "TN00187",
+    "name": "PCMC  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.11, Bharthi Nagar, 1st Street, Zamin Pallavaram, Chennai",
+    "phone": "044-22661192 /  044-22660707",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Paediatrics"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1561392,80.3011394",
+    "pincode": "600 043"
+  },
+  {
+    "id": "TN00188",
+    "name": "PRASAD'S  MULTISPECIALITY HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "949, Thiruvottiyur High  Road, Sathiyamoorthy Nagar, Kaladipet, Tondiarpet, Chennai",
+    "phone": "044-25994987",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0517709,80.2113598",
+    "pincode": "600 019"
+  },
+  {
+    "id": "TN00189",
+    "name": "PRASHANTH HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.36&36A, Velachery Main Road, Velachery,Chennai",
+    "phone": "044-46805544 044-22439494 9380998099",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0517709,80.2113598",
+    "pincode": "600 042"
+  },
+  {
+    "id": "TN00190",
+    "name": "PRASANTH  MULTI SPECIALITY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.76  & 77,  Harrington  road, Chetpet,Chennai",
+    "phone": "044-42277777 044-28366666",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0352986,80.278113",
+    "pincode": "600  031"
+  },
+  {
+    "id": "TN00191",
+    "name": "PRIME  CARE  NURSING  HOME",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "New No.3, Sakthi Nagar Main Road, Adambakkam, Chennai",
+    "phone": "044-22533119",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Surgical Oncology",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.048184,80.2034821",
+    "pincode": "600 088"
+  },
+  {
+    "id": "TN00192",
+    "name": "PRIME  INDIAN  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "1051, Poonamalle High Road, Arumbakkam,Chennai",
+    "phone": "044-23639999",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Surgical Oncology",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0956563,80.2513014",
+    "pincode": "600 106"
+  },
+  {
+    "id": "TN00193",
+    "name": "PRIYA NURSING  HOME",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.6 (Old  No.82),  Kappal Polu Street, Old  washermenpet, Chennai",
+    "phone": "044-25951878 ,  044-25957466",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Surgical Oncology",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0074117,80.2060791",
+    "pincode": "600 021"
+  },
+  {
+    "id": "TN00194",
+    "name": "PUBLIC HEALTH  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "New No.174, Old No.114, Lake View Road, West Mambalam, Chennai",
+    "phone": "044-24893101",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Surgical Oncology",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.124833,80.290823",
+    "pincode": "600 033"
+  },
+  {
+    "id": "TN00195",
+    "name": "R.K.EYE  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.14/20,  Chari  street, T.Nagar,Chennai",
+    "phone": "044-28141583 044-28142287",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1152702,80.2902972",
+    "pincode": "600  017"
+  },
+  {
+    "id": "TN00196",
+    "name": "R  G  STONE  UROLOGY  & LAPAROSCOPY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "391/392, Anna Salai, Opp.New Bus Stand,Saidapet,Chennai",
+    "phone": "044-43993600 ,  65855521 ,  65855524 ,  24336240",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0187187,80.1498868",
+    "pincode": "600 015"
+  },
+  {
+    "id": "TN00197",
+    "name": "RAADHA  RAJENDRAN HOSPITAL  PVT.  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.7 -10, Vembuli Amman koil Street, Alandur,Chennai",
+    "phone": "044-42009552 /  044-42009553",
+    "type": "Private",
+    "specialties": [
+      "General Medicine-Medical Care",
+      "General Surgery",
+      "Genitourinary Surgery",
+      "Gynaecology",
+      "Orthopaedics",
+      "Nephtology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9749156,80.1829232",
+    "pincode": "600 016"
+  },
+  {
+    "id": "TN00198",
+    "name": "RADHATRI NETHRALAYA EYE  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "12, Hindi Prachara Sabha Street,T.Nagar,Chennai",
+    "phone": "044–24311550 ,  24332229",
+    "type": "Private",
+    "specialties": [
+      "General Medicine-Medical Care",
+      "General Surgery",
+      "Genitourinary Surgery",
+      "Gynaecology",
+      "Orthopaedics",
+      "Nephtology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0831542,80.1797444",
+    "pincode": "600 017"
+  },
+  {
+    "id": "TN00199",
+    "name": "RAJAN  DENTAL  INSTITUTE PVT  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No: 56, Dr.Radhakrishnan Salai, Mylapore,Chennai",
+    "phone": "044-28472266",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic & Facio Maxilliary",
+      "Vascular\nSurgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.1098201,80.2463505",
+    "pincode": "600 004"
+  },
+  {
+    "id": "TN00200",
+    "name": "RAJAN  EYE  CARE  HOSPITAL (P)  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "5, Vidyodhaya East 2nd Street, T.Nagar,Chennai",
+    "phone": "044-28340500 ,  0300",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic & Facio Maxilliary",
+      "Vascular\nSurgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.035373,80.18231",
+    "pincode": "600 017"
+  },
+  {
+    "id": "TN00201",
+    "name": "RAJU  HOSPITAL PVT.  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.43, South Usman Road, T.Nagar, Chennai",
+    "phone": "044- 24341901 /  044-24342894",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "General Medicine - Medical Care",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0611637,80.2741866",
+    "pincode": "600 017"
+  },
+  {
+    "id": "TN00202",
+    "name": "RAKSHITH HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.153, Arcot Road, Sai Square Complex, Valasaravakkam, Chennai",
+    "phone": "044- 42729999 /  044-42749916",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0438778,80.1768832",
+    "pincode": "600 087"
+  },
+  {
+    "id": "TN00203",
+    "name": "RAMANA  EYE  CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "24, Venkatraman Street, T.Nagar,Chennai",
+    "phone": "044-28155454",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9370365,80.1129917",
+    "pincode": "600 017"
+  },
+  {
+    "id": "TN00204",
+    "name": "RAVINA  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.99,  Poonamallee  High Road,  Maduravoyal, Chennai",
+    "phone": "044-66787878",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9217651,80.1417171",
+    "pincode": "600  095"
+  },
+  {
+    "id": "TN00205",
+    "name": "RETTERI  SRI KUMARAN HEALTH  CENTRE  (P)  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.1419, 200 Feet Road, Retteri Junction, Kolathur,Chennai",
+    "phone": "044-71967345",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9422327,80.1408142",
+    "pincode": "600 099"
+  },
+  {
+    "id": "TN00206",
+    "name": "RIGHT  HOSPITALS  (P)  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "#1, Prof. Subramaniam Street, Kilpauk,Chennai",
+    "phone": "044-26403939",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9296561,80.1190364",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00207",
+    "name": "ROYAL  BALAJI  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No  7, Works Road, Chromepet, Chennai",
+    "phone": "044-22412009 ,  22412010",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1652285,80.3032557",
+    "pincode": "600 044"
+  },
+  {
+    "id": "TN00208",
+    "name": "RPS  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "65/2, Water Canal Road, TVS Nagar, Korattur, Chennai",
+    "phone": "044-26512600",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=12.961846,80.146598",
+    "pincode": "600 076"
+  },
+  {
+    "id": "TN00209",
+    "name": "S.S.  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "New No.149, Old No.74, Thambu Chetty Street,Mannady, Chennai",
+    "phone": "044- 25211518 044-25266866",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=13.0823769,80.2069314",
+    "pincode": "600 001"
+  },
+  {
+    "id": "TN00210",
+    "name": "SAKTHI  HOSPITAL  & RESEARCH CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "175/86, Big Street, Tripilicane,Chennai",
+    "phone": "044-28442626 ,  52156633",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1700994,80.3065786",
+    "pincode": "600 005"
+  },
+  {
+    "id": "TN00211",
+    "name": "SAMPAT  NURSING  HOME,",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Nachiappa Street, Mylapore, Chennai",
+    "phone": null,
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1057677,80.2078021",
+    "pincode": "600 004"
+  },
+  {
+    "id": "TN00212",
+    "name": "SANKARA EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.1, 3rd Cross Street,Sri Sankara Nagar, Pammal, Chennai",
+    "phone": "044–22484799",
+    "type": "Govt",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0692696,80.2738074",
+    "pincode": "600 075"
+  },
+  {
+    "id": "TN00213",
+    "name": "SANKARA NETHRALAYA [MEDICAL  RESEARCH FOUNDATION]",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "18, College Road,Chennai",
+    "phone": "044-42271805 ,  42271500 ,  42271600.",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0674821,80.2271847",
+    "pincode": "600 006"
+  },
+  {
+    "id": "TN00214",
+    "name": "SANTHOSH  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.1, 7th Avenue, Besant Nagar, Chennai",
+    "phone": "044-49018800",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0535287,80.219486",
+    "pincode": "600 090"
+  },
+  {
+    "id": "TN00215",
+    "name": "SARASWATHY  SPECIALITY HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "92/A,Bazaar Road, Sadasiva Nagar, Near Ram Nagar Bus Stop, Madipakkam,Chennai",
+    "phone": "044-65389621",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0472749,80.2070545",
+    "pincode": "600 091"
+  },
+  {
+    "id": "TN00216",
+    "name": "SATISH  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "15 (New No: 57), Ormes Road,Kilpauk, Chennai",
+    "phone": "044-26424935 ,  26426464 ,  26651828",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0826814,80.2426018",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00217",
+    "name": "SEN  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "18, Bunder Garden  Street, Perambur,Chennai",
+    "phone": "044-42769724 ,  42769725",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0891619,80.2414412",
+    "pincode": "600 011"
+  },
+  {
+    "id": "TN00218",
+    "name": "SHANMUGAM  MULTI SPECIALITY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Old No.79, New No.139, East Mada Church  Street, Royapuram,Chennai",
+    "phone": "044- 25963424 044- 25902425",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0391341,80.2570793",
+    "pincode": "600 013"
+  },
+  {
+    "id": "TN00219",
+    "name": "SHIVAS EYE CARE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.9/3362,'R', AE Block, 8th Street, 10th  Main Road, Anna Nagar, Chennai",
+    "phone": "044- 26182803 044-26186500",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0855218,80.2032331",
+    "pincode": "600 040"
+  },
+  {
+    "id": "TN00220",
+    "name": "SHRI TANISHQ  NAKSHATRA MULTISPECIALTY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.170, Thiruvottiyur High Road, (Opp.Shanmugam Park), Thiruvottiyur,Chennai",
+    "phone": "044-25993955",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9295008,80.1195004",
+    "pincode": "600 019"
+  },
+  {
+    "id": "TN00221",
+    "name": "SIMS  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.21, Dr Thirumoorthy Nagar Main Road, Tirumurty Nagar, Nungambakkam,Chennai",
+    "phone": "044-28262626 044-28222288",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0037834,80.2569061",
+    "pincode": "600 034"
+  },
+  {
+    "id": "TN00222",
+    "name": "SIMS  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.1, Jawaharlal Nehru Salai, 100 Feet Road, Vadapalani, Chennai",
+    "phone": "044-28262626 044-28222288",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0730563,80.2527989",
+    "pincode": "600 026"
+  },
+  {
+    "id": "TN00223",
+    "name": "SINUS  AND  NOSE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.35A, Santhome High Road, Mylapore, Chennai",
+    "phone": "044-24984474",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0234345,80.226981",
+    "pincode": "600 004"
+  },
+  {
+    "id": "TN00224",
+    "name": "SOORIYA  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No  1, Arunachallam Road, Saligaramam,Chennai",
+    "phone": "044–23761751 ,  23761756",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0411898,80.1747072",
+    "pincode": "600 093"
+  },
+  {
+    "id": "TN00225",
+    "name": "SRI  BALAJI  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.36, New No.77,Brickkiln  Road, Chennai",
+    "phone": "044-26623111",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0234345,80.226981",
+    "pincode": "600 012"
+  },
+  {
+    "id": "TN00226",
+    "name": "SRI  BALAJI  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Nolambur, Mogappair West, Nolambur, Chennai",
+    "phone": "044-26623111",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1153868,80.2830856",
+    "pincode": "600 095"
+  },
+  {
+    "id": "TN00227",
+    "name": "SRI  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.32, Varadharaja Perumal Koil Street, Tondiarpet, Chennai",
+    "phone": "044-25967725",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.092934,80.2185274",
+    "pincode": "600 081"
+  },
+  {
+    "id": "TN00228",
+    "name": "SRI KUMARAN  MULTI SPECIALITY  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No-532, Suriya Narayana Street, Royapuram, Chennai",
+    "phone": "044-25960206",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0639677,80.2805753",
+    "pincode": "600 013"
+  },
+  {
+    "id": "TN00229",
+    "name": "SRI  RAMACHANDRA HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "1, Ramachandra Nagar, Porur, Chennai",
+    "phone": "044-24761541 ,  24765512",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0037834,80.2569061",
+    "pincode": "600 116"
+  },
+  {
+    "id": "TN00230",
+    "name": "SRI  VENKATESHWARA'S C.M. HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No:1, 47th  Street, 5th Main Road, Nanganallur, Chennai",
+    "phone": "044-22247621 ,  22242499",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0411898,80.1747072",
+    "pincode": "600 061"
+  },
+  {
+    "id": "TN00231",
+    "name": "SRINIVAS  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "335, Thiruvallur Salai, Paneer Nagar, Mugappair,Chennai",
+    "phone": "044-43550111",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9617233,80.1993716",
+    "pincode": "600 037"
+  },
+  {
+    "id": "TN00232",
+    "name": "SRINIVAS  PRIYA HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "106, Patel Road, Perambur, Chennai",
+    "phone": "044-25515502",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0432208,80.2186751",
+    "pincode": "600 011"
+  },
+  {
+    "id": "TN00233",
+    "name": "SRUSHTI  HOSPITAL  PVT. LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.1, Padmavathy Street, Thirumalai Nagar, Ramapuram,Chennai",
+    "phone": "044-24861144",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9702992,80.2493535",
+    "pincode": "600 089"
+  },
+  {
+    "id": "TN00234",
+    "name": "STAR  BONE  AND  JOINT CENTRE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.158/284, Triplicane High Road, Triplicane,Chennai",
+    "phone": "044- 2854 4948 044- 4206 1992",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0793931,80.19825",
+    "pincode": "600 005"
+  },
+  {
+    "id": "TN00235",
+    "name": "SUCHA  EYE CURE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Plot.5, Door No.4, Nagi Reddy Street,Devi Karumari Amman Nagar, Valsarawakkam,Chennai",
+    "phone": "044-23717373 /  9150357800",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0508912,80.0948204",
+    "pincode": "600 087"
+  },
+  {
+    "id": "TN00236",
+    "name": "SUDAR  HOSPITALS  & DIAGNOSTICS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No:15/4, Duraisamy Reddy Street, West Tambaram, Chennai",
+    "phone": "044-40264444",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0294521,80.2440883",
+    "pincode": "600 045"
+  },
+  {
+    "id": "TN00237",
+    "name": "SUDAR  HOSPITALS  PRIVATE LIMITED",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.1, Kannan Avenue, Balaji Nagar, Camp Road, Selaiyur, Chennai",
+    "phone": "044-42833702",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0873339,80.2183222",
+    "pincode": "600 073"
+  },
+  {
+    "id": "TN00238",
+    "name": "SUDAR  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No. 30, Ayyasami Street, Nehru Nagar, Chromepet,Chennai",
+    "phone": "044-22235211",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0545014,80.2114219",
+    "pincode": "600 044"
+  },
+  {
+    "id": "TN00239",
+    "name": "SUDAR  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.349, MR Road,West Tambaram, Chennai",
+    "phone": "044-22235211",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0261436,80.2284671",
+    "pincode": "600 045"
+  },
+  {
+    "id": "TN00240",
+    "name": "SUGAM HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "349, Thiruvottiyur High  Road, Thiruvottiyur,Chennai",
+    "phone": "044-40506070",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0841972,80.223019",
+    "pincode": "600 019"
+  },
+  {
+    "id": "TN00241",
+    "name": "SUGAM HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.107A, G.S.T. Road,Zamin Pallavaram, Chromepet, Chennai",
+    "phone": "044-40506070",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0385202,80.2166264",
+    "pincode": "600 044"
+  },
+  {
+    "id": "TN00242",
+    "name": "SUNDARAM  MEDICAL FOUNDATION",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Shanthi Colony, Anna Nagar, Chennai",
+    "phone": "044-26268844",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0856795,80.2452474",
+    "pincode": "600 040"
+  },
+  {
+    "id": "TN00243",
+    "name": "SUSI HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.665, Tiruvottiyur High  Road, Near Kavi Bharathi Vidhyalaya Higher Secondary School, (Soundarapandiyanar Nagar) Chennai",
+    "phone": "044-48674544",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0532756,80.2509391",
+    "pincode": "600 019"
+  },
+  {
+    "id": "TN00244",
+    "name": "SWAMY  EYE  CLINIC",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.11, South Mada Street, Villivakkam,Chennai",
+    "phone": "044-26173742 044-42863309",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9856233,80.2184309",
+    "pincode": "600 049"
+  },
+  {
+    "id": "TN00245",
+    "name": "TAMIL  NADU  GOVERNMENT MULTI  SUPER  SPECIALITY HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Anna Salai, Triplicane, Chennai",
+    "phone": "044-25381216",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1185094,80.1522565",
+    "pincode": "600 005"
+  },
+  {
+    "id": "TN00246",
+    "name": "TAMIL  NADU  UROLOGICAL RESEARCH CENTRE  PVT LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "76, Nelson Manickam Road, Aminjikarai,Chennai",
+    "phone": "044-23743300 ,  23743500",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1185345,79.9130806",
+    "pincode": "600 029"
+  },
+  {
+    "id": "TN00247",
+    "name": "THE  BEST  HOSPITAL PRIVATE LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.9, Vellala Street, Kodambakkam, Chennai",
+    "phone": "044-24832777",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1099532,79.9113762",
+    "pincode": "600 024"
+  },
+  {
+    "id": "TN00248",
+    "name": "THE  HEART  INSTITUTE, VIJAYA  HEALTH  CENTER",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "323 and 434, NSK Salai, Vadapalani,Chennai",
+    "phone": "044-24802165 ,  66646664 ,  66616661",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.1776111,79.6115269",
+    "pincode": "600 026"
+  },
+  {
+    "id": "TN00249",
+    "name": "TOSH  HOSPITALS  PVT. LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.34/72,  Ormes  Road,Kilpauk,  Chennai",
+    "phone": "044-49034903",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.8379254,79.7026209",
+    "pincode": "600  010"
+  },
+  {
+    "id": "TN00250",
+    "name": "TRUST  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No:122, Medavakam Tank Road, Ayanavaram, Chennai",
+    "phone": "044-26461722 ,",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.7947791,79.8162213",
+    "pincode": "600 023"
+  },
+  {
+    "id": "TN00251",
+    "name": "UDHI  EYE  HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "9, Murrays Gate Road, Alwarpet, Chennai",
+    "phone": "044-43471111 ,  42188844",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.835236,79.7107579",
+    "pincode": "600 018"
+  },
+  {
+    "id": "TN00252",
+    "name": "UMA  EYE  CLINIC  PVT  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No:1957, 10th Main Road, Anna Nagar,Chennai",
+    "phone": "044-26213670 ,  26263189",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.8339811,79.7112383",
+    "pincode": "600 040"
+  },
+  {
+    "id": "TN00253",
+    "name": "UNITTAS MULTISPECIALITY HOSPITAL  PRIVATE  LIMITED",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.16/17, M.K.Reddy Street, West Tambaram,Chennai",
+    "phone": "044-40124012",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.8726122,79.7238623",
+    "pincode": "600 045"
+  },
+  {
+    "id": "TN00254",
+    "name": "V  SMART  HEALTH  VENTURES PVT  LTD",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.115, Kamaraj Avenue,2nd Street, Adyar, Chennai",
+    "phone": "044-33143314 044-42665165",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.9655148,79.9452718",
+    "pincode": "600 020"
+  },
+  {
+    "id": "TN00255",
+    "name": "V.S. HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "13, East Spurtank Road, Chetpet, Chennai",
+    "phone": "044-12001000 ,  28190920",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0245458,80.017496",
+    "pincode": "600 031"
+  },
+  {
+    "id": "TN00256",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No. 201, GST Road,Opp. to Chrompet Bus Stop, Chrompet, Chennai",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.8880208,80.0259413",
+    "pincode": "600 044"
+  },
+  {
+    "id": "TN00257",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.310, TTK Road,Alwarpet, Chennai",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.8246997,79.7071565",
+    "pincode": "600 018"
+  },
+  {
+    "id": "TN00258",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "118, Bazaar Road, Saidapet, Chennai",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.829195,79.7037726",
+    "pincode": "600 015"
+  },
+  {
+    "id": "TN00259",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "New No:976, Old No: 447,T.H Road, (Old Washermenpet), Tondiarpet, Chennai",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.6883815,79.9818384",
+    "pincode": "600 021"
+  },
+  {
+    "id": "TN00260",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No  77, 3rd Avenue, (Opp. K4 Police Station), Anna Nagar East, Chennai",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9296398,80.1199253",
+    "pincode": "600 102"
+  },
+  {
+    "id": "TN00261",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No. 100/101, Triplicane High Road, Triplicane,Chennai",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9236633,80.1141179",
+    "pincode": "600 005"
+  },
+  {
+    "id": "TN00262",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No. 115/1, Kamaraj Avenue, 2nd Street, Adyar,Chennai",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.6973294,79.9725414",
+    "pincode": "600 020"
+  },
+  {
+    "id": "TN00263",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.50, Arcot Road, Valasaravakkam, Chennai",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.7284514,79.9979598",
+    "pincode": "600 087"
+  },
+  {
+    "id": "TN00264",
+    "name": "VASAN  EYE CARE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "683/5, Mahalingam Street, Near Ayyappan Bus Stop, Madipakkam,Chennai",
+    "phone": "044-33724216 /  044-33724200",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Nephrology",
+      "Pediatrics",
+      "Gastro- enterology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Obsteritics",
+      "Medical Oncology",
+      "Urology",
+      "Cardiothoracic Surgeries",
+      "ENT",
+      "Endocrinology",
+      "Ophthalmology",
+      "Haematology",
+      "Surgical Oncology",
+      "Radiation Oncology",
+      "Rheumatology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.5921885,79.9168659",
+    "pincode": "600 091"
+  },
+  {
+    "id": "TN00265",
+    "name": "VASANTHRAM HOSPITAL (P)  LIMITED",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.7, Varadhappan Street, West Mambalam,Chennai",
+    "phone": "044-24723815 /  9444257730",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9503313,80.1513003",
+    "pincode": "600 033"
+  },
+  {
+    "id": "TN00266",
+    "name": "VEE  CARE  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.13, 2Nd  Avenue, Roundtana Junction, Annanagar,Chennai",
+    "phone": "044-42945454",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.4341947,79.8132151",
+    "pincode": "600 102"
+  },
+  {
+    "id": "TN00267",
+    "name": "VEE  CARE  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "106, Jawaharlal Nehru Salai, Near Koyembedu Junction, Thirumangalam,Anna Nagar West, Chennai",
+    "phone": "044-42945454",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.8764367,80.0794818",
+    "pincode": "600 040"
+  },
+  {
+    "id": "TN00268",
+    "name": "VEE  CARE  SUNDAR HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "186, Trunk Road,Poonamallee, Chennai",
+    "phone": "044-42945454",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.6900298,79.9801221",
+    "pincode": "600 056"
+  },
+  {
+    "id": "TN00269",
+    "name": "VENKATESWARA  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "36-A, Muthuramalinga Devar Salai, Nandanam,Chennai",
+    "phone": "044-45114511",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.6896355,79.9792069",
+    "pincode": "600 035"
+  },
+  {
+    "id": "TN00270",
+    "name": "VIHAA  MULTI  SPECIALITY HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "E-5,  Third  Avenue, Annanagar  East, Chennai",
+    "phone": "9710400000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.7944564,80.0181805",
+    "pincode": "600  102"
+  },
+  {
+    "id": "TN00271",
+    "name": "VIJAYA  GROUP OF HOSPITALS",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "NSK Salai, Vadapalani, Chennai",
+    "phone": "044-24802221 ,  24802165",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=12.8208657,80.0481732",
+    "pincode": "600 026"
+  },
+  {
+    "id": "TN00272",
+    "name": "VIJAY'S  NURSING  HOME",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "39, West Road, West C.I.T. Nagar, Chennai",
+    "phone": "044-24338245 ,  24336795",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.859988,80.1364459",
+    "pincode": "600 035"
+  },
+  {
+    "id": "TN00273",
+    "name": "VISHNU  EYE  CLINIC",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "C-46, Second Avenue, Anna Nagar East,Chennai",
+    "phone": "044-2626 1188 044-2626 1166 044-2628 1166",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9030855,79.1334338",
+    "pincode": "600 102"
+  },
+  {
+    "id": "TN00274",
+    "name": "VISION  XPERTS  EYE HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Old  No-20,  New,  No-30,  7th Avenue  Ashok  Nagar, Chennai",
+    "phone": "044-48685767 91767 85767",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9342757,79.1587204",
+    "pincode": "600  083"
+  },
+  {
+    "id": "TN00275",
+    "name": "VS  SUPER  SPECIALITY CENTER  FOR  ADVANCED SURGERIES",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "No.815/306, Poonamalle High Road, Kilpauk,Chennai",
+    "phone": "044-46008000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9148053,79.1342961",
+    "pincode": "600 010"
+  },
+  {
+    "id": "TN00276",
+    "name": "WEST  MINSTER  HEALTH CARE",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "Old No.145, New No. 2, Opp: The Park Hotel, Nungambakkam High Road, Chennai",
+    "phone": "044-61006100",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9244456,79.1352765",
+    "pincode": "600 034"
+  },
+  {
+    "id": "TN00277",
+    "name": "XCELLENT  CARE  HOSPITAL",
+    "city": "Chennai",
+    "state": "Tamil nadu",
+    "address": "7th Cross Street, Raja Lakshmi Nagar,100 Feet Velachery Bye Pass Road, Near Velachery Lake, Velachery,Chennai",
+    "phone": "044-40000006",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "General Surgery",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular\nSurgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.908636,79.1332327",
+    "pincode": "600 042"
+  }
+]

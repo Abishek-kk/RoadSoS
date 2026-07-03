@@ -1,0 +1,314 @@
+[
+  {
+    "id": "TN00388",
+    "name": "ABIRAAMI  HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "No:24, A.L.C. Campus, Cuddalore",
+    "phone": "04142-231600 ,  22 ,  04142-222119",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8228788,78.6748277",
+    "pincode": "607 001"
+  },
+  {
+    "id": "TN00389",
+    "name": "CHANDRA HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "No.118/835 Junction Road, Virudhachalam,Cuddalore",
+    "phone": "04143-260621",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.6074144,78.4251753",
+    "pincode": "606 001"
+  },
+  {
+    "id": "TN00390",
+    "name": "DR.AGARWAL  EYE  HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "No.47, Cuddalore  Main Road. Mantharakuppam,Neyveli",
+    "phone": "9769843259",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.6074144,78.4251753",
+    "pincode": "607  802"
+  },
+  {
+    "id": "TN00391",
+    "name": "Dr.R.VASUDEVAN  EYE HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "No.33, West Sannathi,Chidambaram",
+    "phone": "04144-223127",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical Care",
+      "Orthopaedics",
+      "Neurology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7904833,78.7046725",
+    "pincode": "608  001"
+  },
+  {
+    "id": "TN00392",
+    "name": "KALYAAN  SPECIALITY HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "No.32, Gundusalai Road, Alpet, (Near Collector Office), Cuddalore",
+    "phone": null,
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.820695,78.6779443",
+    "pincode": "607 001"
+  },
+  {
+    "id": "TN00393",
+    "name": "KANNAN  HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "17, Bashyam Street, Manjakuppam,Cuddalore",
+    "phone": "04142-230370 ,  230025",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.819434,78.6826218",
+    "pincode": "607 001"
+  },
+  {
+    "id": "TN00394",
+    "name": "KRISHNA CANCER INSTITUTE",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "R.S.No.76/2,Thottapattu, Nellikuppam Main Road,Cuddalore",
+    "phone": null,
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8239916,78.6865981",
+    "pincode": "607 109"
+  },
+  {
+    "id": "TN00395",
+    "name": "KRISHNA HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "No.17-A, Hospital Road, Cuddalore",
+    "phone": "04142-231711 04142-231714",
+    "type": "Private",
+    "specialties": [
+      "E.N.T. & Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8271253,78.6739899",
+    "pincode": "607 001"
+  },
+  {
+    "id": "TN00396",
+    "name": "MARUTHI GASTRO  CARE HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "42, 43, Sekar Nagar, Semmandalam, Cuddalore",
+    "phone": "04142-284666",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.6140309,78.4278307",
+    "pincode": "607 001"
+  },
+  {
+    "id": "TN00397",
+    "name": "RR  SPECIALITY  HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "No.55,  Sanjeevi  Naidu  street, Thiruppapuliyur,Cuddalore",
+    "phone": "04142-234443",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8134341,78.6710756",
+    "pincode": "607  002"
+  },
+  {
+    "id": "TN00398",
+    "name": "S.M.HOSPITAL  AND  V N LAPAROSCOPY  CENTRE",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "Plot No.11&12,K.S.R.C Nagar, (Behind Bus Stand), Panruti,Cuddalore",
+    "phone": "04142-243771 04142-240771",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery",
+      "Nephrology",
+      "Neurology",
+      "Plastic & Facio maxillary",
+      "Genitourinary Surgery",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8193214,78.6855208",
+    "pincode": "607 106"
+  },
+  {
+    "id": "TN00399",
+    "name": "S.R.  HOSPITAL &  ENT RESEARCH",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "25, A.L.C. Campus, Cuddalore",
+    "phone": null,
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8338752,78.6946421",
+    "pincode": "607 001"
+  },
+  {
+    "id": "TN00400",
+    "name": "SUBHA  ANANDHAM  MEDICAL CENTRE",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "No.11 A/3, Hospital Road, Red Cross Street,Cuddalore",
+    "phone": "04142-222092 9442122092",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.7885657,78.6667107",
+    "pincode": "607 001"
+  },
+  {
+    "id": "TN00401",
+    "name": "VALLI  VILAS HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "45/2, Bharathi Road, Cuddalore",
+    "phone": "04142-221879",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Nephrology",
+      "Pediatrics",
+      "Gastro- enterology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Obsteritics",
+      "Medical Oncology",
+      "Urology",
+      "Cardiothoracic Surgeries",
+      "ENT",
+      "Endocrinology",
+      "Ophthalmology",
+      "Haematology",
+      "Surgical Oncology",
+      "Radiation Oncology",
+      "Rheumatology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8243154,78.6952013",
+    "pincode": "607 001"
+  },
+  {
+    "id": "TN00402",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Cuddalore",
+    "state": "Tamil nadu",
+    "address": "No.18 &  19, Lawrence Road, Near Bus Stand, Thiruppapuliyur,Cuddalore",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.819282,78.6848461",
+    "pincode": "607 002"
+  },
+  {
+    "id": "TN00761",
+    "name": "ARAVIND  EYE HOSPITAL",
+    "city": "Puducheery",
+    "state": "Puducheery",
+    "address": "Cuddalore Main  Road, Thavalakuppam, Puducherry",
+    "phone": "044-24895781",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.026304,76.95008",
+    "pincode": "605 007"
+  },
+  {
+    "id": "TN00769",
+    "name": "SRI  ARUPADAI VEEDU MEDICAL  COLLEGE  & HOSPITAL",
+    "city": "Puducheery",
+    "state": "Puducheery",
+    "address": "Cuddalore - Puducherry Main Road, Kirumapakkam, Puducherry",
+    "phone": "0413-2615625",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.009183,77.1139984",
+    "pincode": "607 402"
+  }
+]

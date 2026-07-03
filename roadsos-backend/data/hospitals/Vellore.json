@@ -1,0 +1,282 @@
+[
+  {
+    "id": "TN01160",
+    "name": "ARUN HOSPITAL",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "No.15, Thiyagarajapuram, Vellore",
+    "phone": "0416-2234217",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.1957861,77.3924737",
+    "pincode": "632  001"
+  },
+  {
+    "id": "TN01161",
+    "name": "BABA  HOSPITAL",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "No.1311-A, South  Avenur Road, Phase-II, Sathuvachari,Vellore",
+    "phone": "0416-2253744",
+    "type": "Private",
+    "specialties": [
+      "General Medicine- Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      ""
+    ],
+    "location_link": "https://maps.google.com/?q=8.1977932,77.4451133",
+    "pincode": "632  009"
+  },
+  {
+    "id": "TN01162",
+    "name": "CHRISTIAN  EYE HOSPITAL",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "Schell Campus Arni Road, Vellore",
+    "phone": "0416-2283174 ,  2282593 ,  22820202",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecologys",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=8.1926514,77.4300357",
+    "pincode": "632  004"
+  },
+  {
+    "id": "TN01163",
+    "name": "CHRISTIAN  MEDICAL COLLEGE &  HOSPITAL",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "IDA Scudder Road, Vellore",
+    "phone": "0416-2283174 ,  2282593 ,  22820202",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecologys",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=8.1865439,77.4292327",
+    "pincode": "632  004"
+  },
+  {
+    "id": "TN01164",
+    "name": "DHINESH  HOSPITAL",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "73, Arni Road, Rathinasingh Kulam  Street,Vellore",
+    "phone": "0416-2227700",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.2875995,77.2692054",
+    "pincode": "632  001"
+  },
+  {
+    "id": "TN01165",
+    "name": "DHINESH  NURSING  HOME",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "Bagayam, (Arni Road), Edayanchathu, Vellore",
+    "phone": "0416-2263300",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=9.1746514,77.866397",
+    "pincode": "632  002"
+  },
+  {
+    "id": "TN01166",
+    "name": "DR.  AGARWAL'S  EYE HOSPITAL",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "19/1, Officers Line, Vellore",
+    "phone": "044-28112811 /  2592 / 2358 /  3704 /  43141205",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.806558,78.1394819",
+    "pincode": "632  001"
+  },
+  {
+    "id": "TN01167",
+    "name": "INDIRA NURSING  HOME",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "No.452, Main Bazaar Road, Saidapet,    (Near CMC) Vellore",
+    "phone": "0416-2225253",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.8017551,78.1375386",
+    "pincode": "632  012"
+  },
+  {
+    "id": "TN01168",
+    "name": "KUMARAN  HOSPITALS  PVT LTD",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "112, Katpadi Road, Gandhi Nagar, Vellore",
+    "phone": "0416-2243630",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.5098064,78.1178727",
+    "pincode": "632  006"
+  },
+  {
+    "id": "TN01169",
+    "name": "LAKSHMI  HOSPITAL",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "7/8, Pillayarkoil Street, Dharapadavedu, Katpadi,Vellore",
+    "phone": "044-32559182 ,  24580400",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.7874288,78.1405319",
+    "pincode": "632  007"
+  },
+  {
+    "id": "TN01170",
+    "name": "MANISUNDARAM  MEDICAL MISSION",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "No.288, South Avenue Road, Phase- I, Vallalar, Sathuvachari,Vellore",
+    "phone": "0416-2256007 /  2254004",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.7959878,78.1252342",
+    "pincode": "632  009"
+  },
+  {
+    "id": "TN01171",
+    "name": "SANDHYA HOSPITAL & FERTILITY CENTRE",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "No.565, 16th Cross, Phase-I, Sathuvachari,Vellore",
+    "phone": "0416-2253357",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=8.8014851,78.1372663",
+    "pincode": "632  009"
+  },
+  {
+    "id": "TN01172",
+    "name": "SANKARI HOSPITAL",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "32, G.P.H. Road,Vellore",
+    "phone": "0416-2222667 ,  2222578",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=8.4931495,78.117047",
+    "pincode": "632  001"
+  },
+  {
+    "id": "TN01173",
+    "name": "SATHISH  EYE HOSPITAL",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "No.112, Arni Road, Kosapet, Near 'More Super market', Vellore",
+    "phone": "9585875092",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=8.780469,78.1005188",
+    "pincode": "632  001"
+  },
+  {
+    "id": "TN01174",
+    "name": "SRI  NARAYANI HOSPITAL AND  RESEARCH  CENTRE",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "Thirmalaikodi, Vellore",
+    "phone": "0416-2206324",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.1746345,77.8663116",
+    "pincode": "632  055"
+  },
+  {
+    "id": "TN01175",
+    "name": "SRI  RAGAVENDRA  HEALTH CARE",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "No.218,  Phase-1,  South service  road,  Sathuvachari, Vellore",
+    "phone": "0416-2255288 95976 49557",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=8.811994,78.1410631",
+    "pincode": "630  009"
+  },
+  {
+    "id": "TN01176",
+    "name": "VASAN  EYE CARE-VELLORE",
+    "city": "Vellore",
+    "state": "Tamil nadu",
+    "address": "No. 30/1, Officer's Line, (Near Khanna Hotel),Vellore",
+    "phone": "0416-221188",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=8.8097894,78.1350194",
+    "pincode": "632  001"
+  }
+]

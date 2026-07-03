@@ -1,0 +1,52 @@
+[
+  {
+    "id": "PS007",
+    "name": "Anna Nagar Police Station",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "6th Avenue, Anna Nagar, Chennai, Tamil Nadu 600040",
+    "lat": 13.085,
+    "lng": 80.2101,
+    "phone": "+914426261500",
+    "emergency_phone": "100",
+    "pcr_van": "112",
+    "type": "City Police",
+    "jurisdiction": "Anna Nagar East and West, Kilpauk",
+    "highway_patrol": false,
+    "district": "Chennai City District",
+    "zone": "North Zone",
+    "officer_in_charge": "Inspector",
+    "vehicles": [
+      "2 PCR Vans",
+      "3 Patrol Cars",
+      "3 Motorcycles"
+    ],
+    "open_24x7": true,
+    "distance_km": null
+  },
+  {
+    "id": "PS008",
+    "name": "Adyar Police Station",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "LB Road, Adyar, Chennai, Tamil Nadu 600020",
+    "lat": 13.0067,
+    "lng": 80.2543,
+    "phone": "+914424912233",
+    "emergency_phone": "100",
+    "pcr_van": "112",
+    "type": "City Police",
+    "jurisdiction": "Adyar, Besant Nagar, Thiruvanmiyur",
+    "highway_patrol": false,
+    "district": "Chennai City District",
+    "zone": "South Zone",
+    "officer_in_charge": "Inspector",
+    "vehicles": [
+      "2 PCR Vans",
+      "4 Patrol Cars",
+      "2 Motorcycles"
+    ],
+    "open_24x7": true,
+    "distance_km": null
+  }
+]

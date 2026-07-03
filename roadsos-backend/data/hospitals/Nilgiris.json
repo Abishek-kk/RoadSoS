@@ -1,0 +1,100 @@
+[
+  {
+    "id": "TN00943",
+    "name": "HOLY  FAMILY  MISSION HOSPITAL",
+    "city": "The Nilgiris",
+    "state": "Tamil nadu",
+    "address": "Cotherstone, Kothagiri",
+    "phone": "04266-271407",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "Cardiothoracic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=9.9263744,78.1002241",
+    "pincode": "643 217"
+  },
+  {
+    "id": "TN00944",
+    "name": "KOTAGIRI  MEDICAL FELLOWSHIP  HOSPITAL",
+    "city": "The Nilgiris",
+    "state": "Tamil nadu",
+    "address": "Kotagiri",
+    "phone": "04266-273777 ,  272217",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9231398,78.093933",
+    "pincode": "643 217"
+  },
+  {
+    "id": "TN00945",
+    "name": "NANKAM HOSPITAL",
+    "city": "The Nilgiris",
+    "state": "Tamil nadu",
+    "address": "Near YWCA, Coonoor",
+    "phone": "0423-2231550",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Nephrology",
+      "Pediatrics",
+      "Gastro- enterology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Obsteritics",
+      "Medical Oncology",
+      "Urology",
+      "ENT",
+      "Endocrinology",
+      "Ophthalmology",
+      "Haematology",
+      "Rheumatology",
+      "Plastic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9239568,78.1032123",
+    "pincode": "643 101"
+  },
+  {
+    "id": "TN00946",
+    "name": "SHIVA SHAKTHI  MULTI SPECIALITY  CENTER",
+    "city": "The Nilgiris",
+    "state": "Tamil nadu",
+    "address": "Blue Mountain School Road, Near Chandra Hundai, Ooty,  The Nilgiris",
+    "phone": "0423-2441947",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9235038,78.1148539",
+    "pincode": "643  001"
+  },
+  {
+    "id": "TN00947",
+    "name": "THE  EYE  FOUNDATION",
+    "city": "The Nilgiris",
+    "state": "Tamil nadu",
+    "address": "Coonoor Road, Elk Hill Road Junction, Ooty",
+    "phone": "914224242000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=9.9380654,78.130787",
+    "pincode": "643 001"
+  }
+]

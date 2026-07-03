@@ -1,0 +1,27 @@
+[
+  {
+    "id": "PS009",
+    "name": "NH-44 Highway Police Post (Vandalur)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "NH-44, Vandalur, Chennai, Tamil Nadu 600048",
+    "lat": 12.884,
+    "lng": 80.078,
+    "phone": "+914427462200",
+    "emergency_phone": "100",
+    "pcr_van": "112",
+    "type": "Highway Police",
+    "jurisdiction": "NH-44 (Chennai–Bengaluru, Vandalur stretch)",
+    "highway_patrol": true,
+    "district": "Kancheepuram District",
+    "zone": "South Zone",
+    "officer_in_charge": "Sub-Inspector",
+    "vehicles": [
+      "4 PCR Vans",
+      "4 Patrol Cars",
+      "4 Motorcycles"
+    ],
+    "open_24x7": true,
+    "distance_km": null
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "TN00792",
+    "name": "A.R.  HOSPITAL",
+    "city": "Ramanathapuram",
+    "state": "Tamil nadu",
+    "address": "46/6, Madurai Road, Opp to MPTC Shed, Ramanathapuram",
+    "phone": "0452-2586 629",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.6627035,77.0096561",
+    "pincode": "623 501"
+  },
+  {
+    "id": "TN00793",
+    "name": "AASI  MULTI  SPECIALITY HOSPITAL",
+    "city": "Ramanathapuram",
+    "state": "Tamil nadu",
+    "address": "No.6/1115-1,D'block, opp to  RTO office, Rameshwaram  Road, Ramanthapuram",
+    "phone": "04567-232301 7867086208",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.0207683,76.9649921",
+    "pincode": "623 504"
+  },
+  {
+    "id": "TN00794",
+    "name": "AROGYA HOSPITAL",
+    "city": "Ramanathapuram",
+    "state": "Tamil nadu",
+    "address": "No.6/2, Devi Pattanam Road, Ramanathapuram",
+    "phone": "04567-222888",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.6624519,77.0089916",
+    "pincode": "623 501"
+  },
+  {
+    "id": "TN00795",
+    "name": "ESWAR  EYE  AND  ENT HOSPITAL",
+    "city": "Ramanathapuram",
+    "state": "Tamil nadu",
+    "address": "No.19, Lathams Bangalow Road,Ramanathapuram",
+    "phone": "04567-221170",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Cardiothoracic surgery",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Gynaecology",
+      "ENT",
+      "Surgical Oncology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology",
+      "Renal transplant",
+      "Liver Transplant"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0097461,76.9502453",
+    "pincode": "623 501"
+  },
+  {
+    "id": "TN00796",
+    "name": "KANAGAMANI  HOSPITAL",
+    "city": "Ramanathapuram",
+    "state": "Tamil nadu",
+    "address": "58, G.H. Road,Ramanathapuram",
+    "phone": "04567-221201",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0084749,76.9562221",
+    "pincode": "623 501"
+  },
+  {
+    "id": "TN00797",
+    "name": "RAJANS  CLINIC",
+    "city": "Ramanathapuram",
+    "state": "Tamil nadu",
+    "address": "No.27/1,   R.R Sethupathi Nagar, G.H Road, Ramanathapuram",
+    "phone": "04567-221225",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic & Facio Maxilliary",
+      "Vascular\nSurgery."
+    ],
+    "location_link": "https://maps.google.com/?q=10.9946039,76.979388",
+    "pincode": "623501"
+  },
+  {
+    "id": "TN00798",
+    "name": "SHIFAN  HOSPITAL",
+    "city": "Ramanathapuram",
+    "state": "Tamil nadu",
+    "address": "92/1, 93, Devipattinam Road, Ramanathapuram",
+    "phone": "04567-223052",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0076273,76.9664064",
+    "pincode": "623 501"
+  },
+  {
+    "id": "TN00799",
+    "name": "SRI  ANNAMALAI  SHIVANI HOSPITAL",
+    "city": "Ramanathapuram",
+    "state": "Tamil nadu",
+    "address": "20,Sigil Raja Street,Kenikarai, Ramanathapuram",
+    "phone": "04567-223058 ,  223059",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.059206,77.0893964",
+    "pincode": "623 501"
+  },
+  {
+    "id": "TN00800",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Ramanathapuram",
+    "state": "Tamil nadu",
+    "address": "No.78/143 - Salai Street, Arignar Anna Salai, Ramanathapuram",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.0089043,76.9548048",
+    "pincode": "623 501"
+  },
+  {
+    "id": "TN00801",
+    "name": "VEL  HOSPITAL",
+    "city": "Ramanathapuram",
+    "state": "Tamil nadu",
+    "address": "Thiruvalluvar Street, Ramanathapuram",
+    "phone": "04567-222206 /  07",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.014266,76.9614268",
+    "pincode": "623 504"
+  }
+]

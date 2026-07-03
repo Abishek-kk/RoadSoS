@@ -1,0 +1,124 @@
+[
+  {
+    "id": "TN00713",
+    "name": "ARUN PRIYA  NURSING  HOME",
+    "city": "Mayiladuthurai",
+    "state": "Tamil nadu",
+    "address": "Pattamangala Street, Mayiladuthurai",
+    "phone": "04364-222331",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.4552685,78.1936137",
+    "pincode": "609 001"
+  },
+  {
+    "id": "TN00714",
+    "name": "GUHAN  HOSPITAL & INFERTILITY CENTRE",
+    "city": "Mayiladuthurai",
+    "state": "Tamil nadu",
+    "address": "42/168, Mahadhana Street, Mayiladuthurai",
+    "phone": "04364-226542 ,  243258",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroentrology",
+      "Neurology",
+      "Plastic & Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=11.4621964,78.1840946",
+    "pincode": "609 001"
+  },
+  {
+    "id": "TN00715",
+    "name": "KRISHNA HOSPITAL",
+    "city": "Mayiladuthurai",
+    "state": "Tamil nadu",
+    "address": "8, Pattamangala Street,Mayiladuthurai",
+    "phone": "04142-231711 04142-231714",
+    "type": "Private",
+    "specialties": [
+      "E.N.T. & Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.215339,78.1720285",
+    "pincode": "609 001"
+  },
+  {
+    "id": "TN00716",
+    "name": "RAM BONE  AND  JOINT CLINIC",
+    "city": "Mayiladuthurai",
+    "state": "Tamil nadu",
+    "address": "66, Mahadana Street,Mayiladuthurai",
+    "phone": "04364-224712",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.2247841,78.1621437",
+    "pincode": "609 001"
+  },
+  {
+    "id": "TN00717",
+    "name": "SANTHI  HOSPITAL",
+    "city": "Mayiladuthurai",
+    "state": "Tamil nadu",
+    "address": "No.4, Narayana Pillai Street, Mayiladurai,  Nagapattinam",
+    "phone": "04364-222906",
+    "type": "Private",
+    "specialties": [
+      "Opthalmalogy"
+    ],
+    "location_link": "https://maps.google.com/?q=11.3651775,77.947823",
+    "pincode": "609001"
+  },
+  {
+    "id": "TN00718",
+    "name": "VAIRAM  MULTI  SPECIALITY HOSPITAL",
+    "city": "Mayiladuthurai",
+    "state": "Tamil nadu",
+    "address": "46/12, Pattamamgala Street, Mayiladuthurai, Nagapatinam",
+    "phone": "04364-227879 ,  04364-229798",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Nephrology",
+      "Pediatrics",
+      "Gastro- enterology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Obsteritics",
+      "Medical Oncology",
+      "Urology",
+      "Cardiothoracic Surgeries",
+      "ENT",
+      "Endocrinology",
+      "Ophthalmology",
+      "Haematology",
+      "Surgical Oncology",
+      "Radiation Oncology",
+      "Rheumatology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.5233401,76.9412601",
+    "pincode": "609 001"
+  }
+]

@@ -10,6 +10,11 @@ from typing import Any
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 logger = logging.getLogger("roadsos.data")
 _JSON_CACHE: dict[str, list[dict[str, Any]]] = {}
+FOLDER_DATASETS = {
+    "hospitals.json": "hospitals",
+    "police_stations.json": "police_stations",
+    "towing.json": "towing_services",
+}
 
 
 def cache_clear() -> None:
@@ -19,6 +24,19 @@ def cache_clear() -> None:
 
 def load_json(name: str) -> list[dict[str, Any]]:
     if name in _JSON_CACHE:
+        return _JSON_CACHE[name]
+
+    dataset_dir = FOLDER_DATASETS.get(name)
+    if dataset_dir and (DATA_DIR / dataset_dir).is_dir():
+        data: list[dict[str, Any]] = []
+        for path in sorted((DATA_DIR / dataset_dir).glob("*.json")):
+            with path.open("r", encoding="utf-8") as f:
+                district_data = json.load(f)
+            if isinstance(district_data, list):
+                data.extend(district_data)
+            elif isinstance(district_data, dict) and isinstance(district_data.get("services"), list):
+                data.extend(district_data["services"])
+        _JSON_CACHE[name] = data
         return _JSON_CACHE[name]
 
     with (DATA_DIR / name).open("r", encoding="utf-8") as f:
@@ -388,4 +406,3 @@ async def fetch_overpass_towing(lat: float, lng: float) -> list[dict[str, Any]]:
             f"Error fetching towing from Overpass: {e}", exc_info=True
         )
     return []
-

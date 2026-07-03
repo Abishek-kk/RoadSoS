@@ -1,0 +1,50 @@
+[
+  {
+    "id": "TN00012",
+    "name": "A.S. NURSING  HOME",
+    "city": "Ariyalur",
+    "state": "Tamil nadu",
+    "address": "Pattunoolkara Street, Ariyalur",
+    "phone": "04329-222425",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=12.9207342,80.0880632",
+    "pincode": "621704"
+  },
+  {
+    "id": "TN00013",
+    "name": "ARIYALUR GOLDEN HOSPITAL  (P)  LTD",
+    "city": "Ariyalur",
+    "state": "Tamil nadu",
+    "address": "81 A, Sendurai Road, Ariyalur",
+    "phone": "04329-222530",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.060162,80.2526564",
+    "pincode": "621704"
+  },
+  {
+    "id": "TN00014",
+    "name": "EZHIL  SURGICAL  AND MATERNITY HOSPITAL",
+    "city": "Ariyalur",
+    "state": "Tamil nadu",
+    "address": "44 A1/A2, Jayankondan, South Vellala Street,Ariyalur",
+    "phone": "04331-321818 ,  290650",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=13.0777125,80.24592",
+    "pincode": "621802"
+  }
+]

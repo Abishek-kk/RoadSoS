@@ -1,0 +1,105 @@
+[
+  {
+    "id": "TN00754",
+    "name": "ARPUTHA  MEDICAL  CARE HOSPITAL",
+    "city": "Perambalur",
+    "state": "Tamil nadu",
+    "address": "179, AKV  Building, Near LIC,Trichy Main  Road, Perambalur",
+    "phone": "04328-225722 ,  33",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0174221,76.9772593",
+    "pincode": "621 212"
+  },
+  {
+    "id": "TN00755",
+    "name": "DHANALAKSHMI  SRINIVASAN MEDICAL  COLLEGE HOSPITAL",
+    "city": "Perambalur",
+    "state": "Tamil nadu",
+    "address": "NH  45, Trichy Chennai Bypass, Siruvachur, Perambalur District",
+    "phone": "04328-327999",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.0172098,76.9990593",
+    "pincode": "621 113"
+  },
+  {
+    "id": "TN00756",
+    "name": "DHANALAKSHMI  SRINIVASAN SUPER  SPECIALITY HOSPITAL",
+    "city": "Perambalur",
+    "state": "Tamil nadu",
+    "address": "NH  45,Trichy Chennai By Pass, Siruvachur,Perambalur",
+    "phone": "04328-254600",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.6626445,77.003382",
+    "pincode": "621   113"
+  },
+  {
+    "id": "TN00757",
+    "name": "LAKSHMI  NURSING  HOME",
+    "city": "Perambalur",
+    "state": "Tamil nadu",
+    "address": "80 A, Trichy Main Road, Perambalur",
+    "phone": "04328-278787",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=11.0002385,76.9715681",
+    "pincode": "621   113"
+  },
+  {
+    "id": "TN00758",
+    "name": "NIRANJAN  NURSING  HOME",
+    "city": "Perambalur",
+    "state": "Tamil nadu",
+    "address": "229-A/19, Mettu Street, Perambalur",
+    "phone": "04328-277269",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT",
+      "Paediatrics"
+    ],
+    "location_link": "https://maps.google.com/?q=11.0568317,77.067515",
+    "pincode": "621 212"
+  },
+  {
+    "id": "TN00759",
+    "name": "SKS  HOSPITAL",
+    "city": "Perambalur",
+    "state": "Tamil nadu",
+    "address": "No:61, Trichy Main Road, Venkatesapuram, Perambalur",
+    "phone": "04328-225882",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=11.300381,76.9402697",
+    "pincode": "621 212"
+  }
+]

@@ -1,0 +1,654 @@
+[
+  {
+    "id": "TN00420",
+    "name": "ARAVIND  EYE HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "31-A, New Agarharam, Palani Road,Dindigul",
+    "phone": "044-24895781",
+    "type": "Private",
+    "specialties": [
+      "General Gynaecology",
+      "Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8240495,78.6838618",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00421",
+    "name": "AUDHITYO  ORTHOPAEDIC SURGERY HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "79, Dindigul Road, Palani,Dindigul",
+    "phone": "04553-250255",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urninary Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8370896,78.6869359",
+    "pincode": "624 601"
+  },
+  {
+    "id": "TN00422",
+    "name": "CITY HOSPITAL,  PAVALAM TRAUMA  CENTER",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "4/361, Gandhiji Nagar, Trichy Road,Dindigul",
+    "phone": "0451–2436060",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecologys",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic Facio Maxilliary",
+      "Vascular Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8102221,78.6807052",
+    "pincode": "624 005"
+  },
+  {
+    "id": "TN00423",
+    "name": "D.S.  HOSPITAL  (P)  LTD",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.4/12-A, Anna Nagar, Palani, Dindigul",
+    "phone": "04545-242121 04545-243131",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8746515,78.7368275",
+    "pincode": "624 601"
+  },
+  {
+    "id": "TN00424",
+    "name": "DHARSHINI  HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "34, Narayana Nagar, 1st Street, Ayyangar Petrol Bunk, Dindigul",
+    "phone": "0451-2423392",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8144224,78.685953",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00425",
+    "name": "DINDIGUL KIDNEY CENTRE",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.24A, Spencer’s Compound, Dindigul",
+    "phone": "8925933027 8925933028",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.7834265,78.7031214",
+    "pincode": "642 001"
+  },
+  {
+    "id": "TN00426",
+    "name": "DMS  HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.8, Gandhi Nagar, Batlagundu, Dindigul",
+    "phone": "04543-262170 9965544794",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8347294,78.6907837",
+    "pincode": "642 202"
+  },
+  {
+    "id": "TN00427",
+    "name": "JCB  HOSPITALS",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.1, Veerappaanthoppu Street, Palani Road,Dindigul",
+    "phone": "0451-2433993",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8550881,78.7080595",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00428",
+    "name": "JJ  ARUL  HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.2/1   A2,   Dindigul   to Madurai NH, Near Thomayapuram, Begambur (post) Dindigul",
+    "phone": "0451- 290 4002 0451- 290 4003",
+    "type": "Private",
+    "specialties": [
+      "Opthalmology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8291569,78.6771413",
+    "pincode": "624   002"
+  },
+  {
+    "id": "TN00429",
+    "name": "K  G  HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "Anna Nagar, Palani",
+    "phone": "04545-242623",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro- enterology",
+      "Orthopaedics",
+      "Gynaecology",
+      "ENT",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8185501,78.6842829",
+    "pincode": "624 601"
+  },
+  {
+    "id": "TN00430",
+    "name": "K  R  HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "284/B19, Oddanchatram, Thiruvalluvar Street, Dindigul",
+    "phone": "04553-240711 ,  611",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Interventional cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8185501,78.6842829",
+    "pincode": "624 619"
+  },
+  {
+    "id": "TN00431",
+    "name": "K.V.  HOSPITAL &  ISWARYA FERTILITY CENTER",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "72-B Dindigul Road, Palani",
+    "phone": "04545 – 243130",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8139874,78.6789881",
+    "pincode": "624 601"
+  },
+  {
+    "id": "TN00432",
+    "name": "KANNA HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.13-D,  Aarthi Theatre Road,Y.M.R Patti, Dindigul",
+    "phone": "0451-6452888",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8358554,78.6767477",
+    "pincode": "642001"
+  },
+  {
+    "id": "TN00433",
+    "name": "KT HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.222, Palani Road, Dindigul",
+    "phone": "0451-2422266",
+    "type": "Private",
+    "specialties": [
+      "E.N.T. & Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8208815,78.675353",
+    "pincode": "624 004"
+  },
+  {
+    "id": "TN00434",
+    "name": "LEONARD HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "Periya Kulam Road, Batlagundu",
+    "phone": "0451-265256",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Surgical Gastroenterology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8269811,78.6844518",
+    "pincode": "624 202"
+  },
+  {
+    "id": "TN00435",
+    "name": "MUTHU  MULTI  SPECIALITY HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "Madurai  Main  Road, Nilakkottai",
+    "phone": "04543-233770 04543-232315",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=10.814169,78.6697602",
+    "pincode": "624  208"
+  },
+  {
+    "id": "TN00436",
+    "name": "N.P.HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.400/10, Near E.B. Office, Dharapuram  Road, Oddanchatram",
+    "phone": "04553-242233",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "ENT"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8099692,78.6802739",
+    "pincode": "624 619"
+  },
+  {
+    "id": "TN00437",
+    "name": "PRIYA HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "2/2, Nethaji Nagar,Dindigul Road, Palani",
+    "phone": "04545–251177",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Medicine - Critical care",
+      "Cardiology",
+      "Orthopaedics",
+      "General Surgery",
+      "Gynaecology",
+      "Urology",
+      "Nephrology",
+      "Medical Gastro-\nenterology",
+      "Surgical Gastro-entrology",
+      "Surgical Oncology",
+      "Plastic Surgery",
+      "Vascular Surgery",
+      "Paediatrics",
+      "Medical Oncology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8739763,78.8148958",
+    "pincode": "624 601"
+  },
+  {
+    "id": "TN00438",
+    "name": "R.K.  CARDIACARE  CENTRE",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "62/1,  AMC  Road,  Dindigul.",
+    "phone": "0451-2433976 94886 23999",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.822565,78.6751823",
+    "pincode": "624001"
+  },
+  {
+    "id": "TN00439",
+    "name": "R.K.GUT  CLINIC",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "22, Narayana Nagar,Dindigul",
+    "phone": "0451-2440099",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology"
+    ],
+    "location_link": "https://maps.google.com/?q=10.882344,78.819687",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00440",
+    "name": "RAJA  RAJESHWARI  NURSING HOME",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "46, Tiruvalluvar Salai, Spencer Nagar,Dindigul",
+    "phone": "0451–2422444",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "ENT",
+      "Gastroenterology",
+      "Neurology",
+      "Plastic & Facio Maxilliary",
+      "Vascular\nSurgery."
+    ],
+    "location_link": "https://maps.google.com/?q=10.9630214,78.4489372",
+    "pincode": "624 003"
+  },
+  {
+    "id": "TN00441",
+    "name": "RAKSHA HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "80 Feet Road, Nehruji Nagar, Dindigul",
+    "phone": "0452-2700700",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8255859,78.6994326",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00442",
+    "name": "S.S.HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "13, New Agraharam, Palani Road, Dindigul",
+    "phone": "0451-2424177 /  188",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Orthopaedic Surgery."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8274068,78.6761827",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00443",
+    "name": "SANJAY  SURGICAL HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "Subramaniya Puram, Palani",
+    "phone": "04545-241717",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.824726,78.6819983",
+    "pincode": "624 601"
+  },
+  {
+    "id": "TN00444",
+    "name": "SHANMUGAM SURGICAL AND FERTILITY HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "4-2-30/4, High School Road, Chinnalapatti",
+    "phone": "0451-2452283",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.604057,78.4167917",
+    "pincode": "624 301"
+  },
+  {
+    "id": "TN00445",
+    "name": "SHIFA HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "Chennama Nayakkanpatty Main Road, Near Collector'S Office, Dindigul",
+    "phone": "0451-2461881",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.827115,78.6824974",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00446",
+    "name": "SHREE  SATHYA  SUBHA HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No-53, Agraharam, Palani Road, Dindigul",
+    "phone": "0451-2429777",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8239758,78.683595",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00447",
+    "name": "SHRI SAKTHI  VINAYAKKER HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "Near Bus Stand, Main Road, Guziliamaparai",
+    "phone": "0451-234433",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.6056638,78.428868",
+    "pincode": "624 703"
+  },
+  {
+    "id": "TN00448",
+    "name": "SREE KUMARAN  HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "Market Bye-Pass Road, Ottanchatram",
+    "phone": "04553-243555",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8220709,78.6830128",
+    "pincode": "624619"
+  },
+  {
+    "id": "TN00449",
+    "name": "SRI  AMMAN  HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "Dharapuram  Road, Oddanchatram",
+    "phone": "04553-242918",
+    "type": "Private",
+    "specialties": [
+      "Cardiology",
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Genito Urinary Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.9294617,78.7470265",
+    "pincode": "624 619"
+  },
+  {
+    "id": "TN00450",
+    "name": "ST. JOSEPH  HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.15, Trichy Road, Dindigul",
+    "phone": "0451-2421130 0451-2426091 9944569302",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Nephrology",
+      "Urology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8233429,78.6819864",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00451",
+    "name": "VADAMALAYAN  HOSPITALS (P)  LTD",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.649 A/2, Angu Bharathi Nagar, Chettinaikanpatti VillageRoad,Dindigul",
+    "phone": "0451- 246 1000 0451- 356 1000",
+    "type": "Private",
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Nephrology",
+      "Pediatrics",
+      "Gastro- enterology",
+      "Orthopaedics",
+      "General Surgery",
+      "Pulmonology",
+      "Gynaecology",
+      "Obsteritics",
+      "Medical Oncology",
+      "Urology",
+      "Cardiothoracic Surgeries",
+      "ENT",
+      "Endocrinology",
+      "Ophthalmology",
+      "Haematology",
+      "Surgical Oncology",
+      "Radiation Oncology",
+      "Rheumatology",
+      "Neurology",
+      "Neurosurgery",
+      "Plastic Surgery",
+      "Vascular Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.8212581,78.6680561",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00452",
+    "name": "VASAN  EYE CARE HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No. 3A - 6, Railway Station Road, Near Ganesh  Theartre, Dindigul",
+    "phone": "044-33724800",
+    "type": "Private",
+    "specialties": [
+      "Ophthalmology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.8462347,78.7046112",
+    "pincode": "624 001"
+  },
+  {
+    "id": "TN00453",
+    "name": "VEL  MULTI  SPECIALITY HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "No.11, Vel Nagar, Gounder Ittery Road,Palani Taluk, Dindigul",
+    "phone": "04545-245451",
+    "type": "Private",
+    "specialties": [
+      "General Medicine - Medical Care",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Nephrology",
+      "Orthopaedic Surgery"
+    ],
+    "location_link": "https://maps.google.com/?q=10.6046061,78.4183262",
+    "pincode": "624601"
+  },
+  {
+    "id": "TN00454",
+    "name": "VIJAYA  HOSPITAL",
+    "city": "Dindigul",
+    "state": "Tamil nadu",
+    "address": "EVR Periyar Salai, West Govindapuram, Dindigul",
+    "phone": "0451-2431410",
+    "type": "Private",
+    "specialties": [
+      "General Surgery",
+      "Gynaecology."
+    ],
+    "location_link": "https://maps.google.com/?q=10.82259,78.682974",
+    "pincode": "624 001"
+  }
+]
