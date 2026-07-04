@@ -21,7 +21,15 @@ import { Badge } from "@/components/ui/badge";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { api, type DangerZoneAlert, type RiskAssessment, type RoadAlert } from "@/lib/api";
 import { toast } from "sonner";
-import { getLocation, saveLocation, clearSavedLocation, hasSavedLocation, reverseGeocode } from "@/lib/location";
+import {
+  getLocation,
+  getLocationDetails,
+  saveLocation,
+  clearSavedLocation,
+  hasSavedLocation,
+  reverseGeocode,
+  type LocationResult,
+} from "@/lib/location";
 
 export const Route = createFileRoute("/")({ component: Dashboard });
 
@@ -57,6 +65,37 @@ function isVoiceSOSPhrase(transcript: string) {
   return normalized.includes("help accident happened") || /\bsos\b/.test(normalized);
 }
 
+function coordsFromLocationResult(result: LocationResult) {
+  return { lat: result.lat, lng: result.lng };
+}
+
+function showLocationStatusToast(result: LocationResult, refreshed = false) {
+  if (result.source === "saved") return;
+  if (result.source === "browser") {
+    if (refreshed) toast.success("Location refreshed from this device");
+    return;
+  }
+
+  const fallbackText =
+    result.source === "ip"
+      ? "Using an approximate IP-based location for now."
+      : "Using the default Madurai fallback for now.";
+
+  if (result.status === "denied") {
+    toast.error("Location permission denied", {
+      description: `Enable browser location permission and try again. ${fallbackText}`,
+    });
+  } else if (result.status === "timeout") {
+    toast.warning("Precise location timed out", {
+      description: `RoadSoS could not get GPS quickly enough. ${fallbackText}`,
+    });
+  } else {
+    toast.warning("Precise location unavailable", {
+      description: fallbackText,
+    });
+  }
+}
+
 function Dashboard() {
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [alerts, setAlerts] = useState<RoadAlert[]>([]);
@@ -83,13 +122,14 @@ function Dashboard() {
   // On mount, load location and check if user needs to set one
   useEffect(() => {
     const init = async () => {
-      const c = await getLocation();
+      const location = await getLocationDetails();
+      const c = coordsFromLocationResult(location);
       setCoords(c);
 
-      // If no saved location, show the setup prompt
-      if (!hasSavedLocation()) {
+      if (!hasSavedLocation() && location.source !== "browser") {
         setShowSetup(true);
       }
+      showLocationStatusToast(location);
 
       const name = await reverseGeocode(c.lat, c.lng);
       if (name) setLocationName(name);
@@ -139,20 +179,22 @@ function Dashboard() {
   }, [searchQuery]);
 
   // Reset to auto-detected location
-  const handleReset = useCallback(() => {
+  const handleReset = useCallback(async () => {
     clearSavedLocation();
     setLocationName(null);
-    getLocation().then(async (c) => {
-      setCoords(c);
-      const name = await reverseGeocode(c.lat, c.lng);
-      if (name) setLocationName(name);
-      toast.success("Location reset to auto-detect");
-    });
+    const location = await getLocationDetails({ forceRefresh: true });
+    const c = coordsFromLocationResult(location);
+    setCoords(c);
+    setShowSetup(location.source !== "browser");
+    const name = await reverseGeocode(c.lat, c.lng);
+    if (name) setLocationName(name);
+    showLocationStatusToast(location, true);
   }, []);
 
   // Post location and fetch alerts when coords change
   useEffect(() => {
     if (!coords) return;
+    let cancelled = false;
     warnedDangerZonesRef.current.clear();
 
     const showDangerZoneWarnings = (dangerZoneAlerts: DangerZoneAlert[] = []) => {
@@ -182,45 +224,43 @@ function Dashboard() {
     api.alerts(coords.lat, coords.lng).then(setAlerts);
     api.risk(coords.lat, coords.lng).then(setRisk).catch(() => setRisk(null));
 
-    // Fetch nearest hospital dynamically
-    api
-      .hospitals(coords.lat, coords.lng)
-      .then((hList) => {
-        if (hList && hList.length > 0) {
-          const nearest = hList[0];
-          setNearestHospitalDist(formatDistance(nearest.distance_km));
-        } else {
-          setNearestHospitalDist("None nearby");
-        }
-      })
-      .catch(() => setNearestHospitalDist("Error"));
+    const loadNearestServices = async () => {
+      const [hospitalResult, policeResult, towResult] = await Promise.allSettled([
+        api.hospitals(coords.lat, coords.lng),
+        api.police(coords.lat, coords.lng),
+        api.towing(coords.lat, coords.lng),
+      ]);
+      if (cancelled) return;
 
-    // Fetch nearest police station dynamically
-    api
-      .police(coords.lat, coords.lng)
-      .then((pList) => {
-        if (pList && pList.length > 0) {
-          const nearest = pList[0];
-          setNearestPoliceDist(formatDistance(nearest.distance_km));
-        } else {
-          setNearestPoliceDist("None nearby");
-        }
-      })
-      .catch(() => setNearestPoliceDist("Error"));
+      setNearestHospitalDist(
+        hospitalResult.status === "fulfilled"
+          ? hospitalResult.value[0]
+            ? formatDistance(hospitalResult.value[0].distance_km)
+            : "None nearby"
+          : "Error",
+      );
+      setNearestPoliceDist(
+        policeResult.status === "fulfilled"
+          ? policeResult.value[0]
+            ? formatDistance(policeResult.value[0].distance_km)
+            : "None nearby"
+          : "Error",
+      );
+      setNearestTowingDist(
+        towResult.status === "fulfilled"
+          ? towResult.value[0]
+            ? formatDistance(towResult.value[0].distance_km)
+            : "None nearby"
+          : "Error",
+      );
+    };
 
-    api
-      .towing(coords.lat, coords.lng)
-      .then((tList) => {
-        if (tList && tList.length > 0) {
-          const nearest = tList[0];
-          setNearestTowingDist(formatDistance(nearest.distance_km));
-        } else {
-          setNearestTowingDist("None nearby");
-        }
-      })
-      .catch(() => setNearestTowingDist("Error"));
+    void loadNearestServices();
 
-    return () => window.clearInterval(pollingId);
+    return () => {
+      cancelled = true;
+      window.clearInterval(pollingId);
+    };
   }, [coords]);
 
   // SOS countdown timer

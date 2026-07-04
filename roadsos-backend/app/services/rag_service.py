@@ -18,10 +18,11 @@ from app.services.llm_router import GenerationResult, generate
 from app.services.memory import build_conversation_history, format_history
 from app.services.prompt_builder import build_prompt
 from app.services.query_classifier import QueryProfile, classify_query
-from app.services.retriever import CONFIDENCE_THRESHOLD, RetrievalDocument, retrieve
+from app.services.retriever import RetrievalDocument, retrieve
 
 
 logger = logging.getLogger("roadsos.ai")
+VERIFIED_LOCATION_INTENTS = {"hospital", "police", "towing", "route", "danger_zone"}
 
 
 @dataclass
@@ -171,9 +172,7 @@ def run_rag_pipeline(
             started=started,
         )
 
-    has_structured_context = bool(context_package.location_services_block or emergency_context.block)
-    has_reliable_context = retrieval_result.confidence >= CONFIDENCE_THRESHOLD or has_structured_context
-    if not has_reliable_context and not profile.social_only:
+    if verified_location_data_required_but_missing(profile, context_package, emergency_context):
         return finalize(
             reply="I don't have enough verified information to answer that.",
             context_package=context_package,
@@ -206,6 +205,27 @@ def run_rag_pipeline(
         llm_provider=generation.provider,
         started=started,
     )
+
+
+def verified_location_data_required_but_missing(
+    profile: QueryProfile,
+    context_package: ContextPackage,
+    emergency_context: EmergencyContext,
+) -> bool:
+    """Keep hard refusals only for nearby-service asks with no verified data."""
+    if profile.emergency_detected:
+        return False
+    if not requires_verified_location_data(profile):
+        return False
+    if emergency_context.block or context_package.documents:
+        return False
+    if context_package.location_services_block and "User coordinates are unavailable" not in context_package.location_services_block:
+        return False
+    return True
+
+
+def requires_verified_location_data(profile: QueryProfile) -> bool:
+    return not profile.emergency_detected and profile.intent in VERIFIED_LOCATION_INTENTS
 
 
 def finalize(
@@ -266,7 +286,7 @@ def offline_reply(
         social = verified_direct_answer(profile, context_package.live_context)
         if social:
             return social
-    return "I don't have enough verified information to answer that."
+    return no_context_fallback_reply(profile)
 
 
 def llm_failure_reply(
@@ -280,7 +300,7 @@ def llm_failure_reply(
         return direct
     if context_package.documents:
         return (
-            "I could not get a reliable LLM response, so here is the verified RoadSoS information I found:\n"
+            "I could not get a reliable LLM response right now, but I did find this in RoadSoS records. "
             + format_retrieved_documents_reply(context_package.documents)
         )
     if profile.social_only:
@@ -288,19 +308,29 @@ def llm_failure_reply(
         if social:
             return social
     logger.warning("LLM fallback had no documents. Last LLM error: %s", generation.error[:300])
-    return "I don't have enough verified information to answer that."
+    return no_context_fallback_reply(profile)
 
 
-def format_retrieved_documents_reply(documents: list[RetrievalDocument], skip: int = 0, limit: int = 4) -> str:
+def no_context_fallback_reply(profile: QueryProfile) -> str:
+    if requires_verified_location_data(profile):
+        return "I don't have enough verified information to answer that."
+    return (
+        "I could not reach the AI model right now, but I can still help with road-safety basics, "
+        "SOS steps, first aid, and nearby-service guidance when location is available. Try again "
+        "or ask a more specific safety question."
+    )
+
+
+def format_retrieved_documents_reply(documents: list[RetrievalDocument], skip: int = 0, limit: int = 3) -> str:
     selected = documents[skip : skip + limit] or documents[:limit]
-    lines = []
+    summaries = []
     for document in selected:
         snippet = summarize(document.content)
         if snippet:
-            lines.append(f"- {document.title}: {snippet}")
-    if not lines:
+            summaries.append(f"{document.title}: {snippet}")
+    if not summaries:
         return "I couldn't find reliable information in my knowledge base."
-    return "\n".join(lines)
+    return "Here is the RoadSoS context I found: " + " ".join(summaries)
 
 
 def source_cards(documents: list[RetrievalDocument], limit: int = 8) -> list[RagSource]:

@@ -32,21 +32,28 @@ export function apiErrorMessage(error: unknown) {
 export type Hospital = {
   id: string;
   name: string;
-  lat: number;
-  lng: number;
+  lat: number | null;
+  lng: number | null;
   phone: string;
   address: string;
   distance_km?: number | null;
+  eta?: string | null;
+  eta_minutes?: number | null;
+  route_waypoints?: RoutePoint[];
 };
 
 export type PoliceStation = {
   id: string;
   name: string;
-  lat: number;
-  lng: number;
+  lat: number | null;
+  lng: number | null;
   phone: string;
   address: string;
-  distance_km?: number;
+  distance_km?: number | null;
+  eta?: string | null;
+  eta_minutes?: number | null;
+  officer?: string | null;
+  route_waypoints?: RoutePoint[];
 };
 
 export type TowingService = {
@@ -58,10 +65,41 @@ export type TowingService = {
   phone: string;
   type?: string;
   open_24x7?: boolean;
-  lat: number;
-  lng: number;
+  lat: number | null;
+  lng: number | null;
   rating?: number | null;
   distance_km?: number | null;
+  eta?: string | null;
+  eta_minutes?: number | null;
+  availability?: string | null;
+  route_waypoints?: RoutePoint[];
+};
+
+export type RoutePoint = { lat: number; lng: number };
+
+export type ServiceRoute = {
+  provider: string;
+  reachable: boolean;
+  polyline?: RoutePoint[];
+  route_points?: RoutePoint[];
+  distance_km?: number;
+  total_distance_km?: number;
+  eta?: string;
+  eta_minutes?: number;
+  travel_time_minutes?: number;
+};
+
+export type NearestResponse<T> = {
+  ok: boolean;
+  results: T[];
+};
+
+export type EmergencyContext = {
+  user_location?: RoutePoint;
+  nearest_hospital?: Hospital | null;
+  nearest_police?: PoliceStation | null;
+  nearest_tow?: TowingService | null;
+  route?: ServiceRoute | null;
 };
 
 export type RoadAlert = {
@@ -148,6 +186,7 @@ export const api = {
       message?: string;
       emergency_numbers?: string[];
       notifications?: { contacts: number; queued?: number; sent: number; dry_run: number; failed: number; skipped?: number };
+      emergency_context?: EmergencyContext;
     }>(
       "/api/sos",
       { method: "POST", body: JSON.stringify(payload) }
@@ -161,6 +200,26 @@ export const api = {
 
   towing: (lat?: number, lng?: number) =>
     request<TowingService[]>(`/api/towing${locationQuery(lat, lng)}`),
+
+  nearestHospital: async (lat: number, lng: number, limit = 3) => ({
+    ok: true,
+    results: (await request<Hospital[]>(`/api/hospitals${locationQuery(lat, lng)}`)).slice(0, limit),
+  }),
+
+  nearestPolice: async (lat: number, lng: number, limit = 3) => ({
+    ok: true,
+    results: (await request<PoliceStation[]>(`/api/police${locationQuery(lat, lng)}`)).slice(0, limit),
+  }),
+
+  nearestTow: async (lat: number, lng: number, limit = 3) => ({
+    ok: true,
+    results: (await request<TowingService[]>(`/api/towing${locationQuery(lat, lng)}`)).slice(0, limit),
+  }),
+
+  locationRoute: (lat: number, lng: number, service = "hospital") =>
+    request<{ ok: boolean; service: string; destination?: Hospital | PoliceStation | TowingService | null; route?: ServiceRoute | null }>(
+      `/api/location/route${routeQuery(lat, lng, service)}`
+    ),
 
   alerts: (lat?: number, lng?: number) =>
     request<RoadAlert[]>(`/api/alerts${locationQuery(lat, lng)}`, undefined, MOCK_ALERTS),
@@ -195,3 +254,8 @@ export const api = {
   addContact: (c: Omit<Contact, "id">) =>
     request<Contact>("/api/contacts", { method: "POST", body: JSON.stringify(c) }, { id: "c-" + Date.now(), ...c }),
 };
+
+function routeQuery(lat: number, lng: number, service: string) {
+  const params = new URLSearchParams({ lat: String(lat), lng: String(lng), service });
+  return `?${params.toString()}`;
+}
