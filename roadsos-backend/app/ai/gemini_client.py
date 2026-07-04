@@ -5,6 +5,7 @@ Integrates Google's Gemini LLM to power RAG Chat, Risk Scoring, and Emergency Ex
 
 import logging
 import time
+from collections.abc import Callable
 from typing import Any
 
 from app.config import get_gemini_api_key
@@ -26,6 +27,7 @@ _last_generation_failure_at = 0.0
 
 DEFAULT_MODEL = "gemini-2.5-flash"
 GENERATION_FAILURE_COOLDOWN_SECONDS = 60
+MAX_CHAT_OUTPUT_TOKENS = 512
 
 
 def configure_gemini() -> Any | None:
@@ -65,7 +67,12 @@ def _log_success_once() -> None:
         _success_logged = True
 
 
-def generate_chat_response(prompt: str, context: str = "", system_instruction: str = "") -> str:
+def generate_chat_response(
+    prompt: str,
+    context: str = "",
+    system_instruction: str = "",
+    on_token: Callable[[str], None] | None = None,
+) -> str:
     """
     Generates a response using Gemini for RAG or general chatbot queries.
 
@@ -86,6 +93,8 @@ def generate_chat_response(prompt: str, context: str = "", system_instruction: s
     if client is None:
         return "Error: Gemini API key is missing. Please check your configuration."
 
+    started = time.perf_counter()
+    used_stream = False
     try:
         full_prompt = ""
         if context:
@@ -95,23 +104,63 @@ def generate_chat_response(prompt: str, context: str = "", system_instruction: s
         config = types.GenerateContentConfig(
             temperature=0.45,
             top_p=0.95,
-            max_output_tokens=1400,
+            max_output_tokens=MAX_CHAT_OUTPUT_TOKENS,
             system_instruction=system_instruction or None,
         )
-        response = client.models.generate_content(
-            model=DEFAULT_MODEL,
-            contents=full_prompt,
-            config=config,
-        )
+        response_text, used_stream = _generate_content_text(client, full_prompt, config, on_token=on_token)
         _last_generation_failure_at = 0.0
         _log_success_once()
-        return response.text
+        elapsed_ms = round((time.perf_counter() - started) * 1000, 2)
+        logger.info(
+            "Gemini chat call completed: %sms streamed=%s prompt_chars=%s output_chars=%s max_tokens=%s",
+            elapsed_ms,
+            used_stream,
+            len(full_prompt),
+            len(response_text or ""),
+            MAX_CHAT_OUTPUT_TOKENS,
+        )
+        return response_text
     except Exception as e:
         _last_generation_failure_at = time.monotonic()
+        elapsed_ms = round((time.perf_counter() - started) * 1000, 2)
         logger.error(
-            "Gemini API request failed; RoadSoS will use the deterministic fallback. Error: %s",
+            "Gemini API request failed after %sms; RoadSoS will use the deterministic fallback. Error: %s",
+            elapsed_ms,
             e,
             exc_info=True,
         )
         return "Error: Gemini API request failed."
 
+
+def _generate_content_text(
+    client: Any,
+    full_prompt: str,
+    config: Any,
+    on_token: Callable[[str], None] | None = None,
+) -> tuple[str, bool]:
+    stream_fn = getattr(client.models, "generate_content_stream", None)
+    if callable(stream_fn):
+        chunks: list[str] = []
+        for chunk in stream_fn(
+            model=DEFAULT_MODEL,
+            contents=full_prompt,
+            config=config,
+        ):
+            text = getattr(chunk, "text", None)
+            if text:
+                chunks.append(text)
+                if on_token:
+                    on_token(text)
+        streamed_text = "".join(chunks)
+        if streamed_text.strip():
+            return streamed_text, True
+
+    response = client.models.generate_content(
+        model=DEFAULT_MODEL,
+        contents=full_prompt,
+        config=config,
+    )
+    response_text = response.text or ""
+    if on_token and response_text:
+        on_token(response_text)
+    return response_text, False

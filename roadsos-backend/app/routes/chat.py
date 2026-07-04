@@ -1,9 +1,13 @@
 from __future__ import annotations
 
+import json
+import logging
+from queue import Queue
 from typing import Any
 
 import anyio
 from fastapi import APIRouter
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
@@ -15,6 +19,19 @@ from db import crud
 
 router = APIRouter(prefix="/chat", tags=["Chat"])
 CHAT_LLM_TIMEOUT_SECONDS = 120
+logger = logging.getLogger("roadsos.chat")
+CURRENT_LOCATION_PHRASES = (
+    "current location",
+    "my location",
+    "where am i",
+    "where i am",
+    "where are we",
+    "which city",
+    "what city",
+    "which town",
+    "which village",
+    "where exactly",
+)
 
 
 class ChatMessage(BaseModel):
@@ -49,7 +66,7 @@ class ChatPayload(BaseModel):
 @router.post("")
 async def chat(payload: ChatPayload, db: Session = DbSession):
     user_message = latest_user_message(payload.messages)
-    location_name = await resolve_location_name(payload)
+    location_name = await resolve_location_name(payload, user_message)
     emergency_contacts = load_emergency_contacts(db)
 
     try:
@@ -97,13 +114,128 @@ async def chat(payload: ChatPayload, db: Session = DbSession):
     )
 
 
-async def resolve_location_name(payload: ChatPayload) -> str | None:
+@router.post("/stream")
+async def chat_stream(payload: ChatPayload, db: Session = DbSession):
+    user_message = latest_user_message(payload.messages)
+    location_name = await resolve_location_name(payload, user_message)
+    emergency_contacts = load_emergency_contacts(db)
+
+    return StreamingResponse(
+        stream_chat_events(payload, user_message, location_name, emergency_contacts),
+        media_type="application/x-ndjson",
+    )
+
+
+async def stream_chat_events(
+    payload: ChatPayload,
+    user_message: str,
+    location_name: str | None,
+    emergency_contacts: list[dict[str, Any]],
+):
+    event_queue: Queue[dict[str, Any] | None] = Queue()
+
+    def emit(event: dict[str, Any]) -> None:
+        event_queue.put(event)
+
+    def on_token(token: str) -> None:
+        if token:
+            emit({"type": "token", "content": token})
+
+    def worker() -> None:
+        try:
+            result = run_rag_pipeline(
+                user_message,
+                messages=[message.model_dump() for message in payload.messages],
+                lat=payload.lat,
+                lng=payload.lng,
+                location_name=location_name,
+                current_datetime=payload.current_datetime,
+                city=payload.city,
+                state=payload.state,
+                country=payload.country,
+                radius_km=payload.radius_km,
+                nearby_places=[place.model_dump() for place in (payload.nearby_places or [])],
+                emergency_contacts=emergency_contacts,
+                on_token=on_token,
+            )
+            emit(
+                {
+                    "type": "done",
+                    "result": response_payload(
+                        reply=result.reply,
+                        intent=result.intent,
+                        used_llm=result.used_llm,
+                        llm_provider=getattr(result, "llm_provider", "none"),
+                        lat=payload.lat,
+                        lng=payload.lng,
+                        emergency_detected=bool(result.emergency and result.emergency.get("detected")),
+                        retrieval_confidence=getattr(result, "retrieval_confidence", None),
+                        sources=[source.as_dict() for source in getattr(result, "sources", [])],
+                    ),
+                }
+            )
+        except Exception as exc:
+            logger.error("Streaming chat failed: %s", exc, exc_info=True)
+            emit(
+                {
+                    "type": "error",
+                    "message": "The RoadSoS backend had trouble streaming that response. Please try again.",
+                }
+            )
+        finally:
+            event_queue.put(None)
+
+    async with anyio.create_task_group() as task_group:
+        task_group.start_soon(anyio.to_thread.run_sync, worker)
+        while True:
+            event = await anyio.to_thread.run_sync(event_queue.get)
+            if event is None:
+                break
+            yield json.dumps(event) + "\n"
+        task_group.cancel_scope.cancel()
+
+
+async def resolve_location_name(payload: ChatPayload, user_message: str = "") -> str | None:
     location_name = (payload.location_name or "").strip()
     if location_name:
         return location_name
+    location_label = location_label_from_payload(payload)
+    if location_label:
+        return location_label
     if payload.lat is None or payload.lng is None:
         return None
+    if not should_reverse_geocode_for_chat(user_message):
+        logger.info("Skipping backend reverse geocode for chat; location label is not required for this query.")
+        return None
     return await reverse_geocode(payload.lat, payload.lng)
+
+
+def location_label_from_payload(payload: ChatPayload) -> str | None:
+    parts = []
+    seen = set()
+    for value in (payload.city, payload.state, payload.country):
+        cleaned = (value or "").strip()
+        if not cleaned:
+            continue
+        normalized = cleaned.lower()
+        if normalized in seen:
+            continue
+        seen.add(normalized)
+        parts.append(cleaned)
+    return ", ".join(parts) if parts else None
+
+
+def should_reverse_geocode_for_chat(user_message: str) -> bool:
+    normalized = " ".join((user_message or "").lower().split())
+    if not normalized:
+        return False
+    if any(phrase in normalized for phrase in CURRENT_LOCATION_PHRASES):
+        return True
+    if "location" in normalized and any(term in normalized for term in ("my", "current", "where")):
+        return True
+    if "city" in normalized and any(term in normalized for term in ("my", "which", "what", "where")):
+        return True
+    return False
 
 
 def latest_user_message(messages: list[ChatMessage]) -> str:

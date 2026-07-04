@@ -30,6 +30,18 @@ type BrowserAttemptResult =
   | { coords: Coordinates; status: "success" }
   | { coords: null; status: Exclude<BrowserGeolocationStatus, "success"> };
 
+const ADDRESS_PRIORITY = [
+  "suburb",
+  "village",
+  "hamlet",
+  "neighbourhood",
+  "town",
+  "city_district",
+  "city",
+  "county",
+  "state",
+] as const;
+
 export async function getLocation(options: GetLocationOptions = {}): Promise<Coordinates> {
   const result = await getLocationDetails(options);
   return { lat: result.lat, lng: result.lng };
@@ -79,21 +91,41 @@ export async function reverseGeocode(lat: number, lng: number): Promise<string |
       format: "json",
       lat: String(lat),
       lon: String(lng),
-      zoom: "10",
+      zoom: "18",
     });
     const res = await fetch(`https://nominatim.openstreetmap.org/reverse?${params.toString()}`);
     if (!res.ok) return null;
     const data = await res.json();
-    const city =
-      data.address?.city ||
-      data.address?.town ||
-      data.address?.village ||
-      data.address?.county ||
-      data.address?.state;
-    return typeof city === "string" && city.trim() ? city.trim() : null;
+    return placeLabelFromAddress(data.address);
   } catch {
     return null;
   }
+}
+
+function placeLabelFromAddress(address: unknown): string | null {
+  if (!address || typeof address !== "object") return null;
+
+  const values = address as Record<string, unknown>;
+  const primary = firstAddressValue(values, ADDRESS_PRIORITY);
+  if (!primary) return null;
+
+  const state = cleanAddressValue(values.state);
+  if (state && state.toLowerCase() !== primary.toLowerCase()) {
+    return `${primary}, ${state}`;
+  }
+  return primary;
+}
+
+function firstAddressValue(values: Record<string, unknown>, keys: readonly string[]): string | null {
+  for (const key of keys) {
+    const value = cleanAddressValue(values[key]);
+    if (value) return value;
+  }
+  return null;
+}
+
+function cleanAddressValue(value: unknown): string | null {
+  return typeof value === "string" && value.trim() ? value.trim() : null;
 }
 
 async function tryBrowserGeolocation(): Promise<BrowserAttemptResult> {

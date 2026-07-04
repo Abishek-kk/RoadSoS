@@ -79,8 +79,9 @@ def retrieve(
         return cached.cache_copy()
 
     logger.info("Retrieval started for intent=%s", profile.intent)
+    static_top_k = max(top_k, 12 if profile.emergency_detected else 6)
     documents: list[RetrievalDocument] = []
-    documents.extend(static_knowledge_documents(query, lat, lng, top_k=max(top_k, 12)))
+    documents.extend(static_knowledge_documents(query, lat, lng, top_k=static_top_k))
     if profile.social_only:
         result = RetrievalResult(documents=[], confidence=0.0, query=query)
         remember(cache_key, result)

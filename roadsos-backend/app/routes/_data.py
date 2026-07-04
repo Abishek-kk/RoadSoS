@@ -18,6 +18,17 @@ FOLDER_DATASETS = {
 OSM_HEADERS = {
     "User-Agent": "RoadSoSApp/1.0 (contact: team_accelerate@roadsos.app)"
 }
+ADDRESS_PRIORITY = (
+    "suburb",
+    "village",
+    "hamlet",
+    "neighbourhood",
+    "town",
+    "city_district",
+    "city",
+    "county",
+    "state",
+)
 
 
 def cache_clear() -> None:
@@ -463,12 +474,12 @@ async def fetch_overpass_towing(lat: float, lng: float) -> list[dict[str, Any]]:
 
 
 async def reverse_geocode(lat: float, lng: float) -> str | None:
-    """Return a coarse human-readable place name for coordinates, or None."""
+    """Return a specific human-readable place label for coordinates, or None."""
     params = {
         "format": "json",
         "lat": str(lat),
         "lon": str(lng),
-        "zoom": "10",
+        "zoom": "18",
     }
     try:
         async with httpx.AsyncClient(timeout=4.0) as client:
@@ -483,9 +494,30 @@ async def reverse_geocode(lat: float, lng: float) -> str | None:
     except Exception:
         return None
 
-    address = data.get("address") or {}
-    for key in ("city", "town", "village", "county", "state"):
-        value = address.get(key)
-        if isinstance(value, str) and value.strip():
-            return value.strip()
+    return place_label_from_address(data.get("address") or {})
+
+
+def place_label_from_address(address: dict[str, Any]) -> str | None:
+    primary = first_address_value(address, ADDRESS_PRIORITY)
+    if not primary:
+        return None
+
+    state = clean_address_value(address.get("state"))
+    if state and state.lower() != primary.lower():
+        return f"{primary}, {state}"
+    return primary
+
+
+def first_address_value(address: dict[str, Any], keys: tuple[str, ...]) -> str | None:
+    for key in keys:
+        value = clean_address_value(address.get(key))
+        if value:
+            return value
     return None
+
+
+def clean_address_value(value: Any) -> str | None:
+    if not isinstance(value, str):
+        return None
+    value = value.strip()
+    return value or None

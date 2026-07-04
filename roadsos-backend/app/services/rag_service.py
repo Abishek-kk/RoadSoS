@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 import time
+from collections.abc import Callable
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -23,6 +24,9 @@ from app.services.retriever import RetrievalDocument, retrieve
 
 logger = logging.getLogger("roadsos.ai")
 VERIFIED_LOCATION_INTENTS = {"hospital", "police", "towing", "route", "danger_zone"}
+PROMPT_HISTORY_LIMIT = 8
+DEFAULT_RETRIEVAL_TOP_K = 6
+EMERGENCY_RETRIEVAL_TOP_K = 12
 
 
 @dataclass
@@ -81,10 +85,12 @@ def run_rag_pipeline(
     radius_km: float | None = None,
     nearby_places: list[dict[str, Any]] | None = None,
     emergency_contacts: list[dict[str, Any]] | None = None,
+    on_token: Callable[[str], None] | None = None,
 ) -> RagResult:
     started = time.perf_counter()
     clean_question = (question or "").strip()
     history = build_conversation_history(messages)
+    prompt_history = history[-PROMPT_HISTORY_LIMIT:]
     profile = classify_query(clean_question, history)
     logger.info("Query received: %s", profile.clean_question[:200])
     logger.info(
@@ -108,7 +114,9 @@ def run_rag_pipeline(
         nearby_places=nearby_places,
     )
 
-    top_k = context_limit or requested_limit(profile.clean_question, default=12)
+    default_top_k = EMERGENCY_RETRIEVAL_TOP_K if profile.emergency_detected else DEFAULT_RETRIEVAL_TOP_K
+    top_k = context_limit or requested_limit(profile.clean_question, default=default_top_k)
+    retrieval_start = time.perf_counter()
     retrieval_result = retrieve(
         profile,
         lat=lat,
@@ -116,10 +124,12 @@ def run_rag_pipeline(
         top_k=top_k,
         emergency_contacts=emergency_contacts,
     )
+    retrieval_elapsed_ms = round((time.perf_counter() - retrieval_start) * 1000, 2)
     logger.info(
-        "Documents found: %s; confidence score=%.3f",
+        "Documents found: %s; confidence score=%.3f; retrieval_ms=%s",
         len(retrieval_result.documents),
         retrieval_result.confidence,
+        retrieval_elapsed_ms,
     )
 
     emergency_context = run_emergency_workflow(profile, live_context, emergency_contacts or [])
@@ -135,7 +145,7 @@ def run_rag_pipeline(
         retrieval_result=retrieval_result,
         live_context=live_context,
         emergency_block=emergency_context.block,
-        conversation_memory=format_history(history[-20:]),
+        conversation_memory=format_history(prompt_history),
     )
 
     if not profile.clean_question:
@@ -183,8 +193,23 @@ def run_rag_pipeline(
             started=started,
         )
 
-    system_prompt, context, user_prompt = build_prompt(profile, context_package, history)
-    generation = generate(prompt=user_prompt, context=context, system_instruction=system_prompt)
+    system_prompt, context, user_prompt = build_prompt(profile, context_package, prompt_history)
+    generation_start = time.perf_counter()
+    generation_kwargs: dict[str, Any] = {
+        "prompt": user_prompt,
+        "context": context,
+        "system_instruction": system_prompt,
+    }
+    if on_token:
+        generation_kwargs["on_token"] = on_token
+    generation = generate(**generation_kwargs)
+    generation_elapsed_ms = round((time.perf_counter() - generation_start) * 1000, 2)
+    logger.info(
+        "LLM generation completed: provider=%s used_llm=%s generation_ms=%s",
+        generation.provider,
+        generation.used_llm,
+        generation_elapsed_ms,
+    )
     if generation.used_llm:
         return finalize(
             reply=generation.reply,

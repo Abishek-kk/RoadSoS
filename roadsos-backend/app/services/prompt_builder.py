@@ -54,7 +54,7 @@ def build_prompt(
     history_block = format_history(history)
     user_prompt_parts = []
     if history_block:
-        user_prompt_parts.append("CONVERSATION HISTORY (last 10 exchanges)\n" + history_block)
+        user_prompt_parts.append("CONVERSATION HISTORY (recent messages)\n" + history_block)
     user_prompt_parts.append("USER QUESTION\n" + profile.clean_question)
     if profile.retrieval_query != profile.clean_question:
         user_prompt_parts.append("RETRIEVAL QUERY\n" + profile.retrieval_query)

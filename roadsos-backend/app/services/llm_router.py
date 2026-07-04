@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+from collections.abc import Callable
 from dataclasses import dataclass
 
 from app.ai import gemini_client, local_llm_client
@@ -18,7 +19,12 @@ class GenerationResult:
     error: str = ""
 
 
-def generate(prompt: str, context: str, system_instruction: str) -> GenerationResult:
+def generate(
+    prompt: str,
+    context: str,
+    system_instruction: str,
+    on_token: Callable[[str], None] | None = None,
+) -> GenerationResult:
     """
     Generate with Gemini first, then the local Ollama LLM.
 
@@ -36,11 +42,28 @@ def generate(prompt: str, context: str, system_instruction: str) -> GenerationRe
     for provider_name, client in providers:
         logger.info("LLM selected: %s", provider_name)
         try:
-            reply = client.generate_chat_response(
-                prompt=prompt,
-                context=context,
-                system_instruction=system_instruction,
-            )
+            if on_token:
+                try:
+                    reply = client.generate_chat_response(
+                        prompt=prompt,
+                        context=context,
+                        system_instruction=system_instruction,
+                        on_token=on_token,
+                    )
+                except TypeError:
+                    reply = client.generate_chat_response(
+                        prompt=prompt,
+                        context=context,
+                        system_instruction=system_instruction,
+                    )
+                    if is_successful_reply(reply):
+                        on_token(reply)
+            else:
+                reply = client.generate_chat_response(
+                    prompt=prompt,
+                    context=context,
+                    system_instruction=system_instruction,
+                )
         except Exception as exc:
             logger.error("%s generation raised an exception: %s", provider_name, exc, exc_info=True)
             last_error = str(exc)

@@ -17,6 +17,7 @@ type UiMessage = ChatMessage & {
   llmProvider?: string;
   suggestions?: string[];
   error?: boolean;
+  streaming?: boolean;
 };
 
 const STARTER_PROMPTS = [
@@ -47,6 +48,11 @@ function Chat() {
 
   const latestAssistant = [...messages].reverse().find((message) => message.role === "assistant");
   const activeSuggestions = latestAssistant?.suggestions?.filter(Boolean).slice(0, 3) ?? [];
+  const warmLocationName = (position: { lat: number; lng: number }) => {
+    void reverseGeocode(position.lat, position.lng).then((name) => {
+      if (name) setLocationName(name);
+    });
+  };
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -76,8 +82,7 @@ function Chat() {
       const currentCoords = await getLocation();
       setCoords(currentCoords);
       setLocationReady(true);
-      const name = await reverseGeocode(currentCoords.lat, currentCoords.lng);
-      if (name) setLocationName(name);
+      if (!locationName) warmLocationName(currentCoords);
       return currentCoords;
     } catch {
       setLocationReady(false);
@@ -87,38 +92,63 @@ function Chat() {
 
   const askAssistant = async (nextMessages: UiMessage[]) => {
     setBusy(true);
+    const assistantId = crypto.randomUUID();
     try {
       const currentCoords = await resolveCoords();
       let currentLocationName = locationName;
       if (!currentLocationName && currentCoords) {
-        currentLocationName = await reverseGeocode(currentCoords.lat, currentCoords.lng);
-        if (currentLocationName) setLocationName(currentLocationName);
+        warmLocationName(currentCoords);
       }
       const payloadMessages = nextMessages.map(({ role, content }) => ({ role, content }));
-      const res = await api.chat(payloadMessages, currentCoords, currentLocationName);
       setMessages([
         ...nextMessages,
         {
-          id: crypto.randomUUID(),
+          id: assistantId,
           role: "assistant",
-          content: res.reply,
-          intent: res.intent,
-          usedLlm: res.used_llm,
-          llmProvider: res.llm_provider,
-          suggestions: res.suggestions,
+          content: "",
+          streaming: true,
         },
       ]);
+      let streamedReply = "";
+      const res = await api.chatStream(payloadMessages, currentCoords, currentLocationName, {
+        onToken: (token) => {
+          streamedReply += token;
+          setMessages((current) =>
+            current.map((message) =>
+              message.id === assistantId ? { ...message, content: streamedReply } : message,
+            ),
+          );
+        },
+      });
+      setMessages((current) =>
+        current.map((message) =>
+          message.id === assistantId
+            ? {
+                ...message,
+                content: res.reply || streamedReply,
+                intent: res.intent,
+                usedLlm: res.used_llm,
+                llmProvider: res.llm_provider,
+                suggestions: res.suggestions,
+                streaming: false,
+              }
+            : message,
+        ),
+      );
     } catch (error) {
-      setMessages([
-        ...nextMessages,
-        {
-          id: crypto.randomUUID(),
+      setMessages((current) => {
+        const errorMessage: UiMessage = {
+          id: assistantId,
           role: "assistant",
           content: apiErrorMessage(error),
           error: true,
+          streaming: false,
           suggestions: ["Try again", "Find nearby hospitals", "What to do in an accident?"],
-        },
-      ]);
+        };
+        return current.some((message) => message.id === assistantId)
+          ? current.map((message) => (message.id === assistantId ? errorMessage : message))
+          : [...nextMessages, errorMessage];
+      });
     } finally {
       setBusy(false);
     }
@@ -204,7 +234,7 @@ function Chat() {
               <MessageBubble key={message.id} message={message} onCopy={copyMessage} />
             ))}
 
-            {busy && (
+            {busy && !hasStreamingAssistant(messages) && (
               <div className="flex justify-start">
                 <div className="flex max-w-[88%] items-start gap-3 rounded-2xl bg-muted px-4 py-3 text-sm text-muted-foreground">
                   <Bot className="mt-0.5 h-4 w-4 shrink-0" />
@@ -277,6 +307,11 @@ function llmProviderLabel(provider?: string) {
   return "LLM response";
 }
 
+function hasStreamingAssistant(messages: UiMessage[]) {
+  const latest = messages[messages.length - 1];
+  return latest?.role === "assistant" && latest.streaming === true;
+}
+
 function MessageBubble({ message, onCopy }: { message: UiMessage; onCopy: (content: string) => void }) {
   const isUser = message.role === "user";
 
@@ -300,7 +335,14 @@ function MessageBubble({ message, onCopy }: { message: UiMessage; onCopy: (conte
                   : "bg-muted text-foreground"
             }`}
           >
-            {message.content}
+            {message.streaming && !message.content ? (
+              <span className="inline-flex items-center gap-2 text-muted-foreground">
+                <LoaderCircle className="h-4 w-4 animate-spin" />
+                Thinking through the safest answer...
+              </span>
+            ) : (
+              message.content
+            )}
           </div>
           {!isUser && (
             <div className="mt-1 flex items-center gap-2 opacity-0 transition-opacity group-hover:opacity-100">

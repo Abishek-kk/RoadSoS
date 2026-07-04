@@ -157,6 +157,14 @@ export type ChatResponse = {
   llm_provider?: string;
   suggestions?: string[];
 };
+export type ChatStreamHandlers = {
+  onToken?: (token: string) => void;
+};
+
+type ChatStreamEvent =
+  | { type: "token"; content?: string }
+  | { type: "done"; result?: ChatResponse }
+  | { type: "error"; message?: string };
 
 function locationQuery(lat?: number, lng?: number) {
   const params = new URLSearchParams();
@@ -240,16 +248,18 @@ export const api = {
       "/api/chat",
       {
         method: "POST",
-        body: JSON.stringify({
-          messages,
-          ...(coords ?? {}),
-          location_name: locationName ?? undefined,
-          current_datetime: new Date().toString(),
-        }),
+        body: JSON.stringify(chatPayload(messages, coords, locationName)),
       },
       undefined,
       120000
     ),
+
+  chatStream: (
+    messages: ChatMessage[],
+    coords?: { lat: number; lng: number } | null,
+    locationName?: string | null,
+    handlers: ChatStreamHandlers = {},
+  ) => streamChat(messages, coords, locationName, handlers),
 
   addContact: (c: Omit<Contact, "id">) =>
     request<Contact>("/api/contacts", { method: "POST", body: JSON.stringify(c) }, { id: "c-" + Date.now(), ...c }),
@@ -258,4 +268,99 @@ export const api = {
 function routeQuery(lat: number, lng: number, service: string) {
   const params = new URLSearchParams({ lat: String(lat), lng: String(lng), service });
   return `?${params.toString()}`;
+}
+
+function chatPayload(messages: ChatMessage[], coords?: { lat: number; lng: number } | null, locationName?: string | null) {
+  return {
+    messages,
+    ...(coords ?? {}),
+    ...locationPartsFromLabel(locationName),
+    location_name: locationName ?? undefined,
+    current_datetime: new Date().toString(),
+  };
+}
+
+function locationPartsFromLabel(locationName?: string | null) {
+  const parts = (locationName ?? "")
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  if (!parts.length) return {};
+  return {
+    city: parts[0],
+    state: parts[1],
+    country: parts[2],
+  };
+}
+
+async function streamChat(
+  messages: ChatMessage[],
+  coords?: { lat: number; lng: number } | null,
+  locationName?: string | null,
+  handlers: ChatStreamHandlers = {},
+): Promise<ChatResponse> {
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), 120000);
+
+  try {
+    const res = await fetch(`${BASE}/api/chat/stream`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(chatPayload(messages, coords, locationName)),
+      signal: controller.signal,
+    });
+
+    if (!res.ok || !res.body) throw new Error(`${res.status}`);
+
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = "";
+    let finalResponse: ChatResponse | null = null;
+
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n");
+      buffer = lines.pop() ?? "";
+      for (const line of lines) {
+        finalResponse = handleChatStreamLine(line, handlers, finalResponse);
+      }
+    }
+
+    buffer += decoder.decode();
+    if (buffer.trim()) {
+      finalResponse = handleChatStreamLine(buffer, handlers, finalResponse);
+    }
+
+    if (!finalResponse) throw new Error("Stream ended without a final response.");
+    return finalResponse;
+  } finally {
+    window.clearTimeout(timeoutId);
+  }
+}
+
+function handleChatStreamLine(
+  line: string,
+  handlers: ChatStreamHandlers,
+  current: ChatResponse | null,
+): ChatResponse | null {
+  const trimmed = line.trim();
+  if (!trimmed) return current;
+
+  const event = JSON.parse(trimmed) as ChatStreamEvent;
+  if (event.type === "token") {
+    if (event.content) handlers.onToken?.(event.content);
+    return current;
+  }
+  if (event.type === "done") {
+    if (!event.result) throw new Error("Stream ended without a result.");
+    return event.result;
+  }
+  if (event.type === "error") {
+    throw new Error(event.message || "The RoadSoS backend had trouble streaming that response.");
+  }
+  return current;
 }
