@@ -4,6 +4,8 @@ Runs RoadSoS chat generation against a local Ollama model.
 """
 
 import logging
+import json
+from collections.abc import Callable
 from typing import Any
 
 import httpx
@@ -15,7 +17,12 @@ logger = logging.getLogger("roadsos.ollama")
 REQUEST_TIMEOUT_SECONDS = 90.0
 
 
-def generate_chat_response(prompt: str, context: str = "", system_instruction: str = "") -> str:
+def generate_chat_response(
+    prompt: str,
+    context: str = "",
+    system_instruction: str = "",
+    on_token: Callable[[str], None] | None = None,
+) -> str:
     """
     Generates a response using a local Ollama model for RAG or general chatbot queries.
     Returns the reply text, or a string starting with "Error:" on failure.
@@ -35,10 +42,13 @@ def generate_chat_response(prompt: str, context: str = "", system_instruction: s
     payload: dict[str, Any] = {
         "model": model,
         "messages": messages,
-        "stream": False,
+        "stream": bool(on_token),
     }
 
     try:
+        if on_token:
+            return _stream_chat_response(base_url, payload, on_token)
+
         response = httpx.post(
             f"{base_url}/api/chat",
             json=payload,
@@ -73,6 +83,36 @@ def generate_chat_response(prompt: str, context: str = "", system_instruction: s
             exc_info=True,
         )
         return "Error: Ollama API request failed."
+
+
+def _stream_chat_response(
+    base_url: str,
+    payload: dict[str, Any],
+    on_token: Callable[[str], None],
+) -> str:
+    chunks: list[str] = []
+    with httpx.stream(
+        "POST",
+        f"{base_url}/api/chat",
+        json=payload,
+        timeout=REQUEST_TIMEOUT_SECONDS,
+    ) as response:
+        response.raise_for_status()
+        for line in response.iter_lines():
+            if not line:
+                continue
+            data = json.loads(line)
+            content = (data.get("message") or {}).get("content", "")
+            if content:
+                chunks.append(content)
+                on_token(content)
+            if data.get("done"):
+                break
+
+    if not chunks:
+        logger.error("Ollama returned an empty streaming chat response.")
+        return "Error: Ollama returned an empty response."
+    return "".join(chunks)
 
 
 def _build_user_message(prompt: str, context: str = "") -> str:

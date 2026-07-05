@@ -12,6 +12,7 @@ from app.services.context_builder import (
     LiveContext,
     build_context_package,
     build_live_context,
+    is_location_question,
     verified_direct_answer,
 )
 from app.services.emergency_router import EmergencyContext, run_emergency_workflow
@@ -112,7 +113,29 @@ def run_rag_pipeline(
         country=country,
         radius_km=radius_km,
         nearby_places=nearby_places,
+        collect_places=should_collect_nearby_places(profile, nearby_places),
     )
+
+    direct_reply = fast_direct_reply(profile, live_context)
+    if direct_reply:
+        empty_context = ContextPackage(
+            context="",
+            retrieved_context="",
+            live_context=live_context,
+            location_services_block="",
+            safety_snapshot_block="",
+            confidence=0.0,
+            documents=[],
+        )
+        return finalize(
+            reply=direct_reply,
+            context_package=empty_context,
+            profile=profile,
+            emergency_context=EmergencyContext(detected=False),
+            used_llm=False,
+            llm_provider="none",
+            started=started,
+        )
 
     default_top_k = EMERGENCY_RETRIEVAL_TOP_K if profile.emergency_detected else DEFAULT_RETRIEVAL_TOP_K
     top_k = context_limit or requested_limit(profile.clean_question, default=default_top_k)
@@ -146,6 +169,7 @@ def run_rag_pipeline(
         live_context=live_context,
         emergency_block=emergency_context.block,
         conversation_memory=format_history(prompt_history),
+        include_safety_snapshot=should_include_safety_snapshot(profile),
     )
 
     if not profile.clean_question:
@@ -183,6 +207,17 @@ def run_rag_pipeline(
         )
 
     if verified_location_data_required_but_missing(profile, context_package, emergency_context):
+        return finalize(
+            reply="I don't have enough verified information to answer that.",
+            context_package=context_package,
+            profile=profile,
+            emergency_context=emergency_context,
+            used_llm=False,
+            llm_provider="none",
+            started=started,
+        )
+
+    if unsupported_general_query(profile, context_package):
         return finalize(
             reply="I don't have enough verified information to answer that.",
             context_package=context_package,
@@ -251,6 +286,52 @@ def verified_location_data_required_but_missing(
 
 def requires_verified_location_data(profile: QueryProfile) -> bool:
     return not profile.emergency_detected and profile.intent in VERIFIED_LOCATION_INTENTS
+
+
+def should_collect_nearby_places(
+    profile: QueryProfile,
+    nearby_places: list[dict[str, Any]] | None,
+) -> bool:
+    if nearby_places:
+        return False
+    return profile.emergency_detected or profile.needs_location_services
+
+
+def should_include_safety_snapshot(profile: QueryProfile) -> bool:
+    return profile.emergency_detected or profile.needs_location_services
+
+
+def fast_direct_reply(profile: QueryProfile, live_context: LiveContext) -> str | None:
+    if profile.social_only or profile.datetime_intent or is_location_question(profile):
+        return verified_direct_answer(profile, live_context)
+    return None
+
+
+def unsupported_general_query(profile: QueryProfile, context_package: ContextPackage) -> bool:
+    if profile.intent != "general":
+        return False
+    if profile.emergency_detected or profile.social_only or profile.datetime_intent:
+        return False
+    if context_package.documents:
+        return False
+    domain_terms = {
+        "accident",
+        "ambulance",
+        "bike",
+        "car",
+        "crash",
+        "drive",
+        "driving",
+        "emergency",
+        "helmet",
+        "road",
+        "roadsos",
+        "safety",
+        "sos",
+        "traffic",
+        "vehicle",
+    }
+    return not bool(profile.tokens & domain_terms)
 
 
 def finalize(

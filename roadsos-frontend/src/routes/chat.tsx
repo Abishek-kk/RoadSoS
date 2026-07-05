@@ -26,6 +26,21 @@ const STARTER_PROMPTS = [
   "My vehicle broke down on the highway",
   "How do I stop heavy bleeding?",
 ];
+const LOCATION_QUERY_TERMS = [
+  "near",
+  "nearby",
+  "nearest",
+  "closest",
+  "hospital",
+  "police",
+  "tow",
+  "towing",
+  "route",
+  "location",
+  "where am i",
+  "danger zone",
+  "safe route",
+];
 
 function Chat() {
   const initialMessage = useMemo<UiMessage>(
@@ -94,7 +109,12 @@ function Chat() {
     setBusy(true);
     const assistantId = crypto.randomUUID();
     try {
-      const currentCoords = await resolveCoords();
+      const latestUserText = latestUserContent(nextMessages);
+      const shouldWaitForLocation = needsLocationForPrompt(latestUserText);
+      const currentCoords = coords ?? (shouldWaitForLocation ? await resolveCoords() : null);
+      if (!currentCoords && !shouldWaitForLocation) {
+        void resolveCoords();
+      }
       let currentLocationName = locationName;
       if (!currentLocationName && currentCoords) {
         warmLocationName(currentCoords);
@@ -110,16 +130,22 @@ function Chat() {
         },
       ]);
       let streamedReply = "";
-      const res = await api.chatStream(payloadMessages, currentCoords, currentLocationName, {
-        onToken: (token) => {
-          streamedReply += token;
-          setMessages((current) =>
-            current.map((message) =>
-              message.id === assistantId ? { ...message, content: streamedReply } : message,
-            ),
-          );
-        },
-      });
+      let res;
+      try {
+        res = await api.chatStream(payloadMessages, currentCoords, currentLocationName, {
+          onToken: (token) => {
+            streamedReply += token;
+            setMessages((current) =>
+              current.map((message) =>
+                message.id === assistantId ? { ...message, content: streamedReply } : message,
+              ),
+            );
+          },
+        });
+      } catch (streamError) {
+        if (streamedReply) throw streamError;
+        res = await api.chat(payloadMessages, currentCoords, currentLocationName);
+      }
       setMessages((current) =>
         current.map((message) =>
           message.id === assistantId
@@ -310,6 +336,15 @@ function llmProviderLabel(provider?: string) {
 function hasStreamingAssistant(messages: UiMessage[]) {
   const latest = messages[messages.length - 1];
   return latest?.role === "assistant" && latest.streaming === true;
+}
+
+function latestUserContent(messages: UiMessage[]) {
+  return [...messages].reverse().find((message) => message.role === "user")?.content ?? "";
+}
+
+function needsLocationForPrompt(text: string) {
+  const normalized = text.toLowerCase();
+  return LOCATION_QUERY_TERMS.some((term) => normalized.includes(term));
 }
 
 function MessageBubble({ message, onCopy }: { message: UiMessage; onCopy: (content: string) => void }) {

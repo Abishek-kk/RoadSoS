@@ -105,10 +105,11 @@ def build_live_context(
     country: str | None = None,
     radius_km: float | None = None,
     nearby_places: list[dict[str, Any]] | None = None,
+    collect_places: bool = True,
 ) -> LiveContext:
     radius = radius_km if radius_km and radius_km > 0 else LIVE_CONTEXT_RADIUS_KM
     places = normalize_nearby_places(nearby_places)
-    if not places and lat is not None and lng is not None:
+    if collect_places and not places and lat is not None and lng is not None:
         places = collect_nearby_places(lat, lng, radius_km=radius)
 
     inferred_city, inferred_state, inferred_country = infer_location_parts(
@@ -137,10 +138,11 @@ def build_context_package(
     live_context: LiveContext,
     emergency_block: str = "",
     conversation_memory: str = "",
+    include_safety_snapshot: bool = True,
 ) -> ContextPackage:
     retrieved_context = format_retrieved_context(retrieval_result.documents)
     location_services_block = build_location_services_block(profile, live_context)
-    safety_snapshot_block = build_safety_snapshot_block(live_context)
+    safety_snapshot_block = build_safety_snapshot_block(live_context) if include_safety_snapshot else ""
     blocks = [
         "EMERGENCY CONTEXT" if profile.emergency_detected else "ROADSOS CONTEXT",
         format_live_context_block(live_context),
@@ -167,7 +169,7 @@ def build_context_package(
     )
 
 
-def format_retrieved_context(documents: list[RetrievalDocument], max_chars: int = 9000) -> str:
+def format_retrieved_context(documents: list[RetrievalDocument], max_chars: int = 4500) -> str:
     parts: list[str] = []
     total = 0
     for index, document in enumerate(documents, start=1):
