@@ -68,6 +68,11 @@ function Chat() {
       if (name) setLocationName(name);
     });
   };
+  const rememberLocation = (position: { lat: number; lng: number }) => {
+    void api.postLocation(position.lat, position.lng).catch(() => {
+      // Chat can still use the in-memory coordinate if persistence fails.
+    });
+  };
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -80,7 +85,9 @@ function Chat() {
     getLocationDetails({ forceRefresh: true })
       .then(async (result) => {
         if (cancelled) return;
-        setCoords({ lat: result.lat, lng: result.lng });
+        const currentCoords = { lat: result.lat, lng: result.lng };
+        setCoords(currentCoords);
+        rememberLocation(currentCoords);
         // mark locationReady only when we obtained a browser geolocation
         setLocationReady(result.source === "browser");
         const name = await reverseGeocode(result.lat, result.lng);
@@ -94,12 +101,13 @@ function Chat() {
     };
   }, []);
 
-  const resolveCoords = async () => {
-    if (coords) return coords;
+  const resolveCoords = async (options: { liveOnly?: boolean } = {}) => {
+    if (coords && !options.liveOnly) return coords;
     try {
-      const result = await getLocationDetails({ forceRefresh: true });
+      const result = await getLocationDetails({ forceRefresh: true, browserOnly: options.liveOnly });
       const currentCoords = { lat: result.lat, lng: result.lng };
       setCoords(currentCoords);
+      rememberLocation(currentCoords);
       setLocationReady(result.source === "browser");
       if (!locationName) warmLocationName(currentCoords);
       return currentCoords;
@@ -109,16 +117,18 @@ function Chat() {
     }
   };
 
-  const askAssistant = async (nextMessages: UiMessage[]) => {
+  const askAssistant = async (nextMessages: UiMessage[], coordsOverride?: { lat: number; lng: number } | null) => {
     setBusy(true);
     const assistantId = crypto.randomUUID();
     try {
       const latestUserText = latestUserContent(nextMessages);
       const shouldWaitForLocation = needsLocationForPrompt(latestUserText);
       // If this looks like a location question, proactively attempt to resolve browser geolocation.
-      let currentCoords = coords;
-      if (shouldWaitForLocation && !currentCoords) {
-        currentCoords = await resolveCoords();
+      let currentCoords = coordsOverride ?? coords;
+      if (isCurrentLocationPrompt(latestUserText) && !locationReady && !coordsOverride) {
+        currentCoords = await resolveCoords({ liveOnly: true });
+      } else if (shouldWaitForLocation && !currentCoords) {
+        currentCoords = await resolveCoords({ liveOnly: isCurrentLocationPrompt(latestUserText) });
       }
       if (!currentCoords && !shouldWaitForLocation) {
         void resolveCoords();
@@ -198,16 +208,18 @@ function Chat() {
     }
   };
 
-  const send = (textOverride?: string, baseMessages = messages) => {
+  const send = (textOverride?: string, baseMessages = messages, coordsOverride?: { lat: number; lng: number } | null) => {
     const text = (textOverride ?? input).trim();
     if (!text || busy) return;
     // If the user asked a location-specific question, attempt to get browser geolocation
     // immediately; if that fails, show a helpful assistant prompt asking the user to allow location.
     const normalized = text.toLowerCase();
     const needsLoc = LOCATION_QUERY_TERMS.some((term) => normalized.includes(term));
-    if (needsLoc && !coords) {
+    const liveLocationQuestion = isCurrentLocationPrompt(text);
+    const availableCoords = coordsOverride ?? coords;
+    if (needsLoc && (!availableCoords || (liveLocationQuestion && !locationReady && !coordsOverride))) {
       // Attempt to resolve coords (this triggers a browser permission prompt).
-      void resolveCoords().then((resolved) => {
+      void resolveCoords({ liveOnly: liveLocationQuestion }).then((resolved) => {
         if (!resolved) {
           const assistantId = crypto.randomUUID();
           const promptMessage: UiMessage = {
@@ -219,7 +231,7 @@ function Chat() {
           setMessages((m) => [...m, promptMessage]);
         } else {
           // If resolved, resend the original text automatically so the user gets the answer.
-          send(textOverride, baseMessages);
+          send(text, baseMessages, resolved);
         }
       });
       setInput("");
@@ -236,7 +248,7 @@ function Chat() {
     ];
     setMessages(nextMessages);
     setInput("");
-    void askAssistant(nextMessages);
+    void askAssistant(nextMessages, availableCoords);
   };
 
   const retryLast = () => {
@@ -391,6 +403,16 @@ function latestUserContent(messages: UiMessage[]) {
 function needsLocationForPrompt(text: string) {
   const normalized = text.toLowerCase();
   return LOCATION_QUERY_TERMS.some((term) => normalized.includes(term));
+}
+
+function isCurrentLocationPrompt(text: string) {
+  const normalized = text.toLowerCase();
+  return (
+    normalized.includes("where am i") ||
+    normalized.includes("where are we") ||
+    /\bmy\b.*\b(location|city|town|village|place)\b/.test(normalized) ||
+    /\bcurrent\b.*\b(location|city|town|village|place)\b/.test(normalized)
+  );
 }
 
 function MessageBubble({ message, onCopy }: { message: UiMessage; onCopy: (content: string) => void }) {

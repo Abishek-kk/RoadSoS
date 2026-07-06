@@ -24,7 +24,7 @@ type SavedLocation = Coordinates & {
   timestamp: number;
   source?: SavedLocationSource;
 };
-type GetLocationOptions = { forceRefresh?: boolean };
+type GetLocationOptions = { forceRefresh?: boolean; browserOnly?: boolean };
 
 type BrowserAttemptResult =
   | { coords: Coordinates; status: "success" }
@@ -48,7 +48,7 @@ export async function getLocation(options: GetLocationOptions = {}): Promise<Coo
 }
 
 export async function getLocationDetails(options: GetLocationOptions = {}): Promise<LocationResult> {
-  if (!options.forceRefresh) {
+  if (!options.forceRefresh && !options.browserOnly) {
     const saved = readSavedLocation();
     if (saved) {
       return { lat: saved.lat, lng: saved.lng, source: "saved", status: "saved" };
@@ -64,6 +64,10 @@ export async function getLocationDetails(options: GetLocationOptions = {}): Prom
       status: "browser",
       browserStatus: browserResult.status,
     };
+  }
+
+  if (options.browserOnly) {
+    throw new Error(`Browser geolocation ${browserResult.status}`);
   }
 
   const ipCoords = await tryIPGeolocation();

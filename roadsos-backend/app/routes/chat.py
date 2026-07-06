@@ -69,7 +69,8 @@ class ChatPayload(BaseModel):
 @router.post("")
 async def chat(payload: ChatPayload, db: Session = DbSession):
     user_message = latest_user_message(payload.messages)
-    location_name = await resolve_location_name(payload, user_message, allow_remote=False)
+    apply_latest_location_if_missing(payload, db)
+    location_name = await resolve_location_name(payload, user_message, allow_remote=True)
     emergency_contacts = load_emergency_contacts(db)
 
     try:
@@ -120,6 +121,7 @@ async def chat(payload: ChatPayload, db: Session = DbSession):
 @router.post("/stream")
 async def chat_stream(payload: ChatPayload, db: Session = DbSession):
     user_message = latest_user_message(payload.messages)
+    apply_latest_location_if_missing(payload, db)
     location_name = await resolve_location_name(payload, user_message, allow_remote=False)
     emergency_contacts = load_emergency_contacts(db)
 
@@ -217,7 +219,9 @@ async def resolve_location_name(
 
     cache_key = (round(float(payload.lat), 5), round(float(payload.lng), 5))
     if cache_key in REVERSE_GEOCODE_CACHE:
-        return REVERSE_GEOCODE_CACHE[cache_key]
+        cached = REVERSE_GEOCODE_CACHE[cache_key]
+        if cached or not allow_remote:
+            return cached
     if not allow_remote:
         schedule_reverse_geocode_cache(payload.lat, payload.lng)
         return None
@@ -258,6 +262,21 @@ def location_label_from_payload(payload: ChatPayload) -> str | None:
         seen.add(normalized)
         parts.append(cleaned)
     return ", ".join(parts) if parts else None
+
+
+def apply_latest_location_if_missing(payload: ChatPayload, db: Session) -> None:
+    if payload.lat is not None and payload.lng is not None:
+        return
+    if not hasattr(db, "query"):
+        return
+    user = crud.get_system_user(db)
+    if not user:
+        return
+    latest = crud.get_latest_user_location(db, user.id)
+    if not latest:
+        return
+    payload.lat = latest.lat
+    payload.lng = latest.lng
 
 
 def should_reverse_geocode_for_chat(user_message: str) -> bool:
