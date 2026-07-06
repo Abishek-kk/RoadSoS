@@ -86,6 +86,19 @@ _encoder: Any | None = None
 _faiss_index: Any | None = None
 _chunks: list[ContextChunk] = []
 _semantic_search_available = False
+_np: Any | None = None
+_faiss: Any | None = None
+
+# Try optional heavy deps at import time but tolerate absence.
+try:
+    import numpy as _np  # type: ignore
+except Exception:
+    _np = None
+
+try:
+    import faiss as _faiss  # type: ignore
+except Exception:
+    _faiss = None
 
 
 def init_embedding_index() -> None:
@@ -116,8 +129,23 @@ def init_embedding_index() -> None:
         return
 
     try:
-        import faiss
-        import numpy as np
+        # Prefer the previously imported optional modules if available
+        np = _np
+        faiss = _faiss
+        if np is None or faiss is None:
+            # attempt dynamic imports and fail gracefully
+            try:
+                import numpy as np  # type: ignore
+            except Exception:
+                np = None
+            try:
+                import faiss  # type: ignore
+            except Exception:
+                faiss = None
+
+        if np is None or faiss is None:
+            raise RuntimeError("numpy or faiss not available")
+
         from sentence_transformers import SentenceTransformer
 
         _encoder = SentenceTransformer("all-MiniLM-L6-v2")

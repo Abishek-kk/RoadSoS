@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { api, apiErrorMessage, type ChatMessage } from "@/lib/api";
-import { getLocation, reverseGeocode } from "@/lib/location";
+import { getLocation, getLocationDetails, reverseGeocode } from "@/lib/location";
 
 export const Route = createFileRoute("/chat")({ component: Chat });
 
@@ -75,12 +75,15 @@ function Chat() {
 
   useEffect(() => {
     let cancelled = false;
-    getLocation()
-      .then(async (position) => {
+    // Force a fresh browser geolocation attempt on initial load so the browser
+    // permission prompt appears and we can detect live location.
+    getLocationDetails({ forceRefresh: true })
+      .then(async (result) => {
         if (cancelled) return;
-        setCoords(position);
-        setLocationReady(true);
-        const name = await reverseGeocode(position.lat, position.lng);
+        setCoords({ lat: result.lat, lng: result.lng });
+        // mark locationReady only when we obtained a browser geolocation
+        setLocationReady(result.source === "browser");
+        const name = await reverseGeocode(result.lat, result.lng);
         if (!cancelled && name) setLocationName(name);
       })
       .catch(() => {
@@ -94,9 +97,10 @@ function Chat() {
   const resolveCoords = async () => {
     if (coords) return coords;
     try {
-      const currentCoords = await getLocation();
+      const result = await getLocationDetails({ forceRefresh: true });
+      const currentCoords = { lat: result.lat, lng: result.lng };
       setCoords(currentCoords);
-      setLocationReady(true);
+      setLocationReady(result.source === "browser");
       if (!locationName) warmLocationName(currentCoords);
       return currentCoords;
     } catch {
@@ -111,7 +115,11 @@ function Chat() {
     try {
       const latestUserText = latestUserContent(nextMessages);
       const shouldWaitForLocation = needsLocationForPrompt(latestUserText);
-      const currentCoords = coords ?? (shouldWaitForLocation ? await resolveCoords() : null);
+      // If this looks like a location question, proactively attempt to resolve browser geolocation.
+      let currentCoords = coords;
+      if (shouldWaitForLocation && !currentCoords) {
+        currentCoords = await resolveCoords();
+      }
       if (!currentCoords && !shouldWaitForLocation) {
         void resolveCoords();
       }
@@ -120,6 +128,15 @@ function Chat() {
         warmLocationName(currentCoords);
       }
       const payloadMessages = nextMessages.map(({ role, content }) => ({ role, content }));
+      // Debug: log outgoing chat payload (messages + coords)
+      try {
+        // eslint-disable-next-line no-console
+        console.log("Outgoing chat payload:", {
+          messages: payloadMessages,
+          coords: currentCoords,
+          locationName: currentLocationName,
+        });
+      } catch {}
       setMessages([
         ...nextMessages,
         {
@@ -146,21 +163,22 @@ function Chat() {
         if (streamedReply) throw streamError;
         res = await api.chat(payloadMessages, currentCoords, currentLocationName);
       }
-      setMessages((current) =>
-        current.map((message) =>
-          message.id === assistantId
-            ? {
-                ...message,
-                content: res.reply || streamedReply,
-                intent: res.intent,
-                usedLlm: res.used_llm,
-                llmProvider: res.llm_provider,
-                suggestions: res.suggestions,
-                streaming: false,
-              }
-            : message,
-        ),
-      );
+        setMessages((current) =>
+          current.map((message) =>
+            message.id === assistantId
+              ? {
+                  ...message,
+                  content: res.reply || streamedReply,
+                  intent: res.intent,
+                  usedLlm: res.used_llm,
+                  llmProvider: res.llm_provider,
+                  response_source: res.response_source ?? (res.used_llm ? "llm" : "direct"),
+                  suggestions: res.suggestions,
+                  streaming: false,
+                }
+              : message,
+          ),
+        );
     } catch (error) {
       setMessages((current) => {
         const errorMessage: UiMessage = {
@@ -183,6 +201,30 @@ function Chat() {
   const send = (textOverride?: string, baseMessages = messages) => {
     const text = (textOverride ?? input).trim();
     if (!text || busy) return;
+    // If the user asked a location-specific question, attempt to get browser geolocation
+    // immediately; if that fails, show a helpful assistant prompt asking the user to allow location.
+    const normalized = text.toLowerCase();
+    const needsLoc = LOCATION_QUERY_TERMS.some((term) => normalized.includes(term));
+    if (needsLoc && !coords) {
+      // Attempt to resolve coords (this triggers a browser permission prompt).
+      void resolveCoords().then((resolved) => {
+        if (!resolved) {
+          const assistantId = crypto.randomUUID();
+          const promptMessage: UiMessage = {
+            id: assistantId,
+            role: "assistant",
+            content: "I need your location to answer that. Please allow location access or type your city/state.",
+            suggestions: ["Allow location", "Type my city name"],
+          };
+          setMessages((m) => [...m, promptMessage]);
+        } else {
+          // If resolved, resend the original text automatically so the user gets the answer.
+          send(textOverride, baseMessages);
+        }
+      });
+      setInput("");
+      return;
+    }
 
     const nextMessages: UiMessage[] = [
       ...baseMessages,
@@ -229,8 +271,12 @@ function Chat() {
                 {locationReady ? "Location active" : "Location optional"}
               </span>
               {latestAssistant?.intent && <span>Mode: {latestAssistant.intent}</span>}
-              {latestAssistant?.usedLlm !== undefined && (
-                <span>{latestAssistant.usedLlm ? llmProviderLabel(latestAssistant.llmProvider) : "RoadSoS offline response"}</span>
+              {latestAssistant?.response_source && (
+                <span>
+                  {latestAssistant.response_source === "direct" && "Instant answer"}
+                  {latestAssistant.response_source === "llm" && llmProviderLabel(latestAssistant.llmProvider)}
+                  {latestAssistant.response_source === "fallback" && "Offline fallback — AI unavailable"}
+                </span>
               )}
             </div>
           </div>

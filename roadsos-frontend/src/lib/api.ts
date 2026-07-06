@@ -155,6 +155,7 @@ export type ChatResponse = {
   intent?: string;
   used_llm?: boolean;
   llm_provider?: string;
+  response_source?: string | null;
   suggestions?: string[];
 };
 export type ChatStreamHandlers = {

@@ -56,6 +56,7 @@ class RagResult:
     emergency: dict[str, Any] | None = None
     llm_provider: str = "none"
     retrieval_confidence: float = 0.0
+    response_source: str = "direct"
 
     def as_dict(self) -> dict[str, Any]:
         return {
@@ -67,6 +68,7 @@ class RagResult:
             "emergency": self.emergency,
             "llm_provider": self.llm_provider,
             "retrieval_confidence": self.retrieval_confidence,
+            "response_source": self.response_source,
         }
 
 
@@ -134,6 +136,8 @@ def run_rag_pipeline(
             emergency_context=EmergencyContext(detected=False),
             used_llm=False,
             llm_provider="none",
+            # direct deterministic path (greetings, location, datetime)
+            response_source="direct",
             started=started,
         )
 
@@ -253,6 +257,7 @@ def run_rag_pipeline(
             emergency_context=emergency_context,
             used_llm=True,
             llm_provider=generation.provider,
+            response_source="llm",
             started=started,
         )
 
@@ -263,6 +268,7 @@ def run_rag_pipeline(
         emergency_context=emergency_context,
         used_llm=False,
         llm_provider=generation.provider,
+        response_source="fallback",
         started=started,
     )
 
@@ -372,6 +378,11 @@ def looks_road_safety_related(profile: QueryProfile) -> bool:
         "safe",
         "safety",
         "scooter",
+        "pressure",
+        "brake",
+        "brakes",
+        "oil",
+        "inspection",
         "seatbelt",
         "shock",
         "sos",
@@ -395,10 +406,24 @@ def looks_road_safety_related(profile: QueryProfile) -> bool:
         "seat belt",
         "speed limit",
         "tyre pressure",
+        "check tyre pressure",
+        "check tire pressure",
+        "how to check tyre pressure",
+        "how to check tire pressure",
         "tire pressure",
         "vehicle stopped",
     }
-    return bool(profile.tokens & domain_terms) or any(phrase in text for phrase in domain_phrases)
+    if bool(profile.tokens & domain_terms):
+        return True
+    # match phrases as whole-word fragments to avoid accidental substring matches
+    for phrase in domain_phrases:
+        try:
+            if re.search(rf"\b{re.escape(phrase)}\b", text):
+                return True
+        except re.error:
+            if phrase in text:
+                return True
+    return False
 
 
 def looks_obviously_off_topic(profile: QueryProfile) -> bool:
@@ -462,6 +487,7 @@ def finalize(
     used_llm: bool,
     llm_provider: str,
     started: float,
+    response_source: str = "direct",
 ) -> RagResult:
     elapsed_ms = round((time.perf_counter() - started) * 1000, 2)
     logger.info(
@@ -479,6 +505,7 @@ def finalize(
         emergency=emergency_context.rule_result,
         llm_provider=llm_provider,
         retrieval_confidence=context_package.confidence,
+        response_source=response_source,
     )
 
 

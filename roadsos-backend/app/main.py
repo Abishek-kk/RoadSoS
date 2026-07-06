@@ -15,6 +15,8 @@ import time
 # --- Route imports ---
 from app.routes import location, sos, hospitals, police, towing, chat, alerts, contacts, risk, route
 from app.config import get_llm_provider, get_ollama_model
+import os
+import subprocess
 
 # --- Logging setup ---
 logging.basicConfig(
@@ -191,8 +193,19 @@ async def api_status():
     """
     provider = get_llm_provider()
     model = get_ollama_model() if provider == "ollama" else "Google Gemini"
+    # Determine a small code version marker to help confirm deployed code
+    code_version = os.getenv("CODE_VERSION")
+    if not code_version:
+        try:
+            code_version = (
+                subprocess.check_output(["git", "rev-parse", "--short", "HEAD"]).decode().strip()
+            )
+        except Exception:
+            code_version = "unknown"
+
     return {
         "success": True,
+        "code_version": code_version,
         "routes": {
             "location":  "/api/location",
             "sos":       "/api/sos",

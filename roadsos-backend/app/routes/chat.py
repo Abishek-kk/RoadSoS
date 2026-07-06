@@ -310,6 +310,7 @@ def response_payload(
     emergency_detected: bool = False,
     retrieval_confidence: float | None = None,
     sources: list[dict[str, Any]] | None = None,
+    response_source: str | None = None,
 ) -> dict[str, Any]:
     payload: dict[str, Any] = {
         "reply": reply,
@@ -318,6 +319,8 @@ def response_payload(
         "llm_provider": llm_provider,
         "suggestions": suggested_prompts(intent, lat=lat, lng=lng, emergency_detected=emergency_detected),
     }
+    # response_source: one of 'direct' (deterministic), 'llm' (AI), 'fallback' (LLM attempted but failed)
+    payload["response_source"] = response_source
     if retrieval_confidence is not None:
         payload["retrieval_confidence"] = retrieval_confidence
     if sources is not None:
