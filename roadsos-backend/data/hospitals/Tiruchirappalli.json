@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_TIR_001",
+    "name": "Mahatma Gandhi Memorial Government Hospital",
+    "district": "Tiruchirappalli",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Mahatma Gandhi Memorial Government Hospital, Tiruchirappalli, Tamil Nadu 620001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.7905,
+    "lng": 78.7047,
+    "pincode": "620001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_TIR_002",
+    "name": "Government Headquarters Hospital, Tiruchirappalli",
+    "district": "Tiruchirappalli",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Tiruchirappalli, Tamil Nadu 620001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.8025,
+    "lng": 78.6947,
+    "pincode": "620001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

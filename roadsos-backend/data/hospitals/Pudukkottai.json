@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_PUD_001",
+    "name": "Government Pudukkottai Medical College Hospital",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Pudukkottai Medical College Hospital, Tamil Nadu 622001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.3833,
+    "lng": 78.8,
+    "pincode": "622001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_PUD_002",
+    "name": "Government Headquarters Hospital, Pudukkottai",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Pudukkottai, Tamil Nadu 622001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.3953,
+    "lng": 78.79,
+    "pincode": "622001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

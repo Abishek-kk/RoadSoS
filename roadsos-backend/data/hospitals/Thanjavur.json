@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_THA_001",
+    "name": "Thanjavur Medical College Hospital",
+    "district": "Thanjavur",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Thanjavur Medical College Hospital, Tamil Nadu 613001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.7867,
+    "lng": 79.1378,
+    "pincode": "613001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_THA_002",
+    "name": "Government Headquarters Hospital, Thanjavur",
+    "district": "Thanjavur",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Thanjavur, Tamil Nadu 613001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.7987,
+    "lng": 79.1278,
+    "pincode": "613001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

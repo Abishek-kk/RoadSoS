@@ -6,7 +6,9 @@ import numpy as np
 
 from app.ai import local_llm_client, rag_pipeline, retrieval
 from app.routes import chat as chat_route
+from app.routes._data import cache_clear
 from app.services import context_builder, rag_service
+from app.services.hospital_service import HospitalService
 from app.services.llm_router import GenerationResult
 from app.services.retriever import RetrievalDocument, RetrievalResult
 
@@ -109,6 +111,87 @@ def test_pipeline_blocks_unverified_non_social_query_before_llm(monkeypatch):
     assert result.reply == "I don't have enough verified information to answer that."
 
 
+def test_location_questions_match_fuzzy_phrases():
+    assert context_builder.is_location_question(rag_service.classify_query("so where am i now")) is True
+    assert context_builder.is_location_question(rag_service.classify_query("what's my location rn")) is True
+
+
+def test_pipeline_allows_general_help_question_to_reach_llm(monkeypatch):
+    def fake_retrieve(*args, **kwargs):
+        return RetrievalResult(documents=[], confidence=0.0, query="safest next step")
+
+    def fake_generate(*args, **kwargs):
+        return GenerationResult(reply="Stay calm and pull over safely.", provider="gemini", used_llm=True)
+
+    monkeypatch.setattr(rag_service, "retrieve", fake_retrieve)
+    monkeypatch.setattr(rag_service, "generate", fake_generate)
+
+    result = rag_service.run_rag_pipeline("Can you help me with the safest next step if I am stuck on the highway?")
+
+    assert result.used_llm is True
+    assert result.reply == "Stay calm and pull over safely."
+
+
+def test_collect_nearby_places_reuses_cached_results_for_same_location(monkeypatch):
+    calls = {"hospital": 0, "police_station": 0, "towing_service": 0}
+
+    class DummyService:
+        def __init__(self, category):
+            self.category = category
+
+        def find_nearest(self, lat, lng, limit=3, radius_km=None):
+            calls[self.category] += 1
+            return [{"name": self.category, "lat": lat, "lng": lng, "distance_km": 1.0, "address": "Test"}]
+
+    monkeypatch.setattr(context_builder, "HospitalService", lambda: DummyService("hospital"))
+    monkeypatch.setattr(context_builder, "PoliceService", lambda: DummyService("police_station"))
+    monkeypatch.setattr(context_builder, "TowingService", lambda: DummyService("towing_service"))
+    if hasattr(context_builder, "_NEARBY_PLACE_CACHE"):
+        context_builder._NEARBY_PLACE_CACHE.clear()
+
+    context_builder.collect_nearby_places(10.0, 20.0, radius_km=25.0)
+    context_builder.collect_nearby_places(10.0, 20.0, radius_km=25.0)
+
+    assert calls == {"hospital": 1, "police_station": 1, "towing_service": 1}
+
+
+def test_hospital_lookup_returns_madurai_entries():
+    cache_clear()
+    results = HospitalService().find_nearest(9.9252, 78.1198, limit=3)
+
+    assert results
+    assert results[0]["district"] == "Madurai"
+    assert results[0]["name"] == "Government Rajaji Hospital, Madurai"
+    assert results[0]["distance_km"] == 0.0
+    assert all(result["district"] != "Chennai" for result in results)
+
+
+def test_stream_location_resolution_does_not_wait_for_remote_geocode(monkeypatch):
+    scheduled = {}
+
+    def fake_schedule(lat, lng):
+        scheduled["coords"] = (lat, lng)
+
+    monkeypatch.setattr(chat_route, "schedule_reverse_geocode_cache", fake_schedule)
+    chat_route.REVERSE_GEOCODE_CACHE.clear()
+
+    payload = chat_route.ChatPayload(
+        messages=[chat_route.ChatMessage(role="user", content="so where am i now")],
+        lat=9.9252,
+        lng=78.1198,
+    )
+
+    location_name = anyio.run(
+        chat_route.resolve_location_name,
+        payload,
+        "so where am i now",
+        False,
+    )
+
+    assert location_name is None
+    assert scheduled["coords"] == (9.9252, 78.1198)
+
+
 def test_pipeline_passes_retrieved_context_to_llm(monkeypatch):
     captured = {}
 
@@ -164,7 +247,7 @@ def test_pipeline_adds_safety_snapshot_to_llm_context(monkeypatch):
         lambda lat, lng: "Nearest hospital: Apollo Hospital, 2.3 km away, phone 108.",
     )
 
-    result = rag_service.run_rag_pipeline("hi", lat=9.9252, lng=78.1198)
+    result = rag_service.run_rag_pipeline("Is this road safe near me?", lat=9.9252, lng=78.1198)
 
     assert result.used_llm is True
     assert "NEARBY SAFETY INFO" in captured["context"]
@@ -192,8 +275,7 @@ def test_safety_snapshot_does_not_make_unrelated_queries_reliable(monkeypatch):
 
     assert result.used_llm is False
     assert result.reply == "I don't have enough verified information to answer that."
-    assert "NEARBY SAFETY INFO" in result.context
-    assert "Anna Nagar PS" in result.context
+    assert "NEARBY SAFETY INFO" not in result.context
 
 
 def test_chat_route_resolves_server_location_name(monkeypatch):

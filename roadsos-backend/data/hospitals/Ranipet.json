@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_RAN_001",
+    "name": "Government Hospital, Ranipet",
+    "district": "Ranipet",
+    "city": "Ranipet",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Hospital, Ranipet, Tamil Nadu 632401",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.9279,
+    "lng": 79.333,
+    "pincode": "632401",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_RAN_002",
+    "name": "Government Headquarters Hospital, Ranipet",
+    "district": "Ranipet",
+    "city": "Ranipet",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Ranipet, Tamil Nadu 632401",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.9399,
+    "lng": 79.323,
+    "pincode": "632401",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

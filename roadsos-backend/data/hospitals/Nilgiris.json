@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_NIL_001",
+    "name": "Government Medical College Hospital, The Nilgiris",
+    "district": "Nilgiris",
+    "city": "Udhagamandalam",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Medical College Hospital, The Nilgiris, Udhagamandalam, Tamil Nadu 643001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.4102,
+    "lng": 76.695,
+    "pincode": "643001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_NIL_002",
+    "name": "Government Headquarters Hospital, Nilgiris",
+    "district": "Nilgiris",
+    "city": "Udhagamandalam",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Nilgiris, Udhagamandalam, Tamil Nadu 643001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.4222,
+    "lng": 76.685,
+    "pincode": "643001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_TIR_001",
+    "name": "Government Tiruppur Medical College Hospital",
+    "district": "Tiruppur",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Tiruppur Medical College Hospital, Tamil Nadu 641601",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.1085,
+    "lng": 77.3411,
+    "pincode": "641601",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_TIR_002",
+    "name": "Government Headquarters Hospital, Tiruppur",
+    "district": "Tiruppur",
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Tiruppur, Tamil Nadu 641601",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.1205,
+    "lng": 77.3311,
+    "pincode": "641601",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

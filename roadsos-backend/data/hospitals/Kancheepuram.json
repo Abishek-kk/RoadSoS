@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_KAN_001",
+    "name": "Government Headquarters Hospital, Kancheepuram",
+    "district": "Kancheepuram",
+    "city": "Kancheepuram",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Kancheepuram, Tamil Nadu 631501",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.8342,
+    "lng": 79.7036,
+    "pincode": "631501",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_KAN_002",
+    "name": "Government Headquarters Hospital, Kancheepuram",
+    "district": "Kancheepuram",
+    "city": "Kancheepuram",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Kancheepuram, Tamil Nadu 631501",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.8462,
+    "lng": 79.6936,
+    "pincode": "631501",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

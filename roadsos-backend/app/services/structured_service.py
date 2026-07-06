@@ -147,7 +147,7 @@ class StructuredEmergencyService:
         ranked.sort(
             key=lambda row: (
                 row.get("distance_km") is None,
-                float(row.get("distance_km") or math.inf),
+                float(row["distance_km"]) if row.get("distance_km") is not None else math.inf,
                 str(row.get("name") or row.get("station_name") or "").lower(),
             )
         )

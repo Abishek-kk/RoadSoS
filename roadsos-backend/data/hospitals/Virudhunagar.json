@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_VIR_001",
+    "name": "Government Virudhunagar Medical College Hospital",
+    "district": "Virudhunagar",
+    "city": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Virudhunagar Medical College Hospital, Tamil Nadu 626001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 9.568,
+    "lng": 77.9624,
+    "pincode": "626001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_VIR_002",
+    "name": "Government Headquarters Hospital, Virudhunagar",
+    "district": "Virudhunagar",
+    "city": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Virudhunagar, Tamil Nadu 626001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 9.58,
+    "lng": 77.9524,
+    "pincode": "626001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

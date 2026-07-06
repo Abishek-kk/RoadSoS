@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_DIN_001",
+    "name": "Government Dindigul Medical College Hospital",
+    "district": "Dindigul",
+    "city": "Dindigul",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Dindigul Medical College Hospital, Tamil Nadu 624001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.3673,
+    "lng": 77.9803,
+    "pincode": "624001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_DIN_002",
+    "name": "Government Headquarters Hospital, Dindigul",
+    "district": "Dindigul",
+    "city": "Dindigul",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Dindigul, Tamil Nadu 624001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.3793,
+    "lng": 77.9703,
+    "pincode": "624001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

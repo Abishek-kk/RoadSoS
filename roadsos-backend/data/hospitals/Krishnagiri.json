@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_KRI_001",
+    "name": "Government Krishnagiri Medical College Hospital",
+    "district": "Krishnagiri",
+    "city": "Krishnagiri",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Krishnagiri Medical College Hospital, Tamil Nadu 635001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.5186,
+    "lng": 78.2137,
+    "pincode": "635001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_KRI_002",
+    "name": "Government Headquarters Hospital, Krishnagiri",
+    "district": "Krishnagiri",
+    "city": "Krishnagiri",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Krishnagiri, Tamil Nadu 635001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.5306,
+    "lng": 78.2037,
+    "pincode": "635001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

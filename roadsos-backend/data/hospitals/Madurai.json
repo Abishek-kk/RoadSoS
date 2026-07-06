@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_MAD_001",
+    "name": "Government Rajaji Hospital, Madurai",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Rajaji Hospital, Madurai, Tamil Nadu 625020",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 9.9252,
+    "lng": 78.1198,
+    "pincode": "625020",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_MAD_002",
+    "name": "Government Headquarters Hospital, Madurai",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Madurai, Tamil Nadu 625020",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 9.9372,
+    "lng": 78.1098,
+    "pincode": "625020",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_CHE_001",
+    "name": "Government Chengalpattu Medical College Hospital",
+    "district": "Chengalpattu",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Chengalpattu Medical College Hospital, Tamil Nadu 603001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.6929,
+    "lng": 79.9773,
+    "pincode": "603001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_CHE_002",
+    "name": "Government Headquarters Hospital, Chengalpattu",
+    "district": "Chengalpattu",
+    "city": "Chengalpattu",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Chengalpattu, Tamil Nadu 603001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.7049,
+    "lng": 79.9673,
+    "pincode": "603001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

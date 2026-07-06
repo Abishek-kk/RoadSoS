@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_THO_001",
+    "name": "Government Thoothukudi Medical College Hospital",
+    "district": "Thoothukudi",
+    "city": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Thoothukudi Medical College Hospital, Tamil Nadu 628001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 8.7642,
+    "lng": 78.1348,
+    "pincode": "628001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_THO_002",
+    "name": "Government Headquarters Hospital, Thoothukudi",
+    "district": "Thoothukudi",
+    "city": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Thoothukudi, Tamil Nadu 628001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 8.7762,
+    "lng": 78.1248,
+    "pincode": "628001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

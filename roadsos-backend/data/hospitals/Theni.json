@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_THE_001",
+    "name": "Government Theni Medical College Hospital",
+    "district": "Theni",
+    "city": "Theni",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Theni Medical College Hospital, Tamil Nadu 625531",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.0104,
+    "lng": 77.4768,
+    "pincode": "625531",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_THE_002",
+    "name": "Government Headquarters Hospital, Theni",
+    "district": "Theni",
+    "city": "Theni",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Theni, Tamil Nadu 625531",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.0224,
+    "lng": 77.4668,
+    "pincode": "625531",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

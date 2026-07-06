@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import asyncio
 import json
 import logging
 from queue import Queue
@@ -20,6 +21,8 @@ from db import crud
 router = APIRouter(prefix="/chat", tags=["Chat"])
 CHAT_LLM_TIMEOUT_SECONDS = 120
 logger = logging.getLogger("roadsos.chat")
+REVERSE_GEOCODE_CACHE: dict[tuple[float, float], str | None] = {}
+REVERSE_GEOCODE_IN_FLIGHT: set[tuple[float, float]] = set()
 CURRENT_LOCATION_PHRASES = (
     "current location",
     "my location",
@@ -66,7 +69,7 @@ class ChatPayload(BaseModel):
 @router.post("")
 async def chat(payload: ChatPayload, db: Session = DbSession):
     user_message = latest_user_message(payload.messages)
-    location_name = await resolve_location_name(payload, user_message)
+    location_name = await resolve_location_name(payload, user_message, allow_remote=False)
     emergency_contacts = load_emergency_contacts(db)
 
     try:
@@ -117,7 +120,7 @@ async def chat(payload: ChatPayload, db: Session = DbSession):
 @router.post("/stream")
 async def chat_stream(payload: ChatPayload, db: Session = DbSession):
     user_message = latest_user_message(payload.messages)
-    location_name = await resolve_location_name(payload, user_message)
+    location_name = await resolve_location_name(payload, user_message, allow_remote=False)
     emergency_contacts = load_emergency_contacts(db)
 
     return StreamingResponse(
@@ -195,7 +198,11 @@ async def stream_chat_events(
         task_group.cancel_scope.cancel()
 
 
-async def resolve_location_name(payload: ChatPayload, user_message: str = "") -> str | None:
+async def resolve_location_name(
+    payload: ChatPayload,
+    user_message: str = "",
+    allow_remote: bool = True,
+) -> str | None:
     location_name = (payload.location_name or "").strip()
     if location_name:
         return location_name
@@ -207,7 +214,35 @@ async def resolve_location_name(payload: ChatPayload, user_message: str = "") ->
     if not should_reverse_geocode_for_chat(user_message):
         logger.info("Skipping backend reverse geocode for chat; location label is not required for this query.")
         return None
-    return await reverse_geocode(payload.lat, payload.lng)
+
+    cache_key = (round(float(payload.lat), 5), round(float(payload.lng), 5))
+    if cache_key in REVERSE_GEOCODE_CACHE:
+        return REVERSE_GEOCODE_CACHE[cache_key]
+    if not allow_remote:
+        schedule_reverse_geocode_cache(payload.lat, payload.lng)
+        return None
+
+    resolved = await reverse_geocode(payload.lat, payload.lng)
+    REVERSE_GEOCODE_CACHE[cache_key] = resolved
+    return resolved
+
+
+def schedule_reverse_geocode_cache(lat: float, lng: float) -> None:
+    cache_key = (round(float(lat), 5), round(float(lng), 5))
+    if cache_key in REVERSE_GEOCODE_CACHE or cache_key in REVERSE_GEOCODE_IN_FLIGHT:
+        return
+    REVERSE_GEOCODE_IN_FLIGHT.add(cache_key)
+    try:
+        asyncio.get_running_loop().create_task(cache_reverse_geocode(lat, lng, cache_key))
+    except RuntimeError:
+        REVERSE_GEOCODE_IN_FLIGHT.discard(cache_key)
+
+
+async def cache_reverse_geocode(lat: float, lng: float, cache_key: tuple[float, float]) -> None:
+    try:
+        REVERSE_GEOCODE_CACHE[cache_key] = await reverse_geocode(lat, lng)
+    finally:
+        REVERSE_GEOCODE_IN_FLIGHT.discard(cache_key)
 
 
 def location_label_from_payload(payload: ChatPayload) -> str | None:

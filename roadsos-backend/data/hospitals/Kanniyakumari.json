@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_KAN_001",
+    "name": "Kanyakumari Government Medical College Hospital",
+    "district": "Kanniyakumari",
+    "city": "Nagercoil",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Kanyakumari Government Medical College Hospital, Nagercoil, Kanniyakumari, Tamil Nadu 629001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 8.178,
+    "lng": 77.4344,
+    "pincode": "629001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_KAN_002",
+    "name": "Government Headquarters Hospital, Kanniyakumari",
+    "district": "Kanniyakumari",
+    "city": "Nagercoil",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Kanniyakumari, Nagercoil, Tamil Nadu 629001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 8.19,
+    "lng": 77.4244,
+    "pincode": "629001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

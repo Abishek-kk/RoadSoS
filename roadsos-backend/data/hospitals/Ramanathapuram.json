@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_RAM_001",
+    "name": "Government Ramanathapuram Medical College Hospital",
+    "district": "Ramanathapuram",
+    "city": "Ramanathapuram",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Ramanathapuram Medical College Hospital, Tamil Nadu 623501",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 9.3639,
+    "lng": 78.8395,
+    "pincode": "623501",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_RAM_002",
+    "name": "Government Headquarters Hospital, Ramanathapuram",
+    "district": "Ramanathapuram",
+    "city": "Ramanathapuram",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Ramanathapuram, Tamil Nadu 623501",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 9.3759,
+    "lng": 78.8295,
+    "pincode": "623501",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

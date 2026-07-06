@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_ARI_001",
+    "name": "Government Hospital, Ariyalur",
+    "district": "Ariyalur",
+    "city": "Ariyalur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Hospital, Ariyalur, Tamil Nadu 621704",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.1386,
+    "lng": 79.0756,
+    "pincode": "621704",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_ARI_002",
+    "name": "Government Headquarters Hospital, Ariyalur",
+    "district": "Ariyalur",
+    "city": "Ariyalur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Ariyalur, Tamil Nadu 621704",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.1506,
+    "lng": 79.0656,
+    "pincode": "621704",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

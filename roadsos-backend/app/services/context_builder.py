@@ -17,6 +17,7 @@ from app.services.towing_service import TowingService
 
 LIVE_CONTEXT_RADIUS_KM = 25.0
 MAX_LIVE_PLACES_PER_CATEGORY = 8
+_NEARBY_PLACE_CACHE: dict[tuple[float, float, float], list["NearbyPlace"]] = {}
 
 
 @dataclass
@@ -333,6 +334,10 @@ def format_live_context_block(live_context: LiveContext) -> str:
 
 
 def collect_nearby_places(lat: float, lng: float, radius_km: float = LIVE_CONTEXT_RADIUS_KM) -> list[NearbyPlace]:
+    cache_key = (round(float(lat), 5), round(float(lng), 5), round(float(radius_km or LIVE_CONTEXT_RADIUS_KM), 2))
+    if cache_key in _NEARBY_PLACE_CACHE:
+        return list(_NEARBY_PLACE_CACHE[cache_key])
+
     service_config = [
         ("hospital", HospitalService(), radius_km),
         ("police_station", PoliceService(), radius_km),
@@ -368,7 +373,10 @@ def collect_nearby_places(lat: float, lng: float, radius_km: float = LIVE_CONTEX
                     officer=clean_optional(row.get("officer")),
                 )
             )
-    return sorted_places(places)
+
+    sorted_places_result = sorted_places(places)
+    _NEARBY_PLACE_CACHE[cache_key] = sorted_places_result
+    return list(sorted_places_result)
 
 
 def normalize_nearby_places(rows: list[dict[str, Any]] | None) -> list[NearbyPlace]:
@@ -470,16 +478,19 @@ def place_category_for_profile(profile: QueryProfile) -> str | None:
 
 
 def is_location_question(profile: QueryProfile) -> bool:
-    return profile.normalized_question in {
-        "where am i",
-        "where am i now",
-        "where are we",
-        "where are we now",
-        "my location",
-        "current location",
-        "what is my location",
-        "which city am i in",
-    }
+    text = (profile.normalized_question or "").strip()
+    if not text:
+        return False
+
+    if re.search(r"\bwhere\b", text) and re.search(r"\b(am|are|i|we)\b", text):
+        return True
+    if re.search(r"\b(my|current|my current)\b", text) and re.search(r"\b(location|city|town|village|place)\b", text):
+        return True
+    if re.search(r"\bwhat\b", text) and re.search(r"\b(location|city|town|village|place)\b", text):
+        return True
+    if re.search(r"\bwhich\b", text) and re.search(r"\b(city|town|village|place)\b", text):
+        return True
+    return False
 
 
 def summarize_emergency_block(block: str) -> str:

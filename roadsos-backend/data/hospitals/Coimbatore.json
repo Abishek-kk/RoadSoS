@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_COI_001",
+    "name": "Coimbatore Medical College Hospital",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Coimbatore Medical College Hospital, Tamil Nadu 641018",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.0168,
+    "lng": 76.9558,
+    "pincode": "641018",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_COI_002",
+    "name": "Government Headquarters Hospital, Coimbatore",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Coimbatore, Tamil Nadu 641018",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.0288,
+    "lng": 76.9458,
+    "pincode": "641018",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

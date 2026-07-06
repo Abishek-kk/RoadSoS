@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_TEN_001",
+    "name": "Government Headquarters Hospital, Tenkasi",
+    "district": "Tenkasi",
+    "city": "Tenkasi",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Tenkasi, Tamil Nadu 627811",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 8.959,
+    "lng": 77.3152,
+    "pincode": "627811",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_TEN_002",
+    "name": "Government Headquarters Hospital, Tenkasi",
+    "district": "Tenkasi",
+    "city": "Tenkasi",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Tenkasi, Tamil Nadu 627811",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 8.971,
+    "lng": 77.3052,
+    "pincode": "627811",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

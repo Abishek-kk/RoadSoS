@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_CUD_001",
+    "name": "Government Hospital, Cuddalore",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Hospital, Cuddalore, Tamil Nadu 607001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.748,
+    "lng": 79.7714,
+    "pincode": "607001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_CUD_002",
+    "name": "Government Headquarters Hospital, Cuddalore",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Cuddalore, Tamil Nadu 607001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.76,
+    "lng": 79.7614,
+    "pincode": "607001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

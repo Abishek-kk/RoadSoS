@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_TIR_001",
+    "name": "Government Hospital, Tirupathur",
+    "district": "Tirupathur",
+    "city": "Tirupathur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Hospital, Tirupathur, Tamil Nadu 635601",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.4963,
+    "lng": 78.5674,
+    "pincode": "635601",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_TIR_002",
+    "name": "Government Headquarters Hospital, Tirupathur",
+    "district": "Tirupathur",
+    "city": "Tirupathur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Tirupathur, Tamil Nadu 635601",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.5083,
+    "lng": 78.5574,
+    "pincode": "635601",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_TIR_001",
+    "name": "Tirunelveli Medical College Hospital",
+    "district": "Tirunelveli",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Tirunelveli Medical College Hospital, Tamil Nadu 627001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 8.7139,
+    "lng": 77.7567,
+    "pincode": "627001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_TIR_002",
+    "name": "Government Headquarters Hospital, Tirunelveli",
+    "district": "Tirunelveli",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Tirunelveli, Tamil Nadu 627001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 8.7259,
+    "lng": 77.7467,
+    "pincode": "627001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

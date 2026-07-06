@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_SAL_001",
+    "name": "Government Mohan Kumaramangalam Medical College Hospital",
+    "district": "Salem",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Mohan Kumaramangalam Medical College Hospital, Salem, Tamil Nadu 636001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.6643,
+    "lng": 78.146,
+    "pincode": "636001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_SAL_002",
+    "name": "Government Headquarters Hospital, Salem",
+    "district": "Salem",
+    "city": "Salem",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Salem, Tamil Nadu 636001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.6763,
+    "lng": 78.136,
+    "pincode": "636001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

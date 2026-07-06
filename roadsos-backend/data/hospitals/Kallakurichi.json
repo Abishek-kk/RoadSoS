@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_KAL_001",
+    "name": "Government Kallakurichi Medical College Hospital",
+    "district": "Kallakurichi",
+    "city": "Kallakurichi",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Kallakurichi Medical College Hospital, Tamil Nadu 606202",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.7384,
+    "lng": 78.9639,
+    "pincode": "606202",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_KAL_002",
+    "name": "Government Headquarters Hospital, Kallakurichi",
+    "district": "Kallakurichi",
+    "city": "Kallakurichi",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Kallakurichi, Tamil Nadu 606202",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.7504,
+    "lng": 78.9539,
+    "pincode": "606202",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_DHA_001",
+    "name": "Government Dharmapuri Medical College Hospital",
+    "district": "Dharmapuri",
+    "city": "Dharmapuri",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Dharmapuri Medical College Hospital, Tamil Nadu 636701",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.127,
+    "lng": 78.157,
+    "pincode": "636701",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_DHA_002",
+    "name": "Government Headquarters Hospital, Dharmapuri",
+    "district": "Dharmapuri",
+    "city": "Dharmapuri",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Dharmapuri, Tamil Nadu 636701",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.139,
+    "lng": 78.147,
+    "pincode": "636701",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

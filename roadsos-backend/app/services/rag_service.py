@@ -314,24 +314,144 @@ def unsupported_general_query(profile: QueryProfile, context_package: ContextPac
         return False
     if context_package.documents:
         return False
+
+    text = profile.normalized_question or ""
+    if not text:
+        return True
+
+    if looks_obviously_off_topic(profile) and not looks_road_safety_related(profile):
+        return True
+    return False
+
+
+def looks_road_safety_related(profile: QueryProfile) -> bool:
+    text = profile.normalized_question or ""
     domain_terms = {
         "accident",
         "ambulance",
+        "aid",
+        "alert",
+        "auto",
+        "battery",
         "bike",
+        "breakdown",
+        "bus",
         "car",
+        "clinic",
+        "cpr",
         "crash",
+        "danger",
+        "doctor",
         "drive",
+        "driver",
         "driving",
         "emergency",
+        "first",
+        "fog",
+        "fuel",
+        "help",
         "helmet",
+        "highway",
+        "hospital",
+        "injured",
+        "injury",
+        "lane",
+        "licence",
+        "license",
+        "mechanic",
+        "medical",
+        "motorcycle",
+        "petrol",
+        "police",
+        "puncture",
+        "rain",
+        "rider",
         "road",
         "roadsos",
+        "route",
+        "safe",
         "safety",
+        "scooter",
+        "seatbelt",
+        "shock",
         "sos",
+        "speed",
+        "stuck",
+        "tow",
+        "towing",
         "traffic",
+        "trauma",
+        "truck",
+        "tyre",
+        "tire",
         "vehicle",
+        "weather",
     }
-    return not bool(profile.tokens & domain_terms)
+    domain_phrases = {
+        "first aid",
+        "hazard lights",
+        "road rage",
+        "safe route",
+        "seat belt",
+        "speed limit",
+        "tyre pressure",
+        "tire pressure",
+        "vehicle stopped",
+    }
+    return bool(profile.tokens & domain_terms) or any(phrase in text for phrase in domain_phrases)
+
+
+def looks_obviously_off_topic(profile: QueryProfile) -> bool:
+    text = profile.normalized_question or ""
+    off_topic_phrases = {
+        "capital of",
+        "cricket score",
+        "football score",
+        "stock price",
+        "stock market",
+        "world cup",
+        "write code",
+    }
+    off_topic_tokens = {
+        "actor",
+        "algebra",
+        "bitcoin",
+        "cake",
+        "calculus",
+        "cinema",
+        "cook",
+        "cooking",
+        "crypto",
+        "election",
+        "fifa",
+        "game",
+        "ipl",
+        "joke",
+        "lyrics",
+        "movie",
+        "pasta",
+        "politics",
+        "president",
+        "programming",
+        "quantum",
+        "recipe",
+        "song",
+        "sports",
+        "tennis",
+    }
+    off_topic_requests = {
+        "who won",
+        "who is winning",
+        "recommend a movie",
+        "tell me a joke",
+        "make me a recipe",
+        "write me code",
+    }
+    return (
+        any(phrase in text for phrase in off_topic_phrases)
+        or any(phrase in text for phrase in off_topic_requests)
+        or bool(profile.tokens & off_topic_tokens)
+    )
 
 
 def finalize(

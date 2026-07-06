@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_NAM_001",
+    "name": "Government Namakkal Medical College Hospital",
+    "district": "Namakkal",
+    "city": "Namakkal",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Namakkal Medical College Hospital, Tamil Nadu 637001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.2194,
+    "lng": 78.1678,
+    "pincode": "637001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_NAM_002",
+    "name": "Government Headquarters Hospital, Namakkal",
+    "district": "Namakkal",
+    "city": "Namakkal",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Namakkal, Tamil Nadu 637001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.2314,
+    "lng": 78.1578,
+    "pincode": "637001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

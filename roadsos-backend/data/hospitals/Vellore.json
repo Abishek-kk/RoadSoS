@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_VEL_001",
+    "name": "Government Vellore Medical College Hospital",
+    "district": "Vellore",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Vellore Medical College Hospital, Tamil Nadu 632001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.9165,
+    "lng": 79.1325,
+    "pincode": "632001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_VEL_002",
+    "name": "Government Headquarters Hospital, Vellore",
+    "district": "Vellore",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Vellore, Tamil Nadu 632001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.9285,
+    "lng": 79.1225,
+    "pincode": "632001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

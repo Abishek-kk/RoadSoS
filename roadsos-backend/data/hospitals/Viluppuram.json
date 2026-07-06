@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_VIL_001",
+    "name": "Government Viluppuram Medical College Hospital",
+    "district": "Viluppuram",
+    "city": "Viluppuram",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Viluppuram Medical College Hospital, Tamil Nadu 605602",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.9401,
+    "lng": 79.4861,
+    "pincode": "605602",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_VIL_002",
+    "name": "Government Headquarters Hospital, Viluppuram",
+    "district": "Viluppuram",
+    "city": "Viluppuram",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Viluppuram, Tamil Nadu 605602",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.9521,
+    "lng": 79.4761,
+    "pincode": "605602",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

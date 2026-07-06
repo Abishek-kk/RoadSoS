@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_NAG_001",
+    "name": "Government Hospital, Nagapattinam",
+    "district": "Nagapattinam",
+    "city": "Nagapattinam",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Hospital, Nagapattinam, Tamil Nadu 611001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.7672,
+    "lng": 79.8449,
+    "pincode": "611001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_NAG_002",
+    "name": "Government Headquarters Hospital, Nagapattinam",
+    "district": "Nagapattinam",
+    "city": "Nagapattinam",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Nagapattinam, Tamil Nadu 611001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.7792,
+    "lng": 79.8349,
+    "pincode": "611001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

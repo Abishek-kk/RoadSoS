@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_ERO_001",
+    "name": "Government Hospital, Erode",
+    "district": "Erode",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Hospital, Erode, Tamil Nadu 638001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.341,
+    "lng": 77.7172,
+    "pincode": "638001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_ERO_002",
+    "name": "Government Headquarters Hospital, Erode",
+    "district": "Erode",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Erode, Tamil Nadu 638001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.353,
+    "lng": 77.7072,
+    "pincode": "638001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

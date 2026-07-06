@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_PER_001",
+    "name": "Government Headquarters Hospital, Perambalur",
+    "district": "Perambalur",
+    "city": "Perambalur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Perambalur, Tamil Nadu 621212",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.2333,
+    "lng": 78.8833,
+    "pincode": "621212",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_PER_002",
+    "name": "Government Headquarters Hospital, Perambalur",
+    "district": "Perambalur",
+    "city": "Perambalur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Perambalur, Tamil Nadu 621212",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.2453,
+    "lng": 78.8733,
+    "pincode": "621212",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

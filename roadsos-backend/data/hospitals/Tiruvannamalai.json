@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_TIR_001",
+    "name": "Government Tiruvannamalai Medical College Hospital",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Tiruvannamalai Medical College Hospital, Tamil Nadu 606601",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.2253,
+    "lng": 79.0747,
+    "pincode": "606601",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_TIR_002",
+    "name": "Government Headquarters Hospital, Tiruvannamalai",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Tiruvannamalai, Tamil Nadu 606601",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 12.2373,
+    "lng": 79.0647,
+    "pincode": "606601",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

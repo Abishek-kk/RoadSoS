@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_KAR_001",
+    "name": "Government Karur Medical College Hospital",
+    "district": "Karur",
+    "city": "Karur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Karur Medical College Hospital, Tamil Nadu 639001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.9601,
+    "lng": 78.0766,
+    "pincode": "639001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_KAR_002",
+    "name": "Government Headquarters Hospital, Karur",
+    "district": "Karur",
+    "city": "Karur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Karur, Tamil Nadu 639001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.9721,
+    "lng": 78.0666,
+    "pincode": "639001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

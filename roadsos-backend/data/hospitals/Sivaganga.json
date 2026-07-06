@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_SIV_001",
+    "name": "Government Sivaganga Medical College Hospital",
+    "district": "Sivaganga",
+    "city": "Sivaganga",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Sivaganga Medical College Hospital, Tamil Nadu 630561",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 9.8433,
+    "lng": 78.4809,
+    "pincode": "630561",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_SIV_002",
+    "name": "Government Headquarters Hospital, Sivaganga",
+    "district": "Sivaganga",
+    "city": "Sivaganga",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Sivaganga, Tamil Nadu 630561",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 9.8553,
+    "lng": 78.4709,
+    "pincode": "630561",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

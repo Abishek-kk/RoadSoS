@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_TIR_001",
+    "name": "Government Tiruvarur Medical College Hospital",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Tiruvarur Medical College Hospital, Tamil Nadu 610001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.7727,
+    "lng": 79.6368,
+    "pincode": "610001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_TIR_002",
+    "name": "Government Headquarters Hospital, Tiruvarur",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Tiruvarur, Tamil Nadu 610001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 10.7847,
+    "lng": 79.6268,
+    "pincode": "610001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "HOSP_MAY_001",
+    "name": "Government Hospital, Mayiladuthurai",
+    "district": "Mayiladuthurai",
+    "city": "Mayiladuthurai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Hospital, Mayiladuthurai, Tamil Nadu 609001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.1036,
+    "lng": 79.655,
+    "pincode": "609001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  },
+  {
+    "id": "HOSP_MAY_002",
+    "name": "Government Headquarters Hospital, Mayiladuthurai",
+    "district": "Mayiladuthurai",
+    "city": "Mayiladuthurai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "address": "Government Headquarters Hospital, Mayiladuthurai, Tamil Nadu 609001",
+    "phone": "108",
+    "emergency_phone": "108",
+    "type": "Government Hospital",
+    "open_24x7": true,
+    "lat": 11.1156,
+    "lng": 79.645,
+    "pincode": "609001",
+    "specialties": [
+      "Emergency Care",
+      "General Medicine",
+      "Trauma Stabilization",
+      "Ambulance Coordination"
+    ]
+  }
+]
