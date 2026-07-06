@@ -115,6 +115,7 @@ async def chat(payload: ChatPayload, db: Session = DbSession):
         emergency_detected=bool(result.emergency and result.emergency.get("detected")),
         retrieval_confidence=getattr(result, "retrieval_confidence", None),
         sources=[source.as_dict() for source in getattr(result, "sources", [])],
+        response_source=getattr(result, "response_source", None),
     )
 
 
@@ -176,6 +177,7 @@ async def stream_chat_events(
                         emergency_detected=bool(result.emergency and result.emergency.get("detected")),
                         retrieval_confidence=getattr(result, "retrieval_confidence", None),
                         sources=[source.as_dict() for source in getattr(result, "sources", [])],
+                        response_source=getattr(result, "response_source", None),
                     ),
                 }
             )

@@ -125,7 +125,7 @@ function Chat() {
       const shouldWaitForLocation = needsLocationForPrompt(latestUserText);
       // If this looks like a location question, proactively attempt to resolve browser geolocation.
       let currentCoords = coordsOverride ?? coords;
-      if (isCurrentLocationPrompt(latestUserText) && !locationReady && !coordsOverride) {
+      if (isCurrentLocationPrompt(latestUserText) && !currentCoords && !coordsOverride) {
         currentCoords = await resolveCoords({ liveOnly: true });
       } else if (shouldWaitForLocation && !currentCoords) {
         currentCoords = await resolveCoords({ liveOnly: isCurrentLocationPrompt(latestUserText) });
@@ -135,7 +135,8 @@ function Chat() {
       }
       let currentLocationName = locationName;
       if (!currentLocationName && currentCoords) {
-        warmLocationName(currentCoords);
+        currentLocationName = await reverseGeocode(currentCoords.lat, currentCoords.lng);
+        if (currentLocationName) setLocationName(currentLocationName);
       }
       const payloadMessages = nextMessages.map(({ role, content }) => ({ role, content }));
       // Debug: log outgoing chat payload (messages + coords)
@@ -217,7 +218,7 @@ function Chat() {
     const needsLoc = LOCATION_QUERY_TERMS.some((term) => normalized.includes(term));
     const liveLocationQuestion = isCurrentLocationPrompt(text);
     const availableCoords = coordsOverride ?? coords;
-    if (needsLoc && (!availableCoords || (liveLocationQuestion && !locationReady && !coordsOverride))) {
+    if (needsLoc && !availableCoords) {
       // Attempt to resolve coords (this triggers a browser permission prompt).
       void resolveCoords({ liveOnly: liveLocationQuestion }).then((resolved) => {
         if (!resolved) {
