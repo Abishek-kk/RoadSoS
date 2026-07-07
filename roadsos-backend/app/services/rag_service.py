@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 import re
+import inspect
 import time
 from collections.abc import Callable
 from dataclasses import dataclass, field
@@ -240,6 +241,8 @@ def run_rag_pipeline(
         "context": context,
         "system_instruction": system_prompt,
     }
+    if profile.emergency_detected and callable_accepts_kwarg(generate, "max_output_tokens"):
+        generation_kwargs["max_output_tokens"] = 1024
     if on_token:
         generation_kwargs["on_token"] = on_token
     generation = generate(**generation_kwargs)
@@ -250,6 +253,7 @@ def run_rag_pipeline(
         generation.used_llm,
         generation_elapsed_ms,
     )
+
     if generation.used_llm:
         return finalize(
             reply=generation.reply,
@@ -271,6 +275,17 @@ def run_rag_pipeline(
         llm_provider=generation.provider,
         response_source="fallback",
         started=started,
+    )
+
+
+def callable_accepts_kwarg(func: Callable[..., Any], kwarg: str) -> bool:
+    try:
+        signature = inspect.signature(func)
+    except (TypeError, ValueError):
+        return True
+    return kwarg in signature.parameters or any(
+        parameter.kind == inspect.Parameter.VAR_KEYWORD
+        for parameter in signature.parameters.values()
     )
 
 

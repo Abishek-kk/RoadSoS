@@ -38,3 +38,6 @@ dist/
 Thumbs.db
 .vscode/
 .idea/
+
+# Local browser automation profiles
+.tmp-chrome-profile/

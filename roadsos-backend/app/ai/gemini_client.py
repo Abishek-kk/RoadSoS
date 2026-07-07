@@ -72,6 +72,7 @@ def generate_chat_response(
     context: str = "",
     system_instruction: str = "",
     on_token: Callable[[str], None] | None = None,
+    max_output_tokens: int = MAX_CHAT_OUTPUT_TOKENS,
 ) -> str:
     """
     Generates a response using Gemini for RAG or general chatbot queries.
@@ -104,7 +105,7 @@ def generate_chat_response(
         config = types.GenerateContentConfig(
             temperature=0.45,
             top_p=0.95,
-            max_output_tokens=MAX_CHAT_OUTPUT_TOKENS,
+            max_output_tokens=max_output_tokens,
             system_instruction=system_instruction or None,
         )
         response_text, used_stream = _generate_content_text(client, full_prompt, config, on_token=on_token)
@@ -117,7 +118,7 @@ def generate_chat_response(
             used_stream,
             len(full_prompt),
             len(response_text or ""),
-            MAX_CHAT_OUTPUT_TOKENS,
+            max_output_tokens,
         )
         return response_text
     except Exception as e:

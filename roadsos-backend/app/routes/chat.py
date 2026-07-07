@@ -15,6 +15,7 @@ from sqlalchemy.orm import Session
 from app.ai.rag_pipeline import run_rag_pipeline
 from app.dependencies import DbSession
 from app.routes._data import reverse_geocode
+from app.services.query_classifier import SERVICE_OVERRIDE_TERMS
 from db import crud
 
 
@@ -23,6 +24,7 @@ CHAT_LLM_TIMEOUT_SECONDS = 120
 logger = logging.getLogger("roadsos.chat")
 REVERSE_GEOCODE_CACHE: dict[tuple[float, float], str | None] = {}
 REVERSE_GEOCODE_IN_FLIGHT: set[tuple[float, float]] = set()
+PURE_LOCATION_TERMS = {"location", "where am i"}
 CURRENT_LOCATION_PHRASES = (
     "current location",
     "my location",
@@ -35,28 +37,6 @@ CURRENT_LOCATION_PHRASES = (
     "which village",
     "where exactly",
 )
-LOCATION_SERVICE_TERMS = {
-    "hospital",
-    "hospitals",
-    "ambulance",
-    "doctor",
-    "medical",
-    "clinic",
-    "police",
-    "tow",
-    "towing",
-    "mechanic",
-    "station",
-    "recovery",
-    "route",
-    "routes",
-    "danger zone",
-    "danger zones",
-    "alert",
-    "alerts",
-}
-
-
 class ChatMessage(BaseModel):
     role: str
     content: str
@@ -232,10 +212,6 @@ async def stream_chat_events(
         task_group.cancel_scope.cancel()
 
 
-async def single_chat_done_event(result: dict[str, Any]):
-    yield json.dumps({"type": "done", "result": result}) + "\n"
-
-
 async def resolve_location_name(
     payload: ChatPayload,
     user_message: str = "",
@@ -331,27 +307,11 @@ def should_reverse_geocode_for_chat(user_message: str) -> bool:
 
 
 def asks_for_location_service(normalized_message: str) -> bool:
+    service_terms = SERVICE_OVERRIDE_TERMS - PURE_LOCATION_TERMS
     tokens = set(normalized_message.split())
-    if tokens & LOCATION_SERVICE_TERMS:
+    if tokens & service_terms:
         return True
-    return any(" " in term and term in normalized_message for term in LOCATION_SERVICE_TERMS)
-
-
-def current_location_reply(
-    user_message: str,
-    payload: ChatPayload,
-    location_name: str | None = None,
-) -> str | None:
-    if not should_reverse_geocode_for_chat(user_message):
-        return None
-    if payload.lat is None or payload.lng is None:
-        return None
-
-    coordinates = f"{payload.lat:.5f}, {payload.lng:.5f}"
-    label = (location_name or location_label_from_payload(payload) or "").strip()
-    if label:
-        return f"You're near {label}. Coordinates: {coordinates}."
-    return f"Your current coordinates are {coordinates}."
+    return any(" " in term and term in normalized_message for term in service_terms)
 
 
 def latest_user_message(messages: list[ChatMessage]) -> str:

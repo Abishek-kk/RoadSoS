@@ -79,8 +79,6 @@ NUMBER_WORDS = {
     "ten": 10,
 }
 
-INTENT_PREFIX: dict[str, str] = {}
-
 _logger = logging.getLogger("roadsos.retrieval")
 _encoder: Any | None = None
 _faiss_index: Any | None = None
@@ -181,16 +179,13 @@ def retrieve_context(
     lng: float | None = None,
     limit: int | None = None,
 ) -> list[ContextChunk]:
-    normalized_question = normalize(question)
-    intent = detect_intent(normalized_question)
-
     init_embedding_index()
 
     if not _chunks:
         return []
 
     if not _semantic_search_available or _encoder is None or _faiss_index is None or _faiss_index.ntotal == 0:
-        return retrieve_context_keyword(question, lat, lng, limit, intent)
+        return retrieve_context_keyword(question, lat, lng, limit)
 
     import numpy as np
 
@@ -208,7 +203,6 @@ def retrieve_context(
             scored.append((idx, score))
     scored.sort(key=lambda x: (-x[1], distance_sort_value(_chunks[x[0]])))
 
-    DISTANCE_SCALE = 0.01
     ranked: list[ContextChunk] = []
     for idx, semantic_score in scored:
         chunk = _chunks[idx]
@@ -220,15 +214,8 @@ def retrieve_context(
         )
         if chunk.title.startswith(("Hospitals:", "Police:", "Road Alert:", "Towing:")):
             _enrich_distance(chunk, lat, lng)
-        boost = intent_boost(intent, chunk.title)
-        if intent in INTENT_PREFIX:
-            boost += distance_boost(chunk) * DISTANCE_SCALE
-        chunk.score = semantic_score + boost
+        chunk.score = semantic_score
         ranked.append(chunk)
-
-    if intent in INTENT_PREFIX:
-        selected = filter_intent_chunks(intent, ranked)
-        return selected[:limit] if limit else selected
 
     selected = [
         chunk
@@ -240,28 +227,6 @@ def retrieve_context(
     if ranked and ranked[0].score <= 0:
         return []
     return selected or ranked[: limit or 3]
-
-
-def nearest_service_chunks(intent: str, lat: float, lng: float, limit: int) -> list[ContextChunk]:
-    service_config = {
-        "hospital": ("Hospitals", "hospitals.json", 25.0, "108"),
-        "police": ("Police", "police_stations.json", 25.0, "100"),
-        "towing": ("Towing", "towing.json", 50.0, "112"),
-    }
-    title, filename, max_km, fallback_phone = service_config[intent]
-    rows = nearest_with_fallback(
-        load_json(filename),
-        lat,
-        lng,
-        max_km=max_km,
-        limit=max(1, min(limit, 20)),
-        fallback_limit=max(1, min(limit, 20)),
-    )
-
-    chunks: list[ContextChunk] = []
-    for row in rows:
-        chunks.append(place_row_chunk(title, filename, row, fallback_phone))
-    return chunks
 
 
 def nearby_safety_snapshot(lat: float | None, lng: float | None) -> str:
@@ -349,7 +314,6 @@ def retrieve_context_keyword(
     lat: float | None,
     lng: float | None,
     limit: int | None,
-    intent: str,
 ) -> list[ContextChunk]:
     tokens = tokenize(question)
     phrases = important_phrases(normalize(question))
@@ -368,17 +332,11 @@ def retrieve_context_keyword(
         haystack = normalize(f"{chunk.title} {chunk.body}")
         token_score = sum(weight_for_token(token) for token in tokens if token in haystack)
         phrase_score = sum(12 for phrase in phrases if phrase in haystack)
-        score = token_score + phrase_score + intent_boost(intent, chunk.title)
-        if intent in INTENT_PREFIX:
-            score += distance_boost(chunk) * 0.01
+        score = token_score + phrase_score
         chunk.score = score
         ranked.append(chunk)
 
     ranked.sort(key=lambda chunk: (-chunk.score, distance_sort_value(chunk)))
-
-    if intent in INTENT_PREFIX:
-        selected = filter_intent_chunks(intent, ranked)
-        return selected[:limit] if limit else selected
 
     selected = [
         chunk
@@ -413,52 +371,6 @@ def distance_sort_value(chunk: ContextChunk) -> float:
     if distance is None:
         return 999999.0
     return float(distance)
-
-
-def detect_intent(text: str) -> str:
-    """Classify common RoadSoS chat requests."""
-    if "police" in text or "cop" in text:
-        return "police"
-    if any(word in text for word in ["tow", "towing", "recovery", "breakdown", "mechanic"]):
-        return "towing"
-    if any(word in text for word in ["hospital", "ambulance", "doctor", "medical", "clinic"]):
-        return "hospital"
-    if "alert" in text or "traffic" in text or "jam" in text or re.search(r"\bnh\s*\d+\b", text):
-        return "alert"
-    return "general"
-
-
-def intent_boost(intent: str, title: str) -> int:
-    if intent not in INTENT_PREFIX:
-        return 0
-    title = title.lower()
-    if intent == "police":
-        return 35 if title.startswith("police:") else -8
-    if intent == "hospital":
-        return 35 if title.startswith("hospitals:") else -8
-    if intent == "towing":
-        return 35 if title.startswith("towing:") else -8
-    if intent == "alert":
-        return 35 if title.startswith("road alert:") else -8
-    return 0
-
-
-def filter_intent_chunks(intent: str, chunks: list[ContextChunk]) -> list[ContextChunk]:
-    prefix = INTENT_PREFIX[intent]
-    return [chunk for chunk in chunks if chunk.title.startswith(prefix)]
-
-
-def distance_boost(chunk: ContextChunk) -> int:
-    distance = None
-    if chunk.metadata:
-        distance = chunk.metadata.get("distance_km")
-    if distance is None:
-        match = re.search(r"Distance: ([0-9.]+) km", chunk.body)
-        if match:
-            distance = float(match.group(1))
-    if distance is None:
-        return 0
-    return max(0, int(30 - float(distance)))
 
 
 def tokenize(text: str) -> set[str]:

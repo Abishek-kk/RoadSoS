@@ -24,6 +24,7 @@ def generate(
     context: str,
     system_instruction: str,
     on_token: Callable[[str], None] | None = None,
+    max_output_tokens: int = gemini_client.MAX_CHAT_OUTPUT_TOKENS,
 ) -> GenerationResult:
     """
     Generate with the configured LLM provider first, then the other provider.
@@ -56,6 +57,7 @@ def generate(
                         context=context,
                         system_instruction=system_instruction,
                         on_token=on_token,
+                        max_output_tokens=max_output_tokens,
                     )
                 except TypeError:
                     reply = client.generate_chat_response(
@@ -70,6 +72,7 @@ def generate(
                     prompt=prompt,
                     context=context,
                     system_instruction=system_instruction,
+                    max_output_tokens=max_output_tokens,
                 )
         except Exception as exc:
             logger.error("%s generation raised an exception: %s", provider_name, exc, exc_info=True)

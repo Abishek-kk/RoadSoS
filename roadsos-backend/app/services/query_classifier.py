@@ -74,6 +74,36 @@ LOCATION_TERMS = {
     "danger zones",
 }
 
+SERVICE_OVERRIDE_TERMS = {
+    "near",
+    "nearby",
+    "nearest",
+    "closest",
+    "hospital",
+    "hospitals",
+    "ambulance",
+    "doctor",
+    "medical",
+    "clinic",
+    "police",
+    "cop",
+    "station",
+    "tow",
+    "towing",
+    "recovery",
+    "mechanic",
+    "breakdown",
+    "route",
+    "routes",
+    "location",
+    "where am i",
+    "danger zone",
+    "danger zones",
+    "safe route",
+    "alert",
+    "alerts",
+}
+
 
 @dataclass(frozen=True)
 class QueryProfile:

@@ -10,7 +10,7 @@ from app.ai.retrieval import nearby_safety_snapshot
 from app.ai.risk_scorer import nearby_danger_zones
 from app.services.hospital_service import HospitalService
 from app.services.police_service import PoliceService
-from app.services.query_classifier import QueryProfile
+from app.services.query_classifier import QueryProfile, SERVICE_OVERRIDE_TERMS
 from app.services.retriever import RetrievalDocument, RetrievalResult
 from app.services.towing_service import TowingService
 
@@ -18,6 +18,7 @@ from app.services.towing_service import TowingService
 LIVE_CONTEXT_RADIUS_KM = 25.0
 MAX_LIVE_PLACES_PER_CATEGORY = 8
 _NEARBY_PLACE_CACHE: dict[tuple[float, float, float], list["NearbyPlace"]] = {}
+PURE_LOCATION_TERMS = {"location", "where am i"}
 
 
 @dataclass
@@ -490,12 +491,9 @@ def is_location_question(profile: QueryProfile) -> bool:
 
     # Guard 2: if the text contains any service-related word, it's asking
     # for a service, not "where am I" - even if intent classification missed it.
-    SERVICE_OVERRIDE_TERMS = {
-        "hospital", "hospitals", "police", "towing", "tow", "ambulance",
-        "mechanic", "clinic", "doctor", "station", "recovery",
-    }
+    service_terms = SERVICE_OVERRIDE_TERMS - PURE_LOCATION_TERMS
     tokens = set(text.split())
-    if tokens & SERVICE_OVERRIDE_TERMS or any(term in text for term in SERVICE_OVERRIDE_TERMS):
+    if tokens & service_terms or any(term in text for term in service_terms):
         return False
 
     # Only now check for genuine "where am I" style phrasing:

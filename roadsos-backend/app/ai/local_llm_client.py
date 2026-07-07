@@ -15,6 +15,7 @@ from app.config import get_ollama_base_url, get_ollama_model
 
 logger = logging.getLogger("roadsos.ollama")
 REQUEST_TIMEOUT_SECONDS = 90.0
+MAX_CHAT_OUTPUT_TOKENS = 512
 
 
 def generate_chat_response(
@@ -22,6 +23,7 @@ def generate_chat_response(
     context: str = "",
     system_instruction: str = "",
     on_token: Callable[[str], None] | None = None,
+    max_output_tokens: int = MAX_CHAT_OUTPUT_TOKENS,
 ) -> str:
     """
     Generates a response using a local Ollama model for RAG or general chatbot queries.
@@ -43,6 +45,7 @@ def generate_chat_response(
         "model": model,
         "messages": messages,
         "stream": bool(on_token),
+        "options": {"num_predict": max_output_tokens},
     }
 
     try:

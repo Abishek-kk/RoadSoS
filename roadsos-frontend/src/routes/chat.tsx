@@ -27,20 +27,35 @@ const STARTER_PROMPTS = [
   "My vehicle broke down on the highway",
   "How do I stop heavy bleeding?",
 ];
+// Keep this in sync with SERVICE_OVERRIDE_TERMS in roadsos-backend/app/services/query_classifier.py
 const LOCATION_QUERY_TERMS = [
   "near",
   "nearby",
   "nearest",
   "closest",
   "hospital",
+  "hospitals",
+  "ambulance",
+  "doctor",
+  "medical",
+  "clinic",
   "police",
+  "cop",
+  "station",
   "tow",
   "towing",
+  "recovery",
+  "mechanic",
+  "breakdown",
   "route",
+  "routes",
   "location",
   "where am i",
   "danger zone",
+  "danger zones",
   "safe route",
+  "alert",
+  "alerts",
 ];
 
 function Chat() {
