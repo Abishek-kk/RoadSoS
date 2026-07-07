@@ -89,6 +89,8 @@ def retrieve(
         return result.cache_copy()
     documents.extend(structured_knowledge_documents(profile))
     documents.extend(emergency_contact_documents(profile, emergency_contacts or []))
+    if lat is not None and lng is not None:
+        documents.extend(danger_zone_documents(profile, lat, lng))
 
     documents = dedupe_documents(documents)
     documents.sort(key=lambda doc: (-doc.score, doc.source, doc.title.lower()))

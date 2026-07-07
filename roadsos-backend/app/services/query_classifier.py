@@ -17,11 +17,15 @@ EMERGENCY_KEYWORDS = {
     "emergency",
     "fire",
     "harassment",
-    "help",
+    "emergency help",
+    "help me now",
     "kidnap",
+    "need help",
+    "please help",
     "road rage",
     "sos",
     "unsafe",
+    "urgent help",
 }
 
 ROAD_SAFETY_TERMS = {
@@ -129,6 +133,8 @@ def classify_query(question: str, history: list[ConversationTurn] | None = None)
 
 
 def detect_intent(text: str, tokens: set[str]) -> str:
+    if tokens & {"hospital", "hospitals", "ambulance", "doctor", "medical", "clinic"}:
+        return "hospital"
     if any(term in text for term in {"safe route", "safest route"}) or "route" in tokens:
         return "route"
     if "danger zone" in text or "danger zones" in text or "blackspot" in tokens:
@@ -137,8 +143,6 @@ def detect_intent(text: str, tokens: set[str]) -> str:
         return "police"
     if tokens & {"tow", "towing", "recovery", "breakdown", "mechanic"}:
         return "towing"
-    if tokens & {"hospital", "hospitals", "ambulance", "doctor", "medical", "clinic"}:
-        return "hospital"
     if tokens & {"alert", "alerts", "traffic", "jam"} or re.search(r"\bnh\s*\d+\b", text):
         return "alert"
     if tokens & ROAD_SAFETY_TERMS:

@@ -15,6 +15,7 @@ type UiMessage = ChatMessage & {
   intent?: string;
   usedLlm?: boolean;
   llmProvider?: string;
+  response_source?: string | null;
   suggestions?: string[];
   error?: boolean;
   streaming?: boolean;
@@ -425,6 +426,15 @@ function needsLocationForPrompt(text: string) {
 
 function isCurrentLocationPrompt(text: string) {
   const normalized = text.toLowerCase();
+  if (
+    LOCATION_QUERY_TERMS.some(
+      (term) =>
+        !["location", "where am i"].includes(term) &&
+        normalized.includes(term),
+    )
+  ) {
+    return false;
+  }
   return (
     normalized.includes("where am i") ||
     normalized.includes("where are we") ||

@@ -478,13 +478,27 @@ def place_category_for_profile(profile: QueryProfile) -> str | None:
 
 
 def is_location_question(profile: QueryProfile) -> bool:
-    if profile.intent in {"hospital", "police", "towing", "route", "danger_zone", "alert"}:
-        return False
-
     text = (profile.normalized_question or "").strip()
     if not text:
         return False
 
+    # Guard 1: if the classifier already detected a service/data intent
+    # (hospital, police, towing, route, danger_zone, alert), this is NEVER
+    # a pure location question, even if it contains words like "my location".
+    if profile.intent in {"hospital", "police", "towing", "route", "danger_zone", "alert"}:
+        return False
+
+    # Guard 2: if the text contains any service-related word, it's asking
+    # for a service, not "where am I" - even if intent classification missed it.
+    SERVICE_OVERRIDE_TERMS = {
+        "hospital", "hospitals", "police", "towing", "tow", "ambulance",
+        "mechanic", "clinic", "doctor", "station", "recovery",
+    }
+    tokens = set(text.split())
+    if tokens & SERVICE_OVERRIDE_TERMS or any(term in text for term in SERVICE_OVERRIDE_TERMS):
+        return False
+
+    # Only now check for genuine "where am I" style phrasing:
     if re.search(r"\bwhere\b", text) and re.search(r"\b(am|are|i|we)\b", text):
         return True
     if re.search(r"\b(my|current|my current)\b", text) and re.search(r"\b(location|city|town|village|place)\b", text):

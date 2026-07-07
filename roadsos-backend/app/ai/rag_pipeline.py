@@ -10,9 +10,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from app.ai import gemini_client, local_llm_client
 from app.ai.retrieval import ContextChunk, normalize
-from app.config import get_gemini_api_key, get_llm_provider
 from app.services.context_builder import (
     LiveContext,
     NearbyPlace,
@@ -28,20 +26,6 @@ from app.services.rag_service import (
     source_cards as _source_cards,
 )
 from app.services.retriever import RetrievalDocument
-
-
-def get_llm_client(provider: str | None = None):
-    selected_provider = (provider or get_llm_provider()).strip().lower()
-    if selected_provider == "ollama":
-        return local_llm_client
-    return gemini_client
-
-
-def should_attempt_llm(provider: str | None = None) -> bool:
-    selected_provider = (provider or get_llm_provider()).strip().lower()
-    if selected_provider == "ollama":
-        return True
-    return bool(get_gemini_api_key())
 
 
 def build_context(chunks: list[ContextChunk], max_chars: int = 9000) -> str:

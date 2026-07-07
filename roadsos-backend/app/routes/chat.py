@@ -46,6 +46,8 @@ LOCATION_SERVICE_TERMS = {
     "tow",
     "towing",
     "mechanic",
+    "station",
+    "recovery",
     "route",
     "routes",
     "danger zone",
@@ -99,18 +101,6 @@ async def chat(payload: ChatPayload, db: Session = DbSession):
     user_message = latest_user_message(payload.messages)
     apply_latest_location_if_missing(payload, db)
     location_name = await resolve_location_name(payload, user_message, allow_remote=True)
-    direct_location_reply = current_location_reply(user_message, payload, location_name)
-    if direct_location_reply:
-        return response_payload(
-            reply=direct_location_reply,
-            intent="general",
-            used_llm=False,
-            llm_provider="none",
-            lat=payload.lat,
-            lng=payload.lng,
-            emergency_detected=False,
-            response_source="direct",
-        )
     emergency_contacts = load_emergency_contacts(db)
 
     try:
@@ -164,23 +154,6 @@ async def chat_stream(payload: ChatPayload, db: Session = DbSession):
     user_message = latest_user_message(payload.messages)
     apply_latest_location_if_missing(payload, db)
     location_name = await resolve_location_name(payload, user_message, allow_remote=False)
-    direct_location_reply = current_location_reply(user_message, payload, location_name)
-    if direct_location_reply:
-        return StreamingResponse(
-            single_chat_done_event(
-                response_payload(
-                    reply=direct_location_reply,
-                    intent="general",
-                    used_llm=False,
-                    llm_provider="none",
-                    lat=payload.lat,
-                    lng=payload.lng,
-                    emergency_detected=False,
-                    response_source="direct",
-                )
-            ),
-            media_type="application/x-ndjson",
-        )
     emergency_contacts = load_emergency_contacts(db)
 
     return StreamingResponse(
@@ -358,7 +331,10 @@ def should_reverse_geocode_for_chat(user_message: str) -> bool:
 
 
 def asks_for_location_service(normalized_message: str) -> bool:
-    return any(term in normalized_message for term in LOCATION_SERVICE_TERMS)
+    tokens = set(normalized_message.split())
+    if tokens & LOCATION_SERVICE_TERMS:
+        return True
+    return any(" " in term and term in normalized_message for term in LOCATION_SERVICE_TERMS)
 
 
 def current_location_reply(

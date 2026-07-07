@@ -5,7 +5,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 
 from app.ai import gemini_client, local_llm_client
-from app.config import get_gemini_api_key
+from app.config import get_gemini_api_key, get_llm_provider
 
 
 logger = logging.getLogger("roadsos.ai.llm_router")
@@ -26,17 +26,24 @@ def generate(
     on_token: Callable[[str], None] | None = None,
 ) -> GenerationResult:
     """
-    Generate with Gemini first, then the local Ollama LLM.
+    Generate with the configured LLM provider first, then the other provider.
 
     Callers receive a structured failure instead of exceptions so routes never
     leak stack traces to users.
     """
+    selected_provider = get_llm_provider()
+    gemini_available = bool(get_gemini_api_key())
     providers = []
-    if get_gemini_api_key():
-        providers.append(("gemini", gemini_client))
+    if selected_provider == "ollama":
+        providers.append(("ollama", local_llm_client))
+        if gemini_available:
+            providers.append(("gemini", gemini_client))
     else:
-        logger.info("LLM selected: local fallback because Gemini key is missing")
-    providers.append(("ollama", local_llm_client))
+        if gemini_available:
+            providers.append(("gemini", gemini_client))
+        else:
+            logger.info("LLM selected: local fallback because Gemini key is missing")
+        providers.append(("ollama", local_llm_client))
 
     last_error = ""
     for provider_name, client in providers:

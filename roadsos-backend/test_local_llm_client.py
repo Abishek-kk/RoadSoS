@@ -7,7 +7,7 @@ import numpy as np
 from app.ai import local_llm_client, rag_pipeline, retrieval
 from app.routes import chat as chat_route
 from app.routes._data import cache_clear
-from app.services import context_builder, rag_service
+from app.services import context_builder, llm_router, rag_service
 from app.services.hospital_service import HospitalService
 from app.services.llm_router import GenerationResult
 from app.services.retriever import RetrievalDocument, RetrievalResult
@@ -65,20 +65,49 @@ def test_ollama_client_returns_error_on_connection_failure(monkeypatch):
     assert reply.startswith("Error:")
 
 
-def test_rag_pipeline_selects_ollama_without_gemini_key(monkeypatch):
-    monkeypatch.setattr(rag_pipeline, "get_llm_provider", lambda: "ollama")
-    monkeypatch.setattr(rag_pipeline, "get_gemini_api_key", lambda: "")
+def test_llm_router_tries_ollama_first_when_configured(monkeypatch):
+    calls = []
 
-    assert rag_pipeline.get_llm_client() is rag_pipeline.local_llm_client
-    assert rag_pipeline.should_attempt_llm() is True
+    def fake_ollama_generate(*args, **kwargs):
+        calls.append("ollama")
+        return "Error: ollama unavailable"
+
+    def fake_gemini_generate(*args, **kwargs):
+        calls.append("gemini")
+        return "Gemini fallback"
+
+    monkeypatch.setattr(llm_router, "get_llm_provider", lambda: "ollama")
+    monkeypatch.setattr(llm_router, "get_gemini_api_key", lambda: "test-key")
+    monkeypatch.setattr(llm_router.local_llm_client, "generate_chat_response", fake_ollama_generate)
+    monkeypatch.setattr(llm_router.gemini_client, "generate_chat_response", fake_gemini_generate)
+
+    result = llm_router.generate("Prompt", "Context", "System")
+
+    assert result.provider == "gemini"
+    assert result.reply == "Gemini fallback"
+    assert calls == ["ollama", "gemini"]
 
 
-def test_rag_pipeline_keeps_gemini_key_gate(monkeypatch):
-    monkeypatch.setattr(rag_pipeline, "get_llm_provider", lambda: "gemini")
-    monkeypatch.setattr(rag_pipeline, "get_gemini_api_key", lambda: "")
+def test_llm_router_keeps_gemini_key_gate(monkeypatch):
+    calls = []
 
-    assert rag_pipeline.get_llm_client() is rag_pipeline.gemini_client
-    assert rag_pipeline.should_attempt_llm() is False
+    def fake_ollama_generate(*args, **kwargs):
+        calls.append("ollama")
+        return "Ollama fallback"
+
+    def fail_gemini_generate(*args, **kwargs):
+        raise AssertionError("Gemini should not run without an API key")
+
+    monkeypatch.setattr(llm_router, "get_llm_provider", lambda: "gemini")
+    monkeypatch.setattr(llm_router, "get_gemini_api_key", lambda: "")
+    monkeypatch.setattr(llm_router.local_llm_client, "generate_chat_response", fake_ollama_generate)
+    monkeypatch.setattr(llm_router.gemini_client, "generate_chat_response", fail_gemini_generate)
+
+    result = llm_router.generate("Prompt", "Context", "System")
+
+    assert result.provider == "ollama"
+    assert result.reply == "Ollama fallback"
+    assert calls == ["ollama"]
 
 
 def test_chat_response_payload_includes_llm_provider():
