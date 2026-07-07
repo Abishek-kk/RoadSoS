@@ -1,3 +1,5 @@
+import { getSavedLocation } from "@/lib/location";
+
 const BASE = (import.meta as any).env?.VITE_API_URL ?? "http://127.0.0.1:8000";
 
 async function request<T>(path: string, init?: RequestInit, fallback?: T, timeoutMs = 30000): Promise<T> {
@@ -272,9 +274,10 @@ function routeQuery(lat: number, lng: number, service: string) {
 }
 
 function chatPayload(messages: ChatMessage[], coords?: { lat: number; lng: number } | null, locationName?: string | null) {
+  const resolvedCoords = coords ?? getSavedLocation();
   return {
     messages,
-    ...(coords ?? {}),
+    ...(resolvedCoords ?? {}),
     ...locationPartsFromLabel(locationName),
     location_name: locationName ?? undefined,
     current_datetime: new Date().toString(),

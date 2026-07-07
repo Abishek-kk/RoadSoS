@@ -9,7 +9,7 @@ from typing import Any
 import anyio
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, model_validator
 from sqlalchemy.orm import Session
 
 from app.ai.rag_pipeline import run_rag_pipeline
@@ -35,6 +35,24 @@ CURRENT_LOCATION_PHRASES = (
     "which village",
     "where exactly",
 )
+LOCATION_SERVICE_TERMS = {
+    "hospital",
+    "hospitals",
+    "ambulance",
+    "doctor",
+    "medical",
+    "clinic",
+    "police",
+    "tow",
+    "towing",
+    "mechanic",
+    "route",
+    "routes",
+    "danger zone",
+    "danger zones",
+    "alert",
+    "alerts",
+}
 
 
 class ChatMessage(BaseModel):
@@ -57,6 +75,8 @@ class ChatPayload(BaseModel):
     messages: list[ChatMessage]
     lat: float | None = None
     lng: float | None = None
+    latitude: float | None = None
+    longitude: float | None = None
     location_name: str | None = None
     current_datetime: str | None = None
     city: str | None = None
@@ -65,12 +85,32 @@ class ChatPayload(BaseModel):
     radius_km: float | None = None
     nearby_places: list[NearbyPlacePayload] | None = None
 
+    @model_validator(mode="after")
+    def normalize_coordinate_aliases(self) -> "ChatPayload":
+        if self.lat is None and self.latitude is not None:
+            self.lat = self.latitude
+        if self.lng is None and self.longitude is not None:
+            self.lng = self.longitude
+        return self
+
 
 @router.post("")
 async def chat(payload: ChatPayload, db: Session = DbSession):
     user_message = latest_user_message(payload.messages)
     apply_latest_location_if_missing(payload, db)
     location_name = await resolve_location_name(payload, user_message, allow_remote=True)
+    direct_location_reply = current_location_reply(user_message, payload, location_name)
+    if direct_location_reply:
+        return response_payload(
+            reply=direct_location_reply,
+            intent="general",
+            used_llm=False,
+            llm_provider="none",
+            lat=payload.lat,
+            lng=payload.lng,
+            emergency_detected=False,
+            response_source="direct",
+        )
     emergency_contacts = load_emergency_contacts(db)
 
     try:
@@ -124,6 +164,23 @@ async def chat_stream(payload: ChatPayload, db: Session = DbSession):
     user_message = latest_user_message(payload.messages)
     apply_latest_location_if_missing(payload, db)
     location_name = await resolve_location_name(payload, user_message, allow_remote=False)
+    direct_location_reply = current_location_reply(user_message, payload, location_name)
+    if direct_location_reply:
+        return StreamingResponse(
+            single_chat_done_event(
+                response_payload(
+                    reply=direct_location_reply,
+                    intent="general",
+                    used_llm=False,
+                    llm_provider="none",
+                    lat=payload.lat,
+                    lng=payload.lng,
+                    emergency_detected=False,
+                    response_source="direct",
+                )
+            ),
+            media_type="application/x-ndjson",
+        )
     emergency_contacts = load_emergency_contacts(db)
 
     return StreamingResponse(
@@ -200,6 +257,10 @@ async def stream_chat_events(
                 break
             yield json.dumps(event) + "\n"
         task_group.cancel_scope.cancel()
+
+
+async def single_chat_done_event(result: dict[str, Any]):
+    yield json.dumps({"type": "done", "result": result}) + "\n"
 
 
 async def resolve_location_name(
@@ -285,6 +346,8 @@ def should_reverse_geocode_for_chat(user_message: str) -> bool:
     normalized = " ".join((user_message or "").lower().split())
     if not normalized:
         return False
+    if asks_for_location_service(normalized):
+        return False
     if any(phrase in normalized for phrase in CURRENT_LOCATION_PHRASES):
         return True
     if "location" in normalized and any(term in normalized for term in ("my", "current", "where")):
@@ -292,6 +355,27 @@ def should_reverse_geocode_for_chat(user_message: str) -> bool:
     if "city" in normalized and any(term in normalized for term in ("my", "which", "what", "where")):
         return True
     return False
+
+
+def asks_for_location_service(normalized_message: str) -> bool:
+    return any(term in normalized_message for term in LOCATION_SERVICE_TERMS)
+
+
+def current_location_reply(
+    user_message: str,
+    payload: ChatPayload,
+    location_name: str | None = None,
+) -> str | None:
+    if not should_reverse_geocode_for_chat(user_message):
+        return None
+    if payload.lat is None or payload.lng is None:
+        return None
+
+    coordinates = f"{payload.lat:.5f}, {payload.lng:.5f}"
+    label = (location_name or location_label_from_payload(payload) or "").strip()
+    if label:
+        return f"You're near {label}. Coordinates: {coordinates}."
+    return f"Your current coordinates are {coordinates}."
 
 
 def latest_user_message(messages: list[ChatMessage]) -> str:

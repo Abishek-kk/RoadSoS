@@ -478,6 +478,9 @@ def place_category_for_profile(profile: QueryProfile) -> str | None:
 
 
 def is_location_question(profile: QueryProfile) -> bool:
+    if profile.intent in {"hospital", "police", "towing", "route", "danger_zone", "alert"}:
+        return False
+
     text = (profile.normalized_question or "").strip()
     if not text:
         return False

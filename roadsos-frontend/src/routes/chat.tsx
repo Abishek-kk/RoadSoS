@@ -138,6 +138,23 @@ function Chat() {
         currentLocationName = await reverseGeocode(currentCoords.lat, currentCoords.lng);
         if (currentLocationName) setLocationName(currentLocationName);
       }
+      if (isCurrentLocationPrompt(latestUserText) && currentCoords) {
+        setMessages([
+          ...nextMessages,
+          {
+            id: assistantId,
+            role: "assistant",
+            content: formatCurrentLocationReply(currentCoords, currentLocationName),
+            intent: "general",
+            usedLlm: false,
+            llmProvider: "none",
+            response_source: "direct",
+            suggestions: ["Check road risk near me", "Find nearby police", "First-aid for bleeding"],
+            streaming: false,
+          },
+        ]);
+        return;
+      }
       const payloadMessages = nextMessages.map(({ role, content }) => ({ role, content }));
       // Debug: log outgoing chat payload (messages + coords)
       try {
@@ -414,6 +431,12 @@ function isCurrentLocationPrompt(text: string) {
     /\bmy\b.*\b(location|city|town|village|place)\b/.test(normalized) ||
     /\bcurrent\b.*\b(location|city|town|village|place)\b/.test(normalized)
   );
+}
+
+function formatCurrentLocationReply(coords: { lat: number; lng: number }, locationName?: string | null) {
+  const coordinates = `${coords.lat.toFixed(5)}, ${coords.lng.toFixed(5)}`;
+  if (locationName) return `You're near ${locationName}. Coordinates: ${coordinates}.`;
+  return `Your current coordinates are ${coordinates}.`;
 }
 
 function MessageBubble({ message, onCopy }: { message: UiMessage; onCopy: (content: string) => void }) {
