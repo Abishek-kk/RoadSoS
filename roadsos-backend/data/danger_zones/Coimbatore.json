@@ -1,0 +1,14 @@
+{
+    "district": "Coimbatore",
+    "road_name": "Avinashi Road",
+    "highway": "NH-544",
+    "location": "Neelambur",
+    "latitude": 11.0402,
+    "longitude": 77.0395,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Dense traffic",
+      "Signal violations"
+    ]
+  }

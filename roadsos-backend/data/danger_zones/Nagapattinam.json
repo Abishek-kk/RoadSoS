@@ -1,0 +1,14 @@
+{
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Thiruvarur Road",
+    "highway": "NH-83",
+    "location": "Sikkal",
+    "latitude": 10.7638,
+    "longitude": 79.8422,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Poor lighting",
+      "Rain"
+    ]
+  }

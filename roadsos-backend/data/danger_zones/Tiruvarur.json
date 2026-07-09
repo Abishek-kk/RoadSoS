@@ -1,0 +1,14 @@
+{
+    "district": "Tiruvarur",
+    "road_name": "Tiruvarur-Nagapattinam Road",
+    "highway": "NH-83",
+    "location": "Koradacheri",
+    "latitude": 10.7685,
+    "longitude": 79.4834,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Rain",
+      "Poor visibility"
+    ]
+  }

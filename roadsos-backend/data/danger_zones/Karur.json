@@ -1,0 +1,14 @@
+{
+    "district": "Karur",
+    "road_name": "Karur-Trichy Road",
+    "highway": "NH-81",
+    "location": "Thanthonimalai",
+    "latitude": 10.9585,
+    "longitude": 78.0766,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Sharp intersections",
+      "Heavy buses"
+    ]
+  }

@@ -1,0 +1,14 @@
+{
+    "district": "Kanniyakumari",
+    "road_name": "Kanyakumari Bypass",
+    "highway": "NH-44",
+    "location": "Nagercoil",
+    "latitude": 8.1833,
+    "longitude": 77.4119,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Heavy buses"
+    ]
+  }

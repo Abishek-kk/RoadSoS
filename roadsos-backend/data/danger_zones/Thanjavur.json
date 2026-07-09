@@ -1,0 +1,14 @@
+ {
+    "district": "Thanjavur",
+    "road_name": "Thanjavur-Trichy Road",
+    "highway": "NH-83",
+    "location": "Vallam",
+    "latitude": 10.7196,
+    "longitude": 79.0947,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "High traffic"
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+    "district": "Tiruvallur",
+    "road_name": "Chennai Outer Ring Road",
+    "highway": "SH",
+    "location": "Puzhal Junction",
+    "latitude": 13.1640,
+    "longitude": 80.2000,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Truck movement",
+      "Poor visibility",
+      "Sharp merging"
+    ]
+  }

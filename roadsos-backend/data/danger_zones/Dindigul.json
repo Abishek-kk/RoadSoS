@@ -1,0 +1,14 @@
+{
+    "district": "Dindigul",
+    "road_name": "Dindigul-Madurai Road",
+    "highway": "NH-44",
+    "location": "Vedasandur",
+    "latitude": 10.5315,
+    "longitude": 77.9500,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Curve",
+      "Night accidents"
+    ]
+  }

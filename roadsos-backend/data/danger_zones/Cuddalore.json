@@ -1,0 +1,14 @@
+{
+    "district": "Cuddalore",
+    "road_name": "Cuddalore-Chidambaram Road",
+    "highway": "NH-32",
+    "location": "Semmandalam",
+    "latitude": 11.7462,
+    "longitude": 79.7644,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Pedestrian crossings",
+      "Mixed traffic"
+    ]
+  }

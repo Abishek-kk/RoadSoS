@@ -1,0 +1,15 @@
+{
+    "district": "Nilgiris",
+    "road_name": "Mettupalayam-Ooty Road",
+    "highway": "NH-181",
+    "location": "Burliar",
+    "latitude": 11.3437,
+    "longitude": 76.8665,
+    "risk_level": "Very High",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Hairpin bends",
+      "Fog",
+      "Landslides"
+    ]
+  }

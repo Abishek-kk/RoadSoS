@@ -1,0 +1,14 @@
+{
+    "district": "Tirupathur",
+    "road_name": "Vaniyambadi-Krishnagiri Road",
+    "highway": "NH-44",
+    "location": "Natrampalli",
+    "latitude": 12.5181,
+    "longitude": 78.5498,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Truck traffic",
+      "Night driving"
+    ]
+}

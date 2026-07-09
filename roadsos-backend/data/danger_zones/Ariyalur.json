@@ -1,0 +1,15 @@
+ {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Perambalur Road",
+    "highway": "SH-27",
+    "location": "Ariyalur Bypass",
+    "latitude": 11.1402,
+    "longitude": 79.0786,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp curves",
+      "Night driving",
+      "Heavy trucks"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "district": "Madurai",
+    "road_name": "Madurai-Kayathar Road",
+    "highway": "NH-44",
+    "location": "Koothiyarkundu",
+    "latitude": 9.8692,
+    "longitude": 78.0848,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Industrial area",
+      "Poor crossing facilities"
+    ]
+  }

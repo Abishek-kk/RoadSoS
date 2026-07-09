@@ -1,0 +1,14 @@
+{
+    "district": "Ranipet",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Arcot",
+    "latitude": 12.9041,
+    "longitude": 79.3194,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed corridor",
+      "Heavy vehicles"
+    ]
+  }

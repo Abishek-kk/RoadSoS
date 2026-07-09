@@ -1,0 +1,15 @@
+{
+    "district": "Kancheepuram",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Sriperumbudur",
+    "latitude": 12.9675,
+    "longitude": 79.9420,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Container trucks",
+      "High-speed corridor"
+    ]
+  }

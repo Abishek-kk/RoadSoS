@@ -1,0 +1,15 @@
+{
+    "district": "Krishnagiri",
+    "road_name": "Bengaluru Highway",
+    "highway": "NH-44",
+    "location": "Krishnagiri Toll",
+    "latitude": 12.5266,
+    "longitude": 78.2137,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Steep curves",
+      "Heavy trucks",
+      "High speed"
+    ]
+}

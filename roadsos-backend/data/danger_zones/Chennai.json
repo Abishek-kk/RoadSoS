@@ -1,0 +1,15 @@
+{
+    "district": "Chennai",
+    "road_name": "Grand Southern Trunk (GST) Road",
+    "highway": "NH-32",
+    "location": "Chromepet",
+    "latitude": 12.9516,
+    "longitude": 80.1462,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy traffic",
+      "Signal jumping",
+      "Pedestrian crossings"
+    ]
+  }

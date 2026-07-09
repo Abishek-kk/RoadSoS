@@ -1,0 +1,15 @@
+ {
+    "district": "Dharmapuri",
+    "road_name": "Salem-Krishnagiri Road",
+    "highway": "NH-44",
+    "location": "Palacode",
+    "latitude": 12.3074,
+    "longitude": 78.0705,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overtaking",
+      "Mixed traffic"
+    ]
+  }
+  

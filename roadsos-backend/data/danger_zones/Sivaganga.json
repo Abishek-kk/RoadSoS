@@ -1,0 +1,14 @@
+ {
+    "district": "Sivagangai",
+    "road_name": "Madurai-Karaikudi Road",
+    "highway": "NH-36",
+    "location": "Manamadurai",
+    "latitude": 9.6934,
+    "longitude": 78.4701,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Wrong-side driving",
+      "Heavy buses"
+    ]
+  }

@@ -1,0 +1,14 @@
+{
+    "district": "Thoothukudi",
+    "road_name": "Tuticorin-Tirunelveli Road",
+    "highway": "NH-138",
+    "location": "Vagaikulam",
+    "latitude": 8.7253,
+    "longitude": 78.0251,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial trucks",
+      "High speed"
+    ]
+  }

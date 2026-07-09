@@ -1,0 +1,14 @@
+{
+    "district": "Pudukkottai",
+    "road_name": "Trichy-Pudukkottai Road",
+    "highway": "NH-336",
+    "location": "Keeranur",
+    "latitude": 10.5695,
+    "longitude": 78.7868,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overtaking",
+      "Bus traffic"
+    ]
+}

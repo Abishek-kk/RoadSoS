@@ -1,0 +1,14 @@
+ {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Sengottai Road",
+    "highway": "NH-744",
+    "location": "Courtallam",
+    "latitude": 8.9344,
+    "longitude": 77.2752,
+    "risk_level": "Medium",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Rain"
+    ]
+  }

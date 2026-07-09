@@ -1,0 +1,14 @@
+{
+    "district": "Tiruppur",
+    "road_name": "Avinashi Road",
+    "highway": "NH-544",
+    "location": "Avinashi",
+    "latitude": 11.1922,
+    "longitude": 77.2685,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Textile truck traffic",
+      "Speeding"
+    ]
+  }

@@ -1,0 +1,14 @@
+ {
+    "district": "Tirunelveli",
+    "road_name": "Madurai-Kanyakumari Road",
+    "highway": "NH-44",
+    "location": "Gangaikondan",
+    "latitude": 8.8756,
+    "longitude": 77.7814,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Truck traffic",
+      "Speeding"
+    ]
+}

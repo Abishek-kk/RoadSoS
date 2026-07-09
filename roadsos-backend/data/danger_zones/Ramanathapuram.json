@@ -1,0 +1,14 @@
+{
+    "district": "Ramanathapuram",
+    "road_name": "Ramanathapuram-Madurai Road",
+    "highway": "NH-87",
+    "location": "Paramakudi",
+    "latitude": 9.5488,
+    "longitude": 78.5904,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Livestock crossings"
+    ]
+  }

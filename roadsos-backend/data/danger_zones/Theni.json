@@ -1,0 +1,14 @@
+{
+    "district": "Theni",
+    "road_name": "Theni-Kumuli Road",
+    "highway": "NH-183",
+    "location": "Cumbum",
+    "latitude": 9.7370,
+    "longitude": 77.2835,
+    "risk_level": "Medium",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Hairpin bends",
+      "Rain"
+    ]
+  }

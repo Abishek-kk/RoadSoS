@@ -1,0 +1,14 @@
+{
+    "district": "Tiruvannamalai",
+    "road_name": "Chengam Road",
+    "highway": "SH-4",
+    "location": "Chengam",
+    "latitude": 12.3085,
+    "longitude": 78.7936,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Curves",
+      "Mixed traffic"
+    ]
+  }

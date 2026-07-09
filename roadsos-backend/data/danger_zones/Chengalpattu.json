@@ -1,0 +1,15 @@
+{
+    "district": "Chengalpattu",
+    "road_name": "GST Road",
+    "highway": "NH-32",
+    "location": "Paranur Toll Plaza",
+    "latitude": 12.7160,
+    "longitude": 79.9858,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Lane changing",
+      "Heavy vehicles"
+    ]
+  }

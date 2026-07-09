@@ -1,0 +1,14 @@
+{
+    "district": "Vellore",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Walajah",
+    "latitude": 12.9258,
+    "longitude": 79.3660,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Speeding",
+      "Night driving"
+    ]
+  }

@@ -1,0 +1,14 @@
+{
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Salem Road",
+    "highway": "NH-79",
+    "location": "Ulundurpet",
+    "latitude": 11.6974,
+    "longitude": 79.2861,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Speeding"
+    ]
+  }

@@ -1,0 +1,14 @@
+{
+    "district": "Villupuram",
+    "road_name": "Chennai-Trichy Highway",
+    "highway": "NH-45",
+    "location": "Vikravandi",
+    "latitude": 12.0364,
+    "longitude": 79.5457,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed vehicles",
+      "Lane merging"
+    ]
+  }

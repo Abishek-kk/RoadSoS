@@ -1,0 +1,14 @@
+{
+    "district": "Erode",
+    "road_name": "Salem-Coimbatore Road",
+    "highway": "NH-544",
+    "location": "Perundurai",
+    "latitude": 11.2744,
+    "longitude": 77.5870,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy vehicles"
+    ]
+}

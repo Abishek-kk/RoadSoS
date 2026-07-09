@@ -1,0 +1,14 @@
+ {
+    "district": "Tiruchirappalli",
+    "road_name": "Trichy-Dindigul Road",
+    "highway": "NH-83",
+    "location": "Panjapur",
+    "latitude": 10.7483,
+    "longitude": 78.6570,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Urban traffic",
+      "Pedestrian movement"
+    ]
+  }

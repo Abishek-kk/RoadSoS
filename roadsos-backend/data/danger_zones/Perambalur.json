@@ -1,0 +1,14 @@
+{
+    "district": "Perambalur",
+    "road_name": "Trichy-Chennai Highway",
+    "highway": "NH-38",
+    "location": "Perambalur Toll Plaza",
+    "latitude": 11.2342,
+    "longitude": 78.8805,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Truck traffic"
+    ]
+  }

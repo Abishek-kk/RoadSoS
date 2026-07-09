@@ -1,0 +1,14 @@
+{
+    "district": "Salem",
+    "road_name": "Salem Bypass",
+    "highway": "NH-44",
+    "location": "Kondalampatti",
+    "latitude": 11.6260,
+    "longitude": 78.1230,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Urban congestion",
+      "Heavy vehicles"
+    ]
+  }

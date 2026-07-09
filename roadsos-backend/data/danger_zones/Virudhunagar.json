@@ -1,0 +1,14 @@
+{
+    "district": "Virudhunagar",
+    "road_name": "Madurai-Kayathar Road",
+    "highway": "NH-44",
+    "location": "Pullalakkottai",
+    "latitude": 9.5882,
+    "longitude": 77.9574,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed corridor",
+      "Poor pedestrian crossing"
+    ]
+}

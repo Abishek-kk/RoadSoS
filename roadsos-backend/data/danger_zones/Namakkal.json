@@ -1,0 +1,14 @@
+{
+    "district": "Namakkal",
+    "road_name": "Salem-Karur Road",
+    "highway": "NH-44",
+    "location": "Rasipuram Junction",
+    "latitude": 11.4602,
+    "longitude": 78.1865,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Truck traffic",
+      "Wrong-side driving"
+    ]
+  }

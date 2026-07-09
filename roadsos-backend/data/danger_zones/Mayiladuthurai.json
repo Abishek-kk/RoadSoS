@@ -1,0 +1,14 @@
+{
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Chidambaram Road",
+    "highway": "SH-64",
+    "location": "Kuthalam",
+    "latitude": 11.1033,
+    "longitude": 79.6551,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Two-wheeler accidents",
+      "Village crossings"
+    ]
+}
