@@ -1,0 +1,890 @@
+[
+  {
+    "id": "SR_SVG0001",
+    "name": "Maruti Suzuki - Jayaraj Car (Karaikudi)",
+    "address": "No 120, Sekkalai Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0002",
+    "name": "Maruti Suzuki Arena - Jayaraj Car (Sivaganga)",
+    "address": "No 45, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0003",
+    "name": "Hyundai - Susee Hyundai (Karaikudi)",
+    "address": "No 240/1, Trichy Main Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0004",
+    "name": "Hyundai - Susee Hyundai (Sivaganga Touchpoint)",
+    "address": "No 88, Manamadurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0005",
+    "name": "Tata Motors - VST Titanium Motors (Karaikudi)",
+    "address": "SF No 114, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0006",
+    "name": "Tata Motors - VST Titanium (Sivaganga)",
+    "address": "No 12, Madurai Main Road, Near Collectorate, Sivaganga, Tamil Nadu 630562",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0007",
+    "name": "Mahindra - anycar Motors (Karaikudi)",
+    "address": "No 5/2A, Devakottai Rastha, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630005",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0008",
+    "name": "Honda Cars - Annamalai Honda (Touchpoint)",
+    "address": "No 143, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0009",
+    "name": "Toyota - Lanson Toyota (Karaikudi Touchpoint)",
+    "address": "No 19, Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0010",
+    "name": "Kia - Instyle Kia (Karaikudi Extension Store)",
+    "address": "No 302, Subramaniapuram Main Road, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0011",
+    "name": "Hero - Muthu Motors",
+    "address": "No 22, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0012",
+    "name": "Hero - Sasi Motors (Karaikudi)",
+    "address": "No 185, Sekkalai Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0013",
+    "name": "Hero - Nachiyappan Agencies",
+    "address": "No 45, Tiruppattur Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0014",
+    "name": "Hero - Sri Ram Agencies",
+    "address": "No 88, Madurai Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0015",
+    "name": "Hero - Alagu Agencies",
+    "address": "No 54, Madurai Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0016",
+    "name": "Honda - PMR Honda (Sivaganga)",
+    "address": "No 105, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0017",
+    "name": "Honda - Subam Honda (Karaikudi)",
+    "address": "No 312, College Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0018",
+    "name": "Honda - Kanna Honda",
+    "address": "No 76, Trichy Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0019",
+    "name": "Honda - Meenakshi Honda",
+    "address": "No 112, Paramakudi Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0020",
+    "name": "Honda - Vignesh Honda",
+    "address": "No 43, Melur Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0021",
+    "name": "TVS - Ram Agencies (Sivaganga)",
+    "address": "No 14, Manamadurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0022",
+    "name": "TVS - KMS Motors (Karaikudi)",
+    "address": "No 95, Sekkalai Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0023",
+    "name": "TVS - Sree Ram Motors",
+    "address": "No 110, Silayanvayal Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0024",
+    "name": "TVS - VRM Motors",
+    "address": "No 67, Sipcot Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0025",
+    "name": "TVS - PKT Motors",
+    "address": "No 24, Sivaganga Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0026",
+    "name": "Bajaj - Sree Jayanathan Bajaj (Sivaganga)",
+    "address": "No 54, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0027",
+    "name": "Bajaj - Shanmugananda Motors (Karaikudi)",
+    "address": "No 82, Subramaniapuram Main Road, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0028",
+    "name": "Bajaj - Devakottai Touchpoint",
+    "address": "No 119, Tiruppattur Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0029",
+    "name": "Bajaj - Manamadurai Sub-Dealer",
+    "address": "No 34, Madurai Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0030",
+    "name": "Yamaha - Horizon Motors (Sivaganga)",
+    "address": "No 48, Melur Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0031",
+    "name": "Yamaha - Alagappa Motors (Karaikudi)",
+    "address": "No 204, College Road, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0032",
+    "name": "Yamaha - Devakottai Blue Square Touchpoint",
+    "address": "No 89, Church Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0033",
+    "name": "Royal Enfield - Sree Saravana Motors (Sivaganga)",
+    "address": "No 112, Madurai Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0034",
+    "name": "Royal Enfield - Maruthu Bullet Zone (Karaikudi)",
+    "address": "No 45, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0035",
+    "name": "Royal Enfield - Devakottai Bullet Touchpoint",
+    "address": "No 73, Trichy Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0036",
+    "name": "Suzuki - Meenakshi Suzuki (Sivaganga)",
+    "address": "No 81, Manamadurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0037",
+    "name": "Suzuki - Karpagam Suzuki (Karaikudi)",
+    "address": "No 132, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0038",
+    "name": "Jawa Yezdi - Karaikudi Touchpoint",
+    "address": "No 54, Subramaniapuram 3rd Street, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0039",
+    "name": "Ola Electric - Karaikudi Experience Centre",
+    "address": "No 14, College Road, Near Alagappa University, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0040",
+    "name": "Ather Energy - Ather Space Karaikudi",
+    "address": "No 92, Sekkalai Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0041",
+    "name": "Ola Electric - Sivaganga Hub",
+    "address": "No 33, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0042",
+    "name": "KTM & Chetak - Karaikudi KTM",
+    "address": "No 115, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0043",
+    "name": "Hero - Kalayarkoil Touchpoint",
+    "address": "No 12, Maruthupandiyar Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0044",
+    "name": "Honda - Kalayarkoil Honda",
+    "address": "No 48, Sivaganga Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0045",
+    "name": "TVS - Kalayarkoil Sub-Dealer",
+    "address": "No 76, Devakottai Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0046",
+    "name": "Hero - Ilayangudi Touchpoint",
+    "address": "No 18, Paramakudi Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0047",
+    "name": "Honda - Ilayangudi Honda",
+    "address": "No 62, Sivaganga Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0048",
+    "name": "TVS - Ilayangudi Motors",
+    "address": "No 94, Kalayarkoil Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0049",
+    "name": "Hero - Singampunari Touchpoint",
+    "address": "No 25, Dindigul Main Road, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0050",
+    "name": "Honda - Singampunari Honda",
+    "address": "No 68, Melur Road, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0101",
+    "name": "Benelli - Karaikudi Premium Zone",
+    "address": "No 88, College Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0102",
+    "name": "Triumph - Karaikudi Connect Store",
+    "address": "No 145, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0103",
+    "name": "Husqvarna - Karaikudi Motorcycles",
+    "address": "No 115, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0104",
+    "name": "Hero - Thiruppathur Road Sub-Dealer",
+    "address": "No 34, Devakottai Rastha, Karaikudi, Sivaganga, Tamil Nadu 630005",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0105",
+    "name": "Honda - Kalanivasal Touchpoint",
+    "address": "No 72, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0106",
+    "name": "TVS - College Road Sub-Dealer",
+    "address": "No 118, College Road, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0107",
+    "name": "Bajaj - Sekkalai Road Touchpoint",
+    "address": "No 95, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0108",
+    "name": "Yamaha - Subramaniapuram Connect",
+    "address": "No 43, Subramaniapuram 3rd Street, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0109",
+    "name": "Hero - Manamadurai Feeder Road Zone",
+    "address": "No 25, Market Feeder Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0110",
+    "name": "Honda - Manamadurai Sipcot Connect",
+    "address": "No 78, Sipcot Industrial Complex Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0111",
+    "name": "TVS - Manamadurai Bypass Touchpoint",
+    "address": "No 104, Madurai-Rameswaram Highway, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0112",
+    "name": "Hero - Tiruppattur Bus Stand Touchpoint",
+    "address": "No 18, Madurai Road, Near Bus Stand, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0113",
+    "name": "Honda - Tiruppattur Melur Road Zone",
+    "address": "No 62, Melur Main Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0114",
+    "name": "TVS - Tiruppattur Sivaganga Road Connect",
+    "address": "No 94, Sivaganga Main Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0115",
+    "name": "Hero - Devakottai Silayanvayal Zone",
+    "address": "No 42, Silayanvayal Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0116",
+    "name": "Honda - Devakottai Church Road Touchpoint",
+    "address": "No 89, Church Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0117",
+    "name": "TVS - Devakottai Tiruppattur Highway Connect",
+    "address": "No 122, Tiruppattur Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0118",
+    "name": "Hero - Sivaganga Town Bus Stand Store",
+    "address": "No 15, Madurai Road, Near Bus Stand, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0119",
+    "name": "Honda - Sivaganga Manamadurai Road Store",
+    "address": "No 54, Manamadurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0120",
+    "name": "TVS - Sivaganga Melur Highway Touchpoint",
+    "address": "No 33, Melur Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0121",
+    "name": "Hero - Kalayarkoil Maruthupandiyar Store",
+    "address": "No 26, Maruthupandiyar Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0122",
+    "name": "Honda - Kalayarkoil Devakottai Road Connect",
+    "address": "No 67, Devakottai Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0123",
+    "name": "Hero - Ilayangudi Paramakudi Road Connect",
+    "address": "No 14, Paramakudi Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0124",
+    "name": "Honda - Ilayangudi Sivaganga Road Zone",
+    "address": "No 52, Sivaganga Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0125",
+    "name": "Hero - Singampunari Dindigul Highway Connect",
+    "address": "No 36, Dindigul Main Road, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0126",
+    "name": "Honda - Singampunari Kottampatti Connect",
+    "address": "No 85, Kottampatti Road, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0127",
+    "name": "Hero - Thirupuvanam Highway Zone",
+    "address": "No 44, Madurai-Rameswaram Highway, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0128",
+    "name": "Honda - Thirupuvanam Sholavandan Connect",
+    "address": "No 91, Sholavandan Road, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0129",
+    "name": "Hero - Nerkuppi Ponnamaravathi Connect",
+    "address": "No 19, Ponnamaravathi Road, Nerkuppi, Sivaganga, Tamil Nadu 630440",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0130",
+    "name": "Hero - Kottaiyur Trichy Highway Store",
+    "address": "No 48, Trichy Highway, Kottaiyur, Sivaganga, Tamil Nadu 630106",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0131",
+    "name": "Hero - Puduvayal Aranthangi Road Connect",
+    "address": "No 23, Aranthangi Road, Puduvayal, Sivaganga, Tamil Nadu 630108",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0132",
+    "name": "Hero - Amaravathipudur Main Store",
+    "address": "No 56, Devakottai Main Road, Amaravathipudur, Sivaganga, Tamil Nadu 630301",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0133",
+    "name": "Hero - Paganeri Sivaganga Connect",
+    "address": "No 12, Sivaganga Road, Paganeri, Sivaganga, Tamil Nadu 630558",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0134",
+    "name": "Hero - Poovanthi Melur Road Touchpoint",
+    "address": "No 38, Melur Road, Poovanthi, Sivaganga, Tamil Nadu 630611",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0135",
+    "name": "Ampere EV - Karaikudi Subramaniapuram Zone",
+    "address": "No 114, Sekkalai Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0136",
+    "name": "Hero Electric - Sivaganga Madurai Road Hub",
+    "address": "No 63, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0137",
+    "name": "Kinetic Green - Karaikudi University Connect",
+    "address": "No 192, College Road, Near Alagappa University, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0138",
+    "name": "Quantum Energy - Karaikudi Kalanivasal Zone",
+    "address": "No 28, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0139",
+    "name": "Joy E-Bike - Sivaganga Town Store",
+    "address": "No 76, Manamadurai Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0140",
+    "name": "Pure EV - Sivaganga Main Bypass Touchpoint",
+    "address": "No 94, Madurai Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0141",
+    "name": "BNC Motors - Karaikudi Sekkalai Hub",
+    "address": "No 42, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0142",
+    "name": "Greaves Cotton - Ampere EV Devakottai Main",
+    "address": "No 68, Trichy Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0143",
+    "name": "TVS iQube - KMS Motors Karaikudi Main",
+    "address": "No 53, Sekkalai Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0144",
+    "name": "Ola Electric - Devakottai Main Highway Zone",
+    "address": "No 25, Tiruppattur Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0145",
+    "name": "Lectrix EV - Karaikudi College Road Spot",
+    "address": "No 220, College Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0146",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Town Shop",
+    "address": "No 24, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0147",
+    "name": "Tata Motors Commercial - VST Titanium Highway Spot",
+    "address": "SF No 95, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0148",
+    "name": "Mahindra Commercial - anycar Devakottai Road Spot",
+    "address": "No 14, Devakottai Rastha, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630005",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0149",
+    "name": "Ashok Leyland Light Commercial - Karaikudi Bypass",
+    "address": "No 92, Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0150",
+    "name": "Force Motors - Karaikudi Main Road Spot",
+    "address": "No 180, Subramaniapuram Main Road, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0151",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car Sekkalai Main",
+    "address": "No 184, Sekkalai Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0152",
+    "name": "Benelli - Karaikudi College Road Spot",
+    "address": "No 142, College Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0153",
+    "name": "Triumph - Karaikudi Bypass Corner Store",
+    "address": "No 198, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0154",
+    "name": "Husqvarna - Karaikudi Kalanivasal Store",
+    "address": "No 145, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0155",
+    "name": "Hero - Devakottai Rastha Sub-Dealer Shop",
+    "address": "No 64, Devakottai Rastha, Karaikudi, Sivaganga, Tamil Nadu 630005",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0156",
+    "name": "Honda - Kalanivasal Bypass Touchpoint",
+    "address": "No 112, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0157",
+    "name": "TVS - Karaikudi College Road Junction",
+    "address": "No 148, College Road, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0158",
+    "name": "Bajaj - Sekkalai Road Main Store",
+    "address": "No 135, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0159",
+    "name": "Yamaha - Subramaniapuram Main Street",
+    "address": "No 73, Subramaniapuram 3rd Street, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0160",
+    "name": "Hero - Manamadurai Feeder Junction",
+    "address": "No 45, Market Feeder Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0161",
+    "name": "Honda - Manamadurai Industrial Connect",
+    "address": "No 108, Sipcot Industrial Complex Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0162",
+    "name": "TVS - Manamadurai Bypass Junction",
+    "address": "No 144, Madurai-Rameswaram Highway, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0163",
+    "name": "Hero - Tiruppattur Bus Terminal Shop",
+    "address": "No 38, Madurai Road, Near Bus Stand, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0164",
+    "name": "Honda - Tiruppattur Melur Road Hub",
+    "address": "No 92, Melur Main Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0165",
+    "name": "TVS - Tiruppattur Sivaganga Main Line",
+    "address": "No 124, Sivaganga Main Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0166",
+    "name": "Hero - Devakottai Silayanvayal Main Shop",
+    "address": "No 72, Silayanvayal Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0167",
+    "name": "Honda - Devakottai Church Road Line",
+    "address": "No 119, Church Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0168",
+    "name": "TVS - Devakottai Tiruppattur Highway Hub",
+    "address": "No 152, Tiruppattur Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0169",
+    "name": "Hero - Sivaganga Bus Stand Store Corner",
+    "address": "No 45, Madurai Road, Near Bus Stand, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0170",
+    "name": "Honda - Sivaganga Manamadurai Line Store",
+    "address": "No 84, Manamadurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0171",
+    "name": "TVS - Sivaganga Melur Highway Line",
+    "address": "No 63, Melur Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0172",
+    "name": "Hero - Kalayarkoil Maruthupandiyar Main Store",
+    "address": "No 56, Maruthupandiyar Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0173",
+    "name": "Honda - Kalayarkoil Devakottai Line Connect",
+    "address": "No 97, Devakottai Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0174",
+    "name": "Hero - Ilayangudi Paramakudi Line Connect",
+    "address": "No 44, Paramakudi Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0175",
+    "name": "Honda - Ilayangudi Sivaganga Road Hub",
+    "address": "No 82, Sivaganga Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0176",
+    "name": "Hero - Singampunari Dindigul Highway Shop",
+    "address": "No 66, Dindigul Main Road, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0177",
+    "name": "Honda - Singampunari Kottampatti Corner",
+    "address": "No 115, Kottampatti Road, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0178",
+    "name": "Hero - Thirupuvanam Highway Corner",
+    "address": "No 74, Madurai-Rameswaram Highway, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0179",
+    "name": "Honda - Thirupuvanam Sholavandan Hub",
+    "address": "No 121, Sholavandan Road, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0180",
+    "name": "Hero - Nerkuppi Ponnamaravathi Shop",
+    "address": "No 49, Ponnamaravathi Road, Nerkuppi, Sivaganga, Tamil Nadu 630440",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0181",
+    "name": "Hero - Kottaiyur Trichy Line Store",
+    "address": "No 78, Trichy Highway, Kottaiyur, Sivaganga, Tamil Nadu 630106",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0182",
+    "name": "Hero - Puduvayal Aranthangi Road Shop",
+    "address": "No 53, Aranthangi Road, Puduvayal, Sivaganga, Tamil Nadu 630108",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0183",
+    "name": "Hero - Amaravathipudur Center Store",
+    "address": "No 86, Devakottai Main Road, Amaravathipudur, Sivaganga, Tamil Nadu 630301",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0184",
+    "name": "Hero - Paganeri Sivaganga Line Shop",
+    "address": "No 42, Sivaganga Road, Paganeri, Sivaganga, Tamil Nadu 630558",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0185",
+    "name": "Hero - Poovanthi Melur Road Corner",
+    "address": "No 68, Melur Road, Poovanthi, Sivaganga, Tamil Nadu 630611",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0186",
+    "name": "Ampere EV - Karaikudi Subramaniapuram Hub",
+    "address": "No 144, Sekkalai Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0187",
+    "name": "Hero Electric - Sivaganga Madurai Line Hub",
+    "address": "No 93, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0188",
+    "name": "Kinetic Green - Karaikudi University Area",
+    "address": "No 222, College Road, Near Alagappa University, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0189",
+    "name": "Quantum Energy - Karaikudi Kalanivasal Center",
+    "address": "No 58, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0190",
+    "name": "Joy E-Bike - Sivaganga Town Block",
+    "address": "No 106, Manamadurai Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0191",
+    "name": "Pure EV - Sivaganga Bypass Corner",
+    "address": "No 124, Madurai Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0192",
+    "name": "BNC Motors - Karaikudi Sekkalai Block",
+    "address": "No 72, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0193",
+    "name": "Greaves Cotton - Ampere EV Devakottai Line",
+    "address": "No 98, Trichy Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0194",
+    "name": "TVS iQube - KMS Motors Karaikudi Hub",
+    "address": "No 83, Sekkalai Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0195",
+    "name": "Ola Electric - Devakottai Highway Hub",
+    "address": "No 55, Tiruppattur Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0196",
+    "name": "Lectrix EV - Karaikudi College Road Block",
+    "address": "No 250, College Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_SVG0197",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Center",
+    "address": "No 54, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_SVG0198",
+    "name": "Tata Motors Commercial - VST Titanium Highway Center",
+    "address": "SF No 125, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "type": "Car Showroom"
+  }
+]
