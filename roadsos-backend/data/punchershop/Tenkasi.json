@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "SR_TKS0001",
+    "name": "Maruti Suzuki Arena - Jayaraj Car (Tenkasi)",
+    "address": "No 45, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0002",
+    "name": "Maruti Suzuki Arena - Jayaraj Car (Sankarankovil)",
+    "address": "No 112, Tirunelveli Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0003",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car (Tenkasi Main)",
+    "address": "No 88, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0004",
+    "name": "Hyundai - Susee Hyundai (Tenkasi Touchpoint)",
+    "address": "No 140, Madurai Road, Near New Bus Stand, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0005",
+    "name": "Hyundai - Susee Hyundai (Sankarankovil Store)",
+    "address": "No 54, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0006",
+    "name": "Tata Motors - VST Titanium Motors (Tenkasi)",
+    "address": "SF No 244, Madurai Highway, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0007",
+    "name": "Mahindra - Raghav Motors (Tenkasi)",
+    "address": "No 19, Tirunelveli Main Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0008",
+    "name": "Toyota - Lanson Toyota (Tenkasi Touchpoint)",
+    "address": "No 102, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0009",
+    "name": "Honda Cars - Annamalai Honda (Tenkasi Connect)",
+    "address": "No 33, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0010",
+    "name": "Kia - Instyle Kia (Tenkasi Display Center)",
+    "address": "No 76, Tirunelveli Road, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0011",
+    "name": "Hero - Sri Ram Motors (Tenkasi)",
+    "address": "No 12, Madurai Main Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0012",
+    "name": "Hero - Maruthu Agencies (Sankarankovil)",
+    "address": "No 85, Tirunelveli Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0013",
+    "name": "Hero - Alangulam Touchpoint",
+    "address": "No 42, Tenkasi-Tirunelveli Highway, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0014",
+    "name": "Hero - Kadayanallur Touchpoint",
+    "address": "No 94, National Highway 744, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0015",
+    "name": "Hero - Puliyangudi Touchpoint",
+    "address": "No 56, Madurai Main Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0016",
+    "name": "Honda - Bala Honda (Tenkasi)",
+    "address": "No 110, Madurai Road, Near New Bus Stand, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0017",
+    "name": "Honda - Sree Honda (Sankarankovil)",
+    "address": "No 64, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0018",
+    "name": "Honda - Alangulam Honda",
+    "address": "No 23, Tirunelveli Main Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0019",
+    "name": "Honda - Kadayanallur Honda",
+    "address": "No 78, NH-744 Main Road, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0020",
+    "name": "Honda - Puliyangudi Honda",
+    "address": "No 105, Madurai Main Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0021",
+    "name": "TVS - KMS Motors (Tenkasi)",
+    "address": "No 92, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0022",
+    "name": "TVS - VRM Motors (Sankarankovil)",
+    "address": "No 48, Tirunelveli Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0023",
+    "name": "TVS - Alangulam Sub-Dealer",
+    "address": "No 67, Tenkasi Main Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0024",
+    "name": "TVS - Kadayanallur Sub-Dealer",
+    "address": "No 14, Tenkasi Highway Road, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0025",
+    "name": "TVS - Puliyangudi Motors",
+    "address": "No 81, Madurai Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0026",
+    "name": "Bajaj - Sree Jayanathan Bajaj (Tenkasi)",
+    "address": "No 54, Tirunelveli Main Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0027",
+    "name": "Bajaj - Shanmugananda Motors (Sankarankovil)",
+    "address": "No 119, Rajapalayam Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0028",
+    "name": "Bajaj - Kadayanallur Touchpoint",
+    "address": "No 34, Quilon-Thirumangalam Highway, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0029",
+    "name": "Bajaj - Alangulam Sub-Dealer",
+    "address": "No 48, Tirunelveli Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0030",
+    "name": "Yamaha - Horizon Motors (Tenkasi)",
+    "address": "No 89, Courtallam Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0031",
+    "name": "Yamaha - Sree Saravana Motors (Sankarankovil)",
+    "address": "No 45, Tirunelveli Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0032",
+    "name": "Yamaha - Blue Square Touchpoint (Sengottai)",
+    "address": "No 73, Tenkasi Main Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0033",
+    "name": "Royal Enfield - Maruthu Bullet Zone (Tenkasi)",
+    "address": "No 115, Madurai Highway Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0034",
+    "name": "Royal Enfield - Sankarankovil Bullet Hub",
+    "address": "No 36, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0035",
+    "name": "Royal Enfield - Kadayanallur Touchpoint",
+    "address": "No 85, Tenkasi Main Road, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0036",
+    "name": "Suzuki - Karpagam Suzuki (Tenkasi)",
+    "address": "No 132, Tirunelveli Main Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0037",
+    "name": "Suzuki - Meenakshi Suzuki (Sankarankovil)",
+    "address": "No 44, Tirunelveli Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0038",
+    "name": "Jawa Yezdi - Tenkasi Touchpoint",
+    "address": "No 91, Madurai Road, Near New Bus Stand, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0039",
+    "name": "Ola Electric - Tenkasi Experience Centre",
+    "address": "No 139, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0040",
+    "name": "Ather Energy - Ather Space Tenkasi",
+    "address": "No 162, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0041",
+    "name": "Ola Electric - Sankarankovil Hub",
+    "address": "No 94, Tirunelveli Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0042",
+    "name": "KTM & Chetak - Tenkasi KTM Store",
+    "address": "No 53, Madurai Highway Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0043",
+    "name": "Hero - Sengottai Touchpoint",
+    "address": "No 18, Main Road, Near Railway Station, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0044",
+    "name": "Honda - Sengottai Honda",
+    "address": "No 62, Tenkasi Main Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0045",
+    "name": "TVS - Sengottai Sub-Dealer",
+    "address": "No 94, Courtallam Feeder Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0046",
+    "name": "Hero - Surandai Touchpoint",
+    "address": "No 25, Pavoorchatram Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0047",
+    "name": "Honda - Surandai Honda",
+    "address": "No 68, Alangulam Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0048",
+    "name": "TVS - Surandai Motors",
+    "address": "No 104, Kamarajar Main Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0049",
+    "name": "Hero - Pavoorchatram Touchpoint",
+    "address": "No 15, Tenkasi-Tirunelveli Highway, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0050",
+    "name": "Honda - Pavoorchatram Honda",
+    "address": "No 48, Surandai Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0051",
+    "name": "TVS - Pavoorchatram Sub-Dealer",
+    "address": "No 134, Tirunelveli Main Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0052",
+    "name": "Bajaj - Pavoorchatram Touchpoint",
+    "address": "No 41, Tenkasi Highway, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0053",
+    "name": "Hero - Vasudevanallur Touchpoint",
+    "address": "No 23, Madurai Main Road, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0054",
+    "name": "Honda - Vasudevanallur Honda",
+    "address": "No 68, Sankarankovil Road, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0055",
+    "name": "TVS - Vasudevanallur Sub-Dealer",
+    "address": "No 102, National Highway 744, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0056",
+    "name": "Hero - Sivagiri Touchpoint",
+    "address": "No 19, Madurai Road, Sivagiri, Tenkasi, Tamil Nadu 627757",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0057",
+    "name": "Honda - Sivagiri Honda",
+    "address": "No 54, Sankarankovil Main Road, Sivagiri, Tenkasi, Tamil Nadu 627757",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0058",
+    "name": "Hero - Rayagiri Touchpoint",
+    "address": "No 12, Main Highway Road, Rayagiri, Sivagiri Taluk, Tenkasi, Tamil Nadu 627757",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0059",
+    "name": "Hero - Veerakeralamputhur Touchpoint",
+    "address": "No 34, Alangulam Road, Veerakeralamputhur, Tenkasi, Tamil Nadu 627861",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0060",
+    "name": "Honda - Veerakeralamputhur Honda",
+    "address": "No 76, Surandai Road, Veerakeralamputhur, Tenkasi, Tamil Nadu 627861",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0061",
+    "name": "Hero - Karivalamvandanallur Touchpoint",
+    "address": "No 25, Sankarankovil Road, Karivalamvandanallur, Tenkasi, Tamil Nadu 627753",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0062",
+    "name": "Honda - Karivalamvandanallur Honda",
+    "address": "No 64, Rajapalayam Highway, Karivalamvandanallur, Tenkasi, Tamil Nadu 627753",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0063",
+    "name": "TVS - Karivalamvandanallur Sub-Dealer",
+    "address": "No 112, Puliyangudi Road, Karivalamvandanallur, Tenkasi, Tamil Nadu 627753",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0064",
+    "name": "Hero - Chinthamani Touchpoint",
+    "address": "No 14, Puliangudi Main Road, Chinthamani, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0065",
+    "name": "Ampere EV - Tenkasi Eco Wheels",
+    "address": "No 152, Madurai Road, Near New Bus Stand, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0066",
+    "name": "Hero Electric - Green Bikes Tenkasi",
+    "address": "No 83, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0067",
+    "name": "Kinetic Green - Sankarankovil E-Mobility",
+    "address": "No 214, Tirunelveli Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0068",
+    "name": "Quantum Energy - EV Tenkasi",
+    "address": "No 45, Tirunelveli Highway, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0069",
+    "name": "Joy E-Bike - Tenkasi PlugIn Store",
+    "address": "No 92, Courtallam Feeder Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0070",
+    "name": "Pure EV - Tenkasi Electric Future",
+    "address": "No 112, Tirunelveli Main Road, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0071",
+    "name": "BNC Motors - Sankarankovil EV Hub",
+    "address": "No 18, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0072",
+    "name": "Greaves Cotton - Ampere EV Alangulam",
+    "address": "No 94, Tenkasi-Tirunelveli Highway, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0073",
+    "name": "TVS iQube - KMS Motors Tenkasi Main",
+    "address": "No 97, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0074",
+    "name": "Ola Electric - Kadayanallur Partner Zone",
+    "address": "No 48, National Highway 744, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0075",
+    "name": "Lectrix EV - Tenkasi Green Mobility",
+    "address": "No 310, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0076",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car (Tenkasi)",
+    "address": "No 48, Tirunelveli Main Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0077",
+    "name": "Tata Motors Commercial - VST Titanium (Tenkasi)",
+    "address": "SF No 115, Madurai Highway Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0078",
+    "name": "Mahindra Commercial - Raghav Motors Tenkasi",
+    "address": "No 7, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0079",
+    "name": "Ashok Leyland Light Commercial - Tenkasi Bypass",
+    "address": "No 140, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0080",
+    "name": "Force Motors - Tenkasi Touchpoint",
+    "address": "No 252, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0081",
+    "name": "Benelli - Tenkasi Premium Connect",
+    "address": "No 88, Courtallam Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0082",
+    "name": "Triumph - Tenkasi Touchpoint",
+    "address": "No 145, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0083",
+    "name": "Husqvarna - Tenkasi Motorcycles",
+    "address": "No 115, Madurai Highway, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0084",
+    "name": "Hero - Alangulam Junction Sub-Dealer",
+    "address": "No 34, Tirunelveli Main Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0085",
+    "name": "Honda - Alangulam Bypass Touchpoint",
+    "address": "No 72, Tenkasi Highway Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0086",
+    "name": "TVS - Alangulam Feeder Sub-Dealer",
+    "address": "No 118, Radhapuram Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0087",
+    "name": "Bajaj - Kadayanallur Highway Store",
+    "address": "No 95, Quilon-Thirumangalam Highway, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0088",
+    "name": "Yamaha - Kadayanallur Connect",
+    "address": "No 43, Tenkasi Main Road, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0089",
+    "name": "Hero - Sankarankovil Feeder Road Zone",
+    "address": "No 25, Tirunelveli Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0090",
+    "name": "Honda - Sankarankovil Feeder Connect",
+    "address": "No 78, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0091",
+    "name": "TVS - Sankarankovil Bypass Touchpoint",
+    "address": "No 104, Kalugumalai Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0092",
+    "name": "Hero - Puliyangudi Bus Stand Touchpoint",
+    "address": "No 18, Madurai Main Road, Near Bus Stand, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0093",
+    "name": "Honda - Puliyangudi Sankarankovil Road Zone",
+    "address": "No 62, Sankarankovil Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0094",
+    "name": "TVS - Puliyangudi Main Road Connect",
+    "address": "No 94, Madurai Highway Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0095",
+    "name": "Hero - Sengottai Feeder Road Zone",
+    "address": "No 42, Tenkasi Main Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0096",
+    "name": "Honda - Sengottai Kottai Feeder Touchpoint",
+    "address": "No 89, Courtallam Feeder Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0097",
+    "name": "TVS - Sengottai Railway Station Connect",
+    "address": "No 122, Station Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0098",
+    "name": "Hero - Tenkasi Town Old Bus Stand Store",
+    "address": "No 15, Madurai Main Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0099",
+    "name": "Honda - Tenkasi Mattappa Nagar Store",
+    "address": "No 54, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0100",
+    "name": "TVS - Tenkasi New Bus Stand Highway Touchpoint",
+    "address": "No 33, Madurai Road, Near New Bus Stand, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0101",
+    "name": "Hero - Surandai Pavoorchatram Line Store",
+    "address": "No 36, Pavoorchatram Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0102",
+    "name": "Honda - Surandai Alangulam Feeder Connect",
+    "address": "No 85, Alangulam Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0103",
+    "name": "TVS - Surandai Town Junction Store",
+    "address": "No 114, Kamarajar Main Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0104",
+    "name": "Hero - Pavoorchatram Tenkasi Highway Connect",
+    "address": "No 24, Tenkasi-Tirunelveli Highway, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0105",
+    "name": "Honda - Pavoorchatram Surandai Line Touchpoint",
+    "address": "No 61, Surandai Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0106",
+    "name": "TVS - Pavoorchatram Railway Feeder Point",
+    "address": "No 142, Tirunelveli Main Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0107",
+    "name": "Hero - Vasudevanallur Sankarankovil Line Shop",
+    "address": "No 48, Sankarankovil Road, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0108",
+    "name": "Honda - Vasudevanallur Highway Hub",
+    "address": "No 89, National Highway 744, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0109",
+    "name": "Hero - Sivagiri Sankarankovil Main Road Shop",
+    "address": "No 77, Sankarankovil Main Road, Sivagiri, Tenkasi, Tamil Nadu 627757",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0110",
+    "name": "Hero - Veerakeralamputhur Surandai Line Shop",
+    "address": "No 56, Surandai Road, Veerakeralamputhur, Tenkasi, Tamil Nadu 627861",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0111",
+    "name": "Hero - Karivalamvandanallur Highway Line Shop",
+    "address": "No 42, Rajapalayam Highway, Karivalamvandanallur, Tenkasi, Tamil Nadu 627753",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0112",
+    "name": "Ampere EV - Tenkasi Courtallam Road Hub",
+    "address": "No 114, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0113",
+    "name": "Hero Electric - Tenkasi Madurai Highway Hub",
+    "address": "No 63, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0114",
+    "name": "Kinetic Green - Sankarankovil Rajapalayam Road",
+    "address": "No 192, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0115",
+    "name": "Quantum Energy - Tenkasi Town Bypass Center",
+    "address": "No 28, Tirunelveli Highway, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0116",
+    "name": "Joy E-Bike - Tenkasi Courtallam Line Block",
+    "address": "No 76, Courtallam Feeder Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0117",
+    "name": "Pure EV - Tenkasi Town Bypass Corner",
+    "address": "No 124, Tirunelveli Main Road, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0118",
+    "name": "BNC Motors - Sankarankovil Town Block",
+    "address": "No 42, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0119",
+    "name": "Greaves Cotton - Ampere EV Alangulam Line",
+    "address": "No 68, Tenkasi-Tirunelveli Highway, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0120",
+    "name": "TVS iQube - KMS Motors Tenkasi Hub",
+    "address": "No 53, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0121",
+    "name": "Ola Electric - Kadayanallur Highway Hub",
+    "address": "No 25, National Highway 744, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0122",
+    "name": "Lectrix EV - Tenkasi New Bus Stand Block",
+    "address": "No 220, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0123",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Center",
+    "address": "No 54, Tirunelveli Main Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0124",
+    "name": "Tata Motors Commercial - VST Titanium Highway Center",
+    "address": "SF No 125, Madurai Highway Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0125",
+    "name": "Mahindra Commercial - Raghav Motors Line",
+    "address": "No 34, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0126",
+    "name": "Ashok Leyland Light Commercial - Tenkasi Center",
+    "address": "No 122, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0127",
+    "name": "Force Motors - Tenkasi Main Road Spot",
+    "address": "No 180, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0128",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car Mattappa Nagar",
+    "address": "No 210, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0129",
+    "name": "Benelli - Tenkasi Courtallam Road Spot",
+    "address": "No 142, Courtallam Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0130",
+    "name": "Triumph - Tenkasi Courtallam Bypass Store",
+    "address": "No 198, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0131",
+    "name": "Husqvarna - Tenkasi Madurai Highway Store",
+    "address": "No 145, Madurai Highway, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0132",
+    "name": "Hero - Alangulam Junction Sub-Dealer Shop",
+    "address": "No 64, Tirunelveli Main Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0133",
+    "name": "Honda - Alangulam Bypass Touchpoint Shop",
+    "address": "No 112, Tenkasi Highway Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0134",
+    "name": "TVS - Alangulam Radhapuram Road Junction",
+    "address": "No 148, Radhapuram Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0135",
+    "name": "Bajaj - Kadayanallur Highway Main Store",
+    "address": "No 135, Quilon-Thirumangalam Highway, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0136",
+    "name": "Yamaha - Kadayanallur Main Road Street",
+    "address": "No 73, Tenkasi Main Road, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0137",
+    "name": "Hero - Sankarankovil Feeder Main Junction",
+    "address": "No 45, Tirunelveli Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0138",
+    "name": "Honda - Sankarankovil Rajapalayam Layout Connect",
+    "address": "No 108, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0139",
+    "name": "TVS - Sankarankovil Kalugumalai Road Junction",
+    "address": "No 144, Kalugumalai Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0140",
+    "name": "Hero - Puliyangudi Bus Stand Corner Shop",
+    "address": "No 38, Madurai Main Road, Near Bus Stand, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0141",
+    "name": "Honda - Puliyangudi Sankarankovil Highway Hub",
+    "address": "No 92, Sankarankovil Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0142",
+    "name": "TVS - Puliyangudi Madurai Highway Line",
+    "address": "No 124, Madurai Highway Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0143",
+    "name": "Hero - Sengottai Tenkasi Line Shop",
+    "address": "No 72, Tenkasi Main Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0144",
+    "name": "Honda - Sengottai Courtallam Feeder Line",
+    "address": "No 119, Courtallam Feeder Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0145",
+    "name": "TVS - Sengottai Station Road Hub",
+    "address": "No 152, Station Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0146",
+    "name": "Hero - Tenkasi Town Madurai Line Corner",
+    "address": "No 45, Madurai Main Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0147",
+    "name": "Honda - Tenkasi Tirunelveli Line Store",
+    "address": "No 84, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0148",
+    "name": "TVS - Tenkasi Madurai Highway Line",
+    "address": "No 63, Madurai Road, Near New Bus Stand, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0149",
+    "name": "Hero - Surandai Pavoorchatram Main Store",
+    "address": "No 56, Pavoorchatram Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0150",
+    "name": "Honda - Surandai Alangulam Line Connect",
+    "address": "No 97, Alangulam Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0151",
+    "name": "TVS - Surandai Kamarajar Main Line",
+    "address": "No 144, Kamarajar Main Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0152",
+    "name": "Hero - Pavoorchatram Tirunelveli Highway Line",
+    "address": "No 74, Tenkasi-Tirunelveli Highway, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0153",
+    "name": "Honda - Pavoorchatram Surandai Layout Hub",
+    "address": "No 82, Surandai Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0154",
+    "name": "TVS - Pavoorchatram Tirunelveli Highway Hub",
+    "address": "No 168, Tirunelveli Main Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0155",
+    "name": "Hero - Vasudevanallur Highway Corner Shop",
+    "address": "No 66, National Highway 744, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0156",
+    "name": "Honda - Vasudevanallur National Highway Hub",
+    "address": "No 115, National Highway 744, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0157",
+    "name": "Hero - Sivagiri Main Highway Corner",
+    "address": "No 98, Sankarankovil Main Road, Sivagiri, Tenkasi, Tamil Nadu 627757",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0158",
+    "name": "Hero - Veerakeralamputhur Alangulam Line Shop",
+    "address": "No 72, Alangulam Road, Veerakeralamputhur, Tenkasi, Tamil Nadu 627861",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0159",
+    "name": "Hero - Karivalamvandanallur Rajapalayam Line Shop",
+    "address": "No 68, Rajapalayam Highway, Karivalamvandanallur, Tenkasi, Tamil Nadu 627753",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0160",
+    "name": "Ampere EV - Tenkasi Courtallam Retail Hub",
+    "address": "No 144, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0161",
+    "name": "Hero Electric - Tenkasi Town Retail Hub",
+    "address": "No 93, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0162",
+    "name": "Kinetic Green - Sankarankovil Tirunelveli Road Outlet",
+    "address": "No 222, Tirunelveli Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0163",
+    "name": "Quantum Energy - Tenkasi Bypass Center Shop",
+    "address": "No 58, Tirunelveli Highway, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0164",
+    "name": "Joy E-Bike - Tenkasi Courtallam Retail Block",
+    "address": "No 106, Courtallam Feeder Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0165",
+    "name": "Pure EV - Tenkasi Town Layout Corner",
+    "address": "No 154, Tirunelveli Main Road, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0166",
+    "name": "BNC Motors - Sankarankovil Retail Block",
+    "address": "No 72, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0167",
+    "name": "Greaves Cotton - Ampere EV Alangulam Highway Line",
+    "address": "No 98, Tenkasi-Tirunelveli Highway, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0168",
+    "name": "TVS iQube - KMS Motors Tenkasi Main Hub",
+    "address": "No 113, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0169",
+    "name": "Ola Electric - Kadayanallur Highway Junction Hub",
+    "address": "No 85, National Highway 744, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0170",
+    "name": "Lectrix EV - Tenkasi Madurai Highway Block",
+    "address": "No 250, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0171",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Layout Center",
+    "address": "No 84, Tirunelveli Main Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0172",
+    "name": "Tata Motors Commercial - VST Titanium Highway Main Center",
+    "address": "SF No 155, Madurai Highway Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0173",
+    "name": "Mahindra Commercial - Raghav Motors Feeder Line",
+    "address": "No 64, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0174",
+    "name": "Ashok Leyland Light Commercial - Tenkasi Bypass Corner",
+    "address": "No 152, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0175",
+    "name": "Force Motors - Tenkasi Town Bypass Ring Spot",
+    "address": "No 212, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0176",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car Courtallam Bypass",
+    "address": "No 244, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0177",
+    "name": "Benelli - Tenkasi Courtallam Extension Point",
+    "address": "No 192, Courtallam Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0178",
+    "name": "Triumph - Tenkasi Courtallam North Bypass Layout",
+    "address": "No 245, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0179",
+    "name": "Husqvarna - Tenkasi Bypass Ring Hub",
+    "address": "No 185, Madurai Highway, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0180",
+    "name": "Hero - Alangulam Highway Main Sub-Dealer Spot",
+    "address": "No 94, Tirunelveli Main Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0181",
+    "name": "Honda - Alangulam Main Ring Touchpoint",
+    "address": "No 152, Tenkasi Highway Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0182",
+    "name": "TVS - Alangulam Ring Road Feeder Point",
+    "address": "No 178, Radhapuram Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0183",
+    "name": "Bajaj - Kadayanallur Highway Central Layout Store",
+    "address": "No 165, Quilon-Thirumangalam Highway, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0184",
+    "name": "Yamaha - Kadayanallur Second Main Street",
+    "address": "No 103, Tenkasi Main Road, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0185",
+    "name": "Hero - Sankarankovil Feeder Ring Block",
+    "address": "No 75, Tirunelveli Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0186",
+    "name": "Honda - Sankarankovil Rajapalayam Layout Connect",
+    "address": "No 138, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0187",
+    "name": "TVS - Sankarankovil Highway Feeder Junction",
+    "address": "No 174, Kalugumalai Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0188",
+    "name": "Hero - Puliyangudi Town Bus Stand Shop",
+    "address": "No 68, Madurai Main Road, Near Bus Stand, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0189",
+    "name": "Honda - Puliyangudi Sankarankovil Main Highway Center",
+    "address": "No 122, Sankarankovil Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0190",
+    "name": "TVS - Puliyangudi Bypass Feeder Line",
+    "address": "No 154, Madurai Highway Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0191",
+    "name": "Hero - Sengottai Silayanvayal South Shop",
+    "address": "No 102, Tenkasi Main Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0192",
+    "name": "Honda - Sengottai Church Road Extension",
+    "address": "No 149, Courtallam Feeder Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0193",
+    "name": "TVS - Sengottai Highway Layout",
+    "address": "No 182, Station Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0194",
+    "name": "Hero - Tenkasi Town Bus Stand Layout Corner",
+    "address": "No 75, Madurai Main Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0195",
+    "name": "Honda - Tenkasi Feeder Store",
+    "address": "No 114, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0196",
+    "name": "TVS - Tenkasi New Bus Stand Highway Junction",
+    "address": "No 93, Madurai Road, Near New Bus Stand, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0197",
+    "name": "Hero - Surandai Pavoorchatram Block Store",
+    "address": "No 86, Pavoorchatram Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0198",
+    "name": "Honda - Surandai Alangulam Feeder Connect",
+    "address": "No 127, Alangulam Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0199",
+    "name": "Hero - Pavoorchatram Highway Connect",
+    "address": "No 74, Tenkasi-Tirunelveli Highway, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0200",
+    "name": "Honda - Pavoorchatram Sivaganga Highway Hub",
+    "address": "No 112, Surandai Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0201",
+    "name": "Hero - Surandai Pavoorchatram Line Retail Block",
+    "address": "No 102, Pavoorchatram Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0202",
+    "name": "Honda - Surandai Alangulam Feeder Junction Shop",
+    "address": "No 135, Alangulam Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0203",
+    "name": "TVS - Surandai Town Main Feeder Point",
+    "address": "No 164, Kamarajar Main Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0204",
+    "name": "Hero - Pavoorchatram Highway Feeder Line",
+    "address": "No 95, Tenkasi-Tirunelveli Highway, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0205",
+    "name": "Honda - Pavoorchatram Surandai Line Market Spot",
+    "address": "No 118, Surandai Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0206",
+    "name": "TVS - Pavoorchatram Highway Feeder Layout",
+    "address": "No 192, Tirunelveli Main Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0207",
+    "name": "Hero - Vasudevanallur Highway Feeder Line",
+    "address": "No 94, National Highway 744, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0208",
+    "name": "Honda - Vasudevanallur Sankarankovil Main Shop",
+    "address": "No 138, Sankarankovil Road, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0209",
+    "name": "Hero - Sivagiri Sankarankovil Market Line",
+    "address": "No 122, Sankarankovil Main Road, Sivagiri, Tenkasi, Tamil Nadu 627757",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0210",
+    "name": "Hero - Veerakeralamputhur Surandai Feeder Point",
+    "address": "No 92, Surandai Road, Veerakeralamputhur, Tenkasi, Tamil Nadu 627861",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0211",
+    "name": "Hero - Karivalamvandanallur Highway South Line",
+    "address": "No 88, Rajapalayam Highway, Karivalamvandanallur, Tenkasi, Tamil Nadu 627753",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0212",
+    "name": "Ampere EV - Tenkasi Courtallam Bypass Layout",
+    "address": "No 182, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0213",
+    "name": "Hero Electric - Tenkasi Madurai Line Layout Hub",
+    "address": "No 134, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0214",
+    "name": "Kinetic Green - Sankarankovil Rajapalayam Layout",
+    "address": "No 252, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0215",
+    "name": "Quantum Energy - Tenkasi Town Bypass Corner Shop",
+    "address": "No 88, Tirunelveli Highway, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0216",
+    "name": "Joy E-Bike - Tenkasi Courtallam Retail Base Block",
+    "address": "No 136, Courtallam Feeder Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0217",
+    "name": "Pure EV - Tenkasi Town Bypass Ring Corner",
+    "address": "No 184, Tirunelveli Main Road, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0218",
+    "name": "BNC Motors - Sankarankovil Retail Central Block",
+    "address": "No 102, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0219",
+    "name": "Greaves Cotton - Ampere EV Alangulam Line Point",
+    "address": "No 128, Tenkasi-Tirunelveli Highway, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0220",
+    "name": "TVS iQube - KMS Motors Tenkasi Main Ring Hub",
+    "address": "No 143, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0221",
+    "name": "Ola Electric - Kadayanallur Highway Ring Hub",
+    "address": "No 115, National Highway 744, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0222",
+    "name": "Lectrix EV - Tenkasi New Bus Stand Central Block",
+    "address": "No 310, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0223",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Ring Base Center",
+    "address": "No 114, Tirunelveli Main Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0224",
+    "name": "Tata Motors Commercial - VST Titanium Highway Ring Center",
+    "address": "SF No 185, Madurai Highway Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0225",
+    "name": "Mahindra Commercial - Raghav Motors Feeder Ring Line",
+    "address": "No 94, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0226",
+    "name": "Ashok Leyland Light Commercial - Tenkasi Ring Road Center",
+    "address": "No 182, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0227",
+    "name": "Force Motors - Tenkasi Town Bypass Ring Line Spot",
+    "address": "No 242, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0228",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car Courtallam Ring Bypass",
+    "address": "No 274, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0229",
+    "name": "Benelli - Tenkasi Courtallam South Extension Point",
+    "address": "No 222, Courtallam Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0230",
+    "name": "Triumph - Tenkasi Courtallam North Bypass Area Layout",
+    "address": "No 305, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0231",
+    "name": "Husqvarna - Tenkasi Bypass Ring Central Hub",
+    "address": "No 245, Madurai Highway, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0232",
+    "name": "Hero - Alangulam Highway Main Sub-Dealer Point Shop",
+    "address": "No 154, Tirunelveli Main Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0233",
+    "name": "Honda - Alangulam Main Ring Extension Touchpoint Shop",
+    "address": "No 212, Tenkasi Highway Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0234",
+    "name": "TVS - Alangulam Ring Road Feeder Block Point",
+    "address": "No 238, Radhapuram Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0235",
+    "name": "Bajaj - Kadayanallur Highway Central Layout Station Store",
+    "address": "No 225, Quilon-Thirumangalam Highway, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0236",
+    "name": "Yamaha - Kadayanallur Second Main Highway Street",
+    "address": "No 153, Tenkasi Main Road, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0237",
+    "name": "Hero - Sankarankovil Feeder Ring Layout Block",
+    "address": "No 125, Tirunelveli Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0238",
+    "name": "Honda - Sankarankovil Rajapalayam Layout Expansion Connect",
+    "address": "No 198, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0239",
+    "name": "TVS - Sankarankovil Highway Feeder Point Junction",
+    "address": "No 224, Kalugumalai Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0240",
+    "name": "Hero - Puliyangudi Town Bus Stand Layout Shop",
+    "address": "No 128, Madurai Main Road, Near Bus Stand, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0241",
+    "name": "Honda - Puliyangudi Sankarankovil Main Highway Point Center",
+    "address": "No 182, Sankarankovil Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0242",
+    "name": "TVS - Puliyangudi Bypass Feeder Connect Line",
+    "address": "No 214, Madurai Highway Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0243",
+    "name": "Hero - Sengottai Tenkasi Line Corner Shop",
+    "address": "No 162, Tenkasi Main Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0244",
+    "name": "Honda - Sengottai Courtallam Feeder Market Line",
+    "address": "No 209, Courtallam Feeder Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0245",
+    "name": "TVS - Sengottai Station Road Ring Layout",
+    "address": "No 242, Station Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0246",
+    "name": "Hero - Tenkasi Town Madurai Line Corner Base",
+    "address": "No 135, Madurai Main Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0247",
+    "name": "Honda - Tenkasi Tirunelveli Line Feeder Store",
+    "address": "No 174, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0248",
+    "name": "TVS - Tenkasi Madurai Highway Ring Corner Junction",
+    "address": "No 153, Madurai Road, Near New Bus Stand, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0249",
+    "name": "Hero - Surandai Pavoorchatram Ring Corner Store",
+    "address": "No 146, Pavoorchatram Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0250",
+    "name": "Honda - Surandai Alangulam Main Feeder Layout Connect",
+    "address": "No 187, Alangulam Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0251",
+    "name": "Hero - Pavoorchatram Tenkasi Highway Corner Connect",
+    "address": "No 134, Tenkasi-Tirunelveli Highway, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0252",
+    "name": "Honda - Pavoorchatram Surandai Bypass Highway Retail Hub",
+    "address": "No 172, Surandai Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0253",
+    "name": "TVS - Pavoorchatram Railway Feeder Junction Block",
+    "address": "No 214, Tirunelveli Main Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0254",
+    "name": "Hero - Vasudevanallur Highway Feeder Point Junction",
+    "address": "No 125, National Highway 744, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0255",
+    "name": "Honda - Vasudevanallur Sankarankovil Main Layout Connect",
+    "address": "No 198, Sankarankovil Road, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0256",
+    "name": "TVS - Vasudevanallur National Highway Feeder Block",
+    "address": "No 154, National Highway 744, Vasudevanallur, Tenkasi, Tamil Nadu 627758",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0257",
+    "name": "Hero - Sivagiri Sankarankovil Main Highway Center",
+    "address": "No 152, Sankarankovil Main Road, Sivagiri, Tenkasi, Tamil Nadu 627757",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0258",
+    "name": "Hero - Veerakeralamputhur Surandai Feeder Point Junction",
+    "address": "No 122, Surandai Road, Veerakeralamputhur, Tenkasi, Tamil Nadu 627861",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0259",
+    "name": "Hero - Karivalamvandanallur Highway South Layout Line",
+    "address": "No 118, Rajapalayam Highway, Karivalamvandanallur, Tenkasi, Tamil Nadu 627753",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0260",
+    "name": "Ampere EV - Tenkasi Courtallam Bypass Layout Expansion",
+    "address": "No 234, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0261",
+    "name": "Hero Electric - Tenkasi Madurai Line Layout Hub Store",
+    "address": "No 183, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0262",
+    "name": "Kinetic Green - Sankarankovil Rajapalayam Layout Station",
+    "address": "No 312, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0263",
+    "name": "Quantum Energy - Tenkasi Town Bypass Ring Point Center",
+    "address": "No 148, Tirunelveli Highway, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0264",
+    "name": "Joy E-Bike - Tenkasi Courtallam Retail Base Station Block",
+    "address": "No 196, Courtallam Feeder Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0265",
+    "name": "Pure EV - Tenkasi Town Bypass Ring Corner Point",
+    "address": "No 214, Tirunelveli Main Road, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0266",
+    "name": "BNC Motors - Sankarankovil Retail Central Block Hub",
+    "address": "No 162, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0267",
+    "name": "Greaves Cotton - Ampere EV Alangulam Line Point Highway",
+    "address": "No 188, Tenkasi-Tirunelveli Highway, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0268",
+    "name": "TVS iQube - KMS Motors Tenkasi Main Ring Line Hub",
+    "address": "No 173, Courtallam Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0269",
+    "name": "Ola Electric - Kadayanallur Highway Ring Station Hub",
+    "address": "No 145, National Highway 744, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0270",
+    "name": "Lectrix EV - Tenkasi New Bus Stand Central Area Block",
+    "address": "No 340, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0271",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Ring Base Layout",
+    "address": "No 144, Tirunelveli Main Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0272",
+    "name": "Tata Motors Commercial - VST Titanium Highway Ring Station",
+    "address": "SF No 215, Madurai Highway Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0273",
+    "name": "Mahindra Commercial - Raghav Motors Feeder Ring Line Shop",
+    "address": "No 124, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0274",
+    "name": "Ashok Leyland Light Commercial - Tenkasi Ring Road Base",
+    "address": "No 212, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0275",
+    "name": "Force Motors - Tenkasi Town Bypass Ring Line Layout",
+    "address": "No 272, Madurai Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0276",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car Courtallam Ring Main Bypass",
+    "address": "No 304, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_TKS0277",
+    "name": "Benelli - Tenkasi Courtallam South Extension Point Layout",
+    "address": "No 252, Courtallam Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0278",
+    "name": "Triumph - Tenkasi Courtallam North Bypass Area Station",
+    "address": "No 335, Courtallam Main Road, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0279",
+    "name": "Husqvarna - Tenkasi Bypass Ring Central Station Hub",
+    "address": "No 275, Madurai Highway, Piranoor, Tenkasi, Tamil Nadu 627803",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0280",
+    "name": "Hero - Alangulam Highway Main Sub-Dealer Point Base",
+    "address": "No 184, Tirunelveli Main Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0281",
+    "name": "Honda - Alangulam Main Ring Extension Touchpoint Block",
+    "address": "No 242, Tenkasi Highway Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0282",
+    "name": "TVS - Alangulam Ring Road Feeder Block Point Junction",
+    "address": "No 268, Radhapuram Road, Alangulam, Tenkasi, Tamil Nadu 627851",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0283",
+    "name": "Bajaj - Kadayanallur Highway Central Layout Base Store",
+    "address": "No 255, Quilon-Thirumangalam Highway, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0284",
+    "name": "Yamaha - Kadayanallur Second Main Highway Street Shop",
+    "address": "No 183, Tenkasi Main Road, Kadayanallur, Tenkasi, Tamil Nadu 627751",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0285",
+    "name": "Hero - Sankarankovil Feeder Ring Layout Block Base",
+    "address": "No 155, Tirunelveli Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0286",
+    "name": "Honda - Sankarankovil Rajapalayam Layout Expansion Connect Line",
+    "address": "No 228, Rajapalayam Main Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0287",
+    "name": "TVS - Sankarankovil Highway Feeder Point Junction Corner",
+    "address": "No 254, Kalugumalai Road, Sankarankovil, Tenkasi, Tamil Nadu 627756",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0288",
+    "name": "Hero - Puliyangudi Town Bus Stand Layout Shop Block",
+    "address": "No 158, Madurai Main Road, Near Bus Stand, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0289",
+    "name": "Honda - Puliyangudi Sankarankovil Main Highway Point Base",
+    "address": "No 212, Sankarankovil Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0290",
+    "name": "TVS - Puliyangudi Bypass Feeder Connect Line Block",
+    "address": "No 244, Madurai Highway Road, Puliyangudi, Tenkasi, Tamil Nadu 627855",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0291",
+    "name": "Hero - Sengottai Tenkasi Line Corner Shop Base",
+    "address": "No 192, Tenkasi Main Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0292",
+    "name": "Honda - Sengottai Courtallam Feeder Market Line Block",
+    "address": "No 239, Courtallam Feeder Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0293",
+    "name": "TVS - Sengottai Station Road Ring Layout Base",
+    "address": "No 272, Station Road, Sengottai, Tenkasi, Tamil Nadu 627809",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0294",
+    "name": "Hero - Tenkasi Town Madurai Line Corner Base Station",
+    "address": "No 165, Madurai Main Road, Tenkasi Town, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0295",
+    "name": "Honda - Tenkasi Tirunelveli Line Feeder Store Block",
+    "address": "No 204, Tirunelveli Road, Mattappa Nagar, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0296",
+    "name": "TVS - Tenkasi Madurai Highway Ring Corner Junction Base",
+    "address": "No 183, Madurai Road, Near New Bus Stand, Tenkasi, Tamil Nadu 627811",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0297",
+    "name": "Hero - Surandai Pavoorchatram Ring Corner Store Block",
+    "address": "No 176, Pavoorchatram Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0298",
+    "name": "Honda - Surandai Alangulam Main Feeder Layout Connect Line",
+    "address": "No 217, Alangulam Road, Surandai, Tenkasi, Tamil Nadu 627859",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0299",
+    "name": "Hero - Pavoorchatram Highway Connect Block",
+    "address": "No 104, Tenkasi-Tirunelveli Highway, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_TKS0300",
+    "name": "Honda - Pavoorchatram Sivaganga Highway Hub Store",
+    "address": "No 142, Surandai Road, Pavoorchatram, Tenkasi, Tamil Nadu 627808",
+    "type": "Bike Showroom"
+  }
+]

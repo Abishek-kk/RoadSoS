@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "SR_THN0001",
+    "name": "Maruti Suzuki Arena - Jayaraj Car (Theni Central)",
+    "address": "No 45, Madurai Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0002",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car (Theni City)",
+    "address": "No 84, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0003",
+    "name": "Maruti Suzuki Arena - Jayaraj Car (Cumbum)",
+    "address": "No 112, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0004",
+    "name": "Maruti Suzuki Arena - Jayaraj Car (Bodinayakanur)",
+    "address": "No 56, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0005",
+    "name": "Hyundai - Susee Hyundai (Theni Bypass)",
+    "address": "SF No 142, Madurai-Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0006",
+    "name": "Hyundai - Susee Hyundai (Cumbum Touchpoint)",
+    "address": "No 45, LF Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0007",
+    "name": "Tata Motors - True Sai Motors (Theni)",
+    "address": "No 18, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0008",
+    "name": "Tata Motors - True Sai Motors (Cumbum)",
+    "address": "No 89, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0009",
+    "name": "Mahindra - Raghav Motors (Theni Connect)",
+    "address": "No 33, Madurai Kochi Highway, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0010",
+    "name": "Toyota - Lanson Toyota (Theni Touchpoint)",
+    "address": "No 105, Madurai Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0011",
+    "name": "Honda Cars - Annamalai Honda (Theni)",
+    "address": "No 76, Periyakulam Road, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0012",
+    "name": "Kia - Instyle Kia (Theni Touchpoint)",
+    "address": "SF No 98, Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0013",
+    "name": "Hero - NMS Agencies (Theni)",
+    "address": "No 12, Madurai Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0014",
+    "name": "Hero - Sree NMS Motors (Cumbum)",
+    "address": "No 85, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0015",
+    "name": "Hero - Vaigai Agencies (Periyakulam)",
+    "address": "No 42, Theni Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0016",
+    "name": "Hero - Bodinayakanur Touchpoint",
+    "address": "No 94, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0017",
+    "name": "Hero - Uthamapalayam Touchpoint",
+    "address": "No 56, Cumbum Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0018",
+    "name": "Honda - Kurinji Honda (Theni)",
+    "address": "No 110, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0019",
+    "name": "Honda - Sree Honda (Cumbum)",
+    "address": "No 64, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0020",
+    "name": "Honda - Periyakulam Honda",
+    "address": "No 23, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0021",
+    "name": "Honda - Bodinayakanur Honda",
+    "address": "No 78, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0022",
+    "name": "Honda - Uthamapalayam Honda",
+    "address": "No 105, Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0023",
+    "name": "TVS - Sree KMS Motors (Theni)",
+    "address": "No 92, Madurai Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0024",
+    "name": "TVS - VRM Motors (Cumbum)",
+    "address": "No 48, Kumily Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0025",
+    "name": "TVS - Periyakulam Sub-Dealer",
+    "address": "No 67, Theni Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0026",
+    "name": "TVS - Bodinayakanur Sub-Dealer",
+    "address": "No 14, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0027",
+    "name": "TVS - Uthamapalayam Motors",
+    "address": "No 81, Cumbum Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0028",
+    "name": "Bajaj - Sree Jayanathan Bajaj (Theni)",
+    "address": "No 54, Periyakulam Road, Near Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0029",
+    "name": "Bajaj - Shanmugananda Motors (Cumbum)",
+    "address": "No 119, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0030",
+    "name": "Bajaj - Periyakulam Touchpoint",
+    "address": "No 34, Theni Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0031",
+    "name": "Bajaj - Bodinayakanur Sub-Dealer",
+    "address": "No 48, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0032",
+    "name": "Yamaha - Horizon Motors (Theni)",
+    "address": "No 89, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0033",
+    "name": "Yamaha - Sree Saravana Motors (Cumbum)",
+    "address": "No 45, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0034",
+    "name": "Yamaha - Blue Square Touchpoint (Periyakulam)",
+    "address": "No 73, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0035",
+    "name": "Royal Enfield - Maruthu Bullet Zone (Theni)",
+    "address": "No 115, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0036",
+    "name": "Royal Enfield - Cumbum Bullet Hub",
+    "address": "No 36, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0037",
+    "name": "Royal Enfield - Periyakulam Touchpoint",
+    "address": "No 85, Theni Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0038",
+    "name": "Suzuki - Karpagam Suzuki (Theni)",
+    "address": "No 132, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0039",
+    "name": "Suzuki - Meenakshi Suzuki (Cumbum)",
+    "address": "No 44, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0040",
+    "name": "Jawa Yezdi - Theni Touchpoint",
+    "address": "No 91, Madurai Road, Near New Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0041",
+    "name": "Ola Electric - Theni Experience Centre",
+    "address": "No 139, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0042",
+    "name": "Ather Energy - Ather Space Theni",
+    "address": "No 162, Madurai Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0043",
+    "name": "Ola Electric - Cumbum Hub",
+    "address": "No 94, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0044",
+    "name": "KTM & Chetak - Theni KTM Store",
+    "address": "No 53, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0045",
+    "name": "Hero - Chinnamanur Touchpoint",
+    "address": "No 18, Cumbum Main Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0046",
+    "name": "Honda - Chinnamanur Honda",
+    "address": "No 62, Puliangudi Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0047",
+    "name": "TVS - Chinnamanur Sub-Dealer",
+    "address": "No 94, Bypass Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0048",
+    "name": "Hero - Andipatti Touchpoint",
+    "address": "No 25, Madurai Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0049",
+    "name": "Honda - Andipatti Honda",
+    "address": "No 68, Theni Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0050",
+    "name": "TVS - Andipatti Motors",
+    "address": "No 104, Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0051",
+    "name": "TVS - Andipatti Sub-Dealer",
+    "address": "No 134, Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0052",
+    "name": "Bajaj - Andipatti Touchpoint",
+    "address": "No 41, Madurai Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0053",
+    "name": "Hero - Devadanapatti Touchpoint",
+    "address": "No 23, Periyakulam Main Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0054",
+    "name": "Honda - Devadanapatti Honda",
+    "address": "No 68, Dindigul Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0055",
+    "name": "TVS - Devadanapatti Sub-Dealer",
+    "address": "No 102, Main Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0056",
+    "name": "Hero - Gudalur Touchpoint",
+    "address": "No 19, Cumbum Road, Gudalur, Theni, Tamil Nadu 625518",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0057",
+    "name": "Honda - Gudalur Honda",
+    "address": "No 54, Kumily Main Road, Gudalur, Theni, Tamil Nadu 625518",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0058",
+    "name": "Hero - Kombai Touchpoint",
+    "address": "No 12, Uthamapalayam Main Road, Kombai, Theni, Tamil Nadu 625522",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0059",
+    "name": "Hero - Veerapandi Touchpoint",
+    "address": "No 34, Theni Road, Veerapandi, Theni, Tamil Nadu 625534",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0060",
+    "name": "Honda - Veerapandi Honda",
+    "address": "No 76, Cumbum Highway Road, Veerapandi, Theni, Tamil Nadu 625534",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0061",
+    "name": "Hero - Thenkarai Touchpoint",
+    "address": "No 25, Periyakulam Road, Thenkarai, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0062",
+    "name": "Honda - Thenkarai Honda",
+    "address": "No 64, Main Highway, Thenkarai, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0063",
+    "name": "TVS - Thenkarai Sub-Dealer",
+    "address": "No 112, Vadagarai Road, Thenkarai, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0064",
+    "name": "Hero - Cumbum Bypass Touchpoint",
+    "address": "No 14, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0065",
+    "name": "Ampere EV - Theni Eco Wheels",
+    "address": "No 152, Periyakulam Road, Near Old Bus Stand, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0066",
+    "name": "Hero Electric - Green Bikes Theni",
+    "address": "No 83, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0067",
+    "name": "Kinetic Green - Cumbum E-Mobility",
+    "address": "No 214, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0068",
+    "name": "Quantum Energy - EV Theni",
+    "address": "No 45, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0069",
+    "name": "Joy E-Bike - Theni PlugIn Store",
+    "address": "No 92, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0070",
+    "name": "Pure EV - Theni Electric Future",
+    "address": "No 112, Periyakulam Main Road, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0071",
+    "name": "BNC Motors - Cumbum EV Hub",
+    "address": "No 18, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0072",
+    "name": "Greaves Cotton - Ampere EV Periyakulam",
+    "address": "No 94, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0073",
+    "name": "TVS iQube - Sree KMS Motors Theni Main",
+    "address": "No 97, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0074",
+    "name": "Ola Electric - Cumbum Partner Zone",
+    "address": "No 48, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0075",
+    "name": "Lectrix EV - Theni Green Mobility",
+    "address": "No 310, Periyakulam Road, Near Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0076",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car (Theni)",
+    "address": "No 48, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0077",
+    "name": "Tata Motors Commercial - True Sai (Theni)",
+    "address": "SF No 115, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0078",
+    "name": "Mahindra Commercial - Raghav Motors Theni",
+    "address": "No 7, Madurai Kochi Highway, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0079",
+    "name": "Ashok Leyland Light Commercial - Theni Bypass",
+    "address": "No 140, Madurai Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0080",
+    "name": "Force Motors - Theni Touchpoint",
+    "address": "No 252, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0081",
+    "name": "Benelli - Theni Premium Connect",
+    "address": "No 88, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0082",
+    "name": "Triumph - Theni Touchpoint",
+    "address": "No 145, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0083",
+    "name": "Husqvarna - Theni Motorcycles",
+    "address": "No 115, Periyakulam Main Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0084",
+    "name": "Hero - Cumbum Junction Sub-Dealer",
+    "address": "No 34, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0085",
+    "name": "Honda - Cumbum Bypass Touchpoint Shop",
+    "address": "No 72, LF Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0086",
+    "name": "TVS - Cumbum Feeder Sub-Dealer",
+    "address": "No 118, Kumily Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0087",
+    "name": "Bajaj - Periyakulam Highway Store",
+    "address": "No 95, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0088",
+    "name": "Yamaha - Periyakulam Connect",
+    "address": "No 43, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0089",
+    "name": "Hero - Periyakulam Feeder Road Zone",
+    "address": "No 25, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0090",
+    "name": "Honda - Periyakulam Feeder Connect",
+    "address": "No 78, Theni Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0091",
+    "name": "TVS - Periyakulam Bypass Touchpoint",
+    "address": "No 104, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0092",
+    "name": "Hero - Bodinayakanur Bus Stand Touchpoint",
+    "address": "No 18, Madurai Road, Near Bus Stand, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0093",
+    "name": "Honda - Bodinayakanur Highway Road Zone",
+    "address": "No 62, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0094",
+    "name": "TVS - Bodinayakanur Main Road Connect",
+    "address": "No 94, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0095",
+    "name": "Hero - Uthamapalayam Feeder Road Zone",
+    "address": "No 42, Cumbum Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0096",
+    "name": "Honda - Uthamapalayam Cumbum Feeder Touchpoint",
+    "address": "No 89, Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0097",
+    "name": "TVS - Uthamapalayam Old Bus Stand Connect",
+    "address": "No 122, Cumbum Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0098",
+    "name": "Hero - Theni City Old Bus Stand Store",
+    "address": "No 15, Madurai Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0099",
+    "name": "Honda - Theni Periyakulam Road Store",
+    "address": "No 54, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0100",
+    "name": "TVS - Theni New Bus Stand Highway Touchpoint",
+    "address": "No 33, Periyakulam Road, Near Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0101",
+    "name": "Hero - Chinnamanur Cumbum Main Line Store",
+    "address": "No 36, Cumbum Main Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0102",
+    "name": "Honda - Chinnamanur Puliangudi Feeder Connect",
+    "address": "No 85, Puliangudi Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0103",
+    "name": "TVS - Chinnamanur Town Junction Store",
+    "address": "No 114, Bypass Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0104",
+    "name": "Hero - Andipatti Madurai Highway Connect",
+    "address": "No 24, Madurai Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0105",
+    "name": "Honda - Andipatti Theni Line Touchpoint",
+    "address": "No 61, Theni Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0106",
+    "name": "TVS - Andipatti Feeder Point",
+    "address": "No 142, Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0107",
+    "name": "Hero - Devadanapatti Periyakulam Line Shop",
+    "address": "No 48, Periyakulam Main Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0108",
+    "name": "Honda - Devadanapatti Highway Hub",
+    "address": "No 89, Dindigul Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0109",
+    "name": "Hero - Gudalur Cumbum Road Shop",
+    "address": "No 77, Cumbum Road, Gudalur, Theni, Tamil Nadu 625518",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0110",
+    "name": "Hero - Kombai Uthamapalayam Line Shop",
+    "address": "No 56, Uthamapalayam Main Road, Kombai, Theni, Tamil Nadu 625522",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0111",
+    "name": "Hero - Veerapandi Highway Line Shop",
+    "address": "No 42, Theni Road, Veerapandi, Theni, Tamil Nadu 625534",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0112",
+    "name": "Ampere EV - Theni Periyakulam Road Hub",
+    "address": "No 114, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0113",
+    "name": "Hero Electric - Theni Kochi Highway Hub",
+    "address": "No 63, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0114",
+    "name": "Kinetic Green - Cumbum Kumily Road",
+    "address": "No 192, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0115",
+    "name": "Quantum Energy - Theni Town Bypass Center",
+    "address": "No 28, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0116",
+    "name": "Joy E-Bike - Theni Periyakulam Line Block",
+    "address": "No 76, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0117",
+    "name": "Pure EV - Theni Town Bypass Corner",
+    "address": "No 124, Periyakulam Main Road, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0118",
+    "name": "BNC Motors - Cumbum Town Block",
+    "address": "No 42, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0119",
+    "name": "Greaves Cotton - Ampere EV Periyakulam Line",
+    "address": "No 68, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0120",
+    "name": "TVS iQube - Sree KMS Motors Theni Hub",
+    "address": "No 53, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0121",
+    "name": "Ola Electric - Cumbum Highway Hub",
+    "address": "No 25, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0122",
+    "name": "Lectrix EV - Theni Old Bus Stand Block",
+    "address": "No 220, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0123",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Center",
+    "address": "No 54, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0124",
+    "name": "Tata Motors Commercial - True Sai Highway Center",
+    "address": "SF No 125, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0125",
+    "name": "Mahindra Commercial - Raghav Motors Line",
+    "address": "No 34, Madurai Kochi Highway, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0126",
+    "name": "Ashok Leyland Light Commercial - Theni Center",
+    "address": "No 122, Madurai Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0127",
+    "name": "Force Motors - Theni Main Road Spot",
+    "address": "No 180, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0128",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car Periyakulam Road",
+    "address": "No 210, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0129",
+    "name": "Benelli - Theni Periyakulam Road Spot",
+    "address": "No 142, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0130",
+    "name": "Triumph - Theni Periyakulam Bypass Store",
+    "address": "No 198, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0131",
+    "name": "Husqvarna - Theni Kochi Highway Store",
+    "address": "No 145, Periyakulam Main Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0132",
+    "name": "Hero - Cumbum Junction Sub-Dealer Shop",
+    "address": "No 64, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0133",
+    "name": "Honda - Cumbum Bypass Touchpoint Shop",
+    "address": "No 112, LF Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0134",
+    "name": "TVS - Cumbum Kumily Road Junction",
+    "address": "No 148, Kumily Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0135",
+    "name": "Bajaj - Periyakulam Highway Main Store",
+    "address": "No 135, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0136",
+    "name": "Yamaha - Periyakulam Main Road Street",
+    "address": "No 73, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0137",
+    "name": "Hero - Periyakulam Feraw Road Zone",
+    "address": "No 45, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0138",
+    "name": "Honda - Periyakulam Theni Highway Layout Connect",
+    "address": "No 108, Theni Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0139",
+    "name": "TVS - Periyakulam Bypass Junction",
+    "address": "No 144, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0140",
+    "name": "Hero - Bodinayakanur Bus Stand Corner Shop",
+    "address": "No 38, Madurai Road, Near Bus Stand, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0141",
+    "name": "Honda - Bodinayakanur Madurai Highway Hub",
+    "address": "No 92, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0142",
+    "name": "TVS - Bodinayakanur Madurai Highway Line",
+    "address": "No 124, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0143",
+    "name": "Hero - Uthamapalayam Cumbum Line Shop",
+    "address": "No 72, Cumbum Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0144",
+    "name": "Honda - Uthamapalayam Cumbum Feeder Line",
+    "address": "No 119, Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0145",
+    "name": "TVS - Uthamapalayam Cumbum Road Hub",
+    "address": "No 152, Cumbum Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0146",
+    "name": "Hero - Theni City Madurai Line Corner",
+    "address": "No 45, Madurai Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0147",
+    "name": "Honda - Theni Periyakulam Line Store",
+    "address": "No 84, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0148",
+    "name": "TVS - Theni Periyakulam Highway Line",
+    "address": "No 63, Periyakulam Road, Near Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0149",
+    "name": "Hero - Chinnamanur Cumbum Main Store",
+    "address": "No 56, Cumbum Main Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0150",
+    "name": "Honda - Chinnamanur Puliangudi Line Connect",
+    "address": "No 97, Puliangudi Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0151",
+    "name": "TVS - Chinnamanur Bypass Line",
+    "address": "No 144, Bypass Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0152",
+    "name": "Hero - Andipatti Theni Highway Line",
+    "address": "No 74, Theni Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0153",
+    "name": "Honda - Andipatti Main Road Layout Hub",
+    "address": "No 82, Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0154",
+    "name": "TVS - Andipatti Madurai Highway Hub",
+    "address": "No 168, Madurai Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0155",
+    "name": "Hero - Devadanapatti Highway Corner Shop",
+    "address": "No 66, Periyakulam Main Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0156",
+    "name": "Honda - Devadanapatti Dindigul Highway Hub",
+    "address": "No 115, Dindigul Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0157",
+    "name": "Hero - Gudalur Main Highway Corner",
+    "address": "No 98, Cumbum Road, Gudalur, Theni, Tamil Nadu 625518",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0158",
+    "name": "Hero - Kombai Uthamapalayam Line Shop",
+    "address": "No 72, Uthamapalayam Main Road, Kombai, Theni, Tamil Nadu 625522",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0159",
+    "name": "Hero - Veerapandi Theni Line Shop",
+    "address": "No 68, Theni Road, Veerapandi, Theni, Tamil Nadu 625534",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0160",
+    "name": "Ampere EV - Theni Periyakulam Retail Hub",
+    "address": "No 144, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0161",
+    "name": "Hero Electric - Theni City Retail Hub",
+    "address": "No 93, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0162",
+    "name": "Kinetic Green - Cumbum Kumily Road Outlet",
+    "address": "No 222, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0163",
+    "name": "Quantum Energy - Theni Bypass Center Shop",
+    "address": "No 58, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0164",
+    "name": "Joy E-Bike - Theni Periyakulam Retail Block",
+    "address": "No 106, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0165",
+    "name": "Pure EV - Theni City Layout Corner",
+    "address": "No 154, Periyakulam Main Road, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0166",
+    "name": "BNC Motors - Cumbum Retail Block",
+    "address": "No 72, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0167",
+    "name": "Greaves Cotton - Ampere EV Periyakulam Highway Line",
+    "address": "No 98, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0168",
+    "name": "TVS iQube - Sree KMS Motors Theni Main Hub",
+    "address": "No 113, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0169",
+    "name": "Ola Electric - Cumbum Highway Junction Hub",
+    "address": "No 85, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0170",
+    "name": "Lectrix EV - Theni Kochi Highway Block",
+    "address": "No 250, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0171",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Layout Center",
+    "address": "No 84, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0172",
+    "name": "Tata Motors Commercial - True Sai Highway Main Center",
+    "address": "SF No 155, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0173",
+    "name": "Mahindra Commercial - Raghav Motors Feeder Line",
+    "address": "No 64, Madurai Kochi Highway, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0174",
+    "name": "Ashok Leyland Light Commercial - Theni Bypass Corner",
+    "address": "No 152, Madurai Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0175",
+    "name": "Force Motors - Theni Town Bypass Ring Spot",
+    "address": "No 212, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0176",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car Periyakulam Bypass",
+    "address": "No 244, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0177",
+    "name": "Benelli - Theni Periyakulam Road Spot",
+    "address": "No 192, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0178",
+    "name": "Triumph - Theni Periyakulam North Bypass Layout",
+    "address": "No 245, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0179",
+    "name": "Husqvarna - Theni Bypass Ring Hub",
+    "address": "No 185, Periyakulam Main Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0180",
+    "name": "Hero - Cumbum Highway Main Sub-Dealer Spot",
+    "address": "No 94, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0181",
+    "name": "Honda - Cumbum Main Ring Touchpoint",
+    "address": "No 152, LF Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0182",
+    "name": "TVS - Cumbum Ring Road Feeder Point",
+    "address": "No 178, Kumily Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0183",
+    "name": "Bajaj - Periyakulam Highway Central Layout Store",
+    "address": "No 165, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0184",
+    "name": "Yamaha - Periyakulam Second Main Street",
+    "address": "No 103, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0185",
+    "name": "Hero - Periyakulam Feeder Ring Block",
+    "address": "No 75, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0186",
+    "name": "Honda - Periyakulam Theni Highway Layout Connect",
+    "address": "No 138, Theni Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0187",
+    "name": "TVS - Periyakulam Highway Feeder Junction",
+    "address": "No 174, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0188",
+    "name": "Hero - Bodinayakanur Town Bus Stand Shop",
+    "address": "No 68, Madurai Road, Near Bus Stand, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0189",
+    "name": "Honda - Bodinayakanur Madurai Main Highway Center",
+    "address": "No 122, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0190",
+    "name": "TVS - Bodinayakanur Bypass Feeder Line",
+    "address": "No 154, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0191",
+    "name": "Hero - Uthamapalayam Cumbum Line Corner Shop",
+    "address": "No 102, Cumbum Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0192",
+    "name": "Honda - Uthamapalayam Church Road Extension",
+    "address": "No 149, Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0193",
+    "name": "TVS - Uthamapalayam Highway Layout",
+    "address": "No 182, Cumbum Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0194",
+    "name": "Hero - Theni City Old Bus Stand Layout Corner",
+    "address": "No 75, Madurai Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0195",
+    "name": "Honda - Theni Feeder Store",
+    "address": "No 114, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0196",
+    "name": "TVS - Theni New Bus Stand Highway Junction",
+    "address": "No 93, Periyakulam Road, Near Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0197",
+    "name": "Hero - Chinnamanur Cumbum Block Store",
+    "address": "No 86, Cumbum Main Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0198",
+    "name": "Honda - Chinnamanur Puliangudi Feeder Connect",
+    "address": "No 127, Puliangudi Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0199",
+    "name": "Hero - Andipatti Theni Highway Connect Block",
+    "address": "No 104, Theni Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0200",
+    "name": "Honda - Andipatti Main Road Highway Hub Store",
+    "address": "No 142, Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0201",
+    "name": "Hero - Chinnamanur Cumbum Line Retail Block",
+    "address": "No 102, Cumbum Main Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0202",
+    "name": "Honda - Chinnamanur Puliangudi Feeder Junction Shop",
+    "address": "No 135, Puliangudi Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0203",
+    "name": "TVS - Chinnamanur Bypass Main Feeder Point",
+    "address": "No 164, Bypass Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0204",
+    "name": "Hero - Andipatti Highway Feeder Line",
+    "address": "No 95, Madurai Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0205",
+    "name": "Honda - Andipatti Theni Line Market Spot",
+    "address": "No 118, Theni Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0206",
+    "name": "TVS - Andipatti Highway Feeder Layout",
+    "address": "No 192, Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0207",
+    "name": "Hero - Devadanapatti Highway Feeder Line",
+    "address": "No 94, Periyakulam Main Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0208",
+    "name": "Honda - Devadanapatti Dindigul Main Shop",
+    "address": "No 138, Dindigul Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0209",
+    "name": "Hero - Gudalur Cumbum Market Line",
+    "address": "No 122, Cumbum Road, Gudalur, Theni, Tamil Nadu 625518",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0210",
+    "name": "Hero - Kombai Uthamapalayam Feeder Point",
+    "address": "No 92, Uthamapalayam Main Road, Kombai, Theni, Tamil Nadu 625522",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0211",
+    "name": "Hero - Veerapandi Highway South Line",
+    "address": "No 88, Theni Road, Veerapandi, Theni, Tamil Nadu 625534",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0212",
+    "name": "Ampere EV - Theni Periyakulam Bypass Layout",
+    "address": "No 182, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0213",
+    "name": "Hero Electric - Theni Kochi Line Layout Hub Store",
+    "address": "No 134, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0214",
+    "name": "Kinetic Green - Cumbum Kumily Layout Station",
+    "address": "No 252, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0215",
+    "name": "Quantum Energy - Theni Town Bypass Corner Shop Center",
+    "address": "No 88, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0216",
+    "name": "Joy E-Bike - Theni Periyakulam Retail Base Block",
+    "address": "No 136, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0217",
+    "name": "Pure EV - Theni Town Bypass Ring Corner",
+    "address": "No 184, Periyakulam Main Road, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0218",
+    "name": "BNC Motors - Cumbum Retail Central Block Hub",
+    "address": "No 102, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0219",
+    "name": "Greaves Cotton - Ampere EV Periyakulam Line Point Highway",
+    "address": "No 128, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0220",
+    "name": "TVS iQube - Sree KMS Motors Theni Main Ring Hub",
+    "address": "No 143, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0221",
+    "name": "Ola Electric - Cumbum Highway Ring Hub",
+    "address": "No 115, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0222",
+    "name": "Lectrix EV - Theni Old Bus Stand Central Block",
+    "address": "No 310, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0223",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Ring Base Layout",
+    "address": "No 114, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0224",
+    "name": "Tata Motors Commercial - True Sai Highway Ring Station",
+    "address": "SF No 185, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0225",
+    "name": "Mahindra Commercial - Raghav Motors Feeder Ring Line Shop",
+    "address": "No 94, Madurai Kochi Highway, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0226",
+    "name": "Ashok Leyland Light Commercial - Theni Ring Road Center",
+    "address": "No 182, Madurai Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0227",
+    "name": "Force Motors - Theni Town Bypass Ring Line Spot",
+    "address": "No 242, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0228",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car Periyakulam Ring Bypass",
+    "address": "No 274, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0229",
+    "name": "Benelli - Theni Periyakulam Road South Extension Point Layout",
+    "address": "No 222, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0230",
+    "name": "Triumph - Theni Periyakulam North Bypass Area Layout",
+    "address": "No 305, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0231",
+    "name": "Husqvarna - Theni Bypass Ring Central Station Hub",
+    "address": "No 245, Periyakulam Main Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0232",
+    "name": "Hero - Cumbum Highway Main Sub-Dealer Point Shop",
+    "address": "No 154, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0233",
+    "name": "Honda - Cumbum Main Ring Extension Touchpoint Shop",
+    "address": "No 212, LF Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0234",
+    "name": "TVS - Cumbum Ring Road Feeder Block Point Junction",
+    "address": "No 238, Kumily Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0235",
+    "name": "Bajaj - Periyakulam Highway Central Layout Station Store",
+    "address": "No 225, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0236",
+    "name": "Yamaha - Periyakulam Second Main Highway Street Shop",
+    "address": "No 153, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0237",
+    "name": "Hero - Periyakulam Feeder Ring Layout Block Base",
+    "address": "No 125, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0238",
+    "name": "Honda - Periyakulam Theni Highway Layout Expansion Connect Line",
+    "address": "No 198, Theni Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0239",
+    "name": "TVS - Periyakulam Highway Feeder Point Junction Corner",
+    "address": "No 224, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0240",
+    "name": "Hero - Bodinayakanur Town Bus Stand Layout Shop Block",
+    "address": "No 128, Madurai Road, Near Bus Stand, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0241",
+    "name": "Honda - Bodinayakanur Madurai Main Highway Point Base",
+    "address": "No 182, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0242",
+    "name": "TVS - Bodinayakanur Bypass Feeder Connect Line Block",
+    "address": "No 214, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0243",
+    "name": "Hero - Uthamapalayam Cumbum Line Corner Shop Base",
+    "address": "No 162, Cumbum Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0244",
+    "name": "Honda - Uthamapalayam Church Road Market Feeder Line",
+    "address": "No 209, Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0245",
+    "name": "TVS - Uthamapalayam Cumbum Road Ring Layout Base",
+    "address": "No 242, Cumbum Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0246",
+    "name": "Hero - Theni City Old Bus Stand Layout Corner Base Station",
+    "address": "No 135, Madurai Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0247",
+    "name": "Honda - Theni Periyakulam Line Feeder Store Block",
+    "address": "No 174, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0248",
+    "name": "TVS - Theni New Bus Stand Highway Ring Corner Junction Base",
+    "address": "No 153, Periyakulam Road, Near Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0249",
+    "name": "Hero - Chinnamanur Cumbum Ring Corner Store Block",
+    "address": "No 146, Cumbum Main Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0250",
+    "name": "Honda - Chinnamanur Puliangudi Feeder Layout Connect Line",
+    "address": "No 187, Puliangudi Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0251",
+    "name": "Hero - Andipatti Highway Corner Connect",
+    "address": "No 134, Madurai Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0252",
+    "name": "Honda - Andipatti Theni Bypass Highway Retail Hub",
+    "address": "No 172, Theni Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0253",
+    "name": "TVS - Andipatti Feeder Junction Block",
+    "address": "No 214, Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0254",
+    "name": "Hero - Devadanapatti Periyakulam Highway Feeder Point Junction",
+    "address": "No 125, Periyakulam Main Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0255",
+    "name": "Honda - Devadanapatti Dindigul Main Layout Connect",
+    "address": "No 198, Dindigul Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0256",
+    "name": "TVS - Devadanapatti Highway Feeder Block",
+    "address": "No 154, Main Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0257",
+    "name": "Hero - Gudalur Cumbum Main Highway Center",
+    "address": "No 152, Cumbum Road, Gudalur, Theni, Tamil Nadu 625518",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0258",
+    "name": "Hero - Kombai Uthamapalayam Feeder Point Junction",
+    "address": "No 122, Uthamapalayam Main Road, Kombai, Theni, Tamil Nadu 625522",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0259",
+    "name": "Hero - Veerapandi Highway South Layout Line",
+    "address": "No 118, Theni Road, Veerapandi, Theni, Tamil Nadu 625534",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0260",
+    "name": "Ampere EV - Theni Periyakulam Bypass Layout Expansion",
+    "address": "No 234, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0261",
+    "name": "Hero Electric - Theni Kochi Line Layout Hub Store",
+    "address": "No 183, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0262",
+    "name": "Kinetic Green - Cumbum Kumily Layout Station",
+    "address": "No 312, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0263",
+    "name": "Quantum Energy - Theni Town Bypass Ring Point Center",
+    "address": "No 148, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0264",
+    "name": "Joy E-Bike - Theni Periyakulam Retail Base Station Block",
+    "address": "No 196, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0265",
+    "name": "Pure EV - Theni Town Bypass Ring Corner Point",
+    "address": "No 214, Periyakulam Main Road, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0266",
+    "name": "BNC Motors - Cumbum Retail Central Block Hub",
+    "address": "No 162, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0267",
+    "name": "Greaves Cotton - Ampere EV Periyakulam Line Point Highway",
+    "address": "No 188, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0268",
+    "name": "TVS iQube - Sree KMS Motors Theni Main Ring Line Hub",
+    "address": "No 173, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0269",
+    "name": "Ola Electric - Cumbum Highway Ring Station Hub",
+    "address": "No 145, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0270",
+    "name": "Lectrix EV - Theni Old Bus Stand Central Area Block",
+    "address": "No 340, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0271",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Ring Base Layout",
+    "address": "No 144, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0272",
+    "name": "Tata Motors Commercial - True Sai Highway Ring Station",
+    "address": "SF No 215, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0273",
+    "name": "Mahindra Commercial - Raghav Motors Feeder Ring Line Shop",
+    "address": "No 124, Madurai Kochi Highway, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0274",
+    "name": "Ashok Leyland Light Commercial - Theni Ring Road Base",
+    "address": "No 212, Madurai Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0275",
+    "name": "Force Motors - Theni Town Bypass Ring Line Layout",
+    "address": "No 272, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0276",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car Periyakulam Ring Main Bypass",
+    "address": "No 304, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0277",
+    "name": "Benelli - Theni Periyakulam Road South Extension Point Layout",
+    "address": "No 252, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0278",
+    "name": "Triumph - Theni Periyakulam North Bypass Area Station",
+    "address": "No 335, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0279",
+    "name": "Husqvarna - Theni Bypass Ring Central Station Hub",
+    "address": "No 275, Periyakulam Main Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0280",
+    "name": "Hero - Cumbum Highway Main Sub-Dealer Point Base",
+    "address": "No 184, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0281",
+    "name": "Honda - Cumbum Main Ring Extension Touchpoint Block Line",
+    "address": "No 242, LF Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0282",
+    "name": "TVS - Cumbum Ring Road Feeder Block Point Junction Base",
+    "address": "No 268, Kumily Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0283",
+    "name": "Bajaj - Periyakulam Highway Central Layout Base Store Main",
+    "address": "No 255, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0284",
+    "name": "Yamaha - Periyakulam Second Main Highway Street Shop Line",
+    "address": "No 183, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0285",
+    "name": "Hero - Periyakulam Feeder Ring Layout Block Base Station",
+    "address": "No 155, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0286",
+    "name": "Honda - Periyakulam Theni Highway Layout Expansion Connect Route",
+    "address": "No 228, Theni Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0287",
+    "name": "TVS - Periyakulam Highway Feeder Point Junction Corner Area",
+    "address": "No 254, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0288",
+    "name": "Hero - Bodinayakanur Town Bus Stand Layout Shop Block Station",
+    "address": "No 158, Madurai Road, Near Bus Stand, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0289",
+    "name": "Honda - Bodinayakanur Madurai Main Highway Point Base Hub",
+    "address": "No 212, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0290",
+    "name": "TVS - Bodinayakanur Bypass Feeder Connect Line Block Spot",
+    "address": "No 244, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0291",
+    "name": "Hero - Uthamapalayam Cumbum Line Corner Shop Base Junction",
+    "address": "No 192, Cumbum Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0292",
+    "name": "Honda - Uthamapalayam Church Road Market Line Block Spot",
+    "address": "No 239, Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0293",
+    "name": "TVS - Uthamapalayam Cumbum Road Ring Layout Base Hub",
+    "address": "No 272, Cumbum Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0294",
+    "name": "Hero - Theni City Old Bus Stand Layout Corner Base Station Block",
+    "address": "No 165, Madurai Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0295",
+    "name": "Honda - Theni Periyakulam Line Feeder Store Block Area",
+    "address": "No 204, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0296",
+    "name": "TVS - Theni New Bus Stand Highway Ring Corner Junction Base Station",
+    "address": "No 183, Periyakulam Road, Near Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0297",
+    "name": "Hero - Chinnamanur Cumbum Ring Corner Store Block Base",
+    "address": "No 176, Cumbum Main Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0298",
+    "name": "Honda - Chinnamanur Puliangudi Feeder Layout Connect Line Station",
+    "address": "No 217, Puliangudi Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0299",
+    "name": "Hero - Andipatti Theni Highway Connect Block Base",
+    "address": "No 104, Theni Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0300",
+    "name": "Honda - Andipatti Main Road Highway Hub Store Route",
+    "address": "No 142, Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0301",
+    "name": "Hero - Andipatti Highway Corner Base Station Layout",
+    "address": "No 214, Madurai Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0302",
+    "name": "Honda - Andipatti Theni Bypass Highway Station Line",
+    "address": "No 242, Theni Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0303",
+    "name": "TVS - Andipatti Feeder Junction Base Station",
+    "address": "No 268, Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0304",
+    "name": "Hero - Devadanapatti Periyakulam Highway Feeder Junction Corner",
+    "address": "No 185, Periyakulam Main Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0305",
+    "name": "Honda - Devadanapatti Dindigul Main Layout Connect Route",
+    "address": "No 258, Dindigul Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0306",
+    "name": "TVS - Devadanapatti Highway Feeder Point Base",
+    "address": "No 284, Main Road, Devadanapatti, Theni, Tamil Nadu 625602",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0307",
+    "name": "Hero - Gudalur Cumbum Main Highway Center Base",
+    "address": "No 188, Cumbum Road, Gudalur, Theni, Tamil Nadu 625518",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0308",
+    "name": "Hero - Kombai Uthamapalayam Feeder Point Junction Station",
+    "address": "No 202, Uthamapalayam Main Road, Kombai, Theni, Tamil Nadu 625522",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0309",
+    "name": "Hero - Veerapandi Highway South Layout Line Base Station",
+    "address": "No 172, Theni Road, Veerapandi, Theni, Tamil Nadu 625534",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0310",
+    "name": "Ampere EV - Theni Periyakulam Bypass Layout Expansion Station",
+    "address": "No 314, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0311",
+    "name": "Hero Electric - Theni Kochi Line Retail Layout Hub Terminal",
+    "address": "No 243, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0312",
+    "name": "Kinetic Green - Cumbum Kumily Layout Station Hub",
+    "address": "No 372, Kumily Main Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0313",
+    "name": "Quantum Energy - Theni Town Bypass Ring Point Center Station",
+    "address": "No 228, Madurai Kochi Highway, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0314",
+    "name": "Joy E-Bike - Theni Periyakulam Retail Base Station Block Route",
+    "address": "No 254, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0315",
+    "name": "Pure EV - Theni Town Bypass Ring Corner Point Base",
+    "address": "No 274, Periyakulam Main Road, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0316",
+    "name": "BNC Motors - Cumbum Retail Central Block Hub Base Station",
+    "address": "No 222, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0317",
+    "name": "Greaves Cotton - Ampere EV Periyakulam Line Point Highway Layout",
+    "address": "No 248, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0318",
+    "name": "TVS iQube - Sree KMS Motors Theni Main Ring Line Hub Station",
+    "address": "No 223, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0319",
+    "name": "Ola Electric - Cumbum Highway Ring Station Hub Layout",
+    "address": "No 205, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0320",
+    "name": "Lectrix EV - Theni Old Bus Stand Central Area Block Hub",
+    "address": "No 400, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0321",
+    "name": "Maruti Suzuki Commercial - Jayaraj Car Ring Base Layout Hub",
+    "address": "No 194, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0322",
+    "name": "Tata Motors Commercial - True Sai Highway Ring Station Layout",
+    "address": "SF No 275, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0323",
+    "name": "Mahindra Commercial - Raghav Motors Feeder Ring Line Shop Base Station",
+    "address": "No 184, Madurai Kochi Highway, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0324",
+    "name": "Ashok Leyland Light Commercial - Theni Ring Road Base Hub Route",
+    "address": "No 272, Madurai Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0325",
+    "name": "Force Motors - Theni Town Bypass Ring Line Layout Line",
+    "address": "No 332, Periyakulam Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0326",
+    "name": "Maruti Suzuki Nexa - Jayaraj Car Periyakulam Ring Main Bypass Station",
+    "address": "No 374, Periyakulam Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Car Showroom"
+  },
+  {
+    "id": "SR_THN0327",
+    "name": "Benelli - Theni Periyakulam Road South Extension Point Layout Route",
+    "address": "No 312, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0328",
+    "name": "Triumph - Theni Periyakulam North Bypass Area Station Hub",
+    "address": "No 395, Periyakulam Main Road, Allinagaram, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0329",
+    "name": "Husqvarna - Theni Bypass Ring Central Station Hub Line",
+    "address": "No 335, Periyakulam Main Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0330",
+    "name": "Hero - Cumbum Highway Main Sub-Dealer Point Base Connect",
+    "address": "No 244, Kumily Highway Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0331",
+    "name": "Honda - Cumbum Main Ring Extension Touchpoint Block Line Hub",
+    "address": "No 302, LF Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0332",
+    "name": "TVS - Cumbum Ring Road Feeder Block Point Junction Base Station",
+    "address": "No 328, Kumily Road, Cumbum, Theni, Tamil Nadu 625516",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0333",
+    "name": "Bajaj - Periyakulam Highway Central Layout Base Store Main Line",
+    "address": "No 315, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0334",
+    "name": "Yamaha - Periyakulam Second Main Highway Street Shop Connection",
+    "address": "No 243, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0335",
+    "name": "Hero - Periyakulam Feeder Ring Layout Block Base Station Hub",
+    "address": "No 215, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0336",
+    "name": "Honda - Periyakulam Theni Highway Layout Expansion Connect Highway",
+    "address": "No 288, Theni Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0337",
+    "name": "TVS - Periyakulam Highway Feeder Point Junction Corner Area Base",
+    "address": "No 314, Theni Main Road, Periyakulam, Theni, Tamil Nadu 625501",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0338",
+    "name": "Hero - Bodinayakanur Town Bus Stand Layout Shop Block Station Hub",
+    "address": "No 218, Madurai Road, Near Bus Stand, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0339",
+    "name": "Honda - Bodinayakanur Madurai Main Highway Point Base Hub Station",
+    "address": "No 272, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0340",
+    "name": "TVS - Bodinayakanur Bypass Feeder Connect Line Block Spot Base",
+    "address": "No 304, Madurai Road, Bodinayakanur, Theni, Tamil Nadu 625513",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0341",
+    "name": "Hero - Uthamapalayam Cumbum Line Corner Shop Base Junction Station",
+    "address": "No 252, Cumbum Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0342",
+    "name": "Honda - Uthamapalayam Church Road Market Line Block Spot Line",
+    "address": "No 299, Main Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0343",
+    "name": "TVS - Uthamapalayam Cumbum Road Ring Layout Base Hub Center",
+    "address": "No 332, Cumbum Road, Uthamapalayam, Theni, Tamil Nadu 625533",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0344",
+    "name": "Hero - Theni City Old Bus Stand Layout Corner Base Station Block Hub",
+    "address": "No 225, Madurai Road, Near Old Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0345",
+    "name": "Honda - Theni Periyakulam Line Feeder Store Block Area Station",
+    "address": "No 264, Periyakulam Road, Theni Town, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0346",
+    "name": "TVS - Theni New Bus Stand Highway Ring Corner Junction Base Station Hub",
+    "address": "No 243, Periyakulam Road, Near Bus Stand, Theni, Tamil Nadu 625531",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0347",
+    "name": "Hero - Chinnamanur Cumbum Ring Corner Store Block Base Route",
+    "address": "No 236, Cumbum Main Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0348",
+    "name": "Honda - Chinnamanur Puliangudi Feeder Layout Connect Line Station Hub",
+    "address": "No 277, Puliangudi Road, Chinnamanur, Theni, Tamil Nadu 625515",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0349",
+    "name": "Hero - Andipatti Theni Highway Connect Block Base Station",
+    "address": "No 164, Theni Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  },
+  {
+    "id": "SR_THN0350",
+    "name": "Honda - Andipatti Main Road Highway Hub Store Route Line",
+    "address": "No 202, Main Road, Andipatti, Theni, Tamil Nadu 625512",
+    "type": "Bike Showroom"
+  }
+]

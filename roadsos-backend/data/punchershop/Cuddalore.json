@@ -1,0 +1,737 @@
+[
+  {
+    "id": "PUN_CUDDALORE_0001",
+    "name": "Sri Vinayaga Tyre Puncture Shop",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "address": "Nellikuppam Main Road, Near Cuddalore New Bus Stand, Cuddalore, Tamil Nadu 607001",
+    "latitude": 11.7485,
+    "longitude": 79.7612,
+    "phone": "+91 94441 77881",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0002",
+    "name": "Murugan Tyre Works & Vulcanizing",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "address": "Chidambaram Main Road, Near Railway Level Crossing, Cuddalore Old Town, Cuddalore, Tamil Nadu 607003",
+    "latitude": 11.7295,
+    "longitude": 79.7542,
+    "phone": "+91 98423 33441",
+    "services": [
+      "Tube Vulcanizing",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0003",
+    "name": "24/7 Cuddalore Highway Emergency Puncture",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "address": "Panruti Bypass Road, Near SIPCOT Industrial Complex, Cuddalore, Tamil Nadu 607005",
+    "latitude": 11.7112,
+    "longitude": 79.7214,
+    "phone": "+91 88702 22334",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0004",
+    "name": "Sri Balaji Tyre Care & Alignment",
+    "district": "Cuddalore",
+    "city": "Chidambaram",
+    "state": "Tamil Nadu",
+    "address": "Sirkali Main Road, Near Annamalai University Gate, Chidambaram, Cuddalore District, Tamil Nadu 608002",
+    "latitude": 11.3984,
+    "longitude": 79.7114,
+    "phone": "+91 97912 66771",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0005",
+    "name": "Express Wheel Hub & Care",
+    "district": "Cuddalore",
+    "city": "Panruti",
+    "state": "Tamil Nadu",
+    "address": "Cuddalore Main Road, Near Four Roads Junction, Panruti, Cuddalore District, Tamil Nadu 607106",
+    "latitude": 11.7645,
+    "longitude": 79.5512,
+    "phone": "+91 94445 99112",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0006",
+    "name": "Muthu Quick Puncture Corner",
+    "district": "Cuddalore",
+    "city": "Virudhachalam",
+    "state": "Tamil Nadu",
+    "address": "Jayankondam Road, Opposite Government Hospital, Virudhachalam, Cuddalore District, Tamil Nadu 606001",
+    "latitude": 11.5114,
+    "longitude": 79.3254,
+    "phone": "+91 90422 44551",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0007",
+    "name": "Siva Tyre Vulcanizing Station",
+    "district": "Cuddalore",
+    "city": "Nellikuppam",
+    "state": "Tamil Nadu",
+    "address": "Cuddalore Main Road, Near EID Parry Sugar Factory, Nellikuppam, Cuddalore District, Tamil Nadu 607105",
+    "latitude": 11.7724,
+    "longitude": 79.6891,
+    "phone": "+91 96001 11223",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0008",
+    "name": "Smart Tyre Multi Care",
+    "district": "Cuddalore",
+    "city": "Neyveli",
+    "state": "Tamil Nadu",
+    "address": "Mandarakuppam Main Road, Near Arch Gate Crossing, Neyveli, Cuddalore District, Tamil Nadu 607802",
+    "latitude": 11.5815,
+    "longitude": 79.4854,
+    "phone": "+91 90803 88995",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0009",
+    "name": "Veera Heavy Truck Puncture Base",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "address": "Vadalur Bypass Road, Near Railway Overbridge, Vadalur, Cuddalore District, Tamil Nadu 607303",
+    "latitude": 11.5514,
+    "longitude": 79.5515,
+    "phone": "+91 95662 22336",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0010",
+    "name": "Saravana Tyre Align Clinic",
+    "district": "Cuddalore",
+    "city": "Chidambaram",
+    "state": "Tamil Nadu",
+    "address": "Pitchavaram Main Road, Opposite Government Arts College, Chidambaram, Cuddalore District, Tamil Nadu 608001",
+    "latitude": 11.4089,
+    "longitude": 79.6914,
+    "phone": "+91 91592 66774",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0011",
+    "name": "Gopi Tyre Stripping & Service",
+    "district": "Cuddalore",
+    "city": "Panruti",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Near Gandhi Statue, Panruti, Cuddalore District, Tamil Nadu 607106",
+    "latitude": 11.7612,
+    "longitude": 79.5485,
+    "phone": "+91 93601 33446",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0012",
+    "name": "Meenakshi Fast Tyre Patch Hub",
+    "district": "Cuddalore",
+    "city": "Virudhachalam",
+    "state": "Tamil Nadu",
+    "address": "Salem Main Road, Near Vriddhachalam Railway Junction, Virudhachalam, Cuddalore District, Tamil Nadu 606001",
+    "latitude": 11.5264,
+    "longitude": 79.3191,
+    "phone": "+91 97914 66773",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0013",
+    "name": "Venkateswara Auto Tube Repair Shop",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "address": "Beach Road, Near Lawrence Road Bus Stop, Cuddalore, Tamil Nadu 607001",
+    "latitude": 11.7445,
+    "longitude": 79.7712,
+    "phone": "+91 98421 99115",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0014",
+    "name": "National Coastal Heavy Repair Base",
+    "district": "Cuddalore",
+    "city": "Portonovo",
+    "state": "Tamil Nadu",
+    "address": "Chidambaram Coastal Highway, Near Parangipettai Port Entrance, Parangipettai, Cuddalore District, Tamil Nadu 608502",
+    "latitude": 11.4914,
+    "longitude": 79.7612,
+    "phone": "+91 94861 66774",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0015",
+    "name": "Kumaran Quick Tyre Work",
+    "district": "Cuddalore",
+    "city": "Tittakudi",
+    "state": "Tamil Nadu",
+    "address": "Pennadam Road, Opposite Bus Stand, Tittakudi, Cuddalore District, Tamil Nadu 606106",
+    "latitude": 11.4215,
+    "longitude": 79.1112,
+    "phone": "+91 98943 55663",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CUDDALORE_0016",
+    "name": "Balu Tyre Vulcanizing Works",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "address": "No 54, Imperial Road, Near Old Town Bus Stand, Cuddalore Old Town, Cuddalore, Tamil Nadu 607003",
+    "latitude": 11.7241,
+    "longitude": 79.7645,
+    "phone": "+91 94433 22331",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0017",
+    "name": "Sri Lakshmi Puncture Shop",
+    "district": "Cuddalore",
+    "city": "Chidambaram",
+    "state": "Tamil Nadu",
+    "address": "No 73, Venugopal Pillai Street, Near Nataraja Temple West Tower, Chidambaram, Cuddalore District, Tamil Nadu 608001",
+    "latitude": 11.3992,
+    "longitude": 79.6912,
+    "phone": "+91 98655 55662",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0018",
+    "name": "Highway 24 Hours Tyre Service",
+    "district": "Cuddalore",
+    "city": "Vadalur",
+    "state": "Tamil Nadu",
+    "address": "No 112, Kumbakonam Main Road, Near Vadalur R.C. Church Junction, Vadalur, Cuddalore District, Tamil Nadu 607303",
+    "latitude": 11.5564,
+    "longitude": 79.5492,
+    "phone": "+91 88708 22335",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0019",
+    "name": "Rayan Tyre Patch Hub",
+    "district": "Cuddalore",
+    "city": "Panruti",
+    "state": "Tamil Nadu",
+    "address": "No 29, Neyveli Road, Near Kumbakonam Flyover, Panruti, Cuddalore District, Tamil Nadu 607106",
+    "latitude": 11.7615,
+    "longitude": 79.5432,
+    "phone": "+91 95669 55662",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0020",
+    "name": "Vetri Heavy Vehicle Puncture",
+    "district": "Cuddalore",
+    "city": "Virudhachalam",
+    "state": "Tamil Nadu",
+    "address": "No 85, Cuddalore Main Road, Near Virudhachalam Junction Level Crossing, Virudhachalam, Cuddalore District, Tamil Nadu 606001",
+    "latitude": 11.5214,
+    "longitude": 79.3291,
+    "phone": "+91 94863 22338",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0021",
+    "name": "Sakthi Tyre Mechanics",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "address": "No 42, Beach Road, Opposite District Court Complex, Cuddalore, Tamil Nadu 607001",
+    "latitude": 11.7414,
+    "longitude": 79.7684,
+    "phone": "+91 90424 22334",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0022",
+    "name": "Meenakshi Tyre Care & Alignment",
+    "district": "Cuddalore",
+    "city": "Chidambaram",
+    "state": "Tamil Nadu",
+    "address": "No 91, OMR Main Road, Near Annamalai University Administrative Block, Chidambaram, Cuddalore District, Tamil Nadu 608002",
+    "latitude": 11.4012,
+    "longitude": 79.7154,
+    "phone": "+91 97919 22335",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0023",
+    "name": "Velan Tube Vulcanizing Corner",
+    "district": "Cuddalore",
+    "city": "Neyveli",
+    "state": "Tamil Nadu",
+    "address": "No 18, Central Bazaar Road, Opposite Neyveli Township Main Bus Stand, Neyveli, Cuddalore District, Tamil Nadu 607801",
+    "latitude": 11.5945,
+    "longitude": 79.4812,
+    "phone": "+91 96003 55664",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0024",
+    "name": "Smart Wheel Point",
+    "district": "Cuddalore",
+    "city": "Nellikuppam",
+    "state": "Tamil Nadu",
+    "address": "No 59, Cuddalore Main Road, Near Nellikuppam Railway Station, Nellikuppam, Cuddalore District, Tamil Nadu 607105",
+    "latitude": 11.7695,
+    "longitude": 79.6912,
+    "phone": "+91 90805 33442",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0025",
+    "name": "Pandian Lorry Tyre Repair",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "address": "No 15, Panruti Highway, Near SIPCOT Phase II Entrance, Cuddalore, Tamil Nadu 607005",
+    "latitude": 11.7145,
+    "longitude": 79.7285,
+    "phone": "+91 95663 22335",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0026",
+    "name": "Saravana Tyre Fix",
+    "district": "Cuddalore",
+    "city": "Tittakudi",
+    "state": "Tamil Nadu",
+    "address": "No 48, Vriddhachalam Main Road, Near Tittakudi Bus Stand, Tittakudi, Cuddalore District, Tamil Nadu 606106",
+    "latitude": 11.4112,
+    "longitude": 79.1154,
+    "phone": "+91 91591 55663",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0027",
+    "name": "Ganesh Tyre Stripping Hub",
+    "district": "Cuddalore",
+    "city": "Kattumannarkoil",
+    "state": "Tamil Nadu",
+    "address": "No 21, Chidambaram Main Road, Near Kattumannarkoil Bus Stand, Kattumannarkoil, Cuddalore District, Tamil Nadu 608301",
+    "latitude": 11.2742,
+    "longitude": 79.5412,
+    "phone": "+91 93609 22334",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0028",
+    "name": "Express Fast Tyre Patch",
+    "district": "Cuddalore",
+    "city": "Srimushnam",
+    "state": "Tamil Nadu",
+    "address": "No 79, Vriddhachalam Road, Near Bhuvaraha Swami Temple Entrance, Srimushnam, Cuddalore District, Tamil Nadu 608703",
+    "latitude": 11.3945,
+    "longitude": 79.3812,
+    "phone": "+91 97916 44553",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0029",
+    "name": "Venkateswara Bike Tube Work",
+    "district": "Cuddalore",
+    "city": "Cuddalore",
+    "state": "Tamil Nadu",
+    "address": "No 61, Nellikuppam Main Road, Opposite Cuddalore New Bus Stand, Cuddalore, Tamil Nadu 607001",
+    "latitude": 11.7514,
+    "longitude": 79.7624,
+    "phone": "+91 98429 22334",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CUDDALORE_0030",
+    "name": "National Multi Brand Tyre Care",
+    "district": "Cuddalore",
+    "city": "Chidambaram",
+    "state": "Tamil Nadu",
+    "address": "No 64, Sirkali Main Road, Near Annamalai University Railway Gate, Chidambaram, Cuddalore District, Tamil Nadu 608002",
+    "latitude": 11.4112,
+    "longitude": 79.7185,
+    "phone": "+91 94449 33445",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  }
+]

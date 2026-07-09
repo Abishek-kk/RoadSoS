@@ -1,0 +1,2338 @@
+[
+  {
+    "id": "PUN_MADURAI_0001",
+    "name": "B. Kannan Puncture Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "60 Feet Road, Sellur, Madurai, Tamil Nadu 625002",
+    "latitude": 9.9412,
+    "longitude": 78.1251,
+    "phone": "+91 98425 95545",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0002",
+    "name": "Puncture Repair Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Sri Ram Nagar, Uthangudi, Madurai, Tamil Nadu 625107",
+    "latitude": 9.9572,
+    "longitude": 78.1724,
+    "phone": "+91 73589 19373",
+    "services": [
+      "Mobile Puncture Repair",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": true,
+    "rating": 5.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0003",
+    "name": "Vinayaga Puncture Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Anaiyur Rd, Imayam Nagar, S Alangulam, Madurai, Tamil Nadu 625017",
+    "latitude": 9.9654,
+    "longitude": 78.1132,
+    "phone": "+91 87606 77078",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto",
+      "Truck"
+    ],
+    "is_24_hours": false,
+    "rating": 4.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0004",
+    "name": "Maasaniamman Puncture Kadai",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Palamedu Main Rd, near City Union Bank, Chokkalinga Nagar, Koodal Nagar, Madurai, Tamil Nadu 625018",
+    "latitude": 9.9688,
+    "longitude": 78.1042,
+    "phone": "+91 98426 31738",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Mobile Puncture Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto",
+      "Truck"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0005",
+    "name": "Sri Sabari Tyres",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "12, Govinda Chetty St, Arajar Salai, Simmakkal, Madurai Main, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9248,
+    "longitude": 78.1225,
+    "phone": "+91 94434 14142",
+    "services": [
+      "Tyre Replacement",
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0006",
+    "name": "Sakthivel Tyres",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Indian Oil Petrol Bunk Complex, 137A, Teppakulam, Madurai, Tamil Nadu 625009",
+    "latitude": 9.9142,
+    "longitude": 78.1478,
+    "phone": "+91 78068 53588",
+    "services": [
+      "Mushroom Puncture",
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 5.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0007",
+    "name": "Sri Rathina Tyre Works",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Konar Kadai, 154, N Veli St, Simmakkal, Madurai Main, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9255,
+    "longitude": 78.1231,
+    "phone": "+91 99769 37259",
+    "services": [
+      "Tyre Fitting",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0008",
+    "name": "Quality Car Care & Tyre Repair",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Iyer Bungalow Moondrumavadi Main Rd, Kamban Nagar, Madurai, Tamil Nadu 625007",
+    "latitude": 9.9542,
+    "longitude": 78.1415,
+    "phone": "+91 90809 81501",
+    "services": [
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Alignment",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0009",
+    "name": "Gowtham Tyres and Wheel Alignment",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "154/4, N Veli St, Simmakkal, Madurai Main, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9256,
+    "longitude": 78.1233,
+    "phone": "+91 96778 41063",
+    "services": [
+      "Tyre Service",
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto",
+      "Truck"
+    ],
+    "is_24_hours": false,
+    "rating": 5.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0010",
+    "name": "Sri Mathi Trading & Co",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "36, Workshop Rd, Arajar Salai, Simmakkal, Madurai Main, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9239,
+    "longitude": 78.1219,
+    "phone": "+91 96260 52800",
+    "services": [
+      "Tyre Repairs",
+      "Puncture Services",
+      "Nitrogen Filling",
+      "Alloy Wheel Repair"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0011",
+    "name": "Bridgestone Select - Auto Tyres",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Door No, HIG 21, near KFC Restaurant, New LIG Colony, Anna Nagar, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9215,
+    "longitude": 78.1442,
+    "phone": "+91 98421 12345",
+    "services": [
+      "Premium Tyre Repair",
+      "Tubeless Puncture",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0012",
+    "name": "VG Car Zone & Tyre Puncture Zone",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "157/1 Ganesha Puram, Mudakkusalai Main Road, Nataraja Nagar, Madurai, Tamil Nadu 625016",
+    "latitude": 9.9304,
+    "longitude": 78.1012,
+    "phone": "+91 95005 67890",
+    "services": [
+      "Tube Puncture",
+      "Tubeless Puncture",
+      "Mushroom Puncture",
+      "Tyre Installation"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto",
+      "Truck"
+    ],
+    "is_24_hours": false,
+    "rating": 5.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0013",
+    "name": "Yokohama Club Network - Auto Tyres",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "14, Sathya Nagar, opposite Fatima College, Vilangudi, Madurai, Tamil Nadu 625018",
+    "latitude": 9.9521,
+    "longitude": 78.0985,
+    "phone": "+91 94431 23456",
+    "services": [
+      "Tyre Repair",
+      "Tubeless Repair",
+      "Wheel Alignment",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0014",
+    "name": "Michelin Tyres - Samy Auto Centre",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "17, Azad Rd, Anna Nagar, Shenoy Nagar, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9231,
+    "longitude": 78.1421,
+    "phone": "+91 98940 54321",
+    "services": [
+      "Wheel Balancing",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0015",
+    "name": "Sri Lakshmi Ganesh Tyre Workshop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "7/102, GST Main Rd, Madurai, Tamil Nadu 625006",
+    "latitude": 9.8912,
+    "longitude": 78.0845,
+    "phone": "+91 98422 98765",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto",
+      "Truck"
+    ],
+    "is_24_hours": false,
+    "rating": 5.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0016",
+    "name": "XL Tyre Point",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Pandi Koil 5/245, Sivagangai Main Road, 1st St, Vandiyur, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9198,
+    "longitude": 78.1685,
+    "phone": "+91 97894 11223",
+    "services": [
+      "Two Wheeler Tyre Repair",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0017",
+    "name": "Ssb Tyres & Puncture Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "3A1, 3A2, Aruppukottai Rd, Villapuram, Madurai, Tamil Nadu 625012",
+    "latitude": 9.8985,
+    "longitude": 78.1254,
+    "phone": "+91 99445 55667",
+    "services": [
+      "Tyre Repairs",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+"id": "PUN_MADURAI_0018","name": "Arunachal Auto Tyres","district": "Madurai","city": "Madurai","state": "Tamil Nadu","address": "Old No. 44-A, New No. 253, N Veli St, Madurai, Tamil Nadu 625001","latitude": 9.9261,"longitude": 78.1242,"phone": "+91 94433 88990","services": ["Tyre Sales & Service","Puncture Repair","Wheel Balancing","Air Filling"],"vehicle_types": ["Bike","Car","Auto"],"is_24_hours": false,"rating": 4.3,"status": "Open"},{"id": "PUN_MADURAI_0019","name": "Veelys Wheel Care & Puncture","district": "Madurai","city": "Madurai","state": "Tamil Nadu","address": "Corporation Complex, Mattuthavani, KK Nagar, Madurai, Tamil Nadu 625007","latitude": 9.9415,"longitude": 78.1554,"phone": "+91 96001 23456","services": ["Puncture Repair","Nitrogen Air Filling","Wheel Alignment","Wheel Balancing"],"vehicle_types": ["Car","Bike","Auto"],"is_24_hours": false,"rating": 4.9,"status": "Open"},{"id": "PUN_MADURAI_0020","name": "Balamurugan Tyres","district": "Madurai","city": "Madurai","state": "Tamil Nadu","address": "Shop No. 50-B, Workshop Rd, Simmakkal, Madurai Main, Madurai, Tamil Nadu 625001","latitude": 9.9241,"longitude": 78.1215,"phone": "+91 98423 45678","services": ["Bike Puncture","Car Puncture","Tubeless Repair","Air Filling"],"vehicle_types": ["Bike","Car"],"is_24_hours": false,"rating": 4.8,"status": "Open"}]
+[
+  {
+    "id": "PUN_MADURAI_0021",
+    "name": "Murugan Tyre Works",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Melur Main Road, Near K.K. Nagar Arch, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9365,
+    "longitude": 78.1492,
+    "phone": "+91 94435 62110",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0022",
+    "name": "Sri Meenakshi Tyre Care",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "T P K Road, Near Palanganatham Signal, Madurai, Tamil Nadu 625003",
+    "latitude": 9.9078,
+    "longitude": 78.1021,
+    "phone": "+91 98651 23489",
+    "services": [
+      "Car Puncture",
+      "Mushroom Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0023",
+    "name": "Raja Vulcanizing Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Main Road, Vilangudi, Madurai, Tamil Nadu 625018",
+    "latitude": 9.9548,
+    "longitude": 78.0963,
+    "phone": "+91 97862 54103",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0024",
+    "name": "24/7 Mobile Puncture Services",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Ring Road Junction, Near Chinthamani, Madurai, Tamil Nadu 625009",
+    "latitude": 9.8924,
+    "longitude": 78.1512,
+    "phone": "+91 88701 99223",
+    "services": [
+      "Mobile Puncture Repair",
+      "Car Puncture",
+      "Truck Puncture",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Truck",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0025",
+    "name": "Pandian Tyre Mechanics",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Alagar Kovil Main Road, K.Pudur, Madurai, Tamil Nadu 625007",
+    "latitude": 9.9472,
+    "longitude": 78.1398,
+    "phone": "+91 90420 88147",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0026",
+    "name": "Ganesh Heavy Tyre Repair",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Sivagangai Road, Near Karuppayurani, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9298,
+    "longitude": 78.1824,
+    "phone": "+91 95663 71052",
+    "services": [
+      "Truck Puncture",
+      "Tractor Tyre Repair",
+      "Heavy Vehicle Patch Work",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0027",
+    "name": "Guru Puncture Corner",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Avaniapuram Main Road, Madurai, Tamil Nadu 625012",
+    "latitude": 9.8864,
+    "longitude": 78.1205,
+    "phone": "+91 99431 05471",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0028",
+    "name": "Selvam Quick Puncture Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Kamajar Salai, Near Lakshmi Theatre, Madurai, Tamil Nadu 625009",
+    "latitude": 9.9168,
+    "longitude": 78.1362,
+    "phone": "+91 91592 63840",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0029",
+    "name": "New Dynamic Tyre Works",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "By Pass Road, Near Kalavasal Junction, Madurai, Tamil Nadu 625016",
+    "latitude": 9.9321,
+    "longitude": 78.0954,
+    "phone": "+91 98430 77412",
+    "services": [
+      "Premium Car Puncture",
+      "Tubeless Laser Repair",
+      "Nitrogen Air Filling",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0030",
+    "name": "Mani Auto Tyre Service",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Theni Main Road, Near PP Chavadi, Madurai, Tamil Nadu 625016",
+    "latitude": 9.9287,
+    "longitude": 78.0812,
+    "phone": "+91 93605 11478",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0031",
+    "name": "Annamalaiyar Tyre Care",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Madurai-Natham Road, Iyer Bungalow, Madurai, Tamil Nadu 625014",
+    "latitude": 9.9612,
+    "longitude": 78.1345,
+    "phone": "+91 97914 55621",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0032",
+    "name": "Vasantham Tube Repairing Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "South Veli Street, Near South Gate, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9145,
+    "longitude": 78.1189,
+    "phone": "+91 98429 33451",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0033",
+    "name": "Speedway Tyre & Puncture Point",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "New Natham Road, Near Vishal De Mall, Chokkikulam, Madurai, Tamil Nadu 625002",
+    "latitude": 9.9401,
+    "longitude": 78.1344,
+    "phone": "+91 96291 88345",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0034",
+    "name": "National Truck Puncture Works",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Kappalur Industrial Estate, Opp HP Petrol Bunk, Madurai, Tamil Nadu 625008",
+    "latitude": 9.8456,
+    "longitude": 78.0489,
+    "phone": "+91 94862 11048",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0035",
+    "name": "Smart Tyre Repairs",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Anna Nagar Main Road, Near Suguna Store, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9248,
+    "longitude": 78.1465,
+    "phone": "+91 90804 33215",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0036",
+    "name": "Kumaran Tyre & Tube Mechanics",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "G.S.T. Road, Near Tirunagar Bus Stop, Madurai, Tamil Nadu 625006",
+    "latitude": 9.8732,
+    "longitude": 78.0645,
+    "phone": "+91 98947 12569",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0037",
+    "name": "Star 24 Hours Tyre Service",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Mattuthavani Omni Bus Stand Road, Madurai, Tamil Nadu 625007",
+    "latitude": 9.9515,
+    "longitude": 78.1612,
+    "phone": "+91 97511 44556",
+    "services": [
+      "Emergency Puncture Repair",
+      "Car Tubeless Repair",
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto",
+      "Truck"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0038",
+    "name": "Siva Puncture Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+"address": "Shanthi Nagar Main Road, Koodal Nagar, Madurai, Tamil Nadu 625018","latitude": 9.9621,"longitude": 78.1009,"phone": "+91 96005 87411","services": ["Bike Puncture","Auto Puncture","Tubeless Patching","Air Filling"],"vehicle_types": ["Bike","Auto"],"is_24_hours": false,"rating": 3.7,"status": "Open"},{"id": "PUN_MADURAI_0039","name": "Express Tyre & Alignment","district": "Madurai","city": "Madurai","state": "Tamil Nadu","address": "W Veli St, Near Madurai Railway Station, Madurai, Tamil Nadu 625001","latitude": 9.9209,"longitude": 78.1134,"phone": "+91 94441 82954","services": ["Car Puncture","Tubeless Quick Fix","Wheel Balancing","Air Filling"],"vehicle_types": ["Car","Bike"],"is_24_hours": false,"rating": 4.4,"status": "Open"},{"id": "PUN_MADURAI_0040","name": "Bharath Tyre Vulcanizing Works","district": "Madurai","city": "Madurai","state": "Tamil Nadu","address": "Sellur Main Road, Opp Railway Colony, Madurai, Tamil Nadu 625002","latitude": 9.9388,"longitude": 78.1214,"phone": "+91 98436 22105","services": ["Tube Repairing","Bike Puncture","Tubeless Patch Repair","Air Filling"],"vehicle_types": ["Bike","Car","Auto"],"is_24_hours": false,"rating": 4.0,"status": "Open"}]
+[
+  {
+    "id": "PUN_MADURAI_0041",
+    "name": "Arun Puncture Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Fringe Road, Near Othakadai Junction, Madurai, Tamil Nadu 625107",
+    "latitude": 9.9614,
+    "longitude": 78.1745,
+    "phone": "+91 98428 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0042",
+    "name": "Sri Balaji Tyre Care",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "PT Rajan Road, Near Goripalayam Signal, Madurai, Tamil Nadu 625002",
+    "latitude": 9.9328,
+    "longitude": 78.1311,
+    "phone": "+91 97864 53210",
+    "services": [
+      "Car Puncture",
+      "Mushroom Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0043",
+    "name": "Ramesh Vulcanizing Works",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Alagar Kovil Main Road, Near K.Pudur Bus Terminus, Madurai, Tamil Nadu 625007",
+    "latitude": 9.9491,
+    "longitude": 78.1425,
+    "phone": "+91 94421 88764",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0044",
+    "name": "24 Hours Highway Puncture Service",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Trichy Bypass Road, Near Samayanallur, Madurai, Tamil Nadu 625402",
+    "latitude": 9.9812,
+    "longitude": 78.0754,
+    "phone": "+91 88705 44332",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Puncture",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0045",
+    "name": "Muthu Tyre Mechanics",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Melur Road, Near Y.Othakadai, Madurai, Tamil Nadu 625107",
+    "latitude": 9.9635,
+    "longitude": 78.1798,
+    "phone": "+91 90423 77410",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0046",
+    "name": "Veera Heavy Tyre Repair",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Aruppukottai Main Road, Near Avaniapuram, Madurai, Tamil Nadu 625012",
+    "latitude": 9.8824,
+    "longitude": 78.1245,
+    "phone": "+91 95661 44512",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0047",
+    "name": "Siva Puncture Corner",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Palanganatham Main Road, Near Madura Coats, Madurai, Tamil Nadu 625003",
+    "latitude": 9.9112,
+    "longitude": 78.0984,
+    "phone": "+91 99435 11098",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0048",
+    "name": "Saravana Quick Puncture Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "East Veli Street, Near Nelpettai Circle, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9234,
+    "longitude": 78.1287,
+    "phone": "+91 91595 44321",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0049",
+    "name": "New Star Tyre Works",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Bypass Road, Near Paravai, Madurai, Tamil Nadu 625402",
+    "latitude": 9.9687,
+    "longitude": 78.0721,
+    "phone": "+91 98434 55110",
+    "services": [
+      "Premium Car Puncture",
+      "Tubeless Laser Repair",
+      "Nitrogen Air Filling",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0050",
+    "name": "Gopi Auto Tyre Service",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Sivagangai Main Road, Near Gomathipuram, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9245,
+    "longitude": 78.1634,
+    "phone": "+91 93608 22354",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0051",
+    "name": "Meenakshi Amman Tyre Care",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Thathaneri Main Road, Near Railway Overbridge, Madurai, Tamil Nadu 625018",
+    "latitude": 9.9421,
+    "longitude": 78.1098,
+    "phone": "+91 97918 22341",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0052",
+    "name": "Venkateswara Tube Repairing",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "North Veli Street, Near Central Market, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9284,
+    "longitude": 78.1211,
+    "phone": "+91 98425 88743",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0053",
+    "name": "Express Tyre & Puncture Point",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Vilangudi Main Road, Near Fatima College, Madurai, Tamil Nadu 625018",
+    "latitude": 9.9534,
+    "longitude": 78.0976,
+    "phone": "+91 96295 44112",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0054",
+    "name": "National Lorry Puncture Works",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Ring Road Junction, Near Chinthamani Toll, Madurai, Tamil Nadu 625009",
+    "latitude": 9.8945,
+    "longitude": 78.1612,
+    "phone": "+91 94865 33221",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0055",
+    "name": "Smart Tyre Repairs & Service",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Kamarajar Salai, Near Teppakulam West, Madurai, Tamil Nadu 625009",
+    "latitude": 9.9154,
+    "longitude": 78.1432,
+    "phone": "+91 90807 55432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_MADURAI_0056",
+    "name": "Kumaran Tyre Mechanics",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Tirunagar Main Road, Near Bus Stand, Madurai, Tamil Nadu 625006",
+    "latitude": 9.8754,
+    "longitude": 78.0621,
+    "phone": "+91 98949 33412",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0057",
+    "name": "Star Highway Tyre Service",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Kappalur Bypass Road, Near Toll Plaza, Madurai, Tamil Nadu 625008",
+    "latitude": 9.8412,
+    "longitude": 78.0435,
+    "phone": "+91 97514 66778",
+    "services": [
+      "Emergency Puncture Repair",
+      "Car Tubeless Repair",
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto",
+      "Truck"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0058",
+    "name": "Siva Puncture Shop & Care",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Anaiyur Main Road, Near Corporation Office, Madurai, Tamil Nadu 625017",
+    "latitude": 9.9678,
+    "longitude": 78.1154,
+    "phone": "+91 96009 11233",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0059",
+    "name": "Express Wheel & Alignment Center",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Avaniapuram Bypass Road, Near Signal, Madurai, Tamil Nadu 625012",
+    "latitude": 9.8891,
+    "longitude": 78.1287,
+    "phone": "+91 94445 11092",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0060",
+    "name": "Bharath Tyre Repair Works",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Sholavandan Road, Thirupparankundram, Madurai, Tamil Nadu 625005",
+    "latitude": 9.8834,
+    "longitude": 78.0712,
+    "phone": "+91 98438 44321",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0061",
+    "name": "Raja Tyre Vulcanizing Corner",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "New Ramnad Road, Near Teppakulam, Madurai, Tamil Nadu 625009",
+    "latitude": 9.9128,
+    "longitude": 78.1491,
+    "phone": "+91 98424 77651",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling",
+      "Tubeless Patch Work"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0062",
+    "name": "24/7 Highway Tyre Clinic",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Tuticorin Ring Road, Near Valayankulam, Madurai, Tamil Nadu 625022",
+    "latitude": 9.8354,
+    "longitude": 78.1389,
+    "phone": "+91 88709 33221",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0063",
+    "name": "Muthu Puncture Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Sellur High Road, Near Railway Gate, Madurai, Tamil Nadu 625002",
+    "latitude": 9.9442,
+    "longitude": 78.1205,
+    "phone": "+91 90425 11234",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0064",
+    "name": "Veera Heavy Truck Puncture",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Main Road, Near Samayanallur Junction, Madurai, Tamil Nadu 625402",
+    "latitude": 9.9854,
+    "longitude": 78.0698,
+    "phone": "+91 95667 88990",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0065",
+    "name": "Saravana Tyre Care",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Sathamangalam Main Road, Near Anna Nagar, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9272,
+    "longitude": 78.1404,
+    "phone": "+91 91599 11223",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0066",
+    "name": "Gopi Tyre Stripping & Service",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Melur Road, Near Agriculture College, Madurai, Tamil Nadu 625104",
+    "latitude": 9.9712,
+    "longitude": 78.1945,
+    "phone": "+91 93602 44512",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0067",
+    "name": "Meenakshi Express Tyre Point",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Kalavasal Main Road, Near Theni Highway, Madurai, Tamil Nadu 625016",
+    "latitude": 9.9345,
+    "longitude": 78.0921,
+    "phone": "+91 97912 66774",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0068",
+    "name": "Venkateswara Auto Tube Repair",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Vaniyankinaru Street, South Gate, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9115,
+    "longitude": 78.1204,
+    "phone": "+91 98421 44510",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0069",
+    "name": "Smart Tyre Alignment & Puncture",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Ellis Nagar Main Road, Near Housing Board, Madurai, Tamil Nadu 625016",
+    "latitude": 9.9214,
+    "longitude": 78.1065,
+    "phone": "+91 90801 22345",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0070",
+    "name": "National Heavy Lorry Vulcanizing",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Kappalur Industrial Area, Phase II, Madurai, Tamil Nadu 625008",
+    "latitude": 9.8489,
+    "longitude": 78.0512,
+    "phone": "+91 94861 77665",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_MADURAI_0071",
+    "name": "Arun Quick Tyre Patch",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Sathamangalam High Road, Near Anna Nagar, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9281,
+    "longitude": 78.1419,
+    "phone": "+91 98422 33441",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0072",
+    "name": "Sri Balaji Tubeless Center",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Kamarajar Salai, Near Vilakkuthoon, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9189,
+    "longitude": 78.1274,
+    "phone": "+91 97869 11223",
+    "services": [
+      "Car Puncture",
+      "Mushroom Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0073",
+    "name": "Ramesh Tyre Patch Work",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Palanganatham Bypass Road, Madurai, Tamil Nadu 625003",
+    "latitude": 9.9054,
+    "longitude": 78.0991,
+    "phone": "+91 94429 55431",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0074",
+    "name": "24 Hrs Highway Tyre Support",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Melur Highway, Near Toll Plaza, Othakadai, Madurai, Tamil Nadu 625107",
+    "latitude": 9.9691,
+    "longitude": 78.1824,
+    "phone": "+91 88703 11224",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Puncture",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0075",
+    "name": "Muthu Tyre Vulcanizing Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "PT Rajan Road, Near Race Course, Madurai, Tamil Nadu 625002",
+    "latitude": 9.9354,
+    "longitude": 78.1345,
+    "phone": "+91 90421 99882",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0076",
+    "name": "Veera Heavy Lorry Tyre Care",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Ring Road Junction, Near Chinthamani, Madurai, Tamil Nadu 625009",
+    "latitude": 9.8911,
+    "longitude": 78.1565,
+    "phone": "+91 95669 22331",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0077",
+    "name": "Siva Tubeless Corner",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Theni Main Road, Near PP Chavadi, Madurai, Tamil Nadu 625016",
+    "latitude": 9.9274,
+    "longitude": 78.0845,
+    "phone": "+91 99433 77661",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0078",
+    "name": "Saravana Tyre Fix Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Main Road, Vilangudi, Madurai, Tamil Nadu 625018",
+    "latitude": 9.9572,
+    "longitude": 78.0954,
+    "phone": "+91 91591 22334",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0079",
+    "name": "New Star Premium Tyre Service",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "By Pass Road, Kalavasal, Madurai, Tamil Nadu 625016",
+    "latitude": 9.9312,
+    "longitude": 78.0987,
+    "phone": "+91 98439 11002",
+    "services": [
+      "Premium Car Puncture",
+      "Tubeless Laser Repair",
+      "Nitrogen Air Filling",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0080",
+    "name": "Gopi Tyre Patch Works",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Alagar Kovil Main Road, K.Pudur, Madurai, Tamil Nadu 625007",
+    "latitude": 9.9465,
+    "longitude": 78.1412,
+    "phone": "+91 93604 55661",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0081",
+    "name": "Meenakshi Express Tyre Center",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "New Natham Road, Iyer Bungalow, Madurai, Tamil Nadu 625014",
+    "latitude": 9.9634,
+    "longitude": 78.1365,
+    "phone": "+91 97911 44552",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0082",
+    "name": "Venkateswara Bike Tyre Shop",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "South Veli Street, South Gate, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9134,
+    "longitude": 78.1212,
+    "phone": "+91 98424 99881",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0083",
+    "name": "Express Tyre Alignment Point",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "T P K Road, Andalpuram, Madurai, Tamil Nadu 625003",
+    "latitude": 9.9091,
+    "longitude": 78.1054,
+    "phone": "+91 96294 88991",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0084",
+    "name": "National Heavy Vehicle Puncture",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Kappalur Industrial Estate, Madurai, Tamil Nadu 625008",
+    "latitude": 9.8434,
+    "longitude": 78.0465,
+    "phone": "+91 94864 22331",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0085",
+    "name": "Smart Tyre Mechanics & Service",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Sellur Main Road, Madurai, Tamil Nadu 625002",
+    "latitude": 9.9412,
+    "longitude": 78.1234,
+    "phone": "+91 90802 44551",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_MADURAI_0086",
+    "name": "Kumaran Quick Tyre Work",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Avaniapuram Main Road, Near Bus Stand, Madurai, Tamil Nadu 625012",
+    "latitude": 9.8854,
+    "longitude": 78.1198,
+    "phone": "+91 98942 11223",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0087",
+    "name": "Star Highway Tyre Zone",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Trichy Highway, Near Samayanallur, Madurai, Tamil Nadu 625402",
+    "latitude": 9.9834,
+    "longitude": 78.0712,
+    "phone": "+91 97512 88991",
+    "services": [
+      "Emergency Puncture Repair",
+      "Car Tubeless Repair",
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto",
+      "Truck"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0088",
+    "name": "Siva Tyre Vulcanizing Station",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Shanthi Nagar, Koodal Nagar, Madurai, Tamil Nadu 625018",
+    "latitude": 9.9654,
+    "longitude": 78.1032,
+    "phone": "+91 96001 77662",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0089",
+    "name": "Express Wheel Hub & Care",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Melur Road, Near KK Nagar Arch, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9389,
+    "longitude": 78.1472,
+    "phone": "+91 94443 66771",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0090",
+    "name": "Bharath Heavy Vulcanizing",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Ring Road Junction, Near Chinthamani Toll, Madurai, Tamil Nadu 625009",
+    "latitude": 9.8934,
+    "longitude": 78.1587,
+    "phone": "+91 98431 55662",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0091",
+    "name": "Raja Tyre Patch Hub",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Sivagangai Road, Near Gomathipuram, Madurai, Tamil Nadu 625020",
+    "latitude": 9.9265,
+    "longitude": 78.1654,
+    "phone": "+91 98421 22334",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling",
+      "Tubeless Patch Work"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0092",
+    "name": "24/7 National Tyre Care",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Kappalur Bypass Road, Near Toll Plaza, Madurai, Tamil Nadu 625008",
+    "latitude": 9.8454,
+    "longitude": 78.0412,
+    "phone": "+91 88701 55662",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0093",
+    "name": "Muthu Puncture Zone",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "PT Rajan Road, Narimedu, Madurai, Tamil Nadu 625002",
+    "latitude": 9.9367,
+    "longitude": 78.1321,
+    "phone": "+91 90422 66773",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0094",
+    "name": "Veera Lorry Puncture Base",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Kappalur Industrial Estate, Phase III, Madurai, Tamil Nadu 625008",
+    "latitude": 9.8512,
+    "longitude": 78.0545,
+    "phone": "+91 95662 11003",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0095",
+    "name": "Saravana Tyre Align Clinic",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "New Natham Road, Iyer Bungalow, Madurai, Tamil Nadu 625014",
+    "latitude": 9.9615,
+    "longitude": 78.1384,
+    "phone": "+91 91593 55661",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0096",
+    "name": "Gopi Tyre Fitting Center",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Alagar Kovil Road, Near K.Pudur, Madurai, Tamil Nadu 625007",
+    "latitude": 9.9481,
+    "longitude": 78.1432,
+    "phone": "+91 93601 77882",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0097",
+    "name": "Meenakshi Fast Tyre Patch",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Theni Main Road, Near Kalavasal, Madurai, Tamil Nadu 625016",
+    "latitude": 9.9324,
+    "longitude": 78.0945,
+    "phone": "+91 97914 99881",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0098",
+    "name": "Venkateswara Auto Tube Fix",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "North Veli Street, Simmakkal, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9272,
+    "longitude": 78.1234,
+    "phone": "+91 98423 77881",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_0099",
+    "name": "Smart Tyre Multi Care",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "By Pass Road, Near Kalavasal Junction, Madurai, Tamil Nadu 625016",
+    "latitude": 9.9315,
+    "longitude": 78.0978,
+    "phone": "+91 90803 66772",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_MADURAI_00100",
+    "name": "National Highway Heavy Repair",
+    "district": "Madurai",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Tuticorin Ring Road, Near Airport Junction, Madurai, Tamil Nadu 625022",
+    "latitude": 9.8312,
+    "longitude": 78.1245,
+    "phone": "+91 94863 11224",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  }
+]

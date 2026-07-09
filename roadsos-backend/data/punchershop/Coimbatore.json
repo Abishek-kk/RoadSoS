@@ -1,0 +1,3141 @@
+[
+  {
+    "id": "PUN_COIMBATORE_0001",
+    "name": "Sri Vinayaga Tyre Puncture Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 45, Avinashi Road, Near Hope College Bus Stop, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "latitude": 11.0234,
+    "longitude": 77.0112,
+    "phone": "+91 94441 66771",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0002",
+    "name": "Murugan Tyre Works & Vulcanizing",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 12, Mettupalayam Road, Near Saibaba Colony Flyover, Coimbatore, Tamil Nadu 641011",
+    "latitude": 11.0195,
+    "longitude": 76.9542,
+    "phone": "+91 98423 22331",
+    "services": [
+      "Tube Vulcanizing",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0003",
+    "name": "24/7 Kovai Highway Emergency Puncture",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "L&T Bypass Road, Near Eachanari Junction, Malumichampatti, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9212,
+    "longitude": 77.0014,
+    "phone": "+91 88702 11223",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0004",
+    "name": "Sri Balaji Tyre Care & Alignment",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 88, Sathy Road, Near Prozone Mall, Saravanampatti, Coimbatore, Tamil Nadu 641035",
+    "latitude": 11.0584,
+    "longitude": 76.9914,
+    "phone": "+91 97912 55661",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0005",
+    "name": "Express Wheel Hub & Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 104, Trichy Road, Near Singanallur Bus Stand, Singanallur, Coimbatore, Tamil Nadu 641005",
+    "latitude": 10.9945,
+    "longitude": 77.0212,
+    "phone": "+91 94445 88992",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0006",
+    "name": "Muthu Quick Puncture Corner",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 15, Pollachi Main Road, Opposite Eachanari Temple, Eachanari, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9314,
+    "longitude": 76.9685,
+    "phone": "+91 90422 33441",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0007",
+    "name": "Siva Tyre Vulcanizing Station",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 34, Thadagam Road, Near GCT College, RS Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0024,
+    "longitude": 76.9391,
+    "phone": "+91 96001 99882",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0008",
+    "name": "Smart Tyre Multi Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 67, Palakkad Main Road, Near Kuniyamuthur Junction, Kuniyamuthur, Coimbatore, Tamil Nadu 641008",
+    "latitude": 10.9615,
+    "longitude": 76.9354,
+    "phone": "+91 90803 77884",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0009",
+    "name": "Veera Heavy Truck Puncture Base",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "Palladam Road, Near Sulur Aero Junction, Sulur, Coimbatore, Tamil Nadu 641402",
+    "latitude": 11.0114,
+    "longitude": 77.1215,
+    "phone": "+91 95662 11225",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0010",
+    "name": "Saravana Tyre Align Clinic",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 112, Marudhamalai Road, Opposite Bharathiar University Gate, Somayampalayam, Coimbatore, Tamil Nadu 641046",
+    "latitude": 11.0389,
+    "longitude": 76.9014,
+    "phone": "+91 91592 55663",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0011",
+    "name": "Gopi Tyre Stripping & Service",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 56, Vilankurichi Road, Near Codissia Trade Fair Complex, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "latitude": 11.0412,
+    "longitude": 77.0191,
+    "phone": "+91 93601 22335",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0012",
+    "name": "Meenakshi Fast Tyre Patch Hub",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 23, Perur Main Road, Near Perur Patteeswarar Temple Entrance, Perur, Coimbatore, Tamil Nadu 641010",
+    "latitude": 10.9764,
+    "longitude": 76.9191,
+    "phone": "+91 97914 55662",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0013",
+    "name": "Venkateswara Auto Tube Repair Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 77, Sathy Road, Near Ganapathy Bus Stop, Ganapathy, Coimbatore, Tamil Nadu 641006",
+    "latitude": 11.0245,
+    "longitude": 76.9712,
+    "phone": "+91 98421 88994",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0014",
+    "name": "National Western Heavy Repair Base",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "Siruvani Main Road, Near Alandurai Transport Terminal, Alandurai, Coimbatore, Tamil Nadu 641101",
+    "latitude": 10.9514,
+    "longitude": 76.7812,
+    "phone": "+91 94861 55663",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0015",
+    "name": "Kumaran Quick Tyre Work",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 89, Race Course Road, Opposite Thomas Park Bus Stop, Race Course, Coimbatore, Tamil Nadu 641018",
+    "latitude": 10.9915,
+    "longitude": 76.9812,
+    "phone": "+91 98943 44552",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0016",
+    "name": "Kovai Metro Tyre Care Zone",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 4, 100 Feet Road, Opposite Gandhipuram Central Bus Stand, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+    "latitude": 11.0145,
+    "longitude": 76.9712,
+    "phone": "+91 97894 88991",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Multi Repair",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_COIMBATORE_0017",
+    "name": "Balu Tyre Vulcanizing Works",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 54, Nanjappa Road, Near Gandhipuram Town Bus Stand, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+    "latitude": 11.0162,
+    "longitude": 76.9745,
+    "phone": "+91 94433 11226",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0018",
+    "name": "Sri Lakshmi Puncture Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 73, DB Road, Near Post Office, R.S. Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0054,
+    "longitude": 76.9512,
+    "phone": "+91 98655 44331",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0019",
+    "name": "Highway 24 Hours Tyre Service",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 112, Palakkad Main Road, Near Madukkarai Bypass Junction, Madukkarai, Coimbatore, Tamil Nadu 641105",
+    "latitude": 10.9084,
+    "longitude": 76.9212,
+    "phone": "+91 88708 11224",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0020",
+    "name": "Rayan Tyre Patch Hub",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 29, Sathy Road, Near Ganapathy Fire Station, Ganapathy, Coimbatore, Tamil Nadu 641006",
+    "latitude": 11.0289,
+    "longitude": 76.9742,
+    "phone": "+91 95669 44551",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0021",
+    "name": "Vetri Heavy Vehicle Puncture",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 85, Pollachi Main Road, Near Kinathukadavu Toll Crossing, Kinathukadavu, Coimbatore, Tamil Nadu 642109",
+    "latitude": 10.8214,
+    "longitude": 77.0112,
+    "phone": "+91 94863 11226",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0022",
+    "name": "Sakthi Tyre Mechanics",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 42, Cross Cut Road, Opposite Lakshmi Complex, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+    "latitude": 11.0184,
+    "longitude": 76.9724,
+    "phone": "+91 90424 11223",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0023",
+    "name": "Meenakshi Tyre Care & Alignment",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 91, Avinashi Road, Near PSG Tech Main Gate, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "latitude": 11.0212,
+    "longitude": 77.0014,
+    "phone": "+91 97919 11224",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0024",
+    "name": "Velan Tube Vulcanizing Corner",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 18, Palakkad Road, Opposite Ukkadam Bus Terminus, Ukkadam, Coimbatore, Tamil Nadu 641001",
+    "latitude": 10.9845,
+    "longitude": 76.9612,
+    "phone": "+91 96003 44552",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0025",
+    "name": "Smart Wheel Point",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 59, Trichy Road, Near Ramanathapuram Signal, Ramanathapuram, Coimbatore, Tamil Nadu 641045",
+    "latitude": 10.9965,
+    "longitude": 76.9942,
+    "phone": "+91 90805 22331",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0026",
+    "name": "Pandian Lorry Tyre Repair",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 15, Palladam Road, Near Sulur Air Force Station Gate, Sulur, Coimbatore, Tamil Nadu 641402",
+    "latitude": 11.0245,
+    "longitude": 77.1285,
+    "phone": "+91 95663 11224",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0027",
+    "name": "Saravana Tyre Fix",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 48, NSR Road, Near Saibaba Temple Crossing, Saibaba Colony, Coimbatore, Tamil Nadu 641011",
+    "latitude": 11.0214,
+    "longitude": 76.9485,
+    "phone": "+91 91591 44552",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0028",
+    "name": "Ganesh Tyre Stripping Hub",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 21, Thadagam Road, Near Lawley Road Junction, Coimbatore, Tamil Nadu 641003",
+    "latitude": 11.0142,
+    "longitude": 76.9324,
+    "phone": "+91 93609 11223",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0029",
+    "name": "Express Fast Tyre Patch",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 79, Mettupalayam Main Road, Near Thudiyalur Flyover, Thudiyalur, Coimbatore, Tamil Nadu 641034",
+    "latitude": 11.0691,
+    "longitude": 76.9452,
+    "phone": "+91 97916 33442",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0030",
+    "name": "Venkateswara Bike Tube Work",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 61, Sathy Road, Opposite Prozone Mall Entrance, Saravanampatti, Coimbatore, Tamil Nadu 641035",
+    "latitude": 11.0545,
+    "longitude": 76.9924,
+    "phone": "+91 98429 11223",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0031",
+    "name": "National Multi Brand Tyre Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 64, Avinashi Road, Near Lakshmi Mills Junction, Coimbatore, Tamil Nadu 641037",
+    "latitude": 11.0112,
+    "longitude": 76.9854,
+    "phone": "+91 94449 22334",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0032",
+    "name": "Super Fast Tyre Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 14, Pollachi Main Road, Opposite Podanur Junction Road, Podanur, Coimbatore, Tamil Nadu 641023",
+    "latitude": 10.9612,
+    "longitude": 76.9684,
+    "phone": "+91 91764 11223",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Seal",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_COIMBATORE_0033",
+    "name": "Sri Amman Puncture Kadai",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 18, Palakkad Main Road, Near BK Pudur Signal, Kuniyamuthur, Coimbatore, Tamil Nadu 641008",
+    "latitude": 10.9585,
+    "longitude": 76.9314,
+    "phone": "+91 98436 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0034",
+    "name": "Raja Two Wheeler Puncture Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 42, Siruvani Main Road, Near Alandurai Bus Terminus, Alandurai, Coimbatore, Tamil Nadu 641101",
+    "latitude": 10.9512,
+    "longitude": 76.7845,
+    "phone": "+91 94425 55662",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0035",
+    "name": "24/7 Avinashi Road Highway Support",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 55, Avinashi Road, Near Karumathampatti Bypass Junction, Coimbatore, Tamil Nadu 641659",
+    "latitude": 11.1124,
+    "longitude": 77.1854,
+    "phone": "+91 88701 11225",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0036",
+    "name": "Peelamedu Multi Brand Tyre Patch",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 12, Vilankurichi Road, Near Peelamedu Railway Station Crossing, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "latitude": 11.0345,
+    "longitude": 77.0142,
+    "phone": "+91 97512 11226",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0037",
+    "name": "National Heavy Truck Hub",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 77, Mettupalayam Road, Near Thudiyalur Lorry Booking Yard, Thudiyalur, Coimbatore, Tamil Nadu 641034",
+    "latitude": 11.0732,
+    "longitude": 76.9412,
+    "phone": "+91 94863 11227",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0038",
+    "name": "Saravanampatti Tube Patch Corner",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 28, Sathy Road, Near Prozone Mall, Saravanampatti, Coimbatore, Tamil Nadu 641035",
+    "latitude": 11.0612,
+    "longitude": 76.9915,
+    "phone": "+91 90422 11225",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0039",
+    "name": "RS Puram Wheel Alignment & Puncture",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 45, Thadagam Road, Near GCT College Crossing, RS Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0042,
+    "longitude": 76.9354,
+    "phone": "+91 97915 11225",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0040",
+    "name": "Siva Tyre Vulcanizing Station",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 99, Trichy Road, Near Singanallur Bus Stand Circle, Singanallur, Coimbatore, Tamil Nadu 641005",
+    "latitude": 10.9942,
+    "longitude": 77.0245,
+    "phone": "+91 96004 11224",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0041",
+    "name": "Smart Tyre Point & Mechanics",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 12, Pollachi Main Road, Opposite Eachanari Temple Road, Eachanari, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9284,
+    "longitude": 76.9612,
+    "phone": "+91 90803 11225",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0042",
+    "name": "Veera Heavy Truck Puncture Yard",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 86, L&T Bypass Road, Near Eachanari Toll Crossing, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9189,
+    "longitude": 77.0012,
+    "phone": "+91 95662 11224",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0043",
+    "name": "Saravana Tyre Care Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 36, Marudhamalai Road, Opposite Bharathiar University Main Gate, Coimbatore, Tamil Nadu 641046",
+    "latitude": 11.0345,
+    "longitude": 76.9012,
+    "phone": "+91 91593 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0044",
+    "name": "Gopi Tyre Stripping & Fitting Center",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 54, Perur Main Road, Near Perur Patteeswarar Temple, Perur, Coimbatore, Tamil Nadu 641010",
+    "latitude": 10.9742,
+    "longitude": 76.9145,
+    "phone": "+91 93601 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0045",
+    "name": "Meenakshi Multi Brand Tyre Patch",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 14, Mettupalayam Road, Near Saibaba Colony Flyover, Coimbatore, Tamil Nadu 641011",
+    "latitude": 11.0115,
+    "longitude": 76.9562,
+    "phone": "+91 97914 11224",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0046",
+    "name": "Venkateswara Auto Tube Repair Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 43, Cross Cut Road, Opposite Lakshmi Complex Entrance, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+    "latitude": 13.0214,
+    "longitude": 80.2264,
+    "phone": "+91 98423 11224",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0047",
+    "name": "Express Wheel Hub Multi Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 45, 100 Feet Road, Opposite Gandhipuram Central Bus Stand, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+    "latitude": 11.0134,
+    "longitude": 76.9685,
+    "phone": "+91 94443 11224",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0048",
+    "name": "Gandhipuram Fast Patch Station",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 5, Nanjappa Road, Near Gandhipuram Town Bus Stand, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+    "latitude": 11.0154,
+    "longitude": 76.9712,
+    "phone": "+91 94444 11225",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_COIMBATORE_0049",
+    "name": "Peelamedu Tubeless Zone",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 14, Avinashi Road, Near Hope College Flyover, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "latitude": 11.0245,
+    "longitude": 77.0124,
+    "phone": "+91 98405 22114",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0050",
+    "name": "Saibaba Colony Tyre Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 72, Mettupalayam Road, Near Saibaba Temple Crossing, Saibaba Colony, Coimbatore, Tamil Nadu 641011",
+    "latitude": 11.0212,
+    "longitude": 76.9495,
+    "phone": "+91 98841 66773",
+    "services": [
+      "Tubeless Repair",
+      "Car Puncture",
+      "Nitrogen Air",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0051",
+    "name": "24/7 Eachanari Bypass Emergency Puncture",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 180, Pollachi Main Road, Near Eachanari Toll Plaza Crossing, Eachanari, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9242,
+    "longitude": 76.9654,
+    "phone": "+91 88703 77885",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0052",
+    "name": "Saravanampatti Tubeless Center",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 25, Sathy Road, Near Prozone Mall Entrance, Saravanampatti, Coimbatore, Tamil Nadu 641035",
+    "latitude": 11.0594,
+    "longitude": 76.9921,
+    "phone": "+91 97514 99112",
+    "services": [
+      "Car Tubeless Repair",
+      "Bike Puncture",
+      "Mushroom Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0053",
+    "name": "Singanallur Heavy Vehicle Puncture Base",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 4, Trichy Road, Near Singanallur Bus Stand Circle, Singanallur, Coimbatore, Tamil Nadu 641005",
+    "latitude": 10.9954,
+    "longitude": 77.0254,
+    "phone": "+91 94865 44552",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0054",
+    "name": "RS Puram Bike Puncture Corner",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 9, Thadagam Road, Near GCT College Crossing, RS Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0012,
+    "longitude": 76.9364,
+    "phone": "+91 90425 11223",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Strip Patch",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0055",
+    "name": "Kuniyamuthur Express Tyre Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 112, Palakkad Main Road, Near Kuniyamuthur Junction, Kuniyamuthur, Coimbatore, Tamil Nadu 641008",
+    "latitude": 10.9595,
+    "longitude": 76.9312,
+    "phone": "+91 97918 77883",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Inflation",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0056",
+    "name": "Sulur Tube Vulcanizing Works",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 34, Palladam Road, Near Sulur Air Force Station Gate, Sulur, Coimbatore, Tamil Nadu 641402",
+    "latitude": 11.0212,
+    "longitude": 77.1245,
+    "phone": "+91 96005 22337",
+    "services": [
+      "Tube Vulcanizing",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0057",
+    "name": "Somayampalayam Smart Wheel Point",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 88, Marudhamalai Road, Opposite Bharathiar University Main Gate, Somayampalayam, Coimbatore, Tamil Nadu 641046",
+    "latitude": 11.0342,
+    "longitude": 76.9015,
+    "phone": "+91 90807 33445",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0058",
+    "name": "Alandurai Western Heavy Tyre Service",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "Siruvani Main Road, Near Alandurai Transport Terminal, Alandurai, Coimbatore, Tamil Nadu 641101",
+    "latitude": 10.9545,
+    "longitude": 76.7842,
+    "phone": "+91 95665 99112",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "High-Pressure Air Filling",
+      "Tyre Re-fitting"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0059",
+    "name": "Gandhipuram Saravana Tyre Fix",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 43, 100 Feet Road, Opposite Gandhipuram Central Bus Stand, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+    "latitude": 11.0112,
+    "longitude": 76.9654,
+    "phone": "+91 91595 55662",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0060",
+    "name": "Thudiyalur Ganesh Tyre Hub",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 21, Mettupalayam Main Road, Near Thudiyalur Flyover, Thudiyalur, Coimbatore, Tamil Nadu 641034",
+    "latitude": 11.0645,
+    "longitude": 76.9412,
+    "phone": "+91 93603 22336",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0061",
+    "name": "Perur Express Tyre Patch",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 77, Perur Main Road, Near Perur Patteeswarar Temple Entrance, Perur, Coimbatore, Tamil Nadu 641010",
+    "latitude": 10.9745,
+    "longitude": 76.9115,
+    "phone": "+91 97918 33445",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0062",
+    "name": "Ganapathy Venkateswara Tyre Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 45, Sathy Road, Near Ganapathy Bus Stop, Ganapathy, Coimbatore, Tamil Nadu 641006",
+    "latitude": 11.0214,
+    "longitude": 76.9685,
+    "phone": "+91 98425 77882",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0063",
+    "name": "Lakshmi Mills National Brand Tyre Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 62, Avinashi Road, Near Lakshmi Mills Junction, Coimbatore, Tamil Nadu 641037",
+    "latitude": 11.0124,
+    "longitude": 76.9812,
+    "phone": "+91 94445 22334",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0064",
+    "name": "Podanur Wheel Alignment Corner",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 3, Pollachi Main Road, Opposite Podanur Junction Road, Podanur, Coimbatore, Tamil Nadu 641023",
+    "latitude": 10.9584,
+    "longitude": 76.9612,
+    "phone": "+91 94443 77883",
+    "services": [
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Alignment",
+      "Nitrogen Gas Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_COIMBATORE_0065",
+    "name": "RS Puram Quick Tyre Patch",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 144, Thadagam Road, Near GCT College Crossing, RS Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0064,
+    "longitude": 76.9354,
+    "phone": "+91 98402 11225",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0066",
+    "name": "Sri Balaji Tubeless Center",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 33, Sathy Road, Near Prozone Mall Entrance, Saravanampatti, Coimbatore, Tamil Nadu 641035",
+    "latitude": 11.0594,
+    "longitude": 76.9921,
+    "phone": "+91 97864 11224",
+    "services": [
+      "Car Puncture",
+      "Mushroom Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0067",
+    "name": "Ramesh Tyre Patch Work",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 56, Trichy Road, Near Singanallur Bus Stand Circle, Singanallur, Coimbatore, Tamil Nadu 641005",
+    "latitude": 10.9942,
+    "longitude": 77.0245,
+    "phone": "+91 94421 11224",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0068",
+    "name": "24 Hrs Eachanari Highway Support",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 12, Pollachi Main Road, Near Eachanari Toll Plaza Crossing, Eachanari, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9242,
+    "longitude": 76.9654,
+    "phone": "+91 88705 33442",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Puncture",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0069",
+    "name": "Muthu Tyre Vulcanizing Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 88, Marudhamalai Road, Opposite Bharathiar University Main Gate, Somayampalayam, Coimbatore, Tamil Nadu 641046",
+    "latitude": 11.0342,
+    "longitude": 76.9015,
+    "phone": "+91 90428 33445",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0070",
+    "name": "Veera Heavy Western Tyre Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "Siruvani Main Road, Near Alandurai Transport Terminal, Alandurai, Coimbatore, Tamil Nadu 641101",
+    "latitude": 10.9545,
+    "longitude": 76.7842,
+    "phone": "+91 95661 55662",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0071",
+    "name": "Siva Tubeless Corner",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 45, 100 Feet Road, Opposite Gandhipuram Central Bus Stand, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+    "latitude": 11.0134,
+    "longitude": 76.9685,
+    "phone": "+91 99438 11224",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0072",
+    "name": "Saravana Tyre Fix Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 72, Mettupalayam Main Road, Near Thudiyalur Flyover, Thudiyalur, Coimbatore, Tamil Nadu 641034",
+    "latitude": 11.0645,
+    "longitude": 76.9412,
+    "phone": "+91 91593 55662",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0073",
+    "name": "New Star Premium Tyre Service",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 15, Perur Main Road, Near Perur Patteeswarar Temple Entrance, Perur, Coimbatore, Tamil Nadu 641010",
+    "latitude": 10.9745,
+    "longitude": 76.9115,
+    "phone": "+91 98431 11224",
+    "services": [
+      "Premium Car Puncture",
+      "Tubeless Laser Repair",
+      "Nitrogen Air Filling",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0074",
+    "name": "Gopi Tyre Patch Works",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 24, Sathy Road, Near Ganapathy Bus Stop, Ganapathy, Coimbatore, Tamil Nadu 641006",
+    "latitude": 11.0214,
+    "longitude": 76.9685,
+    "phone": "+91 93608 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0075",
+    "name": "Meenakshi Express Tyre Center",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 84, Avinashi Road, Near Lakshmi Mills Junction, Coimbatore, Tamil Nadu 641037",
+    "latitude": 11.0124,
+    "longitude": 76.9812,
+    "phone": "+91 97912 22334",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0076",
+    "name": "Venkateswara Bike Tyre Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 18, Pollachi Main Road, Opposite Podanur Junction Road, Podanur, Coimbatore, Tamil Nadu 641023",
+    "latitude": 10.9584,
+    "longitude": 76.9612,
+    "phone": "+91 98425 11224",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0077",
+    "name": "Express Tyre Alignment Point",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 64, Palakkad Main Road, Near Kuniyamuthur Junction, Kuniyamuthur, Coimbatore, Tamil Nadu 641008",
+    "latitude": 10.9615,
+    "longitude": 76.9354,
+    "phone": "+91 96294 11225",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0078",
+    "name": "National Heavy Vehicle Puncture",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 86, Palladam Road, Near Sulur Aero Junction, Sulur, Coimbatore, Tamil Nadu 641402",
+    "latitude": 11.0114,
+    "longitude": 77.1215,
+    "phone": "+91 94864 11224",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0079",
+    "name": "Smart Tyre Mechanics & Service",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 54, Marudhamalai Road, Opposite Bharathiar University Gate, Somayampalayam, Coimbatore, Tamil Nadu 641046",
+    "latitude": 11.0389,
+    "longitude": 76.9014,
+    "phone": "+91 90802 55663",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0080",
+    "name": "Peelamedu Metro Quick Fix",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 5, Vilankurichi Road, Near Codissia Trade Fair Complex, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "latitude": 11.0412,
+    "longitude": 77.0191,
+    "phone": "+91 94449 11224",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_COIMBATORE_0081",
+    "name": "Kovai Bypass Tyre Point",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 14, L&T Bypass Road, Near Eachanari Junction Crossing, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9215,
+    "longitude": 77.0018,
+    "phone": "+91 98405 33221",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0082",
+    "name": "Thudiyalur Tyre Care Hub",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 72, Mettupalayam Main Road, Near Thudiyalur Flyover, Thudiyalur, Coimbatore, Tamil Nadu 641034",
+    "latitude": 11.0694,
+    "longitude": 76.9415,
+    "phone": "+91 98841 11225",
+    "services": [
+      "Tubeless Repair",
+      "Car Puncture",
+      "Nitrogen Air",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0083",
+    "name": "24/7 Sathy Road Highway Puncture Help",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 180, Sathy Road, Near Prozone Mall Junction, Saravanampatti, Coimbatore, Tamil Nadu 641035",
+    "latitude": 11.0589,
+    "longitude": 76.9918,
+    "phone": "+91 88703 11228",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0084",
+    "name": "Ganapathy Tubeless Zone",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 25, Sathy Road, Near Ganapathy Bus Stop, Ganapathy, Coimbatore, Tamil Nadu 641006",
+    "latitude": 11.0242,
+    "longitude": 76.9715,
+    "phone": "+91 97514 11229",
+    "services": [
+      "Car Tubeless Repair",
+      "Bike Puncture",
+      "Mushroom Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0085",
+    "name": "Sulur Heavy Truck Lorry Puncture",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 4, Palladam Road, Near Sulur Aero Junction, Sulur, Coimbatore, Tamil Nadu 641402",
+    "latitude": 11.0118,
+    "longitude": 77.1218,
+    "phone": "+91 94865 11229",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0086",
+    "name": "Somayampalayam Bike Puncture Point",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 9, Marudhamalai Road, Opposite Bharathiar University Gate, Somayampalayam, Coimbatore, Tamil Nadu 641046",
+    "latitude": 11.0385,
+    "longitude": 76.9018,
+    "phone": "+91 90425 55664",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Strip Patch",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0087",
+    "name": "Peelamedu Express Wheel Alignment",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 112, Vilankurichi Road, Near Codissia Complex Crossing, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "latitude": 11.0415,
+    "longitude": 77.0195,
+    "phone": "+91 97918 11225",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Inflation",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0088",
+    "name": "Alandurai Tube Vulcanizing Point",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 34, Siruvani Main Road, Near Alandurai Transport Terminal, Alandurai, Coimbatore, Tamil Nadu 641101",
+    "latitude": 10.9515,
+    "longitude": 76.7815,
+    "phone": "+91 96005 55663",
+    "services": [
+      "Tube Vulcanizing",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0089",
+    "name": "Eachanari Smart Wheel Base",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 88, Pollachi Main Road, Opposite Eachanari Temple Road, Eachanari, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9318,
+    "longitude": 76.9688,
+    "phone": "+91 90807 11225",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0090",
+    "name": "Singanallur Trichy Road Heavy Repair",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 15, Trichy Road, Near Singanallur Bus Stand Circle, Singanallur, Coimbatore, Tamil Nadu 641005",
+    "latitude": 10.9945,
+    "longitude": 77.0215,
+    "phone": "+91 95665 11226",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "High-Pressure Air Filling",
+      "Tyre Re-fitting"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0091",
+    "name": "RS Puram Saravana Tyre Fixer",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 43, Thadagam Road, Near GCT College Crossing, RS Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0024,
+    "longitude": 76.9395,
+    "phone": "+91 91595 11226",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0092",
+    "name": "Podanur Ganesh Tyre Hub",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 21, Pollachi Main Road, Opposite Podanur Junction Road, Podanur, Coimbatore, Tamil Nadu 641023",
+    "latitude": 10.9615,
+    "longitude": 76.9688,
+    "phone": "+91 93603 44553",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0093",
+    "name": "Lakshmi Mills Express Tyre Patch",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 77, Avinashi Road, Near Lakshmi Mills Junction, Coimbatore, Tamil Nadu 641037",
+    "latitude": 11.0115,
+    "longitude": 76.9858,
+    "phone": "+91 97918 44553",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0094",
+    "name": "Kinathukadavu Venkateswara Tyre Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 45, Pollachi Main Road, Near Kinathukadavu Toll Crossing, Kinathukadavu, Coimbatore, Tamil Nadu 642109",
+    "latitude": 10.8215,
+    "longitude": 77.0115,
+    "phone": "+91 98425 22333",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0095",
+    "name": "Kuniyamuthur National Brand Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 62, Palakkad Main Road, Near Kuniyamuthur Junction, Kuniyamuthur, Coimbatore, Tamil Nadu 641008",
+    "latitude": 10.9612,
+    "longitude": 76.9352,
+    "phone": "+91 94445 44552",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0096",
+    "name": "Karumathampatti Wheel Alignment Hub",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 3, Avinashi Road, Near Karumathampatti Bypass Junction, Coimbatore, Tamil Nadu 641659",
+    "latitude": 11.1128,
+    "longitude": 77.1858,
+    "phone": "+91 94443 11226",
+    "services": [
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Alignment",
+      "Nitrogen Gas Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_COIMBATORE_0097",
+    "name": "Karumathampatti Tyre Service Station",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 48, Avinashi Road, Near Karumathampatti Bypass Junction, Coimbatore, Tamil Nadu 641659",
+    "latitude": 11.1118,
+    "longitude": 77.1854,
+    "phone": "+91 98401 33441",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0098",
+    "name": "Sri Sai Baba Tubeless Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 105, Pollachi Main Road, Opposite Podanur Junction Road, Podanur, Coimbatore, Tamil Nadu 641023",
+    "latitude": 10.9585,
+    "longitude": 76.9615,
+    "phone": "+91 98842 11225",
+    "services": [
+      "Car Puncture",
+      "Mushroom Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0099",
+    "name": "24/7 Palakkad Highway Quick Fix",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 15, Palakkad Main Road, Near Kuniyamuthur Junction, Kuniyamuthur, Coimbatore, Tamil Nadu 641008",
+    "latitude": 10.9612,
+    "longitude": 76.9358,
+    "phone": "+91 88704 11225",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Puncture",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0100",
+    "name": "Lakshmi Mills Tyre Junction",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 28, Avinashi Road, Near Lakshmi Mills Junction, Coimbatore, Tamil Nadu 641037",
+    "latitude": 11.0112,
+    "longitude": 76.9854,
+    "phone": "+91 97515 11225",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Wheel Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0101",
+    "name": "Kinathukadavu Heavy Truck Point",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 5, Pollachi Main Road, Near Kinathukadavu Toll Crossing, Kinathukadavu, Coimbatore, Tamil Nadu 642109",
+    "latitude": 10.8214,
+    "longitude": 77.0112,
+    "phone": "+91 94866 11225",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0102",
+    "name": "Ganapathy Bike Tyre Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 12, Sathy Road, Near Ganapathy Bus Stop, Ganapathy, Coimbatore, Tamil Nadu 641006",
+    "latitude": 11.0214,
+    "longitude": 76.9685,
+    "phone": "+91 90426 11225",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0103",
+    "name": "Perur Wheel Clinic",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 84, Perur Main Road, Near Perur Patteeswarar Temple Entrance, Perur, Coimbatore, Tamil Nadu 641010",
+    "latitude": 10.9745,
+    "longitude": 76.9115,
+    "phone": "+91 97919 11225",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0104",
+    "name": "Thudiyalur Tyre Vulcanizing",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 31, Mettupalayam Main Road, Near Thudiyalur Flyover, Thudiyalur, Coimbatore, Tamil Nadu 641034",
+    "latitude": 11.0645,
+    "longitude": 76.9412,
+    "phone": "+91 96006 11225",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0105",
+    "name": "Saravanampatti Smart Tyre Hub",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 56, Sathy Road, Near Prozone Mall Entrance, Saravanampatti, Coimbatore, Tamil Nadu 641035",
+    "latitude": 11.0594,
+    "longitude": 76.9921,
+    "phone": "+91 90808 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0106",
+    "name": "Somayampalayam Heavy Haul Repair",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 24, Marudhamalai Road, Opposite Bharathiar University Gate, Somayampalayam, Coimbatore, Tamil Nadu 641046",
+    "latitude": 11.0385,
+    "longitude": 76.9015,
+    "phone": "+91 95666 11224",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0107",
+    "name": "Sulur Saravana Tyre Fix",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 4, Palladam Road, Near Sulur Air Force Station Gate, Sulur, Coimbatore, Tamil Nadu 641402",
+    "latitude": 11.0245,
+    "longitude": 77.1285,
+    "phone": "+91 91596 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0108",
+    "name": "Smart Tyre Point & Mechanics",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 12, Pollachi Main Road, Opposite Eachanari Temple Road, Eachanari, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9284,
+    "longitude": 76.9612,
+    "phone": "+91 93604 11225",
+    "services": [
+      "Premium Car Puncture",
+      "Tubeless Laser Repair",
+      "Nitrogen Air Filling",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0109",
+    "name": "Siva Tyre Vulcanizing Station",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 99, Trichy Road, Near Singanallur Bus Stand Circle, Singanallur, Coimbatore, Tamil Nadu 641005",
+    "latitude": 10.9942,
+    "longitude": 77.0245,
+    "phone": "+91 97919 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0110",
+    "name": "RS Puram Auto Tube Station",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 64, Thadagam Road, Near GCT College Crossing, RS Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0042,
+    "longitude": 76.9354,
+    "phone": "+91 98426 11225",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0111",
+    "name": "Muthu Fast Tube Patch Corner",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 11, Marudhamalai Road, Opposite Bharathiar University Gate, Somayampalayam, Coimbatore, Tamil Nadu 641046",
+    "latitude": 11.0389,
+    "longitude": 76.9014,
+    "phone": "+91 94446 11225",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0112",
+    "name": "Express Wheel Hub Multi Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 45, 100 Feet Road, Opposite Gandhipuram Central Bus Stand, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+    "latitude": 11.0134,
+    "longitude": 76.9685,
+    "phone": "+91 94444 11224",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_COIMBATORE_0113",
+    "name": "Kovai North Tyre Station",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 42, Mettupalayam Road, Near Saibaba Colony Flyover, Coimbatore, Tamil Nadu 641011",
+    "latitude": 11.0215,
+    "longitude": 76.9492,
+    "phone": "+91 98436 88112",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0114",
+    "name": "Raja Lorry Vulcanizing Yard",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 120, L&T Bypass Road, Near Eachanari Junction Crossing, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9218,
+    "longitude": 77.0022,
+    "phone": "+91 94425 33221",
+    "services": [
+      "Truck Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0115",
+    "name": "24/7 Sathy Road Emergency Support",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 25, Sathy Road, Near Prozone Mall Junction, Saravanampatti, Coimbatore, Tamil Nadu 641035",
+    "latitude": 11.0592,
+    "longitude": 76.9924,
+    "phone": "+91 88701 44331",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Assistance"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0116",
+    "name": "Ganapathy Multi Brand Tyre Patch",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 115, Sathy Road, Near Ganapathy Bus Stop, Ganapathy, Coimbatore, Tamil Nadu 641006",
+    "latitude": 11.0245,
+    "longitude": 76.9718,
+    "phone": "+91 97512 88991",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0117",
+    "name": "National Heavy Truck Alignment & Puncture",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 209, Palladam Road, Near Sulur Aero Junction, Sulur, Coimbatore, Tamil Nadu 641402",
+    "latitude": 11.0118,
+    "longitude": 77.1218,
+    "phone": "+91 94863 11552",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0118",
+    "name": "Somayampalayam Fast Patch Corner",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 204, Marudhamalai Road, Opposite Bharathiar University Gate, Somayampalayam, Coimbatore, Tamil Nadu 641046",
+    "latitude": 11.0388,
+    "longitude": 76.9018,
+    "phone": "+91 90422 77112",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0119",
+    "name": "Peelamedu Smart Alignment & Puncture",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 103, Vilankurichi Road, Near Codissia Complex Crossing, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "latitude": 11.0418,
+    "longitude": 77.0198,
+    "phone": "+91 97915 44221",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0120",
+    "name": "Alandurai Tyre Vulcanizing Station",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 110, Siruvani Main Road, Near Alandurai Transport Terminal, Alandurai, Coimbatore, Tamil Nadu 641101",
+    "latitude": 10.9518,
+    "longitude": 76.7818,
+    "phone": "+91 96004 88112",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0121",
+    "name": "Eachanari Tyre Point & Mechanics",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 211, Pollachi Main Road, Opposite Eachanari Temple Road, Eachanari, Coimbatore, Tamil Nadu 641021",
+    "latitude": 10.9321,
+    "longitude": 76.9692,
+    "phone": "+91 90803 11552",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0122",
+    "name": "Singanallur Trichy Road Puncture Yard",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 301, Trichy Road, Near Singanallur Bus Stand Circle, Singanallur, Coimbatore, Tamil Nadu 641005",
+    "latitude": 10.9948,
+    "longitude": 77.0218,
+    "phone": "+91 95662 44112",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0123",
+    "name": "RS Puram Saravana Tyre Care Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 44, Thadagam Road, Near GCT College Crossing, RS Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0028,
+    "longitude": 76.9398,
+    "phone": "+91 91593 11442",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0124",
+    "name": "Podanur Tyre Stripping & Fitting Center",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 48, Pollachi Main Road, Opposite Podanur Junction Road, Podanur, Coimbatore, Tamil Nadu 641023",
+    "latitude": 10.9588,
+    "longitude": 76.9615,
+    "phone": "+91 93601 55442",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0125",
+    "name": "Lakshmi Mills Multi Brand Tyre Patch",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 109, Avinashi Road, Near Lakshmi Mills Junction, Coimbatore, Tamil Nadu 641037",
+    "latitude": 11.0128,
+    "longitude": 76.9815,
+    "phone": "+91 97914 11552",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0126",
+    "name": "Kinathukadavu Auto Tube Repair Shop",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 43, Pollachi Main Road, Near Kinathukadavu Toll Crossing, Kinathukadavu, Coimbatore, Tamil Nadu 642109",
+    "latitude": 10.8218,
+    "longitude": 77.0118,
+    "phone": "+91 98423 11552",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0127",
+    "name": "Kuniyamuthur Express Wheel Hub Multi Care",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 45, Palakkad Main Road, Near Kuniyamuthur Junction, Kuniyamuthur, Coimbatore, Tamil Nadu 641008",
+    "latitude": 10.9618,
+    "longitude": 76.9358,
+    "phone": "+91 94443 11552",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_COIMBATORE_0128",
+    "name": "Karumathampatti Quick Fix Tyre Center",
+    "district": "Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "No 18, Avinashi Road, Near Karumathampatti Bypass Junction, Coimbatore, Tamil Nadu 641659",
+    "latitude": 11.1132,
+    "longitude": 77.1862,
+    "phone": "+91 98403 88114",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Multi Repair",
+      "Air Filling"
+    ],
+    

@@ -1,0 +1,5123 @@
+[
+  {
+    "id": "PUN_CHENNAI_0001",
+    "name": "Sri Vinayaga Tyre Puncture Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 45, Anna Salai, Near Mount Road Petrol Bunk, Thousand Lights, Chennai, Tamil Nadu 600006",
+    "latitude": 13.0584,
+    "longitude": 80.2512,
+    "phone": "+91 94441 55661",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0002",
+    "name": "Murugan Tyre Works & Vulcanizing",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 12, Poonamallee High Road, Near Koyambedu Flyover, Koyambedu, Chennai, Tamil Nadu 600107",
+    "latitude": 13.0695,
+    "longitude": 80.1942,
+    "phone": "+91 98423 11229",
+    "services": [
+      "Tube Vulcanizing",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0003",
+    "name": "24/7 Chennai Highway Emergency Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "Inner Ring Road, Opp. Koyambedu Omni Bus Stand, Koyambedu, Chennai, Tamil Nadu 600107",
+    "latitude": 13.0712,
+    "longitude": 80.2014,
+    "phone": "+91 88702 44559",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0004",
+    "name": "Sri Balaji Tyre Care & Alignment",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 88, Jawaharlal Nehru Salai, Near SBOA School, Anna Nagar West, Chennai, Tamil Nadu 600040",
+    "latitude": 13.0884,
+    "longitude": 80.1914,
+    "phone": "+91 97912 44558",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0005",
+    "name": "Express Wheel Hub & Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 104, Arcade Complex, Velachery Main Road, Velachery, Chennai, Tamil Nadu 600042",
+    "latitude": 12.9745,
+    "longitude": 80.2212,
+    "phone": "+91 94445 77884",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0006",
+    "name": "Muthu Quick Puncture Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 15, Arcot Road, Opposite Vijaya Hospital, Vadapalani, Chennai, Tamil Nadu 600026",
+    "latitude": 13.0514,
+    "longitude": 80.2085,
+    "phone": "+91 90422 22113",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0007",
+    "name": "Siva Tyre Vulcanizing Station",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 34, OMR Bypass Road, Near Tidel Park Signal, Thiruvanmiyur, Chennai, Tamil Nadu 600041",
+    "latitude": 12.9824,
+    "longitude": 80.2491,
+    "phone": "+91 96001 88774",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0008",
+    "name": "Smart Tyre Multi Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 67, GNT Road, Near Madhavaram Roundana, Madhavaram, Chennai, Tamil Nadu 600110",
+    "latitude": 13.1415,
+    "longitude": 80.2254,
+    "phone": "+91 90803 66773",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0009",
+    "name": "Veera Heavy Truck Puncture Base",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "Ennore Express High Road, Near Kathivakkam Railway Station, Ennore, Chennai, Tamil Nadu 600057",
+    "latitude": 13.2014,
+    "longitude": 80.3115,
+    "phone": "+91 95662 55664",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0010",
+    "name": "Saravana Tyre Align Clinic",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 112, ECR Main Road, Opposite Prarthana Drive-In Theatre, Injambakkam, Chennai, Tamil Nadu 600115",
+    "latitude": 12.9289,
+    "longitude": 80.2514,
+    "phone": "+91 91592 22337",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0011",
+    "name": "Gopi Tyre Stripping & Service",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 56, CTH Road, Opposite Ambattur OT Bus Stand, Ambattur, Chennai, Tamil Nadu 600053",
+    "latitude": 13.1191,
+    "longitude": 80.1512,
+    "phone": "+91 93601 66775",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0012",
+    "name": "Meenakshi Fast Tyre Patch Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 23, Red Hills Road, Near Ambedkar Statue, Kolathur, Chennai, Tamil Nadu 600099",
+    "latitude": 13.1264,
+    "longitude": 80.2091,
+    "phone": "+91 97914 22338",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0013",
+    "name": "Venkateswara Auto Tube Repair Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 77, Kodambakkam High Road, Near Nungambakkam Railway Station, Chennai, Tamil Nadu 600034",
+    "latitude": 13.0645,
+    "longitude": 80.2312,
+    "phone": "+91 98421 22339",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0014",
+    "name": "National Port Heavy Repair Base",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 10, Port Trust Toll Gate Road, Near Chennai Port Trust Entrance, Royapuram, Chennai, Tamil Nadu 600013",
+    "latitude": 13.1114,
+    "longitude": 80.2912,
+    "phone": "+91 94861 22337",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0015",
+    "name": "Kumaran Quick Tyre Work",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 89, Thiruvottiyur High Road, Opposite Theradi Metro Station, Thiruvottiyur, Chennai, Tamil Nadu 600019",
+    "latitude": 13.1615,
+    "longitude": 80.3012,
+    "phone": "+91 98943 22336",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0016",
+    "name": "Metro Tyre Care Zone",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 4, Inner Ring Road, Opposite Ashok Nagar Metro Station, Ashok Nagar, Chennai, Tamil Nadu 600083",
+    "latitude": 13.0345,
+    "longitude": 80.2112,
+    "phone": "+91 97894 33221",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Multi Repair",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0017",
+    "name": "Marina Beach Tyre Support",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+"address": "No 19, Kamarajar Salai, Near Light House, Triplicane, Chennai, Tamil Nadu 600005","latitude": 13.0412,"longitude": 80.2798,"phone": "+91 91761 44552","services": ["Bike Puncture","Car Puncture","Tubeless Quick Fix","Air Filling"],"vehicle_types": ["Bike","Car"],"is_24_hours": false,"rating": 4.1,"status": "Open"}]
+[
+  {
+    "id": "PUN_CHENNAI_0018",
+    "name": "Balu Tyre Vulcanizing Works",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 54, RK Mutt Road, Near Mandaveli Bus Terminus, Mandaveli, Chennai, Tamil Nadu 600028",
+    "latitude": 13.0231,
+    "longitude": 80.2612,
+    "phone": "+91 94433 88106",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0019",
+    "name": "Sri Lakshmi Puncture Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 73, Santhome High Road, Near Santhome Church, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0312,
+    "longitude": 80.2754,
+    "phone": "+91 98655 11225",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0020",
+    "name": "Highway 24 Hours Tyre Service",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 112, Grand Western Trunk Road, Near Poonamallee Bypass, Poonamallee, Chennai, Tamil Nadu 600056",
+    "latitude": 13.0489,
+    "longitude": 80.1124,
+    "phone": "+91 88708 44333",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0021",
+    "name": "Rayan Tyre Patch Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 29, Nelson Manickam Road, Near Aminjikarai Flyover, Aminjikarai, Chennai, Tamil Nadu 600029",
+    "latitude": 13.0724,
+    "longitude": 80.2289,
+    "phone": "+91 95669 22116",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0022",
+    "name": "Vetri Heavy Vehicle Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 85, GNT Road, Near Puzhal Central Jail Crossing, Puzhal, Chennai, Tamil Nadu 600066",
+    "latitude": 13.1612,
+    "longitude": 80.2014,
+    "phone": "+91 94863 99886",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0023",
+    "name": "Sakthi Tyre Mechanics",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 42, Lattice Bridge Road, Opposite Adyar Depot, Adyar, Chennai, Tamil Nadu 600020",
+    "latitude": 12.9984,
+    "longitude": 80.2542,
+    "phone": "+91 90424 44334",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0024",
+    "name": "Meenakshi Tyre Care & Alignment",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 91, Sardar Patel Road, Near IIT Madras Main Gate, Guindy, Chennai, Tamil Nadu 600032",
+    "latitude": 13.0074,
+    "longitude": 80.2212,
+    "phone": "+91 97919 55443",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0025",
+    "name": "Velan Tube Vulcanizing Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 18, Perambur High Road, Opposite Railway Station, Perambur, Chennai, Tamil Nadu 600011",
+    "latitude": 13.1124,
+    "longitude": 80.2415,
+    "phone": "+91 96003 22337",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0026",
+    "name": "Smart Wheel Point",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 59, Dr. Radhakrishnan Salai, Near City Centre Mall, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0421,
+    "longitude": 80.2612,
+    "phone": "+91 90805 11228",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0027",
+    "name": "Pandian Lorry Tyre Repair",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 15, Manali Express High Road, Near Port Colony, Manali, Chennai, Tamil Nadu 600103",
+    "latitude": 13.1685,
+    "longitude": 80.2712,
+    "phone": "+91 95663 77665",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0028",
+    "name": "Saravana Tyre Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 48, North Usman Road, Near T. Nagar Flyover, T. Nagar, Chennai, Tamil Nadu 600017",
+    "latitude": 13.0398,
+    "longitude": 80.2334,
+    "phone": "+91 91591 33443",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0029",
+    "name": "Ganesh Tyre Stripping Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 21, New Avadi Road, Near ICF Hospital, Villivakkam, Chennai, Tamil Nadu 600038",
+    "latitude": 13.0984,
+    "longitude": 80.2091,
+    "phone": "+91 93609 55444",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0030",
+    "name": "Express Fast Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 79, Dr. Ambedkar College Road, Near Vyasarpadi Jeeva Railway Station, Vyasarpadi, Chennai, Tamil Nadu 600039",
+    "latitude": 13.1189,
+    "longitude": 80.2545,
+    "phone": "+91 97916 22333",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0031",
+    "name": "Venkateswara Bike Tube Work",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 61, Cathedral Road, Opposite Stella Maris College, Gopalapuram, Chennai, Tamil Nadu 600086",
+    "latitude": 13.0472,
+    "longitude": 80.2514,
+    "phone": "+91 98429 66774",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0032",
+    "name": "National Multi Brand Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 64, Chamiers Road, Near Nandanam Signal, Nandanam, Chennai, Tamil Nadu 600035",
+    "latitude": 13.0284,
+    "longitude": 80.2442,
+    "phone": "+91 94449 11227",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0033",
+    "name": "Super Fast Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 14, Santhome High Road, Opposite Pattinapakkam Bus Stop, Foreshore Estate, Chennai, Tamil Nadu 600028",
+    "latitude": 13.0198,
+    "longitude": 80.2745,
+    "phone": "+91 91764 55441",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Seal",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CHENNAI_0034",
+    "name": "Sri Amman Puncture Kadai",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 18, Medavakkam Main Road, Near Keelkattalai Signal, Keelkattalai, Chennai, Tamil Nadu 600117",
+    "latitude": 12.9614,
+    "longitude": 80.1985,
+    "phone": "+91 98436 77882",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0035",
+    "name": "Raja Two Wheeler Puncture Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 42, Shanthi Colony Main Road, Near Roundtana, Anna Nagar, Chennai, Tamil Nadu 600040",
+    "latitude": 13.0842,
+    "longitude": 80.2104,
+    "phone": "+91 94425 33443",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0036",
+    "name": "24/7 OMR Highway Emergency Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 55, Rajiv Gandhi Salai (OMR), Near Navalur Toll Plaza Junction, Navalur, Chennai, Tamil Nadu 603103",
+    "latitude": 12.8425,
+    "longitude": 80.2268,
+    "phone": "+91 88701 44553",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0037",
+    "name": "Murugan Multi Brand Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 12, Kalakshetra Road, Near Thiruvanmiyur Bus Depot, Thiruvanmiyur, Chennai, Tamil Nadu 600041",
+    "latitude": 12.9865,
+    "longitude": 80.2592,
+    "phone": "+91 97512 77886",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0038",
+    "name": "National Heavy Truck Alignment & Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 77, Grand Northern Trunk Road, near Madhavaram Truck Terminal, Madhavaram, Chennai, Tamil Nadu 600110",
+    "latitude": 13.1542,
+    "longitude": 80.2215,
+    "phone": "+91 94863 22337",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0039",
+    "name": "Muthu Fast Tube Patch Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 28, Red Hills High Road, Near Lakshmipuram Junction, Kolathur, Chennai, Tamil Nadu 600099",
+    "latitude": 13.1412,
+    "longitude": 80.2015,
+    "phone": "+91 90422 88995",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0040",
+    "name": "Sri Lakshmi Wheel Alignment & Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 45, Sardar Patel Road, Near Kasturba Nagar Railway Station, Adyar, Chennai, Tamil Nadu 600020",
+    "latitude": 13.0064,
+    "longitude": 80.2452,
+    "phone": "+91 97915 55665",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0041",
+    "name": "Siva Tyre Vulcanizing Station",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 99, Kodambakkam High Road, near Liberty Theatre Flyover, Kodambakkam, Chennai, Tamil Nadu 600024",
+    "latitude": 13.0514,
+    "longitude": 80.2285,
+    "phone": "+91 96004 99114",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0042",
+    "name": "Smart Tyre Point & Mechanics",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 12, GST Road, Near Guindy Metro Station, Guindy, Chennai, Tamil Nadu 600032",
+    "latitude": 13.0091,
+    "longitude": 80.2134,
+    "phone": "+91 90803 22338",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0043",
+    "name": "Veera Heavy Truck Puncture Yard",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 86, Poonamallee High Road, Near Vanagaram Toll Plaza Crossing, Vanagaram, Chennai, Tamil Nadu 600095",
+    "latitude": 13.0615,
+    "longitude": 80.1495,
+    "phone": "+91 95662 55663",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0044",
+    "name": "Saravana Tyre Care Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 36, Inner Ring Road, near SAF Games Village, Arumbakkam, Chennai, Tamil Nadu 600106",
+    "latitude": 13.0685,
+    "longitude": 80.2014,
+    "phone": "+91 91593 22337",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0045",
+    "name": "Gopi Tyre Stripping & Fitting Center",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 54, ECR Road, Opposite Palavakkam Beach Arch, Palavakkam, Chennai, Tamil Nadu 600041",
+    "latitude": 12.9565,
+    "longitude": 80.2542,
+    "phone": "+91 93601 66775",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0046",
+    "name": "Meenakshi Multi Brand Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 14, Grand Southern Trunk Road, near Meenambakkam Airport Subway, Meenambakkam, Chennai, Tamil Nadu 600027",
+    "latitude": 12.9891,
+    "longitude": 80.1754,
+    "phone": "+91 97914 22337",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0047",
+    "name": "Venkateswara Auto Tube Repair Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 45, Velachery Main Road, Near Guru Nanak College, Velachery, Chennai, Tamil Nadu 600042",
+    "latitude": 12.9954,
+    "longitude": 80.2212,
+    "phone": "+91 98423 22337",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0048",
+    "name": "Express Wheel Hub Multi Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 62, Arcort Road, Opp. Karaneeswarar Temple Pond, Saidapet, Chennai, Tamil Nadu 600015",
+    "latitude": 13.0214,
+    "longitude": 80.2264,
+    "phone": "+91 94443 11227",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0049",
+    "name": "Thirumangalam Tyre Junction",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 3, Jawaharlal Nehru Road, near Thirumangalam Flyover Junction, Anna Nagar, Chennai, Tamil Nadu 600040",
+    "latitude": 13.0854,
+    "longitude": 80.1991,
+    "phone": "+91 98402 11442",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CHENNAI_0050",
+    "name": "Porur Tyre Point",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 14, Mount Poonamallee Road, Near Porur Junction Signal, Porur, Chennai, Tamil Nadu 600116",
+    "latitude": 13.0312,
+    "longitude": 80.1545,
+    "phone": "+91 98405 12345",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0051",
+    "name": "KMC Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 72, CTH Road, Near Ambattur Telephone Exchange, Ambattur, Chennai, Tamil Nadu 600053",
+    "latitude": 13.1145,
+    "longitude": 80.1612,
+    "phone": "+91 98841 55662",
+    "services": [
+      "Tubeless Repair",
+      "Car Puncture",
+      "Nitrogen Air",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0052",
+    "name": "24/7 Poonamallee Highway Emergency Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 180, Poonamallee High Road, Near Maduravoyal Flyover Junction, Maduravoyal, Chennai, Tamil Nadu 600095",
+    "latitude": 13.0674,
+    "longitude": 80.1685,
+    "phone": "+91 88703 66774",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0053",
+    "name": "Thiruvanmiyur Tubeless Zone",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 25, ECR Main Road, Near RTO Office, Thiruvanmiyur, Chennai, Tamil Nadu 600041",
+    "latitude": 12.9845,
+    "longitude": 80.2612,
+    "phone": "+91 97514 88991",
+    "services": [
+      "Car Tubeless Repair",
+      "Bike Puncture",
+      "Mushroom Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0054",
+    "name": "Madhavaram Heavy Vehicle Puncture Base",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 4, Inner Ring Road, Near Madhavaram Mofussil Bus Terminus, Madhavaram, Chennai, Tamil Nadu 600110",
+    "latitude": 13.1485,
+    "longitude": 80.2185,
+    "phone": "+91 94865 33441",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0055",
+    "name": "Vadapalani Bike Puncture Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 9, 100 Feet Road, Opposite Vadapalani Metro Station, Vadapalani, Chennai, Tamil Nadu 600026",
+    "latitude": 13.0521,
+    "longitude": 80.2114,
+    "phone": "+91 90425 99112",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Strip Patch",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0056",
+    "name": "Guindy Express Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 112, Mount Road, Opposite Guindy Railway Station, Guindy, Chennai, Tamil Nadu 600032",
+    "latitude": 13.0095,
+    "longitude": 80.2145,
+    "phone": "+91 97918 66772",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Inflation",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0057",
+    "name": "Royapettah Tube Vulcanizing Works",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 34, Whites Road, Near Royapettah Clock Tower Junction, Royapettah, Chennai, Tamil Nadu 600014",
+    "latitude": 13.0545,
+    "longitude": 80.2592,
+    "phone": "+91 96005 11226",
+    "services": [
+      "Tube Vulcanizing",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0058",
+    "name": "Chromepet Smart Wheel Point",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 88, GST Road, Opposite Chromepet Government Hospital, Chromepet, Chennai, Tamil Nadu 600044",
+    "latitude": 12.9542,
+    "longitude": 80.1412,
+    "phone": "+91 90807 22334",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0059",
+    "name": "Ennore Port Lorry Tyre Service",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 15, Kathivakkam High Road, Near Ennore Port Gate, Ennore, Chennai, Tamil Nadu 600057",
+    "latitude": 13.2112,
+    "longitude": 80.3154,
+    "phone": "+91 95665 88991",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "High-Pressure Air Filling",
+      "Tyre Re-fitting"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0060",
+    "name": "Velachery Saravana Tyre Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 43, Taramani Link Road, Near Velachery Railway Station, Velachery, Chennai, Tamil Nadu 600042",
+    "latitude": 12.9812,
+    "longitude": 80.2264,
+    "phone": "+91 91595 44551",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0061",
+    "name": "Kolathur Ganesh Tyre Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 21, Retteri Junction, Near Flyover Circle, Kolathur, Chennai, Tamil Nadu 600099",
+    "latitude": 13.1364,
+    "longitude": 80.2091,
+    "phone": "+91 93603 11225",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0062",
+    "name": "Nungambakkam Express Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 77, Village Road, Near Sterling Road Junction, Nungambakkam, Chennai, Tamil Nadu 600034",
+    "latitude": 13.0612,
+    "longitude": 80.2435,
+    "phone": "+91 97918 22334",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0063",
+    "name": "T. Nagar Venkateswara Tyre Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 45, Burkit Road, Near T. Nagar Bus Terminus, T. Nagar, Chennai, Tamil Nadu 600017",
+    "latitude": 13.0345,
+    "longitude": 80.2312,
+    "phone": "+91 98425 66771",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0064",
+    "name": "Adyar National Brand Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 62, LB Road, Near Adyar Signal Junction, Adyar, Chennai, Tamil Nadu 600020",
+    "latitude": 12.9989,
+    "longitude": 80.2565,
+    "phone": "+91 94445 11223",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0065",
+    "name": "Anna Nagar West Wheel Alignment Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 3, Jawaharlal Nehru Road, near Thirumangalam Junction, Anna Nagar West, Chennai, Tamil Nadu 600040",
+    "latitude": 13.0889,
+    "longitude": 80.1945,
+    "phone": "+91 94443 66772",
+    "services": [
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Alignment",
+      "Nitrogen Gas Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CHENNAI_0066",
+    "name": "Balu Tyre Vulcanizing Works",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 54, RK Mutt Road, Near Mandaveli Bus Terminus, Mandaveli, Chennai, Tamil Nadu 600028",
+    "latitude": 13.0231,
+    "longitude": 80.2612,
+    "phone": "+91 94433 88106",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0067",
+    "name": "Sri Lakshmi Puncture Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 73, Santhome High Road, Near Santhome Church, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0312,
+    "longitude": 80.2754,
+    "phone": "+91 98655 11225",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0068",
+    "name": "Highway 24 Hours Tyre Service",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 112, Grand Western Trunk Road, Near Poonamallee Bypass, Poonamallee, Chennai, Tamil Nadu 600056",
+    "latitude": 13.0489,
+    "longitude": 80.1124,
+    "phone": "+91 88708 44333",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0069",
+    "name": "Rayan Tyre Patch Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 29, Nelson Manickam Road, Near Aminjikarai Flyover, Aminjikarai, Chennai, Tamil Nadu 600029",
+    "latitude": 13.0724,
+    "longitude": 80.2289,
+    "phone": "+91 95669 22116",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0070",
+    "name": "Vetri Heavy Vehicle Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 85, GNT Road, Near Puzhal Central Jail Crossing, Puzhal, Chennai, Tamil Nadu 600066",
+    "latitude": 13.1612,
+    "longitude": 80.2014,
+    "phone": "+91 94863 99886",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0071",
+    "name": "Sakthi Tyre Mechanics",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 42, Lattice Bridge Road, Opposite Adyar Depot, Adyar, Chennai, Tamil Nadu 600020",
+    "latitude": 12.9984,
+    "longitude": 80.2542,
+    "phone": "+91 90424 44334",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0072",
+    "name": "Meenakshi Tyre Care & Alignment",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 91, Sardar Patel Road, Near IIT Madras Main Gate, Guindy, Chennai, Tamil Nadu 600032",
+    "latitude": 13.0074,
+    "longitude": 80.2212,
+    "phone": "+91 97919 55443",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0073",
+    "name": "Velan Tube Vulcanizing Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 18, Perambur High Road, Opposite Railway Station, Perambur, Chennai, Tamil Nadu 600011",
+    "latitude": 13.1124,
+    "longitude": 80.2415,
+    "phone": "+91 96003 22337",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0074",
+    "name": "Smart Wheel Point",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 59, Dr. Radhakrishnan Salai, Near City Centre Mall, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0421,
+    "longitude": 80.2612,
+    "phone": "+91 90805 11228",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0075",
+    "name": "Pandian Lorry Tyre Repair",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 15, Manali Express High Road, Near Port Colony, Manali, Chennai, Tamil Nadu 600103",
+    "latitude": 13.1685,
+    "longitude": 80.2712,
+    "phone": "+91 95663 77665",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0076",
+    "name": "Saravana Tyre Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 48, North Usman Road, Near T. Nagar Flyover, T. Nagar, Chennai, Tamil Nadu 600017",
+    "latitude": 13.0398,
+    "longitude": 80.2334,
+    "phone": "+91 91591 33443",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0077",
+    "name": "Ganesh Tyre Stripping Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 21, New Avadi Road, Near ICF Hospital, Villivakkam, Chennai, Tamil Nadu 600038",
+    "latitude": 13.0984,
+    "longitude": 80.2091,
+    "phone": "+91 93609 55444",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0078",
+    "name": "Express Fast Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 79, Dr. Ambedkar College Road, Near Vyasarpadi Jeeva Railway Station, Vyasarpadi, Chennai, Tamil Nadu 600039",
+    "latitude": 13.1189,
+    "longitude": 80.2545,
+    "phone": "+91 97916 22333",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0079",
+    "name": "Venkateswara Bike Tube Work",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 61, Cathedral Road, Opposite Stella Maris College, Gopalapuram, Chennai, Tamil Nadu 600086",
+    "latitude": 13.0472,
+    "longitude": 80.2514,
+    "phone": "+91 98429 66774",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0080",
+    "name": "National Multi Brand Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 64, Chamiers Road, Near Nandanam Signal, Nandanam, Chennai, Tamil Nadu 600035",
+    "latitude": 13.0284,
+    "longitude": 80.2442,
+    "phone": "+91 94449 11227",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0081",
+    "name": "Super Fast Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 14, Santhome High Road, Opposite Pattinapakkam Bus Stop, Foreshore Estate, Chennai, Tamil Nadu 600028",
+    "latitude": 13.0198,
+    "longitude": 80.2745,
+    "phone": "+91 91764 55441",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Seal",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CHENNAI_0082",
+    "name": "Besant Nagar Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 14, Elliot's Beach Road, Near Church Junction, Besant Nagar, Chennai, Tamil Nadu 600090",
+    "latitude": 13.0012,
+    "longitude": 80.2721,
+    "phone": "+91 98409 33441",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0083",
+    "name": "Sri Sai Tyre Tube Works",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 45, Medavakkam Main Road, Near Vanuvampet Signal, Madipakkam, Chennai, Tamil Nadu 600091",
+    "latitude": 12.9734,
+    "longitude": 80.1985,
+    "phone": "+91 98845 77662",
+    "services": [
+      "Tubeless Repair",
+      "Car Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0084",
+    "name": "24 Hours ECR Road Emergency Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 105, East Coast Road, Near Akkarai Junction, Sholinganallur, Chennai, Tamil Nadu 600119",
+    "latitude": 12.9012,
+    "longitude": 80.2541,
+    "phone": "+91 88705 33442",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0085",
+    "name": "Kilkattalai Tyre Junction",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 28, Pallavaram Main Road, Near Kilkattalai Bus Terminus, Kilkattalai, Chennai, Tamil Nadu 600117",
+    "latitude": 12.9645,
+    "longitude": 80.1812,
+    "phone": "+91 97515 44331",
+    "services": [
+      "Car Tubeless Repair",
+      "Bike Puncture",
+      "Mushroom Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0086",
+    "name": "Guindy Heavy Vehicle Tyre Point",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 5, Inner Ring Road, Opposite Guindy Industrial Estate, Guindy, Chennai, Tamil Nadu 600032",
+    "latitude": 13.0042,
+    "longitude": 80.2014,
+    "phone": "+91 94868 22115",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0087",
+    "name": "Mylapore Bike Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 12, Luz Church Road, Opposite Luz Corner Signal, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0315,
+    "longitude": 80.2612,
+    "phone": "+91 90428 55441",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Strip Patch",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0088",
+    "name": "Choolaimedu Wheel Clinic",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 84, Nelson Manickam Road, Near Metha Nagar Subway, Choolaimedu, Chennai, Tamil Nadu 600094",
+    "latitude": 13.0691,
+    "longitude": 80.2245,
+    "phone": "+91 97911 33442",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Inflation",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0089",
+    "name": "Vyasarpadi Tyre Vulcanizing",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 31, Erukanchery High Road, Near Vyasarpadi Market, Vyasarpadi, Chennai, Tamil Nadu 600039",
+    "latitude": 13.1145,
+    "longitude": 80.2512,
+    "phone": "+91 96009 55441",
+    "services": [
+      "Tube Vulcanizing",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0090",
+    "name": "Nanganallur Smart Tyre Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 56, College Road, Near Nanganallur Anjaneyar Temple, Nanganallur, Chennai, Tamil Nadu 600061",
+    "latitude": 12.9812,
+    "longitude": 80.1945,
+    "phone": "+91 90809 11223",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0091",
+    "name": "Maduravoyal Heavy Haul Repair",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 24, Chennai Bypass Road, Near Maduravoyal Service Lane, Maduravoyal, Chennai, Tamil Nadu 600095",
+    "latitude": 13.0645,
+    "longitude": 80.1545,
+    "phone": "+91 95669 33442",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "High-Pressure Air Filling",
+      "Tyre Re-fitting"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0092",
+    "name": "Perungudi Saravana Tyre Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 4, OMR Main Road, Near Perungudi Toll Gate Junction, Perungudi, Chennai, Tamil Nadu 600096",
+    "latitude": 12.9612,
+    "longitude": 80.2464,
+    "phone": "+91 91599 55661",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0093",
+    "name": "Royapuram Port Side Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 8, Royapuram Beach Road, Near Port Signal Circle, Royapuram, Chennai, Tamil Nadu 600013",
+    "latitude": 13.1091,
+    "longitude": 80.2912,
+    "phone": "+91 93605 22334",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0094",
+    "name": "Santhome Multi Brand Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 19, Santhome High Road, Near Santhome Employment Office, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0245,
+    "longitude": 80.2741,
+    "phone": "+91 97912 66775",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0095",
+    "name": "Triplicane Auto Tube Station",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 64, Pycrofts Road, Near Triplicane Post Office, Triplicane, Chennai, Tamil Nadu 600005",
+    "latitude": 13.0491,
+    "longitude": 80.2685,
+    "phone": "+91 98427 33442",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0096",
+    "name": "Egmore Multi Care Wheel Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 11, Gandhi Irwin Road, Opposite Egmore Railway Station Entrance, Egmore, Chennai, Tamil Nadu 600008",
+    "latitude": 13.0812,
+    "longitude": 80.2584,
+    "phone": "+91 94441 55663",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0097",
+    "name": "Saidapet Metro Tyre Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 5, Anna Salai, Opposite Saidapet Metro Station, Saidapet, Chennai, Tamil Nadu 600015",
+    "latitude": 13.0212,
+    "longitude": 80.2214,
+    "phone": "+91 94449 88992",
+    "services": [
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Alignment",
+      "Nitrogen Gas Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CHENNAI_0098",
+    "name": "Thiruvanmiyur Quick Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 144, ECR Main Road, Near Thiruvanmiyur Bus Depot, Thiruvanmiyur, Chennai, Tamil Nadu 600041",
+    "latitude": 12.9864,
+    "longitude": 80.2598,
+    "phone": "+91 98402 77661",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0099",
+    "name": "Sri Balaji Tubeless Center",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 33, CTH Road, Opposite Ambattur Industrial Estate Bus Stand, Ambattur, Chennai, Tamil Nadu 600058",
+    "latitude": 13.1114,
+    "longitude": 80.1742,
+    "phone": "+91 97864 99112",
+    "services": [
+      "Car Puncture",
+      "Mushroom Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0100",
+    "name": "Ramesh Tyre Patch Work",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 56, Arcot Road, Near Kodambakkam Flyover, Kodambakkam, Chennai, Tamil Nadu 600024",
+    "latitude": 13.0512,
+    "longitude": 80.2284,
+    "phone": "+91 94421 88993",
+    "services": [
+      "Bike Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0101",
+    "name": "24 Hrs Koyambedu Highway Support",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 12, Inner Ring Road, Opposite Koyambedu Mofussil Bus Terminus, Koyambedu, Chennai, Tamil Nadu 600107",
+    "latitude": 13.0698,
+    "longitude": 80.1945,
+    "phone": "+91 88705 11229",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Puncture",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0102",
+    "name": "Muthu Tyre Vulcanizing Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 88, Jawaharlal Nehru Salai, Near SAF Games Village, Arumbakkam, Chennai, Tamil Nadu 600106",
+    "latitude": 13.0645,
+    "longitude": 80.2012,
+    "phone": "+91 90428 11332",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0103",
+    "name": "Veera Heavy Port Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 10, Ennore Express Road, Near Royapuram Port Gate Entrance, Royapuram, Chennai, Tamil Nadu 600013",
+    "latitude": 13.1142,
+    "longitude": 80.2945,
+    "phone": "+91 95661 22338",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0104",
+    "name": "Siva Tubeless Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 45, Velachery Main Road, Near Guru Nanak College, Velachery, Chennai, Tamil Nadu 600042",
+    "latitude": 12.9912,
+    "longitude": 80.2245,
+    "phone": "+91 99438 11002",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0105",
+    "name": "Saravana Tyre Fix Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 72, Red Hills Road, Opposite Retteri Junction, Kolathur, Chennai, Tamil Nadu 600099",
+    "latitude": 13.1345,
+    "longitude": 80.2084,
+    "phone": "+91 91593 11228",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0106",
+    "name": "New Star Premium Tyre Service",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 15, Mount Road, Near Thousand Lights Metro Station, Chennai, Tamil Nadu 600006",
+    "latitude": 13.0589,
+    "longitude": 80.2515,
+    "phone": "+91 98431 44558",
+    "services": [
+      "Premium Car Puncture",
+      "Tubeless Laser Repair",
+      "Nitrogen Air Filling",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0107",
+    "name": "Gopi Tyre Patch Works",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 24, New Avadi Road, Near ICF Hospital, Villivakkam, Chennai, Tamil Nadu 600038",
+    "latitude": 13.0954,
+    "longitude": 80.2065,
+    "phone": "+91 93608 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0108",
+    "name": "Meenakshi Express Tyre Center",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 84, Nelson Manickam Road, Opposite Metha Nagar Subway, Aminjikarai, Chennai, Tamil Nadu 600029",
+    "latitude": 13.0745,
+    "longitude": 80.2212,
+    "phone": "+91 97912 66779",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0109",
+    "name": "Venkateswara Bike Tyre Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 18, Perambur High Road, Opposite Railway Station, Perambur, Chennai, Tamil Nadu 600011",
+    "latitude": 13.1112,
+    "longitude": 80.2412,
+    "phone": "+91 98425 44331",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0110",
+    "name": "Express Tyre Alignment Point",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 64, Chamiers Road, Near Nandanam Signal, Nandanam, Chennai, Tamil Nadu 600035",
+    "latitude": 13.0242,
+    "longitude": 80.2415,
+    "phone": "+91 96294 55661",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0111",
+    "name": "National Heavy Vehicle Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 86, Poonamallee High Road, Near Vanagaram Toll Gate crossing, Vanagaram, Chennai, Tamil Nadu 600095",
+    "latitude": 13.0612,
+    "longitude": 80.1465,
+    "phone": "+91 94864 11226",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0112",
+    "name": "Smart Tyre Mechanics & Service",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 54, ECR Road, Opposite Palavakkam Beach Arch, Palavakkam, Chennai, Tamil Nadu 600041",
+    "latitude": 12.9542,
+    "longitude": 80.2512,
+    "phone": "+91 90802 11442",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0113",
+    "name": "Saidapet Metro Quick Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 5, Anna Salai, Opposite Saidapet Metro Station, Saidapet, Chennai, Tamil Nadu 600015",
+    "latitude": 13.0215,
+    "longitude": 80.2212,
+    "phone": "+91 94449 55663",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CHENNAI_0114",
+    "name": "Porur Quick Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 14, Mount Poonamallee Road, Near Porur Junction Signal, Porur, Chennai, Tamil Nadu 600116",
+    "latitude": 13.0312,
+    "longitude": 80.1545,
+    "phone": "+91 98405 12345",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0115",
+    "name": "Sri Balaji Tubeless Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 72, CTH Road, Near Ambattur Telephone Exchange, Ambattur, Chennai, Tamil Nadu 600053",
+    "latitude": 13.1145,
+    "longitude": 80.1612,
+    "phone": "+91 98841 55662",
+    "services": [
+      "Car Puncture",
+      "Mushroom Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0116",
+    "name": "24/7 Maduravoyal Emergency Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 180, Poonamallee High Road, Near Maduravoyal Flyover Junction, Maduravoyal, Chennai, Tamil Nadu 600095",
+    "latitude": 13.0674,
+    "longitude": 80.1685,
+    "phone": "+91 88703 66774",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Puncture",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0117",
+    "name": "Thiruvanmiyur Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 25, ECR Main Road, Near RTO Office, Thiruvanmiyur, Chennai, Tamil Nadu 600041",
+    "latitude": 12.9845,
+    "longitude": 80.2612,
+    "phone": "+91 97514 88991",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Wheel Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0118",
+    "name": "Madhavaram Heavy Truck Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 4, Inner Ring Road, Near Madhavaram Mofussil Bus Terminus, Madhavaram, Chennai, Tamil Nadu 600110",
+    "latitude": 13.1485,
+    "longitude": 80.2185,
+    "phone": "+91 94865 33441",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0119",
+    "name": "Vadapalani Puncture Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 9, 100 Feet Road, Opposite Vadapalani Metro Station, Vadapalani, Chennai, Tamil Nadu 600026",
+    "latitude": 13.0521,
+    "longitude": 80.2114,
+    "phone": "+91 90425 99112",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0120",
+    "name": "Guindy Express Wheel Alignment",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 112, Mount Road, Opposite Guindy Railway Station, Guindy, Chennai, Tamil Nadu 600032",
+    "latitude": 13.0095,
+    "longitude": 80.2145,
+    "phone": "+91 97918 66772",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0121",
+    "name": "Royapettah Tube Repairing",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 34, Whites Road, Near Royapettah Clock Tower Junction, Royapettah, Chennai, Tamil Nadu 600014",
+    "latitude": 13.0545,
+    "longitude": 80.2592,
+    "phone": "+91 96005 11226",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0122",
+    "name": "Chromepet Smart Puncture Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 88, GST Road, Opposite Chromepet Government Hospital, Chromepet, Chennai, Tamil Nadu 600044",
+    "latitude": 12.9542,
+    "longitude": 80.1412,
+    "phone": "+91 90807 22334",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0123",
+    "name": "Ennore Lorry Puncture Works",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 15, Kathivakkam High Road, Near Ennore Port Gate, Ennore, Chennai, Tamil Nadu 600057",
+    "latitude": 13.2112,
+    "longitude": 80.3154,
+    "phone": "+91 95665 88991",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0124",
+    "name": "Velachery Saravana Tyre Clinic",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 43, Taramani Link Road, Near Velachery Railway Station, Velachery, Chennai, Tamil Nadu 600042",
+    "latitude": 12.9812,
+    "longitude": 80.2264,
+    "phone": "+91 91595 44551",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0125",
+    "name": "Kolathur Ganesh Tyre Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 21, Retteri Junction, Near Flyover Circle, Kolathur, Chennai, Tamil Nadu 600099",
+    "latitude": 13.1364,
+    "longitude": 80.2091,
+    "phone": "+91 93603 11225",
+    "services": [
+      "Premium Car Puncture",
+      "Tubeless Laser Repair",
+      "Nitrogen Air Filling",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0126",
+    "name": "Nungambakkam Tyre Stripping Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 77, Village Road, Near Sterling Road Junction, Nungambakkam, Chennai, Tamil Nadu 600034",
+    "latitude": 13.0612,
+    "longitude": 80.2435,
+    "phone": "+91 97918 22334",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0127",
+    "name": "T. Nagar Venkateswara Fast Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 45, Burkit Road, Near T. Nagar Bus Terminus, T. Nagar, Chennai, Tamil Nadu 600017",
+    "latitude": 13.0345,
+    "longitude": 80.2312,
+    "phone": "+91 98425 66771",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0128",
+    "name": "Adyar National Brand Tyre Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 62, LB Road, Near Adyar Signal Junction, Adyar, Chennai, Tamil Nadu 600020",
+    "latitude": 12.9989,
+    "longitude": 80.2565,
+    "phone": "+91 94445 11223",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0129",
+    "name": "Anna Nagar West Wheel Alignment Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 3, Jawaharlal Nehru Road, near Thirumangalam Junction, Anna Nagar West, Chennai, Tamil Nadu 600040",
+    "latitude": 13.0889,
+    "longitude": 80.1945,
+    "phone": "+91 94443 66772",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CHENNAI_0130",
+    "name": "Perambur Tyre Service Station",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 48, Paper Mills Road, Near Perambur Church, Perambur, Chennai, Tamil Nadu 600011",
+    "latitude": 13.1118,
+    "longitude": 80.2454,
+    "phone": "+91 98401 23456",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0131",
+    "name": "Sri Sai Baba Tubeless Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 105, Santhome High Road, Opposite Santhome Church, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0314,
+    "longitude": 80.2758,
+    "phone": "+91 98842 55663",
+    "services": [
+      "Car Puncture",
+      "Mushroom Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0132",
+    "name": "24/7 ECR Highway Quick Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 15, East Coast Road, Near Akkarai Junction, Sholinganallur, Chennai, Tamil Nadu 600119",
+    "latitude": 12.9015,
+    "longitude": 80.2545,
+    "phone": "+91 88704 66775",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Puncture",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0133",
+    "name": "Kilkattalai Tyre Junction",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 28, Pallavaram Main Road, Near Kilkattalai Bus Terminus, Kilkattalai, Chennai, Tamil Nadu 600117",
+    "latitude": 12.9642,
+    "longitude": 80.1815,
+    "phone": "+91 97515 88992",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Wheel Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0134",
+    "name": "Guindy Heavy Truck Point",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 5, Inner Ring Road, Opposite Guindy Industrial Estate, Guindy, Chennai, Tamil Nadu 600032",
+    "latitude": 13.0045,
+    "longitude": 80.2018,
+    "phone": "+91 94866 33442",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0135",
+    "name": "Mylapore Bike Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 12, Luz Church Road, Opposite Luz Corner Signal, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0318,
+    "longitude": 80.2615,
+    "phone": "+91 90426 99113",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0136",
+    "name": "Choolaimedu Wheel Clinic",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 84, Nelson Manickam Road, Near Metha Nagar Subway, Choolaimedu, Chennai, Tamil Nadu 600094",
+    "latitude": 13.0694,
+    "longitude": 80.2248,
+    "phone": "+91 97919 66773",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0137",
+    "name": "Vyasarpadi Tyre Vulcanizing",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 31, Erukanchery High Road, Near Vyasarpadi Market, Vyasarpadi, Chennai, Tamil Nadu 600039",
+    "latitude": 13.1148,
+    "longitude": 80.2515,
+    "phone": "+91 96006 11227",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0138",
+    "name": "Nanganallur Smart Tyre Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 56, College Road, Near Nanganallur Anjaneyar Temple, Nanganallur, Chennai, Tamil Nadu 600061",
+    "latitude": 12.9815,
+    "longitude": 80.1948,
+    "phone": "+91 90808 22335",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0139",
+    "name": "Maduravoyal Heavy Haul Repair",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 24, Chennai Bypass Road, Near Maduravoyal Service Lane, Maduravoyal, Chennai, Tamil Nadu 600095",
+    "latitude": 13.0648,
+    "longitude": 80.1548,
+    "phone": "+91 95666 88992",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0140",
+    "name": "Perungudi Saravana Tyre Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 4, OMR Main Road, Near Perungudi Toll Gate Junction, Perungudi, Chennai, Tamil Nadu 600096",
+    "latitude": 12.9615,
+    "longitude": 80.2468,
+    "phone": "+91 91596 44552",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0141",
+    "name": "Royapuram Port Side Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 8, Royapuram Beach Road, Near Port Signal Circle, Royapuram, Chennai, Tamil Nadu 600013",
+    "latitude": 13.1094,
+    "longitude": 80.2915,
+    "phone": "+91 93604 11226",
+    "services": [
+      "Premium Car Puncture",
+      "Tubeless Laser Repair",
+      "Nitrogen Air Filling",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0142",
+    "name": "Santhome Multi Brand Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 19, Santhome High Road, Near Santhome Employment Office, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0248,
+    "longitude": 80.2744,
+    "phone": "+91 97919 22335",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0143",
+    "name": "Triplicane Auto Tube Station",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 64, Pycrofts Road, Near Triplicane Post Office, Triplicane, Chennai, Tamil Nadu 600005",
+    "latitude": 13.0494,
+    "longitude": 80.2688,
+    "phone": "+91 98426 66772",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0144",
+    "name": "Egmore Multi Care Wheel Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 11, Gandhi Irwin Road, Opposite Egmore Railway Station Entrance, Egmore, Chennai, Tamil Nadu 600008",
+    "latitude": 13.0815,
+    "longitude": 80.2588,
+    "phone": "+91 94446 11224",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0145",
+    "name": "Saidapet Metro Tyre Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 5, Anna Salai, Opposite Saidapet Metro Station, Saidapet, Chennai, Tamil Nadu 600015",
+    "latitude": 13.0215,
+    "longitude": 80.2218,
+    "phone": "+91 94444 66773",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CHENNAI_0146",
+    "name": "Sri Jayam Tyre Puncture Kadai",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 44, Mahabalipuram Road, Near Nemmeli, Chennai, Tamil Nadu 600119",
+    "latitude": 12.6841,
+    "longitude": 80.2215,
+    "phone": "+91 98436 88991",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0147",
+    "name": "Raja Heavy Lorry Vulcanizing Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 120, GST Road, near Meenambakkam, Chennai, Tamil Nadu 600027",
+    "latitude": 12.9845,
+    "longitude": 80.1754,
+    "phone": "+91 94425 44551",
+    "services": [
+      "Truck Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0148",
+    "name": "24/7 ECR Highway Emergency Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 25, East Coast Road, Near Tiger Cave, Chennai, Tamil Nadu 600115",
+    "latitude": 12.6514,
+    "longitude": 80.1984,
+    "phone": "+91 88701 55663",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Support"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0149",
+    "name": "Murugan Multi Brand Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 115, Nellikuppam Road, Guduvanchery, Chennai, Tamil Nadu 603202",
+    "latitude": 12.8415,
+    "longitude": 80.0712,
+    "phone": "+91 97512 77885",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0150",
+    "name": "National Heavy Truck Alignment & Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 209, GST Road, Near Industrial Area, Maraimalai Nagar, Chennai, Tamil Nadu 603209",
+    "latitude": 12.7914,
+    "longitude": 80.0185,
+    "phone": "+91 94863 22336",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0151",
+    "name": "Muthu Fast Tube Patch Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 204, Oragadam Road, Singaperumal Koil, Chennai, Tamil Nadu 603204",
+    "latitude": 12.7584,
+    "longitude": 79.9812,
+    "phone": "+91 90422 88994",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0152",
+    "name": "Sri Lakshmi Wheel Alignment & Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 103, OMR Main Road, Near Kelambakkam Junction, Chennai, Tamil Nadu 603103",
+    "latitude": 12.7845,
+    "longitude": 80.2214,
+    "phone": "+91 97915 55664",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0153",
+    "name": "Siva Tyre Vulcanizing Station",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 110, OMR Main Road, Thiruporur, Chennai, Tamil Nadu 603110",
+    "latitude": 12.7214,
+    "longitude": 80.1845,
+    "phone": "+91 96004 99113",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0154",
+    "name": "Smart Tyre Point & Mechanics",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 211, GST Road, Near Railway Station, Urapakkam, Chennai, Tamil Nadu 603211",
+    "latitude": 12.8612,
+    "longitude": 80.0754,
+    "phone": "+91 90803 22337",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0155",
+    "name": "Veera Heavy Truck Puncture Yard",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 301, GST Road, Near bypass junction, Acharapakkam, Chennai, Tamil Nadu 603301",
+    "latitude": 12.4154,
+    "longitude": 79.8112,
+    "phone": "+91 95662 55662",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0156",
+    "name": "Saravana Tyre Care Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 44, GST Road, Chromepet, Chennai, Tamil Nadu 600044",
+    "latitude": 12.9515,
+    "longitude": 80.1384,
+    "phone": "+91 91593 22336",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0157",
+    "name": "Gopi Tyre Stripping & Fitting Center",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 48, GST Road, Near Railway Station, Vandalur, Chennai, Tamil Nadu 600048",
+    "latitude": 12.8891,
+    "longitude": 80.0812,
+    "phone": "+91 93601 66774",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0158",
+    "name": "Meenakshi Multi Brand Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 109, Chengalpattu Main Road, Thirukalukundram, Chennai, Tamil Nadu 603109",
+    "latitude": 12.6124,
+    "longitude": 80.0545,
+    "phone": "+91 97914 22336",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0159",
+    "name": "Venkateswara Auto Tube Repair Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 43, GST Road, Pallavaram, Chennai, Tamil Nadu 600043",
+    "latitude": 12.9642,
+    "longitude": 80.1612,
+    "phone": "+91 98423 22336",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0160",
+    "name": "Express Wheel Hub Multi Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 45, GST Road, Tambaram, Chennai, Tamil Nadu 600045",
+    "latitude": 12.9284,
+    "longitude": 80.1214,
+    "phone": "+91 94443 22337",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0161",
+    "name": "Ambattur Bypass Tyre Center",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 18, Ambattur Bypass Road, Near Telephone Exchange, Ambattur, Chennai, Tamil Nadu 600053",
+    "latitude": 13.1141,
+    "longitude": 80.1592,
+    "phone": "+91 98403 99881",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Multi Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CHENNAI_0162",
+    "name": "Koyambedu Metro Tyre Station",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 45, Jawaharlal Nehru Salai, Opp Koyambedu Metro Station, Koyambedu, Chennai, Tamil Nadu 600107",
+    "latitude": 13.0732,
+    "longitude": 80.1948,
+    "phone": "+91 94440 88992",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0163",
+    "name": "Sri Sai Baba Tyre Repairing Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 120, Arcot Road, Near Vadapalani Murugan Temple, Vadapalani, Chennai, Tamil Nadu 600026",
+    "latitude": 13.0531,
+    "longitude": 80.2114,
+    "phone": "+91 98425 44552",
+    "services": [
+      "Tube Vulcanizing",
+      "Bike Puncture",
+      "Auto Tube Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0164",
+    "name": "24/7 OMR Highway Emergency Support",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 25, Rajiv Gandhi Salai (OMR), Near Sholinganallur Junction, Chennai, Tamil Nadu 600119",
+    "latitude": 12.9014,
+    "longitude": 80.2265,
+    "phone": "+91 88701 55664",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Tubeless Repair",
+      "Onsite Emergency Assistance"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0165",
+    "name": "Velachery Tubeless Alignment Zone",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 115, Velachery Main Road, Opp Guru Nanak College, Velachery, Chennai, Tamil Nadu 600042",
+    "latitude": 12.9915,
+    "longitude": 80.2212,
+    "phone": "+91 97512 77886",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0166",
+    "name": "Express Wheel Hub Multi Brand Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 209, Inner Ring Road, near SAF Games Village, Arumbakkam, Chennai, Tamil Nadu 600106",
+    "latitude": 13.0689,
+    "longitude": 80.2014,
+    "phone": "+91 94863 22337",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0167",
+    "name": "Muthu Fast Tube Patch Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 204, Red Hills High Road, Near Lakshmipuram Junction, Kolathur, Chennai, Tamil Nadu 600099",
+    "latitude": 13.1412,
+    "longitude": 80.2015,
+    "phone": "+91 90422 88995",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0168",
+    "name": "Sri Lakshmi Wheel Alignment & Puncture",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 103, Sardar Patel Road, Near Kasturba Nagar Railway Station, Adyar, Chennai, Tamil Nadu 600020",
+    "latitude": 13.0064,
+    "longitude": 80.2452,
+    "phone": "+91 97915 55665",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0169",
+    "name": "Siva Tyre Vulcanizing Station",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 110, Kodambakkam High Road, near Liberty Theatre Flyover, Kodambakkam, Chennai, Tamil Nadu 600024",
+    "latitude": 13.0514,
+    "longitude": 80.2285,
+    "phone": "+91 96004 99114",
+    "services": [
+      "Tube Repairing",
+      "Bike Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0170",
+    "name": "Smart Tyre Point & Mechanics",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 211, GST Road, Near Guindy Metro Station, Guindy, Chennai, Tamil Nadu 600032",
+    "latitude": 13.0091,
+    "longitude": 80.2134,
+    "phone": "+91 90803 22338",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0171",
+    "name": "Veera Heavy Truck Puncture Yard",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 301, Poonamallee High Road, Near Vanagaram Toll Plaza Crossing, Vanagaram, Chennai, Tamil Nadu 600095",
+    "latitude": 13.0615,
+    "longitude": 80.1495,
+    "phone": "+91 95662 55663",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor",
+      "Bus"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0172",
+    "name": "Saravana Tyre Care Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 44, ECR Road, Opposite Palavakkam Beach Arch, Palavakkam, Chennai, Tamil Nadu 600041",
+    "latitude": 12.9565,
+    "longitude": 80.2542,
+    "phone": "+91 91593 22337",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0173",
+    "name": "Gopi Tyre Stripping & Fitting Center",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 48, GST Road, near Meenambakkam Airport Subway, Meenambakkam, Chennai, Tamil Nadu 600027",
+    "latitude": 12.9891,
+    "longitude": 80.1754,
+    "phone": "+91 93601 66775",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0174",
+    "name": "Meenakshi Multi Brand Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 109, Velachery Main Road, Near Guru Nanak College, Velachery, Chennai, Tamil Nadu 600042",
+    "latitude": 12.9954,
+    "longitude": 80.2212,
+    "phone": "+91 97914 22337",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0175",
+    "name": "Venkateswara Auto Tube Repair Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 43, Arcot Road, Opp. Karaneeswarar Temple Pond, Saidapet, Chennai, Tamil Nadu 600015",
+    "latitude": 13.0214,
+    "longitude": 80.2264,
+    "phone": "+91 98423 22337",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0176",
+    "name": "Express Wheel Hub Multi Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 45, Jawaharlal Nehru Road, near Thirumangalam Flyover Junction, Anna Nagar, Chennai, Tamil Nadu 600040",
+    "latitude": 13.0854,
+    "longitude": 80.1991,
+    "phone": "+91 94443 11226",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0177",
+    "name": "Ambattur OT Tyre Patch Works",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 18, CTH Road, Opposite Ambattur OT Bus Stand, Ambattur, Chennai, Tamil Nadu 600053",
+    "latitude": 13.1191,
+    "longitude": 80.1512,
+    "phone": "+91 98403 99882",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patch Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  }
+]
+[
+  {
+    "id": "PUN_CHENNAI_0178",
+    "name": "Santhome Quick Tyre Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 144, Santhome High Road, Near Employment Office, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0248,
+    "longitude": 80.2741,
+    "phone": "+91 98402 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0179",
+    "name": "Triplicane Auto Tube Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 33, Pycrofts Road, Near Post Office, Triplicane, Chennai, Tamil Nadu 600005",
+    "latitude": 13.0494,
+    "longitude": 80.2688,
+    "phone": "+91 97864 88993",
+    "services": [
+      "Car Puncture",
+      "Mushroom Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0180",
+    "name": "24/7 Egmore Multi Care Station",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 56, Gandhi Irwin Road, Opposite Railway Station, Egmore, Chennai, Tamil Nadu 600008",
+    "latitude": 13.0815,
+    "longitude": 80.2588,
+    "phone": "+91 88705 44335",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Puncture",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0181",
+    "name": "Saidapet Metro Tyre Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 28, Anna Salai, Opposite Saidapet Metro Station, Saidapet, Chennai, Tamil Nadu 600015",
+    "latitude": 13.0215,
+    "longitude": 80.2218,
+    "phone": "+91 97515 22336",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Wheel Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0182",
+    "name": "Ambattur OT Heavy Truck Corner",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 5, CTH Road, Opposite Ambattur OT Bus Stand, Ambattur, Chennai, Tamil Nadu 600053",
+    "latitude": 13.1191,
+    "longitude": 80.1512,
+    "phone": "+91 94866 11228",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0183",
+    "name": "Royapuram Port Quick Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 12, Royapuram Beach Road, Near Port Entrance, Royapuram, Chennai, Tamil Nadu 600013",
+    "latitude": 13.1094,
+    "longitude": 80.2915,
+    "phone": "+91 90426 33445",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0184",
+    "name": "Perungudi OMR Wheel Clinic",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 84, OMR Main Road, Near Perungudi Toll Gate, Perungudi, Chennai, Tamil Nadu 600096",
+    "latitude": 12.9615,
+    "longitude": 80.2468,
+    "phone": "+91 97919 22339",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0185",
+    "name": "Maduravoyal Bypass Vulcanizing",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 31, Chennai Bypass Road, Near Maduravoyal Service Lane, Maduravoyal, Chennai, Tamil Nadu 600095",
+    "latitude": 13.0648,
+    "longitude": 80.1548,
+    "phone": "+91 96006 55442",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0186",
+    "name": "Nanganallur Temple Tyre Spot",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 56, College Road, Near Anjaneyar Temple, Nanganallur, Chennai, Tamil Nadu 600061",
+    "latitude": 12.9815,
+    "longitude": 80.1948,
+    "phone": "+91 90808 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0187",
+    "name": "Vyasarpadi Market Lorry Repair",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 24, Erukanchery High Road, Near Market, Vyasarpadi, Chennai, Tamil Nadu 600039",
+    "latitude": 13.1148,
+    "longitude": 80.2515,
+    "phone": "+91 95666 11225",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0188",
+    "name": "Anna Nagar Roundtana Tyre Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 4, Jawaharlal Nehru Road, near Thirumangalam Flyover, Anna Nagar West, Chennai, Tamil Nadu 600040",
+    "latitude": 13.0889,
+    "longitude": 80.1945,
+    "phone": "+91 91596 11225",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0189",
+    "name": "Adyar LB Road Stripping Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 8, LB Road, Near Adyar Signal, Adyar, Chennai, Tamil Nadu 600020",
+    "latitude": 12.9989,
+    "longitude": 80.2565,
+    "phone": "+91 93604 55663",
+    "services": [
+      "Premium Car Puncture",
+      "Tubeless Laser Repair",
+      "Nitrogen Air Filling",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0190",
+    "name": "T. Nagar Burkit Road Patch Works",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 19, Burkit Road, Near Bus Terminus, T. Nagar, Chennai, Tamil Nadu 600017",
+    "latitude": 13.0345,
+    "longitude": 80.2312,
+    "phone": "+91 97919 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0191",
+    "name": "Nungambakkam Village Road Tube Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 64, Village Road, Near Sterling Road Junction, Nungambakkam, Chennai, Tamil Nadu 600034",
+    "latitude": 13.0612,
+    "longitude": 80.2435,
+    "phone": "+91 98426 11225",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0192",
+    "name": "Kolathur Retteri Alignment Base",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 11, Retteri Junction, Near Flyover Circle, Kolathur, Chennai, Tamil Nadu 600099",
+    "latitude": 13.1364,
+    "longitude": 80.2091,
+    "phone": "+91 94446 55442",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0193",
+    "name": "Velachery Taramani Link Multi Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 5, Taramani Link Road, Near Railway Station, Velachery, Chennai, Tamil Nadu 600042",
+    "latitude": 12.9812,
+    "longitude": 80.2264,
+    "phone": "+91 94444 11226",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  }
+]
+  {
+    "id": "PUN_CHENNAI_0194",
+    "name": "Tambaram Camp Road Puncture Shop",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 42, Velachery Main Road, Near Camp Road Junction, East Tambaram, Chennai, Tamil Nadu 600059",
+    "latitude": 12.9128,
+    "longitude": 80.1495,
+    "phone": "+91 98401 55663",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0195",
+    "name": "Vandalur Zoo Side Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 88, Walajabad Main Road, Near Vandalur Zoo, Vandalur, Chennai, Tamil Nadu 600048",
+    "latitude": 12.8891,
+    "longitude": 80.0812,
+    "phone": "+91 98842 11004",
+    "services": [
+      "Car Puncture",
+      "Mushroom Puncture",
+      "Tubeless Repair",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0196",
+    "name": "24/7 Guduvanchery Highway Support",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 15, GST Road, Near Guduvanchery Bus Terminus, Guduvanchery, Chennai, Tamil Nadu 603202",
+    "latitude": 12.8456,
+    "longitude": 80.0612,
+    "phone": "+91 88705 99884",
+    "services": [
+      "Mobile Puncture Repair",
+      "Truck Puncture",
+      "Car Puncture",
+      "Onsite Service"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Car",
+      "Bus",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0197",
+    "name": "Maraimalai Nagar Industrial Tyre Point",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 28, GST Road, Opp. Ford Factory, Maraimalai Nagar, Chennai, Tamil Nadu 603209",
+    "latitude": 12.7945,
+    "longitude": 80.0212,
+    "phone": "+91 97515 44339",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Plug Repair",
+      "Wheel Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0198",
+    "name": "Singaperumal Koil Lorry Tyre Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 5, GST Road, Near Mahindra World City Entrance, Singaperumal Koil, Chennai, Tamil Nadu 603204",
+    "latitude": 12.7485,
+    "longitude": 79.9921,
+    "phone": "+91 94866 55441",
+    "services": [
+      "Heavy Truck Puncture",
+      "Lorry Tyre Fitting",
+      "Cold Vulcanizing",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Bus",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0199",
+    "name": "Thiruporur OMR Bike Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 12, OMR Main Road, Near Murugan Temple, Thiruporur, Chennai, Tamil Nadu 603110",
+    "latitude": 12.7264,
+    "longitude": 80.1891,
+    "phone": "+91 90426 11227",
+    "services": [
+      "Bike Puncture",
+      "Auto Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0200",
+    "name": "Mahabalipuram ECR Wheel Hub",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 84, East Coast Road (ECR), Near Bypass Roundabout, Mahabalipuram, Chennai, Tamil Nadu 603104",
+    "latitude": 12.6214,
+    "longitude": 80.1915,
+    "phone": "+91 97919 44551",
+    "services": [
+      "Car Tubeless Puncture",
+      "Superbike Puncture Repair",
+      "Nitrogen Gas Filling",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0201",
+    "name": "Thirukalukundram Tyre Station",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 31, Mamallapuram Road, Near Sivan Temple, Thirukalukundram, Chennai, Tamil Nadu 603109",
+    "latitude": 12.6124,
+    "longitude": 80.0545,
+    "phone": "+91 96006 88994",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0202",
+    "name": "Madhuranthakam GST Tyre Spot",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 56, Car Street, Opp. Government Hospital, Madhuranthakam, Chennai, Tamil Nadu 603306",
+    "latitude": 12.5114,
+    "longitude": 79.8854,
+    "phone": "+91 90808 33441",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Pressure Check"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0203",
+    "name": "Acharapakkam Highway Heavy Work",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 24, GST Road, Near Highway Motel, Acharapakkam, Chennai, Tamil Nadu 603301",
+    "latitude": 12.4214,
+    "longitude": 79.8112,
+    "phone": "+91 95666 22339",
+    "services": [
+      "Truck Puncture",
+      "Heavy Vehicle Patch Work",
+      "Tractor Tyre Repair",
+      "High-Pressure Air Filling"
+    ],
+    "vehicle_types": [
+      "Truck",
+      "Tractor"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0204",
+    "name": "Pallavaram Radial Road Tyre Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 4, Pallavaram-Thuraipakkam Radial Road, Pallavaram, Chennai, Tamil Nadu 600043",
+    "latitude": 12.9642,
+    "longitude": 80.1612,
+    "phone": "+91 91596 55663",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Urgent Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0205",
+    "name": "Tambaram Sanatorium Alignment Base",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 8, GST Road, Near MEPZ Signboard, Tambaram Sanatorium, Chennai, Tamil Nadu 600047",
+    "latitude": 12.9284,
+    "longitude": 80.1214,
+    "phone": "+91 93604 11228",
+    "services": [
+      "Premium Car Puncture",
+      "Tubeless Laser Repair",
+      "Nitrogen Air Filling",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0206",
+    "name": "Kancheepuram High Road Patch Works",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 19, Kancheepuram High Road, Near Railway Level Crossing, Chengalpattu, Chennai, Tamil Nadu 603002",
+    "latitude": 12.6985,
+    "longitude": 79.9642,
+    "phone": "+91 97919 33441",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Stripping",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0207",
+    "name": "Paranur Toll Plaza Fast Patch",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 64, GST Road, Near Toll Plaza, Paranur, Chennai, Tamil Nadu 603002",
+    "latitude": 12.7112,
+    "longitude": 79.9894,
+    "phone": "+91 98426 55662",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Plug Install",
+      "Nitrogen Inflation"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.0,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0208",
+    "name": "Kelambakkam OMR Tube Fix",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 11, OMR Main Road, Opp. Chettinad Hospital, Kelambakkam, Chennai, Tamil Nadu 603103",
+    "latitude": 12.7889,
+    "longitude": 80.2214,
+    "phone": "+91 94446 11228",
+    "services": [
+      "Tube Patching",
+      "Bike Puncture",
+      "Auto Tube Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Auto"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_CHENNAI_0209",
+    "name": "Urapakkam Junction Multi Care",
+    "district": "Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "No 5, GST Road, Near Urapakkam Bus Stop, Urapakkam, Chennai, Tamil Nadu 603211",
+    "latitude": 12.8645,
+    "longitude": 80.0712,
+    "phone": "+91 94444 55661",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
