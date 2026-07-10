@@ -15,8 +15,11 @@ _JSON_CACHE: dict[str, list[dict[str, Any]]] = {}
 _OVERPASS_CACHE: dict[str, tuple[float, dict[str, Any]]] = {}
 OVERPASS_CACHE_TTL = 300  # seconds
 FOLDER_DATASETS = {
+    "danger_zones.json": "danger_zones",
     "hospitals.json": "hospitals",
     "police_stations.json": "police_stations",
+    "puncture_shops.json": "punchershop",
+    "showrooms.json": "Showrooms",
     "towing.json": "towing_services",
 }
 OSM_HEADERS = {
@@ -62,6 +65,8 @@ def load_json(name: str) -> list[dict[str, Any]]:
                     for row in district_data["services"]
                     if isinstance(row, dict)
                 )
+            elif isinstance(district_data, dict):
+                data.append(normalize_dataset_row(district_data, dataset_dir, path.stem))
         _JSON_CACHE[name] = data
         return _JSON_CACHE[name]
 
@@ -219,6 +224,60 @@ def normalize_dataset_row(
             "district": normalized.get("district") or district_hint,
             "state": normalized.get("state") or "Tamil Nadu",
             "type": normalized.get("type") or "Towing Service",
+        }
+    elif dataset_dir == "Showrooms":
+        normalized = {
+            **normalized,
+            "district": normalized.get("district") or normalized.get("city") or district_hint,
+            "state": normalized.get("state") or "Tamil Nadu",
+            "type": normalized.get("type") or "Showroom",
+        }
+    elif dataset_dir == "punchershop":
+        normalized = {
+            **normalized,
+            "district": normalized.get("district") or normalized.get("city") or district_hint,
+            "state": normalized.get("state") or "Tamil Nadu",
+            "type": normalized.get("type") or "Puncture Shop",
+            "open_24x7": normalized.get("open_24x7")
+            if normalized.get("open_24x7") is not None
+            else normalized.get("is_24_hours"),
+        }
+    elif dataset_dir == "danger_zones":
+        risk_level = str(normalized.get("risk_level") or "medium").lower()
+        risk_score_map = {
+            "critical": 9.0,
+            "very high": 8.5,
+            "high": 7.5,
+            "medium": 5.0,
+            "low": 2.5,
+        }
+        causes = normalized.get("major_cause") or []
+        if not isinstance(causes, list):
+            causes = [str(causes)]
+        road_name = normalized.get("road_name") or normalized.get("highway") or "Unknown road"
+        location = normalized.get("location") or ""
+        district = normalized.get("district") or district_hint or ""
+        name_parts = [part for part in [road_name, location] if part]
+        normalized = {
+            **normalized,
+            "id": normalized.get("id") or f"DZ-{district}-{road_name}-{location}".replace(" ", "-"),
+            "name": " - ".join(name_parts) or f"Danger zone in {district}",
+            "road": road_name,
+            "city": district,
+            "state": normalized.get("state") or "Tamil Nadu",
+            "type": normalized.get("road_type") or "highway",
+            "radius_km": normalized.get("radius_km") or 2.0,
+            "risk_score": normalized.get("risk_score") or risk_score_map.get(risk_level, 5.0),
+            "primary_causes": causes,
+            "accident_history": normalized.get("accident_history") or {},
+            "peak_risk_hours": normalized.get("peak_risk_hours") or [],
+            "weather_sensitivity": normalized.get("weather_sensitivity") or [],
+            "advisory": normalized.get("advisory") or (
+                f"Known risk factors: {', '.join(causes)}. Reduce speed and stay alert."
+                if causes
+                else "Reduce speed and stay alert in this area."
+            ),
+            "reported_by": normalized.get("reported_by") or "RoadSoS district road-safety data",
         }
 
     return normalized

@@ -10,8 +10,10 @@ from app.ai.retrieval import nearby_safety_snapshot
 from app.ai.risk_scorer import nearby_danger_zones
 from app.services.hospital_service import HospitalService
 from app.services.police_service import PoliceService
+from app.services.puncture_shop_service import PunctureShopService
 from app.services.query_classifier import QueryProfile, SERVICE_OVERRIDE_TERMS
 from app.services.retriever import RetrievalDocument, RetrievalResult
+from app.services.showroom_service import ShowroomService
 from app.services.towing_service import TowingService
 
 
@@ -200,7 +202,8 @@ def build_location_services_block(profile: QueryProfile, live_context: LiveConte
         return (
             "LOCATION SERVICES\n"
             "User coordinates are unavailable. Do not guess nearest hospitals, police stations, "
-            "towing services, safe routes, or danger zones. Ask the user to share or allow location."
+            "towing services, showrooms, puncture shops, safe routes, or danger zones. "
+            "Ask the user to share or allow location."
         )
 
     lines = ["LOCATION SERVICES"]
@@ -343,6 +346,8 @@ def collect_nearby_places(lat: float, lng: float, radius_km: float = LIVE_CONTEX
         ("hospital", HospitalService(), radius_km),
         ("police_station", PoliceService(), radius_km),
         ("towing_service", TowingService(), max(radius_km, 50.0)),
+        ("showroom", ShowroomService(), radius_km),
+        ("puncture_shop", PunctureShopService(), radius_km),
     ]
     places: list[NearbyPlace] = []
     for category, service, search_radius in service_config:
@@ -451,6 +456,8 @@ def place_category_for_intent(intent: str) -> str | None:
         "hospital": "hospital",
         "police": "police_station",
         "towing": "towing_service",
+        "showroom": "showroom",
+        "puncture_shop": "puncture_shop",
     }.get(intent)
 
 
@@ -484,9 +491,10 @@ def is_location_question(profile: QueryProfile) -> bool:
         return False
 
     # Guard 1: if the classifier already detected a service/data intent
-    # (hospital, police, towing, route, danger_zone, alert), this is NEVER
+    # (hospital, police, towing, route, danger_zone, alert, showroom,
+    # puncture_shop), this is NEVER
     # a pure location question, even if it contains words like "my location".
-    if profile.intent in {"hospital", "police", "towing", "route", "danger_zone", "alert"}:
+    if profile.intent in {"hospital", "police", "towing", "route", "danger_zone", "alert", "showroom", "puncture_shop"}:
         return False
 
     # Guard 2: if the text contains any service-related word, it's asking
@@ -550,6 +558,17 @@ def normalize_place_category(value: Any) -> str | None:
         "towing service": "towing_service",
         "towing services": "towing_service",
         "towing_service": "towing_service",
+        "showroom": "showroom",
+        "showrooms": "showroom",
+        "dealer": "showroom",
+        "dealership": "showroom",
+        "bike shop": "showroom",
+        "puncture": "puncture_shop",
+        "puncture shop": "puncture_shop",
+        "puncture shops": "puncture_shop",
+        "puncture_shop": "puncture_shop",
+        "tyre shop": "puncture_shop",
+        "tire shop": "puncture_shop",
         "atm": "atm",
         "atms": "atm",
         "bank": "bank",
@@ -572,6 +591,8 @@ def category_label(category: str) -> str:
         "hospital": "hospital",
         "police_station": "police station",
         "towing_service": "towing service",
+        "showroom": "showroom",
+        "puncture_shop": "puncture shop",
         "atm": "ATM",
         "fuel_station": "fuel station",
     }.get(category, category.replace("_", " "))

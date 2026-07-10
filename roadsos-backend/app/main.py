@@ -13,7 +13,20 @@ import logging
 import time
 
 # --- Route imports ---
-from app.routes import location, sos, hospitals, police, towing, chat, alerts, contacts, risk, route
+from app.routes import (
+    alerts,
+    chat,
+    contacts,
+    hospitals,
+    location,
+    police,
+    puncture_shops,
+    risk,
+    route,
+    showrooms,
+    sos,
+    towing,
+)
 from app.config import get_llm_provider, get_ollama_model
 import os
 import subprocess
@@ -129,6 +142,18 @@ app.include_router(
 )
 
 app.include_router(
+    showrooms.router,
+    prefix="/api",
+    tags=["Showrooms"],
+)
+
+app.include_router(
+    puncture_shops.router,
+    prefix="/api",
+    tags=["Puncture Shops"],
+)
+
+app.include_router(
     chat.router,
     prefix="/api",
     tags=["AI Chatbot"],
@@ -211,6 +236,8 @@ async def api_status():
             "sos":       "/api/sos",
             "hospitals": "/api/hospitals",
             "police":    "/api/police",
+            "puncture_shops": "/api/puncture-shops",
+            "showrooms": "/api/showrooms",
             "towing":    "/api/towing",
             "chat":      "/api/chat",
             "alerts":    "/api/alerts",

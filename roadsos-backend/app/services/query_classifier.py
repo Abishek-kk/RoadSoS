@@ -93,8 +93,14 @@ SERVICE_OVERRIDE_TERMS = {
     "recovery",
     "mechanic",
     "breakdown",
+    "bike shop",
+    "dealer",
+    "dealership",
+    "flat tire",
+    "flat tyre",
     "route",
     "routes",
+    "road risk",
     "location",
     "where am i",
     "danger zone",
@@ -102,6 +108,12 @@ SERVICE_OVERRIDE_TERMS = {
     "safe route",
     "alert",
     "alerts",
+    "puncture",
+    "puncture shop",
+    "showroom",
+    "showrooms",
+    "tire shop",
+    "tyre shop",
 }
 
 
@@ -152,7 +164,8 @@ def classify_query(question: str, history: list[ConversationTurn] | None = None)
         emergency_detected=bool(emergency_keywords),
         emergency_keywords=emergency_keywords,
         location_intent=location_intent,
-        needs_location_services=location_intent or intent in {"hospital", "police", "towing", "route", "danger_zone"},
+        needs_location_services=location_intent
+        or intent in {"hospital", "police", "towing", "route", "danger_zone", "showroom", "puncture_shop"},
         greeting=normalized in GREETING_TEXTS,
         casual_chat=normalized in CASUAL_TEXTS,
         thanks=normalized in THANKS_TEXTS,
@@ -165,9 +178,13 @@ def classify_query(question: str, history: list[ConversationTurn] | None = None)
 def detect_intent(text: str, tokens: set[str]) -> str:
     if tokens & {"hospital", "hospitals", "ambulance", "doctor", "medical", "clinic"}:
         return "hospital"
+    if tokens & {"showroom", "showrooms", "dealer", "dealership"} or "bike shop" in text:
+        return "showroom"
+    if tokens & {"puncture", "tyre", "tire"} or "puncture shop" in text:
+        return "puncture_shop"
     if any(term in text for term in {"safe route", "safest route"}) or "route" in tokens:
         return "route"
-    if "danger zone" in text or "danger zones" in text or "blackspot" in tokens:
+    if "danger zone" in text or "danger zones" in text or "road risk" in text or "blackspot" in tokens:
         return "danger_zone"
     if "police" in tokens or "cop" in tokens:
         return "police"
@@ -201,6 +218,10 @@ def detect_category(text: str, tokens: set[str], intent: str, emergency_detected
         return "Police"
     if intent == "towing":
         return "Tow"
+    if intent == "showroom":
+        return "Showroom"
+    if intent == "puncture_shop":
+        return "Puncture Shop"
     if intent in {"road_safety", "alert", "danger_zone"} or tokens & ROAD_SAFETY_TERMS:
         return "Road Safety"
     if intent == "faq" or tokens & FAQ_TERMS:
@@ -209,7 +230,7 @@ def detect_category(text: str, tokens: set[str], intent: str, emergency_detected
 
 
 def detect_location_intent(text: str, intent: str) -> bool:
-    if intent in {"hospital", "police", "towing", "route", "danger_zone", "alert"}:
+    if intent in {"hospital", "police", "towing", "route", "danger_zone", "alert", "showroom", "puncture_shop"}:
         return True
     return any(term in text for term in LOCATION_TERMS)
 
