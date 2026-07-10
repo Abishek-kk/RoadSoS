@@ -45,7 +45,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -392,9 +392,7 @@
     "is_24_hours": false,
     "rating": 4.4,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_COIMBATORE_0017",
     "name": "Balu Tyre Vulcanizing Works",
@@ -415,7 +413,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -732,7 +730,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -783,9 +781,7 @@
     "is_24_hours": false,
     "rating": 4.2,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_COIMBATORE_0033",
     "name": "Sri Amman Puncture Kadai",
@@ -931,7 +927,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1128,7 +1124,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1178,9 +1174,7 @@
     "is_24_hours": false,
     "rating": 4.4,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_COIMBATORE_0049",
     "name": "Peelamedu Tubeless Zone",
@@ -1326,7 +1320,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1520,7 +1514,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1570,9 +1564,7 @@
     "is_24_hours": false,
     "rating": 4.4,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_COIMBATORE_0065",
     "name": "RS Puram Quick Tyre Patch",
@@ -1741,7 +1733,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1963,9 +1955,7 @@
     "is_24_hours": false,
     "rating": 4.4,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_COIMBATORE_0081",
     "name": "Kovai Bypass Tyre Point",
@@ -2111,7 +2101,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -2305,7 +2295,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -2355,9 +2345,7 @@
     "is_24_hours": false,
     "rating": 4.4,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_COIMBATORE_0097",
     "name": "Karumathampatti Tyre Service Station",
@@ -2504,7 +2492,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -2699,7 +2687,7 @@
       "Bike"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -2749,9 +2737,7 @@
     "is_24_hours": false,
     "rating": 4.4,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_COIMBATORE_0113",
     "name": "Kovai North Tyre Station",
@@ -2898,7 +2884,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -3095,7 +3081,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -3137,5 +3123,6 @@
       "Car Puncture",
       "Tubeless Multi Repair",
       "Air Filling"
-    ],
-    
+    ]
+  }
+]

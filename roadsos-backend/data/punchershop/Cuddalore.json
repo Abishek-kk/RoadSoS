@@ -45,7 +45,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -367,9 +367,7 @@
     "is_24_hours": false,
     "rating": 4.2,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_CUDDALORE_0016",
     "name": "Balu Tyre Vulcanizing Works",
@@ -390,7 +388,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -707,7 +705,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {

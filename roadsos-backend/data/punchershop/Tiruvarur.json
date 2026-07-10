@@ -1,1520 +1,2571 @@
 [
   {
-    "id": "OSM_TIRUVARUR_0001",
-    "name": "Bajaj",
+    "id": "PUN_TIRUVARUR_0001",
+    "name": "Sri Balaji Tyre Care & Puncture Shop",
     "district": "Tiruvarur",
-    "city": "Koothanallur",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "Thiruvarur-Mannargudi-Muthupet Road, Koothanallur, 614102",
-    "phone": "",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "lat": 10.717285,
-    "lng": 79.5211822,
-    "pincode": "614102",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "source_id": "node/2779598940",
-    "verification_status": "osm_verified"
+    "address": "Thanjavur Main Road, Near Old Bus Stand Junction, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7745,
+    "longitude": 79.6342,
+    "phone": "+91 94432 11854",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0002",
-    "name": "Kaveri Tata",
+    "id": "PUN_TIRUVARUR_0002",
+    "name": "Nagapattinam Highway Breakdown Tyres",
     "district": "Tiruvarur",
-    "city": "Thiruvarur",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "No. 394, Thanjavur Main Road, Vilamal",
-    "phone": "+91-4366224344",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-83 Nagapattinam Highway, Near Tiruvarur Bypass Flyover, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7812,
+    "longitude": 79.6415,
+    "phone": "+91 98427 99436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0003",
-    "name": "Pillai & Sons Maruti Suzuki (Arena)",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No 132/3B, Thanjavur Main Road, Vilamal",
-    "phone": "+91-9751916868",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0004",
-    "name": "Saran Hyundai",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No 168/1A, Nagapattinam Bypass Road",
-    "phone": "+91-9500994111",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0005",
-    "name": "Kailash Mahindra",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Near Vilamal Junction",
-    "phone": "+91-4366225500",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0006",
-    "name": "Vasan Hero",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No 60/1, Netaji Road",
-    "phone": "+91-4366222536",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0007",
-    "name": "Jain Honda",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No 15/A, Kamalalayam North Bank",
-    "phone": "+91-4366223122",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610002",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0008",
-    "name": "Aiswarya TVS",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No 86, Thanjavur Main Road, Vilamal",
-    "phone": "+91-7373744411",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0009",
-    "name": "Aasife Yamaha",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No 42, Mayiladuthurai Road",
-    "phone": "+91-9943322105",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0010",
-    "name": "Royal Enfield - Sivam Motors",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No 25B, Nagai Road, Near Vijayapuram",
-    "phone": "+91-8939803131",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0011",
-    "name": "Pillai & Sons Maruti (Mannargudi)",
+    "id": "PUN_TIRUVARUR_0003",
+    "name": "National Tyre & Vulcanizing Works",
     "district": "Tiruvarur",
     "city": "Mannargudi",
     "state": "Tamil Nadu",
-    "address": "No 120, Thanjavur Road",
-    "phone": "+91-9751916969",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Main Road, Near Mannargudi Railway Station Circle, Mannargudi, Tiruvarur, Tamil Nadu 614001",
+    "latitude": 10.6685,
+    "longitude": 79.4345,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0012",
-    "name": "Sri Venkatalakshmi Bajaj",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No 18/C, Kudavasal Main Road",
-    "phone": "+91-4366221199",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0013",
-    "name": "Maruti Suzuki NEXA (Pillai & Sons)",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Highway Road, Vilamal",
-    "phone": "+91-9751917070",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0014",
-    "name": "Annamalai Suzuki",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No 105, Thanjavur Main Road, Vilamal",
-    "phone": "+91-4366226611",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0015",
-    "name": "Vasan Hero (Mannargudi)",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "No 45, Thanjavur Road",
-    "phone": "+91-4367252636",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0016",
-    "name": "Devi Honda",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "No 88, Thiruthuraipoondi Road",
-    "phone": "+91-4367221522",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0017",
-    "name": "AR TVS (Mannargudi)",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "No 12A, Thanjavur Main Road",
-    "phone": "+91-9443321568",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0018",
-    "name": "Kailash Mahindra Commercial",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "Kumbakonam Main Road",
-    "phone": "+91-4367250410",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0019",
-    "name": "Sivam Yamaha",
+    "id": "PUN_TIRUVARUR_0004",
+    "name": "Thiruthuraipoondi Bypass Puncture Corner",
     "district": "Tiruvarur",
     "city": "Thiruthuraipoondi",
     "state": "Tamil Nadu",
-    "address": "No 4, Tiruvarur Main Road",
-    "phone": "+91-9442561221",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614713",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "ECR Main Road, Near Thiruthuraipoondi Bypass Junction, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 94865 99436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Emergency Highway Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0020",
-    "name": "Rasi Hero",
-    "district": "Tiruvarur",
-    "city": "Thiruthuraipoondi",
-    "state": "Tamil Nadu",
-    "address": "No 112, Mannargudi Road",
-    "phone": "+91-4369222455",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614713",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0021",
-    "name": "Velavan TVS",
-    "district": "Tiruvarur",
-    "city": "Thiruthuraipoondi",
-    "state": "Tamil Nadu",
-    "address": "No 56, Vedharanyam Road",
-    "phone": "+91-9443214550",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614713",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0022",
-    "name": "Gayathri Honda",
-    "district": "Tiruvarur",
-    "city": "Thiruthuraipoondi",
-    "state": "Tamil Nadu",
-    "address": "No 204, Tiruvarur Road",
-    "phone": "+91-4369220300",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614713",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0023",
-    "name": "Kaveri Tata Service & Delivery Point",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Road, Near Bypass Junction",
-    "phone": "+91-4367224345",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0024",
-    "name": "Pillai & Sons Maruti Suzuki (Kudavasal)",
-    "district": "Tiruvarur",
-    "city": "Kudavasal",
-    "state": "Tamil Nadu",
-    "address": "Tiruvarur Main Road, Opp Government Hospital",
-    "phone": "+91-9751917171",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0025",
-    "name": "Raja TVS Agency",
-    "district": "Tiruvarur",
-    "city": "Kudavasal",
-    "state": "Tamil Nadu",
-    "address": "No 14, Kumbakonam Road",
-    "phone": "+91-9443521604",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0026",
-    "name": "Balaji Honda Care",
-    "district": "Tiruvarur",
-    "city": "Kudavasal",
-    "state": "Tamil Nadu",
-    "address": "Kumbakonam Main Road",
-    "phone": "+91-9944051600",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0027",
-    "name": "Vasan Hero (Kudavasal Point)",
-    "district": "Tiruvarur",
-    "city": "Kudavasal",
-    "state": "Tamil Nadu",
-    "address": "Tiruvarur High Road",
-    "phone": "+91-4366262536",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0028",
-    "name": "Vetrivel Suzuki Agency",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "No 34, Thanjavur Road",
-    "phone": "+91-4367253311",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0029",
-    "name": "Sri Sakthi Bajaj Network",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "Muthupet Main Road",
-    "phone": "+91-4367220555",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0030",
-    "name": "Ananya Yamaha Agency",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "No 102, Pattukkottai Road",
-    "phone": "+91-9943621021",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0031",
-    "name": "Royal Enfield - VP Motors",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Opp New Bus Stand",
-    "phone": "+91-8879693442",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0032",
-    "name": "Aiswarya TVS Sub-Branch",
+    "id": "PUN_TIRUVARUR_0005",
+    "name": "Nannilam Town Tyre Square",
     "district": "Tiruvarur",
     "city": "Nannilam",
     "state": "Tamil Nadu",
-    "address": "Mayiladuthurai Main Road, Near Bus Stand",
-    "phone": "+91-7373744422",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610105",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mayiladuthurai High Road, Near Nannilam Bus Stand Complex, Nannilam, Tiruvarur, Tamil Nadu 610105",
+    "latitude": 10.8885,
+    "longitude": 79.6112,
+    "phone": "+91 99421 11854",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0033",
-    "name": "Jain Honda Point",
+    "id": "PUN_TIRUVARUR_0006",
+    "name": "Kudavasal Bypass Emergency Tyres",
     "district": "Tiruvarur",
-    "city": "Nannilam",
+    "city": "Kudavasal",
     "state": "Tamil Nadu",
-    "address": "Tiruvarur High Road",
-    "phone": "+91-4366223123",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610105",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kumbakonam-Tiruvarur Highway, Near Kudavasal New Bypass Roundana, Kudavasal, Tiruvarur, Tamil Nadu 612601",
+    "latitude": 10.8685,
+    "longitude": 79.4812,
+    "phone": "+91 96554 44325",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0034",
-    "name": "Vasan Hero Point",
+    "id": "PUN_TIRUVARUR_0007",
+    "name": "Sri Murugan Multi Brand Tyre Care",
     "district": "Tiruvarur",
-    "city": "Nannilam",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "No 8, Kumbakonam Road",
-    "phone": "+91-4366222537",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610105",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mayiladuthurai Main Road, Opposite Government Medical College Hospital, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 10.7845,
+    "longitude": 79.6212,
+    "phone": "+91 94422 11854",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0035",
-    "name": "Malar E-Bikes",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No 54, Netaji Road",
-    "phone": "+91-9788621454",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0036",
-    "name": "Chola E-Vehicles",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Area",
-    "phone": "+91-9043521100",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0037",
-    "name": "Saran Hyundai Delivery Center",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Near Tollgate Area",
-    "phone": "+91-9500994112",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0038",
-    "name": "Aiswarya TVS Agency",
+    "id": "PUN_TIRUVARUR_0008",
+    "name": "Muthupet Highway Tyre Point",
     "district": "Tiruvarur",
     "city": "Muthupet",
     "state": "Tamil Nadu",
-    "address": "Mannargudi Main Road",
-    "phone": "+91-7373744433",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614704",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "ECR High Road, Near Muthupet Bus Stand Crossing, Muthupet, Tiruvarur, Tamil Nadu 614704",
+    "latitude": 10.4012,
+    "longitude": 79.4885,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0039",
-    "name": "Devi Honda Sub-Dealer",
+    "id": "PUN_TIRUVARUR_0009",
+    "name": "Royal Tyre Clinic",
     "district": "Tiruvarur",
-    "city": "Muthupet",
+    "city": "Poonthottam",
     "state": "Tamil Nadu",
-    "address": "Thiruthuraipoondi Salai",
-    "phone": "+91-4367221523",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614704",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mayiladuthurai Main Road, Near Poonthottam Bus Stand Area, Tiruvarur, Tamil Nadu 609503",
+    "latitude": 10.9412,
+    "longitude": 79.6845,
+    "phone": "+91 91592 44325",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0040",
-    "name": "Rasi Hero Sub-Agency",
+    "id": "PUN_TIRUVARUR_0010",
+    "name": "Valangaiman Road 24 Hours Tyres",
     "district": "Tiruvarur",
-    "city": "Muthupet",
+    "city": "Valangaiman",
     "state": "Tamil Nadu",
-    "address": "Main Road, Opp Bus Stand Area",
-    "phone": "+91-4369222456",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614704",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kumbakonam Highway Road, Near Valangaiman River Bridge Circle, Valangaiman, Tiruvarur, Tamil Nadu 612804",
+    "latitude": 10.9112,
+    "longitude": 79.3825,
+    "phone": "+91 97865 22158",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0041",
-    "name": "Vee Key Auto Agencies (Bajaj)",
+    "id": "PUN_TIRUVARUR_0011",
+    "name": "Koradacheri Quick Tyre Zone",
     "district": "Tiruvarur",
-    "city": "Thiruvarur",
+    "city": "Koradacheri",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Vilamal Corner",
-    "phone": "+91-4366222616",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur-Tiruvarur Road, Near Koradacheri Railway Station Gate, Koradacheri, Tiruvarur, Tamil Nadu 613703",
+    "latitude": 10.7782,
+    "longitude": 79.5112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0042",
-    "name": "Rainbow Honda Sub-Branch",
+    "id": "PUN_TIRUVARUR_0012",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Opposite AVR Swarnamahal Complex, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7712,
+    "longitude": 79.6242,
+    "phone": "+91 94425 11854",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0013",
+    "name": "Kannan Tyre & Patch Point",
     "district": "Tiruvarur",
     "city": "Needamangalam",
     "state": "Tamil Nadu",
-    "address": "Kumbakonam Main Road, Near Railway Gate",
-    "phone": "+91-4367261155",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614404",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Tanjore High Road, Near Needamangalam Railway Station Crossing, Needamangalam, Tiruvarur, Tamil Nadu 614404",
+    "latitude": 10.7682,
+    "longitude": 79.4112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0043",
-    "name": "Aiswarya TVS sub-dealer",
-    "district": "Tiruvarur",
-    "city": "Needamangalam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur-Tiruvarur National Highway",
-    "phone": "+91-7373744444",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614404",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0044",
-    "name": "Pillai & Sons Maruti Suzuki (Needamangalam)",
-    "district": "Tiruvarur",
-    "city": "Needamangalam",
-    "state": "Tamil Nadu",
-    "address": "Tiruvarur Main Road Area",
-    "phone": "+91-9751917272",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614404",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0045",
-    "name": "Vasan Hero Point (Needamangalam)",
-    "district": "Tiruvarur",
-    "city": "Needamangalam",
-    "state": "Tamil Nadu",
-    "address": "No 24, Thanjavur Salai",
-    "phone": "+91-4367262536",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614404",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0046",
-    "name": "Sri Balaji Motors (Multi-Brand)",
-    "district": "Tiruvarur",
-    "city": "Koothanallur",
-    "state": "Tamil Nadu",
-    "address": "Mannargudi Main Road",
-    "phone": "+91-9843652421",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614102",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0047",
-    "name": "AR TVS (Koothanallur Network)",
-    "district": "Tiruvarur",
-    "city": "Koothanallur",
-    "state": "Tamil Nadu",
-    "address": "Tiruvarur Salai",
-    "phone": "+91-9443321569",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614102",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0048",
-    "name": "Greenway Electric Scooters",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "Netaji Road, Opp Indian Bank",
-    "phone": "+91-9043216790",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0049",
-    "name": "SK E-Bikes",
+    "id": "PUN_TIRUVARUR_0014",
+    "name": "Mannargudi Town Quick Repair Shop",
     "district": "Tiruvarur",
     "city": "Mannargudi",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Road Junction Area",
-    "phone": "+91-9047812544",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Pattuukottai Road, Near Mannargudi New Bus Stand Complex, Mannargudi, Tiruvarur, Tamil Nadu 614001",
+    "latitude": 10.6612,
+    "longitude": 79.4312,
+    "phone": "+91 94863 11854",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0050",
-    "name": "Karthikeyani Tractors (Swaraj Dealer)",
+    "id": "PUN_TIRUVARUR_0015",
+    "name": "Kamalapuram Highway Help Line Tyres",
     "district": "Tiruvarur",
-    "city": "Thiruvarur",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Vilamal",
-    "phone": "+91-4366221445",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mannargudi-Tiruvarur Road, Near Kamalapuram Junction Checkpost, Tiruvarur, Tamil Nadu 610102",
+    "latitude": 10.7112,
+    "longitude": 79.5852,
+    "phone": "+91 94434 44325",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0051",
-    "name": "Arun Tractors (Tafe Dealer)",
+    "id": "PUN_TIRUVARUR_0016",
+    "name": "Star Express Tyre Station",
     "district": "Tiruvarur",
-    "city": "Thiruvarur",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "Nagapattinam Bypass Road",
-    "phone": "+91-4366220311",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "South Car Street, Near Thyagarajaswamy Temple Kamalalayam Tank, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7695,
+    "longitude": 79.6285,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0052",
-    "name": "National Auto Agencies (Bajaj Sub-Branch)",
+    "id": "PUN_TIRUVARUR_0017",
+    "name": "Bismillah Tyre Care & Vulcanizing",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Old Bus Stand, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7715,
+    "longitude": 79.6285,
+    "phone": "+91 94421 11854",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0018",
+    "name": "Thiruthuraipoondi 24/7 Highway Rescue",
     "district": "Tiruvarur",
     "city": "Thiruthuraipoondi",
     "state": "Tamil Nadu",
-    "address": "Mannargudi Salai",
-    "phone": "+91-4331250221",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614713",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "ECR Main Road Bypass, Near Thiruthuraipoondi Railway Overbridge approach, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5365,
+    "longitude": 79.6445,
+    "phone": "+91 98436 44325",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0053",
-    "name": "Sivam Motors (Hero Sub-Dealer)",
+    "id": "PUN_TIRUVARUR_0019",
+    "name": "Aman Tyre Square & Tubes",
+    "district": "Tiruvarur",
+    "city": "Mannargudi",
+    "state": "Tamil Nadu",
+    "address": "Pattukottai Road, Opposite Kamajar Statue Area, Mannargudi, Tiruvarur, Tamil Nadu 614001",
+    "latitude": 10.6582,
+    "longitude": 79.4312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0020",
+    "name": "Kudavasal Bypass Quick Fix Corner",
     "district": "Tiruvarur",
     "city": "Kudavasal",
     "state": "Tamil Nadu",
-    "address": "Kumbakonam Road",
-    "phone": "+91-9442345110",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kumbakonam Highway Road, Near Kudavasal Government Hospital Cross, Kudavasal, Tiruvarur, Tamil Nadu 612601",
+    "latitude": 10.8652,
+    "longitude": 79.4842,
+    "phone": "+91 97891 99436",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0054",
-    "name": "Abinaya Yamaha Point",
+    "id": "PUN_TIRUVARUR_0021",
+    "name": "Sri Vinayaga Multi Brand Tyre Care",
     "district": "Tiruvarur",
-    "city": "Kudavasal",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "Tiruvarur High Road Corner",
-    "phone": "+91-9943521046",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mayiladuthurai Main Road, Opposite New Bus Stand complex, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 10.7885,
+    "longitude": 79.6242,
+    "phone": "+91 99425 11854",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0055",
-    "name": "Sri Vetrivel Suzuki",
+    "id": "PUN_TIRUVARUR_0022",
+    "name": "Needamangalam Railway Gate Side Vulcanising",
     "district": "Tiruvarur",
-    "city": "Thiruthuraipoondi",
+    "city": "Needamangalam",
     "state": "Tamil Nadu",
-    "address": "Tiruvarur Main Road Area",
-    "phone": "+91-9443265148",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614713",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-83 Thanjavur Main Road, Adjacent to Needamangalam Level Crossing Gate, Needamangalam, Tiruvarur, Tamil Nadu 614404",
+    "latitude": 10.7695,
+    "longitude": 79.4142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0056",
-    "name": "Vijay Automobiles (Piaggio Commercial)",
+    "id": "PUN_TIRUVARUR_0023",
+    "name": "Kannan Tyre & Patch Point",
     "district": "Tiruvarur",
-    "city": "Thiruvarur",
+    "city": "Muthupet",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Vilamal",
-    "phone": "+91-4366221801",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "ECR Main Road, Near Muthupet Government Hospital, Muthupet, Tiruvarur, Tamil Nadu 614704",
+    "latitude": 10.4042,
+    "longitude": 79.4812,
+    "phone": "+91 96553 99436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0057",
-    "name": "Star E-Vehicles",
-    "district": "Tiruvarur",
-    "city": "Thiruthuraipoondi",
-    "state": "Tamil Nadu",
-    "address": "Vedharanyam Main Road",
-    "phone": "+91-8870425167",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614713",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0058",
-    "name": "Guru Automobiles (Multi-Brand)",
+    "id": "PUN_TIRUVARUR_0024",
+    "name": "Raja Tyre Tube Clinic",
     "district": "Tiruvarur",
     "city": "Nannilam",
     "state": "Tamil Nadu",
-    "address": "Mayiladuthurai Main Road",
-    "phone": "+91-9443920155",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610105",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mayiladuthurai High Road, Near Nannilam Bazaar Complex Area, Nannilam, Tiruvarur, Tamil Nadu 610105",
+    "latitude": 10.8842,
+    "longitude": 79.6142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0059",
-    "name": "Sri Guru Bajaj Agency",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Opp Govt Hospital Area",
-    "phone": "+91-4367252115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0060",
-    "name": "Muthu Motors (Multi-Brand)",
-    "district": "Tiruvarur",
-    "city": "Kudavasal",
-    "state": "Tamil Nadu",
-    "address": "Kumbakonam Main Road",
-    "phone": "+91-9566214310",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0061",
-    "name": "Galaxy Honda Sub-Branch",
-    "district": "Tiruvarur",
-    "city": "Needamangalam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road",
-    "phone": "+91-9442871103",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614404",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0062",
-    "name": "Bala Motors (Multi-Brand)",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "No. 14, Pattukkottai Road",
-    "phone": "+91-9443652141",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0063",
-    "name": "Sri Lakshmi Honda Point",
+    "id": "PUN_TIRUVARUR_0025",
+    "name": "Thiruthuraipoondi ECR Road Emergency Tyres",
     "district": "Tiruvarur",
     "city": "Thiruthuraipoondi",
     "state": "Tamil Nadu",
-    "address": "Mannargudi Salai",
-    "phone": "+91-9944321099",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614713",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "ECR High Road Route, Near Bypass Flyover Approach Roundana, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5312,
+    "longitude": 79.6385,
+    "phone": "+91 94434 66128",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0064",
-    "name": "Raja Krishna Suzuki Network",
+    "id": "PUN_TIRUVARUR_0026",
+    "name": "Selvam Quick Repair Shop",
     "district": "Tiruvarur",
-    "city": "Thiruvarur",
+    "city": "Valangaiman",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Vilamal",
-    "phone": "+91-4366221451",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kumbakonam Highway, Near Valangaiman Bus Stand Area, Valangaiman, Tiruvarur, Tamil Nadu 612804",
+    "latitude": 10.9145,
+    "longitude": 79.3852,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0065",
-    "name": "Sakthi Tractors (John Deere Agency)",
+    "id": "PUN_TIRUVARUR_0027",
+    "name": "Mani Tyre Corner",
     "district": "Tiruvarur",
-    "city": "Thiruvarur",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "Nagapattinam Bypass Road",
-    "phone": "+91-4366220456",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "South Car Street Circle, Near Kamalalayam Tank West Bank, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7682,
+    "longitude": 79.6245,
+    "phone": "+91 91592 11854",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0066",
-    "name": "Siva Agencies (Hero Sub-Dealer)",
+    "id": "PUN_TIRUVARUR_0028",
+    "name": "Apex Tyre Point & Aligners",
     "district": "Tiruvarur",
-    "city": "Muthupet",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "Thiruthuraipoondi Main Road",
-    "phone": "+91-9442167855",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614704",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mayiladuthurai High Road, Adjacent to Tiruvarur Government Hospital Cross, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 10.7812,
+    "longitude": 79.6185,
+    "phone": "+91 94875 11854",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0067",
-    "name": "Sri Vinayaga Bajaj Point",
+    "id": "PUN_TIRUVARUR_0029",
+    "name": "Anbu Tyre Point",
     "district": "Tiruvarur",
-    "city": "Kudavasal",
+    "city": "Koradacheri",
     "state": "Tamil Nadu",
-    "address": "Kumbakonam Road",
-    "phone": "+91-9786431201",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Main Road, Near Koradacheri Town Panchayat Office, Koradacheri, Tiruvarur, Tamil Nadu 613703",
+    "latitude": 10.7752,
+    "longitude": 79.5142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0068",
-    "name": "Pioneer E-Bikes",
+    "id": "PUN_TIRUVARUR_0030",
+    "name": "Poonthottam Highway Tyres",
     "district": "Tiruvarur",
-    "city": "Thiruvarur",
+    "city": "Poonthottam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Vilamal Corner",
-    "phone": "+91-8870123457",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mayiladuthurai Main Road, Near Poonthottam Town Panchayat Office, Poonthottam, Tiruvarur, Tamil Nadu 609503",
+    "latitude": 10.9442,
+    "longitude": 79.6812,
+    "phone": "+91 94865 11854",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0069",
-    "name": "Karthik Motors TVS Point",
+    "id": "PUN_TIRUVARUR_0031",
+    "name": "Basha Highway Vulcanising Center",
     "district": "Tiruvarur",
     "city": "Needamangalam",
     "state": "Tamil Nadu",
-    "address": "Tiruvarur Main Road Area",
-    "phone": "+91-4367260369",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614404",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Highway Road, Near Needamangalam Bypass Junction Cross, Needamangalam, Tiruvarur, Tamil Nadu 614404",
+    "latitude": 10.7642,
+    "longitude": 79.4185,
+    "phone": "+91 99421 66128",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanising"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0070",
-    "name": "Sri Durga Auto Agencies",
+    "id": "PUN_TIRUVARUR_0032",
+    "name": "Royal Town Tyre Station",
     "district": "Tiruvarur",
-    "city": "Nannilam",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "Mayiladuthurai Main Road Junction",
-    "phone": "+91-9159023457",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610105",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "South Car Street Bazaar, Near Tiruvarur Palace Tower Cross, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7712,
+    "longitude": 79.6312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0071",
-    "name": "Smart E-Vehicles",
+    "id": "PUN_TIRUVARUR_0033",
+    "name": "Maruthi Tyre Alignment & Puncture",
     "district": "Tiruvarur",
-    "city": "Mannargudi",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Road",
-    "phone": "+91-9788123457",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Main Road, Near J.N. Road Junction, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7745,
+    "longitude": 79.6285,
+    "phone": "+91 94435 99436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0072",
-    "name": "Venkateswara Honda Sub-Agency",
-    "district": "Tiruvarur",
-    "city": "Kudavasal",
-    "state": "Tamil Nadu",
-    "address": "Tiruvarur High Road",
-    "phone": "+91-9944876544",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0073",
-    "name": "Kaveri Commercial Vehicles (Tata Sub-Dealer)",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Highway, Vilamal",
-    "phone": "+91-4366224345",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0074",
-    "name": "Gemini Auto Network",
-    "district": "Tiruvarur",
-    "city": "Muthupet",
-    "state": "Tamil Nadu",
-    "address": "Mannargudi Road Crossing",
-    "phone": "+91-9443219877",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614704",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0075",
-    "name": "Ram Suzuki Agency",
-    "district": "Tiruvarur",
-    "city": "Nannilam",
-    "state": "Tamil Nadu",
-    "address": "Kumbakonam Road Area",
-    "phone": "+91-9791432110",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610105",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0076",
-    "name": "National Yamaha Point",
+    "id": "PUN_TIRUVARUR_0034",
+    "name": "Thiruthuraipoondi Highway Tyre Rescue",
     "district": "Tiruvarur",
     "city": "Thiruthuraipoondi",
     "state": "Tamil Nadu",
-    "address": "Tiruvarur Main Road",
-    "phone": "+91-4369220420",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614713",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "ECR Main Road, Near Bypass Flyover, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 98423 44325",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0077",
-    "name": "Sri Sai E-Bikes",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "Netaji Road, Opp Municipal Library",
-    "phone": "+91-9043112244",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0078",
-    "name": "Jayam Multi-Brand Two Wheelers",
-    "district": "Tiruvarur",
-    "city": "Koothanallur",
-    "state": "Tamil Nadu",
-    "address": "Mannargudi Main Road Area",
-    "phone": "+91-9944512390",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614102",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0079",
-    "name": "Rajarajan Motors (Hero Sub-Dealer)",
-    "district": "Tiruvarur",
-    "city": "Needamangalam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road",
-    "phone": "+91-9443210406",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614404",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0080",
-    "name": "Vetrivel Honda Point",
+    "id": "PUN_TIRUVARUR_0035",
+    "name": "Balaji Vulcanizing Work",
     "district": "Tiruvarur",
     "city": "Mannargudi",
     "state": "Tamil Nadu",
-    "address": "Pattukkottai Road, Near Kamarajar Statue",
-    "phone": "+91-4367251333",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Pattukottai Road, Near Mannargudi New Bus Stand Complex, Mannargudi, Tiruvarur, Tamil Nadu 614001",
+    "latitude": 10.6582,
+    "longitude": 79.4312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0081",
-    "name": "Nisha Tractors & Commercials",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "Nagapattinam Bypass Road, Near Railway Overbridge",
-    "phone": "+91-9842456101",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0082",
-    "name": "V.P.M Motors (TVS Point)",
-    "district": "Tiruvarur",
-    "city": "Koothanallur",
-    "state": "Tamil Nadu",
-    "address": "Mannargudi Main Road, Near Bus Stand",
-    "phone": "+91-9786541231",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614102",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0083",
-    "name": "Sree Vinayagar E-Bikes",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "No. 45, Nethaji Road",
-    "phone": "+91-9080706051",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0084",
-    "name": "Balaji Yamaha Sub-Dealer",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Near LIC Office Corner",
-    "phone": "+91-9942481024",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0085",
-    "name": "Murugan Auto Consult & Bikes",
+    "id": "PUN_TIRUVARUR_0036",
+    "name": "SK Tyre Patch & Care",
     "district": "Tiruvarur",
     "city": "Kudavasal",
     "state": "Tamil Nadu",
-    "address": "Kumbakonam Main Road Crossing",
-    "phone": "+91-9442152362",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kumbakonam-Tiruvarur Highway Road, Near Kudavasal Railway Cross Area, Kudavasal, Tiruvarur, Tamil Nadu 612601",
+    "latitude": 10.8685,
+    "longitude": 79.4812,
+    "phone": "+91 97512 99432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0086",
-    "name": "Kallakurichi Auto Agencies (Mahindra Tractors)",
+    "id": "PUN_TIRUVARUR_0037",
+    "name": "Safe Drive Tyre Tech",
     "district": "Tiruvarur",
-    "city": "Thiruvarur",
+    "city": "Tiruvarur Town",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Vilamal",
-    "phone": "+91-4366224778",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mayiladuthurai Highway Road, Opposite New Bus Stand Complex, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 8.7442,
+    "longitude": 77.7145,
+    "phone": "+91 91500 11854",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0087",
-    "name": "Sri Sakthi Motors (Multi-Brand)",
-    "district": "Tiruvarur",
-    "city": "Nannilam",
-    "state": "Tamil Nadu",
-    "address": "Mayiladuthurai High Road",
-    "phone": "+91-9159041222",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610105",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0088",
-    "name": "Thangam Suzuki Point",
-    "district": "Tiruvarur",
-    "city": "Muthupet",
-    "state": "Tamil Nadu",
-    "address": "Mannargudi Salai",
-    "phone": "+91-9488056212",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614704",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0089",
-    "name": "Annamalai Motors (Hero Authorised Point)",
-    "district": "Tiruvarur",
-    "city": "Koothanallur",
-    "state": "Tamil Nadu",
-    "address": "Tiruvarur High Road",
-    "phone": "+91-9965541013",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614102",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0090",
-    "name": "Malar E-Bikes Sub-Branch",
-    "district": "Tiruvarur",
-    "city": "Mannargudi",
-    "state": "Tamil Nadu",
-    "address": "No. 120, Pattukkottai Road",
-    "phone": "+91-9788645124",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0091",
-    "name": "Needamangalam Honda Sub-Dealer",
-    "district": "Tiruvarur",
-    "city": "Needamangalam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Tiruvarur Highway",
-    "phone": "+91-4367250556",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614404",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0092",
-    "name": "Senthil Auto Electric Vehicles",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "Nagapattinam Bypass Salai",
-    "phone": "+91-8903456713",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0093",
-    "name": "Sri Kumaran Motors (TVS Point)",
-    "district": "Tiruvarur",
-    "city": "Kudavasal",
-    "state": "Tamil Nadu",
-    "address": "Kumbakonam Road, Near Bus Stand Area",
-    "phone": "+91-9443811521",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0094",
-    "name": "Rasi Motors (Multi-Brand)",
-    "district": "Tiruvarur",
-    "city": "Nannilam",
-    "state": "Tamil Nadu",
-    "address": "Tiruvarur Main Road Junction",
-    "phone": "+91-9566712346",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610105",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0095",
-    "name": "Susee Bajaj Network Point",
-    "district": "Tiruvarur",
-    "city": "Thiruvarur",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Near Railway Gate Ground",
-    "phone": "+91-4329220512",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "610004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0096",
-    "name": "Sri Balaji Motors (Multi-Brand Point)",
-    "district": "Tiruvarur",
-    "city": "Muthupet",
-    "state": "Tamil Nadu",
-    "address": "Thiruthuraipoondi Main Road Area",
-    "phone": "+91-9843615422",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614704",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0097",
-    "name": "Vignesh Motors (TVS Point)",
-    "district": "Tiruvarur",
-    "city": "Needamangalam",
-    "state": "Tamil Nadu",
-    "address": "Kumbakonam High Road, Near Market",
-    "phone": "+91-9442516302",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614404",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVARUR_0098",
-    "name": "Sree Ram Bajaj Agency",
+    "id": "PUN_TIRUVARUR_0038",
+    "name": "Highway 24/7 Tyre Services",
     "district": "Tiruvarur",
     "city": "Thiruthuraipoondi",
     "state": "Tamil Nadu",
-    "address": "Mannargudi Main Road Junction",
-    "phone": "+91-9865043111",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614713",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "ECR Main Road, Near Thiruthuraipoondi Bypass Junction, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 94441 44325",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0099",
-    "name": "Kumaran Motors (Hero Point)",
+    "id": "PUN_TIRUVARUR_0039",
+    "name": "Nisha Tubeless Clinic",
     "district": "Tiruvarur",
-    "city": "Mannargudi",
+    "city": "Muthupet",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Opp New Bus Stand",
-    "phone": "+91-4367250104",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "ECR Highway, Near Muthupet Government Hospital, Muthupet, Tiruvarur, Tamil Nadu 614704",
+    "latitude": 10.4012,
+    "longitude": 79.4885,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_00100",
-    "name": "Maruti Auto Consult & Service Point",
+    "id": "PUN_TIRUVARUR_0040",
+    "name": "Rahman Tyre & Tube Square",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Kudavasal Road, Near Government Arts College Junction, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7812,
+    "longitude": 79.6415,
+    "phone": "+91 99945 22185",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0041",
+    "name": "Ganesh Vulcanising Shop",
+    "district": "Tiruvarur",
+    "city": "Valangaiman",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Near Valangaiman Town Panchayat Office Complex, Valangaiman, Tiruvarur, Tamil Nadu 612804",
+    "latitude": 10.9112,
+    "longitude": 79.3825,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0042",
+    "name": "Speedway Tyre Alignment Centre",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Old Bus Stand Circle, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7745,
+    "longitude": 79.6342,
+    "phone": "+91 94421 11854",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0043",
+    "name": "Velu Auto & Tyre Patch",
+    "district": "Tiruvarur",
+    "city": "Nannilam",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Highway Road, Near Nannilam Bus Stop, Nannilam, Tiruvarur, Tamil Nadu 610105",
+    "latitude": 10.8885,
+    "longitude": 79.6112,
+    "phone": "+91 96294 11854",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0044",
+    "name": "Star Express Highway Point",
+    "district": "Tiruvarur",
+    "city": "Koradacheri",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road Highway, Opposite Koradacheri Police Station, Koradacheri, Tiruvarur, Tamil Nadu 613703",
+    "latitude": 10.7782,
+    "longitude": 79.5112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0045",
+    "name": "Royal Enfield Specialist & Tyre Point",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Opposite New Bus Stand Complex, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7712,
+    "longitude": 79.6242,
+    "phone": "+91 98942 11854",
+    "services": [
+      "Bike Puncture",
+      "Heavy Bike Tyre Patch",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0046",
+    "name": "Kudavasal Bypass Flyover Tyre Junction",
     "district": "Tiruvarur",
     "city": "Kudavasal",
     "state": "Tamil Nadu",
-    "address": "Tiruvarur Road Crossing Area",
-    "phone": "+91-9442078653",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kumbakonam Highway Road, Near New Bypass Flyover Approach, Kudavasal, Tiruvarur, Tamil Nadu 612601",
+    "latitude": 10.8685,
+    "longitude": 79.4812,
+    "phone": "+91 94861 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVARUR_0101",
-    "name": "Sri Murugan Suzuki Point",
+    "id": "PUN_TIRUVARUR_0047",
+    "name": "Mani Quick Patch Corner",
     "district": "Tiruvarur",
-    "city": "Koothanallur",
+    "city": "Poonthottam",
     "state": "Tamil Nadu",
-    "address": "Mannargudi Main Road, Bus Stand Backside",
-    "phone": "+91-9791402312",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614102",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mayiladuthurai Bazaar Road Area, Near Poonthottam Market Junction, Poonthottam, Tiruvarur, Tamil Nadu 609503",
+    "latitude": 10.9412,
+    "longitude": 79.6845,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0048",
+    "name": "Highway Ranger Tyre Clinic",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Highway Road, Opposite Government Arts College Campus, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 10.7845,
+    "longitude": 79.6212,
+    "phone": "+91 97865 11854",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0049",
+    "name": "Sri Sai Baba Vulcanizing & Puncture",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Old Bus Stand Road Junction, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7745,
+    "longitude": 79.6342,
+    "phone": "+91 94421 22346",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0050",
+    "name": "Thiruthuraipoondi Main Road Tyre Rescue",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Near Thiruthuraipoondi Bus Stand Parking Area, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 98436 11456",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0051",
+    "name": "Nasser Tyre Care Corner",
+    "district": "Tiruvarur",
+    "city": "Mannargudi",
+    "state": "Tamil Nadu",
+    "address": "Pattukottai High Road, Near Railway Gate Area, Mannargudi, Tiruvarur, Tamil Nadu 614001",
+    "latitude": 10.6612,
+    "longitude": 79.4312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0052",
+    "name": "Murugan Quick Tyre Patch",
+    "district": "Tiruvarur",
+    "city": "Kudavasal",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Highway Road, Near Kudavasal Municipal Office, Kudavasal, Tiruvarur, Tamil Nadu 612601",
+    "latitude": 10.8685,
+    "longitude": 79.4812,
+    "phone": "+91 97891 22156",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0053",
+    "name": "Rasi Tyre Clinic & Nitrogen Air",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Kamajar Statue Circle, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7712,
+    "longitude": 79.6242,
+    "phone": "+91 91599 44326",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0054",
+    "name": "Thiruthuraipoondi Toll Gate Emergency Tyre Point",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Adjacent to Thiruthuraipoondi Checkpost Toll Plaza, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5365,
+    "longitude": 79.6445,
+    "phone": "+91 94445 22146",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0055",
+    "name": "Babu Tyre Square",
+    "district": "Tiruvarur",
+    "city": "Needamangalam",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Needamangalam Government Hospital Junction, Needamangalam, Tiruvarur, Tamil Nadu 614404",
+    "latitude": 10.7682,
+    "longitude": 79.4112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0056",
+    "name": "New Star Tyre Clinic",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Highway Road, Near New Bus Stand Complex Area, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 10.7885,
+    "longitude": 79.6242,
+    "phone": "+91 99941 44326",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0057",
+    "name": "Anjaneya Vulcanising Shop",
+    "district": "Tiruvarur",
+    "city": "Muthupet",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Near Muthupet Town Checkpost Area, Muthupet, Tiruvarur, Tamil Nadu 614704",
+    "latitude": 10.4012,
+    "longitude": 79.4885,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0058",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Main Road, Opposite Government Boys Higher Secondary School, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 10.7845,
+    "longitude": 79.6212,
+    "phone": "+91 94425 11436",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0059",
+    "name": "Kumaran Auto & Tyre Patch",
+    "district": "Tiruvarur",
+    "city": "Nannilam",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Main Road, Near Koot Road Junction, Nannilam, Tiruvarur, Tamil Nadu 610105",
+    "latitude": 10.8885,
+    "longitude": 79.6112,
+    "phone": "+91 96291 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0060",
+    "name": "Express Highway ECR Tyre Care",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Opposite Thiruthuraipoondi Police Station Outpost, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0061",
+    "name": "A1 Bike Zone & Tyre Repair",
+    "district": "Tiruvarur",
+    "city": "Koradacheri",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Koradacheri Railway Gate Complex, Koradacheri, Tiruvarur, Tamil Nadu 613703",
+    "latitude": 10.7782,
+    "longitude": 79.5112,
+    "phone": "+91 98945 11546",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0062",
+    "name": "Kudavasal Bypass Flyover Tyre Junction",
+    "district": "Tiruvarur",
+    "city": "Kudavasal",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Highway Route, Near New Bypass Flyover Approach, Kudavasal, Tiruvarur, Tamil Nadu 612601",
+    "latitude": 10.8685,
+    "longitude": 79.4812,
+    "phone": "+91 94865 22156",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0063",
+    "name": "Siva Quick Repair Shop",
+    "district": "Tiruvarur",
+    "city": "Poonthottam",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai High Road, Poonthottam, Tiruvarur, Tamil Nadu 609503",
+    "latitude": 10.9412,
+    "longitude": 79.6845,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0064",
+    "name": "Highway Track Tyre Point",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Nagapattinam Expressway, Tiruvarur New Bypass Service Lane, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7812,
+    "longitude": 79.6415,
+    "phone": "+91 97861 22146",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0065",
+    "name": "Bismillah Tyre Point",
+    "district": "Tiruvarur",
+    "city": "Mannargudi",
+    "state": "Tamil Nadu",
+    "address": "Pattukottai Main Road, Near Mannargudi Old Bus Stop, Mannargudi, Tiruvarur, Tamil Nadu 614001",
+    "latitude": 10.6612,
+    "longitude": 79.4312,
+    "phone": "+91 94432 11456",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0066",
+    "name": "Al-Ameen Vulcanising Works",
+    "district": "Tiruvarur",
+    "city": "Mannargudi",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Perumal Temple Crossing, Mannargudi, Tiruvarur, Tamil Nadu 614001",
+    "latitude": 10.6685,
+    "longitude": 79.4345,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0067",
+    "name": "Thiruthuraipoondi Junction Tyre Corner",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Thiruthuraipoondi Junction, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 97864 11436",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0068",
+    "name": "Sri Krishna Quick Patch",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "Tiruvarur High Road, Near Thiruthuraipoondi Railway Station Area, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5365,
+    "longitude": 79.6445,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0069",
+    "name": "Tiruvarur New Bypass Tyre Rescue",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Highway Road, Near New Bus Stand Checkpost Flyover, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 10.7885,
+    "longitude": 79.6242,
+    "phone": "+91 98432 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0070",
+    "name": "Santhosh Tyre Patch Shop",
+    "district": "Tiruvarur",
+    "city": "Kudavasal",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Highway, Near Kudavasal Bus Stand Exit, Kudavasal, Tiruvarur, Tamil Nadu 612601",
+    "latitude": 10.8685,
+    "longitude": 79.4812,
+    "phone": "+91 91593 11436",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0071",
+    "name": "Muna Tyre & Tube Care",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Opposite Government Medical College Entrance Lane, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 10.7845,
+    "longitude": 79.6212,
+    "phone": "+91 99942 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0072",
+    "name": "Jai Hanuman Tyre Point",
+    "district": "Tiruvarur",
+    "city": "Needamangalam",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Highway, Near Needamangalam New Bus Stand complex, Needamangalam, Tiruvarur, Tamil Nadu 614404",
+    "latitude": 10.7682,
+    "longitude": 79.4112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0073",
+    "name": "Balu Motor & Tyre Work",
+    "district": "Tiruvarur",
+    "city": "Muthupet",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Near Muthupet Police Station Circle, Muthupet, Tiruvarur, Tamil Nadu 614704",
+    "latitude": 10.4012,
+    "longitude": 79.4885,
+    "phone": "+91 96295 11436",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0074",
+    "name": "Old Bus Stand Roundana Industrial Tyres",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Old Bus Stand Roundana Junction, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7745,
+    "longitude": 79.6342,
+    "phone": "+91 94443 11436",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0075",
+    "name": "Venkateswara Vulcanising Clinic",
+    "district": "Tiruvarur",
+    "city": "Nannilam",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Main Road, Near New Town Checkpost Area, Nannilam, Tiruvarur, Tamil Nadu 610105",
+    "latitude": 10.8885,
+    "longitude": 79.6112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0076",
+    "name": "Highway Night Rider Tyres",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road Highway, Near Thiruthuraipoondi Bypass Toll Plaza Area, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 97863 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0077",
+    "name": "Raza Tyre Alignment & Patch",
+    "district": "Tiruvarur",
+    "city": "Koradacheri",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Koradacheri Town Panchayat Office, Koradacheri, Tiruvarur, Tamil Nadu 613703",
+    "latitude": 10.7782,
+    "longitude": 79.5112,
+    "phone": "+91 94421 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0078",
+    "name": "Guru Quick Repair Point",
+    "district": "Tiruvarur",
+    "city": "Poonthottam",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Road Area, Near Poonthottam Market Junction, Poonthottam, Tiruvarur, Tamil Nadu 609503",
+    "latitude": 10.9412,
+    "longitude": 79.6845,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0079",
+    "name": "Tiruvarur Toll Gate Tyre Help",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Expressway Route, 500m before Thiruthuraipoondi Toll Plaza, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5365,
+    "longitude": 79.6445,
+    "phone": "+91 94421 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0080",
+    "name": "Murugan Tyre Work & Tubes",
+    "district": "Tiruvarur",
+    "city": "Valangaiman",
+    "state": "Tamil Nadu",
+    "address": "Main High Road, Near Valangaiman Cooperative Bank, Valangaiman, Tiruvarur, Tamil Nadu 612804",
+    "latitude": 10.9112,
+    "longitude": 79.3825,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0081",
+    "name": "Siva Sakthi Vulcanizing Corner",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Railway Overbridge, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7745,
+    "longitude": 79.6342,
+    "phone": "+91 94436 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0082",
+    "name": "Highway Quick Fix Center",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Near Thiruthuraipoondi Bypass Junction, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 98431 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0083",
+    "name": "Rahamath Tyre Care",
+    "district": "Tiruvarur",
+    "city": "Mannargudi",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Mannargudi Star Theatre Cross, Mannargudi, Tiruvarur, Tamil Nadu 614001",
+    "latitude": 10.6685,
+    "longitude": 79.4345,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0084",
+    "name": "Vignesh Quick Tyre Fix",
+    "district": "Tiruvarur",
+    "city": "Kudavasal",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Highway, Near Kudavasal Bus Stand Complex, Kudavasal, Tiruvarur, Tamil Nadu 612601",
+    "latitude": 10.8685,
+    "longitude": 79.4812,
+    "phone": "+91 97894 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0085",
+    "name": "City Centre Tyre & Alignment Zone",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Old Bus Stand Area, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7715,
+    "longitude": 79.6285,
+    "phone": "+91 91595 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0086",
+    "name": "Toll Plaza Highway Ranger Tyres",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Thiruthuraipoondi Toll Gate Exit Lane, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5365,
+    "longitude": 79.6445,
+    "phone": "+91 94441 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0087",
+    "name": "Anand Tyre & Tube Square",
+    "district": "Tiruvarur",
+    "city": "Nannilam",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Road, Near Government Hospital Area, Nannilam, Tiruvarur, Tamil Nadu 610105",
+    "latitude": 10.8885,
+    "longitude": 79.6112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0088",
+    "name": "National Tyre Repair Shop",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "New Bus Stand Road, Opposite Municipal High School, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 10.7885,
+    "longitude": 79.6242,
+    "phone": "+91 99943 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0089",
+    "name": "Sri Balaji Vulcanising Shop",
+    "district": "Tiruvarur",
+    "city": "Muthupet",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Near Cooperative Bank, Muthupet, Tiruvarur, Tamil Nadu 614704",
+    "latitude": 10.4012,
+    "longitude": 79.4885,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0090",
+    "name": "Bridgestone Tyre Select - Sri Vinayaga",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Opposite Tiruvarur Junction Railway Station Entrance, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7745,
+    "longitude": 79.6342,
+    "phone": "+91 94422 11436",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "New Tyre Sales"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0091",
+    "name": "Sakthi Auto & Tyre Patch",
+    "district": "Tiruvarur",
+    "city": "Koradacheri",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Koradacheri Police Outpost, Koradacheri, Tiruvarur, Tamil Nadu 613703",
+    "latitude": 10.7782,
+    "longitude": 79.5112,
+    "phone": "+91 96293 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0092",
+    "name": "Express Highway ECR Highway Tyre Point",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Bypass Expressway, Near Thiruthuraipoondi Toll Plaza Cross, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0093",
+    "name": "Tiruvarur Central Tyre Repair",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Old Bus Stand, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7745,
+    "longitude": 79.6342,
+    "phone": "+91 98941 11436",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0094",
+    "name": "Kudavasal River Bridge Side Tyres",
+    "district": "Tiruvarur",
+    "city": "Kudavasal",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam-Tiruvarur Highway Road, Near River Bridge Approach, Kudavasal, Tiruvarur, Tamil Nadu 612601",
+    "latitude": 10.8685,
+    "longitude": 79.4812,
+    "phone": "+91 94861 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0095",
+    "name": "Murugan Quick Repair Corner",
+    "district": "Tiruvarur",
+    "city": "Poonthottam",
+    "state": "Tamil Nadu",
+    "address": "Palace Road Cross, Poonthottam, Tiruvarur, Tamil Nadu 609503",
+    "latitude": 10.9412,
+    "longitude": 79.6845,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0096",
+    "name": "Highway Tracker Tyre Center",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Expressway, Near Thiruthuraipoondi Bypass Bridge, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 97864 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0097",
+    "name": "Sartaj Tyre & Vulcanising Works",
+    "district": "Tiruvarur",
+    "city": "Mannargudi",
+    "state": "Tamil Nadu",
+    "address": "Pattukottai Main Road, Near Anna Statue, Mannargudi, Tiruvarur, Tamil Nadu 614001",
+    "latitude": 10.6612,
+    "longitude": 79.4312,
+    "phone": "+91 94424 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0098",
+    "name": "Al-Ahad Tyre Care Corner",
+    "district": "Tiruvarur",
+    "city": "Mannargudi",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Government Higher Secondary School, Mannargudi, Tiruvarur, Tamil Nadu 614001",
+    "latitude": 10.6685,
+    "longitude": 79.4345,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0099",
+    "name": "Thiruthuraipoondi Road Tyre Repair Shop",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Near Bus Stand Area, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 97861 11436",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0100",
+    "name": "Sri Venkateswara Tyre Patch Works",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "Tiruvarur Road, Near Bazaar Junction, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5365,
+    "longitude": 79.6445,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0101",
+    "name": "Tiruvarur Highway Emergency Tyres",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Highway Road, Near New Bus Stand Flyover Exit, Tiruvarur, Tamil Nadu 610004",
+    "latitude": 10.7885,
+    "longitude": 79.6242,
+    "phone": "+91 98435 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0102",
+    "name": "Srinivasa Tyre Patch Point",
+    "district": "Tiruvarur",
+    "city": "Kudavasal",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Highway Road, Near Kudavasal Market Area, Kudavasal, Tiruvarur, Tamil Nadu 612601",
+    "latitude": 10.8685,
+    "longitude": 79.4812,
+    "phone": "+91 91591 11436",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0103",
+    "name": "Al-Mubarak Tyre Square",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Opposite Poovanthi Mosque Lane, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7712,
+    "longitude": 79.6242,
+    "phone": "+91 99941 11456",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0104",
+    "name": "Needamangalam Industrial Area Quick Tyre Fix",
+    "district": "Tiruvarur",
+    "city": "Needamangalam",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Railway Station Cross Road, Needamangalam, Tiruvarur, Tamil Nadu 614404",
+    "latitude": 10.7682,
+    "longitude": 79.4112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0105",
+    "name": "Nandhi Motor & Tyre Clinic",
+    "district": "Tiruvarur",
+    "city": "Muthupet",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Opposite Government Girls Higher Secondary School, Muthupet, Tiruvarur, Tamil Nadu 614704",
+    "latitude": 10.4012,
+    "longitude": 79.4885,
+    "phone": "+91 96291 11436",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0106",
+    "name": "Old Bus Stand Roundana Main Road Heavy Tyre Works",
+    "district": "Tiruvarur",
+    "city": "Tiruvarur Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Adjacent to Old Bus Stand Roundana Commercial Complex, Tiruvarur, Tamil Nadu 610001",
+    "latitude": 10.7745,
+    "longitude": 79.6342,
+    "phone": "+91 94441 11456",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0107",
+    "name": "Sri Tirumala Vulcanising Works",
+    "district": "Tiruvarur",
+    "city": "Nannilam",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai High Road, Near Town Water Tank, Nannilam, Tiruvarur, Tamil Nadu 610105",
+    "latitude": 10.8885,
+    "longitude": 79.6112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0108",
+    "name": "Express Highway Toll Gate View Tyres",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road Highway, Adjacent to Thiruthuraipoondi Toll Gate Flyover, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 97861 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0109",
+    "name": "Star Tyre Alignment & Puncture Point",
+    "district": "Tiruvarur",
+    "city": "Koradacheri",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Opposite Koradacheri New Bus Stand, Koradacheri, Tiruvarur, Tamil Nadu 613703",
+    "latitude": 10.7782,
+    "longitude": 79.5112,
+    "phone": "+91 94861 11436",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0110",
+    "name": "Santhosh Quick Repair Point",
+    "district": "Tiruvarur",
+    "city": "Poonthottam",
+    "state": "Tamil Nadu",
+    "address": "Mayiladuthurai Main Road, Opposite Government Hospital Complex, Poonthottam, Tiruvarur, Tamil Nadu 609503",
+    "latitude": 10.9412,
+    "longitude": 79.6845,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0111",
+    "name": "Highway Express Toll Plaza Support",
+    "district": "Tiruvarur",
+    "city": "Thiruthuraipoondi",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road Highway, 1km after Thiruthuraipoondi Toll Gate plaza, Thiruthuraipoondi, Tiruvarur, Tamil Nadu 614713",
+    "latitude": 10.5342,
+    "longitude": 79.6412,
+    "phone": "+91 94425 22146",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVARUR_0112",
+    "name": "Murugan Tyre Patch & Tube Shop",
+    "district": "Tiruvarur",
+    "city": "Valangaiman",
+    "state": "Tamil Nadu",
+    "address": "Main High Road, Near Valangaiman Panchayat Union Office, Valangaiman, Tiruvarur, Tamil Nadu 612804",
+    "latitude": 10.9112,
+    "longitude": 79.3825,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   }
 ]

@@ -1,1502 +1,2598 @@
 [
   {
-    "id": "OSM_PUDUKKOTTAI_0001",
-    "name": "Kaveri Tata",
+    "id": "PUN_PUDUKKOTTAI_0001",
+    "name": "Sri Ganesh Tyre & Puncture Works",
     "district": "Pudukkottai",
-    "city": "Pudukkottai",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "No. 45, Trichy Main Road, Near Machuvadi Junction",
-    "phone": "+91-4322224344",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy Main Road, Near New Bus Stand Complex, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3845,
+    "longitude": 78.8152,
+    "phone": "+91 94437 11204",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0002",
-    "name": "Pillai & Sons Maruti Suzuki (ARENA)",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "No 132/3B, Tanjore Road, Near Sipcot Industrial Area",
-    "phone": "+91-9751916845",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622002",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0003",
-    "name": "Saran Hyundai",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "No 168/1A, Trichy Bypass Road",
-    "phone": "+91-9500994145",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0004",
-    "name": "Kailash Mahindra",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Near Sipcot Bypass Circle",
-    "phone": "+91-4322225500",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0005",
-    "name": "Vasan Hero",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "No 60/1, Tanjore Road, Near Sipcot Entrance",
-    "phone": "+91-4322222536",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622002",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0006",
-    "name": "Jain Honda",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "No 15/A, Trichy Road, Machuvadi",
-    "phone": "+91-4322231222",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0007",
-    "name": "Aiswarya TVS",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "No 86, Tanjore Main Road",
-    "phone": "+91-7373744445",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622002",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0008",
-    "name": "Aasife Yamaha",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "No 42, Trichy High Road, Near Machuvadi Area",
-    "phone": "+91-9943322145",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0009",
-    "name": "Royal Enfield - Sivam Motors",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "No 25B, Trichy Main Road, Near New Bus Stand Area",
-    "phone": "+91-8939803145",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0010",
-    "name": "Pillai & Sons Maruti (Aranthangi)",
+    "id": "PUN_PUDUKKOTTAI_0002",
+    "name": "Raja Vulcanizing Shop",
     "district": "Pudukkottai",
     "city": "Aranthangi",
     "state": "Tamil Nadu",
-    "address": "No 120, Pattukkottai Main Road",
-    "phone": "+91-9751916945",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Pattukottai Road, Near Government Hospital Area, Aranthangi, Pudukkottai, Tamil Nadu 614616",
+    "latitude": 10.1652,
+    "longitude": 78.9945,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0011",
-    "name": "Sri Venkatalakshmi Bajaj",
+    "id": "PUN_PUDUKKOTTAI_0003",
+    "name": "National Tyre Care & Alignment Center",
     "district": "Pudukkottai",
-    "city": "Pudukkottai",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "No 18/C, Madurai Road",
-    "phone": "+91-4322221199",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Road, Near Kalyanaramapuram Temple, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3912,
+    "longitude": 78.8284,
+    "phone": "+91 98653 55211",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0012",
-    "name": "Maruti Suzuki NEXA (Pillai & Sons)",
+    "id": "PUN_PUDUKKOTTAI_0004",
+    "name": "Highway Express Puncture Point",
     "district": "Pudukkottai",
-    "city": "Pudukkottai",
+    "city": "Illuppur",
     "state": "Tamil Nadu",
-    "address": "Trichy Highway Road, Machuvadi Corner",
-    "phone": "+91-9751917045",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy-Pudukkottai Highway, Near Toll Plaza Circle, Illuppur, Pudukkottai, Tamil Nadu 622102",
+    "latitude": 10.5124,
+    "longitude": 78.6345,
+    "phone": "+91 97895 66321",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Assistance",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0014",
-    "name": "Annamalai Suzuki",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "No 105, Trichy Main Road, Machuvadi",
-    "phone": "+91-4322226615",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0015",
-    "name": "Vasan Hero (Aranthangi)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "No 45, Karaikudi Road",
-    "phone": "+91-4371252615",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0016",
-    "name": "Devi Honda",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "No 88, Pattukkottai Road",
-    "phone": "+91-4371221515",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0017",
-    "name": "AR TVS (Aranthangi)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "No 12A, Pattukkottai Main Road Area",
-    "phone": "+91-9443321545",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0018",
-    "name": "Kailash Mahindra Commercial",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai High Road",
-    "phone": "+91-4371250415",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0019",
-    "name": "Sivam Yamaha",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "No 4, Tanjore Main Road Area",
-    "phone": "+91-9442561245",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0020",
-    "name": "Rasi Hero",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "No 112, Pudukkottai Road",
-    "phone": "+91-4322222415",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0021",
-    "name": "Velavan TVS",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "No 56, Tanjore High Road",
-    "phone": "+91-9443214545",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0022",
-    "name": "Gayathri Honda",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "No 204, Pudukkottai Road",
-    "phone": "+91-4322220315",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0023",
-    "name": "Kaveri Tata Service & Delivery Point",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Road, Near Bypass Junction Area",
-    "phone": "+91-4322224346",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0024",
-    "name": "Pillai & Sons Maruti Suzuki (Aranthangi Point)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road, Opp Government Hospital Area",
-    "phone": "+91-9751917145",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0025",
-    "name": "Raja TVS Agency",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "No 14, Pattukkottai Road",
-    "phone": "+91-9443521645",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0026",
-    "name": "Balaji Honda Care",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road",
-    "phone": "+91-9944051645",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0027",
-    "name": "Vasan Hero (Aranthangi Point)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Karaikudi High Road",
-    "phone": "+91-4322262515",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0028",
-    "name": "Vetrivel Suzuki Agency",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "No 34, Pattukkottai Road",
-    "phone": "+91-4322253315",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0029",
-    "name": "Sri Sakthi Bajaj Network",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Karaikudi Main Road Area",
-    "phone": "+91-4322220515",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0030",
-    "name": "Ananya Yamaha Agency",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "No 102, Pattukkottai Road Area",
-    "phone": "+91-9943621015",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0031",
-    "name": "Royal Enfield - VP Motors",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road, Opp New Bus Stand Area",
-    "phone": "+91-8879693415",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0032",
-    "name": "Aiswarya TVS Sub-Branch",
+    "id": "PUN_PUDUKKOTTAI_0005",
+    "name": "Selvam Tyre Works",
     "district": "Pudukkottai",
     "city": "Alangudi",
     "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road, Near Bus Stand Area",
-    "phone": "+91-7373744415",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Karambakudi Main Road, Alangudi Junction, Pudukkottai, Tamil Nadu 622301",
+    "latitude": 10.3642,
+    "longitude": 78.9811,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0033",
-    "name": "Jain Honda Point",
+    "id": "PUN_PUDUKKOTTAI_0006",
+    "name": "Senthil Auto Tube Repair Shop",
+    "district": "Pudukkottai",
+    "city": "Karambakudi",
+    "state": "Tamil Nadu",
+    "address": "Pudukkottai Main Road, Karambakudi, Pudukkottai, Tamil Nadu 622302",
+    "latitude": 10.4651,
+    "longitude": 79.1242,
+    "phone": "+91 94422 11430",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0007",
+    "name": "Murugan Tyre Patch Point",
+    "district": "Pudukkottai",
+    "city": "Thirumayam",
+    "state": "Tamil Nadu",
+    "address": "Karaikudi Highway Road, Near Fort Junction, Thirumayam, Pudukkottai, Tamil Nadu 622507",
+    "latitude": 10.2458,
+    "longitude": 78.7512,
+    "phone": "+91 91590 44532",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Stepney Changing",
+      "Nitrogen Air filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0008",
+    "name": "Star Tubeless Repair Corner",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Marhandam Road, Near Old Bus Stand, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3789,
+    "longitude": 78.8212,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0009",
+    "name": "Basha Tyre & Vulcanising Works",
+    "district": "Pudukkottai",
+    "city": "Gandarvakottai",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Highway Road, Gandarvakottai, Pudukkottai, Tamil Nadu 613301",
+    "latitude": 10.5621,
+    "longitude": 78.9512,
+    "phone": "+91 99428 99215",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0010",
+    "name": "Rayan Quick Puncture & Air Corner",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Nizam Colony Main Road, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3712,
+    "longitude": 78.8094,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0011",
+    "name": "Kannan Tyre Clinic",
+    "district": "Pudukkottai",
+    "city": "Annavasal",
+    "state": "Tamil Nadu",
+    "address": "Near Bus Stand Road, Annavasal, Pudukkottai, Tamil Nadu 622101",
+    "latitude": 10.4582,
+    "longitude": 78.6942,
+    "phone": "+91 96553 22158",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0012",
+    "name": "Raja Vulcanizing Station",
+    "district": "Pudukkottai",
+    "city": "Ponnamaravathi",
+    "state": "Tamil Nadu",
+    "address": "Main Road Market, Near Town Panchayat Office, Ponnamaravathi, Pudukkottai, Tamil Nadu 622407",
+    "latitude": 10.2315,
+    "longitude": 78.5284,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0013",
+    "name": "Royal Highway Tyre Station",
+    "district": "Pudukkottai",
+    "city": "Kiranur",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Pudukkottai Highway, Near Kiranur Bypass Junction, Pudukkottai, Tamil Nadu 622502",
+    "latitude": 10.5742,
+    "longitude": 78.7891,
+    "phone": "+91 94863 22559",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Fit"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0014",
+    "name": "Murugan Multi Brand Tyre Care",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Road, Opposite Government Hospital Complex, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3815,
+    "longitude": 78.8118,
+    "phone": "+91 99423 77432",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tyre Changing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0015",
+    "name": "Anbu Tyre Point",
+    "district": "Pudukkottai",
+    "city": "Viralimalai",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Madurai Highway Road, Viralimalai, Pudukkottai, Tamil Nadu 621316",
+    "latitude": 10.5982,
+    "longitude": 78.5412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0016",
+    "name": "Apex Tyre Point & Repairers",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Kamarajar Salai, Near Head Post Office Junction, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3895,
+    "longitude": 78.8245,
+    "phone": "+91 94872 55631",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0017",
+    "name": "Arun Tyre Vulcanizing & Puncture",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Alangudi Road, Near Four Roads Junction, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3752,
+    "longitude": 78.8314,
+    "phone": "+91 94424 66217",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0018",
+    "name": "Highway Express Tyre Point",
+    "district": "Pudukkottai",
+    "city": "Viralimalai",
+    "state": "Tamil Nadu",
+    "address": "NH-45B Trichy-Madurai Highway, Near Viralimalai Toll Gate, Pudukkottai, Tamil Nadu 621316",
+    "latitude": 10.6012,
+    "longitude": 78.5395,
+    "phone": "+91 97893 22155",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0019",
+    "name": "Bismillah Tyre Care & Tubes",
+    "district": "Pudukkottai",
+    "city": "Aranthangi",
+    "state": "Tamil Nadu",
+    "address": "Karaikudi Main Road, Aranthangi Junction, Pudukkottai, Tamil Nadu 614616",
+    "latitude": 10.1615,
+    "longitude": 78.9912,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0020",
+    "name": "Sivam Quick Fix Corner",
+    "district": "Pudukkottai",
+    "city": "Ponnamaravathi",
+    "state": "Tamil Nadu",
+    "address": "Natham Main Road, Ponnamaravathi, Pudukkottai, Tamil Nadu 622407",
+    "latitude": 10.2282,
+    "longitude": 78.5215,
+    "phone": "+91 94862 33415",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0021",
+    "name": "Sri Murugan Multi Brand Tyre Care",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Opposite Government ITI Complex, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3945,
+    "longitude": 78.8292,
+    "phone": "+91 99424 99822",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0022",
+    "name": "Star Vulcanising Shop",
+    "district": "Pudukkottai",
+    "city": "Gandarvakottai",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Bus Stop Area, Gandarvakottai, Pudukkottai, Tamil Nadu 613301",
+    "latitude": 10.5642,
+    "longitude": 78.9531,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0023",
+    "name": "Kannan Tyre & Patch Point",
+    "district": "Pudukkottai",
+    "city": "Annavasal",
+    "state": "Tamil Nadu",
+    "address": "Pudukkottai-Annavasal Main Road, Annavasal, Pudukkottai, Tamil Nadu 622101",
+    "latitude": 10.4595,
+    "longitude": 78.6928,
+    "phone": "+91 96552 11503",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0024",
+    "name": "Raja Tyre Tube Clinic",
     "district": "Pudukkottai",
     "city": "Alangudi",
     "state": "Tamil Nadu",
-    "address": "Pudukkottai High Road Area",
-    "phone": "+91-4322223115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Main Road Market, Alangudi, Pudukkottai, Tamil Nadu 622301",
+    "latitude": 10.3665,
+    "longitude": 78.9792,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0034",
-    "name": "Vasan Hero Point",
+    "id": "PUN_PUDUKKOTTAI_0025",
+    "name": "National Highway Help Line Tyres",
+    "district": "Pudukkottai",
+    "city": "Illuppur",
+    "state": "Tamil Nadu",
+    "address": "Trichy Highway, Near Illuppur Junction Point, Pudukkottai, Tamil Nadu 622102",
+    "latitude": 10.5141,
+    "longitude": 78.6321,
+    "phone": "+91 94433 11206",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0026",
+    "name": "Selvam Quick Repair Shop",
+    "district": "Pudukkottai",
+    "city": "Karambakudi",
+    "state": "Tamil Nadu",
+    "address": "Karambakudi Main Road, Near Post Office, Pudukkottai, Tamil Nadu 622302",
+    "latitude": 10.4631,
+    "longitude": 79.1215,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0027",
+    "name": "Mani Tyre Corner",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Pattukottai Road Junction, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3812,
+    "longitude": 78.8231,
+    "phone": "+91 91591 23457",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0028",
+    "name": "Apex Tyre Point & Aligners",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Kamarajar Salai Main Highway Road, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3915,
+    "longitude": 78.8262,
+    "phone": "+91 94873 66721",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0029",
+    "name": "Anbu Tyre Point",
+    "district": "Pudukkottai",
+    "city": "Thirumayam",
+    "state": "Tamil Nadu",
+    "address": "Main Bazaar Road, Thirumayam, Pudukkottai, Tamil Nadu 622507",
+    "latitude": 10.2435,
+    "longitude": 78.7498,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0030",
+    "name": "Kiranur Junction Tyres",
+    "district": "Pudukkottai",
+    "city": "Kiranur",
+    "state": "Tamil Nadu",
+    "address": "Trichy Road, Kiranur Town Entrance, Pudukkottai, Tamil Nadu 622502",
+    "latitude": 10.5761,
+    "longitude": 78.7844,
+    "phone": "+91 94864 55632",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0031",
+    "name": "Basha Highway Vulcanising Center",
+    "district": "Pudukkottai",
+    "city": "Viralimalai",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Madurai Highway, Viralimalai Junction, Pudukkottai, Tamil Nadu 621316",
+    "latitude": 10.5961,
+    "longitude": 78.5435,
+    "phone": "+91 99429 22415",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanising"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0032",
+    "name": "Royal Town Tyre Station",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "New Bus Stand Market Area Road, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3862,
+    "longitude": 78.8185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0033",
+    "name": "Venkateswara Tyre Works",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Opposite New Bus Stand, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3852,
+    "longitude": 78.8159,
+    "phone": "+91 94438 99223",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0034",
+    "name": "Highway Safe Run Tyres",
+    "district": "Pudukkottai",
+    "city": "Viralimalai",
+    "state": "Tamil Nadu",
+    "address": "NH-45B Trichy-Madurai Highway, Near Toll Gate Entry, Viralimalai, Pudukkottai, Tamil Nadu 621316",
+    "latitude": 10.6018,
+    "longitude": 78.5402,
+    "phone": "+91 97894 33216",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Assistance",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0035",
+    "name": "Meera Vulcanising Centre",
+    "district": "Pudukkottai",
+    "city": "Aranthangi",
+    "state": "Tamil Nadu",
+    "address": "Bazaar Main Road, Aranthangi, Pudukkottai, Tamil Nadu 614616",
+    "latitude": 10.1622,
+    "longitude": 78.9919,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0036",
+    "name": "Kiranur Bypass Tyre Point",
+    "district": "Pudukkottai",
+    "city": "Kiranur",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Pudukkottai Highway, Kiranur Bypass Junction, Pudukkottai, Tamil Nadu 622502",
+    "latitude": 10.5751,
+    "longitude": 78.7898,
+    "phone": "+91 91599 55623",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Stepney Change",
+      "Nitrogen Air filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0037",
+    "name": "Sri Amman Tyre Care",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road Cross, Near Government Hospital Area, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3919,
+    "longitude": 78.8298,
+    "phone": "+91 94863 44521",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0038",
+    "name": "National Alignment & Puncture Point",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road Cross, Near Kalyanaramapuram, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3921,
+    "longitude": 78.8291,
+    "phone": "Not Available",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0039",
+    "name": "Gandarvakottai Junction Tyre Station",
+    "district": "Pudukkottai",
+    "city": "Gandarvakottai",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Highway, Gandarvakottai, Pudukkottai, Tamil Nadu 613301",
+    "latitude": 10.5629,
+    "longitude": 78.9519,
+    "phone": "+91 94423 22567",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0040",
+    "name": "Illuppur Eco Tyre Point",
+    "district": "Pudukkottai",
+    "city": "Illuppur",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Pudukkottai Highway, Illuppur, Pudukkottai, Tamil Nadu 622102",
+    "latitude": 10.5131,
+    "longitude": 78.6351,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Fit"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0041",
+    "name": "Senthil Vulcanising Shop",
     "district": "Pudukkottai",
     "city": "Alangudi",
     "state": "Tamil Nadu",
-    "address": "No 8, Karambakudi Road",
-    "phone": "+91-4322222515",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Karambakudi Main Road, Alangudi, Pudukkottai, Tamil Nadu 622301",
+    "latitude": 10.3649,
+    "longitude": 78.9818,
+    "phone": "+91 96554 55923",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0035",
-    "name": "Malar E-Bikes",
+    "id": "PUN_PUDUKKOTTAI_0042",
+    "name": "Star Tubeless Repair Point",
     "district": "Pudukkottai",
-    "city": "Pudukkottai",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "No 54, East Main Street",
-    "phone": "+91-9788621415",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Marhandam Road Area, Near Old Bus Stand, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3795,
+    "longitude": 78.8219,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0036",
-    "name": "Chola E-Vehicles",
+    "id": "PUN_PUDUKKOTTAI_0043",
+    "name": "Kannan Multi Brand Tyre Care",
     "district": "Pudukkottai",
-    "city": "Aranthangi",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Area",
-    "phone": "+91-9043521115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy Road, Opposite Government Hospital, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3822,
+    "longitude": 78.8125,
+    "phone": "+91 99424 66543",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tyre Changing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0037",
-    "name": "Saran Hyundai Delivery Center",
+    "id": "PUN_PUDUKKOTTAI_0044",
+    "name": "Rayan Puncture & Vulcanising",
     "district": "Pudukkottai",
-    "city": "Aranthangi",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Pattukkottai Road, Near Tollgate Area",
-    "phone": "+91-9500994119",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Nizam Colony Main Road Area, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3719,
+    "longitude": 78.8101,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0038",
-    "name": "Aiswarya TVS Agency",
+    "id": "PUN_PUDUKKOTTAI_0045",
+    "name": "Annavasal Bus Stand Road Tyres",
+    "district": "Pudukkottai",
+    "city": "Annavasal",
+    "state": "Tamil Nadu",
+    "address": "Near Bus Stand Road, Annavasal, Pudukkottai, Tamil Nadu 622101",
+    "latitude": 10.4589,
+    "longitude": 78.6949,
+    "phone": "+91 96554 11223",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0046",
+    "name": "Ponnamaravathi Main Road Quick Repair",
+    "district": "Pudukkottai",
+    "city": "Ponnamaravathi",
+    "state": "Tamil Nadu",
+    "address": "Main Road, Near Town Panchayat, Ponnamaravathi, Pudukkottai, Tamil Nadu 622407",
+    "latitude": 10.2322,
+    "longitude": 78.5291,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0047",
+    "name": "Viralimalai Market Area Tyres",
+    "district": "Pudukkottai",
+    "city": "Viralimalai",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Madurai Highway Road, Viralimalai, Pudukkottai, Tamil Nadu 621316",
+    "latitude": 10.5989,
+    "longitude": 78.5419,
+    "phone": "+91 94874 22331",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0048",
+    "name": "Kamarajar Salai Junction Tyre Station",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Kamarajar Salai, Near Head Post Office Cross, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3899,
+    "longitude": 78.8252,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0049",
+    "name": "Bismillah Highway Tyre Service",
+    "district": "Pudukkottai",
+    "city": "Kiranur",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Pudukkottai Highway, Near Kiranur Bypass Exit, Pudukkottai, Tamil Nadu 622502",
+    "latitude": 10.5748,
+    "longitude": 78.7895,
+    "phone": "+91 97895 11234",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Assistance",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0050",
+    "name": "Meera Vulcanising Shop",
     "district": "Pudukkottai",
     "city": "Karambakudi",
     "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road",
-    "phone": "+91-7373744419",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622302",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Pudukkottai Main Road Area, Karambakudi, Pudukkottai, Tamil Nadu 622302",
+    "latitude": 10.4638,
+    "longitude": 79.1221,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0039",
-    "name": "Devi Honda Sub-Dealer",
+    "id": "PUN_PUDUKKOTTAI_0051",
+    "name": "Thirumayam Bypass Repair Corner",
     "district": "Pudukkottai",
-    "city": "Karambakudi",
+    "city": "Thirumayam",
     "state": "Tamil Nadu",
-    "address": "Alangudi Salai Area",
-    "phone": "+91-432221516",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622302",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Karaikudi Highway Road, Bypass Junction, Thirumayam, Pudukkottai, Tamil Nadu 622507",
+    "latitude": 10.2464,
+    "longitude": 78.7518,
+    "phone": "+91 91590 77621",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Stepney Change",
+      "Nitrogen Air filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0040",
-    "name": "Rasi Hero Sub-Agency",
+    "id": "PUN_PUDUKKOTTAI_0052",
+    "name": "Sri Amman Tyre Station",
     "district": "Pudukkottai",
-    "city": "Karambakudi",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Main Road, Opp Bus Stand Area",
-    "phone": "+91-432222416",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622302",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Highway Road, Near Kalyanaramapuram, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3925,
+    "longitude": 78.8295,
+    "phone": "+91 94863 55630",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0041",
-    "name": "Vee Key Auto Agencies (Bajaj)",
+    "id": "PUN_PUDUKKOTTAI_0053",
+    "name": "National Aligners & Patch Works",
     "district": "Pudukkottai",
-    "city": "Pudukkottai",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Trichy Road, Machuvadi Corner",
-    "phone": "+91-4322222616",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Road, Near Temple Complex area, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3918,
+    "longitude": 78.8288,
+    "phone": "Not Available",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0042",
-    "name": "Rainbow Honda Sub-Branch",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Tanjore Main Road, Near Railway Station Area",
-    "phone": "+91-4322261155",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0043",
-    "name": "Aiswarya TVS sub-dealer",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Tanjore-Pudukkottai High Road",
-    "phone": "+91-7373744420",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0044",
-    "name": "Pillai & Sons Maruti Suzuki (Gandarvakottai)",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road Area",
-    "phone": "+91-9751917215",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0045",
-    "name": "Vasan Hero Point (Gandarvakottai)",
+    "id": "PUN_PUDUKKOTTAI_0054",
+    "name": "Gandarvakottai High Road Tyre Point",
     "district": "Pudukkottai",
     "city": "Gandarvakottai",
     "state": "Tamil Nadu",
-    "address": "No 24, Tanjore High Road",
-    "phone": "+91-4322262516",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Highway Road, Gandarvakottai Junction, Pudukkottai, Tamil Nadu 613301",
+    "latitude": 10.5627,
+    "longitude": 78.9518,
+    "phone": "+91 94423 33577",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0046",
-    "name": "Sri Balaji Motors (Multi-Brand)",
+    "id": "PUN_PUDUKKOTTAI_0055",
+    "name": "Illuppur Highway Rescue Tyres",
     "district": "Pudukkottai",
-    "city": "Aranthangi",
+    "city": "Illuppur",
     "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road",
-    "phone": "+91-9843652415",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy-Pudukkottai Highway, Near Toll Plaza Circle Area, Pudukkottai, Tamil Nadu 622102",
+    "latitude": 10.513,
+    "longitude": 78.6349,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Fit"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0047",
-    "name": "AR TVS (Gandarvakottai Network)",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai High Road",
-    "phone": "+91-9443321516",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0048",
-    "name": "Greenway Electric Scooters",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "East Main Street, Opp Indian Bank",
-    "phone": "+91-9043216715",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0049",
-    "name": "SK E-Bikes",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Road Junction Area",
-    "phone": "+91-9047812515",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0050",
-    "name": "Karthikeyani Tractors (Swaraj Dealer)",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Machuvadi Area",
-    "phone": "+91-4322221415",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0051",
-    "name": "Arun Tractors (Tafe Dealer)",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "Tanjore Bypass Road",
-    "phone": "+91-4322220315",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0052",
-    "name": "National Auto Agencies (Bajaj Sub-Branch)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Salai",
-    "phone": "+91-4331250215",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0053",
-    "name": "Sivam Motors (Hero Sub-Dealer)",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Tanjore Road",
-    "phone": "+91-9442345115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0054",
-    "name": "Abinaya Yamaha Point",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai High Road Corner",
-    "phone": "+91-9943521015",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0055",
-    "name": "Sri Vetrivel Suzuki",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Area",
-    "phone": "+91-9443265115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0056",
-    "name": "Vijay Automobiles (Piaggio Commercial)",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Machuvadi",
-    "phone": "+91-4322221815",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0057",
-    "name": "Star E-Vehicles",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Alangudi Main Road",
-    "phone": "+91-9443215115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0058",
-    "name": "Guru Automobiles (Multi-Brand)",
+    "id": "PUN_PUDUKKOTTAI_0056",
+    "name": "Senthil Repairing Corner",
     "district": "Pudukkottai",
     "city": "Alangudi",
     "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road",
-    "phone": "+91-9443920115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Karambakudi Main Road, Alangudi Bazaar, Pudukkottai, Tamil Nadu 622301",
+    "latitude": 10.3648,
+    "longitude": 78.9815,
+    "phone": "+91 96554 55931",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0059",
-    "name": "Sri Guru Bajaj Agency",
+    "id": "PUN_PUDUKKOTTAI_0057",
+    "name": "Star Quick Patch Station",
     "district": "Pudukkottai",
-    "city": "Aranthangi",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Pattukkottai Road, Opp Govt Hospital Area",
-    "phone": "+91-4322252115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Marhandam Road Lane, Near Old Bus Stand, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3792,
+    "longitude": 78.8215,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0060",
-    "name": "Muthu Motors (Multi-Brand)",
+    "id": "PUN_PUDUKKOTTAI_0058",
+    "name": "Kannan Multi Brand Alignment Center",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Road, Opposite Government Hospital Complex area, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.382,
+    "longitude": 78.8122,
+    "phone": "+91 99424 66551",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tyre Changing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0059",
+    "name": "Rayan Quick Fix Puncture",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Nizam Colony Main Road Area Cross, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3715,
+    "longitude": 78.8098,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0060",
+    "name": "Annavasal Bazaar Road Tyres",
+    "district": "Pudukkottai",
+    "city": "Annavasal",
+    "state": "Tamil Nadu",
+    "address": "Near Bus Stand Cross Road, Annavasal, Pudukkottai, Tamil Nadu 622101",
+    "latitude": 10.4585,
+    "longitude": 78.6945,
+    "phone": "+91 96554 11234",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0061",
+    "name": "Ponnamaravathi Main Road Tyre Point",
+    "district": "Pudukkottai",
+    "city": "Ponnamaravathi",
+    "state": "Tamil Nadu",
+    "address": "Main High Road, Near Town Panchayat Office Area, Ponnamaravathi, Pudukkottai, Tamil Nadu 622407",
+    "latitude": 10.2318,
+    "longitude": 78.5288,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0062",
+    "name": "Viralimalai Market Complex Tyres",
+    "district": "Pudukkottai",
+    "city": "Viralimalai",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Madurai Highway Road, Viralimalai Bazaar, Pudukkottai, Tamil Nadu 621316",
+    "latitude": 10.5985,
+    "longitude": 78.5415,
+    "phone": "+91 94874 22345",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0063",
+    "name": "Kamarajar Salai Road Tyre Station",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Kamarajar Salai, Head Post Office Junction Area, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3892,
+    "longitude": 78.8242,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0064",
+    "name": "Venkateswara Tyre Clinic",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, New Bus Stand Market Area Ground, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3848,
+    "longitude": 78.8155,
+    "phone": "+91 94438 99234",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0065",
+    "name": "Bismillah Highway Quick Fix",
+    "district": "Pudukkottai",
+    "city": "Kiranur",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Pudukkottai Highway, Near Toll Plaza Cross, Kiranur, Pudukkottai, Tamil Nadu 622502",
+    "latitude": 10.5755,
+    "longitude": 78.7898,
+    "phone": "+91 97895 33446",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Assistance",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0066",
+    "name": "Meera Tube & Tyre Corner",
+    "district": "Pudukkottai",
+    "city": "Karambakudi",
+    "state": "Tamil Nadu",
+    "address": "Pudukkottai Main Road, near Post Office Junction, Karambakudi, Pudukkottai, Tamil Nadu 622302",
+    "latitude": 10.4641,
+    "longitude": 79.1228,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0067",
+    "name": "Thirumayam Bypass Repair Station",
+    "district": "Pudukkottai",
+    "city": "Thirumayam",
+    "state": "Tamil Nadu",
+    "address": "Karaikudi Highway Road, Thirumayam Bypass Crossing, Pudukkottai, Tamil Nadu 622507",
+    "latitude": 10.247,
+    "longitude": 78.7524,
+    "phone": "+91 91590 88732",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Stepney Change",
+      "Nitrogen Air filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0068",
+    "name": "Sri Amman Tyre Point & Service",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Highway Road, Near Government Hospital Crossing, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3931,
+    "longitude": 78.8301,
+    "phone": "+91 94863 66742",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0069",
+    "name": "National Aligners & Tyre Works",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Kalyanaramapuram Temple Ground, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3924,
+    "longitude": 78.8294,
+    "phone": "Not Available",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0070",
+    "name": "Gandarvakottai Highway Tyre Care",
     "district": "Pudukkottai",
     "city": "Gandarvakottai",
     "state": "Tamil Nadu",
-    "address": "Tanjore Main Road",
-    "phone": "+91-9566214315",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Highway Road, Near Gandarvakottai Junction Area, Pudukkottai, Tamil Nadu 613301",
+    "latitude": 10.5633,
+    "longitude": 78.9524,
+    "phone": "+91 94423 44689",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0061",
-    "name": "Galaxy Honda Sub-Branch",
+    "id": "PUN_PUDUKKOTTAI_0071",
+    "name": "Illuppur Highway Emergency Center",
+    "district": "Pudukkottai",
+    "city": "Illuppur",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Pudukkottai Highway, Near Toll Gate Cross Road, Pudukkottai, Tamil Nadu 622102",
+    "latitude": 10.5136,
+    "longitude": 78.6355,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Fit"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0072",
+    "name": "Senthil Puncture Work Shop",
     "district": "Pudukkottai",
     "city": "Alangudi",
     "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road Area",
-    "phone": "+91-9442871115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Karambakudi Main Road, Alangudi Market Junction, Pudukkottai, Tamil Nadu 622301",
+    "latitude": 10.3654,
+    "longitude": 78.9821,
+    "phone": "+91 96554 66045",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0062",
-    "name": "Bala Motors (Multi-Brand)",
+    "id": "PUN_PUDUKKOTTAI_0073",
+    "name": "Star Tyre Quick Patch Corner",
     "district": "Pudukkottai",
-    "city": "Aranthangi",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "No. 14, Pattukkottai Road",
-    "phone": "+91-9443652115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Marhandam Road, Near Old Bus Stand Complex, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3798,
+    "longitude": 78.8221,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0063",
-    "name": "Sri Lakshmi Honda Point",
+    "id": "PUN_PUDUKKOTTAI_0074",
+    "name": "Kannan Multi Brand Tyre Station",
     "district": "Pudukkottai",
-    "city": "Gandarvakottai",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Pudukkottai Salai Area",
-    "phone": "+91-9944321015",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy Road, Opposite Government Hospital Main Gate, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3826,
+    "longitude": 78.8128,
+    "phone": "+91 99424 77665",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tyre Changing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0064",
-    "name": "Raja Krishna Suzuki Network",
+    "id": "PUN_PUDUKKOTTAI_0075",
+    "name": "Rayan Quick Puncture Repair",
     "district": "Pudukkottai",
-    "city": "Pudukkottai",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Machuvadi",
-    "phone": "+91-4322221451",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Nizam Colony Main Road Crossing Lane, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3721,
+    "longitude": 78.8104,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0065",
-    "name": "Sakthi Tractors (John Deere Agency)",
+    "id": "PUN_PUDUKKOTTAI_0076",
+    "name": "Annavasal Main Road Tyres",
     "district": "Pudukkottai",
-    "city": "Pudukkottai",
+    "city": "Annavasal",
     "state": "Tamil Nadu",
-    "address": "Tanjore Bypass Highway Road",
-    "phone": "+91-4322220455",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Near Bus Stand High Road Junction, Annavasal, Pudukkottai, Tamil Nadu 622101",
+    "latitude": 10.4591,
+    "longitude": 78.6951,
+    "phone": "+91 96554 22345",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0066",
-    "name": "Siva Agencies (Hero Sub-Dealer)",
+    "id": "PUN_PUDUKKOTTAI_0077",
+    "name": "Ponnamaravathi Main Road Tyre Corner",
     "district": "Pudukkottai",
-    "city": "Karambakudi",
+    "city": "Ponnamaravathi",
     "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road Area",
-    "phone": "+91-9442167815",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622302",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Main High Road, Near Town Panchayat Office Area, Ponnamaravathi, Pudukkottai, Tamil Nadu 622407",
+    "latitude": 10.2324,
+    "longitude": 78.5294,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0067",
-    "name": "Sri Vinayaga Bajaj Point",
+    "id": "PUN_PUDUKKOTTAI_0078",
+    "name": "Viralimalai Market Complex Tyre Care",
     "district": "Pudukkottai",
-    "city": "Gandarvakottai",
+    "city": "Viralimalai",
     "state": "Tamil Nadu",
-    "address": "Tanjore Road",
-    "phone": "+91-9786431216",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy-Madurai Highway, Viralimalai Bazaar Trade Complex, Pudukkottai, Tamil Nadu 621316",
+    "latitude": 10.5991,
+    "longitude": 78.5421,
+    "phone": "+91 94874 33456",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0068",
-    "name": "Pioneer E-Bikes",
+    "id": "PUN_PUDUKKOTTAI_0079",
+    "name": "Kamarajar Salai Road Tyre Point",
     "district": "Pudukkottai",
-    "city": "Pudukkottai",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Machuvadi Corner",
-    "phone": "+91-8870123415",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kamarajar Salai, Near Head Post Office Cross Lane, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3898,
+    "longitude": 78.8248,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0069",
-    "name": "Karthik Motors TVS Point",
+    "id": "PUN_PUDUKKOTTAI_0080",
+    "name": "Venkateswara Tyre Point",
     "district": "Pudukkottai",
-    "city": "Karambakudi",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Alangudi Road Area",
-    "phone": "+91-4322220365",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622302",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy Main Road, New Bus Stand Market Complex, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3854,
+    "longitude": 78.8161,
+    "phone": "+91 94436 11335",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0070",
-    "name": "Sri Durga Auto Agencies",
+    "id": "PUN_PUDUKKOTTAI_0081",
+    "name": "Bismillah Highway Quick Care",
     "district": "Pudukkottai",
-    "city": "Aranthangi",
+    "city": "Kiranur",
     "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Junction",
-    "phone": "+91-9159023415",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy-Pudukkottai Highway, Near Toll Plaza Service Lane, Kiranur, Pudukkottai, Tamil Nadu 622502",
+    "latitude": 10.5761,
+    "longitude": 78.7901,
+    "phone": "+91 97895 44557",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Assistance",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0071",
-    "name": "Smart E-Vehicles",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road Area",
-    "phone": "+91-9788123415",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0072",
-    "name": "Venkateswara Honda Sub-Agency",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Area",
-    "phone": "+91-9944876515",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0073",
-    "name": "Kaveri Commercial Vehicles (Tata Sub-Dealer)",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Machuvadi",
-    "phone": "+91-4322225434",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0074",
-    "name": "Gemini Auto Network",
-    "district": "Pudukkottai",
-    "city": "Karambakudi",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai Road Crossing Area",
-    "phone": "+91-9443219815",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622302",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0075",
-    "name": "Ram Suzuki Agency",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Area",
-    "phone": "+91-9791432115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0076",
-    "name": "National Yamaha Point",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road Area",
-    "phone": "+91-4322220421",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0077",
-    "name": "Sri Sai E-Bikes",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "East Main Street, Opp Town Library Area",
-    "phone": "+91-9043112215",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0078",
-    "name": "Jayam Multi-Brand Two Wheelers",
+    "id": "PUN_PUDUKKOTTAI_0082",
+    "name": "Meera Tyre Fixing Corner",
     "district": "Pudukkottai",
     "city": "Karambakudi",
     "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road Area",
-    "phone": "+91-9944512315",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622302",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Pudukkottai Main Road, Opposite Post Office Complex, Karambakudi, Pudukkottai, Tamil Nadu 622302",
+    "latitude": 10.4647,
+    "longitude": 79.1234,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0079",
-    "name": "Rajarajan Motors (Hero Sub-Dealer)",
+    "id": "PUN_PUDUKKOTTAI_0083",
+    "name": "Thirumayam Bypass Emergency Center",
     "district": "Pudukkottai",
-    "city": "Aranthangi",
+    "city": "Thirumayam",
     "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Area",
-    "phone": "+91-9443210415",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Karaikudi Highway Road, Thirumayam Toll Plaza Access Line, Pudukkottai, Tamil Nadu 622507",
+    "latitude": 10.2476,
+    "longitude": 78.753,
+    "phone": "+91 91590 99843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Stepney Change",
+      "Nitrogen Air filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0080",
-    "name": "Vetrivel Honda Point",
+    "id": "PUN_PUDUKKOTTAI_0084",
+    "name": "Sri Amman Tyre Solutions",
     "district": "Pudukkottai",
-    "city": "Aranthangi",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road, Near Kamarajar Statue",
-    "phone": "+91-4322251315",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Highway Road, Near Government Hospital Area Complex, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3937,
+    "longitude": 78.8307,
+    "phone": "+91 94863 77853",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0081",
-    "name": "Nisha Tractors & Commercials",
+    "id": "PUN_PUDUKKOTTAI_0085",
+    "name": "National Alignment & Rubber Works",
     "district": "Pudukkottai",
-    "city": "Pudukkottai",
+    "city": "Pudukkottai Town",
     "state": "Tamil Nadu",
-    "address": "Trichy Bypass Road, Near Railway Overbridge Area",
-    "phone": "+91-9842456118",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Main Road, Near Kalyanaramapuram Temple Crossing, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.393,
+    "longitude": 78.83,
+    "phone": "Not Available",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0082",
-    "name": "V.P.M Motors (TVS Point)",
-    "district": "Pudukkottai",
-    "city": "Karambakudi",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road, Near Bus Stand",
-    "phone": "+91-9786541215",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622302",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0083",
-    "name": "Sree Vinayagar E-Bikes",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "No. 45, East Main Street Area",
-    "phone": "+91-9080706015",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0084",
-    "name": "Balaji Yamaha Sub-Dealer",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Road, Near LIC Office Corner Area",
-    "phone": "+91-9942481015",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0085",
-    "name": "Murugan Auto Consult & Bikes",
+    "id": "PUN_PUDUKKOTTAI_0086",
+    "name": "Gandarvakottai Town Tyre Point",
     "district": "Pudukkottai",
     "city": "Gandarvakottai",
     "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road Crossing",
-    "phone": "+91-9442152315",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Highway Road, Near Gandarvakottai Circle Space, Gandarvakottai, Pudukkottai, Tamil Nadu 613301",
+    "latitude": 10.5639,
+    "longitude": 78.953,
+    "phone": "+91 94423 55801",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0086",
-    "name": "Kallakurichi Auto Agencies (Mahindra Tractors)",
+    "id": "PUN_PUDUKKOTTAI_0087",
+    "name": "Illuppur Highway Quick Rescue",
     "district": "Pudukkottai",
-    "city": "Pudukkottai",
+    "city": "Illuppur",
     "state": "Tamil Nadu",
-    "address": "Tanjore Main Road, Near Sipcot Area",
-    "phone": "+91-4322247715",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622002",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy-Pudukkottai Highway, Near Toll Road Connection Area, Pudukkottai, Tamil Nadu 622102",
+    "latitude": 10.5142,
+    "longitude": 78.6361,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Fit"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_PUDUKKOTTAI_0087",
-    "name": "Sri Sakthi Motors (Multi-Brand Point)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Area",
-    "phone": "+91-9159041215",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0088",
-    "name": "Thangam Suzuki Point",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai Salai Area",
-    "phone": "+91-9488056215",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0089",
-    "name": "Annamalai Motors (Hero Authorised Point)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Area",
-    "phone": "+91-9965541015",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0090",
-    "name": "Malar E-Bikes Sub-Branch",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "No. 120, Pattukkottai Road",
-    "phone": "+91-9788645115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0091",
-    "name": "Aranthangi Honda Sub-Dealer",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Highway Road Area",
-    "phone": "+91-4322250515",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0092",
-    "name": "Senthil Auto Electric Vehicles",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "Tanjore Main Road, Near Sipcot NH Bypass Corner",
-    "phone": "+91-8903456715",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622002",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0093",
-    "name": "Sri Kumaran Motors (TVS Point)",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai Road, Near Bus Stand Area",
-    "phone": "+91-9443811515",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0094",
-    "name": "Rasi Motors (Multi-Brand Point Area)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Junction",
-    "phone": "+91-9566712315",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0095",
-    "name": "Susee Bajaj Network Point Area",
-    "district": "Pudukkottai",
-    "city": "Pudukkottai",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Near Machuvadi Ground Area",
-    "phone": "+91-4322220515",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0096",
-    "name": "Sri Balaji Motors (Multi-Brand Point)",
-    "district": "Pudukkottai",
-    "city": "Karambakudi",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road Area",
-    "phone": "+91-9843615415",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "622302",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0097",
-    "name": "Vignesh Motors (TVS Point)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai High Road, Near Market Area",
-    "phone": "+91-9442516315",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0098",
-    "name": "Sree Ram Bajaj Agency Area",
-    "district": "Pudukkottai",
-    "city": "Gandarvakottai",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road Junction",
-    "phone": "+91-9865043115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0099",
-    "name": "Saran Hyundai (Aranthangi Area)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road, Near Bypass",
-    "phone": "+91-4322233115",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0013",
-    "name": "Pillai & Sons Tata Motors (Aranthangi Point)",
-    "district": "Pudukkottai",
-    "city": "Aranthangi",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road, Near New Bus Stand Area Line",
-    "phone": "+91-4322224315",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614616",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_PUDUKKOTTAI_0101",
-    "name": "Kailash Mahindra Showroom (Alangudi Point)",
+    "id": "PUN_PUDUKKOTTAI_0088",
+    "name": "Senthil Puncture Point",
     "district": "Pudukkottai",
     "city": "Alangudi",
     "state": "Tamil Nadu",
-    "address": "Pudukkottai Main Road Area Zone",
-    "phone": "+91-4322232615",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "622301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Karambakudi Main Road, Alangudi Bazaar Cross Road, Pudukkottai, Tamil Nadu 622301",
+    "latitude": 10.366,
+    "longitude": 78.9827,
+    "phone": "+91 96554 77156",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0089",
+    "name": "Star Tyre Patch Clinic",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Marhandam Road, Near Old Bus Stand Trading Area, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3804,
+    "longitude": 78.8227,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0090",
+    "name": "Kannan Multi Brand Wheel Alignment",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Road, Opposite Government Hospital Entrance Gate, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3832,
+    "longitude": 78.8134,
+    "phone": "+91 99424 88776",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tyre Changing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0091",
+    "name": "Rayan Quick Tyre Solution",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Nizam Colony Main Road Crossing point, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3727,
+    "longitude": 78.811,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0092",
+    "name": "Annavasal Main Road Quick Patch",
+    "district": "Pudukkottai",
+    "city": "Annavasal",
+    "state": "Tamil Nadu",
+    "address": "Near Bus Stand High Road Corner Point, Annavasal, Pudukkottai, Tamil Nadu 622101",
+    "latitude": 10.4597,
+    "longitude": 78.6957,
+    "phone": "+91 96554 33456",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0093",
+    "name": "Ponnamaravathi Main Road Quick Patch",
+    "district": "Pudukkottai",
+    "city": "Ponnamaravathi",
+    "state": "Tamil Nadu",
+    "address": "Main High Road, Near Town Panchayat Cross Road, Ponnamaravathi, Pudukkottai, Tamil Nadu 622407",
+    "latitude": 10.233,
+    "longitude": 78.53,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0094",
+    "name": "Viralimalai Market Area Tyre Care",
+    "district": "Pudukkottai",
+    "city": "Viralimalai",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Madurai Highway Road Corner Area, Viralimalai, Pudukkottai, Tamil Nadu 621316",
+    "latitude": 10.5997,
+    "longitude": 78.5427,
+    "phone": "+91 94874 44567",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0095",
+    "name": "Kamarajar Salai Road Quick Repair",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Kamarajar Salai, Near Head Post Office Cross Way, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3904,
+    "longitude": 78.8254,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0096",
+    "name": "Venkateswara Tyre Solutions",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, New Bus Stand Main Complex Space, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.386,
+    "longitude": 78.8167,
+    "phone": "+91 94436 22556",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0097",
+    "name": "Bismillah Highway Quick Fix Point",
+    "district": "Pudukkottai",
+    "city": "Kiranur",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Pudukkottai Highway, Near Toll Plaza Service Ring Road, Kiranur, Pudukkottai, Tamil Nadu 622502",
+    "latitude": 10.5767,
+    "longitude": 78.7907,
+    "phone": "+91 97895 55669",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Assistance",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0098",
+    "name": "Meera Tyre & Tube Center",
+    "district": "Pudukkottai",
+    "city": "Karambakudi",
+    "state": "Tamil Nadu",
+    "address": "Pudukkottai Main High Street, Opposite Post Office Complex, Karambakudi, Pudukkottai, Tamil Nadu 622302",
+    "latitude": 10.4653,
+    "longitude": 79.124,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0099",
+    "name": "Thirumayam Bypass Quick Rescue",
+    "district": "Pudukkottai",
+    "city": "Thirumayam",
+    "state": "Tamil Nadu",
+    "address": "Karaikudi Highway Road, Thirumayam Toll Gate Cross Lane, Pudukkottai, Tamil Nadu 622507",
+    "latitude": 10.2482,
+    "longitude": 78.7536,
+    "phone": "+91 91590 00954",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Stepney Change",
+      "Nitrogen Air filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0100",
+    "name": "Sri Amman Tyre Patch Solutions",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Highway Road, Near Government Hospital Crossing, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3943,
+    "longitude": 78.8313,
+    "phone": "+91 94863 88964",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0101",
+    "name": "National Alignment & Tire Fixing",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur High Road, Near Kalyanaramapuram Temple Area, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3936,
+    "longitude": 78.8306,
+    "phone": "Not Available",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0102",
+    "name": "Gandarvakottai Town Tyre Solutions",
+    "district": "Pudukkottai",
+    "city": "Gandarvakottai",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Highway, Gandarvakottai Circle Ground, Pudukkottai, Tamil Nadu 613301",
+    "latitude": 10.5645,
+    "longitude": 78.9536,
+    "phone": "+91 94423 66901",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0103",
+    "name": "Illuppur Highway Multi Rescue",
+    "district": "Pudukkottai",
+    "city": "Illuppur",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Pudukkottai Main Road, Opposite Toll Plaza High Access, Pudukkottai, Tamil Nadu 622102",
+    "latitude": 10.5148,
+    "longitude": 78.6367,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Fit"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0104",
+    "name": "Senthil Puncture Work Point",
+    "district": "Pudukkottai",
+    "city": "Alangudi",
+    "state": "Tamil Nadu",
+    "address": "Karambakudi High Road, Alangudi Bazaar Main Junction, Pudukkottai, Tamil Nadu 622301",
+    "latitude": 10.3666,
+    "longitude": 78.9833,
+    "phone": "+91 96554 88267",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0105",
+    "name": "Star Tyre Quick Repair Corner",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Marhandam Road, Near Old Bus Stand Parking Area, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.381,
+    "longitude": 78.8233,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0106",
+    "name": "Kannan Multi Brand Wheel Solutions",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Road, Opposite Government Hospital Main Complex, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3838,
+    "longitude": 78.814,
+    "phone": "+91 99424 99887",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tyre Changing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0107",
+    "name": "Rayan Quick Tire Tech",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Nizam Colony Main Road Crossing, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3733,
+    "longitude": 78.8116,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0108",
+    "name": "Annavasal Temple Cross Tyre Point",
+    "district": "Pudukkottai",
+    "city": "Annavasal",
+    "state": "Tamil Nadu",
+    "address": "Near Bus Stand High Road Cross, Annavasal, Pudukkottai, Tamil Nadu 622101",
+    "latitude": 10.4603,
+    "longitude": 78.6963,
+    "phone": "+91 96554 44567",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0109",
+    "name": "Ponnamaravathi Main Road Quick Repair Point",
+    "district": "Pudukkottai",
+    "city": "Ponnamaravathi",
+    "state": "Tamil Nadu",
+    "address": "Main High Road, Near Town Panchayat Trading Complex, Ponnamaravathi, Pudukkottai, Tamil Nadu 622407",
+    "latitude": 10.2336,
+    "longitude": 78.5306,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0110",
+    "name": "Viralimalai Market Area Tyre Corner",
+    "district": "Pudukkottai",
+    "city": "Viralimalai",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Madurai Highway Road Area Trade Complex, Viralimalai, Pudukkottai, Tamil Nadu 621316",
+    "latitude": 10.6003,
+    "longitude": 78.5433,
+    "phone": "+91 94874 55675",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0111",
+    "name": "Kamarajar Salai Road Quick Repair Point",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Kamarajar Salai, Near Head Post Office Crossing Lane, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.391,
+    "longitude": 78.826,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_PUDUKKOTTAI_0112",
+    "name": "Venkateswara Tyre Patch Clinic",
+    "district": "Pudukkottai",
+    "city": "Pudukkottai Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, New Bus Stand Wholesale Area, Pudukkottai, Tamil Nadu 622001",
+    "latitude": 10.3866,
+    "longitude": 78.8173,
+    "phone": "+91 94436 22667",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   }
 ]

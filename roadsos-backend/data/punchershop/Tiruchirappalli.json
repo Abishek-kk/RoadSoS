@@ -1,968 +1,2571 @@
 [
   {
-    "id": "SR_TRY0001",
-    "name": "Maruti Suzuki Arena - Ramani Cars (Trichy Central)",
-    "address": "No 45, West Boulevard Road, Singarathope, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0002",
-    "name": "Maruti Suzuki Nexa - Ramani Cars (Thanjavur Road Line)",
-    "address": "No 84, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0003",
-    "name": "Maruti Suzuki Arena - Ramani Cars (Manapparai)",
-    "address": "No 112, Dindigul Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0004",
-    "name": "Maruti Suzuki Arena - Ramani Cars (Thuraiyur)",
-    "address": "No 56, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0005",
-    "name": "Hyundai - Kun Hyundai (Trichy Bypass)",
-    "address": "SF No 142, Chennai-Trichy National Highway, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0006",
-    "name": "Hyundai - Kun Hyundai (Cantonment Town Shop)",
-    "address": "No 45, Collectors Office Road, Cantonment, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0007",
-    "name": "Tata Motors - VST Titanium Motors (Trichy Main)",
-    "address": "No 18, Dindigul Bypass Road, Karumandapam, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0009",
-    "name": "Mahindra - CAI Industries (Trichy Connect)",
-    "address": "No 33, Pudukkottai Main Road, Airport Area, Tiruchirappalli, Tamil Nadu 620007",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0010",
-    "name": "Toyota - Sharayu Toyota (Trichy Bypass)",
-    "address": "No 105, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0011",
-    "name": "Honda Cars - Annamalai Honda (Trichy)",
-    "address": "No 76, Dindigul Main Road, Karumandapam, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0012",
-    "name": "Kia - Instyle Kia (Trichy Highway Base)",
-    "address": "SF No 98, Madurai National Highway, Panjapur, Tiruchirappalli, Tamil Nadu 620012",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0013",
-    "name": "Hero - Trichy Auto Agencies (Singarathope)",
-    "address": "No 12, West Boulevard Road, Singarathope, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0014",
-    "name": "Hero - Sree Trichy Motors (Manapparai)",
-    "address": "No 85, Dindigul Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0015",
-    "name": "Hero - Kaveri Agencies (Thuraiyur)",
-    "address": "No 42, Perambalur Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0018",
-    "name": "Honda - Rockfort Honda (Trichy)",
-    "address": "No 110, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0019",
-    "name": "Honda - Sree Honda (Manapparai)",
-    "address": "No 64, Kovilpatti Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0020",
-    "name": "Honda - Thuraiyur Honda",
-    "address": "No 23, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0021",
-    "name": "Honda - Musiri Honda",
-    "address": "No 78, Thuraiyur Road, Musiri, Tiruchirappalli, Tamil Nadu 621211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0022",
-    "name": "Honda - Lalgudi Honda",
-    "address": "No 105, Anbil Road, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0023",
-    "name": "TVS - GT Auto Agencies (Trichy Central)",
-    "address": "No 92, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0024",
-    "name": "TVS - VRM Motors (Manapparai)",
-    "address": "No 48, Dindigul Main Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0027",
-    "name": "TVS - Lalgudi Motors",
-    "address": "No 81, Trichy Road, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0028",
-    "name": "Bajaj - Sree Jayanathan Bajaj (Trichy)",
-    "address": "No 54, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0029",
-    "name": "Bajaj - Shanmugananda Motors (Manapparai)",
-    "address": "No 119, Dindigul Highway Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0032",
-    "name": "Yamaha - Rockfort Motors (Trichy)",
-    "address": "No 89, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0033",
-    "name": "Yamaha - Sree Saravana Motors (Manapparai)",
-    "address": "No 45, Dindigul Main Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0035",
-    "name": "Royal Enfield - Rockfort Bullet Zone (Trichy)",
-    "address": "No 115, Dindigul Bypass Road, Karumandapam, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0036",
-    "name": "Royal Enfield - Manapparai Bullet Hub",
-    "address": "No 36, Dindigul Highway Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0038",
-    "name": "Suzuki - Karpagam Suzuki (Trichy)",
-    "address": "No 132, West Boulevard Road, Singarathope, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0039",
-    "name": "Suzuki - Meenakshi Suzuki (Manapparai)",
-    "address": "No 44, Dindigul Main Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0041",
-    "name": "Ola Electric - Trichy Experience Centre",
-    "address": "No 139, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0042",
-    "name": "Ather Energy - Ather Space Trichy",
-    "address": "No 162, West Boulevard Road, Singarathope, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0043",
-    "name": "Ola Electric - Manapparai Hub",
-    "address": "No 94, Dindigul Highway Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0044",
-    "name": "KTM & Chetak - Trichy KTM Store",
-    "address": "No 53, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0046",
-    "name": "Honda - Thiruverumbur Honda",
-    "address": "No 62, BHEL Feeder Road, Thiruverumbur, Tiruchirappalli, Tamil Nadu 620013",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0049",
-    "name": "Honda - Kattuputhur Honda",
-    "address": "No 68, Namakkal Road, Kattuputhur, Tiruchirappalli, Tamil Nadu 621207",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0050",
-    "name": "TVS - Kattuputhur Motors",
-    "address": "No 104, Main Road, Kattuputhur, Tiruchirappalli, Tamil Nadu 621207",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0054",
-    "name": "Honda - Pullambadi Honda",
-    "address": "No 68, Trichy Road, Pullambadi, Tiruchirappalli, Tamil Nadu 621711",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0057",
-    "name": "Honda - Jeeyapuram Honda",
-    "address": "No 54, Salem Highway Road, Jeeyapuram, Tiruchirappalli, Tamil Nadu 620101",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0060",
-    "name": "Honda - Navalurkottapattu Honda",
-    "address": "No 76, Madurai Highway Road, Navalurkottapattu, Tiruchirappalli, Tamil Nadu 620009",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0062",
-    "name": "Honda - Srirangam Honda",
-    "address": "No 64, Main Highway, Srirangam, Tiruchirappalli, Tamil Nadu 620006",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0065",
-    "name": "Ampere EV - Trichy Eco Wheels",
-    "address": "No 152, West Boulevard Road, Near Old Bus Stand, Trichy City, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0066",
-    "name": "Hero Electric - Green Bikes Trichy",
-    "address": "No 83, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0067",
-    "name": "Kinetic Green - Manapparai E-Mobility",
-    "address": "No 214, Dindigul Main Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0068",
-    "name": "Quantum Energy - EV Trichy",
-    "address": "No 45, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0069",
-    "name": "Joy E-Bike - Trichy PlugIn Store",
-    "address": "No 92, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0070",
-    "name": "Pure EV - Trichy Electric Future",
-    "address": "No 112, Thanjavur Main Road, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0071",
-    "name": "BNC Motors - Manapparai EV Hub",
-    "address": "No 18, Dindigul Highway Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0072",
-    "name": "Greaves Cotton - Ampere EV Thuraiyur",
-    "address": "No 94, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0073",
-    "name": "TVS iQube - Ramani Motors Trichy Main",
-    "address": "No 97, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0074",
-    "name": "Ola Electric - Manapparai Partner Zone",
-    "address": "No 48, Dindigul Highway Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0075",
-    "name": "Lectrix EV - Trichy Green Mobility",
-    "address": "No 310, Thanjavur Road, Near Bus Stand, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0076",
-    "name": "Maruti Suzuki Commercial - Ramani Cars (Trichy)",
-    "address": "No 48, West Boulevard Road, Near Old Bus Stand, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0077",
-    "name": "Tata Motors Commercial - VST Titanium (Trichy)",
-    "address": "SF No 115, Dindigul Bypass Road, Karumandapam, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0078",
-    "name": "Mahindra Commercial - CAI Industries Trichy",
-    "address": "No 7, Pudukkottai Main Road, Airport Area, Tiruchirappalli, Tamil Nadu 620007",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0079",
-    "name": "Ashok Leyland Light Commercial - Trichy Bypass",
-    "address": "No 140, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0081",
-    "name": "Benelli - Trichy Premium Connect",
-    "address": "No 88, Collectors Office Road, Cantonment, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0083",
-    "name": "Husqvarna - Trichy Motorcycles",
-    "address": "No 115, West Boulevard Road, Singarathope, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0087",
-    "name": "Bajaj - Thuraiyur Highway Store",
-    "address": "No 95, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0088",
-    "name": "Yamaha - Thuraiyur Connect",
-    "address": "No 43, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0093",
-    "name": "Honda - Musiri Thuraiyur Road Zone",
-    "address": "No 62, Thuraiyur Road, Musiri, Tiruchirappalli, Tamil Nadu 621211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0094",
-    "name": "TVS - Musiri Main Road Connect",
-    "address": "No 94, Trichy Main Road, Musiri, Tiruchirappalli, Tamil Nadu 621211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0097",
-    "name": "TVS - Lalgudi Old Bus Stand Connect",
-    "address": "No 122, Trichy Road, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0098",
-    "name": "Hero - Trichy City Old Bus Stand Store",
-    "address": "No 15, West Boulevard Road, Near Old Bus Stand, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0099",
-    "name": "Honda - Trichy Varaganeri Road Store",
-    "address": "No 54, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0101",
-    "name": "Hero - Thiruverumbur BHEL Line Store",
-    "address": "No 36, BHEL Feeder Road, Thiruverumbur, Tiruchirappalli, Tamil Nadu 620013",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0103",
-    "name": "TVS - Thiruverumbur Town Junction Store",
-    "address": "No 114, National Highway Feeder, Thiruverumbur, Tiruchirappalli, Tamil Nadu 620013",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0104",
-    "name": "Hero - Kattuputhur Namakkal Highway Connect",
-    "address": "No 24, Namakkal Road, Kattuputhur, Tiruchirappalli, Tamil Nadu 621207",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0107",
-    "name": "Hero - Pullambadi Lalgudi Line Shop",
-    "address": "No 48, Lalgudi Main Road, Pullambadi, Tiruchirappalli, Tamil Nadu 621711",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0108",
-    "name": "Honda - Pullambadi Highway Hub",
-    "address": "No 89, Trichy Road, Pullambadi, Tiruchirappalli, Tamil Nadu 621711",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0109",
-    "name": "Hero - Jeeyapuram Salem Main Road Shop",
-    "address": "No 77, Salem Highway Road, Jeeyapuram, Tiruchirappalli, Tamil Nadu 620101",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0110",
-    "name": "Hero - Uppiliapuram Thuraiyur Line Shop",
-    "address": "No 56, Thuraiyur Main Road, Uppiliapuram, Tiruchirappalli, Tamil Nadu 621011",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0111",
-    "name": "Hero - Navalurkottapattu Highway Line Shop",
-    "address": "No 42, Dindigul Main Road, Navalurkottapattu, Tiruchirappalli, Tamil Nadu 620009",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0112",
-    "name": "Ampere EV - Trichy Thanjavur Road Hub",
-    "address": "No 114, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0113",
-    "name": "Hero Electric - Trichy Chennai Highway Hub",
-    "address": "No 63, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0114",
-    "name": "Kinetic Green - Manapparai Dindigul Road",
-    "address": "No 192, Dindigul Main Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0115",
-    "name": "Quantum Energy - Trichy Town Bypass Center",
-    "address": "No 28, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0117",
-    "name": "Pure EV - Trichy Town Bypass Corner",
-    "address": "No 124, Thanjavur Main Road, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0118",
-    "name": "BNC Motors - Manapparai Town Block",
-    "address": "No 42, Dindigul Highway Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0119",
-    "name": "Greaves Cotton - Ampere EV Thuraiyur Line",
-    "address": "No 68, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0120",
-    "name": "TVS iQube - Ramani Motors Trichy Hub",
-    "address": "No 53, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0121",
-    "name": "Ola Electric - Manapparai Highway Hub",
-    "address": "No 25, Dindigul Highway Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0122",
-    "name": "Lectrix EV - Trichy Old Bus Stand Block",
-    "address": "No 220, Thanjavur Road, Near Bus Stand, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0123",
-    "name": "Maruti Suzuki Commercial - Ramani Cars Center",
-    "address": "No 54, West Boulevard Road, Near Old Bus Stand, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0124",
-    "name": "Tata Motors Commercial - VST Titanium Highway Center",
-    "address": "SF No 125, Dindigul Bypass Road, Karumandapam, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0125",
-    "name": "Mahindra Commercial - CAI Industries Line",
-    "address": "No 34, Pudukkottai Main Road, Airport Area, Tiruchirappalli, Tamil Nadu 620007",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0126",
-    "name": "Ashok Leyland Light Commercial - Trichy Center",
-    "address": "No 122, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0127",
-    "name": "Force Motors - Trichy Main Road Spot",
-    "address": "No 180, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0128",
-    "name": "Maruti Suzuki Nexa - Ramani Cars Varaganeri Road",
-    "address": "No 210, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0129",
-    "name": "Benelli - Trichy Thanjavur Road Spot",
-    "address": "No 142, Collectors Office Road, Cantonment, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0130",
-    "name": "Triumph - Trichy West Boulevard Bypass Store",
-    "address": "No 198, West Boulevard Road, Singarathope, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0131",
-    "name": "Husqvarna - Trichy Chennai Highway Store",
-    "address": "No 145, West Boulevard Road, Singarathope, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0134",
-    "name": "TVS - Manapparai Dindigul Road Junction",
-    "address": "No 148, Dindigul Main Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0135",
-    "name": "Bajaj - Thuraiyur Highway Main Store",
-    "address": "No 135, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0136",
-    "name": "Yamaha - Thuraiyur Main Road Street",
-    "address": "No 73, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0139",
-    "name": "TVS - Thuraiyur Bypass Junction",
-    "address": "No 144, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0140",
-    "name": "Hero - Musiri Bus Stand Corner Shop",
-    "address": "No 38, Trichy Main Road, Near Bus Stand, Musiri, Tiruchirappalli, Tamil Nadu 621211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0141",
-    "name": "Honda - Musiri Thuraiyur Highway Hub",
-    "address": "No 92, Thuraiyur Road, Musiri, Tiruchirappalli, Tamil Nadu 621211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0142",
-    "name": "TVS - Musiri Trichy Highway Line",
-    "address": "No 124, Trichy Main Road, Musiri, Tiruchirappalli, Tamil Nadu 621211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0143",
-    "name": "Hero - Lalgudi Trichy Line Shop",
-    "address": "No 72, Trichy Main Road, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0145",
-    "name": "TVS - Lalgudi Trichy Road Hub",
-    "address": "No 152, Trichy Road, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0147",
-    "name": "Honda - Trichy Thanjavur Line Store",
-    "address": "No 84, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0148",
-    "name": "TVS - Trichy Thanjavur Highway Line",
-    "address": "No 63, Thanjavur Road, Near Bus Stand, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0149",
-    "name": "Hero - Thiruverumbur BHEL Main Store",
-    "address": "No 56, BHEL Feeder Road, Thiruverumbur, Tiruchirappalli, Tamil Nadu 620013",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0151",
-    "name": "TVS - Thiruverumbur National Highway Line",
-    "address": "No 144, National Highway Feeder, Thiruverumbur, Tiruchirappalli, Tamil Nadu 620013",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0152",
-    "name": "Hero - Kattuputhur Namakkal Highway Line",
-    "address": "No 74, Namakkal Road, Kattuputhur, Tiruchirappalli, Tamil Nadu 621207",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0154",
-    "name": "TVS - Kattuputhur Namakkal Highway Hub",
-    "address": "No 168, Namakkal Road, Kattuputhur, Tiruchirappalli, Tamil Nadu 621207",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0155",
-    "name": "Hero - Pullambadi Highway Corner Shop",
-    "address": "No 66, Lalgudi Main Road, Pullambadi, Tiruchirappalli, Tamil Nadu 621711",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0156",
-    "name": "Honda - Pullambadi Trichy Highway Hub",
-    "address": "No 115, Trichy Road, Pullambadi, Tiruchirappalli, Tamil Nadu 621711",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0157",
-    "name": "Hero - Jeeyapuram Main Highway Corner",
-    "address": "No 98, Karur Main Road, Jeeyapuram, Tiruchirappalli, Tamil Nadu 620101",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0158",
-    "name": "Hero - Uppiliapuram Thuraiyur Line Shop",
-    "address": "No 72, Thuraiyur Main Road, Uppiliapuram, Tiruchirappalli, Tamil Nadu 621011",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0159",
-    "name": "Hero - Navalurkottapattu Trichy Line Shop",
-    "address": "No 68, Dindigul Main Road, Navalurkottapattu, Tiruchirappalli, Tamil Nadu 620009",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0160",
-    "name": "Ampere EV - Trichy Thanjavur Retail Hub",
-    "address": "No 144, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0161",
-    "name": "Hero Electric - Trichy City Retail Hub",
-    "address": "No 93, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0162",
-    "name": "Kinetic Green - Manapparai Dindigul Road Outlet",
-    "address": "No 222, Dindigul Main Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0163",
-    "name": "Quantum Energy - Trichy Bypass Center Shop",
-    "address": "No 58, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0164",
-    "name": "Joy E-Bike - Trichy Thanjavur Retail Block",
-    "address": "No 106, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0166",
-    "name": "BNC Motors - Manapparai Retail Block",
-    "address": "No 72, Dindigul Highway Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0167",
-    "name": "Greaves Cotton - Ampere EV Thuraiyur Highway Line",
-    "address": "No 98, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0168",
-    "name": "TVS iQube - Ramani Motors Trichy Main Hub",
-    "address": "No 113, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0169",
-    "name": "Ola Electric - Manapparai Highway Junction Hub",
-    "address": "No 85, Dindigul Highway Road, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0170",
-    "name": "Lectrix EV - Trichy Chennai Highway Block",
-    "address": "No 250, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0171",
-    "name": "Maruti Suzuki Commercial - Ramani Cars Layout Center",
-    "address": "No 84, West Boulevard Road, Near Old Bus Stand, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0172",
-    "name": "Tata Motors Commercial - VST Titanium Highway Main Center",
-    "address": "SF No 155, Dindigul Bypass Road, Karumandapam, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0174",
-    "name": "Ashok Leyland Light Commercial - Trichy Bypass Corner",
-    "address": "No 152, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0175",
-    "name": "Force Motors - Trichy Town Bypass Ring Spot",
-    "address": "No 212, Dindigul Main Road, Karumandapam, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0176",
-    "name": "Maruti Suzuki Nexa - Ramani Cars Thanjavur Bypass",
-    "address": "No 244, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0177",
-    "name": "Benelli - Trichy Cantonment Road Spot",
-    "address": "No 192, Collectors Office Road, Cantonment, Tiruchirappalli, Tamil Nadu 620001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0178",
-    "name": "Triumph - Trichy Singarathope North Bypass Layout",
-    "address": "No 245, West Boulevard Road, Singarathope, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0183",
-    "name": "Bajaj - Thuraiyur Highway Central Layout Store",
-    "address": "No 165, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0184",
-    "name": "Yamaha - Thuraiyur Second Main Street",
-    "address": "No 103, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0187",
-    "name": "TVS - Thuraiyur Highway Feeder Junction",
-    "address": "No 174, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0188",
-    "name": "Hero - Musiri Town Bus Stand Shop",
-    "address": "No 68, Trichy Main Road, Near Bus Stand, Musiri, Tiruchirappalli, Tamil Nadu 621211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0189",
-    "name": "Honda - Musiri Thuraiyur Main Highway Center",
-    "address": "No 122, Thuraiyur Road, Musiri, Tiruchirappalli, Tamil Nadu 621211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0192",
-    "name": "Honda - Lalgudi Church Road Extension",
-    "address": "No 149, Anbil Road, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0193",
-    "name": "TVS - Lalgudi Highway Layout",
-    "address": "No 182, Trichy Road, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0195",
-    "name": "Honda - Trichy Feeder Store",
-    "address": "No 114, Thanjavur Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0196",
-    "name": "TVS - Trichy New Bus Stand Highway Junction",
-    "address": "No 93, Thanjavur Road, Near Bus Stand, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0197",
-    "name": "Hero - Thiruverumbur BHEL Block Store",
-    "address": "No 86, BHEL Feeder Road, Thiruverumbur, Tiruchirappalli, Tamil Nadu 620013",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0200",
-    "name": "Honda - Kattuputhur Trichy Highway Hub Store",
-    "address": "No 142, Trichy Main Road, Kattuputhur, Tiruchirappalli, Tamil Nadu 621207",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0202",
-    "name": "Honda - Thiruverumbur BHEL Feeder Junction Shop",
-    "address": "No 135, BHEL Feeder Road, Thiruverumbur, Tiruchirappalli, Tamil Nadu 620013",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0205",
-    "name": "Honda - Kattuputhur Trichy Line Market Spot",
-    "address": "No 118, Trichy Main Road, Kattuputhur, Tiruchirappalli, Tamil Nadu 621207",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0208",
-    "name": "Honda - Pullambadi Trichy Main Shop",
-    "address": "No 138, Trichy Road, Pullambadi, Tiruchirappalli, Tamil Nadu 621711",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0209",
-    "name": "Hero - Jeeyapuram Karur Market Line",
-    "address": "No 122, Karur Main Road, Jeeyapuram, Tiruchirappalli, Tamil Nadu 620101",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0211",
-    "name": "Hero - Navalurkottapattu Highway South Line",
-    "address": "No 88, Dindigul Main Road, Navalurkottapattu, Tiruchirappalli, Tamil Nadu 620009",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0212",
-    "name": "Ampere EV - Trichy Thanjavur Bypass Layout",
-    "address": "No 182, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0215",
-    "name": "Quantum Energy - Trichy Town Bypass Corner Shop Center",
-    "address": "No 88, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0222",
-    "name": "Lectrix EV - Trichy Thanjavur Road Central Block",
-    "address": "No 310, Thanjavur Road, Near Bus Stand, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0226",
-    "name": "Ashok Leyland Light Commercial - Trichy Ring Road Center",
-    "address": "No 182, Chennai Highway Road, Sanjeevi Nagar, Tiruchirappalli, Tamil Nadu 620002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0228",
-    "name": "Maruti Suzuki Nexa - Ramani Cars Thanjavur Ring Main Bypass",
-    "address": "No 274, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0230",
-    "name": "Triumph - Trichy Singarathope North Bypass Area Layout",
-    "address": "No 305, West Boulevard Road, Singarathope, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0236",
-    "name": "Yamaha - Thuraiyur Second Main Highway Street Shop",
-    "address": "No 153, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0252",
-    "name": "Honda - Kattuputhur Trichy Bypass Highway Retail Hub",
-    "address": "No 172, Trichy Main Road, Kattuputhur, Tiruchirappalli, Tamil Nadu 621207",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0257",
-    "name": "Hero - Jeeyapuram Karur Main Highway Center",
-    "address": "No 152, Karur Main Road, Jeeyapuram, Tiruchirappalli, Tamil Nadu 620101",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0260",
-    "name": "Ampere EV - Trichy Thanjavur Bypass Layout Expansion",
-    "address": "No 234, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0270",
-    "name": "Lectrix EV - Trichy Thanjavur Road Central Area Block",
-    "address": "No 340, Thanjavur Road, Near Bus Stand, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0276",
-    "name": "Maruti Suzuki Nexa - Ramani Cars Thanjavur Ring Main Bypass",
-    "address": "No 304, Thanjavur Main Road, Varaganeri, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_TRY0278",
-    "name": "Triumph - Trichy Singarathope North Bypass Area Station",
-    "address": "No 335, West Boulevard Road, Singarathope, Tiruchirappalli, Tamil Nadu 620008",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0284",
-    "name": "Yamaha - Thuraiyur Second Main Highway Street Shop Line",
-    "address": "No 183, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0307",
-    "name": "Hero - Jeeyapuram Karur Main Highway Center Base",
-    "address": "No 188, Karur Main Road, Jeeyapuram, Tiruchirappalli, Tamil Nadu 620101",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_TRY0334",
-    "name": "Yamaha - Thuraiyur Second Main Highway Street Shop Connection",
-    "address": "No 243, Trichy Main Road, Thuraiyur, Tiruchirappalli, Tamil Nadu 621102",
-    "type": "Bike Showroom"
+    "id": "PUN_TIRUCHIRAPPALLI_0001",
+    "name": "Sri Balaji Tyre Care & Puncture Shop",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Palakkarai Junction, Tiruchirappalli, Tamil Nadu 620008",
+    "latitude": 10.8122,
+    "longitude": 78.6945,
+    "phone": "+91 94432 11843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0002",
+    "name": "Trichy Highway breakdown Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai-Madurai Highway, Near Samayapuram Toll Plaza Junction, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9285,
+    "longitude": 78.7345,
+    "phone": "+91 98427 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0003",
+    "name": "National Tyre & Vulcanizing Works",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Central Bus Stand Circle, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7985,
+    "longitude": 78.6812,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0004",
+    "name": "Thuvakudi Toll Gate Puncture Corner",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Trichy-Thanjavur Highway, Near Thuvakudi Toll Plaza Area, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7485,
+    "longitude": 78.8112,
+    "phone": "+91 94865 99942",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Emergency Highway Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0005",
+    "name": "Manapparai Town Tyre Square",
+    "district": "Tiruchirappalli",
+    "city": "Manapparai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Main Road, Near Manapparai Bus Stand Complex, Tiruchirappalli, Tamil Nadu 621306",
+    "latitude": 10.6072,
+    "longitude": 78.4185,
+    "phone": "+91 99421 94425",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0006",
+    "name": "Lalgudi Bypass Emergency Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Lalgudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Chidambaram Highway, Near Lalgudi New Bypass Roundana, Tiruchirappalli, Tamil Nadu 621601",
+    "latitude": 10.8685,
+    "longitude": 78.8195,
+    "phone": "+91 96554 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0007",
+    "name": "Sri Murugan Multi Brand Tyre Care",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Opposite Chatram Bus Stand Complex, Tiruchirappalli, Tamil Nadu 620002",
+    "latitude": 10.8325,
+    "longitude": 78.6912,
+    "phone": "+91 94422 99941",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0008",
+    "name": "Musiri Cavery Bridge Tyre Point",
+    "district": "Tiruchirappalli",
+    "city": "Musiri",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Namakkal Highway, Near Musiri Cavery River Bridge Approach, Tiruchirappalli, Tamil Nadu 621211",
+    "latitude": 10.9345,
+    "longitude": 78.4498,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0009",
+    "name": "Royal Tyre Clinic",
+    "district": "Tiruchirappalli",
+    "city": "Thuraiyur",
+    "state": "Tamil Nadu",
+    "address": "Perambalur Main Road, Near Thuraiyur Bus Stand Area, Tiruchirappalli, Tamil Nadu 621010",
+    "latitude": 11.1412,
+    "longitude": 78.5945,
+    "phone": "+91 91592 99941",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0010",
+    "name": "Jeeyapuram 24 Hours Tyre Service",
+    "district": "Tiruchirappalli",
+    "city": "Jeeyapuram",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Karur High Road, Near Jeeyapuram Railway Station Circle, Tiruchirappalli, Tamil Nadu 620101",
+    "latitude": 10.8415,
+    "longitude": 78.6112,
+    "phone": "+91 97865 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0011",
+    "name": "Tiruverumbur Quick Tyre Zone",
+    "district": "Tiruchirappalli",
+    "city": "Tiruverumbur",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near BHEL Township Main Gate, Tiruverumbur, Tiruchirappalli, Tamil Nadu 620013",
+    "latitude": 10.7585,
+    "longitude": 78.7752,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0012",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Main Road, Opposite AVR Swarnamahal Community Hall, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7812,
+    "longitude": 78.6712,
+    "phone": "+91 94425 99942",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0013",
+    "name": "Kannan Tyre & Patch Point",
+    "district": "Tiruchirappalli",
+    "city": "Pullambadi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Chidambaram Road, Near Pullambadi Bus Stand Square, Tiruchirappalli, Tamil Nadu 621711",
+    "latitude": 10.9242,
+    "longitude": 78.9185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0014",
+    "name": "Kattuputhur Quick Repair Shop",
+    "district": "Tiruchirappalli",
+    "city": "Kattuputhur",
+    "state": "Tamil Nadu",
+    "address": "Namakkal High Road, Near Kattuputhur Bus Stand Market, Tiruchirappalli, Tamil Nadu 621207",
+    "latitude": 11.0212,
+    "longitude": 78.3245,
+    "phone": "+91 94863 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0015",
+    "name": "Samayapuram Highway Help Line Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Highway Road, Near Samayapuram Toll Plaza Entrance, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9312,
+    "longitude": 78.7382,
+    "phone": "+91 94434 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0016",
+    "name": "Star Express Tyre Station",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Rockfort Bazaar Street, Near Rockfort Temple Entrance Stepway, Tiruchirappalli, Tamil Nadu 620002",
+    "latitude": 10.8285,
+    "longitude": 78.6965,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0017",
+    "name": "Bismillah Tyre Care & Vulcanizing",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Palakkarai Clock Tower, Tiruchirappalli, Tamil Nadu 620008",
+    "latitude": 10.8145,
+    "longitude": 78.6912,
+    "phone": "+91 94421 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0018",
+    "name": "Samayapuram 24/7 Highway Rescue",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Highway Bypass, Near Samayapuram Mariaamman Temple Cross, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9312,
+    "longitude": 78.7345,
+    "phone": "+91 98436 99942",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0019",
+    "name": "Aman Tyre Square & Tubes",
+    "district": "Tiruchirappalli",
+    "city": "Manapparai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Main Road, Opposite Kamajar Statue Area, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
+    "latitude": 10.6085,
+    "longitude": 78.4112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0020",
+    "name": "Thuvakudi Bypass Quick Fix Corner",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Trichy-Thanjavur Highway, Near NIT Trichy Main Gate, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7412,
+    "longitude": 78.8112,
+    "phone": "+91 97891 99942",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0021",
+    "name": "Sri Vinayaga Multi Brand Tyre Care",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Opposite Central Bus Stand Complex, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7915,
+    "longitude": 78.6812,
+    "phone": "+91 99425 99941",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0022",
+    "name": "Musiri Cavery Bridge Side Vulcanising",
+    "district": "Tiruchirappalli",
+    "city": "Musiri",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Musiri New Bus Stand Complex, Tiruchirappalli, Tamil Nadu 621211",
+    "latitude": 10.9312,
+    "longitude": 78.4412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0023",
+    "name": "Kannan Tyre & Patch Point",
+    "district": "Tiruchirappalli",
+    "city": "Thuraiyur",
+    "state": "Tamil Nadu",
+    "address": "Perambalur Main Road, Near Thuraiyur Government Hospital, Tiruchirappalli, Tamil Nadu 621010",
+    "latitude": 11.1442,
+    "longitude": 78.5912,
+    "phone": "+91 96553 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0024",
+    "name": "Raja Tyre Tube Clinic",
+    "district": "Tiruchirappalli",
+    "city": "Jeeyapuram",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Near Jeeyapuram Bazaar Area, Tiruchirappalli, Tamil Nadu 620101",
+    "latitude": 10.8442,
+    "longitude": 78.6142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0025",
+    "name": "Thuvakudi Highway Emergency Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Thanjavur Highway, Near Thuvakudi Industrial Estate Overbridge Approach, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7485,
+    "longitude": 78.8145,
+    "phone": "+91 94434 99942",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0026",
+    "name": "Selvam Quick Repair Shop",
+    "district": "Tiruchirappalli",
+    "city": "Lalgudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Lalgudi Railway Station Gate, Tiruchirappalli, Tamil Nadu 621601",
+    "latitude": 10.8645,
+    "longitude": 78.8112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0027",
+    "name": "Mani Tyre Corner",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Chatram Bus Stand Road Circle, Near Rockfort Entrance Gate, Tiruchirappalli, Tamil Nadu 620002",
+    "latitude": 10.8312,
+    "longitude": 78.6945,
+    "phone": "+91 91592 99941",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0028",
+    "name": "Apex Tyre Point & Aligners",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Adjacent to Trichy Government Hospital Cross, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7954,
+    "longitude": 78.6812,
+    "phone": "+91 94875 99942",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0029",
+    "name": "Anbu Tyre Point",
+    "district": "Tiruchirappalli",
+    "city": "Pullambadi",
+    "state": "Tamil Nadu",
+    "address": "Trichy High Road, Near Pullambadi Town Panchayat Office, Tiruchirappalli, Tamil Nadu 621711",
+    "latitude": 10.9212,
+    "longitude": 78.9142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0030",
+    "name": "Kattuputhur Highway Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Kattuputhur",
+    "state": "Tamil Nadu",
+    "address": "Namakkal Highway Lane, Near Kattuputhur Town Panchayat Office, Tiruchirappalli, Tamil Nadu 621207",
+    "latitude": 11.0212,
+    "longitude": 78.3212,
+    "phone": "+91 94865 99942",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0031",
+    "name": "Basha Highway Vulcanising Center",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Main Road, Near Samayapuram Bypass Junction Cross, Samayapuram, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9342,
+    "longitude": 78.7342,
+    "phone": "+91 99421 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanising"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0032",
+    "name": "Royal Town Tyre Station",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Rockfort Bazaar Street, Near Trichy Palace Tower Cross, Tiruchirappalli, Tamil Nadu 620002",
+    "latitude": 10.8252,
+    "longitude": 78.6945,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0033",
+    "name": "Maruthi Tyre Alignment & Puncture",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Palakkarai Junction, Tiruchirappalli, Tamil Nadu 620008",
+    "latitude": 10.8115,
+    "longitude": 78.6938,
+    "phone": "+91 94435 99942",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0034",
+    "name": "Samayapuram Highway Tyre Rescue",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Vikravandi-Thanjavur Highway, Near Samayapuram Bypass Roundana, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9352,
+    "longitude": 78.7385,
+    "phone": "+91 98423 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0035",
+    "name": "Balaji Vulcanizing Work",
+    "district": "Tiruchirappalli",
+    "city": "Manapparai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Main Road, Near Manapparai Railway Station Cross, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
+    "latitude": 10.6052,
+    "longitude": 78.4145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0036",
+    "name": "SK Tyre Patch & Care",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Thuvakudi Bus Stand Area, Thuvakudi, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7452,
+    "longitude": 78.8145,
+    "phone": "+91 97512 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0037",
+    "name": "Safe Drive Tyre Tech",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Opposite New Bus Stand, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7952,
+    "longitude": 78.6825,
+    "phone": "+91 91500 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0038",
+    "name": "Highway 24/7 Tyre Services",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Trichy-Thanjavur Expressway, Near Thuvakudi Toll Plaza Lane, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7412,
+    "longitude": 78.8185,
+    "phone": "+91 94441 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0039",
+    "name": "Nisha Tubeless Clinic",
+    "district": "Tiruchirappalli",
+    "city": "Lalgudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Lalgudi New Bus Stand Complex, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
+    "latitude": 10.8652,
+    "longitude": 78.8142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0040",
+    "name": "Rahman Tyre & Tube Square",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Road, Near Ramanathan Hospital Junction, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7912,
+    "longitude": 78.6835,
+    "phone": "+91 99945 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0041",
+    "name": "Ganesh Vulcanising Shop",
+    "district": "Tiruchirappalli",
+    "city": "Thuraiyur",
+    "state": "Tamil Nadu",
+    "address": "Perambalur High Road, Near Thuraiyur Town Panchayat Office, Thuraiyur, Tiruchirappalli, Tamil Nadu 621010",
+    "latitude": 11.1415,
+    "longitude": 78.5912,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0042",
+    "name": "Speedway Tyre Alignment Centre",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Thuvakudi Roundana Checkpost area, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7485,
+    "longitude": 78.8112,
+    "phone": "+91 94421 99944",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0043",
+    "name": "Velu Auto & Tyre Patch",
+    "district": "Tiruchirappalli",
+    "city": "Musiri",
+    "state": "Tamil Nadu",
+    "address": "Trichy High Road, Near Musiri Bus Stand Circle, Musiri, Tiruchirappalli, Tamil Nadu 621211",
+    "latitude": 10.9315,
+    "longitude": 78.4412,
+    "phone": "+91 96294 99944",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0044",
+    "name": "Star Express Highway Point",
+    "district": "Tiruchirappalli",
+    "city": "Jeeyapuram",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Opposite Jeeyapuram Police Station, Jeeyapuram, Tiruchirappalli, Tamil Nadu 620101",
+    "latitude": 10.8412,
+    "longitude": 78.6112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0045",
+    "name": "Royal Enfield Specialist & Tyre Point",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Karur Road, Opposite Chatram Bus Stand Entrance Area, Tiruchirappalli, Tamil Nadu 620002",
+    "latitude": 10.8315,
+    "longitude": 78.6912,
+    "phone": "+91 98942 99944",
+    "services": [
+      "Bike Puncture",
+      "Heavy Bike Tyre Patch",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0046",
+    "name": "Thuvakudi Bypass Tyre Junction",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur High Road, Near Thuvakudi New Bypass Overbridge Approach, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7412,
+    "longitude": 78.8142,
+    "phone": "+91 94861 99944",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0047",
+    "name": "Mani Quick Patch Corner",
+    "district": "Tiruchirappalli",
+    "city": "Pullambadi",
+    "state": "Tamil Nadu",
+    "address": "Bazaar Street, Near Pullambadi Town Crossing Junction, Pullambadi, Tiruchirappalli, Tamil Nadu 621711",
+    "latitude": 10.9242,
+    "longitude": 78.9185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0048",
+    "name": "Highway Ranger Tyre Clinic",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Highway Road, Opposite NIT Trichy Campus Main Gate, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7452,
+    "longitude": 78.8112,
+    "phone": "+91 97865 99944",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0049",
+    "name": "Sri Sai Baba Vulcanizing & Puncture",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Nethaji Statue Junction, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7915,
+    "longitude": 78.6821,
+    "phone": "+91 94421 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0050",
+    "name": "Samayapuram North Highway Tyre Rescue",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Highway, Near Samayapuram Arch Crossing, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9312,
+    "longitude": 78.7345,
+    "phone": "+91 98436 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0051",
+    "name": "Nasser Tyre Care Corner",
+    "district": "Tiruchirappalli",
+    "city": "Manapparai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Road, Near Railway Gate Area, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
+    "latitude": 10.6052,
+    "longitude": 78.4112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0052",
+    "name": "Murugan Quick Tyre Patch",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Highway Road, Near Thuvakudi Municipal Office, Thuvakudi, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7452,
+    "longitude": 78.8112,
+    "phone": "+91 97891 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0053",
+    "name": "Rasi Tyre Clinic & Nitrogen Air",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Near Chatram Bus Stand Circle, Tiruchirappalli, Tamil Nadu 620002",
+    "latitude": 10.8325,
+    "longitude": 78.6912,
+    "phone": "+91 91599 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0054",
+    "name": "Samayapuram Toll Gate Emergency Tyre Point",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Highway, Adjacent to Samayapuram Toll Plaza, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9285,
+    "longitude": 78.7345,
+    "phone": "+91 94445 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0055",
+    "name": "Babu Tyre Square",
+    "district": "Tiruchirappalli",
+    "city": "Lalgudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Lalgudi Government Hospital Junction, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
+    "latitude": 10.8652,
+    "longitude": 78.8142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0056",
+    "name": "New Star Tyre Clinic",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Anna Statue Roundana, Tiruchirappalli, Tamil Nadu 620008",
+    "latitude": 10.8122,
+    "longitude": 78.6945,
+    "phone": "+91 99941 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0057",
+    "name": "Anjaneya Vulcanising Shop",
+    "district": "Tiruchirappalli",
+    "city": "Thuraiyur",
+    "state": "Tamil Nadu",
+    "address": "Perambalur High Road, Near Thuraiyur Checkpost Area, Thuraiyur, Tiruchirappalli, Tamil Nadu 621010",
+    "latitude": 11.1415,
+    "longitude": 78.5912,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0058",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Opposite Government Boys Higher Secondary School, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7915,
+    "longitude": 78.6812,
+    "phone": "+91 94425 99943",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0059",
+    "name": "Kumaran Auto & Tyre Patch",
+    "district": "Tiruchirappalli",
+    "city": "Musiri",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Koot Road Junction, Musiri, Tiruchirappalli, Tamil Nadu 621211",
+    "latitude": 10.9315,
+    "longitude": 78.4412,
+    "phone": "+91 96291 99944",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0060",
+    "name": "Express Highway 83 Tyre Care",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Thanjavur Highway, Opposite Thuvakudi Police Outpost, Thuvakudi, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7452,
+    "longitude": 78.8142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0061",
+    "name": "A1 Bike Zone & Tyre Repair",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Near Jeeyapuram Railway Gate Complex, Tiruchirappalli, Tamil Nadu 620101",
+    "latitude": 10.8442,
+    "longitude": 78.6142,
+    "phone": "+91 98945 99944",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0062",
+    "name": "Samayapuram Bypass Tyre Junction",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Bypass Road, Near Cauvery River Bridge Approach, Samayapuram, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9312,
+    "longitude": 78.7345,
+    "phone": "+91 94865 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0063",
+    "name": "Siva Quick Repair Shop",
+    "district": "Tiruchirappalli",
+    "city": "Pullambadi",
+    "state": "Tamil Nadu",
+    "address": "Trichy High Road, Pullambadi, Tiruchirappalli, Tamil Nadu 621711",
+    "latitude": 10.9242,
+    "longitude": 78.9185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0064",
+    "name": "Highway Track Tyre Point",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Thanjavur Expressway, Thuvakudi New Bypass Service Lane, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7412,
+    "longitude": 78.8185,
+    "phone": "+91 97861 99943",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0065",
+    "name": "Bismillah Tyre Point",
+    "district": "Tiruchirappalli",
+    "city": "Manapparai",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Manapparai Bus Stop, Tiruchirappalli, Tamil Nadu 621306",
+    "latitude": 10.6095,
+    "longitude": 78.4212,
+    "phone": "+91 94432 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0066",
+    "name": "Al-Ameen Vulcanising Works",
+    "district": "Tiruchirappalli",
+    "city": "Manapparai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Road, Near Perumal Temple Crossing, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
+    "latitude": 10.6045,
+    "longitude": 78.4112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0067",
+    "name": "Thuvakudi Junction Tyre Corner",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Thuvakudi Junction, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7485,
+    "longitude": 78.8112,
+    "phone": "+91 97864 88843",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0068",
+    "name": "Sri Krishna Quick Patch",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy High Road, Near Thuvakudi Railway Station Area, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7412,
+    "longitude": 78.8185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0069",
+    "name": "Trichy Central Bypass Tyre Rescue",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai-Madurai Highway, Near New Bus Stand Checkpost Flyover, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7915,
+    "longitude": 78.6812,
+    "phone": "+91 98432 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0070",
+    "name": "Santhosh Tyre Patch Shop",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Highway, Near Samayapuram Toll Plaza Exit, Samayapuram, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9285,
+    "longitude": 78.7345,
+    "phone": "+91 91593 88843",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0071",
+    "name": "Muna Tyre & Tube Care",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Opposite Government Arts College Entrance Lane, Tiruchirappalli, Tamil Nadu 620002",
+    "latitude": 10.8325,
+    "longitude": 78.6912,
+    "phone": "+91 99942 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0072",
+    "name": "Jai Hanuman Tyre Point",
+    "district": "Tiruchirappalli",
+    "city": "Lalgudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Lalgudi New Bus Stand complex, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
+    "latitude": 10.8652,
+    "longitude": 78.8142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0073",
+    "name": "Balu Motor & Tyre Work",
+    "district": "Tiruchirappalli",
+    "city": "Thuraiyur",
+    "state": "Tamil Nadu",
+    "address": "Perambalur High Road, Near Thuraiyur Police Station Circle, Thuraiyur, Tiruchirappalli, Tamil Nadu 621010",
+    "latitude": 11.1415,
+    "longitude": 78.5912,
+    "phone": "+91 96295 88843",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0074",
+    "name": "Central Bus Stand Roundana Industrial Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Central Bus Stand Roundana Junction, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7985,
+    "longitude": 78.6812,
+    "phone": "+91 94443 88843",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0075",
+    "name": "Venkateswara Vulcanising Clinic",
+    "district": "Tiruchirappalli",
+    "city": "Musiri",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near New Town Checkpost Area, Musiri, Tiruchirappalli, Tamil Nadu 621211",
+    "latitude": 10.9315,
+    "longitude": 78.4412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0076",
+    "name": "Highway Night Rider Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai-Madurai Highway Road, Near Samayapuram Toll Plaza Area, Samayapuram, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9285,
+    "longitude": 78.7345,
+    "phone": "+91 97863 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0077",
+    "name": "Raza Tyre Alignment & Patch",
+    "district": "Tiruchirappalli",
+    "city": "Jeeyapuram",
+    "state": "Tamil Nadu",
+    "address": "Karur Road, Near Jeeyapuram Town Panchayat Office, Jeeyapuram, Tiruchirappalli, Tamil Nadu 620101",
+    "latitude": 10.8442,
+    "longitude": 78.6142,
+    "phone": "+91 94862 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0078",
+    "name": "Guru Quick Repair Point",
+    "district": "Tiruchirappalli",
+    "city": "Pullambadi",
+    "state": "Tamil Nadu",
+    "address": "Trichy Road Area, Near Pullambadi Market Junction, Pullambadi, Tiruchirappalli, Tamil Nadu 621711",
+    "latitude": 10.9242,
+    "longitude": 78.9185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0079",
+    "name": "Trichy Toll Gate Tyre Help",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Expressway Route, 500m before Samayapuram Toll Plaza, Samayapuram, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9285,
+    "longitude": 78.7345,
+    "phone": "+91 94421 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0080",
+    "name": "Murugan Tyre Work & Tubes",
+    "district": "Tiruchirappalli",
+    "city": "Kattuputhur",
+    "state": "Tamil Nadu",
+    "address": "Namakkal High Road, Near Kattuputhur Cooperative Bank, Kattuputhur, Tiruchirappalli, Tamil Nadu 621207",
+    "latitude": 11.0212,
+    "longitude": 78.3212,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0081",
+    "name": "Siva Sakthi Vulcanizing Corner",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Railway Overbridge, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7915,
+    "longitude": 78.6812,
+    "phone": "+91 94436 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0082",
+    "name": "Highway Quick Fix Center",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Highway, Near Samayapuram Bypass Junction, Samayapuram, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9312,
+    "longitude": 78.7345,
+    "phone": "+91 98431 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0083",
+    "name": "Rahamath Tyre Care",
+    "district": "Tiruchirappalli",
+    "city": "Manapparai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Main Road, Near Manapparai Star Theatre Cross, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
+    "latitude": 10.6052,
+    "longitude": 78.4145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0084",
+    "name": "Vignesh Quick Tyre Fix",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Thuvakudi Bus Stand Complex, Thuvakudi, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7452,
+    "longitude": 78.8145,
+    "phone": "+91 97894 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0085",
+    "name": "City Centre Tyre & Alignment Zone",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Road, Near Old Bus Stand Area, Tiruchirappalli, Tamil Nadu 620008",
+    "latitude": 10.8122,
+    "longitude": 78.6945,
+    "phone": "+91 91595 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0086",
+    "name": "Toll Plaza Highway Ranger Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Expressway, Samayapuram Toll Gate Exit Lane, Samayapuram, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9285,
+    "longitude": 78.7345,
+    "phone": "+91 94441 88844",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0087",
+    "name": "Anand Tyre & Tube Square",
+    "district": "Tiruchirappalli",
+    "city": "Musiri",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Musiri Road, Near Government Hospital Area, Musiri, Tiruchirappalli, Tamil Nadu 621211",
+    "latitude": 10.9315,
+    "longitude": 78.4412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0088",
+    "name": "National Tyre Repair Shop",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Opposite Municipal High School, Tiruchirappalli, Tamil Nadu 620002",
+    "latitude": 10.8325,
+    "longitude": 78.6912,
+    "phone": "+91 99943 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0089",
+    "name": "Sri Balaji Vulcanising Shop",
+    "district": "Tiruchirappalli",
+    "city": "Lalgudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Cooperative Bank, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
+    "latitude": 10.8652,
+    "longitude": 78.8142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0090",
+    "name": "Bridgestone Tyre Select - Sri Vinayaga",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Opposite Central Bus Stand Entrance, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7915,
+    "longitude": 78.6812,
+    "phone": "+91 94422 88843",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "New Tyre Sales"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0091",
+    "name": "Sakthi Auto & Tyre Patch",
+    "district": "Tiruchirappalli",
+    "city": "Thuraiyur",
+    "state": "Tamil Nadu",
+    "address": "Perambalur Main Road, Near Thuraiyur Police Outpost, Thuraiyur, Tiruchirappalli, Tamil Nadu 621010",
+    "latitude": 11.1415,
+    "longitude": 78.5912,
+    "phone": "+91 96293 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0092",
+    "name": "Express Highway 85 Highway Tyre Point",
+    "district": "Tiruchirappalli",
+    "city": "Jeeyapuram",
+    "state": "Tamil Nadu",
+    "address": "Karur Road Bypass Expressway, Near Jeeyapuram Toll Plaza Cross, Jeeyapuram, Tiruchirappalli, Tamil Nadu 620101",
+    "latitude": 10.8442,
+    "longitude": 78.6142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0093",
+    "name": "Trichy Central Tyre Repair",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Central Bus Stand, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7915,
+    "longitude": 78.6812,
+    "phone": "+91 98941 88843",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0094",
+    "name": "Musiri River Bridge Side Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Musiri",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Musiri Highway Road, Near River Bridge Approach, Musiri, Tiruchirappalli, Tamil Nadu 621211",
+    "latitude": 10.9315,
+    "longitude": 78.4412,
+    "phone": "+91 94861 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0095",
+    "name": "Murugan Quick Repair Corner",
+    "district": "Tiruchirappalli",
+    "city": "Pullambadi",
+    "state": "Tamil Nadu",
+    "address": "Palace Road Cross, Pullambadi, Tiruchirappalli, Tamil Nadu 621711",
+    "latitude": 10.9242,
+    "longitude": 78.9185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0096",
+    "name": "Highway Tracker Tyre Center",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Expressway, Near Thuvakudi Bypass Bridge, Thuvakudi, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7412,
+    "longitude": 78.8185,
+    "phone": "+91 97864 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0097",
+    "name": "Sartaj Tyre & Vulcanising Works",
+    "district": "Tiruchirappalli",
+    "city": "Manapparai",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Main Road, Near Anna Statue, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
+    "latitude": 10.6091,
+    "longitude": 78.4212,
+    "phone": "+91 94424 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0098",
+    "name": "Al-Ahad Tyre Care Corner",
+    "district": "Tiruchirappalli",
+    "city": "Manapparai",
+    "state": "Tamil Nadu",
+    "address": "Trichy Road, Near Government Higher Secondary School, Manapparai, Tiruchirappalli, Tamil Nadu 621306",
+    "latitude": 10.6045,
+    "longitude": 78.4112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0099",
+    "name": "Thuvakudi Road Tyre Repair Shop",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Bus Stand Area, Thuvakudi, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7485,
+    "longitude": 78.8112,
+    "phone": "+91 97861 88843",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0100",
+    "name": "Sri Venkateswara Tyre Patch Works",
+    "district": "Tiruchirappalli",
+    "city": "Thuvakudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy Road, Near Bazaar Junction, Thuvakudi, Tiruchirappalli, Tamil Nadu 620015",
+    "latitude": 10.7412,
+    "longitude": 78.8185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0101",
+    "name": "Trichy Highway Emergency Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Highway, Near Samayapuram Flyover Exit, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9312,
+    "longitude": 78.7345,
+    "phone": "+91 98435 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0102",
+    "name": "Srinivasa Tyre Patch Point",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Bypass Road, Near Samayapuram Market Area, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9285,
+    "longitude": 78.7345,
+    "phone": "+91 91591 88843",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0103",
+    "name": "Al-Mubarak Tyre Square",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Opposite Poovanthi Mosque Lane, Tiruchirappalli, Tamil Nadu 620002",
+    "latitude": 10.8325,
+    "longitude": 78.6912,
+    "phone": "+91 99941 88844",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0104",
+    "name": "Lalgudi Hill Side Quick Tyre Fix",
+    "district": "Tiruchirappalli",
+    "city": "Lalgudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Lalgudi Railway Station Cross Road, Lalgudi, Tiruchirappalli, Tamil Nadu 621601",
+    "latitude": 10.8652,
+    "longitude": 78.8142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0105",
+    "name": "Nandhi Motor & Tyre Clinic",
+    "district": "Tiruchirappalli",
+    "city": "Thuraiyur",
+    "state": "Tamil Nadu",
+    "address": "Perambalur Main Road, Opposite Government Girls Higher Secondary School, Thuraiyur, Tiruchirappalli, Tamil Nadu 621010",
+    "latitude": 11.1415,
+    "longitude": 78.5912,
+    "phone": "+91 96291 88843",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0106",
+    "name": "Central Bus Stand Roundana Main Road Heavy Tyre Works",
+    "district": "Tiruchirappalli",
+    "city": "Trichy City",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Adjacent to Central Bus Stand Roundana Commercial Complex, Tiruchirappalli, Tamil Nadu 620001",
+    "latitude": 10.7985,
+    "longitude": 78.6812,
+    "phone": "+91 94441 88844",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0107",
+    "name": "Sri Tirumala Vulcanising Works",
+    "district": "Tiruchirappalli",
+    "city": "Musiri",
+    "state": "Tamil Nadu",
+    "address": "Trichy High Road, Near Town Water Tank, Musiri, Tiruchirappalli, Tamil Nadu 621211",
+    "latitude": 10.9315,
+    "longitude": 78.4412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0108",
+    "name": "Express Highway Toll Gate View Tyres",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Expressway, Adjacent to Samayapuram Toll Gate Flyover, Samayapuram, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9285,
+    "longitude": 78.7345,
+    "phone": "+91 97861 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0109",
+    "name": "Star Tyre Alignment & Puncture Point",
+    "district": "Tiruchirappalli",
+    "city": "Musiri",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Opposite Musiri New Bus Stand, Musiri, Tiruchirappalli, Tamil Nadu 621211",
+    "latitude": 10.9315,
+    "longitude": 78.4412,
+    "phone": "+91 94861 88843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0110",
+    "name": "Santhosh Quick Repair Point",
+    "district": "Tiruchirappalli",
+    "city": "Jeeyapuram",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Opposite Government Hospital Complex, Jeeyapuram, Tiruchirappalli, Tamil Nadu 620101",
+    "latitude": 10.8442,
+    "longitude": 78.6142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0111",
+    "name": "Highway Express Toll Plaza Support",
+    "district": "Tiruchirappalli",
+    "city": "Samayapuram",
+    "state": "Tamil Nadu",
+    "address": "NH-38 Chennai Expressway, 1km after Samayapuram Toll Gate plaza, Samayapuram, Tiruchirappalli, Tamil Nadu 621112",
+    "latitude": 10.9285,
+    "longitude": 78.7345,
+    "phone": "+91 94425 88844",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUCHIRAPPALLI_0112",
+    "name": "Murugan Tyre Patch & Tube Shop",
+    "district": "Tiruchirappalli",
+    "city": "Kattuputhur",
+    "state": "Tamil Nadu",
+    "address": "Main High Road, Near Kattuputhur Panchayat Union Office, Kattuputhur, Tiruchirappalli, Tamil Nadu 621207",
+    "latitude": 11.0212,
+    "longitude": 78.3212,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   }
 ]

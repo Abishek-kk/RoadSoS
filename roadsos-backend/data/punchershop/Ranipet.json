@@ -1,1547 +1,2570 @@
 [
   {
-    "id": "OSM_COIMBATORE_0001",
-    "name": "Ramani Hyundai",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 4/112, Avinashi Road, Peelamedu",
-    "phone": "+91-4222281000",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0002",
-    "name": "Ambal Maruti Suzuki ARENA",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 231, Trichy Road, Near Singanallur Bypass Junction",
-    "phone": "+91-4222758000",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0003",
-    "name": "SAB Tata Motors",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "SF No. 142/2, Mettupalayam High Road, Kavundampalayam Bypass",
-    "phone": "+91-4222411000",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641030",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0004",
-    "name": "Maruti Suzuki NEXA (Ambal Motors)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Avinashi Highway Road, Opposite Government Medical College Area",
-    "phone": "+91-9751918903",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641014",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0005",
-    "name": "Eurasia KIA Coimbatore",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "SF No. 84/1, Avinashi Road, Near Lakshmi Mills Junction Area",
-    "phone": "+91-7358739980",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641037",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0006",
-    "name": "Mahindra Ramani Motors",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 512, Avinashi National Highway, Peelamedu",
-    "phone": "+91-8879445658",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0007",
-    "name": "SGA Skoda Coimbatore",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Highway Road, Near Kavundampalayam Ring Road Area",
-    "phone": "+91-8939891280",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641030",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0008",
-    "name": "Malar Hero",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 88, Pollachi Main Road, Sundarapuram",
-    "phone": "+91-4222222544",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641024",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0009",
-    "name": "Sree Saravana Motorsports (Royal Enfield)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 142, Avinashi Main Road, Peelamedu",
-    "phone": "+91-8939841214",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0010",
-    "name": "Sri Sakthi Honda",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 105, Mettupalayam High Road",
-    "phone": "+91-4222221234",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641043",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0011",
-    "name": "VST TVS",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 34, Trichy Main Road, Ramanathapuram",
-    "phone": "+91-9443354458",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641045",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0012",
-    "name": "Pioneer Yamaha Agency",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 52, Pollachi Main Road, Opp to Government Hospital Area",
-    "phone": "+91-4222321115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641024",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0013",
-    "name": "Coimbatore Bajaj (Balaji Auto Agencies)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 19, Avinashi Highway Road, Peelamedu Bypass Area",
-    "phone": "+91-422211199",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0014",
-    "name": "Annamalai Suzuki",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 8, Mettupalayam Main Road Line Area",
-    "phone": "+91-4222226622",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641043",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0015",
-    "name": "Malar Hero (Pollachi Branch)",
-    "district": "Coimbatore",
-    "city": "Pollachi",
-    "state": "Tamil Nadu",
-    "address": "No. 45, Coimbatore Main Road Area",
-    "phone": "+91-4259225636",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "642001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0016",
-    "name": "Sri Sakthi Honda (Pollachi)",
-    "district": "Coimbatore",
-    "city": "Pollachi",
-    "state": "Tamil Nadu",
-    "address": "No. 112, Palani Main Road Area",
-    "phone": "+91-4259221522",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "642001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0017",
-    "name": "VST TVS (Pollachi)",
-    "district": "Coimbatore",
-    "city": "Pollachi",
-    "state": "Tamil Nadu",
-    "address": "No. 12A, Udumalpet Main Road Area",
-    "phone": "+91-9443321598",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "642001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0018",
-    "name": "Ambal Maruti Suzuki (Pollachi Branch Point)",
-    "district": "Coimbatore",
-    "city": "Pollachi",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road, Near Bus Stand Junction Area Corridor",
-    "phone": "+91-4259224346",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "642001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0019",
-    "name": "Pioneer Yamaha (Pollachi Network Line)",
-    "district": "Coimbatore",
-    "city": "Pollachi",
-    "state": "Tamil Nadu",
-    "address": "No. 4, Palani High Road Corridor Zone",
-    "phone": "+91-9442561242",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "642001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0020",
-    "name": "Malar Hero (Mettupalayam Point Line)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "No. 112, Ooty Main Road Corridor Area",
-    "phone": "+91-4254229455",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0021",
-    "name": "VST TVS (Mettupalayam Point)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "No. 56, Annur Main Road",
-    "phone": "+91-9443214578",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0022",
-    "name": "Sri Sakthi Honda (Mettupalayam Point)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "No. 204, Karamadai Road Junction",
-    "phone": "+91-4254220300",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0023",
-    "name": "Ambal Maruti Suzuki (Mettupalayam Branch)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Highway Road, Opposite Government ITI Area",
-    "phone": "+91-9751917198",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0024",
-    "name": "Raja TVS Agency (Sulur Hub)",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "No. 14, Trichy Main Road Area",
-    "phone": "+91-9443521628",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0025",
-    "name": "Sri Sakthi Honda Care (Sulur)",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Kalangal Road Crossing",
-    "phone": "+91-9944051628",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0026",
-    "name": "Malar Hero (Sulur Branch Point)",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Highway Road Area",
-    "phone": "+91-4222625371",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0027",
-    "name": "Vetrivel Suzuki Agency (Thudiyalur)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 34, Mettupalayam Main Road, Thudiyalur Area",
-    "phone": "+91-4223253320",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0028",
-    "name": "Coimbatore Bajaj Network (Mettupalayam Cross)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Highway Area",
-    "phone": "+91-4254220555",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0029",
-    "name": "Ananya Yamaha Agency (Mettupalayam)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "No. 102, Annur High Road Crossing Area",
-    "phone": "+91-9943621042",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0030",
-    "name": "Royal Enfield - Ramani Motors (Mettupalayam)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Highway Road, Opposite Bus Stand Area",
-    "phone": "+91-8879693468",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0031",
-    "name": "VST TVS Sub-Branch (Thudiyalur Line)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Road Line, Near Thudiyalur Bus Stand Area",
-    "phone": "+91-7373744447",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0032",
-    "name": "Sri Sakthi Honda Point (Thudiyalur)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam High Road Area Corridor",
-    "phone": "+91-4223231260",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0033",
-    "name": "Malar Hero Point (Thudiyalur Hub)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 8, Mettupalayam Main Highway Road",
-    "phone": "+91-4223222545",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0034",
-    "name": "Malar E-Bikes (Coimbatore Main Hub)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 54, Mettupalayam Main Road, Near Kavundampalayam Corner",
-    "phone": "+91-9788621472",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641030",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0035",
-    "name": "Chola E-Vehicles (Pollachi Base)",
-    "district": "Coimbatore",
-    "city": "Pollachi",
-    "state": "Tamil Nadu",
-    "address": "Palani Main Road Line Area",
-    "phone": "+91-9043521113",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "642001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0036",
-    "name": "Ramani Hyundai Delivery Hub (Pollachi Line)",
-    "district": "Coimbatore",
-    "city": "Pollachi",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore High Road Area, Near Bypass Intersection",
-    "phone": "+91-9500902231",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "642001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0037",
-    "name": "VST TVS Agency (Annur Point)",
-    "district": "Coimbatore",
-    "city": "Annur",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Highway Road",
-    "phone": "+91-7373744437",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641653",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0038",
-    "name": "Sri Sakthi Honda Sub-Dealer (Annur)",
-    "district": "Coimbatore",
-    "city": "Annur",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Corridor Road",
-    "phone": "+91-4222215285",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641653",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0039",
-    "name": "Malar Hero Sub-Agency (Mettupalayam Line)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Highway Road, Opposite ITI Complex",
-    "phone": "+91-4254229246",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0040",
-    "name": "Coimbatore Bajaj (Thudiyalur Bypass Corner)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam National Highway Bypass Area",
-    "phone": "+91-4223222620",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0041",
-    "name": "Rainbow Honda Sub-Branch (Pollachi)",
-    "district": "Coimbatore",
-    "city": "Pollachi",
-    "state": "Tamil Nadu",
-    "address": "Palani Main Road, Near New Bus Stand Area",
-    "phone": "+91-4259261158",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "642001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0042",
-    "name": "VST TVS Sub-Dealer (Mettupalayam)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty National Highway Road Network Area",
-    "phone": "+91-7373744454",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0043",
-    "name": "Ambal Maruti Suzuki (Sulur Branch)",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Highway Road Area Cross",
-    "phone": "+91-4222624348",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0044",
-    "name": "Malar Hero Point (Sulur Hub)",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "No 24, Kalangal Main Highway Road",
-    "phone": "+91-4222622539",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0045",
-    "name": "Sri Balaji Motors (Multi-Brand Point)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Road Corridor",
-    "phone": "+91-9843615432",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0046",
-    "name": "VST TVS Network (Mettupalayam Base)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Highway Line",
-    "phone": "+91-9443321580",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0047",
-    "name": "Greenway Electric Scooters",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Avinashi Main Road, Opp Commercial Bank Area",
-    "phone": "+91-9043216804",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0048",
-    "name": "SK E-Bikes (Mettupalayam Point Area)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Road Junction Area Corridor",
-    "phone": "+91-9047812554",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0049",
-    "name": "Karthikeyani Tractors (Swaraj Dealer Area)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Road, Near Kavundampalayam Bypass Corner",
-    "phone": "+91-4222225146",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641030",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0050",
-    "name": "Arun Tractors (Tafe Dealer Base)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Avinashi National Highway Bypass",
-    "phone": "+91-4222220319",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0051",
-    "name": "National Auto Agencies (Bajaj Sub-Branch)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Salai Corridor",
-    "phone": "+91-4254250225",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0052",
-    "name": "Sivam Motors (Hero Sub-Dealer Base)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Road Area Network",
-    "phone": "+91-9442345120",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0053",
-    "name": "Abinaya Yamaha Point (Thudiyalur Line)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Highway Road Corner",
-    "phone": "+91-9943521054",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0054",
-    "name": "Sri Vetrivel Suzuki Point Corridor",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Main Road Corridor Area",
-    "phone": "+91-9443265154",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0055",
-    "name": "Vijay Automobiles (Piaggio Commercial Delivery)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Road, Near Kavundampalayam Flyover Complex",
-    "phone": "+91-4222451802",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641030",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0056",
-    "name": "Star E-Vehicles Corridor Station",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty National Highway Line",
-    "phone": "+91-8870425174",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0057",
-    "name": "Guru Automobiles (Multi-Brand Hub Station)",
-    "district": "Coimbatore",
-    "city": "Thudiyalur",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Highway Road Area",
-    "phone": "+91-9443920164",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0058",
-    "name": "Sri Guru Bajaj Agency Base Terminal",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Road, Opp Government Hospital Area Corner",
-    "phone": "+91-4254222115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0059",
-    "name": "Muthu Motors (Multi-Brand Point Terminal)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Main Road Area Corridor",
-    "phone": "+91-9566214320",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0060",
-    "name": "Galaxy Honda Sub-Branch Station Base",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Highway Road Block Area",
-    "phone": "+91-9442871114",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0061",
-    "name": "Bala Motors (Multi-Brand)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "No. 14, Annur Road Area",
-    "phone": "+91-9443652154",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0062",
-    "name": "Sri Lakshmi Honda Point",
-    "district": "Coimbatore",
-    "city": "Pollachi",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Salai Area",
-    "phone": "+91-9942481031",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "642001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0063",
-    "name": "Raja Krishna Suzuki Network",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Avinashi Main Highway Road",
-    "phone": "+91-4222251454",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0064",
-    "name": "Sakthi Tractors (John Deere Agency)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Road Bypass",
-    "phone": "+91-4222220462",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641030",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0065",
-    "name": "Siva Agencies (Hero Sub-Dealer)",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road Area",
-    "phone": "+91-9442167864",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0066",
-    "name": "Sri Vinayaga Bajaj Point",
-    "district": "Coimbatore",
-    "city": "Thudiyalur",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Highway",
-    "phone": "+91-9786431214",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0067",
-    "name": "Pioneer E-Bikes Station",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Avinashi Road, Peelamedu Corner",
-    "phone": "+91-8870123464",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0068",
-    "name": "Karthik Motors TVS Point",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road Area Corridor",
-    "phone": "+91-4222620370",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0069",
-    "name": "Sri Durga Auto Agencies",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Highway Junction",
-    "phone": "+91-9159023464",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0070",
-    "name": "Smart E-Vehicles Base",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Main Highway",
-    "phone": "+91-9788123464",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0071",
-    "name": "Venkateswara Honda Sub-Agency",
-    "district": "Coimbatore",
-    "city": "Thudiyalur",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Road Line",
-    "phone": "+91-9944876554",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0072",
-    "name": "Kaveri Commercial Vehicles (Tata Sub-Dealer)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Avinashi Main Road, Peelamedu",
-    "phone": "+91-4222254347",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0073",
-    "name": "Gemini Auto Network",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Road Crossing Area",
-    "phone": "+91-9443219884",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0074",
-    "name": "Ram Suzuki Agency Corridor",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Road Area Corridor",
-    "phone": "+91-9791432120",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0075",
-    "name": "National Yamaha Point",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Main Road Area",
-    "phone": "+91-4254220423",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0076",
-    "name": "Sri Sai E-Bikes Point",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Avinashi Road, Opp Town Library",
-    "phone": "+91-9043112279",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0077",
-    "name": "Jayam Multi-Brand Two Wheelers Base",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road Highway Area",
-    "phone": "+91-9944512399",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0078",
-    "name": "Rajarajan Motors (Hero Sub-Dealer Point)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Main Highway Area Corridor",
-    "phone": "+91-9443210413",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0079",
-    "name": "Vetrivel Honda Point Hub Area",
-    "district": "Coimbatore",
-    "city": "Thudiyalur",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Road Near Kamarajar Statue Circle",
-    "phone": "+91-4223251339",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0080",
-    "name": "Nisha Tractors & Commercial Delivery Hub",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Road Bypass Corridor Bridge Area",
-    "phone": "+91-9842456109",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641030",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0081",
-    "name": "V.P.M Motors (TVS Point)",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Near Bus Stand",
-    "phone": "+91-9786541237",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0082",
-    "name": "Sree Vinayagar E-Bikes",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "No. 45, Avinashi Main Road, Near Peelamedu Crossing",
-    "phone": "+91-9080706057",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0083",
-    "name": "Balaji Yamaha Sub-Dealer",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Road, Near LIC Office Corner",
-    "phone": "+91-9942481030",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0084",
-    "name": "Murugan Auto Consult & Bikes",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Road Crossing",
-    "phone": "+91-9442152367",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0085",
-    "name": "Kallakurichi Auto Agencies (Mahindra Tractors)",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Road, Near Kavundampalayam Flyover Area",
-    "phone": "+91-4242247712",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641030",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0086",
-    "name": "Sri Sakthi Motors (Multi-Brand)",
-    "district": "Coimbatore",
-    "city": "Thudiyalur",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Road",
-    "phone": "+91-9159041230",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0087",
-    "name": "Thangam Suzuki Point",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Salai",
-    "phone": "+91-9488056217",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0088",
-    "name": "Annamalai Motors (Hero Authorised Point)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Road",
-    "phone": "+91-9965541020",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0089",
-    "name": "Malar E-Bikes Sub-Branch",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "No. 120, Annur Road",
-    "phone": "+91-9788645130",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0090",
-    "name": "Mettupalayam Honda Sub-Dealer",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Main Highway Road",
-    "phone": "+91-4282250556",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0091",
-    "name": "Senthil Auto Electric Vehicles",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Road, Kavundampalayam NH Bypass",
-    "phone": "+91-8903456717",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641030",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0092",
-    "name": "Sri Kumaran Motors (TVS Point)",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Road, Near Bus Stand Area",
-    "phone": "+91-9443811529",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0093",
-    "name": "Rasi Motors (Multi-Brand)",
-    "district": "Coimbatore",
-    "city": "Thudiyalur",
-    "state": "Tamil Nadu",
-    "address": "Mettupalayam Main Road Junction",
-    "phone": "+91-9566712351",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641034",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0094",
-    "name": "Susee Bajaj Network Point",
-    "district": "Coimbatore",
-    "city": "Coimbatore",
-    "state": "Tamil Nadu",
-    "address": "Avinashi Main Road, Near Government Medical College Ground",
-    "phone": "+91-4242220512",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641014",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0095",
-    "name": "Sri Balaji Motors (Multi-Brand Point)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Road Area",
-    "phone": "+91-9843615431",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0096",
-    "name": "Vignesh Motors (TVS Point)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur High Road, Near Market",
-    "phone": "+91-9442516311",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0097",
-    "name": "Sree Ram Bajaj Agency",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Road Junction",
-    "phone": "+91-9865043113",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0098",
-    "name": "Ramani Hyundai (Mettupalayam Branch Hub)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Road, Near Bypass Junction Area",
-    "phone": "+91-4290233111",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0099",
-    "name": "DTS Tata Motors (Mettupalayam Hub)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Road, Near New Bus Stand Area",
-    "phone": "+91-4290224344",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0100",
-    "name": "Babu Cars (Mahindra Showroom - Mettupalayam)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty High Road Line",
-    "phone": "+91-4290232666",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "zone": "OSM",
-    "p1ncode": "641301",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0101",
-    "name": "Ramani Toyota Booking Point (Mettupalayam)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Ooty Main Road, Near Ring Road Area",
-    "phone": "+91-4290226455",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0102",
-    "name": "Royal Enfield - Saravana Motorsports (Mettupalayam Branch)",
-    "district": "Coimbatore",
-    "city": "Mettupalayam",
-    "state": "Tamil Nadu",
-    "address": "Annur Main Road, Near New Bus Stand Area",
-    "phone": "+91-8939841166",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_COIMBATORE_0103",
-    "name": "Pioneer Yamaha Agency (Sulur)",
-    "district": "Coimbatore",
-    "city": "Sulur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Opp to Government Hospital Complex",
-    "phone": "+91-4288232115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "641402",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "id": "PUN_RANIPET_0001",
+    "name": "Sri Balaji Tyre & Puncture Works",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Arcot Main Road, Near Muthu Kadai Junction, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9284,
+    "longitude": 79.3312,
+    "phone": "+91 94421 88305",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0002",
+    "name": "Arakkonam Quick Vulcanizing Shop",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Ochery Road, Near New Bus Stand Complex, Arakkonam, Tamil Nadu 631001",
+    "latitude": 13.0842,
+    "longitude": 79.6715,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0003",
+    "name": "National Tyre Care & Alignment Center",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Chennai Highway, Near SIPCOT Industrial Area Cross, Ranipet, Tamil Nadu 632403",
+    "latitude": 12.9412,
+    "longitude": 79.3245,
+    "phone": "+91 98655 44321",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0004",
+    "name": "Walajapet Highway Help Line Point",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Highway, Near Walajapet Toll Plaza, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9184,
+    "longitude": 79.3789,
+    "phone": "+91 97894 88712",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Assistance",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0005",
+    "name": "Selvam Tyre Works",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Cheyyar Main Road, Arcot Junction, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.8982,
+    "longitude": 79.3342,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0006",
+    "name": "Senthil Industrial Tube Repair Shop",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "SIPCOT Main Road, Complex Phase-1, Ranipet, Tamil Nadu 632403",
+    "latitude": 12.9451,
+    "longitude": 79.3212,
+    "phone": "+91 94424 11304",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0007",
+    "name": "Murugan Tyre Patch Point",
+    "district": "Ranipet",
+    "city": "Sholinghur",
+    "state": "Tamil Nadu",
+    "address": "Arakkonam High Road, Near Temple Hill Entry Way, Sholinghur, Ranipet, Tamil Nadu 631102",
+    "latitude": 13.1124,
+    "longitude": 79.4258,
+    "phone": "+91 91592 66341",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Stepney Changing",
+      "Nitrogen Air filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0008",
+    "name": "Star Tubeless Repair Corner",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Navalpur Road Area, Near Old Bus Stand Circle, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9315,
+    "longitude": 79.3284,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0009",
+    "name": "Basha Tyre & Vulcanising Works",
+    "district": "Ranipet",
+    "city": "Nemili",
+    "state": "Tamil Nadu",
+    "address": "Arakkonam Main Road, Nemili, Ranipet, Tamil Nadu 631051",
+    "latitude": 13.0185,
+    "longitude": 79.6124,
+    "phone": "+91 99426 11048",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0010",
+    "name": "Rayan Quick Puncture & Air Corner",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Thoppu Khana Area, Arcot, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.8951,
+    "longitude": 79.3282,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0011",
+    "name": "Kannan Highway Tyre Clinic",
+    "district": "Ranipet",
+    "city": "Ochery",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai Main Highway, Near Ochery Junction, Ranipet, Tamil Nadu 632531",
+    "latitude": 12.9515,
+    "longitude": 79.4582,
+    "phone": "+91 96555 44329",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0012",
+    "name": "Raja Vulcanizing Station",
+    "district": "Ranipet",
+    "city": "Panapakkam",
+    "state": "Tamil Nadu",
+    "address": "Main Road Market Place, Near Town Panchayat, Panapakkam, Ranipet, Tamil Nadu 631052",
+    "latitude": 13.0212,
+    "longitude": 79.5742,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0013",
+    "name": "Royal Highway Tyre Station",
+    "district": "Ranipet",
+    "city": "Kaifet",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Chennai Expressway Link Road, Kaifet, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9342,
+    "longitude": 79.3412,
+    "phone": "+91 94865 44810",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Fit"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0014",
+    "name": "Murugan Multi Brand Tyre Care",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Arcot Road, Opposite Scudder Memorial Hospital Area, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9295,
+    "longitude": 79.3324,
+    "phone": "+91 99426 11543",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tyre Changing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0015",
+    "name": "Anbu Tyre Point",
+    "district": "Ranipet",
+    "city": "Thakkolam",
+    "state": "Tamil Nadu",
+    "address": "Arakkonam-Thiruvallur Road, Mandi Street, Thakkolam, Ranipet, Tamil Nadu 631151",
+    "latitude": 13.0512,
+    "longitude": 79.7412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0016",
+    "name": "Apex Tyre Point & Repairers",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "BHEL Township Road, Near Main Gate Junction, Mukundarayapuram, Ranipet, Tamil Nadu 632406",
+    "latitude": 12.9542,
+    "longitude": 79.3452,
+    "phone": "+91 94876 55843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0017",
+    "name": "Arun Tyre Vulcanizing & Puncture",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Navalpur Road, Near Four Roads Junction, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9325,
+    "longitude": 79.3292,
+    "phone": "+91 94425 77618",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0018",
+    "name": "Highway Express Tyre Point",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Highway, Near Walaja Bypass, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9198,
+    "longitude": 79.3795,
+    "phone": "+91 97894 55366",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0019",
+    "name": "Bismillah Tyre Care & Tubes",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Mosur Road, Arakkonam Junction, Ranipet, Tamil Nadu 631001",
+    "latitude": 13.0855,
+    "longitude": 79.6732,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0020",
+    "name": "Sivam Quick Fix Corner",
+    "district": "Ranipet",
+    "city": "Sholinghur",
+    "state": "Tamil Nadu",
+    "address": "Kondapalayam Road, Sholinghur, Ranipet, Tamil Nadu 631102",
+    "latitude": 13.1142,
+    "longitude": 79.4285,
+    "phone": "+91 94863 55426",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0021",
+    "name": "Sri Murugan Multi Brand Tyre Care",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Opposite SIPCOT Industrial Complex, Ranipet, Tamil Nadu 632403",
+    "latitude": 12.9422,
+    "longitude": 79.3252,
+    "phone": "+91 99425 11933",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0022",
+    "name": "Star Vulcanising Shop",
+    "district": "Ranipet",
+    "city": "Nemili",
+    "state": "Tamil Nadu",
+    "address": "Sholinghur Main Road, Near Bus Stop Area, Nemili, Ranipet, Tamil Nadu 631051",
+    "latitude": 13.0195,
+    "longitude": 79.6131,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0023",
+    "name": "Kannan Tyre & Patch Point",
+    "district": "Ranipet",
+    "city": "Ochery",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Highway, Near Ochery Bazaar Cross, Ranipet, Tamil Nadu 632531",
+    "latitude": 12.9528,
+    "longitude": 79.4595,
+    "phone": "+91 96553 33614",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0024",
+    "name": "Raja Tyre Tube Clinic",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Ranipet High Road, Thoppu Khana, Arcot, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.8965,
+    "longitude": 79.3292,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0025",
+    "name": "National Highway Help Line Tyres",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Expressway, Near Walaja Toll Gate plaza, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9172,
+    "longitude": 79.3775,
+    "phone": "+91 94434 33317",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0026",
+    "name": "Selvam Quick Repair Shop",
+    "district": "Ranipet",
+    "city": "Panapakkam",
+    "state": "Tamil Nadu",
+    "address": "Main Road, Near Post Office Complex, Panapakkam, Ranipet, Tamil Nadu 631052",
+    "latitude": 13.0219,
+    "longitude": 79.5752,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0027",
+    "name": "Mani Tyre Corner",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Arcot Road Junction, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9272,
+    "longitude": 79.3302,
+    "phone": "+91 91592 44568",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0028",
+    "name": "Apex Tyre Point & Aligners",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, SIPCOT Phase-1, Ranipet, Tamil Nadu 632403",
+    "latitude": 12.9431,
+    "longitude": 79.3219,
+    "phone": "+91 94875 88732",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0029",
+    "name": "Anbu Tyre Point",
+    "district": "Ranipet",
+    "city": "Thakkolam",
+    "state": "Tamil Nadu",
+    "address": "Arakkonam Main Road, Thakkolam, Ranipet, Tamil Nadu 631151",
+    "latitude": 13.0498,
+    "longitude": 79.7395,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0030",
+    "name": "Arakkonam Junction Tyres",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Ochery Main Road, Town Entrance Area, Arakkonam, Tamil Nadu 631001",
+    "latitude": 13.0829,
+    "longitude": 79.6694,
+    "phone": "+91 94865 77643",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0031",
+    "name": "Basha Highway Vulcanising Center",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "Chennai-Bangalore Highway, Walaja Bypass Road, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9181,
+    "longitude": 79.3768,
+    "phone": "+91 99421 44526",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanising"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0032",
+    "name": "Royal Town Tyre Station",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Muthu Kadai Market Area Road, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9289,
+    "longitude": 79.3321,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0033",
+    "name": "Maruthi Tyre Alignment & Puncture",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Sholinghur Road, Near Railway Colony, Arakkonam, Ranipet, Tamil Nadu 631001",
+    "latitude": 13.0912,
+    "longitude": 79.6645,
+    "phone": "+91 94435 66124",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0034",
+    "name": "Express Highway Tyre Rescue",
+    "district": "Ranipet",
+    "city": "Ochery",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Highway, Near Ochery Toll Plaza Area, Ranipet, Tamil Nadu 632531",
+    "latitude": 12.9545,
+    "longitude": 79.4622,
+    "phone": "+91 98423 11895",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0035",
+    "name": "Balaji Vulcanizing Work",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near Arcot Bus Stand, Arcot, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.8942,
+    "longitude": 79.3248,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0036",
+    "name": "SK Tyre Patch & Care",
+    "district": "Ranipet",
+    "city": "Sholinghur",
+    "state": "Tamil Nadu",
+    "address": "Arakkonam High Road, Near Government Hospital, Sholinghur, Ranipet, Tamil Nadu 631102",
+    "latitude": 13.1115,
+    "longitude": 79.4312,
+    "phone": "+91 97512 88439",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0037",
+    "name": "Safe Drive Tyre Tech",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Bazaar Street, Near Muthu Kadai Clock Tower, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9298,
+    "longitude": 79.3338,
+    "phone": "+91 91500 22341",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0038",
+    "name": "Highway 24/7 Tyre Services",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Service Road, Near Sri Krishna Engineering College Cross, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9212,
+    "longitude": 79.3815,
+    "phone": "+91 94441 55628",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0039",
+    "name": "Nisha Tubeless Clinic",
+    "district": "Ranipet",
+    "city": "Ka感がnallur",
+    "state": "Tamil Nadu",
+    "address": "Katpadi Main Road, Kalavai Junction Area, Ranipet, Tamil Nadu 632506",
+    "latitude": 12.8732,
+    "longitude": 79.2895,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0040",
+    "name": "Rahman Tyre & Tube Square",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Navalpur Main Road, Near MGR Statue, Ranipet, Tamil Nadu 632402",
+    "latitude": 12.9361,
+    "longitude": 79.3275,
+    "phone": "+91 99945 33216",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0041",
+    "name": "Ganesh Vulcanising Shop",
+    "district": "Ranipet",
+    "city": "Panapakkam",
+    "state": "Tamil Nadu",
+    "address": "Sholinghur-Panapakkam Road, Near Bus Stand, Panapakkam, Ranipet, Tamil Nadu 631052",
+    "latitude": 13.0245,
+    "longitude": 79.5718,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0042",
+    "name": "Speedway Tyre Alignment Centre",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Chennai Road, SIPCOT Industrial Estate Phase-2, Ranipet, Tamil Nadu 632403",
+    "latitude": 12.9465,
+    "longitude": 79.3188,
+    "phone": "+91 94421 88943",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0043",
+    "name": "Velu Auto & Tyre Patch",
+    "district": "Ranipet",
+    "city": "Nemili",
+    "state": "Tamil Nadu",
+    "address": "Arakkonam-Nemili High Road, Near Government Higher Secondary School, Nemili, Ranipet, Tamil Nadu 631051",
+    "latitude": 13.0162,
+    "longitude": 79.6105,
+    "phone": "+91 96294 33517",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0044",
+    "name": "Star Express Highway Point",
+    "district": "Ranipet",
+    "city": "Ochery",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Bangalore-Chennai Highway, Near Kaveripakkam Drop, Ochery, Ranipet, Tamil Nadu 632531",
+    "latitude": 12.9511,
+    "longitude": 79.4568,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0045",
+    "name": "Royal Enfield Specialist & Tyre Point",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Mosur Road, Opposite Railway Kalyana Mandapam, Arakkonam, Ranipet, Tamil Nadu 631001",
+    "latitude": 13.0872,
+    "longitude": 79.6755,
+    "phone": "+91 98942 77312",
+    "services": [
+      "Bike Puncture",
+      "Heavy Bike Tyre Patch",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0046",
+    "name": "Arcot Bypass Tyre Junction",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Arcot Bypass Road, Near Palar Bridge View, Arcot, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.9015,
+    "longitude": 79.3315,
+    "phone": "+91 94861 22435",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0047",
+    "name": "Mani Quick Patch Corner",
+    "district": "Ranipet",
+    "city": "Thakkolam",
+    "state": "Tamil Nadu",
+    "address": "Perumal Koil Street, Thakkolam, Ranipet, Tamil Nadu 631151",
+    "latitude": 13.0475,
+    "longitude": 79.7342,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0048",
+    "name": "Highway Ranger Tyre Clinic",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Expressway, Near Walajapet Toll Plaza, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9165,
+    "longitude": 79.3751,
+    "phone": "+91 97865 44321",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0049",
+    "name": "Sri Sai Baba Vulcanizing & Puncture",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Winterpet Main Road, Near Railway Ground, Arakkonam, Ranipet, Tamil Nadu 631005",
+    "latitude": 13.0788,
+    "longitude": 79.6612,
+    "phone": "+91 94421 77539",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0050",
+    "name": "Kaveripakkam Highway Tyre Rescue",
+    "district": "Ranipet",
+    "city": "Kaveripakkam",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Service Road, Near Kaveripakkam Bus Stand Cross, Ranipet, Tamil Nadu 632508",
+    "latitude": 12.9615,
+    "longitude": 79.4712,
+    "phone": "+91 98436 44521",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0051",
+    "name": "Nasser Tyre Care Corner",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Kalavai Road, Near Cheyyar Gate Junction, Arcot, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.8895,
+    "longitude": 79.3271,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0052",
+    "name": "Murugan Quick Tyre Patch",
+    "district": "Ranipet",
+    "city": "Sholinghur",
+    "state": "Tamil Nadu",
+    "address": "Banavaram Road, Near Railway Station Area, Sholinghur, Ranipet, Tamil Nadu 631102",
+    "latitude": 13.1205,
+    "longitude": 79.4418,
+    "phone": "+91 97891 33246",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0053",
+    "name": "Rasi Tyre Clinic & Nitrogen Air",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Chennai Highway, Near Scudder Memorial Church Road, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9315,
+    "longitude": 79.3245,
+    "phone": "+91 91599 88412",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0054",
+    "name": "Toll Gate Emergency Tyre Point",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Expressway, Adjacent to Walaja Toll Plaza, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9158,
+    "longitude": 79.3739,
+    "phone": "+91 94445 11984",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0055",
+    "name": "Babu Tyre Square",
+    "district": "Ranipet",
+    "city": "Kalavai",
+    "state": "Tamil Nadu",
+    "address": "Arcot Main Road, Near Kalavai Bus Stand, Ranipet, Tamil Nadu 632506",
+    "latitude": 12.7712,
+    "longitude": 79.2945,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0056",
+    "name": "New Star Tyre Clinic",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Navalpur Road, Near Weekly Market Ground, Ranipet, Tamil Nadu 632402",
+    "latitude": 12.9348,
+    "longitude": 79.3289,
+    "phone": "+91 99941 55432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0057",
+    "name": "Anjaneya Vulcanising Shop",
+    "district": "Ranipet",
+    "city": "Panapakkam",
+    "state": "Tamil Nadu",
+    "address": "Arakkonam-Panapakkam Road, Near EB Office Complex, Panapakkam, Ranipet, Tamil Nadu 631052",
+    "latitude": 13.0271,
+    "longitude": 79.5745,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0058",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Opposite BHEL Township Entrance, Ranipet, Tamil Nadu 632406",
+    "latitude": 12.9512,
+    "longitude": 79.3145,
+    "phone": "+91 94425 88164",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0059",
+    "name": "Kumaran Auto & Tyre Patch",
+    "district": "Ranipet",
+    "city": "Nemili",
+    "state": "Tamil Nadu",
+    "address": "Banavaram High Road, Near Koot Road Junction, Nemili, Ranipet, Tamil Nadu 631051",
+    "latitude": 13.0125,
+    "longitude": 79.6072,
+    "phone": "+91 96291 44832",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0060",
+    "name": "Express Highway 48 Tyre Care",
+    "district": "Ranipet",
+    "city": "Ochery",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Highway, Opposite Ochery Police Station Outpost, Ranipet, Tamil Nadu 632531",
+    "latitude": 12.9492,
+    "longitude": 79.4532,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0061",
+    "name": "A1 Bike Zone & Tyre Repair",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Gandhi Road, Near Old Bus Stand, Arakkonam, Ranipet, Tamil Nadu 631001",
+    "latitude": 13.0841,
+    "longitude": 79.6682,
+    "phone": "+91 98945 66214",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0062",
+    "name": "Arcot Palar Bridge Tyre Junction",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Ranipet-Arcot Main Road, Near Palar River Bridge Checkpost, Arcot, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.9052,
+    "longitude": 79.3339,
+    "phone": "+91 94865 33418",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0063",
+    "name": "Siva Quick Repair Shop",
+    "district": "Ranipet",
+    "city": "Thakkolam",
+    "state": "Tamil Nadu",
+    "address": "Railway Station Road, Thakkolam, Ranipet, Tamil Nadu 631151",
+    "latitude": 13.0452,
+    "longitude": 79.7298,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0064",
+    "name": "Highway Track Tyre Point",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Expressway, Walaja Bypass Service Lane, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9142,
+    "longitude": 79.3718,
+    "phone": "+91 97861 55432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0065",
+    "name": "Bismillah Tyre Point",
+    "district": "Ranipet",
+    "city": "Melvisharam",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Chennai Trunk Road, Near Melvisharam Bus Stop, Ranipet, Tamil Nadu 632509",
+    "latitude": 12.9125,
+    "longitude": 79.2541,
+    "phone": "+91 94432 11543",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0066",
+    "name": "Al-Ameen Vulcanising Works",
+    "district": "Ranipet",
+    "city": "Melvisharam",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Service Road, Near Khizar Mosque, Melvisharam, Ranipet, Tamil Nadu 632509",
+    "latitude": 12.9108,
+    "longitude": 79.2495,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0067",
+    "name": "Banavaram Junction Tyre Corner",
+    "district": "Ranipet",
+    "city": "Banavaram",
+    "state": "Tamil Nadu",
+    "address": "Sholinghur-Arcot Main Road, Banavaram Junction, Ranipet, Tamil Nadu 632505",
+    "latitude": 13.0112,
+    "longitude": 79.4895,
+    "phone": "+91 97864 88531",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0068",
+    "name": "Sri Krishna Quick Patch",
+    "district": "Ranipet",
+    "city": "Banavaram",
+    "state": "Tamil Nadu",
+    "address": "Station Road, Near Banavaram Railway Station, Ranipet, Tamil Nadu 632505",
+    "latitude": 13.0185,
+    "longitude": 79.4932,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0069",
+    "name": "Vellore Border Tyre Rescue",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Highway, Near Ranipet-Vellore Border Checkpost, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9301,
+    "longitude": 79.2815,
+    "phone": "+91 98432 99541",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0070",
+    "name": "Santhosh Tyre Patch Shop",
+    "district": "Ranipet",
+    "city": "Timiri",
+    "state": "Tamil Nadu",
+    "address": "Arani Main Road, Near Timiri Bus Stand, Ranipet, Tamil Nadu 632512",
+    "latitude": 12.7545,
+    "longitude": 79.3112,
+    "phone": "+91 91593 44618",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0071",
+    "name": "Muna Tyre & Tube Care",
+    "district": "Ranipet",
+    "city": "Melvisharam",
+    "state": "Tamil Nadu",
+    "address": "Trunk Road, Opposite C. Abdul Hakeem College, Melvisharam, Ranipet, Tamil Nadu 632509",
+    "latitude": 12.9145,
+    "longitude": 79.2612,
+    "phone": "+91 99942 66315",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0072",
+    "name": "Jai Hanuman Tyre Point",
+    "district": "Ranipet",
+    "city": "Sholinghur",
+    "state": "Tamil Nadu",
+    "address": "Hill Temple Road, Near Down Hill Car Parking, Sholinghur, Ranipet, Tamil Nadu 631102",
+    "latitude": 13.1188,
+    "longitude": 79.4215,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0073",
+    "name": "Balu Motor & Tyre Work",
+    "district": "Ranipet",
+    "city": "Kalavai",
+    "state": "Tamil Nadu",
+    "address": "Cheyyar High Road, Near Kalavai Police Station, Ranipet, Tamil Nadu 632506",
+    "latitude": 12.7685,
+    "longitude": 79.2891,
+    "phone": "+91 96295 11438",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0074",
+    "name": "SIPCOT Industrial Emergency Tyres",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near SIPCOT Phase-3 Cross, Ranipet, Tamil Nadu 632403",
+    "latitude": 12.9488,
+    "longitude": 79.3112,
+    "phone": "+91 94443 66127",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0075",
+    "name": "Venkateswara Vulcanising Clinic",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Arakkonam-Tiruttani Road, Near Town Checkpost Area, Arakkonam, Tamil Nadu 631001",
+    "latitude": 13.1012,
+    "longitude": 79.6712,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0076",
+    "name": "Highway Night Rider Tyres",
+    "district": "Ranipet",
+    "city": "Kaveripakkam",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Expressway, Near Kaveripakkam Lake View Spot, Ranipet, Tamil Nadu 632508",
+    "latitude": 12.9582,
+    "longitude": 79.4675,
+    "phone": "+91 97863 11452",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0077",
+    "name": "Raza Tyre Alignment & Patch",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Cheyyar Road, Near Arcot Town Municipal Office, Arcot, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.8912,
+    "longitude": 79.3305,
+    "phone": "+91 94862 77419",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0078",
+    "name": "Guru Quick Repair Point",
+    "district": "Ranipet",
+    "city": "Panapakkam",
+    "state": "Tamil Nadu",
+    "address": "Nemili Road Area, Near Panapakkam Bus Stop, Ranipet, Tamil Nadu 631052",
+    "latitude": 13.0198,
+    "longitude": 79.5792,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0079",
+    "name": "Expressway Toll Plaza Tyre Help",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Expressway, 500m before Walaja Toll plaza, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9149,
+    "longitude": 79.3725,
+    "phone": "+91 94421 33489",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0080",
+    "name": "Murugan Tyre Work & Tubes",
+    "district": "Ranipet",
+    "city": "Timiri",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near Timiri Co-operative Bank, Ranipet, Tamil Nadu 632512",
+    "latitude": 12.7592,
+    "longitude": 79.3085,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0081",
+    "name": "Siva Sakthi Vulcanizing Corner",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Tiruttani High Road, Near Railway Overbridge, Arakkonam, Ranipet, Tamil Nadu 631001",
+    "latitude": 13.0988,
+    "longitude": 79.6702,
+    "phone": "+91 94436 11254",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0082",
+    "name": "Highway Quick Fix Center",
+    "district": "Ranipet",
+    "city": "Kaveripakkam",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Highway, Near Kaveripakkam Bypass Junction, Ranipet, Tamil Nadu 632508",
+    "latitude": 12.9565,
+    "longitude": 79.4642,
+    "phone": "+91 98431 55632",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0083",
+    "name": "Rahamath Tyre Care",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Kannamangalam Road, Near Arcot Star Theatre Cross, Arcot, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.8852,
+    "longitude": 79.3241,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0084",
+    "name": "Vignesh Quick Tyre Fix",
+    "district": "Ranipet",
+    "city": "Sholinghur",
+    "state": "Tamil Nadu",
+    "address": "Banavaram Main Road, Near Sholinghur Bus Stand Complex, Sholinghur, Ranipet, Tamil Nadu 631102",
+    "latitude": 13.1155,
+    "longitude": 79.4348,
+    "phone": "+91 97894 88312",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0085",
+    "name": "City Centre Tyre & Alignment Zone",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near Ranipet Town Police Station, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9328,
+    "longitude": 79.3262,
+    "phone": "+91 91595 77418",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0086",
+    "name": "Toll Plaza Highway Ranger Tyres",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Expressway, Walajapet Toll Gate Exit Lane, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9138,
+    "longitude": 79.3705,
+    "phone": "+91 94441 88523",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0087",
+    "name": "Anand Tyre & Tube Square",
+    "district": "Ranipet",
+    "city": "Kalavai",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Kalavai Road, Near Government Hospital Area, Ranipet, Tamil Nadu 632506",
+    "latitude": 12.7745,
+    "longitude": 79.2912,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0088",
+    "name": "National Tyre Repair Shop",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Navalpur Road, Opposite Municipal High School, Ranipet, Tamil Nadu 632402",
+    "latitude": 12.9332,
+    "longitude": 79.3268,
+    "phone": "+91 99943 44117",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0089",
+    "name": "Sri Balaji Vulcanising Shop",
+    "district": "Ranipet",
+    "city": "Panapakkam",
+    "state": "Tamil Nadu",
+    "address": "Sholinghur High Road, Near Cooperative Bank, Panapakkam, Ranipet, Tamil Nadu 631052",
+    "latitude": 13.0292,
+    "longitude": 79.5768,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0090",
+    "name": "Bridgestone Tyre Select - Sri Vinayaga",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Opposite BHEL Main Gate, Ranipet, Tamil Nadu 632406",
+    "latitude": 12.9531,
+    "longitude": 79.3122,
+    "phone": "+91 94422 77416",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "New Tyre Sales"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0091",
+    "name": "Sakthi Auto & Tyre Patch",
+    "district": "Ranipet",
+    "city": "Nemili",
+    "state": "Tamil Nadu",
+    "address": "Arakkonam Main Road, Near Nemili Police Station, Ranipet, Tamil Nadu 631051",
+    "latitude": 13.0108,
+    "longitude": 79.6045,
+    "phone": "+91 96293 88124",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0092",
+    "name": "Expressway 48 Highway Tyre Point",
+    "district": "Ranipet",
+    "city": "Ochery",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Expressway, Near Ochery Toll Gate Cross, Ranipet, Tamil Nadu 632531",
+    "latitude": 12.9465,
+    "longitude": 79.4498,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0093",
+    "name": "Arakkonam Central Tyre Repair",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Stuartpet Main Road, Near Railway Divisional Office, Arakkonam, Ranipet, Tamil Nadu 631001",
+    "latitude": 13.0815,
+    "longitude": 79.6632,
+    "phone": "+91 98941 22543",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0094",
+    "name": "Arcot Palar Bridge Side Tyres",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Arcot-Vellore Highway Road, Near New Palar Bridge Approach, Arcot, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.9071,
+    "longitude": 79.3361,
+    "phone": "+91 94861 88412",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0095",
+    "name": "Murugan Quick Repair Corner",
+    "district": "Ranipet",
+    "city": "Thakkolam",
+    "state": "Tamil Nadu",
+    "address": "Arakkonam High Road Cross, Thakkolam, Ranipet, Tamil Nadu 631151",
+    "latitude": 13.0418,
+    "longitude": 79.7212,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0096",
+    "name": "Highway Tracker Tyre Center",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Expressway, Near Walajapet Bypass Bridge, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9115,
+    "longitude": 79.3685,
+    "phone": "+91 97864 11254",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0097",
+    "name": "Sartaj Tyre & Vulcanising Works",
+    "district": "Ranipet",
+    "city": "Melvisharam",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Service Road, Near Anna Statue, Melvisharam, Ranipet, Tamil Nadu 632509",
+    "latitude": 12.9118,
+    "longitude": 79.2515,
+    "phone": "+91 94424 55162",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0098",
+    "name": "Al-Ahad Tyre Care Corner",
+    "district": "Ranipet",
+    "city": "Melvisharam",
+    "state": "Tamil Nadu",
+    "address": "Trunk Road, Near Islamic Higher Secondary School, Melvisharam, Ranipet, Tamil Nadu 632509",
+    "latitude": 12.9135,
+    "longitude": 79.2582,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0099",
+    "name": "Banavaram Road Tyre Repair Shop",
+    "district": "Ranipet",
+    "city": "Banavaram",
+    "state": "Tamil Nadu",
+    "address": "Arcot Main Road, Near Bus Stand Area, Banavaram, Ranipet, Tamil Nadu 632505",
+    "latitude": 13.0132,
+    "longitude": 79.4912,
+    "phone": "+91 97861 33425",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0100",
+    "name": "Sri Venkateswara Tyre Patch Works",
+    "district": "Ranipet",
+    "city": "Banavaram",
+    "state": "Tamil Nadu",
+    "address": "Panapakkam Road, Near Bazaar Junction, Banavaram, Ranipet, Tamil Nadu 632505",
+    "latitude": 13.0158,
+    "longitude": 79.4955,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0101",
+    "name": "Vellore Highway Emergency Tyres",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Expressway, Near Ranipet Toll Plaza Exit, Ranipet, Tamil Nadu 632401",
+    "latitude": 12.9285,
+    "longitude": 79.2785,
+    "phone": "+91 98435 44128",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0102",
+    "name": "Srinivasa Tyre Patch Point",
+    "district": "Ranipet",
+    "city": "Timiri",
+    "state": "Tamil Nadu",
+    "address": "Kalavai High Road, Near Timiri Market Area, Ranipet, Tamil Nadu 632512",
+    "latitude": 12.7521,
+    "longitude": 79.3092,
+    "phone": "+91 91591 22435",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0103",
+    "name": "Al-Mubarak Tyre Square",
+    "district": "Ranipet",
+    "city": "Melvisharam",
+    "state": "Tamil Nadu",
+    "address": "Trunk Road, Opposite Muslim Welfare Association Hospital, Melvisharam, Ranipet, Tamil Nadu 632509",
+    "latitude": 12.9161,
+    "longitude": 79.2645,
+    "phone": "+91 99941 22543",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0104",
+    "name": "Hill Side Quick Tyre Fix",
+    "district": "Ranipet",
+    "city": "Sholinghur",
+    "state": "Tamil Nadu",
+    "address": "Tiruttani Main Road, Near Sholinghur Railway Station Cross Road, Sholinghur, Ranipet, Tamil Nadu 631102",
+    "latitude": 13.1215,
+    "longitude": 79.4245,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0105",
+    "name": "Nandhi Motor & Tyre Clinic",
+    "district": "Ranipet",
+    "city": "Kalavai",
+    "state": "Tamil Nadu",
+    "address": "Arcot Main Road, Opposite Government Girls Higher Secondary School, Kalavai, Ranipet, Tamil Nadu 632506",
+    "latitude": 12.7658,
+    "longitude": 79.2852,
+    "phone": "+91 96291 33418",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0106",
+    "name": "SIPCOT Main Road Heavy Tyre Works",
+    "district": "Ranipet",
+    "city": "Ranipet Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Adjacent to SIPCOT Commercial Complex, Ranipet, Tamil Nadu 632403",
+    "latitude": 12.9512,
+    "longitude": 79.3085,
+    "phone": "+91 94441 55342",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0107",
+    "name": "Sri Tirumala Vulcanising Works",
+    "district": "Ranipet",
+    "city": "Arakkonam",
+    "state": "Tamil Nadu",
+    "address": "Sholinghur High Road, Near Town Water Tank, Arakkonam, Tamil Nadu 631001",
+    "latitude": 13.0985,
+    "longitude": 79.6685,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0108",
+    "name": "Express Highway Lake View Tyres",
+    "district": "Ranipet",
+    "city": "Kaveripakkam",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Expressway, Adjacent to Kaveripakkam Lake Bridge, Ranipet, Tamil Nadu 632508",
+    "latitude": 12.9612,
+    "longitude": 79.4695,
+    "phone": "+91 97861 22543",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0109",
+    "name": "Star Tyre Alignment & Puncture Point",
+    "district": "Ranipet",
+    "city": "Arcot",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Opposite Arcot New Bus Stand, Arcot, Ranipet, Tamil Nadu 632503",
+    "latitude": 12.8942,
+    "longitude": 79.3285,
+    "phone": "+91 94861 55341",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0110",
+    "name": "Santhosh Quick Repair Point",
+    "district": "Ranipet",
+    "city": "Panapakkam",
+    "state": "Tamil Nadu",
+    "address": "Nemili Main Road, Opposite Government Hospital Complex, Panapakkam, Ranipet, Tamil Nadu 631052",
+    "latitude": 13.0175,
+    "longitude": 79.5768,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0111",
+    "name": "Highway Express Toll Plaza Support",
+    "district": "Ranipet",
+    "city": "Walajapet",
+    "state": "Tamil Nadu",
+    "address": "NH-48 Chennai-Bangalore Expressway, 1km after Walaja Toll Gate plaza, Walajapet, Tamil Nadu 632513",
+    "latitude": 12.9112,
+    "longitude": 79.3695,
+    "phone": "+91 94425 22341",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_RANIPET_0112",
+    "name": "Murugan Tyre Patch & Tube Shop",
+    "district": "Ranipet",
+    "city": "Timiri",
+    "state": "Tamil Nadu",
+    "address": "Arani High Road, Near Timiri Panchayat Union Office, Ranipet, Tamil Nadu 632512",
+    "latitude": 12.7612,
+    "longitude": 79.3115,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   }
 ]

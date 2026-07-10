@@ -1,1520 +1,2571 @@
 [
   {
-    "id": "OSM_TIRUVANNAMALAI_0001",
-    "name": "Unnamed Showroom",
+    "id": "PUN_TIRUVANNAMALAI_0001",
+    "name": "Sri Balaji Tyre Care & Puncture",
     "district": "Tiruvannamalai",
-    "city": "",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "",
-    "phone": "",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "lat": 12.2360864,
-    "lng": 79.0726665,
-    "pincode": "",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "source_id": "node/6290570386",
-    "verification_status": "osm_verified"
+    "address": "Vellore Main Road, Near Girivalam Road Junction Area, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2345,
+    "longitude": 79.0682,
+    "phone": "+91 94432 11847",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0002",
-    "name": "Arun Hyundai",
+    "id": "PUN_TIRUVANNAMALAI_0002",
+    "name": "Tiruvannamalai Highway Breakdown Tyres",
     "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "No. 336/2B, Polur Main Road, Vengikkal",
-    "phone": "+91-4175233111",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-38 Bypass Road, Near Polur Flyover Junction, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2412,
+    "longitude": 79.0745,
+    "phone": "+91 98427 99628",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0003",
-    "name": "Khivraj Maruti Suzuki (ARENA)",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No 42/1, Tindivanam Highway Road, Kilpennathur",
-    "phone": "+91-4175252201",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "604601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0004",
-    "name": "Babu Cars (Mahindra Showroom)",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No. 185, Vellore Main Road, Vengikkal",
-    "phone": "+91-4175232666",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0005",
-    "name": "DTS Tata Motors",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No 54/2A, Avalon Main Road, Near New Bus Stand Area",
-    "phone": "+91-4175224344",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0006",
-    "name": "Maruti Suzuki NEXA (Khivraj Motors)",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Polur Road, Next to Government Arts College, Vengikkal",
-    "phone": "+91-9751917575",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0007",
-    "name": "Aanya Honda Cars",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Vellore High Road, Vengikkal Bypass Junction",
-    "phone": "+91-4175235477",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0008",
-    "name": "Ramani Toyota Service & Booking Point",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Tindivanam Road, Near collectorate complex Area",
-    "phone": "+91-4175226455",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0009",
-    "name": "Annamalai Suzuki",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No 8, Chengam Road, Opposite Ramana Ashram",
-    "phone": "+91-4175236615",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606603",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0010",
-    "name": "Sri Sakthi Hero",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No 14, Polur Road, Near Vengikkal Railway Gate",
-    "phone": "+91-4175232544",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0011",
-    "name": "Giri Honda",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No 88, Vellore Main Road, Vengikkal",
-    "phone": "+91-4175231234",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0012",
-    "name": "Thirumala TVS",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No 105, Tindivanam Main Road",
-    "phone": "+91-9443354222",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0013",
-    "name": "Ram Yamaha Agency",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No 42, Polur Road, Vengikkal",
-    "phone": "+91-4175232105",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0014",
-    "name": "Royal Enfield - Saravana Motorsports",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No 25, Avalon High Road, Near New Bus Stand",
-    "phone": "+91-8939841155",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0015",
-    "name": "Balaji Auto Agencies (Bajaj Showroom)",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No 19, Vellore Road, Vengikkal Junction",
-    "phone": "+91-4175231199",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0016",
-    "name": "Sri Sakthi Hero (Arani Branch)",
+    "id": "PUN_TIRUVANNAMALAI_0003",
+    "name": "National Tyre & Vulcanizing Works",
     "district": "Tiruvannamalai",
     "city": "Arani",
     "state": "Tamil Nadu",
-    "address": "No 45, Vellore Main Road",
-    "phone": "+91-4173225636",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Near Arani Old Bus Stand Circle, Arani, Tiruvannamalai, Tamil Nadu 632301",
+    "latitude": 12.6685,
+    "longitude": 79.2852,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0017",
-    "name": "Kavan Honda",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "No 112, Arcot Main Road",
-    "phone": "+91-4173221522",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0018",
-    "name": "Thirumala TVS (Arani)",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "No 12A, Chetpet Main Road",
-    "phone": "+91-9443321576",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0019",
-    "name": "Babu Cars Maruti Suzuki (Arani)",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "Vellore Road, Opposite To Government Hospital Area",
-    "phone": "+91-4173224346",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0020",
-    "name": "Ram Suzuki (Arani Network)",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "No 4, Chetpet High Road",
-    "phone": "+91-9442561226",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0021",
-    "name": "Sri Sakthi Hero (Polur)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "No 112, Chetpet Main Road",
-    "phone": "+91-4173229455",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0022",
-    "name": "Thirumala TVS (Polur)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "No 56, Vellore Main Road",
-    "phone": "+91-9443214556",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0023",
-    "name": "Giri Honda (Polur)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "No 204, Tiruvannamalai Main Road",
-    "phone": "+91-4173220300",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0024",
-    "name": "Khivraj Maruti Suzuki (Polur)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Vellore Main Road, Opposite Government ITI",
-    "phone": "+91-9751917176",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0025",
-    "name": "Raja TVS Agency (Chengam)",
+    "id": "PUN_TIRUVANNAMALAI_0004",
+    "name": "Chengam Toll Plaza Puncture Corner",
     "district": "Tiruvannamalai",
     "city": "Chengam",
     "state": "Tamil Nadu",
-    "address": "No 14, Tiruvannamalai Road",
-    "phone": "+91-9443521609",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-77 Bangalore Highway, Near Chengam Toll Plaza Area, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 94865 99628",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Emergency Highway Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0026",
-    "name": "Balaji Honda Care (Chengam)",
+    "id": "PUN_TIRUVANNAMALAI_0005",
+    "name": "Cheyyar Town Tyre Square",
+    "district": "Tiruvannamalai",
+    "city": "Cheyyar",
+    "state": "Tamil Nadu",
+    "address": "Kanchipuram Main Road, Near Cheyyar New Bus Stand Complex, Cheyyar, Tiruvannamalai, Tamil Nadu 604407",
+    "latitude": 12.6582,
+    "longitude": 79.5412,
+    "phone": "+91 99421 11847",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0006",
+    "name": "Polur Bypass Emergency Tyres",
+    "district": "Tiruvannamalai",
+    "city": "Polur",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Tiruvannamalai Highway, Near Polur New Bypass Roundana, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "phone": "+91 96554 44531",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0007",
+    "name": "Sri Murugan Multi Brand Tyre Care",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Tindivanam Road, Opposite Government Medical College Hospital, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2285,
+    "longitude": 79.0852,
+    "phone": "+91 94422 11847",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0008",
+    "name": "Vandavasi Highway Tyre Point",
+    "district": "Tiruvannamalai",
+    "city": "Vandavasi",
+    "state": "Tamil Nadu",
+    "address": "Melmaruvathur High Road, Near Vandavasi Bus Stand Crossing, Vandavasi, Tiruvannamalai, Tamil Nadu 604408",
+    "latitude": 12.4812,
+    "longitude": 79.6112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0009",
+    "name": "Royal Tyre Clinic",
+    "district": "Tiruvannamalai",
+    "city": "Kalasapakkam",
+    "state": "Tamil Nadu",
+    "address": "Polur Main Road, Near Kalasapakkam Bus Stand Area, Kalasapakkam, Tiruvannamalai, Tamil Nadu 606751",
+    "latitude": 12.4112,
+    "longitude": 79.1145,
+    "phone": "+91 91592 44531",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0010",
+    "name": "Sathanur Dam Road 24 Hours Tyres",
+    "district": "Tiruvannamalai",
+    "city": "Chengam Area",
+    "state": "Tamil Nadu",
+    "address": "Sathanur Dam Road Junction, Near Bangalore Highway Lane, Chengam Area, Tiruvannamalai, Tamil Nadu 606706",
+    "latitude": 12.1985,
+    "longitude": 78.8542,
+    "phone": "+91 97865 22143",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0011",
+    "name": "Kilpennathur Quick Tyre Zone",
+    "district": "Tiruvannamalai",
+    "city": "Kilpennathur",
+    "state": "Tamil Nadu",
+    "address": "Tindivanam High Road, Near Kilpennathur Town Panchayat Office, Kilpennathur, Tiruvannamalai, Tamil Nadu 604601",
+    "latitude": 12.2612,
+    "longitude": 79.2145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0012",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Opposite AVR Swarnamahal Complex, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2312,
+    "longitude": 79.0645,
+    "phone": "+91 94425 11847",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0013",
+    "name": "Kannan Tyre & Patch Point",
+    "district": "Tiruvannamalai",
+    "city": "Polsani",
+    "state": "Tamil Nadu",
+    "address": "Chetpet Main Road, Near Polsani Market Square, Tiruvannamalai, Tamil Nadu 606801",
+    "latitude": 12.4345,
+    "longitude": 79.3312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0014",
+    "name": "Kannamangalam Town Quick Repair Shop",
+    "district": "Tiruvannamalai",
+    "city": "Arani Area",
+    "state": "Tamil Nadu",
+    "address": "Vellore High Road, Near Kannamangalam Bus Stand Complex, Arani Area, Tiruvannamalai, Tamil Nadu 632311",
+    "latitude": 12.7345,
+    "longitude": 79.1685,
+    "phone": "+91 94863 11847",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0015",
+    "name": "Girivalam Path Highway Help Line Tyres",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Girivalam Main Road, Near Sri Ramanasramam Entrance View, Tiruvannamalai, Tamil Nadu 606603",
+    "latitude": 12.2212,
+    "longitude": 79.0485,
+    "phone": "+91 94434 44531",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0016",
+    "name": "Star Express Tyre Station",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Car Street, Near Annamalaiyar Temple Rajagopuram Entry, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2252,
+    "longitude": 79.0695,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0017",
+    "name": "Bismillah Tyre Care & Vulcanizing",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near Old Bus Stand, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2315,
+    "longitude": 79.0652,
+    "phone": "+91 94421 11847",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0018",
+    "name": "Polur Ghat Road 24/7 Tyre Rescue",
+    "district": "Tiruvannamalai",
+    "city": "Polur",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Tiruvannamalai Highway, Near Polur Railway Station Pass, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5142,
+    "longitude": 79.1212,
+    "phone": "+91 98436 44531",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0019",
+    "name": "Aman Tyre Square & Tubes",
+    "district": "Tiruvannamalai",
+    "city": "Arani",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Opposite Kamajar Statue Area, Arani, Tiruvannamalai, Tamil Nadu 632301",
+    "latitude": 12.6652,
+    "longitude": 79.2812,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0020",
+    "name": "Chengam Bypass Quick Fix Corner",
     "district": "Tiruvannamalai",
     "city": "Chengam",
     "state": "Tamil Nadu",
-    "address": "Bangalore Main Road",
-    "phone": "+91-9944051609",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-77 Bangalore Highway, Near Chengam Town Panchayat Ground Cross, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3042,
+    "longitude": 78.8082,
+    "phone": "+91 97891 99628",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0027",
-    "name": "Sri Sakthi Hero (Chengam Point)",
+    "id": "PUN_TIRUVANNAMALAI_0021",
+    "name": "Sri Vinayaga Multi Brand Tyre Care",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Polur Main Road, Opposite New Bus Stand Complex, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2442,
+    "longitude": 79.0785,
+    "phone": "+91 99425 11847",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0022",
+    "name": "Cheyyar High Road Side Vulcanising",
+    "district": "Tiruvannamalai",
+    "city": "Cheyyar",
+    "state": "Tamil Nadu",
+    "address": "Kanchipuram Main Road, Near Cheyyar Industrial SIPCOT Phase-1, Cheyyar, Tiruvannamalai, Tamil Nadu 604407",
+    "latitude": 12.6542,
+    "longitude": 79.5385,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0023",
+    "name": "Kannan Tyre & Patch Point",
+    "district": "Tiruvannamalai",
+    "city": "Vandavasi",
+    "state": "Tamil Nadu",
+    "address": "Melmaruvathur Main Road, Near Vandavasi Government Hospital, Vandavasi, Tiruvannamalai, Tamil Nadu 604408",
+    "latitude": 12.4842,
+    "longitude": 79.6142,
+    "phone": "+91 96553 99628",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0024",
+    "name": "Raja Tyre Tube Clinic",
+    "district": "Tiruvannamalai",
+    "city": "Kalasapakkam",
+    "state": "Tamil Nadu",
+    "address": "Polur High Road, Near Kalasapakkam Bazaar Complex Area, Kalasapakkam, Tiruvannamalai, Tamil Nadu 606751",
+    "latitude": 12.4142,
+    "longitude": 79.1112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0025",
+    "name": "Chengam Highway Toll Plaza Emergency Tyres",
     "district": "Tiruvannamalai",
     "city": "Chengam",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai High Road",
-    "phone": "+91-4175262537",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-77 Bangalore Expressway Route, Near Chengam Toll Plaza Cross, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8145,
+    "phone": "+91 94434 44128",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0028",
-    "name": "Vetrivel Suzuki Agency (Chetpet)",
+    "id": "PUN_TIRUVANNAMALAI_0026",
+    "name": "Selvam Quick Repair Shop",
     "district": "Tiruvannamalai",
-    "city": "Chetpet",
+    "city": "Kilpennathur",
     "state": "Tamil Nadu",
-    "address": "No 34, Polur Road",
-    "phone": "+91-4175253316",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606801",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Tindivanam Highway Side, Near Kilpennathur Bus Stand Area, Kilpennathur, Tiruvannamalai, Tamil Nadu 604601",
+    "latitude": 12.2645,
+    "longitude": 79.2112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0029",
-    "name": "Sri Sakthi Bajaj Network (Arani)",
+    "id": "PUN_TIRUVANNAMALAI_0027",
+    "name": "Mani Tyre Corner",
     "district": "Tiruvannamalai",
-    "city": "Arani",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "Vellore Main Road",
-    "phone": "+91-4173220555",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Girivalam Path Circle, Near Sri Ramanasramam Junction Area, Tiruvannamalai, Tamil Nadu 606603",
+    "latitude": 12.2212,
+    "longitude": 79.0452,
+    "phone": "+91 91592 11847",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0030",
-    "name": "Ananya Yamaha Agency (Arani)",
+    "id": "PUN_TIRUVANNAMALAI_0028",
+    "name": "Apex Tyre Point & Aligners",
     "district": "Tiruvannamalai",
-    "city": "Arani",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "No 102, Arcot High Road",
-    "phone": "+91-9943621026",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Tindivanam Road, Adjacent to Tiruvannamalai Government Hospital Cross, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2285,
+    "longitude": 79.0812,
+    "phone": "+91 94875 11847",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0031",
-    "name": "Royal Enfield - VP Motors (Arani)",
+    "id": "PUN_TIRUVANNAMALAI_0029",
+    "name": "Anbu Tyre Point",
     "district": "Tiruvannamalai",
-    "city": "Arani",
+    "city": "Polsani",
     "state": "Tamil Nadu",
-    "address": "Vellore Main Road, Opposite New Bus Stand Area",
-    "phone": "+91-8879693449",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Chetpet Main Road, Near Polsani Town Panchayat Office, Polsani, Tiruvannamalai, Tamil Nadu 606801",
+    "latitude": 12.4312,
+    "longitude": 79.3285,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0032",
-    "name": "Thirumala TVS Sub-Branch (Chetpet)",
+    "id": "PUN_TIRUVANNAMALAI_0030",
+    "name": "Kannamangalam Highway Tyres",
     "district": "Tiruvannamalai",
-    "city": "Chetpet",
+    "city": "Arani Area",
     "state": "Tamil Nadu",
-    "address": "Arani Main Road, Near Bus Stand",
-    "phone": "+91-7373744429",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606801",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore High Road, Near Kannamangalam Town Panchayat Office, Arani Area, Tiruvannamalai, Tamil Nadu 632311",
+    "latitude": 12.7312,
+    "longitude": 79.1645,
+    "phone": "+91 94865 11847",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0033",
-    "name": "Giri Honda Point (Arani)",
+    "id": "PUN_TIRUVANNAMALAI_0031",
+    "name": "Basha Highway Vulcanising Center",
     "district": "Tiruvannamalai",
-    "city": "Arani",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "Arcot High Road",
-    "phone": "+91-4173223125",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Near Polur Bypass Service Junction, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2412,
+    "longitude": 79.0712,
+    "phone": "+91 99421 11847",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanising"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0034",
-    "name": "Sri Sakthi Hero Point (Chetpet)",
+    "id": "PUN_TIRUVANNAMALAI_0032",
+    "name": "Royal Town Tyre Station",
     "district": "Tiruvannamalai",
-    "city": "Chetpet",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "No 8, Polur Road",
-    "phone": "+91-4175222539",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606801",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Car Street Bazaar Road, Near Tiruvannamalai Temple Rajagopuram, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2252,
+    "longitude": 79.0645,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0035",
-    "name": "Malar E-Bikes (Tiruvannamalai Main)",
+    "id": "PUN_TIRUVANNAMALAI_0033",
+    "name": "Maruthi Tyre Alignment & Puncture",
     "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "No 54, Polur Road, Vengikkal",
-    "phone": "+91-9788621459",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Near J.N. Road Junction, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2345,
+    "longitude": 79.0682,
+    "phone": "+91 94435 99628",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0036",
-    "name": "Chola E-Vehicles (Polur)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Main Road Area",
-    "phone": "+91-9043521106",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0037",
-    "name": "Arun Hyundai Delivery Center (Arani)",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "Arcot Road, Near Railway Station Area",
-    "phone": "+91-9500902224",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0038",
-    "name": "Thirumala TVS Agency (Chengam)",
-    "district": "Tiruvannamalai",
-    "city": "Chengam",
-    "state": "Tamil Nadu",
-    "address": "Bangalore Main Road",
-    "phone": "+91-7373744430",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0039",
-    "name": "Kavan Honda Sub-Dealer (Chengam)",
-    "district": "Tiruvannamalai",
-    "city": "Chengam",
-    "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Salai",
-    "phone": "+91-4175221528",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0040",
-    "name": "Sri Sakthi Hero Sub-Agency (Polur)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Main Road, Opp Government ITI Area",
-    "phone": "+91-4173229246",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0041",
-    "name": "Vee Key Auto Agencies (Bajaj)",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Polur Road, Vengikkal Corner",
-    "phone": "+91-4175222619",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0042",
-    "name": "Rainbow Honda Sub-Branch",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "Vellore Main Road, Near Bus Stand",
-    "phone": "+91-4173261158",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0043",
-    "name": "Thirumala TVS Sub-Dealer",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Main National Highway",
-    "phone": "+91-7373744449",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0044",
-    "name": "Babu Cars Maruti Suzuki (Polur)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Polur Main Road Area",
-    "phone": "+91-4173224347",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0045",
-    "name": "Sri Sakthi Hero Point (Arani)",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "No 24, Chetpet Salai",
-    "phone": "+91-4173262539",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0046",
-    "name": "Sri Balaji Motors (Multi-Brand)",
+    "id": "PUN_TIRUVANNAMALAI_0034",
+    "name": "Chengam Highway Tyre Rescue",
     "district": "Tiruvannamalai",
     "city": "Chengam",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Main Road",
-    "phone": "+91-9843652429",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-77 Bangalore Highway, Near Chengam Bypass Flyover, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8145,
+    "phone": "+91 98423 44531",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0047",
-    "name": "Thirumala TVS Network",
+    "id": "PUN_TIRUVANNAMALAI_0035",
+    "name": "Balaji Vulcanizing Work",
     "district": "Tiruvannamalai",
     "city": "Arani",
     "state": "Tamil Nadu",
-    "address": "Vellore Salai",
-    "phone": "+91-9443321575",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Road, Near Arani New Bus Stand Complex, Arani, Tiruvannamalai, Tamil Nadu 632301",
+    "latitude": 12.6685,
+    "longitude": 79.2852,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0048",
-    "name": "Greenway Electric Scooters",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Polur Road, Opp Commercial Bank",
-    "phone": "+91-9043216799",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0049",
-    "name": "SK E-Bikes",
+    "id": "PUN_TIRUVANNAMALAI_0036",
+    "name": "SK Tyre Patch & Care",
     "district": "Tiruvannamalai",
     "city": "Polur",
     "state": "Tamil Nadu",
-    "address": "Chetpet Road Junction Area",
-    "phone": "+91-9047812549",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore-Tiruvannamalai Highway Road, Near Polur Railway Cross Area, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "phone": "+91 97512 99628",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0050",
-    "name": "Karthikeyani Tractors (Swaraj Dealer)",
+    "id": "PUN_TIRUVANNAMALAI_0037",
+    "name": "Safe Drive Tyre Tech",
     "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "Vellore Road, Vengikkal",
-    "phone": "+91-4175251445",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Tindivanam Highway Road, Opposite New Bus Stand Complex, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2412,
+    "longitude": 79.0745,
+    "phone": "+91 91500 11847",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0051",
-    "name": "Arun Tractors (Tafe Dealer)",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Tindivanam Highway Bypass Road",
-    "phone": "+91-4175220315",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0052",
-    "name": "National Auto Agencies (Bajaj Sub-Branch)",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Salai",
-    "phone": "+91-4331250225",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0053",
-    "name": "Sivam Motors (Hero Sub-Dealer)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Road",
-    "phone": "+91-9442345115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_Tiruvannamalai_0054",
-    "name": "Abinaya Yamaha Point",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Tiruvannamalai High Road Corner",
-    "phone": "+91-9943521049",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0055",
-    "name": "Sri Vetrivel Suzuki",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "Vellore Main Road Area",
-    "phone": "+91-9443265149",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0056",
-    "name": "Vijay Automobiles (Piaggio Commercial)",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Polur Road, Vengikkal",
-    "phone": "+91-4175251801",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0057",
-    "name": "Star E-Vehicles",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Main Road",
-    "phone": "+91-8870425169",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0058",
-    "name": "Guru Automobiles (Multi-Brand)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Main Road",
-    "phone": "+91-9443920159",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0059",
-    "name": "Sri Guru Bajaj Agency",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "Vellore Road, Opp Govt Hospital Area",
-    "phone": "+91-4173222115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0060",
-    "name": "Muthu Motors (Multi-Brand)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Main Road",
-    "phone": "+91-9566214315",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0061",
-    "name": "Galaxy Honda Sub-Branch",
+    "id": "PUN_TIRUVANNAMALAI_0038",
+    "name": "Highway 24/7 Tyre Services",
     "district": "Tiruvannamalai",
     "city": "Chengam",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Main Road",
-    "phone": "+91-9442871109",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-77 Bangalore Highway, Near Chengam Toll Plaza Area, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 94441 44531",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0062",
-    "name": "Bala Motors (Multi-Brand)",
+    "id": "PUN_TIRUVANNAMALAI_0039",
+    "name": "Nisha Tubeless Clinic",
+    "district": "Tiruvannamalai",
+    "city": "Cheyyar",
+    "state": "Tamil Nadu",
+    "address": "Kanchipuram Highway, Near Cheyyar Government Hospital, Cheyyar, Tiruvannamalai, Tamil Nadu 604407",
+    "latitude": 12.6582,
+    "longitude": 79.5412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0040",
+    "name": "Rahman Tyre & Tube Square",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Polur Road, Near Government Arts College Junction, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2412,
+    "longitude": 79.0745,
+    "phone": "+91 99945 22184",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0041",
+    "name": "Ganesh Vulcanising Shop",
+    "district": "Tiruvannamalai",
+    "city": "Vandavasi",
+    "state": "Tamil Nadu",
+    "address": "Melmaruvathur Main Road, Near Vandavasi Town Panchayat Office Complex, Vandavasi, Tiruvannamalai, Tamil Nadu 604408",
+    "latitude": 12.4812,
+    "longitude": 79.6112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0042",
+    "name": "Speedway Tyre Alignment Centre",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near Old Bus Stand Circle, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2345,
+    "longitude": 79.0682,
+    "phone": "+91 94421 11847",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0043",
+    "name": "Velu Auto & Tyre Patch",
+    "district": "Tiruvannamalai",
+    "city": "Kalasapakkam",
+    "state": "Tamil Nadu",
+    "address": "Polur Highway Road, Near Kalasapakkam Bus Stop, Kalasapakkam, Tiruvannamalai, Tamil Nadu 606751",
+    "latitude": 12.4112,
+    "longitude": 79.1145,
+    "phone": "+91 96294 11843",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0044",
+    "name": "Star Express Highway Point",
+    "district": "Tiruvannamalai",
+    "city": "Kilpennathur",
+    "state": "Tamil Nadu",
+    "address": "Tindivanam Road Highway, Opposite Kilpennathur Police Station, Kilpennathur, Tiruvannamalai, Tamil Nadu 604601",
+    "latitude": 12.2612,
+    "longitude": 79.2145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0045",
+    "name": "Royal Enfield Specialist & Tyre Point",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Road, Opposite New Bus Stand Complex, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2312,
+    "longitude": 79.0645,
+    "phone": "+91 98942 11847",
+    "services": [
+      "Bike Puncture",
+      "Heavy Bike Tyre Patch",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0046",
+    "name": "Polur Bypass Flyover Tyre Junction",
+    "district": "Tiruvannamalai",
+    "city": "Polur",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Tiruvannamalai Highway Road, Near New Bypass Flyover Approach, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "phone": "+91 94861 11453",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0047",
+    "name": "Mani Quick Patch Corner",
+    "district": "Tiruvannamalai",
+    "city": "Polsani",
+    "state": "Tamil Nadu",
+    "address": "Chetpet Bazaar Road Area, Near Polsani Market Junction, Polsani, Tiruvannamalai, Tamil Nadu 606801",
+    "latitude": 12.4345,
+    "longitude": 79.3312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0048",
+    "name": "Highway Ranger Tyre Clinic",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Tindivanam Highway Road, Opposite Government Arts College Campus, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2285,
+    "longitude": 79.0852,
+    "phone": "+91 97865 11847",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0049",
+    "name": "Sri Sai Baba Vulcanizing & Puncture",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near Old Bus Stand Road Junction, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2312,
+    "longitude": 79.0645,
+    "phone": "+91 94421 22347",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0050",
+    "name": "Polur Main Road Tyre Rescue",
+    "district": "Tiruvannamalai",
+    "city": "Polur",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Tiruvannamalai Highway, Near Polur Bus Stand Parking Area, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "phone": "+91 98436 11453",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0051",
+    "name": "Nasser Tyre Care Corner",
     "district": "Tiruvannamalai",
     "city": "Arani",
     "state": "Tamil Nadu",
-    "address": "No. 14, Chetpet Road",
-    "phone": "+91-9443652149",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Near Railway Gate Area, Arani, Tiruvannamalai, Tamil Nadu 632301",
+    "latitude": 12.6685,
+    "longitude": 79.2852,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0063",
-    "name": "Sri Lakshmi Honda Point",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "Vellore Salai",
-    "phone": "+91-9944321095",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0064",
-    "name": "Raja Krishna Suzuki Network",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Polur Road, Vengikkal",
-    "phone": "+91-4175251451",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0065",
-    "name": "Sakthi Tractors (John Deere Agency)",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Tindivanam Highway Bypass Road",
-    "phone": "+91-4175220459",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0066",
-    "name": "Siva Agencies (Hero Sub-Dealer)",
+    "id": "PUN_TIRUVANNAMALAI_0052",
+    "name": "Murugan Quick Tyre Patch",
     "district": "Tiruvannamalai",
     "city": "Chengam",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Main Road",
-    "phone": "+91-9442167859",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-77 Bangalore Highway, Near Chengam Municipal Office, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 97891 22153",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0067",
-    "name": "Sri Vinayaga Bajaj Point",
+    "id": "PUN_TIRUVANNAMALAI_0053",
+    "name": "Rasi Tyre Clinic & Nitrogen Air",
     "district": "Tiruvannamalai",
-    "city": "Polur",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "Chetpet Road",
-    "phone": "+91-9786431209",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Near Kamajar Statue Circle, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2345,
+    "longitude": 79.0682,
+    "phone": "+91 91599 44327",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0068",
-    "name": "Pioneer E-Bikes",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Polur Road, Vengikkal Corner",
-    "phone": "+91-8870123459",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0069",
-    "name": "Karthik Motors TVS Point",
-    "district": "Tiruvannamalai",
-    "city": "Chengam",
-    "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Main Road Area",
-    "phone": "+91-4175220369",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0070",
-    "name": "Sri Durga Auto Agencies",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Main Road Junction",
-    "phone": "+91-9159023459",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0071",
-    "name": "Smart E-Vehicles",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Road",
-    "phone": "+91-9788123459",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0072",
-    "name": "Venkateswara Honda Sub-Agency",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Main Road",
-    "phone": "+91-9944876549",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0073",
-    "name": "Kaveri Commercial Vehicles (Tata Sub-Dealer)",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Polur Road, Vengikkal",
-    "phone": "+91-4175254345",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0074",
-    "name": "Gemini Auto Network",
+    "id": "PUN_TIRUVANNAMALAI_0054",
+    "name": "Chengam Toll Gate Emergency Tyre Point",
     "district": "Tiruvannamalai",
     "city": "Chengam",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Road Crossing",
-    "phone": "+91-9443219879",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-77 Bangalore Highway, Adjacent to Chengam Toll Plaza, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 94445 22147",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0075",
-    "name": "Ram Suzuki Agency",
+    "id": "PUN_TIRUVANNAMALAI_0055",
+    "name": "Babu Tyre Square",
     "district": "Tiruvannamalai",
-    "city": "Polur",
+    "city": "Cheyyar",
     "state": "Tamil Nadu",
-    "address": "Chetpet Road Area",
-    "phone": "+91-9791432115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kanchipuram Main Road, Near Cheyyar Government Hospital Junction, Cheyyar, Tiruvannamalai, Tamil Nadu 604407",
+    "latitude": 12.6582,
+    "longitude": 79.5412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0076",
-    "name": "National Yamaha Point",
+    "id": "PUN_TIRUVANNAMALAI_0056",
+    "name": "New Star Tyre Clinic",
     "district": "Tiruvannamalai",
-    "city": "Arani",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "Chetpet Main Road",
-    "phone": "+91-4173220420",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Polur Highway Road, Near New Bus Stand Complex Area, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2442,
+    "longitude": 79.0785,
+    "phone": "+91 99941 44327",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0077",
-    "name": "Sri Sai E-Bikes",
+    "id": "PUN_TIRUVANNAMALAI_0057",
+    "name": "Anjaneya Vulcanising Shop",
     "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
+    "city": "Vandavasi",
     "state": "Tamil Nadu",
-    "address": "Polur Road, Opp Town Library",
-    "phone": "+91-9043112255",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Melmaruvathur Main Road, Near Vandavasi Town Checkpost Area, Vandavasi, Tiruvannamalai, Tamil Nadu 604408",
+    "latitude": 12.4812,
+    "longitude": 79.6112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0078",
-    "name": "Jayam Multi-Brand Two Wheelers",
+    "id": "PUN_TIRUVANNAMALAI_0058",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
     "district": "Tiruvannamalai",
-    "city": "Chengam",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Main Road Area",
-    "phone": "+91-9944512395",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Opposite Government Boys Higher Secondary School, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2312,
+    "longitude": 79.0645,
+    "phone": "+91 94425 11437",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0079",
-    "name": "Rajarajan Motors (Hero Sub-Dealer)",
+    "id": "PUN_TIRUVANNAMALAI_0059",
+    "name": "Kumaran Auto & Tyre Patch",
     "district": "Tiruvannamalai",
-    "city": "Arani",
+    "city": "Kalasapakkam",
     "state": "Tamil Nadu",
-    "address": "Chetpet Main Road",
-    "phone": "+91-9443210409",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Polur Main Road, Near Koot Road Junction, Kalasapakkam, Tiruvannamalai, Tamil Nadu 606751",
+    "latitude": 12.4112,
+    "longitude": 79.1145,
+    "phone": "+91 96291 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0080",
-    "name": "Vetrivel Honda Point",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Road, Near Kamarajar Statue",
-    "phone": "+91-4173251335",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0081",
-    "name": "Nisha Tractors & Commercials",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Tindivanam Highway Bypass, Near Railway Bridge",
-    "phone": "+91-9842456105",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0082",
-    "name": "V.P.M Motors (TVS Point)",
-    "district": "Tiruvannamalai",
-    "city": "Chengam",
-    "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Main Road, Near Bus Stand",
-    "phone": "+91-9786541235",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0083",
-    "name": "Sree Vinayagar E-Bikes",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "No. 45, Polur Road, Vengikkal",
-    "phone": "+91-9080706055",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0084",
-    "name": "Balaji Yamaha Sub-Dealer",
-    "district": "Tiruvannamalai",
-    "city": "Arani",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Road, Near LIC Office Corner",
-    "phone": "+91-9942481028",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0085",
-    "name": "Murugan Auto Consult & Bikes",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Chetpet Main Road Crossing",
-    "phone": "+91-9442152365",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0086",
-    "name": "Kallakurichi Auto Agencies (Mahindra Tractors)",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Polur Road, Next to Government Arts College, Vengikkal",
-    "phone": "+91-4175247710",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0087",
-    "name": "Sri Sakthi Motors (Multi-Brand)",
-    "district": "Tiruvannamalai",
-    "city": "Polur",
-    "state": "Tamil Nadu",
-    "address": "Chetpet High Road",
-    "phone": "+91-9159041228",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0088",
-    "name": "Thangam Suzuki Point",
+    "id": "PUN_TIRUVANNAMALAI_0060",
+    "name": "Express Highway 77 Tyre Care",
     "district": "Tiruvannamalai",
     "city": "Chengam",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Salai",
-    "phone": "+91-9488056215",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-77 Bangalore Highway, Opposite Chengam Police Station Outpost, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0089",
-    "name": "Annamalai Motors (Hero Authorised Point)",
+    "id": "PUN_TIRUVANNAMALAI_0061",
+    "name": "A1 Bike Zone & Tyre Repair",
+    "district": "Tiruvannamalai",
+    "city": "Kilpennathur",
+    "state": "Tamil Nadu",
+    "address": "Tindivanam Main Road, Near Kilpennathur Railway Gate Complex, Kilpennathur, Tiruvannamalai, Tamil Nadu 604601",
+    "latitude": 12.2612,
+    "longitude": 79.2145,
+    "phone": "+91 98945 11547",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0062",
+    "name": "Polur Bypass Flyover Tyre Junction",
+    "district": "Tiruvannamalai",
+    "city": "Polur",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Tiruvannamalai Expressway Route, Near New Bypass Flyover Approach, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "phone": "+91 94865 22153",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0063",
+    "name": "Siva Quick Repair Shop",
+    "district": "Tiruvannamalai",
+    "city": "Polsani",
+    "state": "Tamil Nadu",
+    "address": "Chetpet High Road, Polsani, Tiruvannamalai, Tamil Nadu 606801",
+    "latitude": 12.4345,
+    "longitude": 79.3312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0064",
+    "name": "Highway Track Tyre Point",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "NH-77 Bangalore Expressway, Chengam New Bypass Service Lane, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 97861 22147",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0065",
+    "name": "Bismillah Tyre Point",
+    "district": "Tiruvannamalai",
+    "city": "Arani",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near Arani Old Bus Stop, Arani, Tiruvannamalai, Tamil Nadu 632301",
+    "latitude": 12.6682,
+    "longitude": 79.2852,
+    "phone": "+91 94432 11457",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0066",
+    "name": "Al-Ameen Vulcanising Works",
+    "district": "Tiruvannamalai",
+    "city": "Arani",
+    "state": "Tamil Nadu",
+    "address": "Chetpet Road, Near Perumal Temple Crossing, Arani, Tiruvannamalai, Tamil Nadu 632301",
+    "latitude": 12.6645,
+    "longitude": 79.2812,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0067",
+    "name": "Polur Junction Tyre Corner",
+    "district": "Tiruvannamalai",
+    "city": "Polur",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Tiruvannamalai Highway, Polur Junction, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "phone": "+91 97864 11437",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0068",
+    "name": "Sri Krishna Quick Patch",
+    "district": "Tiruvannamalai",
+    "city": "Polur",
+    "state": "Tamil Nadu",
+    "address": "Chetpet High Road, Near Polur Temple Ground Area, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5145,
+    "longitude": 79.1212,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0069",
+    "name": "Tiruvannamalai New Bypass Tyre Rescue",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near New Bus Stand Checkpost Flyover, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2442,
+    "longitude": 79.0785,
+    "phone": "+91 98432 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0070",
+    "name": "Santhosh Tyre Patch Shop",
     "district": "Tiruvannamalai",
     "city": "Chengam",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai High Road",
-    "phone": "+91-9965541018",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-77 Bangalore Highway, Near Chengam Bus Stand Exit, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 91593 11437",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0090",
-    "name": "Malar E-Bikes Sub-Branch",
+    "id": "PUN_TIRUVANNAMALAI_0071",
+    "name": "Muna Tyre & Tube Care",
     "district": "Tiruvannamalai",
-    "city": "Arani",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "No. 120, Chetpet Road",
-    "phone": "+91-9788645128",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Opposite Government Arts College Entrance Lane, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2345,
+    "longitude": 79.0682,
+    "phone": "+91 99942 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0091",
-    "name": "Arani Honda Sub-Dealer",
+    "id": "PUN_TIRUVANNAMALAI_0072",
+    "name": "Jai Hanuman Tyre Point",
     "district": "Tiruvannamalai",
-    "city": "Arani",
+    "city": "Cheyyar",
     "state": "Tamil Nadu",
-    "address": "Vellore Main Highway Road",
-    "phone": "+91-4173250556",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kanchipuram Highway, Near Cheyyar New Bus Stand complex, Cheyyar, Tiruvannamalai, Tamil Nadu 604407",
+    "latitude": 12.6582,
+    "longitude": 79.5412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0092",
-    "name": "Senthil Auto Electric Vehicles",
+    "id": "PUN_TIRUVANNAMALAI_0073",
+    "name": "Balu Motor & Tyre Work",
     "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
+    "city": "Vandavasi",
     "state": "Tamil Nadu",
-    "address": "Polur Road, Vengikkal NH Bypass",
-    "phone": "+91-8903456715",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Melmaruvathur Main Road, Near Vandavasi Police Station Circle, Vandavasi, Tiruvannamalai, Tamil Nadu 604408",
+    "latitude": 12.4812,
+    "longitude": 79.6112,
+    "phone": "+91 96295 11437",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0093",
-    "name": "Sri Kumaran Motors (TVS Point)",
+    "id": "PUN_TIRUVANNAMALAI_0074",
+    "name": "Old Bus Stand Roundana Industrial Tyres",
     "district": "Tiruvannamalai",
-    "city": "Polur",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "Chetpet Road, Near Bus Stand Area",
-    "phone": "+91-9443811528",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Near Old Bus Stand Roundana Junction, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2312,
+    "longitude": 79.0645,
+    "phone": "+91 94443 11437",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0094",
-    "name": "Rasi Motors (Multi-Brand)",
+    "id": "PUN_TIRUVANNAMALAI_0075",
+    "name": "Venkateswara Vulcanising Clinic",
     "district": "Tiruvannamalai",
-    "city": "Polur",
+    "city": "Kalasapakkam",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Main Road Junction",
-    "phone": "+91-9566712349",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Polur Main Road, Near New Town Checkpost Area, Kalasapakkam, Tiruvannamalai, Tamil Nadu 606751",
+    "latitude": 12.4112,
+    "longitude": 79.1145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0095",
-    "name": "Susee Bajaj Network Point",
-    "district": "Tiruvannamalai",
-    "city": "Tiruvannamalai",
-    "state": "Tamil Nadu",
-    "address": "Polur Road, Near Vengikkal Railway Gate",
-    "phone": "+91-4175220512",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606604",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_TIRUVANNAMALAI_0096",
-    "name": "Sri Balaji Motors (Multi-Brand Point)",
+    "id": "PUN_TIRUVANNAMALAI_0076",
+    "name": "Highway Night Rider Tyres",
     "district": "Tiruvannamalai",
     "city": "Chengam",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Main Road Area",
-    "phone": "+91-9843615429",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606701",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-77 Bangalore Highway Road, Near Chengam Bypass Toll Plaza Area, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 97863 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0097",
-    "name": "Vignesh Motors (TVS Point)",
+    "id": "PUN_TIRUVANNAMALAI_0077",
+    "name": "Raza Tyre Alignment & Patch",
+    "district": "Tiruvannamalai",
+    "city": "Kilpennathur",
+    "state": "Tamil Nadu",
+    "address": "Tindivanam Road, Near Kilpennathur Town Panchayat Office, Kilpennathur, Tiruvannamalai, Tamil Nadu 604601",
+    "latitude": 12.2612,
+    "longitude": 79.2145,
+    "phone": "+91 94862 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0078",
+    "name": "Guru Quick Repair Point",
+    "district": "Tiruvannamalai",
+    "city": "Polsani",
+    "state": "Tamil Nadu",
+    "address": "Chetpet Road Area, Near Polsani Market Junction, Polsani, Tiruvannamalai, Tamil Nadu 606801",
+    "latitude": 12.4345,
+    "longitude": 79.3312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0079",
+    "name": "Tiruvannamalai Toll Gate Tyre Help",
+    "district": "Tiruvannamalai",
+    "city": "Chengam",
+    "state": "Tamil Nadu",
+    "address": "NH-77 Bangalore Expressway Route, 500m before Chengam Toll Plaza, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 94421 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0080",
+    "name": "Murugan Tyre Work & Tubes",
+    "district": "Tiruvannamalai",
+    "city": "Arani Area",
+    "state": "Tamil Nadu",
+    "address": "Main High Road, Near Kannamangalam Cooperative Bank, Arani Area, Tiruvannamalai, Tamil Nadu 632311",
+    "latitude": 12.7345,
+    "longitude": 79.1685,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0081",
+    "name": "Siva Sakthi Vulcanizing Corner",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near Railway Overbridge, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2312,
+    "longitude": 79.0645,
+    "phone": "+91 94436 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0082",
+    "name": "Highway Quick Fix Center",
+    "district": "Tiruvannamalai",
+    "city": "Chengam",
+    "state": "Tamil Nadu",
+    "address": "NH-77 Bangalore Highway, Near Chengam Bypass Junction, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 98431 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0083",
+    "name": "Rahamath Tyre Care",
     "district": "Tiruvannamalai",
     "city": "Arani",
     "state": "Tamil Nadu",
-    "address": "Chetpet High Road, Near Market",
-    "phone": "+91-9442516309",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Near Arani Star Theatre Cross, Arani, Tiruvannamalai, Tamil Nadu 632301",
+    "latitude": 12.6685,
+    "longitude": 79.2852,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0098",
-    "name": "Sree Ram Bajaj Agency",
+    "id": "PUN_TIRUVANNAMALAI_0084",
+    "name": "Vignesh Quick Tyre Fix",
     "district": "Tiruvannamalai",
     "city": "Polur",
     "state": "Tamil Nadu",
-    "address": "Chetpet Main Road Junction",
-    "phone": "+91-9865043111",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore-Tiruvannamalai Highway, Near Polur Bus Stand Complex, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "phone": "+91 97894 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0099",
-    "name": "Kumaran Motors (Hero Point)",
+    "id": "PUN_TIRUVANNAMALAI_0085",
+    "name": "City Centre Tyre & Alignment Zone",
     "district": "Tiruvannamalai",
-    "city": "Arani",
+    "city": "Tiruvannamalai Town",
     "state": "Tamil Nadu",
-    "address": "Vellore Road, Opp New Bus Stand",
-    "phone": "+91-4173250104",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Near Old Bus Stand Area, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2345,
+    "longitude": 79.0682,
+    "phone": "+91 91595 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0100",
-    "name": "Maruti Auto Consult & Service Point",
+    "id": "PUN_TIRUVANNAMALAI_0086",
+    "name": "Toll Plaza Highway Ranger Tyres",
+    "district": "Tiruvannamalai",
+    "city": "Chengam",
+    "state": "Tamil Nadu",
+    "address": "NH-77 Bangalore Expressway, Chengam Toll Gate Exit Lane, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 94441 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0087",
+    "name": "Anand Tyre & Tube Square",
+    "district": "Tiruvannamalai",
+    "city": "Cheyyar",
+    "state": "Tamil Nadu",
+    "address": "Kanchipuram Main Road, Near Government Hospital Area, Cheyyar, Tiruvannamalai, Tamil Nadu 604407",
+    "latitude": 12.6582,
+    "longitude": 79.5412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0088",
+    "name": "National Tyre Repair Shop",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "New Bus Stand Road, Opposite Municipal High School, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2442,
+    "longitude": 79.0785,
+    "phone": "+91 99943 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0089",
+    "name": "Sri Balaji Vulcanising Shop",
+    "district": "Tiruvannamalai",
+    "city": "Kalasapakkam",
+    "state": "Tamil Nadu",
+    "address": "Polur High Road, Near Cooperative Bank, Kalasapakkam, Tiruvannamalai, Tamil Nadu 606751",
+    "latitude": 12.4112,
+    "longitude": 79.1145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0090",
+    "name": "Bridgestone Tyre Select - Sri Vinayaga",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Polur Road, Opposite Tiruvannamalai Railway Station Entrance, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2412,
+    "longitude": 79.0745,
+    "phone": "+91 94422 11437",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "New Tyre Sales"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0091",
+    "name": "Sakthi Auto & Tyre Patch",
+    "district": "Tiruvannamalai",
+    "city": "Vandavasi",
+    "state": "Tamil Nadu",
+    "address": "Melmaruvathur Main Road, Near Vandavasi Police Outpost, Vandavasi, Tiruvannamalai, Tamil Nadu 604408",
+    "latitude": 12.4812,
+    "longitude": 79.6112,
+    "phone": "+91 96293 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0092",
+    "name": "Express Highway 77 Highway Tyre Point",
+    "district": "Tiruvannamalai",
+    "city": "Chengam",
+    "state": "Tamil Nadu",
+    "address": "NH-77 Bypass Expressway, Near Chengam Toll Plaza Cross, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0093",
+    "name": "Tiruvannamalai Central Tyre Repair",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near Old Bus Stand, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2345,
+    "longitude": 79.0682,
+    "phone": "+91 98941 11437",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0094",
+    "name": "Polur River Bridge Side Tyres",
     "district": "Tiruvannamalai",
     "city": "Polur",
     "state": "Tamil Nadu",
-    "address": "Tiruvannamalai Road Crossing Area",
-    "phone": "+91-9442078653",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "606803",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore-Tiruvannamalai Highway Road, Near River Bridge Approach, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "phone": "+91 94861 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_TIRUVANNAMALAI_0101",
-    "name": "Sri Murugan Suzuki Point",
+    "id": "PUN_TIRUVANNAMALAI_0095",
+    "name": "Murugan Quick Repair Corner",
+    "district": "Tiruvannamalai",
+    "city": "Kilpennathur",
+    "state": "Tamil Nadu",
+    "address": "Palace Road Cross, Kilpennathur, Tiruvannamalai, Tamil Nadu 604601",
+    "latitude": 12.2612,
+    "longitude": 79.2145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0096",
+    "name": "Highway Tracker Tyre Center",
+    "district": "Tiruvannamalai",
+    "city": "Chengam",
+    "state": "Tamil Nadu",
+    "address": "NH-77 Expressway, Near Chengam Bypass Bridge, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 97864 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0097",
+    "name": "Sartaj Tyre & Vulcanising Works",
     "district": "Tiruvannamalai",
     "city": "Arani",
     "state": "Tamil Nadu",
-    "address": "Chetpet Main Road, Bus Stand Backside",
-    "phone": "+91-9791402312",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "632301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Vellore Main Road, Near Anna Statue, Arani, Tiruvannamalai, Tamil Nadu 632301",
+    "latitude": 12.6682,
+    "longitude": 79.2852,
+    "phone": "+91 94424 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0098",
+    "name": "Al-Ahad Tyre Care Corner",
+    "district": "Tiruvannamalai",
+    "city": "Arani",
+    "state": "Tamil Nadu",
+    "address": "Chetpet Road, Near Government Higher Secondary School, Arani, Tiruvannamalai, Tamil Nadu 632301",
+    "latitude": 12.6645,
+    "longitude": 79.2812,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0099",
+    "name": "Polur Road Tyre Repair Shop",
+    "district": "Tiruvannamalai",
+    "city": "Polur",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Tiruvannamalai Highway, Near Bus Stand Area, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "phone": "+91 97861 11437",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0100",
+    "name": "Sri Venkateswara Tyre Patch Works",
+    "district": "Tiruvannamalai",
+    "city": "Polur",
+    "state": "Tamil Nadu",
+    "address": "Chetpet Road, Near Bazaar Junction, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5145,
+    "longitude": 79.1212,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0101",
+    "name": "Tiruvannamalai Highway Emergency Tyres",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Near New Bus Stand Flyover Exit, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2442,
+    "longitude": 79.0785,
+    "phone": "+91 98435 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0102",
+    "name": "Srinivasa Tyre Patch Point",
+    "district": "Tiruvannamalai",
+    "city": "Chengam",
+    "state": "Tamil Nadu",
+    "address": "NH-77 Highway Road, Near Chengam Market Area, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 91591 11437",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0103",
+    "name": "Al-Mubarak Tyre Square",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Opposite Poovanthi Mosque Lane, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2312,
+    "longitude": 79.0645,
+    "phone": "+91 99941 11457",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0104",
+    "name": "Cheyyar Industrial Area Quick Tyre Fix",
+    "district": "Tiruvannamalai",
+    "city": "Cheyyar",
+    "state": "Tamil Nadu",
+    "address": "Kanchipuram Highway, Near SIPCOT Industrial Park, Cheyyar, Tiruvannamalai, Tamil Nadu 604407",
+    "latitude": 12.6582,
+    "longitude": 79.5412,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0105",
+    "name": "Nandhi Motor & Tyre Clinic",
+    "district": "Tiruvannamalai",
+    "city": "Vandavasi",
+    "state": "Tamil Nadu",
+    "address": "Melmaruvathur Main Road, Opposite Government Girls Higher Secondary School, Vandavasi, Tiruvannamalai, Tamil Nadu 604408",
+    "latitude": 12.4812,
+    "longitude": 79.6112,
+    "phone": "+91 96291 11437",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0106",
+    "name": "Old Bus Stand Roundana Main Road Heavy Tyre Works",
+    "district": "Tiruvannamalai",
+    "city": "Tiruvannamalai Town",
+    "state": "Tamil Nadu",
+    "address": "Vellore Main Road, Adjacent to Old Bus Stand Roundana Commercial Complex, Tiruvannamalai, Tamil Nadu 606601",
+    "latitude": 12.2312,
+    "longitude": 79.0645,
+    "phone": "+91 94441 11457",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0107",
+    "name": "Sri Tirumala Vulcanising Works",
+    "district": "Tiruvannamalai",
+    "city": "Kalasapakkam",
+    "state": "Tamil Nadu",
+    "address": "Polur High Road, Near Town Water Tank, Kalasapakkam, Tiruvannamalai, Tamil Nadu 606751",
+    "latitude": 12.4112,
+    "longitude": 79.1145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0108",
+    "name": "Express Highway Toll Gate View Tyres",
+    "district": "Tiruvannamalai",
+    "city": "Chengam",
+    "state": "Tamil Nadu",
+    "address": "NH-77 Bangalore Highway Road, Adjacent to Chengam Toll Plaza Flyover, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 97861 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0109",
+    "name": "Star Tyre Alignment & Puncture Point",
+    "district": "Tiruvannamalai",
+    "city": "Polur",
+    "state": "Tamil Nadu",
+    "address": "Vellore-Tiruvannamalai Highway Road, Opposite Polur New Bus Stand, Polur, Tiruvannamalai, Tamil Nadu 606803",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "phone": "+91 94861 11437",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0110",
+    "name": "Santhosh Quick Repair Point",
+    "district": "Tiruvannamalai",
+    "city": "Kilpennathur",
+    "state": "Tamil Nadu",
+    "address": "Tindivanam Main Road, Opposite Government Hospital Complex, Kilpennathur, Tiruvannamalai, Tamil Nadu 604601",
+    "latitude": 12.2612,
+    "longitude": 79.2145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0111",
+    "name": "Highway Express Toll Plaza Support",
+    "district": "Tiruvannamalai",
+    "city": "Chengam",
+    "state": "Tamil Nadu",
+    "address": "NH-77 Bangalore Highway Road, 1km after Chengam Toll Plaza, Chengam, Tiruvannamalai, Tamil Nadu 606701",
+    "latitude": 12.3012,
+    "longitude": 78.8112,
+    "phone": "+91 94425 22147",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_TIRUVANNAMALAI_0112",
+    "name": "Murugan Tyre Patch & Tube Shop",
+    "district": "Tiruvannamalai",
+    "city": "Polsani",
+    "state": "Tamil Nadu",
+    "address": "Main High Road, Near Polsani Panchayat Union Office, Polsani, Tiruvannamalai, Tamil Nadu 606801",
+    "latitude": 12.4345,
+    "longitude": 79.3312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   }
 ]

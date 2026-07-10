@@ -1,1562 +1,2571 @@
 [
   {
-    "id": "OSM_THANJAVUR_0001",
-    "name": "Ramani Hyundai",
+    "id": "PUN_THANJAVUR_0001",
+    "name": "Sri Balaji Tyre Care & Puncture",
     "district": "Thanjavur",
-    "city": "Thanjavur",
+    "city": "Thanjavur Town",
     "state": "Tamil Nadu",
-    "address": "No. 4/112, Trichy Main Road, Pillaiyarpatti Bypass",
-    "phone": "+91-4362228100",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy Main Road, Near New Bus Stand Complex, Thanjavur, Tamil Nadu 613005",
+    "latitude": 10.7682,
+    "longitude": 79.1145,
+    "phone": "+91 94432 55431",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0002",
-    "name": "Ambal Maruti Suzuki ARENA",
+    "id": "PUN_THANJAVUR_0002",
+    "name": "Thanjavur Highway Breakdown Tyres",
     "district": "Thanjavur",
-    "city": "Thanjavur",
+    "city": "Thanjavur Town",
     "state": "Tamil Nadu",
-    "address": "No. 231, Kumbakonam Road, Near Nanjikottai Bypass Junction",
-    "phone": "+91-4362275800",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613006",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-83 Bypass Road, Near Kumbakonam Flyover Junction, Thanjavur, Tamil Nadu 613006",
+    "latitude": 10.7915,
+    "longitude": 79.1382,
+    "phone": "+91 98427 11543",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0003",
-    "name": "SAB Tata Motors",
+    "id": "PUN_THANJAVUR_0003",
+    "name": "National Tyre & Vulcanizing Works",
     "district": "Thanjavur",
-    "city": "Thanjavur",
+    "city": "Thanjavur Town",
     "state": "Tamil Nadu",
-    "address": "SF No. 142/2, Pudukkottai High Road, Near New Bus Stand Area",
-    "phone": "+91-4362241100",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Pudukkottai Road, Near Railway Station Circle, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7745,
+    "longitude": 79.1312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0004",
-    "name": "Maruti Suzuki NEXA (Ambal Motors)",
+    "id": "PUN_THANJAVUR_0004",
+    "name": "Sengipatti Toll Gate Puncture Corner",
     "district": "Thanjavur",
-    "city": "Thanjavur",
+    "city": "Sengipatti",
     "state": "Tamil Nadu",
-    "address": "Trichy Main Highway, Opposite Government Medical College Area",
-    "phone": "+91-9751918945",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-83 Trichy-Thanjavur Highway, Near Sengipatti Toll Plaza, Thanjavur, Tamil Nadu 613402",
+    "latitude": 10.7412,
+    "longitude": 78.9345,
+    "phone": "+91 94865 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Emergency Highway Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0005",
-    "name": "Eurasia KIA Thanjavur",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "SF No. 84/1, Trichy National Highway, Near Collectorate Junction",
-    "phone": "+91-7358739945",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613010",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0006",
-    "name": "Mahindra Ramani Motors",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "No. 512, Trichy Main Road, Pillaiyarpatti",
-    "phone": "+91-8879445660",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0007",
-    "name": "SGA Skoda Thanjavur",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai High Road, Near Ramanathan Hospital Ring Road",
-    "phone": "+91-8939891245",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0008",
-    "name": "Malar Hero",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "No. 88, Kumbakonam Main Road, Palliagraharam",
-    "phone": "+91-4362222545",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613003",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0009",
-    "name": "Sree Saravana Motorsports (Royal Enfield)",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "No. 142, Trichy Main Road, Pillaiyarpatti",
-    "phone": "+91-8939841245",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0010",
-    "name": "Sri Sakthi Honda",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "No. 105, Pudukkottai Road",
-    "phone": "+91-4362221234",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0011",
-    "name": "VST TVS",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "No. 34, Medical College Road",
-    "phone": "+91-9443354454",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0012",
-    "name": "Pioneer Yamaha Agency",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "No. 52, Kumbakonam Main Road, Opp to Government Hospital",
-    "phone": "+91-4362232115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613003",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0013",
-    "name": "Thanjavur Bajaj (Balaji Auto Agencies)",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "No. 19, Trichy Road, Pillaiyarpatti Bypass Area",
-    "phone": "+91-4362221199",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0014",
-    "name": "Annamalai Suzuki",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "No. 8, Kumbakonam Road Area",
-    "phone": "+91-4362222662",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0015",
-    "name": "Malar Hero (Kumbakonam Branch)",
+    "id": "PUN_THANJAVUR_0005",
+    "name": "Kumbakonam Town Tyre Square",
     "district": "Thanjavur",
     "city": "Kumbakonam",
     "state": "Tamil Nadu",
-    "address": "No. 45, Thanjavur Main Road",
-    "phone": "+91-4352225636",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Tanjore Main Road, Near Kumbakonam Bus Stand, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9592,
+    "longitude": 79.3825,
+    "phone": "+91 99421 44531",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0016",
-    "name": "Sri Sakthi Honda (Kumbakonam)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "No. 112, Chennai Main Road",
-    "phone": "+91-4352221522",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0017",
-    "name": "VST TVS (Kumbakonam)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "No. 12A, Tiruvarur Main Road Area",
-    "phone": "+91-9443321544",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0018",
-    "name": "Ambal Maruti Suzuki (Kumbakonam)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Near New Bus Stand Junction",
-    "phone": "+91-4352224346",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0019",
-    "name": "Pioneer Yamaha (Kumbakonam Network)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "No. 4, Karaikal High Road",
-    "phone": "+91-9442561245",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0020",
-    "name": "Malar Hero (Pattukkottai Point)",
+    "id": "PUN_THANJAVUR_0006",
+    "name": "Pattukkottai Bypass Emergency Tyres",
     "district": "Thanjavur",
     "city": "Pattukkottai",
     "state": "Tamil Nadu",
-    "address": "No. 112, Thanjavur Main Road Area",
-    "phone": "+91-4373229455",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Aranthangi Road, Near Pattukkottai New Bypass Roundana, Thanjavur, Tamil Nadu 614601",
+    "latitude": 10.4245,
+    "longitude": 79.3142,
+    "phone": "+91 96554 55431",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0021",
-    "name": "VST TVS (Pattukkottai Point)",
+    "id": "PUN_THANJAVUR_0007",
+    "name": "Sri Murugan Multi Brand Tyre Care",
     "district": "Thanjavur",
-    "city": "Pattukkottai",
+    "city": "Thanjavur Town",
     "state": "Tamil Nadu",
-    "address": "No. 56, Aranthangi Main Road",
-    "phone": "+91-9443214544",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Medical College Road, Opposite Government Medical College Hospital, Thanjavur, Tamil Nadu 613004",
+    "latitude": 10.7585,
+    "longitude": 79.1092,
+    "phone": "+91 94422 55431",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0022",
-    "name": "Sri Sakthi Honda (Pattukkottai)",
+    "id": "PUN_THANJAVUR_0008",
+    "name": "Papanasam Highway Tyre Point",
     "district": "Thanjavur",
-    "city": "Pattukkottai",
+    "city": "Papanasam",
     "state": "Tamil Nadu",
-    "address": "No. 204, Muthupet Road Crossing",
-    "phone": "+91-4373220300",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur-Kumbakonam Main Road, Near Papanasam Railway Station Crossing, Thanjavur, Tamil Nadu 614205",
+    "latitude": 10.9242,
+    "longitude": 79.2815,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0023",
-    "name": "Ambal Maruti Suzuki (Pattukkottai Branch)",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Near New Bus Stand Bypass",
-    "phone": "+91-9751917144",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0024",
-    "name": "Raja TVS Agency (Orathanadu Hub)",
+    "id": "PUN_THANJAVUR_0009",
+    "name": "Royal Tyre Clinic",
     "district": "Thanjavur",
     "city": "Orathanadu",
     "state": "Tamil Nadu",
-    "address": "No. 14, Thanjavur Main Road Area",
-    "phone": "+91-9443521644",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mannargudi Main Road, Near Orathanadu Bus Stand Area, Thanjavur, Tamil Nadu 614625",
+    "latitude": 10.6212,
+    "longitude": 79.2512,
+    "phone": "+91 91592 22154",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0025",
-    "name": "Sri Sakthi Honda Care (Orathanadu)",
-    "district": "Thanjavur",
-    "city": "Orathanadu",
-    "state": "Tamil Nadu",
-    "address": "Mannargudi Main Road Crossing",
-    "phone": "+91-9944051644",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0026",
-    "name": "Malar Hero (Orathanadu Point)",
-    "district": "Thanjavur",
-    "city": "Orathanadu",
-    "state": "Tamil Nadu",
-    "address": "Pattukkottai High Road Corridor",
-    "phone": "+91-4362222537",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0027",
-    "name": "Vetrivel Suzuki Agency (Papanasam)",
-    "district": "Thanjavur",
-    "city": "Papanasam",
-    "state": "Tamil Nadu",
-    "address": "No. 34, Kumbakonam Main Highway Road",
-    "phone": "+91-4374273320",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614205",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0028",
-    "name": "Thanjavur Bajaj Network (Kumbakonam)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road Crossing Area",
-    "phone": "+91-4352220555",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0029",
-    "name": "Ananya Yamaha Agency (Kumbakonam)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "No. 102, Chennai Main Highway Corner",
-    "phone": "+91-9943621044",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0030",
-    "name": "Royal Enfield - Saravana Motorsports (Kumbakonam)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Opposite New Bus Stand Area",
-    "phone": "+91-8879693444",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0031",
-    "name": "VST TVS Sub-Branch (Papanasam)",
-    "district": "Thanjavur",
-    "city": "Papanasam",
-    "state": "Tamil Nadu",
-    "address": "Kumbakonam Main Road, Near Bus Stand Area",
-    "phone": "+91-7373744444",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614205",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0032",
-    "name": "Sri Sakthi Honda Point (Papanasam)",
-    "district": "Thanjavur",
-    "city": "Papanasam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur High Road Area Corner",
-    "phone": "+91-4374271260",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614205",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0033",
-    "name": "Malar Hero Point (Papanasam)",
-    "district": "Thanjavur",
-    "city": "Papanasam",
-    "state": "Tamil Nadu",
-    "address": "No. 8, Kumbakonam Road Highway Area Corridor",
-    "phone": "+91-4374272545",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614205",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0034",
-    "name": "Malar E-Bikes (Thanjavur Main)",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "No. 54, Trichy Road, Near Pillaiyarpatti Bypass Corner",
-    "phone": "+91-9788621444",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0035",
-    "name": "Chola E-Vehicles (Kumbakonam)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Corridor Area",
-    "phone": "+91-9043521144",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0036",
-    "name": "Saran Hyundai Delivery Center (Kumbakonam)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway, Near Bypass Area",
-    "phone": "+91-9500902244",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0037",
-    "name": "VST TVS Agency (Thiruvaiyaru)",
+    "id": "PUN_THANJAVUR_0010",
+    "name": "Thiruvaiyaru 24 Hours Tyre Service",
     "district": "Thanjavur",
     "city": "Thiruvaiyaru",
     "state": "Tamil Nadu",
-    "address": "Kumbakonam Road Corridor",
-    "phone": "+91-7373744434",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613204",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kumbakonam High Road, Near Thiruvaiyaru Bus Stand Complex, Thanjavur, Tamil Nadu 613204",
+    "latitude": 10.8785,
+    "longitude": 79.1015,
+    "phone": "+91 97865 11543",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0038",
-    "name": "Sri Sakthi Honda Sub-Dealer (Thiruvaiyaru)",
+    "id": "PUN_THANJAVUR_0011",
+    "name": "Adirampattinam Quick Tyre Zone",
     "district": "Thanjavur",
-    "city": "Thiruvaiyaru",
+    "city": "Adirampattinam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Area",
-    "phone": "+91-4362261528",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613204",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "ECR Main Road, Near Adirampattinam Bus Stand Entrance, Thanjavur, Tamil Nadu 614701",
+    "latitude": 10.3385,
+    "longitude": 79.3812,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0039",
-    "name": "Malar Hero Sub-Agency (Kumbakonam)",
+    "id": "PUN_THANJAVUR_0012",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Opposite AVR Swarnamahal Jewellery Complex, Thanjavur, Tamil Nadu 613005",
+    "latitude": 10.7712,
+    "longitude": 79.1115,
+    "phone": "+91 94425 44125",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0013",
+    "name": "Kannan Tyre & Patch Point",
+    "district": "Thanjavur",
+    "city": "Peravurani",
+    "state": "Tamil Nadu",
+    "address": "Aranthangi Road, Near Bus Stand Area, Peravurani, Thanjavur, Tamil Nadu 614804",
+    "latitude": 10.2315,
+    "longitude": 79.1612,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0014",
+    "name": "Vallam Town Quick Repair Shop",
+    "district": "Thanjavur",
+    "city": "Vallam",
+    "state": "Tamil Nadu",
+    "address": "Trichy Highway Road, Near Periyar Maniammai University Campus, Vallam, Thanjavur, Tamil Nadu 613403",
+    "latitude": 10.7188,
+    "longitude": 79.0312,
+    "phone": "+91 94863 11543",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0015",
+    "name": "Swamimalai Highway Help Line Tyres",
+    "district": "Thanjavur",
+    "city": "Swamimalai",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Near Swamimalai Murugan Temple Arch, Thanjavur, Tamil Nadu 612302",
+    "latitude": 10.9542,
+    "longitude": 79.3245,
+    "phone": "+91 94434 11432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0016",
+    "name": "Star Express Tyre Station",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "East Main Street, Near Thanjavur Maratha Palace Entrance, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7925,
+    "longitude": 79.1361,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0017",
+    "name": "Bismillah Tyre Care & Vulcanizing",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Old Bus Stand, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7854,
+    "longitude": 79.1312,
+    "phone": "+91 94421 22341",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0018",
+    "name": "Kumbakonam 24/7 Highway Rescue",
     "district": "Thanjavur",
     "city": "Kumbakonam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Opp Government ITI Area",
-    "phone": "+91-4352229244",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Chennai Highway Bypass, Near Sakkottai Flyover, Kumbakonam, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9635,
+    "longitude": 79.4012,
+    "phone": "+91 98436 11432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0040",
-    "name": "Thanjavur Bajaj (Papanasam Corner)",
+    "id": "PUN_THANJAVUR_0019",
+    "name": "Aman Tyre Square & Tubes",
+    "district": "Thanjavur",
+    "city": "Pattukkottai",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Opposite Government Boys School, Pattukkottai, Thanjavur, Tamil Nadu 614601",
+    "latitude": 10.4285,
+    "longitude": 79.3195,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0020",
+    "name": "Vallam Bypass Quick Fix Corner",
+    "district": "Thanjavur",
+    "city": "Vallam",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Thanjavur Highway, Near Vallam Railway Station Gate, Thanjavur, Tamil Nadu 613403",
+    "latitude": 10.7142,
+    "longitude": 79.0345,
+    "phone": "+91 97891 55431",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0021",
+    "name": "Sri Vinayaga Multi Brand Tyre Care",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Medical College Road, Opposite New Bus Stand Complex, Thanjavur, Tamil Nadu 613005",
+    "latitude": 10.7625,
+    "longitude": 79.1115,
+    "phone": "+91 99425 44125",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0022",
+    "name": "Swamimalai Temple Gate Vulcanising",
+    "district": "Thanjavur",
+    "city": "Swamimalai",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Near Swaminatha Swamy Temple Gate, Swamimalai, Thanjavur, Tamil Nadu 612302",
+    "latitude": 10.9562,
+    "longitude": 79.3212,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0023",
+    "name": "Kannan Tyre & Patch Point",
     "district": "Thanjavur",
     "city": "Papanasam",
     "state": "Tamil Nadu",
-    "address": "Kumbakonam Main Road Junction Area",
-    "phone": "+91-4374272620",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614205",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kumbakonam Main Road, Near Papanasam Government Hospital, Thanjavur, Tamil Nadu 614205",
+    "latitude": 10.9212,
+    "longitude": 79.2785,
+    "phone": "+91 96553 11432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0041",
-    "name": "Rainbow Honda Sub-Branch (Kumbakonam)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Near Bus Stand Area",
-    "phone": "+91-4352261158",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0042",
-    "name": "VST TVS Sub-Dealer (Pattukkottai)",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "Aranthangi Main Highway Road Network Area",
-    "phone": "+91-7373744455",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0043",
-    "name": "Ambal Maruti Suzuki (Orathanadu Point)",
+    "id": "PUN_THANJAVUR_0024",
+    "name": "Raja Tyre Tube Clinic",
     "district": "Thanjavur",
     "city": "Orathanadu",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway Road Area Bypass",
-    "phone": "+91-4362224347",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Road, Near Orathanadu Bazaar Area, Thanjavur, Tamil Nadu 614625",
+    "latitude": 10.6242,
+    "longitude": 79.2485,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0044",
-    "name": "Sri Sakthi Hero Point (Orathanadu)",
+    "id": "PUN_THANJAVUR_0025",
+    "name": "Sengipatti Highway Emergency Tyres",
+    "district": "Thanjavur",
+    "city": "Sengipatti",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Trichy-Thanjavur Expressway, Near Sengipatti Toll Gate plaza, Thanjavur, Tamil Nadu 613402",
+    "latitude": 10.7382,
+    "longitude": 78.9312,
+    "phone": "+91 94434 55431",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0026",
+    "name": "Selvam Quick Repair Shop",
+    "district": "Thanjavur",
+    "city": "Thiruvaiyaru",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Near Thiruvaiyaru Railway Station Gate, Thanjavur, Tamil Nadu 613204",
+    "latitude": 10.8712,
+    "longitude": 79.1095,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0027",
+    "name": "Mani Tyre Corner",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Bus Stand Road Circle, Near Big Temple Arch Area, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7812,
+    "longitude": 79.1345,
+    "phone": "+91 91592 11432",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0028",
+    "name": "Apex Tyre Point & Aligners",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Medical College Road, Adjacent to Thanjavur Government Hospital Cross, Thanjavur, Tamil Nadu 613004",
+    "latitude": 10.7554,
+    "longitude": 79.1112,
+    "phone": "+91 94875 11542",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0029",
+    "name": "Anbu Tyre Point",
+    "district": "Thanjavur",
+    "city": "Adirampattinam",
+    "state": "Tamil Nadu",
+    "address": "ECR High Road, Near Adirampattinam Town Panchayat Office, Thanjavur, Tamil Nadu 614701",
+    "latitude": 10.3412,
+    "longitude": 79.3785,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0030",
+    "name": "Peravurani Highway Tyres",
+    "district": "Thanjavur",
+    "city": "Peravurani",
+    "state": "Tamil Nadu",
+    "address": "Aranthangi Highway Lane, Near Peravurani Town Panchayat Office, Thanjavur, Tamil Nadu 614804",
+    "latitude": 10.2345,
+    "longitude": 79.1582,
+    "phone": "+91 94865 55431",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0031",
+    "name": "Basha Highway Vulcanising Center",
+    "district": "Thanjavur",
+    "city": "Pattukkottai",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Pattukkottai Bypass Junction Cross, Pattukkottai, Thanjavur, Tamil Nadu 614601",
+    "latitude": 10.4312,
+    "longitude": 79.3142,
+    "phone": "+91 99421 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanising"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0032",
+    "name": "Royal Town Tyre Station",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "East Main Street Bazaar, Near Thanjavur Palace Tower Cross, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7895,
+    "longitude": 79.1342,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0033",
+    "name": "Maruthi Tyre Alignment & Puncture",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Medical College Road, Near Eswari Nagar Junction, Thanjavur, Tamil Nadu 613004",
+    "latitude": 10.7512,
+    "longitude": 79.1085,
+    "phone": "+91 94435 88124",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0034",
+    "name": "Kumbakonam Highway Tyre Rescue",
+    "district": "Thanjavur",
+    "city": "Kumbakonam",
+    "state": "Tamil Nadu",
+    "address": "NH-36 Vikravandi-Thanjavur Highway, Near Kumbakonam Bypass Roundana, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9652,
+    "longitude": 79.4122,
+    "phone": "+91 98423 55164",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0035",
+    "name": "Balaji Vulcanizing Work",
+    "district": "Thanjavur",
+    "city": "Pattukkottai",
+    "state": "Tamil Nadu",
+    "address": "Aranthangi Main Road, Near Pattukkottai Railway Station Cross, Pattukkottai, Thanjavur, Tamil Nadu 614601",
+    "latitude": 10.4195,
+    "longitude": 79.3105,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0036",
+    "name": "SK Tyre Patch & Care",
+    "district": "Thanjavur",
+    "city": "Vallam",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Vallam Bus Stand Area, Vallam, Thanjavur, Tamil Nadu 613403",
+    "latitude": 10.7162,
+    "longitude": 79.0358,
+    "phone": "+91 97512 44321",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0037",
+    "name": "Safe Drive Tyre Tech",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Opposite New Bus Stand, Thanjavur, Tamil Nadu 613005",
+    "latitude": 10.7695,
+    "longitude": 79.1132,
+    "phone": "+91 91500 55366",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0038",
+    "name": "Highway 24/7 Tyre Services",
+    "district": "Thanjavur",
+    "city": "Sengipatti",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Trichy-Thanjavur Expressway, Near Sengipatti Toll Plaza Lane, Thanjavur, Tamil Nadu 613402",
+    "latitude": 10.7425,
+    "longitude": 78.9365,
+    "phone": "+91 94441 44526",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0039",
+    "name": "Nisha Tubeless Clinic",
+    "district": "Thanjavur",
+    "city": "Papanasam",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Papanasam New Bus Stand Complex, Thanjavur, Tamil Nadu 614205",
+    "latitude": 10.9252,
+    "longitude": 79.2845,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0040",
+    "name": "Rahman Tyre & Tube Square",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Pudukkottai Road, Near Ramanathan Hospital Junction, Thanjavur, Tamil Nadu 613007",
+    "latitude": 10.7612,
+    "longitude": 79.1352,
+    "phone": "+91 99945 22341",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0041",
+    "name": "Ganesh Vulcanising Shop",
     "district": "Thanjavur",
     "city": "Orathanadu",
     "state": "Tamil Nadu",
-    "address": "No 24, Pattukkottai Main Highway Road",
-    "phone": "+91-4362262539",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mannargudi High Road, Near Orathanadu Town Panchayat Office, Thanjavur, Tamil Nadu 614625",
+    "latitude": 10.6195,
+    "longitude": 79.2545,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0045",
-    "name": "Sri Balaji Motors (Multi-Brand Hub)",
+    "id": "PUN_THANJAVUR_0042",
+    "name": "Speedway Tyre Alignment Centre",
     "district": "Thanjavur",
-    "city": "Pattukkottai",
+    "city": "Thanjavur Town",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Corridor Area",
-    "phone": "+91-9843652429",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy Main Road, Near Vallam Roundana Checkpost area, Thanjavur, Tamil Nadu 613005",
+    "latitude": 10.7585,
+    "longitude": 79.0812,
+    "phone": "+91 94421 99433",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0046",
-    "name": "VST TVS Network (Kumbakonam)",
+    "id": "PUN_THANJAVUR_0043",
+    "name": "Velu Auto & Tyre Patch",
     "district": "Thanjavur",
-    "city": "Kumbakonam",
+    "city": "Thiruvaiyaru",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Salai Near Feeder Road",
-    "phone": "+91-9443321575",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kallanai High Road, Near Thiruvaiyaru Bus Stand Circle, Thanjavur, Tamil Nadu 613204",
+    "latitude": 10.8752,
+    "longitude": 79.1042,
+    "phone": "+91 96294 55317",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0047",
-    "name": "Greenway Electric Scooters",
+    "id": "PUN_THANJAVUR_0044",
+    "name": "Star Express Highway Point",
     "district": "Thanjavur",
-    "city": "Thanjavur",
+    "city": "Swamimalai",
     "state": "Tamil Nadu",
-    "address": "Medical College Road, Opp Commercial Bank",
-    "phone": "+91-9043216799",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Kumbakonam Main Road, Opposite Swamimalai Police Station, Swamimalai, Thanjavur, Tamil Nadu 612302",
+    "latitude": 10.9528,
+    "longitude": 79.3219,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0048",
-    "name": "SK E-Bikes (Pattukkottai Area)",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "Aranthangi Road Junction Area Corner",
-    "phone": "+91-9047812549",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0049",
-    "name": "Karthikeyani Tractors (Swaraj Dealer)",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Near Collectorate Bypass",
-    "phone": "+91-4146251445",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0050",
-    "name": "Arun Tractors (Tafe Dealer Base Hub)",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "Pudukkottai Highway Bypass Road Area",
-    "phone": "+91-4146220315",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0051",
-    "name": "National Auto Agencies (Bajaj Sub-Branch)",
+    "id": "PUN_THANJAVUR_0045",
+    "name": "Royal Enfield Specialist & Tyre Point",
     "district": "Thanjavur",
     "city": "Kumbakonam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Salai Near Toll Plaza Area",
-    "phone": "+91-4331250225",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Tanjore Road, Opposite Kumbakonam Railway Station Entrance Area, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9542,
+    "longitude": 79.3795,
+    "phone": "+91 98942 99425",
+    "services": [
+      "Bike Puncture",
+      "Heavy Bike Tyre Patch",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0052",
-    "name": "Sivam Motors (Hero Sub-Dealer Point)",
+    "id": "PUN_THANJAVUR_0046",
+    "name": "Pattukkottai Bypass Tyre Junction",
     "district": "Thanjavur",
     "city": "Pattukkottai",
     "state": "Tamil Nadu",
-    "address": "Aranthangi Road Network Section",
-    "phone": "+91-9442345115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur High Road, Near Pattukkottai New Bypass Overbridge Approach, Thanjavur, Tamil Nadu 614601",
+    "latitude": 10.4342,
+    "longitude": 79.3112,
+    "phone": "+91 94861 33614",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0053",
-    "name": "Abinaya Yamaha Point (Pattukkottai)",
+    "id": "PUN_THANJAVUR_0047",
+    "name": "Mani Quick Patch Corner",
     "district": "Thanjavur",
-    "city": "Pattukkottai",
+    "city": "Peravurani",
     "state": "Tamil Nadu",
-    "address": "Thanjavur High Road Corner Point",
-    "phone": "+91-9943521049",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Bazaar Street, Near Peravurani Town Crossing Junction, Peravurani, Thanjavur, Tamil Nadu 614804",
+    "latitude": 10.2342,
+    "longitude": 79.1645,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0054",
-    "name": "Sri Vetrivel Suzuki Point Area",
+    "id": "PUN_THANJAVUR_0048",
+    "name": "Highway Ranger Tyre Clinic",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Highway Road, Opposite PRIST University Campus Main Gate, Thanjavur, Tamil Nadu 614303",
+    "latitude": 10.7215,
+    "longitude": 79.0112,
+    "phone": "+91 97865 33317",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0049",
+    "name": "Sri Sai Baba Vulcanizing & Puncture",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Pudukkottai Main Road, Near Nethaji Statue Junction, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7658,
+    "longitude": 79.1321,
+    "phone": "+91 94421 91592",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0050",
+    "name": "Kumbakonam East Highway Tyre Rescue",
     "district": "Thanjavur",
     "city": "Kumbakonam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Corridor Zone",
-    "phone": "+91-9443265149",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-36 Mayiladuthurai Highway, Near Sakkottai Ratha Cross, Kumbakonam, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9582,
+    "longitude": 79.4185,
+    "phone": "+91 98436 94421",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0055",
-    "name": "Vijay Automobiles (Piaggio Commercial Delivery)",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "Medical College Road, Near Janakipuram Area",
-    "phone": "+91-4146251801",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613004",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0056",
-    "name": "Star E-Vehicles Corridor",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway Corridor Road",
-    "phone": "+91-8870425169",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0057",
-    "name": "Guru Automobiles (Multi-Brand Network)",
+    "id": "PUN_THANJAVUR_0051",
+    "name": "Nasser Tyre Care Corner",
     "district": "Thanjavur",
     "city": "Pattukkottai",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Line",
-    "phone": "+91-9443920159",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Aranthangi Road, Near Railway Gate Area, Pattukkottai, Thanjavur, Tamil Nadu 614601",
+    "latitude": 10.4159,
+    "longitude": 79.3142,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0058",
-    "name": "Sri Guru Bajaj Agency Hub",
+    "id": "PUN_THANJAVUR_0052",
+    "name": "Murugan Quick Tyre Patch",
     "district": "Thanjavur",
-    "city": "Kumbakonam",
+    "city": "Vallam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Opp Govt Hospital Area Corner",
-    "phone": "+91-4173222115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Highway Road, Near Vallam Municipal Office, Vallam, Thanjavur, Tamil Nadu 613403",
+    "latitude": 10.7205,
+    "longitude": 79.0315,
+    "phone": "+91 97891 94445",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0059",
-    "name": "Muthu Motors (Multi-Brand Station)",
+    "id": "PUN_THANJAVUR_0053",
+    "name": "Rasi Tyre Clinic & Nitrogen Air",
     "district": "Thanjavur",
-    "city": "Pattukkottai",
+    "city": "Thanjavur Town",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Area",
-    "phone": "+91-9566214315",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy Main Road, Near Old Bus Stand Circle, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7812,
+    "longitude": 79.1285,
+    "phone": "+91 91599 94425",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0060",
-    "name": "Galaxy Honda Sub-Branch Station",
+    "id": "PUN_THANJAVUR_0054",
+    "name": "Sengipatti Toll Gate Emergency Tyre Point",
+    "district": "Thanjavur",
+    "city": "Sengipatti",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Trichy-Thanjavur Highway, Adjacent to Sengipatti Bypass Toll Plaza, Thanjavur, Tamil Nadu 613402",
+    "latitude": 10.7392,
+    "longitude": 78.9342,
+    "phone": "+91 94445 97861",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0055",
+    "name": "Babu Tyre Square",
+    "district": "Thanjavur",
+    "city": "Papanasam",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Papanasam Government Hospital Junction, Thanjavur, Tamil Nadu 614205",
+    "latitude": 10.9215,
+    "longitude": 79.2785,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0056",
+    "name": "New Star Tyre Clinic",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Medical College Road, Near Anna Statue Roundana, Thanjavur, Tamil Nadu 613004",
+    "latitude": 10.7545,
+    "longitude": 79.1112,
+    "phone": "+91 99941 94875",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0057",
+    "name": "Anjaneya Vulcanising Shop",
     "district": "Thanjavur",
     "city": "Orathanadu",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway Road Section",
-    "phone": "+91-9442871109",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur High Road, Near Orathanadu Checkpost Area, Thanjavur, Tamil Nadu 614625",
+    "latitude": 10.6245,
+    "longitude": 79.2485,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0061",
-    "name": "Bala Motors (Multi-Brand Point)",
+    "id": "PUN_THANJAVUR_0058",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Opposite Government Boys Higher Secondary School, Thanjavur, Tamil Nadu 613005",
+    "latitude": 10.7682,
+    "longitude": 79.1095,
+    "phone": "+91 94425 94436",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0059",
+    "name": "Kumaran Auto & Tyre Patch",
+    "district": "Thanjavur",
+    "city": "Swamimalai",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Near Koot Road Junction, Swamimalai, Thanjavur, Tamil Nadu 612302",
+    "latitude": 10.9542,
+    "longitude": 79.3245,
+    "phone": "+91 96291 94861",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0060",
+    "name": "Express Highway 83 Tyre Care",
+    "district": "Thanjavur",
+    "city": "Sengipatti",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Trichy Highway, Opposite Sengipatti Police Outpost, Thanjavur, Tamil Nadu 613402",
+    "latitude": 10.7382,
+    "longitude": 78.9312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0061",
+    "name": "A1 Bike Zone & Tyre Repair",
     "district": "Thanjavur",
     "city": "Kumbakonam",
     "state": "Tamil Nadu",
-    "address": "No. 14, Thanjavur Road Area",
-    "phone": "+91-9443652149",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Tanjore Road, Near Kumbakonam Town Stadium, Kumbakonam, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9542,
+    "longitude": 77.3812,
+    "phone": "+91 98945 94441",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0062",
-    "name": "Sri Lakshmi Honda Point Station",
+    "id": "PUN_THANJAVUR_0062",
+    "name": "Kumbakonam Bypass Tyre Junction",
     "district": "Thanjavur",
     "city": "Kumbakonam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway",
-    "phone": "+91-9944321095",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-36 Bypass Road, Near Cauvery River Bridge Approach, Kumbakonam, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9685,
+    "longitude": 79.4012,
+    "phone": "+91 94865 97864",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0063",
-    "name": "Raja Krishna Suzuki Network Point",
+    "id": "PUN_THANJAVUR_0063",
+    "name": "Siva Quick Repair Shop",
     "district": "Thanjavur",
-    "city": "Thanjavur",
+    "city": "Adirampattinam",
     "state": "Tamil Nadu",
-    "address": "Trichy Main Road Area",
-    "phone": "+91-4146251451",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Pattukkottai High Road, Adirampattinam, Thanjavur, Tamil Nadu 614701",
+    "latitude": 10.3412,
+    "longitude": 79.3785,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0064",
-    "name": "Sakthi Tractors (John Deere Agency Hub)",
+    "id": "PUN_THANJAVUR_0064",
+    "name": "Highway Track Tyre Point",
     "district": "Thanjavur",
-    "city": "Thanjavur",
+    "city": "Thanjavur Town",
     "state": "Tamil Nadu",
-    "address": "Trichy-Thanjavur Highway Bypass Corridor",
-    "phone": "+91-4146220459",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy-Thanjavur Expressway, Thanjavur New Bypass Service Lane, Thanjavur, Tamil Nadu 613006",
+    "latitude": 10.7915,
+    "longitude": 79.0812,
+    "phone": "+91 97861 94865",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0065",
-    "name": "Siva Agencies (Hero Sub-Dealer Hub)",
+    "id": "PUN_THANJAVUR_0065",
+    "name": "Bismillah Tyre Point",
+    "district": "Thanjavur",
+    "city": "Thiruvaiyaru",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Near Thiruvaiyaru Bus Stop, Thanjavur, Tamil Nadu 613204",
+    "latitude": 10.8795,
+    "longitude": 79.1042,
+    "phone": "+91 94432 99942",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0066",
+    "name": "Al-Ameen Vulcanising Works",
+    "district": "Thanjavur",
+    "city": "Thiruvaiyaru",
+    "state": "Tamil Nadu",
+    "address": "Kallanai Road, Near Perumal Temple, Thiruvaiyaru, Thanjavur, Tamil Nadu 613204",
+    "latitude": 10.8752,
+    "longitude": 79.1012,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0067",
+    "name": "Swamimalai Junction Tyre Corner",
+    "district": "Thanjavur",
+    "city": "Swamimalai",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Swamimalai Junction, Thanjavur, Tamil Nadu 612302",
+    "latitude": 10.9545,
+    "longitude": 79.3245,
+    "phone": "+91 97864 99941",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0068",
+    "name": "Sri Krishna Quick Patch",
+    "district": "Thanjavur",
+    "city": "Swamimalai",
+    "state": "Tamil Nadu",
+    "address": "Tanjore High Road, Near Swamimalai Railway Station Area, Thanjavur, Tamil Nadu 612302",
+    "latitude": 10.9512,
+    "longitude": 79.3215,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0069",
+    "name": "Kumbakonam Bypass Tyre Rescue",
+    "district": "Thanjavur",
+    "city": "Kumbakonam",
+    "state": "Tamil Nadu",
+    "address": "NH-36 Vikravandi Highway, Near New Bus Stand Checkpost, Kumbakonam, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9612,
+    "longitude": 79.3825,
+    "phone": "+91 98432 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0070",
+    "name": "Santhosh Tyre Patch Shop",
+    "district": "Thanjavur",
+    "city": "Pattukkottai",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur-Pattukkottai Highway, Near Pattukkottai Bus Stand, Thanjavur, Tamil Nadu 614601",
+    "latitude": 10.4212,
+    "longitude": 79.3142,
+    "phone": "+91 91593 99941",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0071",
+    "name": "Muna Tyre & Tube Care",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Opposite Government Arts College Entrance, Thanjavur, Tamil Nadu 613005",
+    "latitude": 10.7652,
+    "longitude": 79.1132,
+    "phone": "+91 99942 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0072",
+    "name": "Jai Hanuman Tyre Point",
+    "district": "Thanjavur",
+    "city": "Papanasam",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Papanasam New Bus Stand, Thanjavur, Tamil Nadu 614205",
+    "latitude": 10.9242,
+    "longitude": 79.2815,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0073",
+    "name": "Balu Motor & Tyre Work",
     "district": "Thanjavur",
     "city": "Orathanadu",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Corridor Road",
-    "phone": "+91-9443216859",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mannargudi Main Road, Near Orathanadu Police Station, Thanjavur, Tamil Nadu 614625",
+    "latitude": 10.6212,
+    "longitude": 79.2512,
+    "phone": "+91 96295 94445",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0066",
-    "name": "Sri Vinayaga Bajaj Point Station",
+    "id": "PUN_THANJAVUR_0074",
+    "name": "Big Temple Roundana Industrial Tyres",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Big Temple Roundana Junction, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7812,
+    "longitude": 79.1312,
+    "phone": "+91 94443 99941",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0075",
+    "name": "Venkateswara Vulcanising Clinic",
+    "district": "Thanjavur",
+    "city": "Vallam",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near New Town Checkpost Area, Vallam, Thanjavur, Tamil Nadu 613403",
+    "latitude": 10.7188,
+    "longitude": 79.0312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0076",
+    "name": "Highway Night Rider Tyres",
+    "district": "Thanjavur",
+    "city": "Sengipatti",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Trichy-Thanjavur Expressway, Near Sengipatti Toll Plaza Area, Thanjavur, Tamil Nadu 613402",
+    "latitude": 10.7412,
+    "longitude": 78.9345,
+    "phone": "+91 97863 94445",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0077",
+    "name": "Raza Tyre Alignment & Patch",
+    "district": "Thanjavur",
+    "city": "Adirampattinam",
+    "state": "Tamil Nadu",
+    "address": "Pattukkottai Road, Near Adirampattinam Town Panchayat Office, Thanjavur, Tamil Nadu 614701",
+    "latitude": 10.3412,
+    "longitude": 79.3785,
+    "phone": "+91 94862 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0078",
+    "name": "Guru Quick Repair Point",
+    "district": "Thanjavur",
+    "city": "Peravurani",
+    "state": "Tamil Nadu",
+    "address": "Aranthangi Road Area, Near Peravurani Market Junction, Thanjavur, Tamil Nadu 614804",
+    "latitude": 10.2342,
+    "longitude": 79.1612,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0079",
+    "name": "Kumbakonam Toll Gate Tyre Help",
+    "district": "Thanjavur",
+    "city": "Kumbakonam",
+    "state": "Tamil Nadu",
+    "address": "NH-36 Vikravandi Expressway, 500m before Kumbakonam Toll Gate, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9635,
+    "longitude": 79.3825,
+    "phone": "+91 94421 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0080",
+    "name": "Murugan Tyre Work & Tubes",
+    "district": "Thanjavur",
+    "city": "Adirampattinam",
+    "state": "Tamil Nadu",
+    "address": "ECR Main Road, Near Adirampattinam Cooperative Bank, Thanjavur, Tamil Nadu 614701",
+    "latitude": 10.3385,
+    "longitude": 79.3812,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0081",
+    "name": "Siva Sakthi Vulcanizing Corner",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Pudukkottai Main Road, Near Railway Overbridge, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7715,
+    "longitude": 79.1352,
+    "phone": "+91 94436 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0082",
+    "name": "Highway Quick Fix Center",
+    "district": "Thanjavur",
+    "city": "Sengipatti",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Trichy-Thanjavur Highway, Near Sengipatti Bypass Junction, Thanjavur, Tamil Nadu 613402",
+    "latitude": 10.7412,
+    "longitude": 78.9345,
+    "phone": "+91 98431 94445",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0083",
+    "name": "Rahamath Tyre Care",
     "district": "Thanjavur",
     "city": "Pattukkottai",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway",
-    "phone": "+91-9786431209",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur Main Road, Near Pattukkottai Star Theatre Cross, Pattukkottai, Thanjavur, Tamil Nadu 614601",
+    "latitude": 10.4285,
+    "longitude": 79.3195,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0067",
-    "name": "Pioneer E-Bikes Junction",
+    "id": "PUN_THANJAVUR_0084",
+    "name": "Vignesh Quick Tyre Fix",
     "district": "Thanjavur",
-    "city": "Thanjavur",
+    "city": "Kumbakonam",
     "state": "Tamil Nadu",
-    "address": "Trichy Road, Near New Bus Stand Area",
-    "phone": "+91-8870123459",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Tanjore Main Road, Near Kumbakonam Bus Stand Complex, Kumbakonam, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9592,
+    "longitude": 79.3825,
+    "phone": "+91 97894 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0068",
-    "name": "Karthik Motors TVS Point Station",
+    "id": "PUN_THANJAVUR_0085",
+    "name": "City Centre Tyre & Alignment Zone",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near South Rampart Area, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7832,
+    "longitude": 79.1285,
+    "phone": "+91 91595 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0086",
+    "name": "Toll Plaza Highway Ranger Tyres",
+    "district": "Thanjavur",
+    "city": "Kumbakonam",
+    "state": "Tamil Nadu",
+    "address": "NH-36 Vikravandi Expressway, Kumbakonam Toll Gate Exit Lane, Kumbakonam, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9635,
+    "longitude": 79.3825,
+    "phone": "+91 94441 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0087",
+    "name": "Anand Tyre & Tube Square",
     "district": "Thanjavur",
     "city": "Orathanadu",
     "state": "Tamil Nadu",
-    "address": "Pattukkottai Main Road Corridor",
-    "phone": "+91-4146220369",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur-Mannargudi Road, Near Government Hospital Area, Orathanadu, Thanjavur, Tamil Nadu 614625",
+    "latitude": 10.6212,
+    "longitude": 79.2512,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0069",
-    "name": "Sri Durga Auto Agencies Line",
+    "id": "PUN_THANJAVUR_0088",
+    "name": "National Tyre Repair Shop",
     "district": "Thanjavur",
-    "city": "Pattukkottai",
+    "city": "Thanjavur Town",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Junction Area",
-    "phone": "+91-9159023459",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Medical College Road, Opposite Municipal High School, Thanjavur, Tamil Nadu 613004",
+    "latitude": 10.7554,
+    "longitude": 79.1112,
+    "phone": "+91 99943 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0070",
-    "name": "Smart E-Vehicles Station",
+    "id": "PUN_THANJAVUR_0089",
+    "name": "Sri Balaji Vulcanising Shop",
+    "district": "Thanjavur",
+    "city": "Papanasam",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Near Cooperative Bank, Papanasam, Thanjavur, Tamil Nadu 614205",
+    "latitude": 10.9242,
+    "longitude": 79.2815,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0090",
+    "name": "Bridgestone Tyre Select - Sri Vinayaga",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Opposite New Bus Stand Complex Entrance, Thanjavur, Tamil Nadu 613005",
+    "latitude": 10.7682,
+    "longitude": 79.1145,
+    "phone": "+91 94422 99941",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "New Tyre Sales"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0091",
+    "name": "Sakthi Auto & Tyre Patch",
+    "district": "Thanjavur",
+    "city": "Thiruvaiyaru",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Near Thiruvaiyaru Police Outpost, Thiruvaiyaru, Thanjavur, Tamil Nadu 613204",
+    "latitude": 10.8795,
+    "longitude": 79.1042,
+    "phone": "+91 96293 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0092",
+    "name": "Expressway 83 Highway Tyre Point",
+    "district": "Thanjavur",
+    "city": "Sengipatti",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Bypass Expressway, Near Sengipatti Toll Plaza Cross, Sengipatti, Thanjavur, Tamil Nadu 613402",
+    "latitude": 10.7412,
+    "longitude": 78.9345,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0093",
+    "name": "Thanjavur Central Tyre Repair",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Old Bus Stand, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7854,
+    "longitude": 79.1312,
+    "phone": "+91 98941 99941",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0094",
+    "name": "Papanasam River Bridge Side Tyres",
+    "district": "Thanjavur",
+    "city": "Papanasam",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur-Kumbakonam Highway Road, Near River Bridge Approach, Papanasam, Thanjavur, Tamil Nadu 614205",
+    "latitude": 10.9212,
+    "longitude": 79.2785,
+    "phone": "+91 94861 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0095",
+    "name": "Murugan Quick Repair Corner",
+    "district": "Thanjavur",
+    "city": "Peravurani",
+    "state": "Tamil Nadu",
+    "address": "Palace Road Cross, Peravurani, Thanjavur, Tamil Nadu 614804",
+    "latitude": 10.2342,
+    "longitude": 79.1612,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0096",
+    "name": "Highway Tracker Tyre Center",
+    "district": "Thanjavur",
+    "city": "Sengipatti",
+    "state": "Tamil Nadu",
+    "address": "NH-83 Expressway, Near Sengipatti Bypass Bridge, Sengipatti, Thanjavur, Tamil Nadu 613402",
+    "latitude": 10.7412,
+    "longitude": 78.9345,
+    "phone": "+91 97864 94445",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0097",
+    "name": "Sartaj Tyre & Vulcanising Works",
+    "district": "Thanjavur",
+    "city": "Thiruvaiyaru",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Near Anna Statue, Thiruvaiyaru, Thanjavur, Tamil Nadu 613204",
+    "latitude": 10.8781,
+    "longitude": 79.1042,
+    "phone": "+91 94424 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0098",
+    "name": "Al-Ahad Tyre Care Corner",
+    "district": "Thanjavur",
+    "city": "Thiruvaiyaru",
+    "state": "Tamil Nadu",
+    "address": "Kallanai Road, Near Government Higher Secondary School, Thiruvaiyaru, Thanjavur, Tamil Nadu 613204",
+    "latitude": 10.8752,
+    "longitude": 79.1012,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0099",
+    "name": "Swamimalai Road Tyre Repair Shop",
+    "district": "Thanjavur",
+    "city": "Swamimalai",
+    "state": "Tamil Nadu",
+    "address": "Kumbakonam Main Road, Near Bus Stand Area, Swamimalai, Thanjavur, Tamil Nadu 612302",
+    "latitude": 10.9542,
+    "longitude": 79.3245,
+    "phone": "+91 97861 99941",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0100",
+    "name": "Sri Venkateswara Tyre Patch Works",
+    "district": "Thanjavur",
+    "city": "Swamimalai",
+    "state": "Tamil Nadu",
+    "address": "Tanjore Road, Near Bazaar Junction, Swamimalai, Thanjavur, Tamil Nadu 612302",
+    "latitude": 10.9512,
+    "longitude": 79.3215,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0101",
+    "name": "Kumbakonam Highway Emergency Tyres",
     "district": "Thanjavur",
     "city": "Kumbakonam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road",
-    "phone": "+91-9788123459",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-36 Vikravandi Highway, Near New Bus Stand Flyover Exit, Kumbakonam, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9612,
+    "longitude": 79.3825,
+    "phone": "+91 98435 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0071",
-    "name": "Venkateswara Honda Sub-Agency Hub",
+    "id": "PUN_THANJAVUR_0102",
+    "name": "Srinivasa Tyre Patch Point",
     "district": "Thanjavur",
     "city": "Pattukkottai",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Corridor",
-    "phone": "+91-9944876549",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur High Road, Near Pattukkottai Market Area, Thanjavur, Tamil Nadu 614601",
+    "latitude": 10.4212,
+    "longitude": 79.3142,
+    "phone": "+91 91591 99941",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0072",
-    "name": "Kaveri Commercial Vehicles (Tata Sub-Branch Hub)",
+    "id": "PUN_THANJAVUR_0103",
+    "name": "Al-Mubarak Tyre Square",
     "district": "Thanjavur",
-    "city": "Thanjavur",
+    "city": "Thanjavur Town",
     "state": "Tamil Nadu",
-    "address": "Trichy Main Corridor Line",
-    "phone": "+91-4146254345",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Trichy Main Road, Opposite Big Temple Mosque Lane, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7812,
+    "longitude": 79.1312,
+    "phone": "+91 99941 99942",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0073",
-    "name": "Gemini Auto Network Station",
+    "id": "PUN_THANJAVUR_0104",
+    "name": "Vallam Hill Side Quick Tyre Fix",
+    "district": "Thanjavur",
+    "city": "Vallam",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Vallam Railway Station Cross Road, Vallam, Thanjavur, Tamil Nadu 613403",
+    "latitude": 10.7142,
+    "longitude": 79.0345,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0105",
+    "name": "Nandhi Motor & Tyre Clinic",
+    "district": "Thanjavur",
+    "city": "Papanasam",
+    "state": "Tamil Nadu",
+    "address": "Thanjavur Main Road, Opposite Government Girls Higher Secondary School, Papanasam, Thanjavur, Tamil Nadu 614205",
+    "latitude": 10.9242,
+    "longitude": 79.2815,
+    "phone": "+91 96291 99941",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0106",
+    "name": "Big Temple Roundana Main Road Heavy Tyre Works",
+    "district": "Thanjavur",
+    "city": "Thanjavur Town",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Adjacent to Big Temple Roundana Commercial Complex, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7812,
+    "longitude": 79.1312,
+    "phone": "+91 94441 99942",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_THANJAVUR_0107",
+    "name": "Sri Tirumala Vulcanising Works",
     "district": "Thanjavur",
     "city": "Orathanadu",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway Road Crossing Area",
-    "phone": "+91-9443219879",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Thanjavur High Road, Near Town Water Tank, Orathanadu, Thanjavur, Tamil Nadu 614625",
+    "latitude": 10.6245,
+    "longitude": 79.2485,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0074",
-    "name": "Ram Suzuki Agency Corridor",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway Area Corridor",
-    "phone": "+91-9791432115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0075",
-    "name": "National Yamaha Point Hub",
+    "id": "PUN_THANJAVUR_0108",
+    "name": "Express Highway Toll Gate View Tyres",
     "district": "Thanjavur",
     "city": "Kumbakonam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Highway Area",
-    "phone": "+91-4173220420",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-36 Vikravandi Expressway, Adjacent to Kumbakonam Toll Gate Flyover, Kumbakonam, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9635,
+    "longitude": 79.3825,
+    "phone": "+91 97861 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0076",
-    "name": "Sri Sai E-Bikes Point",
+    "id": "PUN_THANJAVUR_0109",
+    "name": "Star Tyre Alignment & Puncture Point",
     "district": "Thanjavur",
-    "city": "Thanjavur",
+    "city": "Adirampattinam",
     "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Near Municipal Library",
-    "phone": "+91-9043112255",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Pattukkottai Main Road, Opposite Adirampattinam New Bus Stand, Thanjavur, Tamil Nadu 614701",
+    "latitude": 10.3412,
+    "longitude": 79.3785,
+    "phone": "+91 94861 99941",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0077",
-    "name": "Jayam Multi-Brand Two Wheelers Base",
+    "id": "PUN_THANJAVUR_0110",
+    "name": "Santhosh Quick Repair Point",
     "district": "Thanjavur",
-    "city": "Orathanadu",
+    "city": "Peravurani",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Highway Area",
-    "phone": "+91-9944512395",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Aranthangi Main Road, Opposite Government Hospital Complex, Peravurani, Thanjavur, Tamil Nadu 614804",
+    "latitude": 10.2342,
+    "longitude": 79.1612,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0078",
-    "name": "Rajarajan Motors (Hero Sub-Dealer Point Area)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway Area Corridor",
-    "phone": "+91-9443210409",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0079",
-    "name": "Vetrivel Honda Point Hub Area",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road Near Kamarajar Statue Circle",
-    "phone": "+91-4173251335",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0080",
-    "name": "Nisha Tractors & Commercial Delivery Hub",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Bypass Corridor Road Area Bridge",
-    "phone": "+91-9842456105",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0081",
-    "name": "V.P.M Motors (TVS Point)",
-    "district": "Thanjavur",
-    "city": "Orathanadu",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Near Bus Stand",
-    "phone": "+91-9786541235",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0082",
-    "name": "Sree Vinayagar E-Bikes",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "No. 45, Trichy Road Area",
-    "phone": "+91-9080706055",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0083",
-    "name": "Balaji Yamaha Sub-Dealer",
+    "id": "PUN_THANJAVUR_0111",
+    "name": "Highway Express Toll Plaza Support",
     "district": "Thanjavur",
     "city": "Kumbakonam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Near LIC Office Corner",
-    "phone": "+91-9942481028",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH-36 Vikravandi Expressway, 1km after Kumbakonam Toll Gate plaza, Kumbakonam, Thanjavur, Tamil Nadu 612001",
+    "latitude": 10.9652,
+    "longitude": 79.3852,
+    "phone": "+91 94425 99942",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_THANJAVUR_0084",
-    "name": "Murugan Auto Consult & Bikes",
+    "id": "PUN_THANJAVUR_0112",
+    "name": "Murugan Tyre Patch & Tube Shop",
     "district": "Thanjavur",
-    "city": "Pattukkottai",
+    "city": "Adirampattinam",
     "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Crossing",
-    "phone": "+91-9442152365",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0085",
-    "name": "Kallakurichi Auto Agencies (Mahindra Tractors)",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Near Pillaiyarpatti Flyover Area",
-    "phone": "+91-4172247710",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0086",
-    "name": "Sri Sakthi Motors (Multi-Brand)",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur High Road",
-    "phone": "+91-9159041228",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0087",
-    "name": "Thangam Suzuki Point",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Salai",
-    "phone": "+91-9488056215",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0088",
-    "name": "Annamalai Motors (Hero Authorised Point)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur High Road",
-    "phone": "+91-9965541018",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0089",
-    "name": "Malar E-Bikes Sub-Branch",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "No. 120, Thanjavur Road",
-    "phone": "+91-9788645128",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0090",
-    "name": "Kumbakonam Honda Sub-Dealer",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway Road",
-    "phone": "+91-4177250556",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0091",
-    "name": "Senthil Auto Electric Vehicles",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Road, Near Bypass Crossing",
-    "phone": "+91-8903456715",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0092",
-    "name": "Sri Kumaran Motors (TVS Point)",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Near Bus Stand Area",
-    "phone": "+91-9443811528",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0093",
-    "name": "Rasi Motors (Multi-Brand)",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Junction",
-    "phone": "+91-9566712349",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0094",
-    "name": "Susee Bajaj Network Point",
-    "district": "Thanjavur",
-    "city": "Thanjavur",
-    "state": "Tamil Nadu",
-    "address": "Trichy Main Road, Near Pillaiyarpatti Area Ground",
-    "phone": "+91-4172220512",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "613005",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0095",
-    "name": "Sri Balaji Motors (Multi-Brand Point)",
-    "district": "Thanjavur",
-    "city": "Orathanadu",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Area",
-    "phone": "+91-9843615249",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0096",
-    "name": "Vignesh Motors (TVS Point)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur High Road, Near Market",
-    "phone": "+91-9442516309",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0097",
-    "name": "Sree Ram Bajaj Agency",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Junction",
-    "phone": "+91-9865043111",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0098",
-    "name": "Kumaran Motors (Hero Point)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road, Opp New Bus Stand",
-    "phone": "+91-4177250104",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0099",
-    "name": "Maruti Auto Consult & Service Point",
-    "district": "Thanjavur",
-    "city": "Pattukkottai",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Road Crossing Area",
-    "phone": "+91-9442078653",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "614601",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0100",
-    "name": "Sri Murugan Suzuki Point",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road, Near Toll Plaza",
-    "phone": "+91-9791402312",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0101",
-    "name": "Kaveri Tata Motors (Kumbakonam Hub)",
-    "district": "Thanjavur",
-    "city": "Kumbakonam",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Highway Road",
-    "phone": "+91-4177224355",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "612001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0102",
-    "name": "Khivraj Maruti Suzuki (Orathanadu Point Area)",
-    "district": "Thanjavur",
-    "city": "Orathanadu",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur Main Road Area",
-    "phone": "+91-4172224347",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0103",
-    "name": "Babu Cars Mahindra Showroom (Orathanadu Branch)",
-    "district": "Thanjavur",
-    "city": "Orathanadu",
-    "state": "Tamil Nadu",
-    "address": "Bazaar Main Road",
-    "phone": "+91-4172232666",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_THANJAVUR_0104",
-    "name": "Saran Hyundai Hub Point (Orathanadu)",
-    "district": "Thanjavur",
-    "city": "Orathanadu",
-    "state": "Tamil Nadu",
-    "address": "Thanjavur High Road Network Area",
-    "phone": "+91-9500994130",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "614625",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Main High Road, Near Adirampattinam Panchayat Union Office, Thanjavur, Tamil Nadu 614701",
+    "latitude": 10.3385,
+    "longitude": 79.3812,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   }
 ]

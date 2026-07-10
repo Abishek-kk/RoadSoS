@@ -45,7 +45,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -367,9 +367,7 @@
     "is_24_hours": false,
     "rating": 4.2,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_CHENGALPATTU_0016",
     "name": "Balu Tyre Vulcanizing Works",
@@ -390,7 +388,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -707,7 +705,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -733,9 +731,7 @@
     "is_24_hours": false,
     "rating": 4.3,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_CHENGALPATTU_0031",
     "name": "Balu Tyre Vulcanizing Works",
@@ -756,7 +752,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1073,7 +1069,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1099,9 +1095,7 @@
     "is_24_hours": false,
     "rating": 4.3,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_CHENGALPATTU_0046",
     "name": "Sri Amman Puncture Kadai",
@@ -1247,7 +1241,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1444,7 +1438,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1470,9 +1464,7 @@
     "is_24_hours": false,
     "rating": 4.3,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_CHENGALPATTU_0061",
     "name": "Balu Tyre Vulcanizing Works",
@@ -1493,7 +1485,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1810,7 +1802,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -1836,9 +1828,7 @@
     "is_24_hours": false,
     "rating": 4.3,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_CHENGALPATTU_0076",
     "name": "Sri Jayam Tyre Puncture Kadai",
@@ -1985,7 +1975,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -2182,7 +2172,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -2208,9 +2198,7 @@
     "is_24_hours": false,
     "rating": 4.3,
     "status": "Open"
-  }
-]
-[
+  },
   {
     "id": "PUN_CHENGALPATTU_0091",
     "name": "Balu Tyre Vulcanizing Works",
@@ -2231,7 +2219,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {
@@ -2548,7 +2536,7 @@
       "Auto"
     ],
     "is_24_hours": false,
-    "rating": 4.0,
+    "rating": 4,
     "status": "Open"
   },
   {

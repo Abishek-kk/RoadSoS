@@ -1,1562 +1,2657 @@
 [
   {
-    "id": "OSM_ERODE_0001",
-    "name": "Ramani Hyundai",
+    "id": "PUN_ERODE_0001",
+    "name": "Sri Saravana Tyre Care & Alignment",
     "district": "Erode",
     "city": "Erode",
     "state": "Tamil Nadu",
-    "address": "No. 4/112, Perundurai Road, Near Sengodampalayam",
-    "phone": "+91-4242281000",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Perundurai Road, Near Collectorate Complex, Erode, Tamil Nadu 638011",
+    "latitude": 11.3412,
+    "longitude": 77.7154,
+    "phone": "+91 94432 11223",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "3D Wheel Alignment",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0002",
-    "name": "Ambal Maruti Suzuki ARENA",
+    "id": "PUN_ERODE_0002",
+    "name": "Mani Vulcanizing & Puncture Works",
     "district": "Erode",
-    "city": "Erode",
+    "city": "Perundurai",
     "state": "Tamil Nadu",
-    "address": "No. 231, Sathy Road, Near Chithode Bypass Junction",
-    "phone": "+91-4242758000",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638102",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Erode Main Road, Near Perundurai Bus Stand, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2745,
+    "longitude": 77.5842,
+    "phone": "+91 98423 55661",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0003",
-    "name": "SAB Tata Motors",
+    "id": "PUN_ERODE_0003",
+    "name": "Highway Express Tyre Clinic",
     "district": "Erode",
-    "city": "Erode",
+    "city": "Chithode",
     "state": "Tamil Nadu",
-    "address": "SF No. 142/2, Perundurai High Road, Moolapalayam Bypass",
-    "phone": "+91-4242411000",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH 544, Near Chithode Four Roads Junction, Erode District, Tamil Nadu 638102",
+    "latitude": 11.4012,
+    "longitude": 77.6845,
+    "phone": "+91 99443 00112",
+    "services": [
+      "Heavy Vehicle Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Emergency Roadside Assistance"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0004",
-    "name": "Maruti Suzuki NEXA (Ambal Motors)",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "Perundurai Road, Opposite to Government Medical College",
-    "phone": "+91-9751918900",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0005",
-    "name": "Eurasia KIA Erode",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "SF No. 84/1, Perundurai Road, Near Thindal Ring Road Junction",
-    "phone": "+91-7358739977",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0006",
-    "name": "Mahindra Ramani Motors",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "No. 512, Perundurai Main Road, Thindal",
-    "phone": "+91-8879445655",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0007",
-    "name": "SGA Skoda Erode",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "Perundurai High Road, Near Sengodampalayam Ring Road",
-    "phone": "+91-8939891277",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0008",
-    "name": "Malar Hero",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "No. 88, Sathy Main Road",
-    "phone": "+91-4242222544",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638003",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0009",
-    "name": "Sree Saravana Motorsports (Royal Enfield)",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "No. 142, Perundurai Main Road, Thindal",
-    "phone": "+91-8939841211",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0010",
-    "name": "Sri Sakthi Honda",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "No. 105, Perundurai Road",
-    "phone": "+91-4242221234",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638011",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0011",
-    "name": "VST TVS",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "No. 34, Chennimalai Main Road",
-    "phone": "+91-9443354455",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638001",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0012",
-    "name": "Pioneer Yamaha Agency",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "No. 52, Sathy Main Road, Opp to Government Hospital",
-    "phone": "+91-4242321115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638003",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0013",
-    "name": "Erode Bajaj (Balaji Auto Agencies)",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "No. 19, Perundurai Road, Sengodampalayam Bypass",
-    "phone": "+91-4242211199",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0014",
-    "name": "Annamalai Suzuki",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "No. 8, Perundurai Main Road",
-    "phone": "+91-4242226622",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638011",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0015",
-    "name": "Malar Hero (Gobichettipalayam Branch)",
+    "id": "PUN_ERODE_0004",
+    "name": "Arun Bike Puncture Corner",
     "district": "Erode",
     "city": "Gobichettipalayam",
     "state": "Tamil Nadu",
-    "address": "No. 45, Sathy Main Road",
-    "phone": "+91-4285225636",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Sathy Main Road, Near Gobi Bus Stand, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4542,
+    "longitude": 77.4385,
+    "phone": "+91 90804 11223",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tube Patching",
+      "Chain Lubrication"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0016",
-    "name": "Sri Sakthi Honda (Gobichettipalayam)",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "No. 112, Erode Main Road",
-    "phone": "+91-4285221522",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0017",
-    "name": "VST TVS (Gobichettipalayam)",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "No. 12A, Perundurai Main Road",
-    "phone": "+91-9443321595",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0018",
-    "name": "Ambal Maruti Suzuki (Gobichettipalayam)",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "Erode Main Road, Near Bus Stand Junction Area",
-    "phone": "+91-4285224346",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0019",
-    "name": "Pioneer Yamaha (Gobi Network)",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "No. 4, Sathy High Road",
-    "phone": "+91-9442561239",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0020",
-    "name": "Malar Hero (Sathy)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "No. 112, Athani Main Road",
-    "phone": "+91-4295229455",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0021",
-    "name": "VST TVS (Sathyamangalam)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "No. 56, Coimbatore Main Road",
-    "phone": "+91-9443214575",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0022",
-    "name": "Sri Sakthi Honda (Sathyamangalam)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "No. 204, Bhavani Sagar Road",
-    "phone": "+91-4295220300",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0023",
-    "name": "Ambal Maruti Suzuki (Sathyamangalam)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road, Opposite Government ITI",
-    "phone": "+91-9751917195",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0024",
-    "name": "Raja TVS Agency (Bhavani)",
+    "id": "PUN_ERODE_0005",
+    "name": "Vasantham Tyre Service & Alignment",
     "district": "Erode",
     "city": "Bhavani",
     "state": "Tamil Nadu",
-    "address": "No. 14, Mettur Main Road",
-    "phone": "+91-9443521625",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mettur Main Road, Opposite Kooduthurai Temple Entrance, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4485,
+    "longitude": 77.6912,
+    "phone": "+91 93604 44551",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0025",
-    "name": "Sri Sakthi Honda Care (Bhavani)",
-    "district": "Erode",
-    "city": "Bhavani",
-    "state": "Tamil Nadu",
-    "address": "Anthiyur Main Road",
-    "phone": "+91-9944051625",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0026",
-    "name": "Malar Hero (Bhavani Point)",
-    "district": "Erode",
-    "city": "Bhavani",
-    "state": "Tamil Nadu",
-    "address": "Erode High Road",
-    "phone": "+91-4288262537",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0027",
-    "name": "Vetrivel Suzuki Agency (Perundurai)",
-    "district": "Erode",
-    "city": "Perundurai",
-    "state": "Tamil Nadu",
-    "address": "No. 34, Erode Main Road",
-    "phone": "+91-4294253320",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0028",
-    "name": "Erode Bajaj Network (Sathyamangalam)",
+    "id": "PUN_ERODE_0006",
+    "name": "Sathy Hill-Way Tyre Care",
     "district": "Erode",
     "city": "Sathyamangalam",
     "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road",
-    "phone": "+91-4295220555",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mysore Main Road, Near Bannari Amman Temple Junction, Sathyamangalam, Erode District, Tamil Nadu 638401",
+    "latitude": 11.5015,
+    "longitude": 77.2412,
+    "phone": "+91 97503 11224",
+    "services": [
+      "Car Puncture Repair",
+      "Tubeless Patching",
+      "Ghat Road Assistance",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0029",
-    "name": "Ananya Yamaha Agency (Sathyamangalam)",
+    "id": "PUN_ERODE_0007",
+    "name": "Diamond Wheel Alignment & Puncture Shop",
     "district": "Erode",
-    "city": "Sathyamangalam",
+    "city": "Erode Town",
     "state": "Tamil Nadu",
-    "address": "No. 102, Athani High Road",
-    "phone": "+91-9943621039",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Sathy Road, Near Government Headquarters Hospital, Erode, Tamil Nadu 638003",
+    "latitude": 11.3524,
+    "longitude": 77.7212,
+    "phone": "+91 94873 22114",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Leak Repair"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0030",
-    "name": "Royal Enfield - Ramani Motors (Sathy)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road, Opposite New Bus Stand Area",
-    "phone": "+91-8879693465",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0031",
-    "name": "VST TVS Sub-Branch (Perundurai)",
-    "district": "Erode",
-    "city": "Perundurai",
-    "state": "Tamil Nadu",
-    "address": "Erode Main Road, Near Bus Stand Area",
-    "phone": "+91-7373744445",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0032",
-    "name": "Sri Sakthi Honda Point (Perundurai)",
-    "district": "Erode",
-    "city": "Perundurai",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore High Road Area",
-    "phone": "+91-4294231260",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0033",
-    "name": "Malar Hero Point (Perundurai)",
-    "district": "Erode",
-    "city": "Perundurai",
-    "state": "Tamil Nadu",
-    "address": "No. 8, Chennimalai Road",
-    "phone": "+91-4294222545",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0034",
-    "name": "Malar E-Bikes (Erode Main)",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "No. 54, Sathy Road, Near Chithode Bypass Corner",
-    "phone": "+91-9788621469",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638003",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0035",
-    "name": "Chola E-Vehicles (Gobichettipalayam)",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "Sathy Main Road Area",
-    "phone": "+91-9043521110",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0036",
-    "name": "Ramani Hyundai Delivery Center (Gobichettipalayam)",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "Erode Road, Near Bypass Intersection",
-    "phone": "+91-9500902229",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0037",
-    "name": "VST TVS Agency (Anthiyur)",
+    "id": "PUN_ERODE_0008",
+    "name": "Basha Vulcanizing Station",
     "district": "Erode",
     "city": "Anthiyur",
     "state": "Tamil Nadu",
-    "address": "Bhavani Main Road",
-    "phone": "+91-7373744435",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638501",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Bhavani Main Road, Near Anthiyur Bus Stand, Anthiyur, Erode District, Tamil Nadu 638501",
+    "latitude": 11.5724,
+    "longitude": 77.5954,
+    "phone": "+91 96003 11224",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0038",
-    "name": "Sri Sakthi Honda Sub-Dealer (Anthiyur)",
+    "id": "PUN_ERODE_0009",
+    "name": "Sri Sai Tyre & Balancing Works",
+    "district": "Erode",
+    "city": "Kodumudi",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Near Magudeswarar Temple, Kodumudi, Erode District, Tamil Nadu 638151",
+    "latitude": 11.0812,
+    "longitude": 77.8854,
+    "phone": "+91 91503 55664",
+    "services": [
+      "Car Puncture",
+      "Wheel Balancing",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0010",
+    "name": "Smart Choice Alignment Center",
+    "district": "Erode",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "address": "Bypass Road, Near Solar Bus Stand Ground, Erode, Tamil Nadu 638002",
+    "latitude": 11.3124,
+    "longitude": 77.7542,
+    "phone": "+91 98943 44551",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0011",
+    "name": "Annamalai Vulcanizing Works",
+    "district": "Erode",
+    "city": "Modachur",
+    "state": "Tamil Nadu",
+    "address": "Gobi Main Road, Opposite Fire Station Complex, Modachur, Gobichettipalayam, Erode District, Tamil Nadu 638476",
+    "latitude": 11.4614,
+    "longitude": 77.4421,
+    "phone": "+91 95663 22110",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0012",
+    "name": "Speedway Puncture Corner",
+    "district": "Erode",
+    "city": "Erode Town",
+    "state": "Tamil Nadu",
+    "address": "Mettur Road, Near Central Bus Stand, Erode, Tamil Nadu 638011",
+    "latitude": 11.3482,
+    "longitude": 77.7245,
+    "phone": "+91 94423 55441",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0013",
+    "name": "KK Tyre Clinic & Repair Shop",
+    "district": "Erode",
+    "city": "Perundurai",
+    "state": "Tamil Nadu",
+    "address": "Coimbatore Highway Junction, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2612,
+    "longitude": 77.5714,
+    "phone": "+91 88833 11224",
+    "services": [
+      "Car Puncture",
+      "Tubeless Leak Repair",
+      "Wheel Alignment",
+      "Tyre Fitting"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0014",
+    "name": "Sri Sakthi Puncture Works",
+    "district": "Erode",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "address": "Modachur Road, Near Kaikalur Overbridge, Erode, Tamil Nadu 638004",
+    "latitude": 11.3324,
+    "longitude": 77.7312,
+    "phone": "+91 94438 77661",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tubeless Quick Fix",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0015",
+    "name": "Rasi Vulcanizing Centre",
+    "district": "Erode",
+    "city": "Gobichettipalayam",
+    "state": "Tamil Nadu",
+    "address": "Erode Main Road, Opposite New Bus Stand, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4512,
+    "longitude": 77.4454,
+    "phone": "+91 97895 22331",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Patch Work",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0016",
+    "name": "Eswaran Tyre & Quick Fix Shop",
+    "district": "Erode",
+    "city": "Bhavani",
+    "state": "Tamil Nadu",
+    "address": "Anthiyur Highway Road, Near Government Girls High School, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4554,
+    "longitude": 77.6854,
+    "phone": "+91 96293 44112",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tire Fitting",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0017",
+    "name": "Selvam Vulcanizing & Puncture Shop",
+    "district": "Erode",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "address": "Opposite Government Hospital, Perundurai Road, Erode, Tamil Nadu 638011",
+    "latitude": 11.3431,
+    "longitude": 77.7112,
+    "phone": "+91 97864 88992",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Tube Vulcanizing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0018",
+    "name": "Murugan Heavy Duty Puncture Shop",
+    "district": "Erode",
+    "city": "Chithode",
+    "state": "Tamil Nadu",
+    "address": "NH 544, Near Salem-Coimbatore Highway Bypass, Chithode, Erode District, Tamil Nadu 638102",
+    "latitude": 11.4054,
+    "longitude": 77.6812,
+    "phone": "+91 99443 22119",
+    "services": [
+      "Heavy Vehicle Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0019",
+    "name": "Guru Tyre Tech & Vulcanizing",
+    "district": "Erode",
+    "city": "Perundurai",
+    "state": "Tamil Nadu",
+    "address": "Chennimalai Road, Near Indian Oil Petrol Bunk, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2695,
+    "longitude": 77.5892,
+    "phone": "+91 96294 33445",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Wheel Balancing",
+      "Tyre Patching"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0020",
+    "name": "Raja Bike & Car Puncture Point",
+    "district": "Erode",
+    "city": "Gobichettipalayam",
+    "state": "Tamil Nadu",
+    "address": "Erode-Sathy Highway, Near Gobi Bus Stand, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4524,
+    "longitude": 77.4412,
+    "phone": "+91 91592 44331",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0021",
+    "name": "Om Sakthi Tyre Retreading & Puncture",
+    "district": "Erode",
+    "city": "Erode Town",
+    "state": "Tamil Nadu",
+    "address": "No 88, Karur Main Road, Near Railway Flyover, Erode, Tamil Nadu 638002",
+    "latitude": 11.3284,
+    "longitude": 77.7412,
+    "phone": "+91 94424 55663",
+    "services": [
+      "Car Puncture",
+      "Tyre Retreading",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0022",
+    "name": "Sathy Ghat-Care Emergency Puncture Station",
+    "district": "Erode",
+    "city": "Sathyamangalam",
+    "state": "Tamil Nadu",
+    "address": "Bhavani Sagar Road, Near Dhimbam Ghat Entry, Sathyamangalam, Erode District, Tamil Nadu 638401",
+    "latitude": 11.5124,
+    "longitude": 77.2365,
+    "phone": "+91 95004 22331",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Mountain Road Tyre Assistance"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0023",
+    "name": "Krishna Wheel Alignment & Tyre",
+    "district": "Erode",
+    "city": "Bhavani",
+    "state": "Tamil Nadu",
+    "address": "Mettur Main Road, Opposite Government Hospital, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4512,
+    "longitude": 77.6892,
+    "phone": "+91 97918 33442",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0024",
+    "name": "Senthil Auto & Tyre Care",
     "district": "Erode",
     "city": "Anthiyur",
     "state": "Tamil Nadu",
-    "address": "Ammapettai Road",
-    "phone": "+91-4242215285",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638501",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Ammapettai Main Road, Near Co-operative Bank, Anthiyur, Erode District, Tamil Nadu 638501",
+    "latitude": 11.5754,
+    "longitude": 77.6012,
+    "phone": "+91 96556 22331",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling",
+      "Tyre Fitting"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0039",
-    "name": "Malar Hero Sub-Agency (Sathyamangalam)",
+    "id": "PUN_ERODE_0025",
+    "name": "A1 Highway Puncture & Vulcanizing",
     "district": "Erode",
-    "city": "Sathyamangalam",
+    "city": "Erode",
     "state": "Tamil Nadu",
-    "address": "Coimbatore Road, Opp Government ITI Area",
-    "phone": "+91-4295229246",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Salem-Coimbatore NH 544, Near Bhavani Chithode Junction, Erode, Tamil Nadu 638102",
+    "latitude": 11.3982,
+    "longitude": 77.6742,
+    "phone": "+91 93454 33221",
+    "services": [
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Heavy Vehicle Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0040",
-    "name": "Erode Bajaj (Perundurai Corner)",
+    "id": "PUN_ERODE_0026",
+    "name": "Classic Tyre Care & Alignment",
+    "district": "Erode",
+    "city": "Kodumudi",
+    "state": "Tamil Nadu",
+    "address": "Erode Main Road, Near Anna Statue, Kodumudi, Erode District, Tamil Nadu 638151",
+    "latitude": 11.0854,
+    "longitude": 77.8812,
+    "phone": "+91 88703 66774",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0027",
+    "name": "National Tyre Repair Works",
+    "district": "Erode",
+    "city": "Chennimalai",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Main Road, Near Bharat Petroleum Bunk, Chennimalai, Erode District, Tamil Nadu 638051",
+    "latitude": 11.1654,
+    "longitude": 77.6124,
+    "phone": "+91 94864 55663",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0028",
+    "name": "Ganesh Vulcanizing Shop",
     "district": "Erode",
     "city": "Perundurai",
     "state": "Tamil Nadu",
-    "address": "Erode Main Road",
-    "phone": "+91-4294222620",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Coimbatore Ghat Highway, Opposite Government ITI, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2612,
+    "longitude": 77.5685,
+    "phone": "+91 90926 77881",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0041",
-    "name": "Rainbow Honda Sub-Branch (Gobichettipalayam)",
+    "id": "PUN_ERODE_0029",
+    "name": "Star Tyres & Wheel Alignment",
+    "district": "Erode",
+    "city": "Erode Town",
+    "state": "Tamil Nadu",
+    "address": "Brough Road, Near Bus Stand Commercial Complex, Erode, Tamil Nadu 638001",
+    "latitude": 11.3454,
+    "longitude": 77.7285,
+    "phone": "+91 98946 99001",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0030",
+    "name": "Sri Amman Tyre & Vulcanizing Works",
     "district": "Erode",
     "city": "Gobichettipalayam",
     "state": "Tamil Nadu",
-    "address": "Sathy Main Road, Near Bus Stand",
-    "phone": "+91-4285261158",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Sathy Main Road, Near Weekly Market Ground, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4585,
+    "longitude": 77.4354,
+    "phone": "+91 94436 78345",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0042",
-    "name": "VST TVS Sub-Dealer (Bhavani)",
+    "id": "PUN_ERODE_0031",
+    "name": "Venkateswara Tyre Alignment & Puncture",
     "district": "Erode",
     "city": "Bhavani",
     "state": "Tamil Nadu",
-    "address": "Mettur Main Highway Road",
-    "phone": "+91-7373744452",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Erode Highway Road, Opp. Government Higher Secondary School, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4421,
+    "longitude": 77.6954,
+    "phone": "+91 97896 55324",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0043",
-    "name": "Ambal Maruti Suzuki (Bhavani)",
-    "district": "Erode",
-    "city": "Bhavani",
-    "state": "Tamil Nadu",
-    "address": "Mettur-Erode National Highway Road Area",
-    "phone": "+91-4288224347",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0044",
-    "name": "Malar Hero Point (Bhavani)",
-    "district": "Erode",
-    "city": "Bhavani",
-    "state": "Tamil Nadu",
-    "address": "No 24, Erode Main Road",
-    "phone": "+91-4288262539",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0045",
-    "name": "Sri Balaji Motors (Multi-Brand)",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "Erode Main Road",
-    "phone": "+91-9843652432",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0046",
-    "name": "VST TVS Network (Sathyamangalam)",
+    "id": "PUN_ERODE_0032",
+    "name": "Sivam Bike Puncture Shop",
     "district": "Erode",
     "city": "Sathyamangalam",
     "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road",
-    "phone": "+91-9443321578",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mysore Ghat Road Junction, Sathyamangalam, Erode District, Tamil Nadu 638401",
+    "latitude": 11.5054,
+    "longitude": 77.2454,
+    "phone": "+91 96296 99033",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tube Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0047",
-    "name": "Greenway Electric Scooters",
+    "id": "PUN_ERODE_0033",
+    "name": "Raja Tyre Care & Vulcanizing",
     "district": "Erode",
     "city": "Erode",
     "state": "Tamil Nadu",
-    "address": "Perundurai Road, Opp Commercial Bank",
-    "phone": "+91-9043216802",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Bhavani Bypass NH 544, Near Toll Plaza, Erode, Tamil Nadu 638102",
+    "latitude": 11.4121,
+    "longitude": 77.6854,
+    "phone": "+91 99523 66554",
+    "services": [
+      "Heavy Vehicle Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0048",
-    "name": "SK E-Bikes (Sathyamangalam)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Road Junction Area",
-    "phone": "+91-9047812552",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0049",
-    "name": "Karthikeyani Tractors (Swaraj Dealer)",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "Sathy Road, Near Bus Stand Area",
-    "phone": "+91-4242225144",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638003",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0050",
-    "name": "Arun Tractors (Tafe Dealer)",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "Perundurai Main Road Bypass",
-    "phone": "+91-424220317",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0051",
-    "name": "National Auto Agencies (Bajaj Sub-Branch)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Salai",
-    "phone": "+91-4295250225",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0052",
-    "name": "Sivam Motors (Hero Sub-Dealer)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Athani Road",
-    "phone": "+91-9442345118",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0053",
-    "name": "Abinaya Yamaha Point",
+    "id": "PUN_ERODE_0034",
+    "name": "Balaji Tyre & Tube Repair",
     "district": "Erode",
     "city": "Perundurai",
     "state": "Tamil Nadu",
-    "address": "Erode Main Road Corner",
-    "phone": "+91-9943521052",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Coimbatore Main Road, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2712,
+    "longitude": 77.5814,
+    "phone": "+91 98428 77334",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0054",
-    "name": "Sri Vetrivel Suzuki",
+    "id": "PUN_ERODE_0035",
+    "name": "Karthik Quick Puncture Corner",
     "district": "Erode",
-    "city": "Sathyamangalam",
+    "city": "Gobichettipalayam",
     "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road Area",
-    "phone": "+91-9443265152",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Erode Road, Opp. Weekly Market Ground, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4512,
+    "longitude": 77.4414,
+    "phone": "+91 90807 34567",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0055",
-    "name": "Vijay Automobiles (Piaggio Commercial)",
+    "id": "PUN_ERODE_0036",
+    "name": "Mani Wheel Alignment & Tyre Service",
+    "district": "Erode",
+    "city": "Erode Town",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Bypass Road, Near Railway Gate, Erode, Tamil Nadu 638011",
+    "latitude": 11.3392,
+    "longitude": 77.7124,
+    "phone": "+91 94873 22110",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0037",
+    "name": "Highway Express Tyre Point",
+    "district": "Erode",
+    "city": "Chithode",
+    "state": "Tamil Nadu",
+    "address": "NH 544, Near Bhavani River Bridge, Chithode, Erode District, Tamil Nadu 638102",
+    "latitude": 11.4054,
+    "longitude": 77.6795,
+    "phone": "+91 91763 44556",
+    "services": [
+      "Heavy Vehicle Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Emergency Roadside Assistance"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0038",
+    "name": "Annamalai Tyre Retreading & Repair",
+    "district": "Erode",
+    "city": "Anthiyur",
+    "state": "Tamil Nadu",
+    "address": "Bhavani Main Road, Near Police Station, Anthiyur, Erode District, Tamil Nadu 638501",
+    "latitude": 11.5712,
+    "longitude": 77.5914,
+    "phone": "+91 95665 00112",
+    "services": [
+      "Tyre Retreading",
+      "Car Puncture",
+      "Bike Puncture",
+      "Tube Vulcanizing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0039",
+    "name": "Murugan Bike Puncture Shop",
+    "district": "Erode",
+    "city": "Bhavani",
+    "state": "Tamil Nadu",
+    "address": "Mettur Main Road Bus Stand Complex, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4495,
+    "longitude": 77.6862,
+    "phone": "+91 93604 33667",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling",
+      "Chain Adjustment"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0040",
+    "name": "Smart Tyre Alignment & Puncture",
     "district": "Erode",
     "city": "Erode",
     "state": "Tamil Nadu",
-    "address": "Sathy Main Road, Near Flyover",
-    "phone": "+91-424251802",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638003",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Sathy Main Road, Near Aavin Milk Parlour, Erode, Tamil Nadu 638003",
+    "latitude": 11.3554,
+    "longitude": 77.7195,
+    "phone": "+91 98943 44778",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0056",
-    "name": "Star E-Vehicles",
+    "id": "PUN_ERODE_0041",
+    "name": "Bismillah Vulcanizing Works",
+    "district": "Erode",
+    "city": "Kodumudi",
+    "state": "Tamil Nadu",
+    "address": "Noyyal Road Junction, Kodumudi, Erode District, Tamil Nadu 638151",
+    "latitude": 11.0792,
+    "longitude": 77.8892,
+    "phone": "+91 97503 88990",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0042",
+    "name": "Sri Sai Tyre Point",
+    "district": "Erode",
+    "city": "Chennimalai",
+    "state": "Tamil Nadu",
+    "address": "Erode Main Road, Near Government Library, Chennimalai, Erode District, Tamil Nadu 638051",
+    "latitude": 11.1691,
+    "longitude": 77.6195,
+    "phone": "+91 96007 55664",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0043",
+    "name": "Speedway Wheels & Puncture Shop",
+    "district": "Erode",
+    "city": "Erode Town",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Main Road, Opp. Government Arts College, Erode, Tamil Nadu 638011",
+    "latitude": 11.3412,
+    "longitude": 77.7085,
+    "phone": "+91 94431 00334",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0044",
+    "name": "Star Highway Vulcanizing Station",
     "district": "Erode",
     "city": "Sathyamangalam",
     "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road",
-    "phone": "+91-8870425172",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mysore Highway, Near Government Boys High School, Sathyamangalam, Erode District, Tamil Nadu 638401",
+    "latitude": 11.5034,
+    "longitude": 77.2454,
+    "phone": "+91 91502 00113",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0057",
-    "name": "Guru Automobiles (Multi-Brand)",
+    "id": "PUN_ERODE_0045",
+    "name": "KK Tyre Repair & Alignment",
     "district": "Erode",
     "city": "Perundurai",
     "state": "Tamil Nadu",
-    "address": "Salem Main Road",
-    "phone": "+91-9443920162",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Erode Road, Near Fire Station, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2754,
+    "longitude": 77.5895,
+    "phone": "+91 88834 33227",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tubeless Quick Fix",
+      "Tyre sales"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0058",
-    "name": "Sri Guru Bajaj Agency",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Road, Opp Govt Hospital Area",
-    "phone": "+91-4295222115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0059",
-    "name": "Muthu Motors (Multi-Brand)",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "Sathy Main Road",
-    "phone": "+91-9566214318",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0060",
-    "name": "Galaxy Honda Sub-Branch",
-    "district": "Erode",
-    "city": "Bhavani",
-    "state": "Tamil Nadu",
-    "address": "Mettur Main Road",
-    "phone": "+91-9442871112",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0061",
-    "name": "Bala Motors (Multi-Brand)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "No. 14, Athani Road",
-    "phone": "+91-9443652152",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0062",
-    "name": "Sri Lakshmi Honda Point",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "Sathy Salai",
-    "phone": "+91-9944321098",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0063",
-    "name": "Raja Krishna Suzuki Network",
+    "id": "PUN_ERODE_0046",
+    "name": "Velu Vulcanizing Works",
     "district": "Erode",
     "city": "Erode",
     "state": "Tamil Nadu",
-    "address": "Perundurai Main Road",
-    "phone": "+91-4242251453",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Sathy Road, Opposite Government Hospital, Erode, Tamil Nadu 638003",
+    "latitude": 11.3512,
+    "longitude": 77.7241,
+    "phone": "+91 94427 88903",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0064",
-    "name": "Sakthi Tractors (John Deere Agency)",
+    "id": "PUN_ERODE_0047",
+    "name": "National Wheel Alignment & Puncture",
     "district": "Erode",
-    "city": "Erode",
+    "city": "Gobichettipalayam",
     "state": "Tamil Nadu",
-    "address": "Sathy Main Road Bypass",
-    "phone": "+91-4242220461",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638003",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Sathy Road, Near Railway Station Ground, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4554,
+    "longitude": 77.4342,
+    "phone": "+91 97886 33447",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0065",
-    "name": "Siva Agencies (Hero Sub-Dealer)",
+    "id": "PUN_ERODE_0048",
+    "name": "Arun Tyre Repair Shop",
     "district": "Erode",
     "city": "Bhavani",
     "state": "Tamil Nadu",
-    "address": "Mettur Main Road",
-    "phone": "+91-9442167862",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mettur Main Road, Near Forest Check Post, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4524,
+    "longitude": 77.6942,
+    "phone": "+91 98434 11223",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tube Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0066",
-    "name": "Sri Vinayaga Bajaj Point",
+    "id": "PUN_ERODE_0049",
+    "name": "Highway Care Vulcanizing Point",
+    "district": "Erode",
+    "city": "Chithode",
+    "state": "Tamil Nadu",
+    "address": "NH 544, Salem Highway Junction, Chithode, Erode District, Tamil Nadu 638102",
+    "latitude": 11.4034,
+    "longitude": 77.6812,
+    "phone": "+91 99448 99334",
+    "services": [
+      "Heavy Vehicle Puncture",
+      "Car Puncture",
+      "Emergency Roadside Assistance",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0050",
+    "name": "Sri Balaji Tyre & Alignment Corner",
+    "district": "Erode",
+    "city": "Anthiyur",
+    "state": "Tamil Nadu",
+    "address": "Bhavani Main Road, Near Telephone Exchange, Anthiyur, Erode District, Tamil Nadu 638501",
+    "latitude": 11.5741,
+    "longitude": 77.5982,
+    "phone": "+91 96554 66770",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0051",
+    "name": "Mani Bike Puncture Centre",
     "district": "Erode",
     "city": "Perundurai",
     "state": "Tamil Nadu",
-    "address": "Erode Main Road",
-    "phone": "+91-9786431212",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Erode Main Road, Near Government Hospital, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2721,
+    "longitude": 77.5854,
+    "phone": "+91 90804 55661",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0067",
-    "name": "Pioneer E-Bikes",
+    "id": "PUN_ERODE_0052",
+    "name": "Raja Tyre Retreading & Repair",
     "district": "Erode",
-    "city": "Erode",
+    "city": "Erode Town",
     "state": "Tamil Nadu",
-    "address": "Perundurai Road, Thindal Corner",
-    "phone": "+91-8870123462",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Sathy Main Road, Near Outer Ring Road, Erode, Tamil Nadu 638003",
+    "latitude": 11.3595,
+    "longitude": 77.7184,
+    "phone": "+91 94863 44557",
+    "services": [
+      "Tyre Retreading",
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0068",
-    "name": "Karthik Motors TVS Point",
-    "district": "Erode",
-    "city": "Bhavani",
-    "state": "Tamil Nadu",
-    "address": "Mettur Main Road Area",
-    "phone": "+91-4288220370",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0069",
-    "name": "Sri Durga Auto Agencies",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road Junction",
-    "phone": "+91-9159023462",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0070",
-    "name": "Smart E-Vehicles",
+    "id": "PUN_ERODE_0053",
+    "name": "Ganesh Vulcanizing Shop",
     "district": "Erode",
     "city": "Gobichettipalayam",
     "state": "Tamil Nadu",
-    "address": "Sathy Main Road",
-    "phone": "+91-9788123462",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Sathy Road, Near Panchayat Office, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4565,
+    "longitude": 77.4361,
+    "phone": "+91 91504 88996",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0071",
-    "name": "Venkateswara Honda Sub-Agency",
+    "id": "PUN_ERODE_0054",
+    "name": "Star Tyre Care & Puncture",
+    "district": "Erode",
+    "city": "Bhavani",
+    "state": "Tamil Nadu",
+    "address": "Mettur Highway Road, Near Market Complex, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4512,
+    "longitude": 77.6895,
+    "phone": "+91 95663 22114",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0055",
+    "name": "Karthik Quick Fix Corner",
+    "district": "Erode",
+    "city": "Sathyamangalam",
+    "state": "Tamil Nadu",
+    "address": "Mysore Ghat Road, Near Higher Secondary School, Sathyamangalam, Erode District, Tamil Nadu 638401",
+    "latitude": 11.5054,
+    "longitude": 77.2412,
+    "phone": "+91 93607 66330",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Vulcanizing",
+      "Air Filling",
+      "Chain Lubrication"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0056",
+    "name": "Bismillah Tube Repair Works",
+    "district": "Erode",
+    "city": "Kodumudi",
+    "state": "Tamil Nadu",
+    "address": "Erode Main Road, Near Old Bus Stand Clock Tower, Kodumudi, Erode District, Tamil Nadu 638151",
+    "latitude": 11.0821,
+    "longitude": 77.8835,
+    "phone": "+91 97507 44553",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0057",
+    "name": "Sri Sai Tyre Alignment Shop",
+    "district": "Erode",
+    "city": "Chennimalai",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Main Road, Near Registrar Office, Chennimalai, Erode District, Tamil Nadu 638051",
+    "latitude": 11.1621,
+    "longitude": 77.6154,
+    "phone": "+91 96003 00117",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tubeless Quick Fix",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0058",
+    "name": "Smart Wheels & Puncture Point",
+    "district": "Erode",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Road, Near Siluvathur Junction, Erode, Tamil Nadu 638011",
+    "latitude": 11.3412,
+    "longitude": 77.7134,
+    "phone": "+91 98948 55336",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0059",
+    "name": "Annamalai Vulcanizing Station",
     "district": "Erode",
     "city": "Perundurai",
     "state": "Tamil Nadu",
-    "address": "Erode Main Road",
-    "phone": "+91-9944876552",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Coimbatore Main Road, Near Toll Gate, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2654,
+    "longitude": 77.5695,
+    "phone": "+91 95660 33446",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0072",
-    "name": "Kaveri Commercial Vehicles (Tata Sub-Dealer)",
+    "id": "PUN_ERODE_0060",
+    "name": "Speedway Alignment & Tyre Point",
     "district": "Erode",
-    "city": "Erode",
+    "city": "Erode Town",
     "state": "Tamil Nadu",
-    "address": "Sathy Main Road, Thindal",
-    "phone": "+91-4242254347",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Solar Bypass Road, Near Government College Campus, Erode, Tamil Nadu 638002",
+    "latitude": 11.3112,
+    "longitude": 77.7584,
+    "phone": "+91 94423 22660",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0073",
-    "name": "Gemini Auto Network",
-    "district": "Erode",
-    "city": "Bhavani",
-    "state": "Tamil Nadu",
-    "address": "Mettur Road Crossing",
-    "phone": "+91-9443219882",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0074",
-    "name": "Ram Suzuki Agency",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road Area",
-    "phone": "+91-9791432118",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0075",
-    "name": "National Yamaha Point",
+    "id": "PUN_ERODE_0061",
+    "name": "KK Tyre Repair Point",
     "district": "Erode",
     "city": "Gobichettipalayam",
     "state": "Tamil Nadu",
-    "address": "Sathy Main Road",
-    "phone": "+91-4257220422",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Sathy Main Road, Near Cooperative Sugar Mill, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4521,
+    "longitude": 77.4312,
+    "phone": "+91 88837 66113",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0076",
-    "name": "Sri Sai E-Bikes",
+    "id": "PUN_ERODE_0062",
+    "name": "Sri Sakthi Puncture & Alignment Works",
     "district": "Erode",
     "city": "Erode",
     "state": "Tamil Nadu",
-    "address": "Perundurai Road, Opp Town Library",
-    "phone": "+91-9043112277",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Opposite BSNL Office, Perundurai Road, Erode, Tamil Nadu 638011",
+    "latitude": 11.3425,
+    "longitude": 77.7142,
+    "phone": "+91 94433 00114",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tubeless Quick Fix",
+      "Nitrogen Gas Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0077",
-    "name": "Jayam Multi-Brand Two Wheelers",
+    "id": "PUN_ERODE_0063",
+    "name": "Rasi Vulcanizing Workshop",
+    "district": "Erode",
+    "city": "Anthiyur",
+    "state": "Tamil Nadu",
+    "address": "Bhavani Road Junction, Near Anna Statue, Anthiyur, Erode District, Tamil Nadu 638501",
+    "latitude": 11.5715,
+    "longitude": 77.5912,
+    "phone": "+91 97893 66778",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Patch Work",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0064",
+    "name": "Eswaran Tyre Care & Quick Fix",
     "district": "Erode",
     "city": "Bhavani",
     "state": "Tamil Nadu",
-    "address": "Mettur Main Road Area",
-    "phone": "+91-9944512397",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mettur Road, Opposite Government Girls High School, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4524,
+    "longitude": 77.6895,
+    "phone": "+91 96296 55443",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tire Fitting",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0078",
-    "name": "Rajarajan Motors (Hero Sub-Dealer)",
+    "id": "PUN_ERODE_0065",
+    "name": "Highway King Puncture Hub",
     "district": "Erode",
-    "city": "Gobichettipalayam",
+    "city": "Chithode",
     "state": "Tamil Nadu",
-    "address": "Sathy Main Road",
-    "phone": "+91-9443210412",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "NH 544, Near Chithode Toll Plaza Exit, Erode District, Tamil Nadu 638102",
+    "latitude": 11.4082,
+    "longitude": 77.6854,
+    "phone": "+91 99445 33001",
+    "services": [
+      "Heavy Vehicle Puncture",
+      "Car Puncture",
+      "Emergency Tyre Patching",
+      "24/7 Roadside Help"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0079",
-    "name": "Vetrivel Honda Point",
+    "id": "PUN_ERODE_0066",
+    "name": "Madesh Tyre Retreading Point",
     "district": "Erode",
     "city": "Perundurai",
     "state": "Tamil Nadu",
-    "address": "Erode Main Road, Near Kamarajar Statue",
-    "phone": "+91-4212251337",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Erode Road, Opposite Government Hospital, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2754,
+    "longitude": 77.5884,
+    "phone": "+91 98423 11009",
+    "services": [
+      "Tyre Retreading",
+      "Car Puncture",
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0080",
-    "name": "Nisha Tractors & Commercials",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "Perundurai Road Bypass, Near Railway Bridge",
-    "phone": "+91-9842456107",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0081",
-    "name": "V.P.M Motors (TVS Point)",
-    "district": "Erode",
-    "city": "Bhavani",
-    "state": "Tamil Nadu",
-    "address": "Mettur Main Road, Near Bus Stand",
-    "phone": "+91-9786541237",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0082",
-    "name": "Sree Vinayagar E-Bikes",
-    "district": "Erode",
-    "city": "Erode",
-    "state": "Tamil Nadu",
-    "address": "No. 45, Sathy Road, Near Chithode Bypass",
-    "phone": "+91-9080706057",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638102",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0083",
-    "name": "Balaji Yamaha Sub-Dealer",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "Sathy Road, Near LIC Office Corner",
-    "phone": "+91-9942481030",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0084",
-    "name": "Murugan Auto Consult & Bikes",
+    "id": "PUN_ERODE_0067",
+    "name": "Kaveri Bike Puncture Point",
     "district": "Erode",
     "city": "Sathyamangalam",
     "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road Crossing",
-    "phone": "+91-9442152367",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Bhavani Sagar Road, Near Kaveri Bridge Entrance, Sathyamangalam, Erode District, Tamil Nadu 638401",
+    "latitude": 11.5024,
+    "longitude": 77.2492,
+    "phone": "+91 90803 99887",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tube Replacement",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0085",
-    "name": "Kallakurichi Auto Agencies (Mahindra Tractors)",
+    "id": "PUN_ERODE_0068",
+    "name": "Diamond Wheel Alignment & Puncture Shop",
     "district": "Erode",
-    "city": "Erode",
+    "city": "Erode Town",
     "state": "Tamil Nadu",
-    "address": "Sathy Main Road, Near National Highway Flyover Area",
-    "phone": "+91-4242247712",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638003",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Perundurai Main Road, Near Collectorate Ground Entrance, Erode, Tamil Nadu 638011",
+    "latitude": 11.3412,
+    "longitude": 77.7184,
+    "phone": "+91 94877 66332",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Leak Repair"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0086",
-    "name": "Sri Sakthi Motors (Multi-Brand)",
+    "id": "PUN_ERODE_0069",
+    "name": "Murugan Vulcanizing Point",
+    "district": "Erode",
+    "city": "Gobichettipalayam",
+    "state": "Tamil Nadu",
+    "address": "Sathy NH Highway, Near Indian Oil Petrol Pump, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4542,
+    "longitude": 77.4392,
+    "phone": "+91 91507 55664",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0070",
+    "name": "Selvam Tyre Service & Puncture Works",
+    "district": "Erode",
+    "city": "Bhavani",
+    "state": "Tamil Nadu",
+    "address": "Mettur Highway Road, Opposite Primary Health Centre, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4485,
+    "longitude": 77.6912,
+    "phone": "+91 95666 44553",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0071",
+    "name": "Vasantham Quick Fix Puncture Center",
+    "district": "Erode",
+    "city": "Anthiyur",
+    "state": "Tamil Nadu",
+    "address": "Bhavani Main Road, Near Cooperative Bank, Anthiyur, Erode District, Tamil Nadu 638501",
+    "latitude": 11.5724,
+    "longitude": 77.5942,
+    "phone": "+91 93603 11442",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0072",
+    "name": "Basha Highway Puncture Shop",
+    "district": "Erode",
+    "city": "Kodumudi",
+    "state": "Tamil Nadu",
+    "address": "Karur Road, Near Forest Range Office, Kodumudi, Erode District, Tamil Nadu 638151",
+    "latitude": 11.0812,
+    "longitude": 77.8854,
+    "phone": "+91 97501 66332",
+    "services": [
+      "Heavy Vehicle Puncture",
+      "Car Puncture",
+      "Tube Patch Work",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0073",
+    "name": "Sri Sai Auto Tyre & Balancing",
+    "district": "Erode",
+    "city": "Chennimalai",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Highway Road, Opposite Government Veterinary Hospital, Chennimalai, Erode District, Tamil Nadu 638051",
+    "latitude": 11.1654,
+    "longitude": 77.6112,
+    "phone": "+91 96000 33441",
+    "services": [
+      "Car Puncture",
+      "Wheel Balancing",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0074",
+    "name": "Smart Choice Alignment & Puncture Point",
+    "district": "Erode",
+    "city": "Erode Town",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Road, Near Corporation Office Park, Erode, Tamil Nadu 638011",
+    "latitude": 11.3454,
+    "longitude": 77.7124,
+    "phone": "+91 98943 99882",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0075",
+    "name": "Annamalai Vulcanizing Centre",
     "district": "Erode",
     "city": "Perundurai",
     "state": "Tamil Nadu",
-    "address": "Erode Main Road",
-    "phone": "+91-9159041230",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Coimbatore Highway, Opposite New Bus Stand, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2612,
+    "longitude": 77.5754,
+    "phone": "+91 95664 99002",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0087",
-    "name": "Thangam Suzuki Point",
+    "id": "PUN_ERODE_0076",
+    "name": "Speedway Puncture Station",
+    "district": "Erode",
+    "city": "Gobichettipalayam",
+    "state": "Tamil Nadu",
+    "address": "Sathy Bypass Road, Near Railway Gate, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4561,
+    "longitude": 77.4324,
+    "phone": "+91 94427 33441",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0077",
+    "name": "KK Tyre Clinic & Repair",
     "district": "Erode",
     "city": "Bhavani",
     "state": "Tamil Nadu",
-    "address": "Mettur Salai",
-    "phone": "+91-9488056217",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mettur Highway Main Road, Near Government Boys Hostel, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4512,
+    "longitude": 77.6821,
+    "phone": "+91 88833 88992",
+    "services": [
+      "Car Puncture",
+      "Tubeless Leak Repair",
+      "Wheel Alignment",
+      "Tyre Fitting"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0088",
-    "name": "Annamalai Motors (Hero Authorised Point)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road",
-    "phone": "+91-9965541020",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0089",
-    "name": "Malar E-Bikes Sub-Branch",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "No. 120, Sathy Road",
-    "phone": "+91-9788645130",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0090",
-    "name": "Gobichettipalayam Honda Sub-Dealer",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "Erode Main Highway Road",
-    "phone": "+91-4285250556",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0091",
-    "name": "Senthil Auto Electric Vehicles",
+    "id": "PUN_ERODE_0078",
+    "name": "Arun Vulcanizing Works",
     "district": "Erode",
     "city": "Erode",
     "state": "Tamil Nadu",
-    "address": "Perundurai Road, Thindal NH Bypass",
-    "phone": "+91-8903456717",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Perundurai Road, Near Four Roads Junction, Erode, Tamil Nadu 638011",
+    "latitude": 11.3435,
+    "longitude": 77.7128,
+    "phone": "+91 94421 11223",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0092",
-    "name": "Sri Kumaran Motors (TVS Point)",
+    "id": "PUN_ERODE_0079",
+    "name": "Sri Krishna Tyre Care",
     "district": "Erode",
-    "city": "Bhavani",
+    "city": "Anthiyur",
     "state": "Tamil Nadu",
-    "address": "Mettur Road, Near Bus Stand Area",
-    "phone": "+91-9443811529",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Main Road, Near Old Bus Stand, Anthiyur, Erode District, Tamil Nadu 638501",
+    "latitude": 11.5712,
+    "longitude": 77.5954,
+    "phone": "+91 97883 11224",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0093",
-    "name": "Rasi Motors (Multi-Brand)",
+    "id": "PUN_ERODE_0080",
+    "name": "Mani Tyre Repair Shop",
+    "district": "Erode",
+    "city": "Sathyamangalam",
+    "state": "Tamil Nadu",
+    "address": "Bhavani Sagar Road Junction, Sathyamangalam, Erode District, Tamil Nadu 638401",
+    "latitude": 11.5012,
+    "longitude": 77.2485,
+    "phone": "+91 98431 55662",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tube Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0081",
+    "name": "Express Highway Vulcanizing Point",
+    "district": "Erode",
+    "city": "Chithode",
+    "state": "Tamil Nadu",
+    "address": "NH 544, Opposite Chithode Police Station, Chithode, Erode District, Tamil Nadu 638102",
+    "latitude": 11.4024,
+    "longitude": 77.6835,
+    "phone": "+91 99441 55662",
+    "services": [
+      "Heavy Vehicle Puncture",
+      "Car Puncture",
+      "Emergency Roadside Assistance",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0082",
+    "name": "Balaji Tyre Alignment Corner",
+    "district": "Erode",
+    "city": "Anthiyur",
+    "state": "Tamil Nadu",
+    "address": "By-Pass Road, Near Government Hospital, Anthiyur, Erode District, Tamil Nadu 638501",
+    "latitude": 11.5734,
+    "longitude": 77.5962,
+    "phone": "+91 96551 22334",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0083",
+    "name": "Velu Bike Puncture Centre",
     "district": "Erode",
     "city": "Perundurai",
     "state": "Tamil Nadu",
-    "address": "Erode Main Road Junction",
-    "phone": "+91-9566712351",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638052",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Main Road, Near Panchayat Union Office, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2754,
+    "longitude": 77.5821,
+    "phone": "+91 90801 11224",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0094",
-    "name": "Susee Bajaj Network Point",
+    "id": "PUN_ERODE_0084",
+    "name": "Raja Tyre Retreading Station",
     "district": "Erode",
-    "city": "Erode",
+    "city": "Erode Town",
     "state": "Tamil Nadu",
-    "address": "Perundurai Main Road, Near Government Medical College Ground",
-    "phone": "+91-4242220512",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638012",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Perundurai Bypass NH 544, Near Railway Flyover, Erode, Tamil Nadu 638011",
+    "latitude": 11.3354,
+    "longitude": 77.7141,
+    "phone": "+91 94861 33445",
+    "services": [
+      "Tyre Retreading",
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0095",
-    "name": "Sri Balaji Motors (Multi-Brand Point)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road Area",
-    "phone": "+91-9843615431",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0096",
-    "name": "Vignesh Motors (TVS Point)",
-    "district": "Erode",
-    "city": "Gobichettipalayam",
-    "state": "Tamil Nadu",
-    "address": "Sathy High Road, Near Market",
-    "phone": "+91-9442516311",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0097",
-    "name": "Sree Ram Bajaj Agency",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road Junction",
-    "phone": "+91-9865043113",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0098",
-    "name": "Ramani Hyundai (Sathyamangalam)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road, Near Bypass",
-    "phone": "+91-4295233111",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0099",
-    "name": "DTS Tata Motors (Sathyamangalam)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road, Near New Bus Stand Area",
-    "phone": "+91-4295224344",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0100",
-    "name": "Babu Cars (Mahindra Showroom - Sathyamangalam)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore High Road",
-    "phone": "+91-4295232666",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0101",
-    "name": "Ramani Toyota Booking Point (Sathyamangalam)",
-    "district": "Erode",
-    "city": "Sathyamangalam",
-    "state": "Tamil Nadu",
-    "address": "Coimbatore Main Road, Near Ring Road Area",
-    "phone": "+91-4295226455",
-    "type": "Car Showroom",
-    "open_24x7": false,
-    "pincode": "638401",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
-  },
-  {
-    "id": "OSM_ERODE_0102",
-    "name": "Royal Enfield - Saravana Motorsports (Gobichettipalayam)",
+    "id": "PUN_ERODE_0085",
+    "name": "Ganesh Tyre Repair Shop",
     "district": "Erode",
     "city": "Gobichettipalayam",
     "state": "Tamil Nadu",
-    "address": "Sathy Main Road, Near New Bus Stand",
-    "phone": "+91-8939841166",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Erode Main Road, Near Bus Stand, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4542,
+    "longitude": 77.4354,
+    "phone": "+91 91501 33442",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0103",
-    "name": "Pioneer Yamaha Agency (Bhavani)",
+    "id": "PUN_ERODE_0086",
+    "name": "National Tyre Care & Puncture",
     "district": "Erode",
     "city": "Bhavani",
     "state": "Tamil Nadu",
-    "address": "Mettur Main Road, Opp to Government Hospital",
-    "phone": "+91-4288232115",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638301",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Mettur Highway Road, Near Government High School, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4552,
+    "longitude": 77.6884,
+    "phone": "+91 95661 22334",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
   },
   {
-    "id": "OSM_ERODE_0104",
-    "name": "Annamalai Suzuki (Gobichettipalayam)",
+    "id": "PUN_ERODE_0087",
+    "name": "Karthik Tyre Repair Corner",
+    "district": "Erode",
+    "city": "Sathyamangalam",
+    "state": "Tamil Nadu",
+    "address": "Bhavani Sagar Road, Near Bus Stand Complex, Sathyamangalam, Erode District, Tamil Nadu 638401",
+    "latitude": 11.5054,
+    "longitude": 77.2445,
+    "phone": "+91 93601 11224",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Vulcanizing",
+      "Air Filling",
+      "Chain Tightening"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0088",
+    "name": "Bismillah Vulcanizing Shop",
+    "district": "Erode",
+    "city": "Kodumudi",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Near Police Station, Kodumudi, Erode District, Tamil Nadu 638151",
+    "latitude": 11.0835,
+    "longitude": 77.8814,
+    "phone": "+91 97504 44551",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0089",
+    "name": "Sri Sai Tyre Alignment Hub",
+    "district": "Erode",
+    "city": "Chennimalai",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Main Road, Opposite Government Girls Higher Secondary School, Chennimalai, Erode District, Tamil Nadu 638051",
+    "latitude": 11.1654,
+    "longitude": 77.7121,
+    "phone": "+91 96001 22334",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tubeless Quick Fix",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0090",
+    "name": "Smart Wheel Alignment Shop",
+    "district": "Erode",
+    "city": "Erode",
+    "state": "Tamil Nadu",
+    "address": "Sathy Road, Near Government Arts College Back Gate, Erode, Tamil Nadu 638003",
+    "latitude": 11.3554,
+    "longitude": 77.7124,
+    "phone": "+91 98941 11223",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0091",
+    "name": "Annamalai Tyre Service Station",
+    "district": "Erode",
+    "city": "Perundurai",
+    "state": "Tamil Nadu",
+    "address": "Erode Road, Near Fire Station Complex, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2754,
+    "longitude": 77.5812,
+    "phone": "+91 95661 11223",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0092",
+    "name": "Speedway Tyre & Alignment Point",
+    "district": "Erode",
+    "city": "Erode Town",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Main Road, Near Government Medical College Hospital, Erode, Tamil Nadu 638011",
+    "latitude": 11.3412,
+    "longitude": 77.7114,
+    "phone": "+91 94421 22334",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0093",
+    "name": "KK Tyre Vulcanizing Point",
     "district": "Erode",
     "city": "Gobichettipalayam",
     "state": "Tamil Nadu",
-    "address": "No. 8, Sathy Main Road",
-    "phone": "+91-4285226622",
-    "type": "Bike Showroom",
-    "open_24x7": false,
-    "pincode": "638452",
-    "zone": "OSM",
-    "source": "openstreetmap",
-    "verification_status": "verified"
+    "address": "Sathy Main Road, Opposite Government Hospital, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4542,
+    "longitude": 77.4312,
+    "phone": "+91 88831 22334",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0094",
+    "name": "Sri Sakthi Puncture Works",
+    "district": "Erode",
+    "city": "Bhavani",
+    "state": "Tamil Nadu",
+    "address": "Mettur Road, Near Sogathur Junction, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4512,
+    "longitude": 77.6812,
+    "phone": "+91 94431 11223",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tubeless Quick Fix",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0095",
+    "name": "Rasi Vulcanizing Centre",
+    "district": "Erode",
+    "city": "Sathyamangalam",
+    "state": "Tamil Nadu",
+    "address": "Mysore Road, Opposite New Bus Stand, Sathyamangalam, Erode District, Tamil Nadu 638401",
+    "latitude": 11.5012,
+    "longitude": 77.2415,
+    "phone": "+91 97891 11223",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Patch Work",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0096",
+    "name": "Eswaran Tyre & Quick Fix Shop",
+    "district": "Erode",
+    "city": "Kodumudi",
+    "state": "Tamil Nadu",
+    "address": "Karur Highway Road, Near Cooperative Sugar Mill, Kodumudi, Erode District, Tamil Nadu 638151",
+    "latitude": 11.0812,
+    "longitude": 77.8824,
+    "phone": "+91 96291 33445",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tire Fitting",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0097",
+    "name": "Highway King Puncture Hub",
+    "district": "Erode",
+    "city": "Chithode",
+    "state": "Tamil Nadu",
+    "address": "NH 544, Near Chithode Toll Plaza Exit, Chithode, Erode District, Tamil Nadu 638102",
+    "latitude": 11.4082,
+    "longitude": 77.6854,
+    "phone": "+91 99440 22331",
+    "services": [
+      "Heavy Vehicle Puncture",
+      "Car Puncture",
+      "Emergency Tyre Patching",
+      "Roadside Assistance"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0098",
+    "name": "Madesh Tyre Retreading Works",
+    "district": "Erode",
+    "city": "Perundurai",
+    "state": "Tamil Nadu",
+    "address": "Chennimalai Main Road, Near Police Station, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2695,
+    "longitude": 77.5884,
+    "phone": "+91 98420 33445",
+    "services": [
+      "Tyre Retreading",
+      "Car Puncture",
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0099",
+    "name": "Kaveri Bike Puncture Corner",
+    "district": "Erode",
+    "city": "Sathyamangalam",
+    "state": "Tamil Nadu",
+    "address": "Mysore Main Road, Near Government ITI, Sathyamangalam, Erode District, Tamil Nadu 638401",
+    "latitude": 11.5054,
+    "longitude": 77.2442,
+    "phone": "+91 90800 11224",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tube Replacement",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0100",
+    "name": "Diamond Wheel Alignment Hub",
+    "district": "Erode",
+    "city": "Erode Town",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Road, Near Railway Overbridge, Erode, Tamil Nadu 638011",
+    "latitude": 11.3412,
+    "longitude": 77.7134,
+    "phone": "+91 94870 55662",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tubeless Leak Repair"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0101",
+    "name": "Murugan Vulcanizing Center",
+    "district": "Erode",
+    "city": "Gobichettipalayam",
+    "state": "Tamil Nadu",
+    "address": "Sathy Highway Road, Near Gobi Bus Stop, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4542,
+    "longitude": 77.4324,
+    "phone": "+91 91500 22334",
+    "services": [
+      "Car Puncture",
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0102",
+    "name": "Selvam Tyre Service Point",
+    "district": "Erode",
+    "city": "Bhavani",
+    "state": "Tamil Nadu",
+    "address": "Mettur Main Road, Near Railway Station Junction, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4485,
+    "longitude": 77.6921,
+    "phone": "+91 95660 11223",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Tube Vulcanizing",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0103",
+    "name": "Vasantham Puncture Center",
+    "district": "Erode",
+    "city": "Anthiyur",
+    "state": "Tamil Nadu",
+    "address": "Bhavani Road Bus Stand Complex, Anthiyur, Erode District, Tamil Nadu 638501",
+    "latitude": 11.5724,
+    "longitude": 77.5942,
+    "phone": "+91 93600 55662",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0104",
+    "name": "Basha Highway Puncture Point",
+    "district": "Erode",
+    "city": "Kodumudi",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Near Old Bus Stand Clock Tower, Kodumudi, Erode District, Tamil Nadu 638151",
+    "latitude": 11.0812,
+    "longitude": 77.8824,
+    "phone": "+91 97500 22334",
+    "services": [
+      "Heavy Vehicle Puncture",
+      "Car Puncture",
+      "Tube Patch Work",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0105",
+    "name": "Sri Sai Tyre & Balancing Works",
+    "district": "Erode",
+    "city": "Chennimalai",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Road, Near Co-operative Bank, Chennimalai, Erode District, Tamil Nadu 638051",
+    "latitude": 11.1654,
+    "longitude": 77.6124,
+    "phone": "+91 96000 11223",
+    "services": [
+      "Car Puncture",
+      "Wheel Balancing",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0106",
+    "name": "Smart Choice Alignment Center",
+    "district": "Erode",
+    "city": "Erode Town",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Main Road, Near Aavin Milk Parlour, Erode, Tamil Nadu 638011",
+    "latitude": 11.3454,
+    "longitude": 77.7184,
+    "phone": "+91 98940 55662",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tyre Rotation"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0107",
+    "name": "Annamalai Vulcanizing Works",
+    "district": "Erode",
+    "city": "Perundurai",
+    "state": "Tamil Nadu",
+    "address": "Coimbatore By-Pass Road, Near Thiruvalluvar Statue, Perundurai, Erode District, Tamil Nadu 638052",
+    "latitude": 11.2612,
+    "longitude": 77.5774,
+    "phone": "+91 95660 33441",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0108",
+    "name": "Speedway Puncture Corner",
+    "district": "Erode",
+    "city": "Gobichettipalayam",
+    "state": "Tamil Nadu",
+    "address": "Sathy Main Road, Near Old Bus Stand, Gobichettipalayam, Erode District, Tamil Nadu 638452",
+    "latitude": 11.4542,
+    "longitude": 77.4352,
+    "phone": "+91 94420 11224",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0109",
+    "name": "KK Tyre Clinic & Repair Shop",
+    "district": "Erode",
+    "city": "Bhavani",
+    "state": "Tamil Nadu",
+    "address": "Mettur Road Junction, Bhavani, Erode District, Tamil Nadu 638301",
+    "latitude": 11.4512,
+    "longitude": 77.6834,
+    "phone": "+91 88830 11224",
+    "services": [
+      "Car Puncture",
+      "Tubeless Leak Repair",
+      "Wheel Alignment",
+      "Tyre Fitting"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0110",
+    "name": "Sri Sakthi Puncture Works",
+    "district": "Erode",
+    "city": "Anthiyur",
+    "state": "Tamil Nadu",
+    "address": "Bhavani Road, Near Sogathur Junction, Anthiyur, Erode District, Tamil Nadu 638501",
+    "latitude": 11.5724,
+    "longitude": 77.5915,
+    "phone": "+91 94430 33442",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Tubeless Quick Fix",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0111",
+    "name": "Rasi Vulcanizing Centre",
+    "district": "Erode",
+    "city": "Kodumudi",
+    "state": "Tamil Nadu",
+    "address": "Karur Main Road, Opposite New Bus Stand, Kodumudi, Erode District, Tamil Nadu 638151",
+    "latitude": 11.0812,
+    "longitude": 77.8825,
+    "phone": "+91 97890 22334",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Patch Work",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Car",
+      "Bike"
+    ],
+    "is_24_hours": true,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_ERODE_0112",
+    "name": "Eswaran Tyre & Quick Fix Shop",
+    "district": "Erode",
+    "city": "Chennimalai",
+    "state": "Tamil Nadu",
+    "address": "Perundurai Highway Road, Near Cooperative Sugar Mill, Chennimalai, Erode District, Tamil Nadu 638051",
+    "latitude": 11.1654,
+    "longitude": 77.6154,
+    "phone": "+91 96290 11224",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Tire Fitting",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   }
 ]

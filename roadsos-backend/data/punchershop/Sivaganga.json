@@ -1,890 +1,2571 @@
 [
   {
-    "id": "SR_SVG0001",
-    "name": "Maruti Suzuki - Jayaraj Car (Karaikudi)",
-    "address": "No 120, Sekkalai Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0002",
-    "name": "Maruti Suzuki Arena - Jayaraj Car (Sivaganga)",
-    "address": "No 45, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0003",
-    "name": "Hyundai - Susee Hyundai (Karaikudi)",
-    "address": "No 240/1, Trichy Main Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0004",
-    "name": "Hyundai - Susee Hyundai (Sivaganga Touchpoint)",
-    "address": "No 88, Manamadurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0005",
-    "name": "Tata Motors - VST Titanium Motors (Karaikudi)",
-    "address": "SF No 114, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0006",
-    "name": "Tata Motors - VST Titanium (Sivaganga)",
-    "address": "No 12, Madurai Main Road, Near Collectorate, Sivaganga, Tamil Nadu 630562",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0007",
-    "name": "Mahindra - anycar Motors (Karaikudi)",
-    "address": "No 5/2A, Devakottai Rastha, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630005",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0008",
-    "name": "Honda Cars - Annamalai Honda (Touchpoint)",
-    "address": "No 143, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0009",
-    "name": "Toyota - Lanson Toyota (Karaikudi Touchpoint)",
-    "address": "No 19, Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0010",
-    "name": "Kia - Instyle Kia (Karaikudi Extension Store)",
-    "address": "No 302, Subramaniapuram Main Road, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0011",
-    "name": "Hero - Muthu Motors",
-    "address": "No 22, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0012",
-    "name": "Hero - Sasi Motors (Karaikudi)",
-    "address": "No 185, Sekkalai Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0013",
-    "name": "Hero - Nachiyappan Agencies",
-    "address": "No 45, Tiruppattur Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0014",
-    "name": "Hero - Sri Ram Agencies",
-    "address": "No 88, Madurai Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0015",
-    "name": "Hero - Alagu Agencies",
-    "address": "No 54, Madurai Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0016",
-    "name": "Honda - PMR Honda (Sivaganga)",
-    "address": "No 105, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0017",
-    "name": "Honda - Subam Honda (Karaikudi)",
-    "address": "No 312, College Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0018",
-    "name": "Honda - Kanna Honda",
-    "address": "No 76, Trichy Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0019",
-    "name": "Honda - Meenakshi Honda",
-    "address": "No 112, Paramakudi Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0020",
-    "name": "Honda - Vignesh Honda",
-    "address": "No 43, Melur Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0021",
-    "name": "TVS - Ram Agencies (Sivaganga)",
-    "address": "No 14, Manamadurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0022",
-    "name": "TVS - KMS Motors (Karaikudi)",
-    "address": "No 95, Sekkalai Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0023",
-    "name": "TVS - Sree Ram Motors",
-    "address": "No 110, Silayanvayal Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0024",
-    "name": "TVS - VRM Motors",
-    "address": "No 67, Sipcot Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0025",
-    "name": "TVS - PKT Motors",
-    "address": "No 24, Sivaganga Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0026",
-    "name": "Bajaj - Sree Jayanathan Bajaj (Sivaganga)",
-    "address": "No 54, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0027",
-    "name": "Bajaj - Shanmugananda Motors (Karaikudi)",
-    "address": "No 82, Subramaniapuram Main Road, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0028",
-    "name": "Bajaj - Devakottai Touchpoint",
-    "address": "No 119, Tiruppattur Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0029",
-    "name": "Bajaj - Manamadurai Sub-Dealer",
-    "address": "No 34, Madurai Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0030",
-    "name": "Yamaha - Horizon Motors (Sivaganga)",
-    "address": "No 48, Melur Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0031",
-    "name": "Yamaha - Alagappa Motors (Karaikudi)",
-    "address": "No 204, College Road, Karaikudi, Sivaganga, Tamil Nadu 630003",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0032",
-    "name": "Yamaha - Devakottai Blue Square Touchpoint",
-    "address": "No 89, Church Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0033",
-    "name": "Royal Enfield - Sree Saravana Motors (Sivaganga)",
-    "address": "No 112, Madurai Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0034",
-    "name": "Royal Enfield - Maruthu Bullet Zone (Karaikudi)",
-    "address": "No 45, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0035",
-    "name": "Royal Enfield - Devakottai Bullet Touchpoint",
-    "address": "No 73, Trichy Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0036",
-    "name": "Suzuki - Meenakshi Suzuki (Sivaganga)",
-    "address": "No 81, Manamadurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0037",
-    "name": "Suzuki - Karpagam Suzuki (Karaikudi)",
-    "address": "No 132, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0038",
-    "name": "Jawa Yezdi - Karaikudi Touchpoint",
-    "address": "No 54, Subramaniapuram 3rd Street, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0039",
-    "name": "Ola Electric - Karaikudi Experience Centre",
-    "address": "No 14, College Road, Near Alagappa University, Karaikudi, Sivaganga, Tamil Nadu 630003",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0040",
-    "name": "Ather Energy - Ather Space Karaikudi",
-    "address": "No 92, Sekkalai Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0041",
-    "name": "Ola Electric - Sivaganga Hub",
-    "address": "No 33, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0042",
-    "name": "KTM & Chetak - Karaikudi KTM",
-    "address": "No 115, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0043",
-    "name": "Hero - Kalayarkoil Touchpoint",
-    "address": "No 12, Maruthupandiyar Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0044",
-    "name": "Honda - Kalayarkoil Honda",
-    "address": "No 48, Sivaganga Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0045",
-    "name": "TVS - Kalayarkoil Sub-Dealer",
-    "address": "No 76, Devakottai Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0046",
-    "name": "Hero - Ilayangudi Touchpoint",
-    "address": "No 18, Paramakudi Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0047",
-    "name": "Honda - Ilayangudi Honda",
-    "address": "No 62, Sivaganga Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0048",
-    "name": "TVS - Ilayangudi Motors",
-    "address": "No 94, Kalayarkoil Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0049",
-    "name": "Hero - Singampunari Touchpoint",
-    "address": "No 25, Dindigul Main Road, Singampunari, Sivaganga, Tamil Nadu 630502",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0050",
-    "name": "Honda - Singampunari Honda",
-    "address": "No 68, Melur Road, Singampunari, Sivaganga, Tamil Nadu 630502",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0101",
-    "name": "Benelli - Karaikudi Premium Zone",
-    "address": "No 88, College Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0102",
-    "name": "Triumph - Karaikudi Connect Store",
-    "address": "No 145, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0103",
-    "name": "Husqvarna - Karaikudi Motorcycles",
-    "address": "No 115, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0104",
-    "name": "Hero - Thiruppathur Road Sub-Dealer",
-    "address": "No 34, Devakottai Rastha, Karaikudi, Sivaganga, Tamil Nadu 630005",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0105",
-    "name": "Honda - Kalanivasal Touchpoint",
-    "address": "No 72, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0106",
-    "name": "TVS - College Road Sub-Dealer",
-    "address": "No 118, College Road, Karaikudi, Sivaganga, Tamil Nadu 630003",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0107",
-    "name": "Bajaj - Sekkalai Road Touchpoint",
-    "address": "No 95, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0108",
-    "name": "Yamaha - Subramaniapuram Connect",
-    "address": "No 43, Subramaniapuram 3rd Street, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0109",
-    "name": "Hero - Manamadurai Feeder Road Zone",
-    "address": "No 25, Market Feeder Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0110",
-    "name": "Honda - Manamadurai Sipcot Connect",
-    "address": "No 78, Sipcot Industrial Complex Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0111",
-    "name": "TVS - Manamadurai Bypass Touchpoint",
-    "address": "No 104, Madurai-Rameswaram Highway, Manamadurai, Sivaganga, Tamil Nadu 630606",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0112",
-    "name": "Hero - Tiruppattur Bus Stand Touchpoint",
-    "address": "No 18, Madurai Road, Near Bus Stand, Tiruppattur, Sivaganga, Tamil Nadu 630211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0113",
-    "name": "Honda - Tiruppattur Melur Road Zone",
-    "address": "No 62, Melur Main Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0114",
-    "name": "TVS - Tiruppattur Sivaganga Road Connect",
-    "address": "No 94, Sivaganga Main Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0115",
-    "name": "Hero - Devakottai Silayanvayal Zone",
-    "address": "No 42, Silayanvayal Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0116",
-    "name": "Honda - Devakottai Church Road Touchpoint",
-    "address": "No 89, Church Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0117",
-    "name": "TVS - Devakottai Tiruppattur Highway Connect",
-    "address": "No 122, Tiruppattur Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0118",
-    "name": "Hero - Sivaganga Town Bus Stand Store",
-    "address": "No 15, Madurai Road, Near Bus Stand, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0119",
-    "name": "Honda - Sivaganga Manamadurai Road Store",
-    "address": "No 54, Manamadurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0120",
-    "name": "TVS - Sivaganga Melur Highway Touchpoint",
-    "address": "No 33, Melur Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0121",
-    "name": "Hero - Kalayarkoil Maruthupandiyar Store",
-    "address": "No 26, Maruthupandiyar Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0122",
-    "name": "Honda - Kalayarkoil Devakottai Road Connect",
-    "address": "No 67, Devakottai Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0123",
-    "name": "Hero - Ilayangudi Paramakudi Road Connect",
-    "address": "No 14, Paramakudi Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0124",
-    "name": "Honda - Ilayangudi Sivaganga Road Zone",
-    "address": "No 52, Sivaganga Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0125",
-    "name": "Hero - Singampunari Dindigul Highway Connect",
-    "address": "No 36, Dindigul Main Road, Singampunari, Sivaganga, Tamil Nadu 630502",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0126",
-    "name": "Honda - Singampunari Kottampatti Connect",
-    "address": "No 85, Kottampatti Road, Singampunari, Sivaganga, Tamil Nadu 630502",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0127",
-    "name": "Hero - Thirupuvanam Highway Zone",
-    "address": "No 44, Madurai-Rameswaram Highway, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0128",
-    "name": "Honda - Thirupuvanam Sholavandan Connect",
-    "address": "No 91, Sholavandan Road, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0129",
-    "name": "Hero - Nerkuppi Ponnamaravathi Connect",
-    "address": "No 19, Ponnamaravathi Road, Nerkuppi, Sivaganga, Tamil Nadu 630440",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0130",
-    "name": "Hero - Kottaiyur Trichy Highway Store",
-    "address": "No 48, Trichy Highway, Kottaiyur, Sivaganga, Tamil Nadu 630106",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0131",
-    "name": "Hero - Puduvayal Aranthangi Road Connect",
-    "address": "No 23, Aranthangi Road, Puduvayal, Sivaganga, Tamil Nadu 630108",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0132",
-    "name": "Hero - Amaravathipudur Main Store",
-    "address": "No 56, Devakottai Main Road, Amaravathipudur, Sivaganga, Tamil Nadu 630301",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0133",
-    "name": "Hero - Paganeri Sivaganga Connect",
-    "address": "No 12, Sivaganga Road, Paganeri, Sivaganga, Tamil Nadu 630558",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0134",
-    "name": "Hero - Poovanthi Melur Road Touchpoint",
-    "address": "No 38, Melur Road, Poovanthi, Sivaganga, Tamil Nadu 630611",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0135",
-    "name": "Ampere EV - Karaikudi Subramaniapuram Zone",
-    "address": "No 114, Sekkalai Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0136",
-    "name": "Hero Electric - Sivaganga Madurai Road Hub",
-    "address": "No 63, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0137",
-    "name": "Kinetic Green - Karaikudi University Connect",
-    "address": "No 192, College Road, Near Alagappa University, Karaikudi, Sivaganga, Tamil Nadu 630003",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0138",
-    "name": "Quantum Energy - Karaikudi Kalanivasal Zone",
-    "address": "No 28, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0139",
-    "name": "Joy E-Bike - Sivaganga Town Store",
-    "address": "No 76, Manamadurai Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0140",
-    "name": "Pure EV - Sivaganga Main Bypass Touchpoint",
-    "address": "No 94, Madurai Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0141",
-    "name": "BNC Motors - Karaikudi Sekkalai Hub",
-    "address": "No 42, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0142",
-    "name": "Greaves Cotton - Ampere EV Devakottai Main",
-    "address": "No 68, Trichy Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0143",
-    "name": "TVS iQube - KMS Motors Karaikudi Main",
-    "address": "No 53, Sekkalai Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0144",
-    "name": "Ola Electric - Devakottai Main Highway Zone",
-    "address": "No 25, Tiruppattur Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0145",
-    "name": "Lectrix EV - Karaikudi College Road Spot",
-    "address": "No 220, College Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0146",
-    "name": "Maruti Suzuki Commercial - Jayaraj Car Town Shop",
-    "address": "No 24, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0147",
-    "name": "Tata Motors Commercial - VST Titanium Highway Spot",
-    "address": "SF No 95, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0148",
-    "name": "Mahindra Commercial - anycar Devakottai Road Spot",
-    "address": "No 14, Devakottai Rastha, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630005",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0149",
-    "name": "Ashok Leyland Light Commercial - Karaikudi Bypass",
-    "address": "No 92, Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0150",
-    "name": "Force Motors - Karaikudi Main Road Spot",
-    "address": "No 180, Subramaniapuram Main Road, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0151",
-    "name": "Maruti Suzuki Nexa - Jayaraj Car Sekkalai Main",
-    "address": "No 184, Sekkalai Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0152",
-    "name": "Benelli - Karaikudi College Road Spot",
-    "address": "No 142, College Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0153",
-    "name": "Triumph - Karaikudi Bypass Corner Store",
-    "address": "No 198, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0154",
-    "name": "Husqvarna - Karaikudi Kalanivasal Store",
-    "address": "No 145, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0155",
-    "name": "Hero - Devakottai Rastha Sub-Dealer Shop",
-    "address": "No 64, Devakottai Rastha, Karaikudi, Sivaganga, Tamil Nadu 630005",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0156",
-    "name": "Honda - Kalanivasal Bypass Touchpoint",
-    "address": "No 112, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0157",
-    "name": "TVS - Karaikudi College Road Junction",
-    "address": "No 148, College Road, Karaikudi, Sivaganga, Tamil Nadu 630003",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0158",
-    "name": "Bajaj - Sekkalai Road Main Store",
-    "address": "No 135, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0159",
-    "name": "Yamaha - Subramaniapuram Main Street",
-    "address": "No 73, Subramaniapuram 3rd Street, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0160",
-    "name": "Hero - Manamadurai Feeder Junction",
-    "address": "No 45, Market Feeder Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0161",
-    "name": "Honda - Manamadurai Industrial Connect",
-    "address": "No 108, Sipcot Industrial Complex Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0162",
-    "name": "TVS - Manamadurai Bypass Junction",
-    "address": "No 144, Madurai-Rameswaram Highway, Manamadurai, Sivaganga, Tamil Nadu 630606",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0163",
-    "name": "Hero - Tiruppattur Bus Terminal Shop",
-    "address": "No 38, Madurai Road, Near Bus Stand, Tiruppattur, Sivaganga, Tamil Nadu 630211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0164",
-    "name": "Honda - Tiruppattur Melur Road Hub",
-    "address": "No 92, Melur Main Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0165",
-    "name": "TVS - Tiruppattur Sivaganga Main Line",
-    "address": "No 124, Sivaganga Main Road, Tiruppattur, Sivaganga, Tamil Nadu 630211",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0166",
-    "name": "Hero - Devakottai Silayanvayal Main Shop",
-    "address": "No 72, Silayanvayal Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0167",
-    "name": "Honda - Devakottai Church Road Line",
-    "address": "No 119, Church Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0168",
-    "name": "TVS - Devakottai Tiruppattur Highway Hub",
-    "address": "No 152, Tiruppattur Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0169",
-    "name": "Hero - Sivaganga Bus Stand Store Corner",
-    "address": "No 45, Madurai Road, Near Bus Stand, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0170",
-    "name": "Honda - Sivaganga Manamadurai Line Store",
-    "address": "No 84, Manamadurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0171",
-    "name": "TVS - Sivaganga Melur Highway Line",
-    "address": "No 63, Melur Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0172",
-    "name": "Hero - Kalayarkoil Maruthupandiyar Main Store",
-    "address": "No 56, Maruthupandiyar Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0173",
-    "name": "Honda - Kalayarkoil Devakottai Line Connect",
-    "address": "No 97, Devakottai Road, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0174",
-    "name": "Hero - Ilayangudi Paramakudi Line Connect",
-    "address": "No 44, Paramakudi Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0175",
-    "name": "Honda - Ilayangudi Sivaganga Road Hub",
-    "address": "No 82, Sivaganga Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0176",
-    "name": "Hero - Singampunari Dindigul Highway Shop",
-    "address": "No 66, Dindigul Main Road, Singampunari, Sivaganga, Tamil Nadu 630502",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0177",
-    "name": "Honda - Singampunari Kottampatti Corner",
-    "address": "No 115, Kottampatti Road, Singampunari, Sivaganga, Tamil Nadu 630502",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0178",
-    "name": "Hero - Thirupuvanam Highway Corner",
-    "address": "No 74, Madurai-Rameswaram Highway, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0179",
-    "name": "Honda - Thirupuvanam Sholavandan Hub",
-    "address": "No 121, Sholavandan Road, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0180",
-    "name": "Hero - Nerkuppi Ponnamaravathi Shop",
-    "address": "No 49, Ponnamaravathi Road, Nerkuppi, Sivaganga, Tamil Nadu 630440",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0181",
-    "name": "Hero - Kottaiyur Trichy Line Store",
-    "address": "No 78, Trichy Highway, Kottaiyur, Sivaganga, Tamil Nadu 630106",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0182",
-    "name": "Hero - Puduvayal Aranthangi Road Shop",
-    "address": "No 53, Aranthangi Road, Puduvayal, Sivaganga, Tamil Nadu 630108",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0183",
-    "name": "Hero - Amaravathipudur Center Store",
-    "address": "No 86, Devakottai Main Road, Amaravathipudur, Sivaganga, Tamil Nadu 630301",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0184",
-    "name": "Hero - Paganeri Sivaganga Line Shop",
-    "address": "No 42, Sivaganga Road, Paganeri, Sivaganga, Tamil Nadu 630558",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0185",
-    "name": "Hero - Poovanthi Melur Road Corner",
-    "address": "No 68, Melur Road, Poovanthi, Sivaganga, Tamil Nadu 630611",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0186",
-    "name": "Ampere EV - Karaikudi Subramaniapuram Hub",
-    "address": "No 144, Sekkalai Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0187",
-    "name": "Hero Electric - Sivaganga Madurai Line Hub",
-    "address": "No 93, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0188",
-    "name": "Kinetic Green - Karaikudi University Area",
-    "address": "No 222, College Road, Near Alagappa University, Karaikudi, Sivaganga, Tamil Nadu 630003",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0189",
-    "name": "Quantum Energy - Karaikudi Kalanivasal Center",
-    "address": "No 58, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0190",
-    "name": "Joy E-Bike - Sivaganga Town Block",
-    "address": "No 106, Manamadurai Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0191",
-    "name": "Pure EV - Sivaganga Bypass Corner",
-    "address": "No 124, Madurai Main Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0192",
-    "name": "BNC Motors - Karaikudi Sekkalai Block",
-    "address": "No 72, Sekkalai Main Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0193",
-    "name": "Greaves Cotton - Ampere EV Devakottai Line",
-    "address": "No 98, Trichy Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0194",
-    "name": "TVS iQube - KMS Motors Karaikudi Hub",
-    "address": "No 83, Sekkalai Road, Karaikudi, Sivaganga, Tamil Nadu 630001",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0195",
-    "name": "Ola Electric - Devakottai Highway Hub",
-    "address": "No 55, Tiruppattur Main Road, Devakottai, Sivaganga, Tamil Nadu 630302",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0196",
-    "name": "Lectrix EV - Karaikudi College Road Block",
-    "address": "No 250, College Road, Subramaniapuram, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Bike Showroom"
-  },
-  {
-    "id": "SR_SVG0197",
-    "name": "Maruti Suzuki Commercial - Jayaraj Car Center",
-    "address": "No 54, Madurai Road, Sivaganga Town, Sivaganga, Tamil Nadu 630561",
-    "type": "Car Showroom"
-  },
-  {
-    "id": "SR_SVG0198",
-    "name": "Tata Motors Commercial - VST Titanium Highway Center",
-    "address": "SF No 125, New Trichy Bypass Road, Kalanivasal, Karaikudi, Sivaganga, Tamil Nadu 630002",
-    "type": "Car Showroom"
+    "id": "PUN_SIVAGANGA_0001",
+    "name": "Sri Ganesh Tyre Care & Puncture Shop",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Madurai Road, Near Aranmanai Vasal, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8432,
+    "longitude": 78.4815,
+    "phone": "+91 94421 88432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0002",
+    "name": "Karaikudi Highway Breakdown Tyres",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Rameshwaram Highway (NH-336), Near New Bus Stand, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0712,
+    "longitude": 78.7845,
+    "phone": "+91 98427 11453",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0003",
+    "name": "National Tyre Vulcanizing Point",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Manamadurai Main Road, Near Railway Station Junction, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8395,
+    "longitude": 78.4892,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0004",
+    "name": "Manamadurai Bypass Puncture Corner",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "Madurai-Rameshwaram Highway (NH-87), Near Manamadurai Bypass Junction, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7125,
+    "longitude": 78.4512,
+    "phone": "+91 94865 11342",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Emergency Highway Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0005",
+    "name": "Devakottai Town Tyre Square",
+    "district": "Sivaganga",
+    "city": "Devakottai",
+    "state": "Tamil Nadu",
+    "address": "Tiruvadanai Road, Near Devakottai Bus Stand Complex, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "latitude": 9.9485,
+    "longitude": 78.8241,
+    "phone": "+91 99421 55628",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0006",
+    "name": "Kalayarkoil Emergency Tyre Help",
+    "district": "Sivaganga",
+    "city": "Kalayarkoil",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga-Thondi Main Road, Near Kalayarkoil Temple Sannathi, Sivaganga, Tamil Nadu 630551",
+    "latitude": 9.8452,
+    "longitude": 78.6292,
+    "phone": "+91 96554 44321",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0007",
+    "name": "Sri Murugan Multi Brand Tyre Care",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "College Road, Opposite Alagappa University Campus, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "latitude": 10.0785,
+    "longitude": 78.7752,
+    "phone": "+91 94422 11984",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0008",
+    "name": "Tiruppuvanam Highway Tyre Point",
+    "district": "Sivaganga",
+    "city": "Tiruppuvanam",
+    "state": "Tamil Nadu",
+    "address": "Madurai-Rameshwaram Highway, Near Tiruppuvanam Arch Area, Sivaganga, Tamil Nadu 630611",
+    "latitude": 9.8685,
+    "longitude": 78.2612,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0009",
+    "name": "Royal Tyre Clinic",
+    "district": "Sivaganga",
+    "city": "Singampunari",
+    "state": "Tamil Nadu",
+    "address": "Natham Main Road, Near Singampunari Bus Stand Area, Sivaganga, Tamil Nadu 630502",
+    "latitude": 10.1792,
+    "longitude": 78.4215,
+    "phone": "+91 91592 11432",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0010",
+    "name": "Ilayangudi 24 Hours Tyre Service",
+    "district": "Sivaganga",
+    "city": "Ilayangudi",
+    "state": "Tamil Nadu",
+    "address": "Paramakudi Main Road, Near Ilayangudi Junction Circle, Sivaganga, Tamil Nadu 630702",
+    "latitude": 9.6312,
+    "longitude": 78.6325,
+    "phone": "+91 97865 11342",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0011",
+    "name": "Tiruppattur Quick Tyre Zone",
+    "district": "Sivaganga",
+    "city": "Tiruppattur",
+    "state": "Tamil Nadu",
+    "address": "Madurai High Road, Near Tiruppattur Bus Stand Bus Bay, Sivaganga, Tamil Nadu 630211",
+    "latitude": 10.1188,
+    "longitude": 78.6212,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0012",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Subramaniapuram Main Road, Near Sekkalai Area Entrance, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "latitude": 10.0682,
+    "longitude": 78.7815,
+    "phone": "+91 94425 44128",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0013",
+    "name": "Kannan Tyre & Patch Point",
+    "district": "Sivaganga",
+    "city": "Nerkuppi",
+    "state": "Tamil Nadu",
+    "address": "Ponnamaravathi Road, Near Bazaar Area, Nerkuppi, Sivaganga, Tamil Nadu 630211",
+    "latitude": 10.1895,
+    "longitude": 78.6945,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0014",
+    "name": "Kanadukathan Heritage Tyre Shop",
+    "district": "Sivaganga",
+    "city": "Kanadukathan",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Rameshwaram Highway Side, Near Chettinad Palace Complex Area, Sivaganga, Tamil Nadu 630103",
+    "latitude": 10.1719,
+    "longitude": 78.7752,
+    "phone": "+91 94863 11452",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0015",
+    "name": "Pallathur Highway Help Line Tyres",
+    "district": "Sivaganga",
+    "city": "Pallathur",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Pallathur Town Panchayat Crossing, Sivaganga, Tamil Nadu 630107",
+    "latitude": 10.1311,
+    "longitude": 78.7912,
+    "phone": "+91 94434 55314",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0016",
+    "name": "Star Express Tyre Station",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Ilayangudi Road, Near Government Hospital Complex Cross, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8395,
+    "longitude": 78.4912,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0017",
+    "name": "Bismillah Tyre Care & Vulcanizing",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Melur Main Road, Near Weekly Market Ground, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8512,
+    "longitude": 78.4752,
+    "phone": "+91 94421 77416",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0018",
+    "name": "Karaikudi 24/7 Highway Rescue",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Rameshwaram Bypass Road, Near Senjai Area Flyover, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0598,
+    "longitude": 78.7915,
+    "phone": "+91 98436 44321",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0019",
+    "name": "Aman Tyre Square & Tubes",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga Main Road, Opposite Government Boys School, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7195,
+    "longitude": 78.4582,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0020",
+    "name": "Devakottai Bypass Quick Fix Corner",
+    "district": "Sivaganga",
+    "city": "Devakottai",
+    "state": "Tamil Nadu",
+    "address": "Karaikudi-Devakottai Highway Road, Near Bypass Roundana, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "latitude": 9.9562,
+    "longitude": 78.8145,
+    "phone": "+91 97891 11452",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0021",
+    "name": "Sri Vinayaga Multi Brand Tyre Care",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Sekkalai Road, Opposite Old Bus Stand Complex, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0725,
+    "longitude": 78.7812,
+    "phone": "+91 99425 44321",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0022",
+    "name": "Kalayarkoil Kovil Sannathi Vulcanising",
+    "district": "Sivaganga",
+    "city": "Kalayarkoil",
+    "state": "Tamil Nadu",
+    "address": "Maruthupandiyar High Road, Near Sornakaleeswarar Temple Gate, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "latitude": 9.8425,
+    "longitude": 78.6245,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0023",
+    "name": "Kannan Tyre & Patch Point",
+    "district": "Sivaganga",
+    "city": "Tiruppattur",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga Main Road, Near Tiruppattur Government Hospital, Sivaganga, Tamil Nadu 630211",
+    "latitude": 10.1115,
+    "longitude": 78.6185,
+    "phone": "+91 96553 11432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0024",
+    "name": "Raja Tyre Tube Clinic",
+    "district": "Sivaganga",
+    "city": "Singampunari",
+    "state": "Tamil Nadu",
+    "address": "Melur Main Road, Near Singampunari Police Station Area, Sivaganga, Tamil Nadu 630502",
+    "latitude": 10.1742,
+    "longitude": 78.4185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0025",
+    "name": "Manamadurai Highway Emergency Tyres",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "NH-87 Rameshwaram National Highway, Near Palar River Bridge Approach, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7042,
+    "longitude": 78.4612,
+    "phone": "+91 94434 11542",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0026",
+    "name": "Selvam Quick Repair Shop",
+    "district": "Sivaganga",
+    "city": "Tiruppuvanam",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Tiruppuvanam Railway Station Gate, Sivaganga, Tamil Nadu 630611",
+    "latitude": 9.8645,
+    "longitude": 78.2585,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0027",
+    "name": "Mani Tyre Corner",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Bus Stand Road Circle, Near Town Clock Tower Area, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8415,
+    "longitude": 78.4832,
+    "phone": "+91 91592 11543",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0028",
+    "name": "Apex Tyre Point & Aligners",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Subramaniapuram 5th Street, Adjacent to Alagappa Polytechnic Cross, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "latitude": 10.0612,
+    "longitude": 78.7732,
+    "phone": "+91 94875 44128",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0029",
+    "name": "Anbu Tyre Point",
+    "district": "Sivaganga",
+    "city": "Ilayangudi",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga High Road, Near Ilayangudi Town Panchayat Office, Sivaganga, Tamil Nadu 630702",
+    "latitude": 9.6385,
+    "longitude": 78.6292,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0030",
+    "name": "Kanadukathan Highway Tyres",
+    "district": "Sivaganga",
+    "city": "Kanadukathan",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Karaikudi Highway Lane, Near Chettinad Railway Station Arch, Sivaganga, Tamil Nadu 630103",
+    "latitude": 10.1745,
+    "longitude": 78.7712,
+    "phone": "+91 94865 44321",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0031",
+    "name": "Basha Highway Vulcanising Center",
+    "district": "Sivaganga",
+    "city": "Kalayarkoil",
+    "state": "Tamil Nadu",
+    "address": "Thondi Main Road, Near Kalayarkoil Bypass Junction Cross, Sivaganga, Tamil Nadu 630551",
+    "latitude": 9.8485,
+    "longitude": 78.6342,
+    "phone": "+91 99421 11452",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tube Vulcanising"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0032",
+    "name": "Royal Town Tyre Station",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Aranmanai Bazaar Street, Near Sivaganga Palace Tower Cross, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8445,
+    "longitude": 78.4795,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0033",
+    "name": "Maruthi Tyre Alignment & Puncture",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Sekkalai Main Road, Near Subramaniapuram Junction, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "latitude": 10.0652,
+    "longitude": 78.7845,
+    "phone": "+91 94435 44128",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Wheel Balancing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0034",
+    "name": "Manamadurai Highway Tyre Rescue",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "NH-87 Rameshwaram Highway Service Road, Near Sipcot Industrial Area, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7145,
+    "longitude": 78.4612,
+    "phone": "+91 98423 11542",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0035",
+    "name": "Balaji Vulcanizing Work",
+    "district": "Sivaganga",
+    "city": "Devakottai",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga Main Road, Near Devakottai Railway Station Cross, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "latitude": 9.9515,
+    "longitude": 78.8285,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0036",
+    "name": "SK Tyre Patch & Care",
+    "district": "Sivaganga",
+    "city": "Kalayarkoil",
+    "state": "Tamil Nadu",
+    "address": "Maruthupandiyar Road, Near Kalayarkoil Government Hospital, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "latitude": 9.8465,
+    "longitude": 78.6312,
+    "phone": "+91 97512 11432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Patching"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0037",
+    "name": "Safe Drive Tyre Tech",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Opposite New Bus Stand Complex, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8452,
+    "longitude": 78.4785,
+    "phone": "+91 91500 11542",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0038",
+    "name": "Highway 24/7 Tyre Services",
+    "district": "Sivaganga",
+    "city": "Tiruppuvanam",
+    "state": "Tamil Nadu",
+    "address": "Madurai-Rameshwaram Highway, Near Tiruppuvanam Toll Plaza Lane, Sivaganga, Tamil Nadu 630611",
+    "latitude": 9.8612,
+    "longitude": 78.2512,
+    "phone": "+91 94441 11432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0039",
+    "name": "Nisha Tubeless Clinic",
+    "district": "Sivaganga",
+    "city": "Tiruppattur",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga Main Road, Near Tiruppattur Government Hospital, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "latitude": 10.1142,
+    "longitude": 78.6245,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0040",
+    "name": "Rahman Tyre & Tube Square",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Manamadurai Road, Near Poovanthi Junction, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8315,
+    "longitude": 78.4852,
+    "phone": "+91 99945 44312",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0041",
+    "name": "Ganesh Vulcanising Shop",
+    "district": "Sivaganga",
+    "city": "Singampunari",
+    "state": "Tamil Nadu",
+    "address": "Dindigul Road, Near Singampunari Municipal Office Complex, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "latitude": 10.1768,
+    "longitude": 78.4145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0042",
+    "name": "Speedway Tyre Alignment Centre",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy Main Road, Near Alagappa Polytechnic Junction, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "latitude": 10.0812,
+    "longitude": 78.7712,
+    "phone": "+91 94421 11432",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0043",
+    "name": "Velu Auto & Tyre Patch",
+    "district": "Sivaganga",
+    "city": "Ilayangudi",
+    "state": "Tamil Nadu",
+    "address": "Maranadu Road, Near Ilayangudi Bus Stop, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "latitude": 9.6342,
+    "longitude": 78.6358,
+    "phone": "+91 96294 44128",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0044",
+    "name": "Star Express Highway Point",
+    "district": "Sivaganga",
+    "city": "Kanadukathan",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Karaikudi Highway, Opposite Kanadukathan Police Outpost, Kanadukathan, Sivaganga, Tamil Nadu 630103",
+    "latitude": 10.1712,
+    "longitude": 78.7745,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0045",
+    "name": "Royal Enfield Specialist & Tyre Point",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "College Road, Opposite Alagappa Government Arts College Cross, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "latitude": 10.0748,
+    "longitude": 78.7721,
+    "phone": "+91 98942 11543",
+    "services": [
+      "Bike Puncture",
+      "Heavy Bike Tyre Patch",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0046",
+    "name": "Manamadurai Bypass Tyre Junction",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "Rameshwaram National Highway, Near Manamadurai Toll Plaza Approach Road, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7015,
+    "longitude": 78.4552,
+    "phone": "+91 94861 44128",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0047",
+    "name": "Mani Quick Patch Corner",
+    "district": "Sivaganga",
+    "city": "Pallathur",
+    "state": "Tamil Nadu",
+    "address": "Bazaar Street Road, Near Pallathur Town Crossing, Pallathur, Sivaganga, Tamil Nadu 630107",
+    "latitude": 10.1342,
+    "longitude": 78.7895,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0048",
+    "name": "Highway Ranger Tyre Clinic",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Madurai Highway Road, Opposite Government Engineering College Campus, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8415,
+    "longitude": 78.4582,
+    "phone": "+91 97865 44128",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0049",
+    "name": "Sri Sai Baba Vulcanizing & Puncture",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Manamadurai Main Road, Near Nethaji Statue, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8368,
+    "longitude": 78.4832,
+    "phone": "+91 94421 22341",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0050",
+    "name": "Karaikudi Highway Tyre Rescue",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Rameshwaram Highway, Near Devakottai Ratha Cross, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0785,
+    "longitude": 78.7912,
+    "phone": "+91 98436 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0051",
+    "name": "Nasser Tyre Care Corner",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "Sipcot Road, Near Railway Gate Area, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7159,
+    "longitude": 78.4512,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0052",
+    "name": "Murugan Quick Tyre Patch",
+    "district": "Sivaganga",
+    "city": "Devakottai",
+    "state": "Tamil Nadu",
+    "address": "Tiruvadanai Road, Near Devakottai Municipal Office, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "latitude": 9.9415,
+    "longitude": 78.8245,
+    "phone": "+91 97891 44521",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0053",
+    "name": "Rasi Tyre Clinic & Nitrogen Air",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Aranmanai Ground Circle, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8439,
+    "longitude": 78.4795,
+    "phone": "+91 91599 11342",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Nitrogen Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0054",
+    "name": "Toll Gate Emergency Tyre Point",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "NH-87 Rameshwaram Highway, Adjacent to Manamadurai Bypass Toll Plaza, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.6992,
+    "longitude": 78.4551,
+    "phone": "+91 94445 22143",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0055",
+    "name": "Babu Tyre Square",
+    "district": "Sivaganga",
+    "city": "Kalayarkoil",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga Main Road, Near Kalayarkoil Government Hospital Junction, Sivaganga, Tamil Nadu 630551",
+    "latitude": 9.8432,
+    "longitude": 78.6215,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0056",
+    "name": "New Star Tyre Clinic",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Melur Road, Near Anna Statue Roundana, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8528,
+    "longitude": 78.4712,
+    "phone": "+91 99941 44312",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0057",
+    "name": "Anjaneya Vulcanising Shop",
+    "district": "Sivaganga",
+    "city": "Tiruppattur",
+    "state": "Tamil Nadu",
+    "address": "Madurai High Road, Near Tiruppattur Checkpost Area, Sivaganga, Tamil Nadu 630211",
+    "latitude": 10.1125,
+    "longitude": 78.6145,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0058",
+    "name": "MRF T&S - Sri Vinayaga Tyre Zone",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Opposite Government Boys Higher Secondary School, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8452,
+    "longitude": 78.4685,
+    "phone": "+91 94425 22164",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "Tire Replacement"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.5,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0059",
+    "name": "Kumaran Auto & Tyre Patch",
+    "district": "Sivaganga",
+    "city": "Singampunari",
+    "state": "Tamil Nadu",
+    "address": "Natham Main Road, Near Koot Road Junction, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "latitude": 10.1712,
+    "longitude": 78.4215,
+    "phone": "+91 96291 22435",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0060",
+    "name": "Express Highway 87 Tyre Care",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "NH-87 Rameshwaram Highway, Opposite Sipcot Police Outpost, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7112,
+    "longitude": 78.4545,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0061",
+    "name": "A1 Bike Zone & Tyre Repair",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "College Road, Near Alagappa Chettiar Stadium, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "latitude": 10.0765,
+    "longitude": 78.7712,
+    "phone": "+91 98945 11432",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0062",
+    "name": "Manamadurai Flyover Tyre Junction",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "NH-87 Bypass Road, Near Vaigai River Bridge Approach, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7012,
+    "longitude": 78.4595,
+    "phone": "+91 94865 22134",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0063",
+    "name": "Siva Quick Repair Shop",
+    "district": "Sivaganga",
+    "city": "Ilayangudi",
+    "state": "Tamil Nadu",
+    "address": "Paramakudi High Road, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "latitude": 9.6245,
+    "longitude": 78.6312,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0064",
+    "name": "Highway Track Tyre Point",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Rameshwaram Expressway, Karaikudi New Bypass Service Lane, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0585,
+    "longitude": 78.7912,
+    "phone": "+91 97861 22435",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0065",
+    "name": "Bismillah Tyre Point",
+    "district": "Sivaganga",
+    "city": "Thirupuvanam",
+    "state": "Tamil Nadu",
+    "address": "Madurai-Rameshwaram Main Road, Near Thirupuvanam Bus Stop, Sivaganga, Tamil Nadu 630611",
+    "latitude": 9.8655,
+    "longitude": 78.2642,
+    "phone": "+91 94432 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0066",
+    "name": "Al-Ameen Vulcanising Works",
+    "district": "Sivaganga",
+    "city": "Thirupuvanam",
+    "state": "Tamil Nadu",
+    "address": "Sholavandan Road, Near Perumal Temple, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
+    "latitude": 9.8632,
+    "longitude": 78.2615,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0067",
+    "name": "Kalayarkoil Junction Tyre Corner",
+    "district": "Sivaganga",
+    "city": "Kalayarkoil",
+    "state": "Tamil Nadu",
+    "address": "Maruthupandiyar Main Road, Kalayarkoil Junction, Sivaganga, Tamil Nadu 630551",
+    "latitude": 9.8455,
+    "longitude": 78.6312,
+    "phone": "+91 97864 22154",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0068",
+    "name": "Sri Krishna Quick Patch",
+    "district": "Sivaganga",
+    "city": "Kalayarkoil",
+    "state": "Tamil Nadu",
+    "address": "Thondi High Road, Near Kalayarkoil Railway Station Area, Sivaganga, Tamil Nadu 630551",
+    "latitude": 9.8492,
+    "longitude": 78.6258,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0069",
+    "name": "Karaikudi Bypass Tyre Rescue",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Rameshwaram Highway, Near New Bus Stand Checkpost, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0735,
+    "longitude": 78.7885,
+    "phone": "+91 98432 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0070",
+    "name": "Santhosh Tyre Patch Shop",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "Madurai-Rameshwaram Highway, Near Manamadurai Bus Stand, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7135,
+    "longitude": 78.4552,
+    "phone": "+91 91593 22154",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0071",
+    "name": "Muna Tyre & Tube Care",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Melur Main Road, Opposite Government Arts College Entrance, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8512,
+    "longitude": 78.4735,
+    "phone": "+91 99942 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0072",
+    "name": "Jai Hanuman Tyre Point",
+    "district": "Sivaganga",
+    "city": "Tiruppattur",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga Main Road, Near Tiruppattur New Bus Stand, Sivaganga, Tamil Nadu 630211",
+    "latitude": 10.1135,
+    "longitude": 78.6185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0073",
+    "name": "Balu Motor & Tyre Work",
+    "district": "Sivaganga",
+    "city": "Devakottai",
+    "state": "Tamil Nadu",
+    "address": "Tiruvadanai Main Road, Near Devakottai Police Station, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "latitude": 9.9452,
+    "longitude": 78.8212,
+    "phone": "+91 96295 55432",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0074",
+    "name": "Aranmanai Roundana Industrial Tyres",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Aranmanai Roundana Junction, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8432,
+    "longitude": 78.4792,
+    "phone": "+91 94443 22154",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0075",
+    "name": "Venkateswara Vulcanising Clinic",
+    "district": "Sivaganga",
+    "city": "Singampunari",
+    "state": "Tamil Nadu",
+    "address": "Natham Main Road, Near New Town Checkpost Area, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "latitude": 10.1755,
+    "longitude": 78.4225,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0076",
+    "name": "Highway Night Rider Tyres",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "NH-87 Madurai-Rameshwaram Expressway, Near Manamadurai Toll Plaza Area, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.6995,
+    "longitude": 78.4532,
+    "phone": "+91 97863 55432",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0077",
+    "name": "Raza Tyre Alignment & Patch",
+    "district": "Sivaganga",
+    "city": "Ilayangudi",
+    "state": "Tamil Nadu",
+    "address": "Paramakudi Road, Near Ilayangudi Town Panchayat Office, Sivaganga, Tamil Nadu 630702",
+    "latitude": 9.6315,
+    "longitude": 78.6312,
+    "phone": "+91 94862 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0078",
+    "name": "Guru Quick Repair Point",
+    "district": "Sivaganga",
+    "city": "Kanadukathan",
+    "state": "Tamil Nadu",
+    "address": "Chettinad Road Area, Near Kanadukathan Market Junction, Sivaganga, Tamil Nadu 630103",
+    "latitude": 10.1725,
+    "longitude": 78.7758,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0079",
+    "name": "Karaikudi Toll Plaza Tyre Help",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Rameshwaram Expressway, 500m before Karaikudi Toll Gate, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0815,
+    "longitude": 78.7852,
+    "phone": "+91 94421 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0080",
+    "name": "Murugan Tyre Work & Tubes",
+    "district": "Sivaganga",
+    "city": "Pallathur",
+    "state": "Tamil Nadu",
+    "address": "Main Road, Near Pallathur Cooperative Bank, Sivaganga, Tamil Nadu 630107",
+    "latitude": 10.1325,
+    "longitude": 78.7882,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0081",
+    "name": "Siva Sakthi Vulcanizing Corner",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Melur High Road, Near Railway Overbridge, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8542,
+    "longitude": 78.4712,
+    "phone": "+91 94436 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0082",
+    "name": "Highway Quick Fix Center",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "NH-87 Rameshwaram Highway, Near Manamadurai Bypass Junction, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7042,
+    "longitude": 78.4512,
+    "phone": "+91 98431 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0083",
+    "name": "Rahamath Tyre Care",
+    "district": "Sivaganga",
+    "city": "Devakottai",
+    "state": "Tamil Nadu",
+    "address": "Tiruvadanai Road, Near Devakottai Star Theatre Cross, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "latitude": 9.9425,
+    "longitude": 78.8212,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0084",
+    "name": "Vignesh Quick Tyre Fix",
+    "district": "Sivaganga",
+    "city": "Kalayarkoil",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga Main Road, Near Kalayarkoil Bus Stand Complex, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "latitude": 9.8425,
+    "longitude": 78.6215,
+    "phone": "+91 97894 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0085",
+    "name": "City Centre Tyre & Alignment Zone",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "College Road, Near Hasthampatti Police Station Area, Karaikudi, Sivaganga, Tamil Nadu 630003",
+    "latitude": 10.0752,
+    "longitude": 78.7735,
+    "phone": "+91 91595 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix",
+      "Wheel Alignment"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0086",
+    "name": "Toll Plaza Highway Ranger Tyres",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Rameshwaram Expressway, Karaikudi Toll Gate Exit Lane, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0825,
+    "longitude": 78.7865,
+    "phone": "+91 94441 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0087",
+    "name": "Anand Tyre & Tube Square",
+    "district": "Sivaganga",
+    "city": "Singampunari",
+    "state": "Tamil Nadu",
+    "address": "Melur-Singampunari Road, Near Government Hospital Area, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "latitude": 10.1735,
+    "longitude": 78.4185,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0088",
+    "name": "National Tyre Repair Shop",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Bus Stand Main Road, Opposite Municipal High School, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8415,
+    "longitude": 78.4812,
+    "phone": "+91 99943 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0089",
+    "name": "Sri Balaji Vulcanising Shop",
+    "district": "Sivaganga",
+    "city": "Tiruppattur",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga High Road, Near Cooperative Bank, Tiruppattur, Sivaganga, Tamil Nadu 630211",
+    "latitude": 10.1112,
+    "longitude": 78.6152,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0090",
+    "name": "Bridgestone Tyre Select - Sri Vinayaga",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "College Road, Opposite Karaikudi Railway Station Entrance, Karaikudi, Sivaganga, Tamil Nadu 630002",
+    "latitude": 10.0652,
+    "longitude": 78.7812,
+    "phone": "+91 94422 22154",
+    "services": [
+      "Car Puncture",
+      "Wheel Alignment",
+      "Wheel Balancing",
+      "New Tyre Sales"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0091",
+    "name": "Sakthi Auto & Tyre Patch",
+    "district": "Sivaganga",
+    "city": "Ilayangudi",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga Main Road, Near Ilayangudi Police Outpost, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "latitude": 9.6325,
+    "longitude": 78.6312,
+    "phone": "+91 96293 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0092",
+    "name": "Expressway 87 Highway Tyre Point",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "NH-87 Bypass Expressway, Near Manamadurai Toll Plaza Cross, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.6985,
+    "longitude": 78.4525,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0093",
+    "name": "Sivaganga Central Tyre Repair",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Old Bus Stand, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8425,
+    "longitude": 78.4765,
+    "phone": "+91 98941 22154",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0094",
+    "name": "Thirupuvanam Vaigai Bridge Side Tyres",
+    "district": "Sivaganga",
+    "city": "Thirupuvanam",
+    "state": "Tamil Nadu",
+    "address": "Madurai-Rameshwaram Highway Road, Near Vaigai River Bridge Approach, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
+    "latitude": 9.8652,
+    "longitude": 78.2592,
+    "phone": "+91 94861 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0095",
+    "name": "Murugan Quick Repair Corner",
+    "district": "Sivaganga",
+    "city": "Kanadukathan",
+    "state": "Tamil Nadu",
+    "address": "Palace Road Cross, Kanadukathan, Sivaganga, Tamil Nadu 630103",
+    "latitude": 10.1715,
+    "longitude": 78.7735,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0096",
+    "name": "Highway Tracker Tyre Center",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "NH-87 Expressway, Near Manamadurai Bypass Bridge, Manamadurai, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7025,
+    "longitude": 78.4565,
+    "phone": "+91 97864 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0097",
+    "name": "Sartaj Tyre & Vulcanising Works",
+    "district": "Sivaganga",
+    "city": "Thirupuvanam",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Anna Statue, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
+    "latitude": 9.8641,
+    "longitude": 78.2612,
+    "phone": "+91 94424 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0098",
+    "name": "Al-Ahad Tyre Care Corner",
+    "district": "Sivaganga",
+    "city": "Thirupuvanam",
+    "state": "Tamil Nadu",
+    "address": "Sholavandan Road, Near Government Higher Secondary School, Thirupuvanam, Sivaganga, Tamil Nadu 630611",
+    "latitude": 9.8615,
+    "longitude": 78.2585,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0099",
+    "name": "Kalayarkoil Road Tyre Repair Shop",
+    "district": "Sivaganga",
+    "city": "Kalayarkoil",
+    "state": "Tamil Nadu",
+    "address": "Sivaganga Main Road, Near Bus Stand Area, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "latitude": 9.8425,
+    "longitude": 78.6185,
+    "phone": "+91 97861 22154",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0100",
+    "name": "Sri Venkateswara Tyre Patch Works",
+    "district": "Sivaganga",
+    "city": "Kalayarkoil",
+    "state": "Tamil Nadu",
+    "address": "Thondi Road, Near Bazaar Junction, Kalayarkoil, Sivaganga, Tamil Nadu 630551",
+    "latitude": 9.8452,
+    "longitude": 78.6241,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0101",
+    "name": "Karaikudi Highway Emergency Tyres",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Rameshwaram Highway, Near New Bus Stand Flyover Exit, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0712,
+    "longitude": 78.7815,
+    "phone": "+91 98435 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Highway Emergency Rescue",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.6,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0102",
+    "name": "Srinivasa Tyre Patch Point",
+    "district": "Sivaganga",
+    "city": "Manamadurai",
+    "state": "Tamil Nadu",
+    "address": "Sipcot High Road, Near Manamadurai Market Area, Sivaganga, Tamil Nadu 630606",
+    "latitude": 9.7152,
+    "longitude": 78.4532,
+    "phone": "+91 91591 22154",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.9,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0103",
+    "name": "Al-Mubarak Tyre Square",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Melur Main Road, Opposite Poovanthi Mosque, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8492,
+    "longitude": 78.4685,
+    "phone": "+91 99941 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Repair"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.2,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0104",
+    "name": "Tiruppattur Hill Side Quick Tyre Fix",
+    "district": "Sivaganga",
+    "city": "Tiruppattur",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Near Tiruppattur Railway Station Cross Road, Sivaganga, Tamil Nadu 630211",
+    "latitude": 10.1145,
+    "longitude": 78.6152,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0105",
+    "name": "Nandhi Motor & Tyre Clinic",
+    "district": "Sivaganga",
+    "city": "Devakottai",
+    "state": "Tamil Nadu",
+    "address": "Tiruvadanai Main Road, Opposite Government Girls Higher Secondary School, Devakottai, Sivaganga, Tamil Nadu 630302",
+    "latitude": 9.9432,
+    "longitude": 78.8215,
+    "phone": "+91 96291 22154",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0106",
+    "name": "Aranmanai Roundana Main Road Heavy Tyre Works",
+    "district": "Sivaganga",
+    "city": "Sivaganga Town",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main Road, Adjacent to Aranmanai Roundana Commercial Complex, Sivaganga, Tamil Nadu 630561",
+    "latitude": 9.8435,
+    "longitude": 78.4785,
+    "phone": "+91 94441 22154",
+    "services": [
+      "Car Puncture",
+      "Heavy Vehicle Tyre Patching",
+      "Tubeless Fix"
+    ],
+    "vehicle_types": [
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.3,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0107",
+    "name": "Sri Tirumala Vulcanising Works",
+    "district": "Sivaganga",
+    "city": "Singampunari",
+    "state": "Tamil Nadu",
+    "address": "Natham High Road, Near Town Water Tank, Singampunari, Sivaganga, Tamil Nadu 630502",
+    "latitude": 10.1715,
+    "longitude": 78.4152,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Fix",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0108",
+    "name": "Express Highway Toll Gate View Tyres",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Rameshwaram Expressway, Adjacent to Karaikudi Toll Gate Flyover, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0812,
+    "longitude": 78.7845,
+    "phone": "+91 97861 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Stepney Changing"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.7,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0109",
+    "name": "Star Tyre Alignment & Puncture Point",
+    "district": "Sivaganga",
+    "city": "Singampunari",
+    "state": "Tamil Nadu",
+    "address": "Melur Main Road, Opposite Singampunari New Bus Stand, Sivaganga, Tamil Nadu 630502",
+    "latitude": 10.1742,
+    "longitude": 78.4185,
+    "phone": "+91 94861 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Tubeless Quick Fix"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": false,
+    "rating": 4.1,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0110",
+    "name": "Santhosh Quick Repair Point",
+    "district": "Sivaganga",
+    "city": "Ilayangudi",
+    "state": "Tamil Nadu",
+    "address": "Paramakudi Main Road, Opposite Government Hospital Complex, Ilayangudi, Sivaganga, Tamil Nadu 630702",
+    "latitude": 9.6258,
+    "longitude": 78.6325,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 3.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0111",
+    "name": "Highway Express Toll Plaza Support",
+    "district": "Sivaganga",
+    "city": "Karaikudi",
+    "state": "Tamil Nadu",
+    "address": "Trichy-Rameshwaram Expressway, 1km after Karaikudi Toll Gate plaza, Karaikudi, Sivaganga, Tamil Nadu 630001",
+    "latitude": 10.0835,
+    "longitude": 78.7885,
+    "phone": "+91 94425 22154",
+    "services": [
+      "Bike Puncture",
+      "Car Puncture",
+      "Emergency Highway Repair",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike",
+      "Car"
+    ],
+    "is_24_hours": true,
+    "rating": 4.8,
+    "status": "Open"
+  },
+  {
+    "id": "PUN_SIVAGANGA_0112",
+    "name": "Murugan Tyre Patch & Tube Shop",
+    "district": "Sivaganga",
+    "city": "Pallathur",
+    "state": "Tamil Nadu",
+    "address": "Main High Road, Near Pallathur Panchayat Union Office, Sivaganga, Tamil Nadu 630107",
+    "latitude": 10.1315,
+    "longitude": 78.7895,
+    "phone": "Not Available",
+    "services": [
+      "Bike Puncture",
+      "Tubeless Patching",
+      "Air Filling"
+    ],
+    "vehicle_types": [
+      "Bike"
+    ],
+    "is_24_hours": false,
+    "rating": 4,
+    "status": "Open"
   }
 ]
