@@ -14,11 +14,17 @@ roadsos-backend/
 │   │   ├── location.py           — POST /api/location
 │   │   ├── sos.py                — POST /api/sos
 │   │   ├── hospitals.py          — GET /api/hospitals
+│   │   ├── ambulances.py         — GET /api/ambulances
 │   │   ├── police.py             — GET /api/police
+│   │   ├── showrooms.py          — GET /api/showrooms
+│   │   ├── puncture_shops.py     — GET /api/puncture-shops
 │   │   ├── towing.py             — GET /api/towing
 │   │   ├── chat.py               — POST /api/chat (RAG + Ollama/Gemini)
 │   │   ├── alerts.py             — GET /api/alerts
-│   │   └── contacts.py           — POST /api/contacts
+│   │   ├── contacts.py           — GET/POST /api/contacts
+│   │   ├── push.py               — GET/POST/DELETE /api/push
+│   │   ├── risk.py               — GET /api/risk
+│   │   └── route.py              — GET /api/route
 │   ├── services/                 — core business logic
 │   │   ├── danger_zone_service.py — geofencing + risk scoring
 │   │   ├── sos_service.py        — SOS workflow + notifications

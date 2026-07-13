@@ -13,6 +13,7 @@ import uvicorn
 import asyncio
 import logging
 import time
+import os
 
 # --- Route imports ---
 from app.routes import (
@@ -33,8 +34,6 @@ from app.routes import (
 )
 from app.config import get_llm_provider, get_ollama_model
 from app.services.ambulance_service import run_ambulance_simulator
-import os
-import subprocess
 
 # --- Logging setup ---
 logging.basicConfig(
@@ -44,6 +43,7 @@ logging.basicConfig(
 logger = logging.getLogger("roadsos")
 BACKEND_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BEEP_AUDIO_DIR = os.path.join(BACKEND_DIR, "beap")
+CODE_VERSION = os.getenv("CODE_VERSION") or "1.0.0"
 
 # -------------------------------------------------------------------
 # App initialisation
@@ -258,19 +258,9 @@ async def api_status():
     """
     provider = get_llm_provider()
     model = get_ollama_model() if provider == "ollama" else "Google Gemini"
-    # Determine a small code version marker to help confirm deployed code
-    code_version = os.getenv("CODE_VERSION")
-    if not code_version:
-        try:
-            code_version = (
-                subprocess.check_output(["git", "rev-parse", "--short", "HEAD"]).decode().strip()
-            )
-        except Exception:
-            code_version = "unknown"
-
     return {
         "success": True,
-        "code_version": code_version,
+        "code_version": CODE_VERSION,
         "routes": {
             "location":  "/api/location",
             "sos":       "/api/sos",
@@ -283,6 +273,7 @@ async def api_status():
             "chat":      "/api/chat",
             "alerts":    "/api/alerts",
             "contacts":  "/api/contacts",
+            "push":      "/api/push",
             "risk":      "/api/risk",
             "route":     "/api/route",
             "nearest_hospital": "/api/location/nearest-hospital",

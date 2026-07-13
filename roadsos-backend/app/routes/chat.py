@@ -7,6 +7,7 @@ from queue import Queue
 from typing import Any
 
 import anyio
+from cachetools import TTLCache
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, model_validator
@@ -22,7 +23,12 @@ from db import crud
 router = APIRouter(prefix="/chat", tags=["Chat"])
 CHAT_LLM_TIMEOUT_SECONDS = 120
 logger = logging.getLogger("roadsos.chat")
-REVERSE_GEOCODE_CACHE: dict[tuple[float, float], str | None] = {}
+REVERSE_GEOCODE_CACHE_MAX_SIZE = 2000
+REVERSE_GEOCODE_CACHE_TTL_SECONDS = 24 * 60 * 60
+REVERSE_GEOCODE_CACHE: TTLCache[tuple[float, float], str | None] = TTLCache(
+    maxsize=REVERSE_GEOCODE_CACHE_MAX_SIZE,
+    ttl=REVERSE_GEOCODE_CACHE_TTL_SECONDS,
+)
 REVERSE_GEOCODE_IN_FLIGHT: set[tuple[float, float]] = set()
 PURE_LOCATION_TERMS = {"location", "where am i"}
 CURRENT_LOCATION_PHRASES = (

@@ -50,11 +50,17 @@ team_accalerate/
         location.py            POST /api/location
         sos.py                 POST /api/sos
         hospitals.py           GET /api/hospitals
+        ambulances.py          GET /api/ambulances
         police.py              GET /api/police
+        showrooms.py           GET /api/showrooms
+        puncture_shops.py      GET /api/puncture-shops
         towing.py              GET /api/towing
         alerts.py              GET /api/alerts
         chat.py                POST /api/chat
         contacts.py            GET/POST /api/contacts
+        push.py                GET/POST/DELETE /api/push
+        risk.py                GET /api/risk
+        route.py               GET /api/route
         _data.py               shared JSON, distance, OSM helpers
       ai/                      Gemini and RAG helpers
       models/                  Pydantic schemas
@@ -167,11 +173,19 @@ http://127.0.0.1:5173
 | POST | `/api/location` | Submit or update current location |
 | POST | `/api/sos` | Trigger SOS workflow |
 | GET | `/api/hospitals?lat=&lng=` | List nearby hospitals |
+| GET | `/api/ambulances?lat=&lng=` | List nearby ambulances |
 | GET | `/api/police?lat=&lng=` | List nearby police stations |
+| GET | `/api/showrooms?lat=&lng=` | List nearby vehicle showrooms |
+| GET | `/api/puncture-shops?lat=&lng=` | List nearby puncture shops |
 | GET | `/api/towing?lat=&lng=` | List nearby towing services |
 | GET | `/api/alerts?lat=&lng=` | List nearby road alerts |
 | GET | `/api/contacts` | List emergency contacts |
 | POST | `/api/contacts` | Add emergency contact |
+| GET | `/api/push/vapid-public-key` | Get push notification public key |
+| POST | `/api/push/subscribe` | Subscribe to push notifications |
+| DELETE | `/api/push/subscribe` | Unsubscribe from push notifications |
+| GET | `/api/risk?lat=&lng=` | Assess road risk |
+| GET | `/api/route?from_lat=&from_lng=&to_lat=&to_lng=` | Plan safest route |
 | POST | `/api/chat` | Ask RoadSoS AI assistant |
 
 Example:
