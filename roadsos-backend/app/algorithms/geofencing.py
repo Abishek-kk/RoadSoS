@@ -101,6 +101,7 @@ def check_geofence(
     lng: float,
     geofence: Geofence | Mapping[str, Any],
     warning_buffer_km: float = 2.0,
+    max_total_radius_km: float | None = None,
 ) -> GeofenceMatch:
     """
     Check one geofence and return a rich match object.
@@ -115,9 +116,13 @@ def check_geofence(
     margin = distance - zone.radius_km
     inside = margin <= 0
 
+    effective_buffer_km = float(warning_buffer_km)
+    if max_total_radius_km is not None:
+        effective_buffer_km = max(0.0, float(max_total_radius_km) - zone.radius_km)
+
     if inside:
         status = "inside"
-    elif margin <= warning_buffer_km:
+    elif margin <= effective_buffer_km:
         status = "nearby"
     else:
         status = "outside"
@@ -137,10 +142,17 @@ def check_geofences(
     geofences: Iterable[Geofence | Mapping[str, Any]],
     warning_buffer_km: float = 2.0,
     include_outside: bool = False,
+    max_total_radius_km: float | None = None,
 ) -> list[GeofenceMatch]:
     """Check many geofences and return matches sorted by distance."""
     matches = [
-        check_geofence(lat, lng, geofence, warning_buffer_km=warning_buffer_km)
+        check_geofence(
+            lat,
+            lng,
+            geofence,
+            warning_buffer_km=warning_buffer_km,
+            max_total_radius_km=max_total_radius_km,
+        )
         for geofence in geofences
     ]
     if not include_outside:
@@ -185,6 +197,7 @@ def active_geofence_alerts(
     lng: float,
     geofences: Iterable[Geofence | Mapping[str, Any]],
     warning_buffer_km: float = 2.0,
+    max_total_radius_km: float | None = None,
 ) -> list[dict[str, Any]]:
     """
     Return warning records for zones the user is inside or approaching.
@@ -192,7 +205,13 @@ def active_geofence_alerts(
     The output is designed for API/UI use and includes a clear message.
     """
     alerts = []
-    for match in check_geofences(lat, lng, geofences, warning_buffer_km=warning_buffer_km):
+    for match in check_geofences(
+        lat,
+        lng,
+        geofences,
+        warning_buffer_km=warning_buffer_km,
+        max_total_radius_km=max_total_radius_km,
+    ):
         zone = match.geofence
         if match.inside:
             message = f"You are inside {zone.name}, a {zone.risk_level} risk zone."

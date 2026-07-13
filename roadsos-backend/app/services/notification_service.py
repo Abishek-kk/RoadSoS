@@ -27,6 +27,46 @@ def build_sos_message(user_name: str, lat: float, lng: float, note: str | None =
     )
 
 
+def build_danger_zone_message(zone: dict, lat: float, lng: float) -> str:
+    maps_link = f"https://maps.google.com/?q={lat},{lng}"
+    zone_name = zone.get("zone_name") or zone.get("name") or "a known danger zone"
+    risk_level = str(zone.get("risk_level") or "critical")
+    advisory = str(zone.get("advisory") or "Reduce speed and stay alert.").strip()
+    return (
+        f"RoadSoS Alert: You are near {zone_name}, a {risk_level} risk zone. "
+        f"{advisory} Maps: {maps_link}"
+    )
+
+
+def notify_user_of_danger_zone(
+    user_phone: str,
+    zone: dict,
+    lat: float,
+    lng: float,
+) -> list[NotificationResult]:
+    phone = normalize_phone_number(user_phone)
+    zone_name = str(zone.get("zone_name") or zone.get("name") or "Danger zone")
+    if not phone or phone == "+10000000000":
+        return [NotificationResult(zone_name, phone, "sms", "skipped", error="Missing real user phone number")]
+
+    message = build_danger_zone_message(zone, lat, lng)
+    results: list[NotificationResult] = []
+
+    if twilio_sms_configured():
+        results.append(send_sms(zone_name, phone, message))
+    else:
+        logger.info("Danger-zone SMS dry run to %s: %s", phone, message)
+        results.append(NotificationResult(zone_name, phone, "sms", "dry_run", error="SMS not configured"))
+
+    if twilio_whatsapp_configured():
+        results.append(send_whatsapp(zone_name, phone, message))
+    else:
+        logger.info("Danger-zone WhatsApp dry run to %s: %s", phone, message)
+        results.append(NotificationResult(zone_name, phone, "whatsapp", "dry_run", error="WhatsApp not configured"))
+
+    return results
+
+
 def notify_emergency_contacts(
     contacts: list[dict[str, str | None]],
     user_name: str,

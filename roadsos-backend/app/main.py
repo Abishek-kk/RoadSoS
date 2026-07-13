@@ -22,6 +22,7 @@ from app.routes import (
     hospitals,
     location,
     police,
+    push,
     puncture_shops,
     risk,
     route,
@@ -196,6 +197,12 @@ app.include_router(
     contacts.router,
     prefix="/api",
     tags=["Emergency Contacts"],
+)
+
+app.include_router(
+    push.router,
+    prefix="/api",
+    tags=["Push Notifications"],
 )
 
 app.include_router(

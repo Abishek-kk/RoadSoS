@@ -226,3 +226,62 @@ def get_latest_user_location(db: Session, user_id: int) -> Optional[models.Locat
         .filter(models.LocationLog.user_id == user_id)\
         .order_by(desc(models.LocationLog.timestamp))\
         .first()
+
+
+# -------------------------------------------------------------------
+# Push Subscription CRUD Operations
+# -------------------------------------------------------------------
+
+def upsert_push_subscription(
+    db: Session,
+    user_id: int,
+    endpoint: str,
+    p256dh: str,
+    auth: str,
+) -> models.PushSubscription:
+    subscription = (
+        db.query(models.PushSubscription)
+        .filter(models.PushSubscription.endpoint == endpoint)
+        .first()
+    )
+    if subscription:
+        subscription.user_id = user_id
+        subscription.p256dh = p256dh
+        subscription.auth = auth
+    else:
+        subscription = models.PushSubscription(
+            user_id=user_id,
+            endpoint=endpoint,
+            p256dh=p256dh,
+            auth=auth,
+        )
+        db.add(subscription)
+
+    db.commit()
+    db.refresh(subscription)
+    return subscription
+
+
+def delete_push_subscription(db: Session, user_id: int, endpoint: str) -> bool:
+    subscription = (
+        db.query(models.PushSubscription)
+        .filter(
+            models.PushSubscription.user_id == user_id,
+            models.PushSubscription.endpoint == endpoint,
+        )
+        .first()
+    )
+    if not subscription:
+        return False
+    db.delete(subscription)
+    db.commit()
+    return True
+
+
+def get_push_subscriptions(db: Session, user_id: int) -> List[models.PushSubscription]:
+    return (
+        db.query(models.PushSubscription)
+        .filter(models.PushSubscription.user_id == user_id)
+        .order_by(desc(models.PushSubscription.created_at))
+        .all()
+    )

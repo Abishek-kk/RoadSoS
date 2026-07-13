@@ -1,6 +1,7 @@
 import { Link, Outlet, useRouterState } from "@tanstack/react-router";
 import { AlertTriangle, Home, Hospital, MessageCircle, Phone, Shield, Truck, Users } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { usePushNotifications } from "@/hooks/usePushNotifications";
 
 const nav = [
   { to: "/", label: "Dashboard", icon: Home },
@@ -14,6 +15,8 @@ const nav = [
 
 export function AppLayout() {
   const { location } = useRouterState();
+  usePushNotifications();
+
   return (
     <div className="h-screen overflow-hidden bg-background text-foreground flex">
       <aside className="hidden md:flex w-64 shrink-0 flex-col border-r border-border bg-sidebar">

@@ -3,8 +3,9 @@ from typing import Any
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
+from app.config import get_danger_zone_alert_radius_km
 from app.models.location import LocationCreate, LocationLogResponse
-from app.services import danger_zone_service, location_service
+from app.services import danger_zone_notification_service, danger_zone_service, location_service
 from app.services.route_service import get_route_between_points
 from db.database import get_db
 
@@ -21,7 +22,14 @@ async def post_location(payload: LocationCreate, db: Session = Depends(get_db)):
         payload.lat,
         payload.lng,
         danger_zones,
-        warning_buffer_km=6.0,
+        max_total_radius_km=get_danger_zone_alert_radius_km(),
+    )
+    danger_zone_notification_service.notify_for_alerts(
+        db,
+        location_log.user_id,
+        alerts,
+        payload.lat,
+        payload.lng,
     )
     risk = danger_zone_service.get_road_risk_assessment(
         lat=payload.lat,

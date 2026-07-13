@@ -71,6 +71,12 @@ class User(Base, TimestampMixin):
         cascade="all, delete-orphan",
         passive_deletes=True,
     )
+    push_subscriptions = relationship(
+        "PushSubscription",
+        back_populates="user",
+        cascade="all, delete-orphan",
+        passive_deletes=True,
+    )
 
     def __repr__(self) -> str:
         return f"<User id={self.id!r} phone={self.phone!r}>"
@@ -173,6 +179,21 @@ class NotificationDelivery(Base):
 
     sos_event = relationship("SOSEvent", back_populates="notifications")
     contact = relationship("EmergencyContact")
+
+
+class PushSubscription(Base, TimestampMixin):
+    __tablename__ = "push_subscriptions"
+    __table_args__ = (
+        UniqueConstraint("endpoint", name="uq_push_subscriptions_endpoint"),
+    )
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False, index=True)
+    endpoint = Column(Text, nullable=False)
+    p256dh = Column(Text, nullable=False)
+    auth = Column(Text, nullable=False)
+
+    user = relationship("User", back_populates="push_subscriptions")
 
 
 class LocationLog(Base):

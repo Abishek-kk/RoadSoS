@@ -13,6 +13,9 @@ TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID", "")
 TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN", "")
 TWILIO_PHONE_NUMBER = os.getenv("TWILIO_PHONE_NUMBER", "")
 TWILIO_WHATSAPP_NUMBER = os.getenv("TWILIO_WHATSAPP_NUMBER", "")
+VAPID_PUBLIC_KEY = os.getenv("VAPID_PUBLIC_KEY", "")
+VAPID_PRIVATE_KEY = os.getenv("VAPID_PRIVATE_KEY", "")
+VAPID_CLAIMS_EMAIL = os.getenv("VAPID_CLAIMS_EMAIL", "")
 
 # Database
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./roadsos.db")
@@ -23,6 +26,8 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
 OSRM_BASE_URL = os.getenv("OSRM_BASE_URL", "")
+DANGER_ZONE_ALERT_RADIUS_KM = os.getenv("DANGER_ZONE_ALERT_RADIUS_KM", "5.0")
+DANGER_ZONE_SMS_COOLDOWN_MINUTES = os.getenv("DANGER_ZONE_SMS_COOLDOWN_MINUTES", "45")
 
 
 # Settings Object Pattern
@@ -33,12 +38,17 @@ class Settings:
     TWILIO_AUTH_TOKEN = TWILIO_AUTH_TOKEN
     TWILIO_PHONE_NUMBER = TWILIO_PHONE_NUMBER
     TWILIO_WHATSAPP_NUMBER = TWILIO_WHATSAPP_NUMBER
+    VAPID_PUBLIC_KEY = VAPID_PUBLIC_KEY
+    VAPID_PRIVATE_KEY = VAPID_PRIVATE_KEY
+    VAPID_CLAIMS_EMAIL = VAPID_CLAIMS_EMAIL
     DATABASE_URL = DATABASE_URL
     DEBUG = DEBUG
     LLM_PROVIDER = LLM_PROVIDER
     OLLAMA_BASE_URL = OLLAMA_BASE_URL
     OLLAMA_MODEL = OLLAMA_MODEL
     OSRM_BASE_URL = OSRM_BASE_URL
+    DANGER_ZONE_ALERT_RADIUS_KM = DANGER_ZONE_ALERT_RADIUS_KM
+    DANGER_ZONE_SMS_COOLDOWN_MINUTES = DANGER_ZONE_SMS_COOLDOWN_MINUTES
     JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "roadsos_jwt_super_secret_signing_key_2026")
     JWT_ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
     INTERNAL_API_KEY = os.getenv("INTERNAL_API_KEY", "roadsos_internal_secret_key")
@@ -79,3 +89,39 @@ def get_ollama_model() -> str:
 def get_osrm_base_url() -> str:
     """Return an optional OSRM base URL used for route geometry."""
     return (_get_live_env_value("OSRM_BASE_URL", OSRM_BASE_URL) or "").strip().rstrip("/")
+
+
+def get_float_setting(name: str, default: float) -> float:
+    try:
+        return float(_get_live_env_value(name, str(default)) or default)
+    except (TypeError, ValueError):
+        return default
+
+
+def get_int_setting(name: str, default: int) -> int:
+    try:
+        return int(float(_get_live_env_value(name, str(default)) or default))
+    except (TypeError, ValueError):
+        return default
+
+
+def get_danger_zone_alert_radius_km() -> float:
+    """Return total danger-zone detection radius without requiring restart."""
+    return max(0.0, get_float_setting("DANGER_ZONE_ALERT_RADIUS_KM", 5.0))
+
+
+def get_danger_zone_sms_cooldown_minutes() -> int:
+    """Return danger-zone notification cooldown without requiring restart."""
+    return max(1, get_int_setting("DANGER_ZONE_SMS_COOLDOWN_MINUTES", 45))
+
+
+def get_vapid_public_key() -> str:
+    return _get_live_env_value("VAPID_PUBLIC_KEY", VAPID_PUBLIC_KEY).strip()
+
+
+def get_vapid_private_key() -> str:
+    return _get_live_env_value("VAPID_PRIVATE_KEY", VAPID_PRIVATE_KEY).strip()
+
+
+def get_vapid_claims_email() -> str:
+    return _get_live_env_value("VAPID_CLAIMS_EMAIL", VAPID_CLAIMS_EMAIL).strip()

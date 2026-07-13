@@ -123,6 +123,22 @@ def _upgrade_sqlite_schema():
             if "recorded_at" not in existing_cols:
                 conn.execute(text("ALTER TABLE location_logs ADD COLUMN recorded_at DATETIME"))
 
+        if "push_subscriptions" not in existing_tables:
+            conn.execute(text("""
+                CREATE TABLE push_subscriptions (
+                    id INTEGER NOT NULL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    endpoint TEXT NOT NULL,
+                    p256dh TEXT NOT NULL,
+                    auth TEXT NOT NULL,
+                    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY(user_id) REFERENCES users (id) ON DELETE CASCADE,
+                    CONSTRAINT uq_push_subscriptions_endpoint UNIQUE (endpoint)
+                )
+            """))
+            conn.execute(text("CREATE INDEX IF NOT EXISTS ix_push_subscriptions_user_id ON push_subscriptions (user_id)"))
+
 
 def init_db():
     """
