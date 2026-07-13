@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Namakkal",
     "road_name": "Salem-Karur Road",
     "highway": "NH-44",
@@ -11,4 +12,605 @@
       "Truck traffic",
       "Wrong-side driving"
     ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Salem-Karur Highway",
+    "highway": "NH-44",
+    "location": "Paramathi Velur Junction",
+    "latitude": 11.1154,
+    "longitude": 78.0042,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy truck traffic",
+      "Overspeeding",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Salem-Karur Highway",
+    "highway": "NH-44",
+    "location": "Puduchatram Junction",
+    "latitude": 11.1685,
+    "longitude": 78.1526,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Lane merging",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Salem-Karur Highway",
+    "highway": "NH-44",
+    "location": "Namakkal Bypass",
+    "latitude": 11.2368,
+    "longitude": 78.1635,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy container trucks",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Rasipuram Road",
+    "highway": "SH-95",
+    "location": "Rasipuram Bus Stand",
+    "latitude": 11.4596,
+    "longitude": 78.1862,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Rasipuram Road",
+    "highway": "SH-95",
+    "location": "Vennandur Junction",
+    "latitude": 11.5128,
+    "longitude": 78.1729,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Tiruchengode Road",
+    "highway": "SH-94",
+    "location": "Mohanur Junction",
+    "latitude": 11.0664,
+    "longitude": 78.1418,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Tiruchengode Road",
+    "highway": "SH-94",
+    "location": "Tiruchengode Bus Stand",
+    "latitude": 11.3805,
+    "longitude": 77.8946,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial activity",
+      "Heavy buses",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Erode Road",
+    "highway": "SH-79",
+    "location": "Kumarapalayam Junction",
+    "latitude": 11.4423,
+    "longitude": 77.6945,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Heavy trucks",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Erode Road",
+    "highway": "SH-79",
+    "location": "Komarapalayam Bridge",
+    "latitude": 11.4475,
+    "longitude": 77.6952,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Bridge bottleneck",
+      "Heavy vehicles",
+      "Poor lane discipline"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Salem Road",
+    "highway": "NH-44",
+    "location": "Erumapatti Junction",
+    "latitude": 11.2962,
+    "longitude": 78.2073,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Kolli Hills Road",
+    "highway": "SH-95",
+    "location": "Semmedu Ghat Entrance",
+    "latitude": 11.2878,
+    "longitude": 78.3446,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Steep gradient",
+      "Fog"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Kolli Hills Road",
+    "highway": "SH-95",
+    "location": "Hairpin Bend 12",
+    "latitude": 11.2957,
+    "longitude": 78.3561,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Sharp curves",
+      "Brake failure",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Kolli Hills Road",
+    "highway": "SH-95",
+    "location": "Hairpin Bend 35",
+    "latitude": 11.3095,
+    "longitude": 78.3726,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Tourist traffic",
+      "Fog"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Kolli Hills Road",
+    "highway": "Hill Road",
+    "location": "Agaya Gangai Falls Junction",
+    "latitude": 11.2788,
+    "longitude": 78.3398,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Improper parking",
+      "Steep curves"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal City Road",
+    "highway": "Urban Road",
+    "location": "New Bus Stand Junction",
+    "latitude": 11.2216,
+    "longitude": 78.1678,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal City Road",
+    "highway": "Urban Road",
+    "location": "Old Bus Stand Junction",
+    "latitude": 11.2198,
+    "longitude": 78.1659,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy traffic",
+      "Auto-rickshaws",
+      "Commercial activity"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal City Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 11.2254,
+    "longitude": 78.1646,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Sendamangalam Road",
+    "highway": "SH",
+    "location": "Sendamangalam Junction",
+    "latitude": 11.3005,
+    "longitude": 78.2384,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Sendamangalam Road",
+    "highway": "SH",
+    "location": "Belukurichi Junction",
+    "latitude": 11.3379,
+    "longitude": 78.2695,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Mixed traffic",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Mohanur Road",
+    "highway": "SH",
+    "location": "Mohanur Cauvery Bridge",
+    "latitude": 11.0618,
+    "longitude": 78.1396,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Bridge narrowing",
+      "Heavy vehicles",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Salem-Karur Highway",
+    "highway": "NH-44",
+    "location": "Nallipalayam Junction",
+    "latitude": 11.2468,
+    "longitude": 78.1495,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy container trucks",
+      "Overspeeding",
+      "Service road merging"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Salem-Karur Highway",
+    "highway": "NH-44",
+    "location": "Aniyapuram Junction",
+    "latitude": 11.1887,
+    "longitude": 78.1768,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Rasipuram Road",
+    "highway": "SH-95",
+    "location": "Pattanam Junction",
+    "latitude": 11.3958,
+    "longitude": 78.1764,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Mixed traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Rasipuram Road",
+    "highway": "SH-95",
+    "location": "Mettala Junction",
+    "latitude": 11.4315,
+    "longitude": 78.2146,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Sharp curves",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Rasipuram-Attur Road",
+    "highway": "SH-30",
+    "location": "Pudupatti Junction",
+    "latitude": 11.4876,
+    "longitude": 78.2574,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Village crossings",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Rasipuram-Attur Road",
+    "highway": "SH-30",
+    "location": "Namagiripettai Junction",
+    "latitude": 11.4589,
+    "longitude": 78.3642,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Heavy buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Tiruchengode Road",
+    "highway": "SH-94",
+    "location": "Elachipalayam Junction",
+    "latitude": 11.3464,
+    "longitude": 77.9253,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Tiruchengode Road",
+    "highway": "SH-94",
+    "location": "Pallipalayam Road Junction",
+    "latitude": 11.3927,
+    "longitude": 77.9114,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Signal congestion",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Erode Road",
+    "highway": "SH-79",
+    "location": "Pallipalayam Bridge",
+    "latitude": 11.4374,
+    "longitude": 77.7035,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Bridge bottleneck",
+      "Heavy trucks",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Erode Road",
+    "highway": "SH-79",
+    "location": "SPB Colony Junction",
+    "latitude": 11.4461,
+    "longitude": 77.7138,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "School buses",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Kolli Hills Road",
+    "highway": "SH-95",
+    "location": "Hairpin Bend 48",
+    "latitude": 11.3168,
+    "longitude": 78.3885,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Fog",
+      "Brake failure"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Kolli Hills Road",
+    "highway": "SH-95",
+    "location": "Semmedu Bus Stand",
+    "latitude": 11.2825,
+    "longitude": 78.3514,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Tourist buses",
+      "Pedestrian crossings",
+      "Sharp curves"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Kolli Hills Road",
+    "highway": "Hill Road",
+    "location": "Arapaleeswarar Temple Road",
+    "latitude": 11.2806,
+    "longitude": 78.3445,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Narrow roadway",
+      "Blind curves"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Kolli Hills Road",
+    "highway": "Hill Road",
+    "location": "Seekuparai View Point",
+    "latitude": 11.2973,
+    "longitude": 78.3668,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Steep valley curves",
+      "Fog"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal City Road",
+    "highway": "Urban Road",
+    "location": "Naina Malai Junction",
+    "latitude": 11.2294,
+    "longitude": 78.1718,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Temple traffic",
+      "Mixed vehicles",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal City Road",
+    "highway": "Urban Road",
+    "location": "Fort Road Junction",
+    "latitude": 11.2198,
+    "longitude": 78.1687,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Commercial activity",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal City Road",
+    "highway": "Urban Road",
+    "location": "Government Hospital Junction",
+    "latitude": 11.2243,
+    "longitude": 78.1628,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Sendamangalam Road",
+    "highway": "SH",
+    "location": "Kalappanaickenpatti Junction",
+    "latitude": 11.3218,
+    "longitude": 78.2517,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Agricultural vehicles",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Mohanur Road",
+    "highway": "SH",
+    "location": "Nanjai Edayar Junction",
+    "latitude": 11.0824,
+    "longitude": 78.1265,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bridge approach",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Namakkal",
+    "road_name": "Namakkal-Mohanur Road",
+    "highway": "SH",
+    "location": "Mohanur Bus Stand",
+    "latitude": 11.0627,
+    "longitude": 78.1412,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
   }
+]

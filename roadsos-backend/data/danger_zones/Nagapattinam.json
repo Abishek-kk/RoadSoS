@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Nagapattinam",
     "road_name": "Nagapattinam-Thiruvarur Road",
     "highway": "NH-83",
@@ -11,4 +12,605 @@
       "Poor lighting",
       "Rain"
     ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Thanjavur Highway",
+    "highway": "NH-83",
+    "location": "Nagapattinam Bypass Junction",
+    "latitude": 10.7652,
+    "longitude": 79.8428,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Overspeeding",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Thanjavur Highway",
+    "highway": "NH-83",
+    "location": "Sikkal Junction",
+    "latitude": 10.7984,
+    "longitude": 79.8442,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Heavy buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Karaikal Road",
+    "highway": "NH-32",
+    "location": "Nagore Dargah Junction",
+    "latitude": 10.8157,
+    "longitude": 79.8465,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Commercial congestion",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Karaikal Road",
+    "highway": "NH-32",
+    "location": "Nagore Bus Stand",
+    "latitude": 10.8192,
+    "longitude": 79.8456,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Velankanni Road",
+    "highway": "SH-147",
+    "location": "Velankanni Basilica Junction",
+    "latitude": 10.6825,
+    "longitude": 79.8521,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Tourist buses",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Velankanni Road",
+    "highway": "SH-147",
+    "location": "Velankanni Bus Stand",
+    "latitude": 10.6838,
+    "longitude": 79.8504,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Heavy buses",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Thirumarugal Road",
+    "highway": "SH",
+    "location": "Thirumarugal Junction",
+    "latitude": 10.8204,
+    "longitude": 79.7425,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Thirumarugal Road",
+    "highway": "SH",
+    "location": "Keelaiyur Junction",
+    "latitude": 10.7598,
+    "longitude": 79.7816,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Agricultural vehicles",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Thiruvarur Road",
+    "highway": "SH-23",
+    "location": "Andanapettai Junction",
+    "latitude": 10.7724,
+    "longitude": 79.8187,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Improper overtaking",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Thiruvarur Road",
+    "highway": "SH-23",
+    "location": "Tittachery Junction",
+    "latitude": 10.8752,
+    "longitude": 79.8468,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam City Road",
+    "highway": "Urban Road",
+    "location": "New Bus Stand Junction",
+    "latitude": 10.7658,
+    "longitude": 79.8439,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial activity",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam City Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Junction",
+    "latitude": 10.7641,
+    "longitude": 79.8476,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Auto-rickshaws",
+      "Parking congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam City Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 10.7708,
+    "longitude": 79.8404,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Peak-hour traffic"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam Harbour Road",
+    "highway": "Port Road",
+    "location": "Fishing Harbour Entrance",
+    "latitude": 10.7608,
+    "longitude": 79.8617,
+    "risk_level": "High",
+    "road_type": "Port Road",
+    "major_cause": [
+      "Fishing trucks",
+      "Heavy commercial vehicles",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam Harbour Road",
+    "highway": "Port Road",
+    "location": "Harbour Roundabout",
+    "latitude": 10.7589,
+    "longitude": 79.8645,
+    "risk_level": "High",
+    "road_type": "Port Road",
+    "major_cause": [
+      "Container movement",
+      "Heavy trucks",
+      "Improper lane discipline"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Velankanni-Vedaranyam Road",
+    "highway": "SH",
+    "location": "Pushpavanam Junction",
+    "latitude": 10.6024,
+    "longitude": 79.8536,
+    "risk_level": "Medium",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Cyclone damage",
+      "Fishing vehicles",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Velankanni-Vedaranyam Road",
+    "highway": "SH",
+    "location": "Kodiyakarai Diversion",
+    "latitude": 10.3714,
+    "longitude": 79.8508,
+    "risk_level": "High",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Sharp bends",
+      "Wildlife crossings",
+      "Fog"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Akkaraipettai Road",
+    "highway": "MDR",
+    "location": "Akkaraipettai Fishing Harbour",
+    "latitude": 10.7456,
+    "longitude": 79.8781,
+    "risk_level": "High",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Fishing trucks",
+      "Narrow roadway",
+      "Heavy commercial traffic"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Akkaraipettai Road",
+    "highway": "MDR",
+    "location": "Nambiyar Nagar Junction",
+    "latitude": 10.7527,
+    "longitude": 79.8675,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Residential traffic",
+      "School zone",
+      "Mixed vehicles"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Sembodai Road",
+    "highway": "SH",
+    "location": "Sembodai Junction",
+    "latitude": 10.5489,
+    "longitude": 79.8224,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Village crossings",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Vedaranyam Road",
+    "highway": "SH-146",
+    "location": "Vedaranyam Bus Stand Junction",
+    "latitude": 10.3728,
+    "longitude": 79.8504,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Vedaranyam Road",
+    "highway": "SH-146",
+    "location": "Pushpavanam Bridge",
+    "latitude": 10.5934,
+    "longitude": 79.8479,
+    "risk_level": "Medium",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Narrow bridge",
+      "Fishing vehicles",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Velankanni-Vedaranyam Road",
+    "highway": "SH-146",
+    "location": "Prataparamapuram Junction",
+    "latitude": 10.5657,
+    "longitude": 79.8412,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Agricultural vehicles",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Velankanni-Vedaranyam Road",
+    "highway": "SH-146",
+    "location": "Maruthur Junction",
+    "latitude": 10.5281,
+    "longitude": 79.8298,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagore-Velankanni Road",
+    "highway": "SH",
+    "location": "Nagai Government Hospital Junction",
+    "latitude": 10.7708,
+    "longitude": 79.8478,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagore-Velankanni Road",
+    "highway": "SH",
+    "location": "South Poigainallur Junction",
+    "latitude": 10.7365,
+    "longitude": 79.8472,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Improper overtaking",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Thiruvarur Road",
+    "highway": "SH-23",
+    "location": "Vadakku Poigainallur",
+    "latitude": 10.7934,
+    "longitude": 79.8095,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy trucks",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Thiruvarur Road",
+    "highway": "SH-23",
+    "location": "Nagapattinam Outer Ring Junction",
+    "latitude": 10.7814,
+    "longitude": 79.8236,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "High-speed vehicles",
+      "Lane merging",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Sikkal Road",
+    "highway": "MDR",
+    "location": "Sikkal Singaravelar Temple",
+    "latitude": 10.7942,
+    "longitude": 79.8461,
+    "risk_level": "High",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Temple crowd",
+      "Pedestrian crossings",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Sikkal Road",
+    "highway": "MDR",
+    "location": "Kurichi Junction",
+    "latitude": 10.7826,
+    "longitude": 79.8387,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Mixed traffic",
+      "School buses",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam City Road",
+    "highway": "Urban Road",
+    "location": "District Court Junction",
+    "latitude": 10.7696,
+    "longitude": 79.8398,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Pedestrian movement",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam City Road",
+    "highway": "Urban Road",
+    "location": "South Street Junction",
+    "latitude": 10.7645,
+    "longitude": 79.8453,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial activity",
+      "Auto-rickshaws",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam City Road",
+    "highway": "Urban Road",
+    "location": "VOC Ground Junction",
+    "latitude": 10.7688,
+    "longitude": 79.8441,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Public gatherings",
+      "Heavy traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam Harbour Road",
+    "highway": "Port Road",
+    "location": "Port Customs Office Junction",
+    "latitude": 10.7572,
+    "longitude": 79.8668,
+    "risk_level": "High",
+    "road_type": "Port Road",
+    "major_cause": [
+      "Container trucks",
+      "Heavy goods vehicles",
+      "Limited visibility"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam Harbour Road",
+    "highway": "Port Road",
+    "location": "Fishing Auction Centre",
+    "latitude": 10.7548,
+    "longitude": 79.8703,
+    "risk_level": "Medium",
+    "road_type": "Port Road",
+    "major_cause": [
+      "Fishing trucks",
+      "Crowded marketplace",
+      "Poor parking"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Vedaranyam-Kodiyakarai Road",
+    "highway": "Coastal Road",
+    "location": "Point Calimere Wildlife Sanctuary Entrance",
+    "latitude": 10.3025,
+    "longitude": 79.8568,
+    "risk_level": "High",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Wildlife crossings",
+      "Fog",
+      "Sharp curves"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Vedaranyam-Kodiyakarai Road",
+    "highway": "Coastal Road",
+    "location": "Kodiyakarai Lighthouse Road",
+    "latitude": 10.2798,
+    "longitude": 79.8524,
+    "risk_level": "Medium",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Cyclone damage",
+      "Narrow roadway"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Keelvelur Road",
+    "highway": "SH",
+    "location": "Keelvelur Junction",
+    "latitude": 10.8294,
+    "longitude": 79.7216,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Heavy buses",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Nagapattinam-Keelvelur Road",
+    "highway": "SH",
+    "location": "Valivalam Junction",
+    "latitude": 10.7217,
+    "longitude": 79.7738,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Poor lighting",
+      "Mixed traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Nagapattinam",
+    "road_name": "Velankanni Coastal Road",
+    "highway": "Coastal Road",
+    "location": "Velankanni Beach Parking Exit",
+    "latitude": 10.6812,
+    "longitude": 79.8564,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist congestion",
+      "Pedestrian crossings",
+      "Improper parking"
+    ]
   }
+]

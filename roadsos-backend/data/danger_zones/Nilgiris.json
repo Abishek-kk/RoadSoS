@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Nilgiris",
     "road_name": "Mettupalayam-Ooty Road",
     "highway": "NH-181",
@@ -12,4 +13,605 @@
       "Fog",
       "Landslides"
     ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Mettupalayam-Ooty Ghat Road",
+    "highway": "NH-181",
+    "location": "Burliar Hairpin Bend",
+    "latitude": 11.3082,
+    "longitude": 76.8827,
+    "risk_level": "Very High",
+    "road_type": "Mountain Highway",
+    "major_cause": [
+      "36 hairpin bends",
+      "Brake failure",
+      "Steep gradient"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Mettupalayam-Ooty Ghat Road",
+    "highway": "NH-181",
+    "location": "Kallar Bridge",
+    "latitude": 11.3097,
+    "longitude": 76.8868,
+    "risk_level": "Very High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Sharp curves",
+      "Heavy tourist buses",
+      "Fog"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Mettupalayam-Ooty Ghat Road",
+    "highway": "NH-181",
+    "location": "Adderly Hairpin Bend",
+    "latitude": 11.3225,
+    "longitude": 76.9014,
+    "risk_level": "Very High",
+    "road_type": "Mountain Highway",
+    "major_cause": [
+      "Hairpin bends",
+      "Overspeeding",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Mettupalayam-Ooty Ghat Road",
+    "highway": "NH-181",
+    "location": "Burliar Forest Check Post",
+    "latitude": 11.3159,
+    "longitude": 76.8926,
+    "risk_level": "High",
+    "road_type": "Forest Highway",
+    "major_cause": [
+      "Wildlife crossings",
+      "Dense fog",
+      "Tourist traffic"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Coonoor Road",
+    "highway": "NH-181",
+    "location": "Lovedale Junction",
+    "latitude": 11.3876,
+    "longitude": 76.7284,
+    "risk_level": "High",
+    "road_type": "Mountain Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Blind curves",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Coonoor Road",
+    "highway": "NH-181",
+    "location": "Ketti Valley View Point",
+    "latitude": 11.3725,
+    "longitude": 76.7338,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Tourist stopping",
+      "Sharp curves",
+      "Fog"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Coonoor Road",
+    "highway": "NH-181",
+    "location": "Aravankadu Junction",
+    "latitude": 11.3637,
+    "longitude": 76.7578,
+    "risk_level": "High",
+    "road_type": "Mountain Highway",
+    "major_cause": [
+      "Military traffic",
+      "Heavy buses",
+      "Steep descent"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Coonoor Road",
+    "highway": "NH-181",
+    "location": "Wellington Cantonment",
+    "latitude": 11.3631,
+    "longitude": 76.7958,
+    "risk_level": "Medium",
+    "road_type": "Urban Hill Road",
+    "major_cause": [
+      "Military vehicles",
+      "Pedestrian crossings",
+      "Sharp bends"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Mysore Highway",
+    "highway": "NH-181",
+    "location": "Gudalur Junction",
+    "latitude": 11.4978,
+    "longitude": 76.4923,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Interstate traffic",
+      "Heavy trucks",
+      "Elephant crossings"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Mysore Highway",
+    "highway": "NH-181",
+    "location": "Needle Rock View Point",
+    "latitude": 11.5196,
+    "longitude": 76.5228,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Sharp curves",
+      "Dense fog"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Gudalur-Mysore Road",
+    "highway": "NH-766",
+    "location": "Theppakadu Elephant Camp",
+    "latitude": 11.5584,
+    "longitude": 76.5906,
+    "risk_level": "Very High",
+    "road_type": "Forest Highway",
+    "major_cause": [
+      "Elephant crossings",
+      "Night driving",
+      "Wildlife movement"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Gudalur-Mysore Road",
+    "highway": "NH-766",
+    "location": "Masinagudi Junction",
+    "latitude": 11.5688,
+    "longitude": 76.6408,
+    "risk_level": "High",
+    "road_type": "Forest Highway",
+    "major_cause": [
+      "Tourist vehicles",
+      "Wildlife crossings",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Masinagudi-Ooty Ghat Road",
+    "highway": "SH-67",
+    "location": "Kalhatty Hairpin Bend 10",
+    "latitude": 11.4708,
+    "longitude": 76.6794,
+    "risk_level": "Very High",
+    "road_type": "Mountain Road",
+    "major_cause": [
+      "36 hairpin bends",
+      "Brake failure",
+      "Steep climb"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Masinagudi-Ooty Ghat Road",
+    "highway": "SH-67",
+    "location": "Kalhatty Hairpin Bend 25",
+    "latitude": 11.4554,
+    "longitude": 76.6912,
+    "risk_level": "Very High",
+    "road_type": "Mountain Road",
+    "major_cause": [
+      "Blind curves",
+      "Dense fog",
+      "Heavy tourist traffic"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Masinagudi-Ooty Ghat Road",
+    "highway": "SH-67",
+    "location": "Kalhatty Waterfalls Junction",
+    "latitude": 11.4628,
+    "longitude": 76.6864,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist parking",
+      "Sharp bends",
+      "Slippery roads"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty City Road",
+    "highway": "Urban Road",
+    "location": "Charing Cross Junction",
+    "latitude": 11.4124,
+    "longitude": 76.6956,
+    "risk_level": "Very High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy tourist traffic",
+      "Signal congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty City Road",
+    "highway": "Urban Road",
+    "location": "Commercial Road Junction",
+    "latitude": 11.4142,
+    "longitude": 76.6991,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Market traffic",
+      "Improper parking",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty City Road",
+    "highway": "Urban Road",
+    "location": "Ooty Bus Stand",
+    "latitude": 11.4068,
+    "longitude": 76.6945,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Tourist movement",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Avalanche Road",
+    "highway": "SH",
+    "location": "Avalanche Forest Check Post",
+    "latitude": 11.2906,
+    "longitude": 76.6114,
+    "risk_level": "High",
+    "road_type": "Forest Road",
+    "major_cause": [
+      "Wildlife crossings",
+      "Dense fog",
+      "Narrow roadway"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Pykara Road",
+    "highway": "SH",
+    "location": "Pykara Falls Junction",
+    "latitude": 11.4672,
+    "longitude": 76.5883,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist buses",
+      "Sharp curves",
+      "Roadside parking"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Coonoor Road",
+    "highway": "NH-181",
+    "location": "Finger Post Junction",
+    "latitude": 11.4182,
+    "longitude": 76.7214,
+    "risk_level": "High",
+    "road_type": "Mountain Highway",
+    "major_cause": [
+      "Heavy tourist traffic",
+      "Signal congestion",
+      "Sharp curves"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Coonoor Road",
+    "highway": "NH-181",
+    "location": "Fernhill Junction",
+    "latitude": 11.3995,
+    "longitude": 76.7078,
+    "risk_level": "High",
+    "road_type": "Mountain Highway",
+    "major_cause": [
+      "Steep descent",
+      "Tourist buses",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Coonoor-Mettupalayam Road",
+    "highway": "NH-181",
+    "location": "Hillgrove Railway Crossing",
+    "latitude": 11.3408,
+    "longitude": 76.8427,
+    "risk_level": "Very High",
+    "road_type": "Mountain Highway",
+    "major_cause": [
+      "Hairpin bends",
+      "Railway crossing",
+      "Fog"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Coonoor-Mettupalayam Road",
+    "highway": "NH-181",
+    "location": "Runnymede Bridge",
+    "latitude": 11.3326,
+    "longitude": 76.8218,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Narrow bridge",
+      "Heavy buses",
+      "Sharp curves"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Coonoor-Kotagiri Road",
+    "highway": "SH-15",
+    "location": "Sim's Park Junction",
+    "latitude": 11.3504,
+    "longitude": 76.7937,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Pedestrian crossings",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Coonoor-Kotagiri Road",
+    "highway": "SH-15",
+    "location": "Aravenu Junction",
+    "latitude": 11.4218,
+    "longitude": 76.8725,
+    "risk_level": "Medium",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Village traffic",
+      "Sharp bends",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Kotagiri-Mettupalayam Road",
+    "highway": "SH-15",
+    "location": "Kodanad View Point Road",
+    "latitude": 11.4486,
+    "longitude": 76.8884,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Blind curves",
+      "Roadside parking"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Kotagiri-Mettupalayam Road",
+    "highway": "SH-15",
+    "location": "Kattabettu Junction",
+    "latitude": 11.4263,
+    "longitude": 76.8571,
+    "risk_level": "Medium",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Tea estate traffic",
+      "Fog",
+      "Steep curves"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Kotagiri-Ooty Road",
+    "highway": "SH",
+    "location": "Doddabetta Junction",
+    "latitude": 11.4065,
+    "longitude": 76.7358,
+    "risk_level": "Very High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist buses",
+      "Sharp curves",
+      "Heavy weekend traffic"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Kotagiri-Ooty Road",
+    "highway": "SH",
+    "location": "Thalayathimund Junction",
+    "latitude": 11.3998,
+    "longitude": 76.7584,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Steep descent",
+      "Poor visibility",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Gudalur-Ooty Road",
+    "highway": "NH-181",
+    "location": "Pandalur Junction",
+    "latitude": 11.4725,
+    "longitude": 76.3334,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy goods vehicles",
+      "Rain",
+      "Sharp curves"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Gudalur-Ooty Road",
+    "highway": "NH-181",
+    "location": "Cherambadi Junction",
+    "latitude": 11.5238,
+    "longitude": 76.2857,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Interstate traffic",
+      "Tea lorries",
+      "Fog"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Gudalur-Devala Road",
+    "highway": "SH",
+    "location": "Devala Bus Stand",
+    "latitude": 11.5056,
+    "longitude": 76.3539,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Market traffic",
+      "Narrow roads"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Gudalur-Devala Road",
+    "highway": "SH",
+    "location": "Nadugani Ghat Section",
+    "latitude": 11.4837,
+    "longitude": 76.3975,
+    "risk_level": "Very High",
+    "road_type": "Ghat Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Dense fog",
+      "Landslides"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Avalanche Road",
+    "highway": "Forest Road",
+    "location": "Emerald Lake Junction",
+    "latitude": 11.3025,
+    "longitude": 76.6278,
+    "risk_level": "High",
+    "road_type": "Forest Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Fog",
+      "Sharp curves"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Avalanche Road",
+    "highway": "Forest Road",
+    "location": "Emerald Dam Road",
+    "latitude": 11.2894,
+    "longitude": 76.6142,
+    "risk_level": "Medium",
+    "road_type": "Forest Road",
+    "major_cause": [
+      "Narrow roadway",
+      "Wildlife crossings",
+      "Rain"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty City Road",
+    "highway": "Urban Road",
+    "location": "Government Botanical Garden Junction",
+    "latitude": 11.4208,
+    "longitude": 76.7096,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Tourist crowds",
+      "Improper parking",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty City Road",
+    "highway": "Urban Road",
+    "location": "Rose Garden Junction",
+    "latitude": 11.4102,
+    "longitude": 76.7075,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Heavy buses",
+      "Roadside parking"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty City Road",
+    "highway": "Urban Road",
+    "location": "Government Hospital Junction",
+    "latitude": 11.4118,
+    "longitude": 76.6994,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "The Nilgiris",
+    "road_name": "Ooty-Glenmorgan Road",
+    "highway": "Forest Road",
+    "location": "Glenmorgan View Point",
+    "latitude": 11.3734,
+    "longitude": 76.5589,
+    "risk_level": "High",
+    "road_type": "Mountain Road",
+    "major_cause": [
+      "Steep slopes",
+      "Blind curves",
+      "Tourist traffic"
+    ]
   }
+]

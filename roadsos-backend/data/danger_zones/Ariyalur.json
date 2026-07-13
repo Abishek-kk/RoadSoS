@@ -1,15 +1,542 @@
- {
+[
+  {
     "district": "Ariyalur",
     "road_name": "Ariyalur-Perambalur Road",
-    "highway": "SH-27",
-    "location": "Ariyalur Bypass",
+    "highway": "NH-38",
+    "location": "Ariyalur Bypass Junction",
     "latitude": 11.1402,
     "longitude": 79.0786,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy trucks",
+      "Poor lane discipline"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Jayankondam Road",
+    "highway": "SH-27",
+    "location": "Kallankurichi Junction",
+    "latitude": 11.1765,
+    "longitude": 79.1093,
     "risk_level": "Medium",
     "road_type": "State Highway",
     "major_cause": [
       "Sharp curves",
       "Night driving",
+      "Two-wheeler accidents"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Sendurai Road",
+    "highway": "SH-143",
+    "location": "Sendurai Bus Stand",
+    "latitude": 11.0864,
+    "longitude": 78.9854,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Pedestrian crossing",
+      "Bus traffic",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Andimadam Road",
+    "highway": "SH-140",
+    "location": "Andimadam Junction",
+    "latitude": 11.3437,
+    "longitude": 79.3618,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "High-speed vehicles",
+      "Improper overtaking",
       "Heavy trucks"
     ]
-}
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Jayankondam-Chidambaram Road",
+    "highway": "SH-140",
+    "location": "Jayankondam Town",
+    "latitude": 11.2145,
+    "longitude": 79.3637,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Dense traffic",
+      "Pedestrian movement",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Udayarpalayam Road",
+    "highway": "MDR",
+    "location": "Udayarpalayam",
+    "latitude": 11.3126,
+    "longitude": 79.3129,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Narrow road",
+      "Blind curves",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Tittakudi Road",
+    "highway": "SH-143",
+    "location": "Varadarajanpettai",
+    "latitude": 11.3965,
+    "longitude": 79.2481,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "NH-38",
+    "highway": "NH-38",
+    "location": "Dalmiapuram Cement Factory Entrance",
+    "latitude": 10.9872,
+    "longitude": 78.8738,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial trucks",
+      "Overspeeding",
+      "Frequent turning vehicles"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Keelapalur Road",
+    "highway": "MDR",
+    "location": "Keelapalur",
+    "latitude": 11.1142,
+    "longitude": 79.1673,
+    "risk_level": "Low",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Poor lighting",
+      "Livestock crossing",
+      "Narrow carriageway"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Jayankondam-Kumbakonam Road",
+    "highway": "SH-64",
+    "location": "Meensurutti",
+    "latitude": 11.2641,
+    "longitude": 79.2976,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "High traffic",
+      "Sharp intersections",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Vikramangalam Road",
+    "highway": "MDR",
+    "location": "Vikramangalam",
+    "latitude": 11.1583,
+    "longitude": 79.0226,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Poor road surface",
+      "Night driving",
+      "Two-wheelers"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Elakurichi Road",
+    "highway": "MDR",
+    "location": "Elakurichi",
+    "latitude": 11.0948,
+    "longitude": 79.1471,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Temple traffic",
+      "Pedestrian crossings",
+      "Narrow shoulders"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Jayankondam-Anaikaranchatram Road",
+    "highway": "SH-140",
+    "location": "Vilandhai",
+    "latitude": 11.2419,
+    "longitude": 79.3342,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Blind curves",
+      "Heavy trucks",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Melanikuzhi Road",
+    "highway": "MDR",
+    "location": "Melanikuzhi",
+    "latitude": 11.1287,
+    "longitude": 79.0521,
+    "risk_level": "Low",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Rural traffic",
+      "Poor visibility",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur Railway Over Bridge Road",
+    "highway": "Urban Road",
+    "location": "Railway Over Bridge",
+    "latitude": 11.1418,
+    "longitude": 79.0712,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Congestion",
+      "Sudden braking",
+      "Peak hour traffic"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Perambalur Road",
+    "highway": "NH-38",
+    "location": "Valajanagaram Junction",
+    "latitude": 11.1624,
+    "longitude": 79.0598,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy truck movement",
+      "Overspeeding",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Jayankondam Road",
+    "highway": "SH-27",
+    "location": "Sathamangalam",
+    "latitude": 11.2038,
+    "longitude": 79.1784,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Sharp bends",
+      "Two-wheeler traffic"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Jayankondam-Kumbakonam Road",
+    "highway": "SH-64",
+    "location": "Vettiarvettu",
+    "latitude": 11.2471,
+    "longitude": 79.3207,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Poor lighting",
+      "Bus traffic",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Udayarpalayam Road",
+    "highway": "MDR",
+    "location": "Kodukkur",
+    "latitude": 11.2875,
+    "longitude": 79.2559,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Narrow roadway",
+      "Livestock crossing",
+      "Blind turns"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Sendurai Road",
+    "highway": "SH-143",
+    "location": "Palayakudi",
+    "latitude": 11.0679,
+    "longitude": 79.0138,
+    "risk_level": "Low",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Low lighting",
+      "Rainy conditions",
+      "Rural traffic"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Andimadam Road",
+    "highway": "SH-140",
+    "location": "Silambur",
+    "latitude": 11.3128,
+    "longitude": 79.4026,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Improper overtaking",
+      "Heavy vehicles",
+      "High speed"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Jayankondam-Chidambaram Road",
+    "highway": "SH-140",
+    "location": "Pappakudi",
+    "latitude": 11.2289,
+    "longitude": 79.3898,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Pedestrian movement",
+      "Sharp intersection",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "NH-38",
+    "highway": "NH-38",
+    "location": "Keelarasur Junction",
+    "latitude": 11.1204,
+    "longitude": 79.0416,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Lane changes",
+      "Truck traffic"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Keelapalur Road",
+    "highway": "MDR",
+    "location": "Karaivetti",
+    "latitude": 11.1742,
+    "longitude": 79.1507,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Bird sanctuary visitors",
+      "Poor shoulders",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Vikramangalam Road",
+    "highway": "MDR",
+    "location": "Ayyampalayam",
+    "latitude": 11.1483,
+    "longitude": 79.0086,
+    "risk_level": "Low",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Narrow bridge",
+      "Village traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Elakurichi Road",
+    "highway": "MDR",
+    "location": "Elakurichi Church Junction",
+    "latitude": 11.1027,
+    "longitude": 79.1535,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Festival crowd",
+      "Pedestrian crossing",
+      "Parking congestion"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Jayankondam-Anaikaranchatram Road",
+    "highway": "SH-140",
+    "location": "Ponparappi",
+    "latitude": 11.2878,
+    "longitude": 79.3549,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp bends",
+      "Heavy buses",
+      "Overtaking"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Melanikuzhi Road",
+    "highway": "MDR",
+    "location": "Melarasur",
+    "latitude": 11.1328,
+    "longitude": 79.0847,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Rain damage",
+      "Poor lighting",
+      "Loose gravel"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur Railway Over Bridge Road",
+    "highway": "Urban Road",
+    "location": "Ariyalur Railway Station Entrance",
+    "latitude": 11.1443,
+    "longitude": 79.0675,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Congestion",
+      "Auto-rickshaw traffic",
+      "Pedestrian crossing"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Jayankondam-Andimadam Road",
+    "highway": "SH-140",
+    "location": "Devamangalam",
+    "latitude": 11.2754,
+    "longitude": 79.3376,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Blind curves",
+      "Speeding",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Perambalur Road",
+    "highway": "NH-38",
+    "location": "Ariyalur Bypass Junction",
+    "latitude": 11.1402,
+    "longitude": 79.0786,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy trucks",
+      "Poor lane discipline"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Jayankondam Road",
+    "highway": "SH-27",
+    "location": "Kallankurichi Junction",
+    "latitude": 11.1765,
+    "longitude": 79.1093,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp curves",
+      "Night driving",
+      "Two-wheeler accidents"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Sendurai Road",
+    "highway": "SH-143",
+    "location": "Sendurai Bus Stand",
+    "latitude": 11.0864,
+    "longitude": 78.9854,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Pedestrian crossing",
+      "Bus traffic",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Andimadam Road",
+    "highway": "SH-140",
+    "location": "Andimadam Junction",
+    "latitude": 11.3437,
+    "longitude": 79.3618,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "High-speed vehicles",
+      "Improper overtaking",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Jayankondam-Chidambaram Road",
+    "highway": "SH-140",
+    "location": "Jayankondam Town",
+    "latitude": 11.2145,
+    "longitude": 79.3637,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Dense traffic",
+      "Pedestrian movement",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Ariyalur",
+    "road_name": "Ariyalur-Udayarpalayam Road",
+    "highway": "MDR",
+    "location": "Udayarpalayam",
+    "latitude": 11.3126,
+    "longitude": 79.3129,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Narrow road",
+      "Blind curves",
+      "Poor lighting"
+    ]
+  }
+]

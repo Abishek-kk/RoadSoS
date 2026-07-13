@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Krishnagiri",
     "road_name": "Bengaluru Highway",
     "highway": "NH-44",
@@ -12,4 +13,605 @@
       "Heavy trucks",
       "High speed"
     ]
-}
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Bengaluru-Chennai Highway",
+    "highway": "NH-44",
+    "location": "Krishnagiri Toll Plaza",
+    "latitude": 12.5478,
+    "longitude": 78.2234,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy container trucks",
+      "Overspeeding",
+      "Sudden lane changes"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Bengaluru-Chennai Highway",
+    "highway": "NH-44",
+    "location": "Kattinayanapalli Junction",
+    "latitude": 12.5337,
+    "longitude": 78.1964,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy truck traffic",
+      "Improper overtaking",
+      "Service road merging"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Hosur Highway",
+    "highway": "NH-44",
+    "location": "Shoolagiri Toll Plaza",
+    "latitude": 12.6614,
+    "longitude": 78.0032,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Toll congestion",
+      "Heavy vehicles",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Hosur Highway",
+    "highway": "NH-44",
+    "location": "Shoolagiri Junction",
+    "latitude": 12.6635,
+    "longitude": 78.0154,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Signal congestion",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur-Bengaluru Highway",
+    "highway": "NH-44",
+    "location": "Hosur SIPCOT Phase I",
+    "latitude": 12.7398,
+    "longitude": 77.8254,
+    "risk_level": "Very High",
+    "road_type": "Industrial Highway",
+    "major_cause": [
+      "Container trucks",
+      "Employee traffic",
+      "Heavy congestion"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur-Bengaluru Highway",
+    "highway": "NH-44",
+    "location": "Hosur Bus Stand Junction",
+    "latitude": 12.7362,
+    "longitude": 77.8251,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Tiruvannamalai Road",
+    "highway": "NH-77",
+    "location": "Bargur Junction",
+    "latitude": 12.5519,
+    "longitude": 78.3774,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Improper overtaking",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Tiruvannamalai Road",
+    "highway": "NH-77",
+    "location": "Kaveripattinam Junction",
+    "latitude": 12.4228,
+    "longitude": 78.2204,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Commercial vehicles",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Dharmapuri Highway",
+    "highway": "NH-844",
+    "location": "Samalpatti Junction",
+    "latitude": 12.3985,
+    "longitude": 78.1238,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Rain",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Dharmapuri Highway",
+    "highway": "NH-844",
+    "location": "Kundur Junction",
+    "latitude": 12.4716,
+    "longitude": 78.1725,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Service road merging",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur-Denkanikottai Road",
+    "highway": "SH-17",
+    "location": "Denkanikottai Junction",
+    "latitude": 12.5308,
+    "longitude": 77.7893,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Hill traffic",
+      "Sharp curves",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Denkanikottai-Anchetty Road",
+    "highway": "SH",
+    "location": "Anchetty Forest Check Post",
+    "latitude": 12.3034,
+    "longitude": 77.7418,
+    "risk_level": "Very High",
+    "road_type": "Forest Road",
+    "major_cause": [
+      "Wildlife crossings",
+      "Hairpin bends",
+      "Dense fog"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur-Rayakottai Road",
+    "highway": "SH",
+    "location": "Rayakottai Junction",
+    "latitude": 12.5075,
+    "longitude": 78.2067,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Uthangarai Road",
+    "highway": "NH-77",
+    "location": "Uthangarai Bus Stand",
+    "latitude": 12.2664,
+    "longitude": 78.5662,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Bus movement"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Uthangarai Road",
+    "highway": "NH-77",
+    "location": "Mathur Junction",
+    "latitude": 12.3587,
+    "longitude": 78.4338,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Poor shoulders",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur City Road",
+    "highway": "Urban Road",
+    "location": "Bagalur Road Junction",
+    "latitude": 12.7428,
+    "longitude": 77.8473,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy city traffic",
+      "Commercial activity",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur City Road",
+    "highway": "Urban Road",
+    "location": "Mathigiri Junction",
+    "latitude": 12.7614,
+    "longitude": 77.8209,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Industrial traffic",
+      "Container trucks",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri City Road",
+    "highway": "Urban Road",
+    "location": "Old Bus Stand Junction",
+    "latitude": 12.5261,
+    "longitude": 78.2147,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri City Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 12.5187,
+    "longitude": 78.2184,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Auto-rickshaws"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Hosur Highway",
+    "highway": "NH-44",
+    "location": "Kelamangalam Junction",
+    "latitude": 12.6024,
+    "longitude": 77.8527,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Service road entry",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur-Bagalur Road",
+    "highway": "SH-60",
+    "location": "Bagalur Junction",
+    "latitude": 12.7564,
+    "longitude": 77.7942,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Heavy buses",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur-Bagalur Road",
+    "highway": "SH-60",
+    "location": "Avalapalli Junction",
+    "latitude": 12.7189,
+    "longitude": 77.8098,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Improper overtaking",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur-Kelamangalam Road",
+    "highway": "SH",
+    "location": "Kelamangalam Bus Stand",
+    "latitude": 12.6037,
+    "longitude": 77.8504,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Market traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Kelamangalam-Denkanikottai Road",
+    "highway": "SH",
+    "location": "Bettamugilalam Junction",
+    "latitude": 12.4798,
+    "longitude": 77.7085,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Sharp curves",
+      "Forest traffic",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Denkanikottai-Anchetty Road",
+    "highway": "Forest Road",
+    "location": "Urigam Forest Check Post",
+    "latitude": 12.3682,
+    "longitude": 77.6945,
+    "risk_level": "Very High",
+    "road_type": "Forest Road",
+    "major_cause": [
+      "Wildlife crossings",
+      "Dense fog",
+      "Hairpin bends"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Anchetty Road",
+    "highway": "Forest Road",
+    "location": "Melagiri Hills Section",
+    "latitude": 12.3415,
+    "longitude": 77.7218,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Steep descent",
+      "Blind curves",
+      "Heavy rainfall"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri Dam Road",
+    "highway": "MDR",
+    "location": "Krishnagiri Reservoir Entrance",
+    "latitude": 12.5336,
+    "longitude": 78.1981,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Improper parking",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri Dam Road",
+    "highway": "MDR",
+    "location": "KRP Dam View Point",
+    "latitude": 12.5447,
+    "longitude": 78.1864,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Sharp curves",
+      "Tourist buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Bargur Road",
+    "highway": "NH-77",
+    "location": "Maharajakadai Junction",
+    "latitude": 12.4743,
+    "longitude": 78.2864,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Bargur Road",
+    "highway": "NH-77",
+    "location": "Jagadevi Junction",
+    "latitude": 12.4912,
+    "longitude": 78.3297,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Poor lighting",
+      "Mixed traffic",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Uthangarai Road",
+    "highway": "NH-77",
+    "location": "Singarapettai Junction",
+    "latitude": 12.3145,
+    "longitude": 78.5088,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Improper overtaking",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Uthangarai Road",
+    "highway": "NH-77",
+    "location": "Hanumanthirtham Junction",
+    "latitude": 12.2878,
+    "longitude": 78.5473,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Sharp bends",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur Industrial Road",
+    "highway": "Industrial Corridor",
+    "location": "TVS Motor Junction",
+    "latitude": 12.7412,
+    "longitude": 77.8347,
+    "risk_level": "Very High",
+    "road_type": "Industrial Road",
+    "major_cause": [
+      "Container trucks",
+      "Employee buses",
+      "Frequent merging"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur Industrial Road",
+    "highway": "Industrial Corridor",
+    "location": "Ashok Leyland Junction",
+    "latitude": 12.7478,
+    "longitude": 77.8395,
+    "risk_level": "Very High",
+    "road_type": "Industrial Road",
+    "major_cause": [
+      "Heavy commercial vehicles",
+      "Peak-hour traffic",
+      "Lane indiscipline"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur Ring Road",
+    "highway": "Urban Road",
+    "location": "Titan Circle",
+    "latitude": 12.7265,
+    "longitude": 77.8424,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Signal congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Hosur Ring Road",
+    "highway": "Urban Road",
+    "location": "Zuzuvadi Junction",
+    "latitude": 12.7396,
+    "longitude": 77.8542,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy city traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri City Road",
+    "highway": "Urban Road",
+    "location": "New Bus Stand Junction",
+    "latitude": 12.5249,
+    "longitude": 78.2106,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial activity",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri City Road",
+    "highway": "Urban Road",
+    "location": "Government Hospital Junction",
+    "latitude": 12.5194,
+    "longitude": 78.2171,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Hosur Highway",
+    "highway": "NH-44",
+    "location": "Samandahalli Junction",
+    "latitude": 12.6185,
+    "longitude": 77.9248,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed vehicles",
+      "Heavy trucks",
+      "Improper lane changes"
+    ]
+  },
+  {
+    "district": "Krishnagiri",
+    "road_name": "Krishnagiri-Hosur Highway",
+    "highway": "NH-44",
+    "location": "Agaram Toll Exit",
+    "latitude": 12.5868,
+    "longitude": 78.0814,
+    "risk_level": "High",
+    "road_type": "Service Road",
+    "major_cause": [
+      "Toll merging",
+      "Sudden braking",
+      "Heavy commercial traffic"
+    ]
+  }
+]  

@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Dindigul",
     "road_name": "Dindigul-Madurai Road",
     "highway": "NH-44",
@@ -11,4 +12,605 @@
       "Curve",
       "Night accidents"
     ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Madurai Road",
+    "highway": "NH-44",
+    "location": "Vedasandur Junction",
+    "latitude": 10.5315,
+    "longitude": 77.9500,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy trucks",
+      "Poor lane discipline"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Madurai Road",
+    "highway": "NH-44",
+    "location": "Dindigul Bypass",
+    "latitude": 10.3474,
+    "longitude": 77.9803,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy traffic",
+      "Frequent lane changes",
+      "Truck movement"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Karur Road",
+    "highway": "NH-83",
+    "location": "Gujiliamparai Junction",
+    "latitude": 10.6185,
+    "longitude": 77.9142,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Improper overtaking",
+      "Bus traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Palani Road",
+    "highway": "NH-83",
+    "location": "Oddanchatram Junction",
+    "latitude": 10.4893,
+    "longitude": 77.7416,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Market traffic",
+      "Heavy buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Palani Road",
+    "highway": "NH-83",
+    "location": "Palani Bus Stand Junction",
+    "latitude": 10.4506,
+    "longitude": 77.5207,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Congestion",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Batlagundu-Kodaikanal Road",
+    "highway": "SH-156",
+    "location": "Batlagundu Junction",
+    "latitude": 10.1659,
+    "longitude": 77.7586,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Hill traffic",
+      "Heavy buses",
+      "Sharp turns"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Batlagundu-Kodaikanal Road",
+    "highway": "SH-156",
+    "location": "Kodaikanal Ghat Section",
+    "latitude": 10.2385,
+    "longitude": 77.4891,
+    "risk_level": "Very High",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Hairpin bends",
+      "Fog",
+      "Landslides"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Batlagundu-Kodaikanal Road",
+    "highway": "SH-156",
+    "location": "Silver Cascade Bend",
+    "latitude": 10.2328,
+    "longitude": 77.4898,
+    "risk_level": "Very High",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Tourist vehicles",
+      "Sharp curve",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Kodaikanal Road",
+    "highway": "SH",
+    "location": "Kodaikanal Bus Stand",
+    "latitude": 10.2381,
+    "longitude": 77.4892,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Tourist congestion",
+      "Parking issues",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Natham Road",
+    "highway": "SH-35",
+    "location": "Natham Junction",
+    "latitude": 10.2268,
+    "longitude": 78.2294,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Improper overtaking",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Natham Road",
+    "highway": "SH-35",
+    "location": "Chettinaickenpatti",
+    "latitude": 10.3145,
+    "longitude": 78.1036,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Poor lighting",
+      "Mixed traffic",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Sirumalai Road",
+    "highway": "SH",
+    "location": "Sirumalai Foothills",
+    "latitude": 10.2627,
+    "longitude": 78.0705,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Sharp bends",
+      "Fog",
+      "Narrow roadway"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Sirumalai Road",
+    "highway": "SH",
+    "location": "Sirumalai View Point",
+    "latitude": 10.2013,
+    "longitude": 78.0512,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Tourist vehicles",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Palani-Kodaikanal Road",
+    "highway": "SH",
+    "location": "Perumalmalai Junction",
+    "latitude": 10.2895,
+    "longitude": 77.4861,
+    "risk_level": "High",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Steep climb",
+      "Heavy tourist traffic",
+      "Blind curves"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul City Ring Road",
+    "highway": "Urban Road",
+    "location": "Round Road Junction",
+    "latitude": 10.3678,
+    "longitude": 77.9805,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Signal congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul Railway Station Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Entrance",
+    "latitude": 10.3627,
+    "longitude": 77.9694,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Auto-rickshaw traffic",
+      "Parking congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Oddanchatram-Palani Road",
+    "highway": "SH",
+    "location": "Keeranur Junction",
+    "latitude": 10.4683,
+    "longitude": 77.6538,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy vegetable trucks",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Palani-Dharapuram Road",
+    "highway": "SH",
+    "location": "Ayakudi Junction",
+    "latitude": 10.4489,
+    "longitude": 77.5548,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Fruit market traffic",
+      "Bus movement",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Vadamadurai Road",
+    "highway": "SH",
+    "location": "Vadamadurai Junction",
+    "latitude": 10.4417,
+    "longitude": 78.0995,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Batlagundu-Periyakulam Road",
+    "highway": "SH",
+    "location": "Nilakottai Junction",
+    "latitude": 10.1683,
+    "longitude": 77.8514,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy traffic",
+      "Improper overtaking",
+      "Market congestion"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Madurai Road",
+    "highway": "NH-44",
+    "location": "Sembatti Junction",
+    "latitude": 10.2938,
+    "longitude": 78.0241,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Overspeeding",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Madurai Road",
+    "highway": "NH-44",
+    "location": "Begampur Flyover",
+    "latitude": 10.3618,
+    "longitude": 77.9852,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Traffic congestion",
+      "Lane changes",
+      "Peak-hour traffic"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Karur Road",
+    "highway": "NH-83",
+    "location": "Eriodu Junction",
+    "latitude": 10.5579,
+    "longitude": 77.8663,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Bus traffic",
+      "Poor lighting",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Karur Road",
+    "highway": "NH-83",
+    "location": "Vedasandur Bus Stand",
+    "latitude": 10.5344,
+    "longitude": 77.9485,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Pedestrian crossings",
+      "Commercial traffic",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Oddanchatram-Dharapuram Road",
+    "highway": "SH-37",
+    "location": "Ambilikai Junction",
+    "latitude": 10.3961,
+    "longitude": 77.6818,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Sharp turns",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Oddanchatram-Dharapuram Road",
+    "highway": "SH-37",
+    "location": "Reddiarchatram",
+    "latitude": 10.5102,
+    "longitude": 77.7816,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Rain",
+      "Narrow road"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Palani-Kodaikanal Road",
+    "highway": "SH",
+    "location": "Pannaikadu",
+    "latitude": 10.2986,
+    "longitude": 77.5714,
+    "risk_level": "High",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Hairpin bends",
+      "Tourist buses",
+      "Fog"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Kodaikanal Ghat Road",
+    "highway": "SH-156",
+    "location": "Moor Point",
+    "latitude": 10.2483,
+    "longitude": 77.5052,
+    "risk_level": "Very High",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Sharp curves",
+      "Landslides",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Kodaikanal Ghat Road",
+    "highway": "SH-156",
+    "location": "Dolphin's Nose Junction",
+    "latitude": 10.2578,
+    "longitude": 77.4978,
+    "risk_level": "High",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Tourist vehicles",
+      "Hairpin bends",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Palani-Dindigul Road",
+    "highway": "NH-83",
+    "location": "Neikkarapatti",
+    "latitude": 10.4635,
+    "longitude": 77.6034,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Night driving",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Nilakottai-Dindigul Road",
+    "highway": "SH",
+    "location": "Silukkuvarpatti",
+    "latitude": 10.2518,
+    "longitude": 77.8974,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Village crossings",
+      "Bus movement"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Nilakottai-Batlagundu Road",
+    "highway": "SH",
+    "location": "Ayyampalayam",
+    "latitude": 10.1872,
+    "longitude": 77.8168,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp curves",
+      "Poor visibility",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Sirumalai Road",
+    "highway": "SH",
+    "location": "Pudur Junction",
+    "latitude": 10.3145,
+    "longitude": 78.0283,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Improper overtaking",
+      "Narrow road"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Sirumalai Road",
+    "highway": "SH",
+    "location": "Agaram",
+    "latitude": 10.2769,
+    "longitude": 78.0412,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Poor lighting",
+      "Village crossings",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul City Ring Road",
+    "highway": "Urban Road",
+    "location": "RM Colony Junction",
+    "latitude": 10.3657,
+    "longitude": 77.9738,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Signal congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul City Ring Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 10.3718,
+    "longitude": 77.9859,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Heavy buses",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Batlagundu-Kodaikanal Road",
+    "highway": "SH-156",
+    "location": "Perumalmalai Check Post",
+    "latitude": 10.2745,
+    "longitude": 77.5331,
+    "risk_level": "Very High",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Hairpin bends",
+      "Dense fog",
+      "Steep descent"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Palani Main Road",
+    "highway": "Urban Road",
+    "location": "Aavin Junction",
+    "latitude": 10.4553,
+    "longitude": 77.5128,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Improper parking",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Batlagundu-Periyakulam Road",
+    "highway": "SH",
+    "location": "Kombaipatti Junction",
+    "latitude": 10.1429,
+    "longitude": 77.7895,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Sharp turns",
+      "Poor road condition"
+    ]
+  },
+  {
+    "district": "Dindigul",
+    "road_name": "Dindigul-Palani Road",
+    "highway": "NH-83",
+    "location": "Balasamudram Junction",
+    "latitude": 10.4238,
+    "longitude": 77.6047,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy truck movement",
+      "Overspeeding",
+      "Frequent overtaking"
+    ]
   }
+]

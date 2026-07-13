@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Ranipet",
     "road_name": "Chennai-Bengaluru Highway",
     "highway": "NH-48",
@@ -11,4 +12,605 @@
       "High-speed corridor",
       "Heavy vehicles"
     ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Walajah Toll Plaza",
+    "latitude": 12.9228,
+    "longitude": 79.3724,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy container trucks",
+      "Overspeeding",
+      "Lane merging"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Ranipet SIPCOT Junction",
+    "latitude": 12.9468,
+    "longitude": 79.3198,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Heavy trucks",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Muthukadai Junction",
+    "latitude": 12.9306,
+    "longitude": 79.3352,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Arcot Bypass",
+    "latitude": 12.9037,
+    "longitude": 79.3186,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Lane changing",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Sholinghur Road",
+    "highway": "SH-58",
+    "location": "Sholinghur Bus Stand",
+    "latitude": 13.1185,
+    "longitude": 79.4218,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Commercial activity"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Sholinghur Road",
+    "highway": "SH-58",
+    "location": "Banavaram Junction",
+    "latitude": 13.0738,
+    "longitude": 79.4795,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Arcot-Arakkonam Road",
+    "highway": "SH-61",
+    "location": "Arakkonam Junction",
+    "latitude": 13.0844,
+    "longitude": 79.6702,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Railway traffic",
+      "Heavy buses",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Arcot-Arakkonam Road",
+    "highway": "SH-61",
+    "location": "Kaveripakkam Junction",
+    "latitude": 12.9046,
+    "longitude": 79.4578,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Village crossings",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Walajah Road",
+    "highway": "SH",
+    "location": "Walajah Bus Stand",
+    "latitude": 12.9241,
+    "longitude": 79.3668,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Walajah Road",
+    "highway": "SH",
+    "location": "Walajah Railway Gate",
+    "latitude": 12.9268,
+    "longitude": 79.3715,
+    "risk_level": "High",
+    "road_type": "Railway Crossing",
+    "major_cause": [
+      "Railway gate delays",
+      "Vehicle queue",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet City Road",
+    "highway": "Urban Road",
+    "location": "New Bus Stand Junction",
+    "latitude": 12.9448,
+    "longitude": 79.3334,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet City Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 12.9471,
+    "longitude": 79.3298,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet City Road",
+    "highway": "Urban Road",
+    "location": "Government Hospital Junction",
+    "latitude": 12.9436,
+    "longitude": 79.3365,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Arcot Road",
+    "highway": "SH",
+    "location": "Arcot Bus Stand",
+    "latitude": 12.9052,
+    "longitude": 79.3198,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Heavy buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Arcot Road",
+    "highway": "SH",
+    "location": "Arcot Bridge",
+    "latitude": 12.9058,
+    "longitude": 79.3236,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Bridge bottleneck",
+      "Heavy vehicles",
+      "Poor lane discipline"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Lalapet Road",
+    "highway": "MDR",
+    "location": "Lalapet Junction",
+    "latitude": 12.9895,
+    "longitude": 79.2876,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Village crossings",
+      "Agricultural vehicles",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Nemili Road",
+    "highway": "SH",
+    "location": "Nemili Junction",
+    "latitude": 12.9824,
+    "longitude": 79.6038,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Panapakkam Road",
+    "highway": "SH",
+    "location": "Panapakkam Junction",
+    "latitude": 12.9264,
+    "longitude": 79.5516,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Walajah-Sholinghur Road",
+    "highway": "SH",
+    "location": "Thiruparkadal Junction",
+    "latitude": 12.9867,
+    "longitude": 79.3974,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Mixed traffic",
+      "Sharp curves"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-SIPCOT Internal Road",
+    "highway": "Industrial Road",
+    "location": "SIPCOT Phase II Entrance",
+    "latitude": 12.9584,
+    "longitude": 79.3016,
+    "risk_level": "High",
+    "road_type": "Industrial Road",
+    "major_cause": [
+      "Container trucks",
+      "Industrial traffic",
+      "Shift-hour congestion"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Melvisharam Junction",
+    "latitude": 12.9527,
+    "longitude": 79.2558,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy container trucks",
+      "Commercial traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Thengal Junction",
+    "latitude": 12.9716,
+    "longitude": 79.3485,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Service road merging",
+      "Heavy buses",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Walajah-Sholinghur Road",
+    "highway": "SH-58",
+    "location": "Kondakuppam Junction",
+    "latitude": 13.0178,
+    "longitude": 79.4017,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Walajah-Sholinghur Road",
+    "highway": "SH-58",
+    "location": "Kaveripakkam Bus Stand",
+    "latitude": 12.9044,
+    "longitude": 79.4585,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Commercial activity"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Arcot-Arakkonam Road",
+    "highway": "SH-61",
+    "location": "Minnal Junction",
+    "latitude": 12.9953,
+    "longitude": 79.5587,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Arcot-Arakkonam Road",
+    "highway": "SH-61",
+    "location": "Mosur Junction",
+    "latitude": 13.0418,
+    "longitude": 79.6176,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Mixed traffic",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Nemili Road",
+    "highway": "SH",
+    "location": "Kilveedhi Junction",
+    "latitude": 12.9958,
+    "longitude": 79.5664,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Poor shoulders",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Nemili Road",
+    "highway": "SH",
+    "location": "Seyyur Junction",
+    "latitude": 13.0265,
+    "longitude": 79.5947,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "School zone",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Panapakkam Road",
+    "highway": "SH",
+    "location": "Sirukarumbur Junction",
+    "latitude": 12.9475,
+    "longitude": 79.5206,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Agricultural vehicles",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet-Panapakkam Road",
+    "highway": "SH",
+    "location": "Ariyur Junction",
+    "latitude": 12.9368,
+    "longitude": 79.4953,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Heavy buses",
+      "Sharp turns"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet City Road",
+    "highway": "Urban Road",
+    "location": "MRF Signal Junction",
+    "latitude": 12.9449,
+    "longitude": 79.3268,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Industrial traffic",
+      "Signal congestion",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet City Road",
+    "highway": "Urban Road",
+    "location": "BHEL Colony Junction",
+    "latitude": 12.9516,
+    "longitude": 79.3147,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Residential traffic",
+      "School buses",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet City Road",
+    "highway": "Urban Road",
+    "location": "Ranipet Railway Station Junction",
+    "latitude": 12.9484,
+    "longitude": 79.3326,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Railway traffic",
+      "Auto-rickshaws",
+      "Parking congestion"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Arcot City Road",
+    "highway": "Urban Road",
+    "location": "Delhi Gate Junction",
+    "latitude": 12.9078,
+    "longitude": 79.3216,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Market traffic",
+      "Pedestrian crossings",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Arcot City Road",
+    "highway": "Urban Road",
+    "location": "Town Hall Junction",
+    "latitude": 12.9096,
+    "longitude": 79.3185,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial activity",
+      "Improper parking",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Walajah Road",
+    "highway": "SH",
+    "location": "Walajah Government Hospital Junction",
+    "latitude": 12.9253,
+    "longitude": 79.3692,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Walajah Road",
+    "highway": "SH",
+    "location": "Palar River Bridge",
+    "latitude": 12.9187,
+    "longitude": 79.3568,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Bridge bottleneck",
+      "Heavy trucks",
+      "Poor lane discipline"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Sholinghur Road",
+    "highway": "SH-58",
+    "location": "Sholinghur Temple Foothills",
+    "latitude": 13.1175,
+    "longitude": 79.4184,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Roadside parking",
+      "Sharp bends"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Sholinghur Road",
+    "highway": "SH-58",
+    "location": "Kondasamudram Junction",
+    "latitude": 13.0896,
+    "longitude": 79.4388,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Ranipet",
+    "road_name": "Ranipet SIPCOT Internal Road",
+    "highway": "Industrial Road",
+    "location": "SIPCOT Phase III Gate",
+    "latitude": 12.9638,
+    "longitude": 79.2962,
+    "risk_level": "High",
+    "road_type": "Industrial Road",
+    "major_cause": [
+      "Container trailers",
+      "Factory shift traffic",
+      "Heavy commercial vehicles"
+    ]
   }
+]

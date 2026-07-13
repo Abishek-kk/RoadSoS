@@ -1,15 +1,557 @@
-{
+[
+  {
     "district": "Chengalpattu",
-    "road_name": "GST Road",
+    "road_name": "Grand Southern Trunk Road",
     "highway": "NH-32",
     "location": "Paranur Toll Plaza",
     "latitude": 12.7160,
     "longitude": 79.9858,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy truck traffic",
+      "Sudden lane changes"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Grand Southern Trunk Road",
+    "highway": "NH-32",
+    "location": "Maraimalai Nagar Junction",
+    "latitude": 12.7814,
+    "longitude": 80.0264,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Peak hour congestion",
+      "Frequent U-turns"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Grand Southern Trunk Road",
+    "highway": "NH-32",
+    "location": "Singaperumal Koil Junction",
+    "latitude": 12.7604,
+    "longitude": 80.0046,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Pedestrian crossings",
+      "High-speed vehicles",
+      "Improper merging"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Grand Southern Trunk Road",
+    "highway": "NH-32",
+    "location": "Mahindra World City Entrance",
+    "latitude": 12.7308,
+    "longitude": 79.9992,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Corporate traffic",
+      "Heavy buses",
+      "Lane switching"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "East Coast Road",
+    "highway": "SH-49",
+    "location": "Kovalam Junction",
+    "latitude": 12.7873,
+    "longitude": 80.2537,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Overspeeding",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "East Coast Road",
+    "highway": "SH-49",
+    "location": "Mahabalipuram Entrance",
+    "latitude": 12.6208,
+    "longitude": 80.1945,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist movement",
+      "Pedestrian crossings",
+      "Sharp turns"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "East Coast Road",
+    "highway": "SH-49",
+    "location": "Kalpakkam Township",
+    "latitude": 12.5546,
+    "longitude": 80.1675,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Industrial vehicles",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Rajiv Gandhi Salai",
+    "highway": "OMR",
+    "location": "Kelambakkam Junction",
+    "latitude": 12.7870,
+    "longitude": 80.2202,
+    "risk_level": "Very High",
+    "road_type": "IT Expressway",
+    "major_cause": [
+      "Heavy IT traffic",
+      "Signal violations",
+      "High vehicle density"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Rajiv Gandhi Salai",
+    "highway": "OMR",
+    "location": "Thiruporur Junction",
+    "latitude": 12.7289,
+    "longitude": 80.1884,
+    "risk_level": "High",
+    "road_type": "IT Expressway",
+    "major_cause": [
+      "Intersection conflicts",
+      "Overspeeding",
+      "Bus traffic"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Vandalur-Kelambakkam Road",
+    "highway": "SH",
+    "location": "Kandigai Junction",
+    "latitude": 12.8755,
+    "longitude": 80.1531,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Poor lane discipline",
+      "School buses"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu-Kanchipuram Road",
+    "highway": "SH-58",
+    "location": "Palur Junction",
+    "latitude": 12.6672,
+    "longitude": 79.9498,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp curve",
+      "Poor lighting",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu-Thiruporur Road",
+    "highway": "SH-58A",
+    "location": "Thirukazhukundram Junction",
+    "latitude": 12.6038,
+    "longitude": 80.0392,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Pedestrian movement",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Padalam-Cheyyur Road",
+    "highway": "MDR",
+    "location": "Padalam Junction",
+    "latitude": 12.5348,
+    "longitude": 79.9362,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Village crossings",
+      "Heavy trucks",
+      "Rain damage"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Madurantakam-Melmaruvathur Road",
+    "highway": "NH-32",
+    "location": "Melmaruvathur Temple Entrance",
+    "latitude": 12.4295,
+    "longitude": 79.8318,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Bus congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu-Mamallapuram Road",
+    "highway": "SH-58",
+    "location": "Thirukazhukundram Bypass",
+    "latitude": 12.6198,
+    "longitude": 80.0246,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp intersection",
+      "Overspeeding",
+      "Heavy tourist vehicles"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu-Kanchipuram Road",
+    "highway": "SH-58",
+    "location": "Kanchipuram Bypass",
+    "latitude": 12.8345,
+    "longitude": 79.7032,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Frequent U-turns",
+      "Heavy truck traffic",
+      "Poor signage"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu-Thiruporur Road",
+    "highway": "SH-58A",
+    "location": "Thiruporur Bypass",
+    "latitude": 12.7289,
+    "longitude": 80.1884,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Intersection conflicts",
+      "Overspeeding",
+      "Bus traffic"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Padalam-Cheyyur Road",
+    "highway": "MDR",
+    "location": "Cheyyur Junction",
+    "latitude": 12.5348,
+    "longitude": 79.9362,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [  
+      "Village crossings",
+      "Heavy trucks",
+      "Rain damage"
+    ] 
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Madurantakam-Melmaruvathur Road",
+    "highway": "NH-32",
+    "location": "Melmaruvathur Temple Entrance",
+    "latitude": 12.4295,
+    "longitude": 79.8318,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Bus congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu-Mamallapuram Road",
+    "highway": "SH-58",
+    "location": "Thirukazhukundram Bypass",
+    "latitude": 12.6198,
+    "longitude": 80.0246,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp intersection",
+      "Overspeeding",
+      "Heavy tourist vehicles"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu-Kanchipuram Road",
+    "highway": "SH-58",
+    "location": "Kanchipuram Bypass",
+    "latitude": 12.8345,
+    "longitude": 79.7032,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Frequent U-turns",
+      "Heavy truck traffic",
+      "Poor signage"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu-Thiruporur Road",
+    "highway": "SH-58A",
+    "location": "Thiruporur Bypass",
+    "latitude": 12.7289,
+    "longitude": 80.1884,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Intersection conflicts",
+      "Overspeeding",
+      "Bus traffic"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Grand Southern Trunk Road",
+    "highway": "NH-32",
+    "location": "Guduvancheri Junction",
+    "latitude": 12.8452,
+    "longitude": 80.0604,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy commuter traffic",
+      "Frequent lane changes",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Grand Southern Trunk Road",
+    "highway": "NH-32",
+    "location": "Urapakkam Flyover",
+    "latitude": 12.8997,
+    "longitude": 80.0698,
     "risk_level": "High",
     "road_type": "National Highway",
     "major_cause": [
       "Overspeeding",
-      "Lane changing",
-      "Heavy vehicles"
+      "Peak-hour congestion",
+      "Improper merging"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Grand Southern Trunk Road",
+    "highway": "NH-32",
+    "location": "Potheri Railway Gate",
+    "latitude": 12.8243,
+    "longitude": 80.0457,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Pedestrian crossings",
+      "Railway traffic",
+      "Traffic congestion"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Rajiv Gandhi Salai",
+    "highway": "OMR",
+    "location": "Siruseri SIPCOT Junction",
+    "latitude": 12.8235,
+    "longitude": 80.2289,
+    "risk_level": "Very High",
+    "road_type": "IT Expressway",
+    "major_cause": [
+      "High-speed traffic",
+      "Office rush",
+      "Signal jumping"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Rajiv Gandhi Salai",
+    "highway": "OMR",
+    "location": "Thaiyur Junction",
+    "latitude": 12.7615,
+    "longitude": 80.2143,
+    "risk_level": "High",
+    "road_type": "IT Expressway",
+    "major_cause": [
+      "Improper U-turns",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "East Coast Road",
+    "highway": "SH-49",
+    "location": "Muttukadu Boat House",
+    "latitude": 12.8406,
+    "longitude": 80.2445,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Overspeeding",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "East Coast Road",
+    "highway": "SH-49",
+    "location": "Crocodile Bank Junction",
+    "latitude": 12.5302,
+    "longitude": 80.1841,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist crossings",
+      "Sudden braking",
+      "Heavy traffic"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Kelambakkam-Vandalur Road",
+    "highway": "SH",
+    "location": "Mambakkam Junction",
+    "latitude": 12.8458,
+    "longitude": 80.1819,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Construction activity",
+      "Heavy vehicles",
+      "Poor road surface"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Kelambakkam-Vandalur Road",
+    "highway": "SH",
+    "location": "Ponmar Junction",
+    "latitude": 12.8632,
+    "longitude": 80.1714,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Narrow carriageway",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu-Thiruporur Road",
+    "highway": "SH-58",
+    "location": "Poonjeri Junction",
+    "latitude": 12.6481,
+    "longitude": 80.1368,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Blind curves",
+      "Bus traffic",
+      "Rainy conditions"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu-Kanchipuram Road",
+    "highway": "SH-58",
+    "location": "Kunnavakkam",
+    "latitude": 12.6952,
+    "longitude": 79.9324,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Poor lighting",
+      "Village crossings",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Madurantakam-Cheyyur Road",
+    "highway": "SH",
+    "location": "Zamin Endathur",
+    "latitude": 12.4837,
+    "longitude": 80.0061,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Narrow bridge",
+      "Poor road condition",
+      "Two-wheeler accidents"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Cheyyur-ECR Road",
+    "highway": "SH",
+    "location": "Cheyyur Junction",
+    "latitude": 12.3514,
+    "longitude": 80.0038,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy bus traffic",
+      "Overspeeding",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Madurantakam-Venpakkam Road",
+    "highway": "MDR",
+    "location": "Karunguzhi",
+    "latitude": 12.5192,
+    "longitude": 79.8846,
+    "risk_level": "Low",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Poor lighting",
+      "Livestock crossings",
+      "Fog during winter"
+    ]
+  },
+  {
+    "district": "Chengalpattu",
+    "road_name": "Chengalpattu Inner Ring Road",
+    "highway": "Urban Road",
+    "location": "Government Hospital Junction",
+    "latitude": 12.6927,
+    "longitude": 79.9755,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Frequent pedestrian crossings",
+      "Traffic congestion"
     ]
   }
+]

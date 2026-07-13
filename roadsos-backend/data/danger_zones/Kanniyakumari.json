@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Kanniyakumari",
     "road_name": "Kanyakumari Bypass",
     "highway": "NH-44",
@@ -11,4 +12,605 @@
       "Tourist traffic",
       "Heavy buses"
     ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kanyakumari-Nagercoil Road",
+    "highway": "NH-44",
+    "location": "Kanyakumari Junction",
+    "latitude": 8.0883,
+    "longitude": 77.5385,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Pedestrian crossings",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kanyakumari-Nagercoil Road",
+    "highway": "NH-44",
+    "location": "Suchindram Junction",
+    "latitude": 8.1547,
+    "longitude": 77.4679,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Heavy buses",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kanyakumari-Nagercoil Road",
+    "highway": "NH-44",
+    "location": "Kottar Junction",
+    "latitude": 8.1812,
+    "longitude": 77.4348,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Heavy buses",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Tirunelveli Road",
+    "highway": "NH-44",
+    "location": "Valliyoor Road Junction",
+    "latitude": 8.2338,
+    "longitude": 77.4561,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed vehicles",
+      "Truck traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Colachel Road",
+    "highway": "SH-180",
+    "location": "Eathamozhi Junction",
+    "latitude": 8.2496,
+    "longitude": 77.3281,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Heavy buses",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Colachel Road",
+    "highway": "SH-180",
+    "location": "Colachel Bus Stand",
+    "latitude": 8.1798,
+    "longitude": 77.2578,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Kulasekaram Road",
+    "highway": "SH-90",
+    "location": "Thuckalay Junction",
+    "latitude": 8.2483,
+    "longitude": 77.3035,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Market traffic",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Kulasekaram Road",
+    "highway": "SH-90",
+    "location": "Kulasekaram Town",
+    "latitude": 8.3686,
+    "longitude": 77.2982,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial activity",
+      "Pedestrian crossings",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kulasekaram-Pechiparai Road",
+    "highway": "Hill Road",
+    "location": "Pechiparai Dam Junction",
+    "latitude": 8.4324,
+    "longitude": 77.3017,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Sharp curves",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kulasekaram-Pechiparai Road",
+    "highway": "Hill Road",
+    "location": "Perunchani Dam Road",
+    "latitude": 8.4095,
+    "longitude": 77.2684,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Poor visibility",
+      "Tourist traffic"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Marthandam-Kulasekaram Road",
+    "highway": "SH",
+    "location": "Marthandam Flyover",
+    "latitude": 8.3138,
+    "longitude": 77.2249,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Heavy buses",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Marthandam-Kulasekaram Road",
+    "highway": "SH",
+    "location": "Kuzhithurai Junction",
+    "latitude": 8.3198,
+    "longitude": 77.1836,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Signal congestion",
+      "Pedestrian crossings",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Tirparappu Road",
+    "highway": "SH",
+    "location": "Tirparappu Falls Entrance",
+    "latitude": 8.3934,
+    "longitude": 77.3137,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Weekend tourist traffic",
+      "Improper parking",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Tirparappu Road",
+    "highway": "SH",
+    "location": "Boothapandi Junction",
+    "latitude": 8.2645,
+    "longitude": 77.4682,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil Ring Road",
+    "highway": "Urban Road",
+    "location": "Vadasery Bus Stand",
+    "latitude": 8.1765,
+    "longitude": 77.4297,
+    "risk_level": "Very High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil Ring Road",
+    "highway": "Urban Road",
+    "location": "Anna Bus Stand Junction",
+    "latitude": 8.1796,
+    "longitude": 77.4328,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy city traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil Railway Station Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Entrance",
+    "latitude": 8.1697,
+    "longitude": 77.4279,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Parking congestion",
+      "Pedestrian movement",
+      "Auto-rickshaws"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kanyakumari Beach Road",
+    "highway": "Tourist Road",
+    "location": "Vivekananda Rock Ferry Terminal",
+    "latitude": 8.0786,
+    "longitude": 77.5548,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Heavy tourist movement",
+      "Improper parking",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Colachel-Muttom Road",
+    "highway": "Coastal Road",
+    "location": "Muttom Lighthouse Junction",
+    "latitude": 8.1263,
+    "longitude": 77.3057,
+    "risk_level": "Medium",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Sharp coastal curves",
+      "Tourist traffic",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Thuckalay-Padmanabhapuram Road",
+    "highway": "SH",
+    "location": "Padmanabhapuram Palace Junction",
+    "latitude": 8.2448,
+    "longitude": 77.3252,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Pedestrian crossings",
+      "Commercial activity"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Tirunelveli Road",
+    "highway": "NH-44",
+    "location": "Kavalkinaru Junction",
+    "latitude": 8.2771,
+    "longitude": 77.5714,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Cross traffic",
+      "Heavy trucks",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Kanyakumari Road",
+    "highway": "NH-44",
+    "location": "Konam Junction",
+    "latitude": 8.1982,
+    "longitude": 77.4183,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Hospital traffic",
+      "Signal congestion",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Kanyakumari Road",
+    "highway": "NH-44",
+    "location": "Parvathipuram Junction",
+    "latitude": 8.1914,
+    "longitude": 77.4218,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Marthandam-Kaliyakkavilai Road",
+    "highway": "NH-66",
+    "location": "Kaliyakkavilai Check Post",
+    "latitude": 8.3316,
+    "longitude": 77.1612,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Interstate traffic",
+      "Container trucks",
+      "Heavy congestion"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Marthandam-Kaliyakkavilai Road",
+    "highway": "NH-66",
+    "location": "Karungal Junction",
+    "latitude": 8.2334,
+    "longitude": 77.2661,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Market traffic",
+      "Heavy buses",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Colachel-Karungal Road",
+    "highway": "SH",
+    "location": "Kurumpanai Junction",
+    "latitude": 8.1688,
+    "longitude": 77.2195,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Fishing vehicles",
+      "Narrow road",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Colachel-Karungal Road",
+    "highway": "SH",
+    "location": "Simon Colony Junction",
+    "latitude": 8.1869,
+    "longitude": 77.2438,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Local traffic",
+      "Pedestrian crossings",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil-Kulasekaram Road",
+    "highway": "SH-90",
+    "location": "Arumanai Junction",
+    "latitude": 8.3457,
+    "longitude": 77.2556,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Hill traffic",
+      "Heavy buses",
+      "Sharp bends"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kulasekaram-Arumanai Road",
+    "highway": "Hill Road",
+    "location": "Keeriparai Forest Check Post",
+    "latitude": 8.4578,
+    "longitude": 77.3326,
+    "risk_level": "Very High",
+    "road_type": "Forest Road",
+    "major_cause": [
+      "Wildlife crossings",
+      "Dense fog",
+      "Hairpin bends"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Keeriparai Road",
+    "highway": "Forest Road",
+    "location": "Keeriparai Dam Junction",
+    "latitude": 8.4685,
+    "longitude": 77.3479,
+    "risk_level": "High",
+    "road_type": "Forest Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Steep curves",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kulasekaram-Tirparappu Road",
+    "highway": "SH",
+    "location": "Ponmanai Junction",
+    "latitude": 8.3391,
+    "longitude": 77.2837,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Bus movement",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Marthandam-Thengapattinam Road",
+    "highway": "Coastal Road",
+    "location": "Thengapattinam Bridge",
+    "latitude": 8.2468,
+    "longitude": 77.1784,
+    "risk_level": "High",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Bridge approach",
+      "Fishing vehicles",
+      "Strong winds"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Marthandam-Thengapattinam Road",
+    "highway": "Coastal Road",
+    "location": "Poothurai Junction",
+    "latitude": 8.2853,
+    "longitude": 77.1935,
+    "risk_level": "Medium",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Mixed traffic",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kanyakumari Coastal Road",
+    "highway": "Coastal Road",
+    "location": "Sanguthurai Beach Junction",
+    "latitude": 8.1305,
+    "longitude": 77.4518,
+    "risk_level": "Medium",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Pedestrian crossings",
+      "Weekend traffic"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kanyakumari Coastal Road",
+    "highway": "Coastal Road",
+    "location": "Manakudy Bridge",
+    "latitude": 8.1108,
+    "longitude": 77.4759,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Bridge narrowing",
+      "Crosswinds",
+      "Heavy tourist traffic"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil City Road",
+    "highway": "Urban Road",
+    "location": "Collectorate Junction",
+    "latitude": 8.1868,
+    "longitude": 77.4258,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil City Road",
+    "highway": "Urban Road",
+    "location": "Catherine Booth Hospital Junction",
+    "latitude": 8.1874,
+    "longitude": 77.4376,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Nagercoil City Road",
+    "highway": "Urban Road",
+    "location": "Parakkai Junction",
+    "latitude": 8.1519,
+    "longitude": 77.4204,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Mixed traffic",
+      "Improper parking",
+      "Bus movement"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kanyakumari-Vattakottai Road",
+    "highway": "Tourist Road",
+    "location": "Vattakottai Fort Entrance",
+    "latitude": 8.1317,
+    "longitude": 77.5668,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist congestion",
+      "Sharp curves",
+      "Weekend traffic"
+    ]
+  },
+  {
+    "district": "Kanniyakumari",
+    "road_name": "Kanyakumari-Anjugramam Road",
+    "highway": "SH",
+    "location": "Anjugramam Junction",
+    "latitude": 8.1645,
+    "longitude": 77.5016,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Improper overtaking"
+    ]
   }
+]

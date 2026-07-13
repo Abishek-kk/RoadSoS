@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Madurai",
     "road_name": "Madurai-Kayathar Road",
     "highway": "NH-44",
@@ -12,4 +13,605 @@
       "Industrial area",
       "Poor crossing facilities"
     ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Dindigul Highway",
+    "highway": "NH-44",
+    "location": "Kappalur Toll Plaza",
+    "latitude": 9.8408,
+    "longitude": 78.0347,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Overspeeding",
+      "Lane merging"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Dindigul Highway",
+    "highway": "NH-44",
+    "location": "Samayanallur Junction",
+    "latitude": 9.9678,
+    "longitude": 78.0619,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Improper overtaking",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Tirunelveli Highway",
+    "highway": "NH-44",
+    "location": "Thiruparankundram Junction",
+    "latitude": 9.8816,
+    "longitude": 78.0738,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Heavy vehicles",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Tirunelveli Highway",
+    "highway": "NH-44",
+    "location": "Viraganur Ring Road Junction",
+    "latitude": 9.9018,
+    "longitude": 78.1745,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Flyover merging",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Rameswaram Highway",
+    "highway": "NH-87",
+    "location": "Silaiman Junction",
+    "latitude": 9.9087,
+    "longitude": 78.2473,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Improper overtaking",
+      "Commercial vehicles"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Rameswaram Highway",
+    "highway": "NH-87",
+    "location": "Thirumangalam Junction",
+    "latitude": 9.8231,
+    "longitude": 77.9865,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Intersection traffic",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Melur Highway",
+    "highway": "NH-38",
+    "location": "Othakadai Junction",
+    "latitude": 9.9658,
+    "longitude": 78.1924,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Melur Highway",
+    "highway": "NH-38",
+    "location": "Melur Bus Stand",
+    "latitude": 10.0334,
+    "longitude": 78.3398,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian movement",
+      "Market traffic"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Usilampatti Road",
+    "highway": "NH-44",
+    "location": "Nagamalai Pudukottai Junction",
+    "latitude": 9.9284,
+    "longitude": 78.0472,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "University traffic",
+      "Heavy buses",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Usilampatti Road",
+    "highway": "NH-44",
+    "location": "Chekkanurani Junction",
+    "latitude": 9.8265,
+    "longitude": 77.9486,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy vehicles",
+      "Village crossings",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Alagar Kovil Road",
+    "highway": "SH-32",
+    "location": "Alagar Kovil Junction",
+    "latitude": 10.0034,
+    "longitude": 78.2116,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Sharp curves",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Alagar Kovil Road",
+    "highway": "SH-32",
+    "location": "Kadachanendal Junction",
+    "latitude": 9.9647,
+    "longitude": 78.1659,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Residential traffic",
+      "Mixed vehicles",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai Ring Road",
+    "highway": "Ring Road",
+    "location": "Mattuthavani Bus Stand",
+    "latitude": 9.9508,
+    "longitude": 78.1685,
+    "risk_level": "Very High",
+    "road_type": "Ring Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai Ring Road",
+    "highway": "Ring Road",
+    "location": "Integrated Bus Terminus Junction",
+    "latitude": 9.9519,
+    "longitude": 78.1703,
+    "risk_level": "High",
+    "road_type": "Ring Road",
+    "major_cause": [
+      "Heavy buses",
+      "Signal congestion",
+      "Peak-hour traffic"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai City Road",
+    "highway": "Urban Road",
+    "location": "Goripalayam Junction",
+    "latitude": 9.9318,
+    "longitude": 78.1328,
+    "risk_level": "Very High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Signal congestion",
+      "Heavy traffic",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai City Road",
+    "highway": "Urban Road",
+    "location": "Anna Bus Stand Junction",
+    "latitude": 9.9198,
+    "longitude": 78.1194,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus movement",
+      "Commercial traffic",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai City Road",
+    "highway": "Urban Road",
+    "location": "Periyar Bus Stand",
+    "latitude": 9.9182,
+    "longitude": 78.1108,
+    "risk_level": "Very High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy pedestrian movement",
+      "Auto-rickshaws",
+      "Bus congestion"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai Railway Station Road",
+    "highway": "Urban Road",
+    "location": "Madurai Junction Railway Station",
+    "latitude": 9.9183,
+    "longitude": 78.1116,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Taxi congestion",
+      "Pedestrian crossings",
+      "Parking issues"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai Airport Road",
+    "highway": "Airport Road",
+    "location": "Madurai Airport Junction",
+    "latitude": 9.8345,
+    "longitude": 78.0932,
+    "risk_level": "Medium",
+    "road_type": "Airport Road",
+    "major_cause": [
+      "Airport traffic",
+      "High-speed vehicles",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Avaniyapuram Road",
+    "highway": "Urban Road",
+    "location": "Avaniyapuram Junction",
+    "latitude": 9.8815,
+    "longitude": 78.1087,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Residential traffic",
+      "Festival crowds",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Dindigul Highway",
+    "highway": "NH-44",
+    "location": "Paravai Junction",
+    "latitude": 9.9875,
+    "longitude": 78.0894,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Service road merging",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Dindigul Highway",
+    "highway": "NH-44",
+    "location": "Kodikulam Junction",
+    "latitude": 9.9541,
+    "longitude": 78.0827,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Heavy buses",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Rameswaram Highway",
+    "highway": "NH-87",
+    "location": "Puliyankulam Junction",
+    "latitude": 9.8794,
+    "longitude": 78.2245,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy trucks",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Rameswaram Highway",
+    "highway": "NH-87",
+    "location": "Valayankulam Junction",
+    "latitude": 9.8453,
+    "longitude": 78.1834,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Improper overtaking",
+      "Commercial vehicles"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Usilampatti Road",
+    "highway": "NH-44",
+    "location": "Vadipatti Junction",
+    "latitude": 10.0846,
+    "longitude": 77.9615,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Overspeeding",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Usilampatti Road",
+    "highway": "NH-44",
+    "location": "Karadipatti Junction",
+    "latitude": 9.8582,
+    "longitude": 77.9156,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Poor shoulders",
+      "Mixed traffic",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Melur Highway",
+    "highway": "NH-38",
+    "location": "Narasingam Junction",
+    "latitude": 9.9884,
+    "longitude": 78.2183,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Sharp turns",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Melur Highway",
+    "highway": "NH-38",
+    "location": "Kidaripatti Junction",
+    "latitude": 10.0157,
+    "longitude": 78.2594,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Village crossings",
+      "Improper overtaking",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Alagar Kovil Road",
+    "highway": "SH-32",
+    "location": "Alanganallur Junction",
+    "latitude": 10.0478,
+    "longitude": 78.0895,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Festival traffic",
+      "Heavy buses",
+      "Commercial congestion"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Alagar Kovil Road",
+    "highway": "SH-32",
+    "location": "Kallandhiri Junction",
+    "latitude": 10.0226,
+    "longitude": 78.1845,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Poor visibility",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai Ring Road",
+    "highway": "Ring Road",
+    "location": "Kalavasal Junction",
+    "latitude": 9.9078,
+    "longitude": 78.0948,
+    "risk_level": "Very High",
+    "road_type": "Ring Road",
+    "major_cause": [
+      "Heavy traffic",
+      "Flyover merging",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai Ring Road",
+    "highway": "Ring Road",
+    "location": "Ellis Nagar Junction",
+    "latitude": 9.9046,
+    "longitude": 78.1042,
+    "risk_level": "High",
+    "road_type": "Ring Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai City Road",
+    "highway": "Urban Road",
+    "location": "Tallakulam Junction",
+    "latitude": 9.9408,
+    "longitude": 78.1364,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Signal congestion",
+      "Heavy buses",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai City Road",
+    "highway": "Urban Road",
+    "location": "Simmakkal Junction",
+    "latitude": 9.9248,
+    "longitude": 78.1165,
+    "risk_level": "Very High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Market traffic",
+      "Pedestrian crossings",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai City Road",
+    "highway": "Urban Road",
+    "location": "Yanaikkal Bridge",
+    "latitude": 9.9265,
+    "longitude": 78.1231,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Bridge bottleneck",
+      "Heavy traffic",
+      "Poor lane discipline"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai City Road",
+    "highway": "Urban Road",
+    "location": "Palanganatham Junction",
+    "latitude": 9.8937,
+    "longitude": 78.1225,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Airport Road",
+    "highway": "Airport Road",
+    "location": "TVS Nagar Junction",
+    "latitude": 9.8524,
+    "longitude": 78.1016,
+    "risk_level": "Medium",
+    "road_type": "Airport Road",
+    "major_cause": [
+      "High-speed traffic",
+      "Residential crossings",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Airport Road",
+    "highway": "Airport Road",
+    "location": "Airport Flyover",
+    "latitude": 9.8358,
+    "longitude": 78.0926,
+    "risk_level": "High",
+    "road_type": "Flyover",
+    "major_cause": [
+      "Fast-moving vehicles",
+      "Poor visibility",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Thirumangalam Road",
+    "highway": "NH-44",
+    "location": "Koodal Nagar Junction",
+    "latitude": 9.9638,
+    "longitude": 78.1035,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Madurai",
+    "road_name": "Madurai-Thirumangalam Road",
+    "highway": "NH-44",
+    "location": "Achampathu Junction",
+    "latitude": 9.8751,
+    "longitude": 78.0874,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy vehicles",
+      "Night driving"
+    ]
   }
+]

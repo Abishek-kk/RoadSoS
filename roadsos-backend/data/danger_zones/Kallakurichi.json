@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Kallakurichi",
     "road_name": "Ulundurpet-Salem Road",
     "highway": "NH-79",
@@ -11,4 +12,605 @@
       "Heavy trucks",
       "Speeding"
     ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Salem Road",
+    "highway": "NH-79",
+    "location": "Ulundurpet Toll Plaza",
+    "latitude": 11.6974,
+    "longitude": 79.2861,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy truck traffic",
+      "Lane indiscipline"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Salem Road",
+    "highway": "NH-79",
+    "location": "Ulundurpet Bypass Junction",
+    "latitude": 11.6898,
+    "longitude": 79.2796,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy traffic",
+      "Improper overtaking",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Salem Road",
+    "highway": "NH-79",
+    "location": "Kallakurichi Bypass",
+    "latitude": 11.7412,
+    "longitude": 78.9628,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed vehicles",
+      "Truck movement",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Salem Road",
+    "highway": "NH-79",
+    "location": "Chinnasalem Junction",
+    "latitude": 11.6378,
+    "longitude": 78.8745,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Bus movement"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Thirukoilur Road",
+    "highway": "SH-9",
+    "location": "Sankarapuram Junction",
+    "latitude": 11.7865,
+    "longitude": 78.9678,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Market traffic",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Thirukoilur Road",
+    "highway": "SH-9",
+    "location": "Thiyagadurgam Junction",
+    "latitude": 11.7416,
+    "longitude": 79.0743,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Attur Road",
+    "highway": "SH-30",
+    "location": "Kachirayapalayam",
+    "latitude": 11.5954,
+    "longitude": 78.9547,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp curves",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Attur Road",
+    "highway": "SH-30",
+    "location": "Kalvarayan Hills Foothills",
+    "latitude": 11.6092,
+    "longitude": 78.8534,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Sharp bends",
+      "Steep gradient",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Kallakurichi Ring Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 11.7381,
+    "longitude": 78.9634,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Vridhachalam Road",
+    "highway": "SH-69",
+    "location": "Rishivandiyam Junction",
+    "latitude": 11.8175,
+    "longitude": 79.0958,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Vridhachalam Road",
+    "highway": "SH-69",
+    "location": "Manalurpettai",
+    "latitude": 11.8263,
+    "longitude": 79.1705,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Poor shoulders",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Vridhachalam Road",
+    "highway": "SH",
+    "location": "Elavanasur Kottai",
+    "latitude": 11.7064,
+    "longitude": 79.3576,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Chinnasalem Road",
+    "highway": "SH",
+    "location": "Siruvangur",
+    "latitude": 11.6838,
+    "longitude": 78.9124,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Bus movement",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kalvarayan Hills Road",
+    "highway": "Hill Road",
+    "location": "Gomuki Dam Junction",
+    "latitude": 11.6865,
+    "longitude": 78.8093,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Hairpin bends",
+      "Fog"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kalvarayan Hills Road",
+    "highway": "Hill Road",
+    "location": "Karumanthurai Ghat Section",
+    "latitude": 11.6031,
+    "longitude": 78.7586,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Steep slopes",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi Bus Stand Road",
+    "highway": "Urban Road",
+    "location": "Kallakurichi Bus Stand",
+    "latitude": 11.7395,
+    "longitude": 78.9631,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi Railway Feeder Road",
+    "highway": "Urban Road",
+    "location": "Kaniyamoor Junction",
+    "latitude": 11.7036,
+    "longitude": 78.9457,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "School traffic",
+      "Mixed vehicles",
+      "Poor road shoulders"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Chinnasalem-Attur Road",
+    "highway": "SH",
+    "location": "Ammaiyagaram",
+    "latitude": 11.6571,
+    "longitude": 78.9052,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Kallakurichi Road",
+    "highway": "NH-79",
+    "location": "Eraiyur Junction",
+    "latitude": 11.7215,
+    "longitude": 79.1187,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy truck movement",
+      "Service road merging",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Sankarapuram Road",
+    "highway": "SH",
+    "location": "Mathur Junction",
+    "latitude": 11.7684,
+    "longitude": 78.9986,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Blind turns",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Salem Road",
+    "highway": "NH-79",
+    "location": "Mundiyampakkam Junction",
+    "latitude": 11.6728,
+    "longitude": 79.2185,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy truck traffic",
+      "Improper lane changes",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Salem Road",
+    "highway": "NH-79",
+    "location": "Thiruvennainallur Road Junction",
+    "latitude": 11.6992,
+    "longitude": 79.2443,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Intersection conflicts",
+      "Heavy buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Attur Road",
+    "highway": "SH-30",
+    "location": "Vadaponparappi",
+    "latitude": 11.6641,
+    "longitude": 78.8424,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp bends",
+      "Village crossings",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Attur Road",
+    "highway": "SH-30",
+    "location": "Pethanaickenpalayam Border",
+    "latitude": 11.5934,
+    "longitude": 78.7812,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Hill approach",
+      "Overspeeding",
+      "Blind curves"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kalvarayan Hills Road",
+    "highway": "Hill Road",
+    "location": "Periyar Falls Road",
+    "latitude": 11.6245,
+    "longitude": 78.7354,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Fog",
+      "Tourist traffic"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kalvarayan Hills Road",
+    "highway": "Hill Road",
+    "location": "Vellimalai View Point",
+    "latitude": 11.6021,
+    "longitude": 78.7128,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Steep descent",
+      "Poor visibility",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Sankarapuram Road",
+    "highway": "SH",
+    "location": "Ariyaperumanur",
+    "latitude": 11.7643,
+    "longitude": 78.9482,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Improper overtaking",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Sankarapuram Road",
+    "highway": "SH",
+    "location": "Moongilthuraipattu",
+    "latitude": 11.8184,
+    "longitude": 78.9126,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Sankarapuram-Tiruvannamalai Road",
+    "highway": "SH",
+    "location": "Vadakeeranur",
+    "latitude": 11.8391,
+    "longitude": 79.0164,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Sharp turns",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Sankarapuram-Tiruvannamalai Road",
+    "highway": "SH",
+    "location": "Melsiruvallur",
+    "latitude": 11.8515,
+    "longitude": 79.0517,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Poor lighting",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Rishivandiyam Road",
+    "highway": "SH",
+    "location": "Pagandai Koottu Road",
+    "latitude": 11.7938,
+    "longitude": 79.0674,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Blind intersection",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Rishivandiyam Road",
+    "highway": "SH",
+    "location": "Arasampattu",
+    "latitude": 11.8015,
+    "longitude": 79.1128,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Poor road shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Chinnasalem Road",
+    "highway": "SH",
+    "location": "Vaniyanthal",
+    "latitude": 11.6714,
+    "longitude": 78.9216,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi-Chinnasalem Road",
+    "highway": "SH",
+    "location": "Melsiruvalur",
+    "latitude": 11.6537,
+    "longitude": 78.8951,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Poor visibility",
+      "Sharp curve",
+      "Bus traffic"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Asanur Road",
+    "highway": "SH",
+    "location": "Asanur Junction",
+    "latitude": 11.7315,
+    "longitude": 79.3187,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy commercial vehicles",
+      "Village crossings",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Ulundurpet-Asanur Road",
+    "highway": "SH",
+    "location": "Sendamangalam Junction",
+    "latitude": 11.7482,
+    "longitude": 79.2874,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Improper overtaking",
+      "Poor shoulders",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi Town Road",
+    "highway": "Urban Road",
+    "location": "Four Road Junction",
+    "latitude": 11.7376,
+    "longitude": 78.9658,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Signal congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kallakurichi Town Road",
+    "highway": "Urban Road",
+    "location": "Government Hospital Junction",
+    "latitude": 11.7418,
+    "longitude": 78.9706,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kalvarayan Hills Road",
+    "highway": "Hill Road",
+    "location": "Melpacheri Hairpin Section",
+    "latitude": 11.5812,
+    "longitude": 78.7245,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Dense fog",
+      "Steep gradient"
+    ]
+  },
+  {
+    "district": "Kallakurichi",
+    "road_name": "Kalvarayan Hills Road",
+    "highway": "Hill Road",
+    "location": "Megam Falls Approach",
+    "latitude": 11.5714,
+    "longitude": 78.6986,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Blind curves",
+      "Rainy conditions"
+    ]
   }
+]

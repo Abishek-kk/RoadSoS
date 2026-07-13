@@ -1,15 +1,542 @@
-{
+[
+  {
     "district": "Chennai",
-    "road_name": "Grand Southern Trunk (GST) Road",
+    "road_name": "Anna Salai",
     "highway": "NH-32",
-    "location": "Chromepet",
-    "latitude": 12.9516,
-    "longitude": 80.1462,
-    "risk_level": "High",
+    "location": "Gemini Flyover",
+    "latitude": 13.0565,
+    "longitude": 80.2496,
+    "risk_level": "Very High",
     "road_type": "National Highway",
     "major_cause": [
       "Heavy traffic",
-      "Signal jumping",
+      "Signal violations",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Anna Salai",
+    "highway": "NH-32",
+    "location": "LIC Junction",
+    "latitude": 13.0678,
+    "longitude": 80.2668,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Peak-hour congestion",
+      "Pedestrian crossings",
+      "Bus traffic"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Jawaharlal Nehru Road",
+    "highway": "SH-2",
+    "location": "Kathipara Grade Separator",
+    "latitude": 13.0108,
+    "longitude": 80.2035,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Multi-level interchange",
+      "Overspeeding",
+      "Heavy traffic"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Jawaharlal Nehru Road",
+    "highway": "SH-2",
+    "location": "Koyambedu Junction",
+    "latitude": 13.0694,
+    "longitude": 80.1943,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus terminus traffic",
+      "Frequent merging",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Poonamallee High Road",
+    "highway": "NH-48",
+    "location": "Aminjikarai Junction",
+    "latitude": 13.0736,
+    "longitude": 80.2205,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Hospital traffic",
+      "Congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Grand Southern Trunk Road",
+    "highway": "NH-32",
+    "location": "Guindy Junction",
+    "latitude": 13.0068,
+    "longitude": 80.2206,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Airport traffic",
+      "Signal congestion",
+      "Improper lane discipline"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Grand Southern Trunk Road",
+    "highway": "NH-32",
+    "location": "St. Thomas Mount",
+    "latitude": 13.0045,
+    "longitude": 80.1968,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Flyover merging",
+      "Heavy commuter traffic",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Rajiv Gandhi Salai",
+    "highway": "OMR",
+    "location": "Tidel Park Junction",
+    "latitude": 12.9909,
+    "longitude": 80.2477,
+    "risk_level": "Very High",
+    "road_type": "IT Expressway",
+    "major_cause": [
+      "IT corridor traffic",
+      "High-speed vehicles",
+      "Frequent U-turns"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Sardar Patel Road",
+    "highway": "Urban Road",
+    "location": "Madhya Kailash Junction",
+    "latitude": 12.9852,
+    "longitude": 80.2428,
+    "risk_level": "Very High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Busy intersection",
+      "Mixed traffic",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Arcot Road",
+    "highway": "SH-113",
+    "location": "Vadapalani Signal",
+    "latitude": 13.0504,
+    "longitude": 80.2123,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "East Coast Road",
+    "highway": "SH-49",
+    "location": "Foreshore Estate Junction",
+    "latitude": 13.0196,
+    "longitude": 80.2813,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Weekend congestion",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Velachery Main Road",
+    "highway": "Urban Road",
+    "location": "Phoenix Mall Junction",
+    "latitude": 12.9915,
+    "longitude": 80.2185,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Mall traffic",
+      "Heavy pedestrian movement",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "EVR Periyar Salai",
+    "highway": "Urban Road",
+    "location": "Kilpauk Medical College Junction",
+    "latitude": 13.0784,
+    "longitude": 80.2419,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Bus stops",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Chennai Thiruvallur High Road",
+    "highway": "NH-716",
+    "location": "Padi Junction",
+    "latitude": 13.0963,
+    "longitude": 80.1846,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy industrial traffic",
+      "Complex intersection",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Kamarajar Salai",
+    "highway": "Urban Road",
+    "location": "Marina Lighthouse Junction",
+    "latitude": 13.0436,
+    "longitude": 80.2823,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Tourist movement",
+      "Pedestrian crossings",
+      "Weekend traffic"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Poonamallee High Road",
+    "highway": "NH-48",
+    "location": "Alandur Junction",
+    "latitude": 13.0102,
+    "longitude": 80.1887,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Metro construction",
+      "Frequent lane changes",
+      "Peak hour traffic"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Mount Poonamallee Road",
+    "highway": "SH-55",
+    "location": "Porur Junction",
+    "latitude": 13.0388,
+    "longitude": 80.1564,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy traffic",
+      "Signal congestion",
+      "Frequent U-turns"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Jawaharlal Nehru Road",
+    "highway": "SH-2",
+    "location": "Ashok Pillar Junction",
+    "latitude": 13.0358,
+    "longitude": 80.2127,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Peak-hour congestion",
+      "Bus traffic",
+      "Lane switching"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Arcot Road",
+    "highway": "SH-113",
+    "location": "Kodambakkam Flyover",
+    "latitude": 13.0517,
+    "longitude": 80.2246,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Sharp merging",
+      "Heavy traffic"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Inner Ring Road",
+    "highway": "IRR",
+    "location": "Madhavaram Junction",
+    "latitude": 13.1495,
+    "longitude": 80.2315,
+    "risk_level": "Very High",
+    "road_type": "Urban Expressway",
+    "major_cause": [
+      "Container trucks",
+      "High-speed traffic",
+      "Poor lane discipline"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Inner Ring Road",
+    "highway": "IRR",
+    "location": "Korattur Junction",
+    "latitude": 13.1112,
+    "longitude": 80.1849,
+    "risk_level": "High",
+    "road_type": "Urban Expressway",
+    "major_cause": [
+      "Industrial traffic",
+      "Frequent merging",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Chennai Bypass Road",
+    "highway": "NH-32",
+    "location": "Maduravoyal Interchange",
+    "latitude": 13.0663,
+    "longitude": 80.1674,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Flyover merging",
+      "Heavy vehicles",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Chennai Bypass Road",
+    "highway": "NH-32",
+    "location": "Vanagaram Junction",
+    "latitude": 13.0735,
+    "longitude": 80.1605,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Container trucks",
+      "Frequent lane changes",
+      "Heavy congestion"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Sardar Patel Road",
+    "highway": "Urban Road",
+    "location": "IIT Madras Main Gate",
+    "latitude": 12.9916,
+    "longitude": 80.2334,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Student traffic",
+      "Pedestrian crossings",
+      "Signal delays"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Velachery Main Road",
+    "highway": "Urban Road",
+    "location": "Velachery 100 Feet Road Junction",
+    "latitude": 12.9782,
+    "longitude": 80.2218,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy commercial traffic",
+      "Frequent U-turns",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "GST Road",
+    "highway": "NH-32",
+    "location": "Pallavaram Signal",
+    "latitude": 12.9672,
+    "longitude": 80.1504,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Airport traffic",
+      "Signal violations",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "GST Road",
+    "highway": "NH-32",
+    "location": "Chromepet Flyover",
+    "latitude": 12.9518,
+    "longitude": 80.1455,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Lane changes",
+      "Heavy commuter traffic"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "GST Road",
+    "highway": "NH-32",
+    "location": "Tambaram Sanatorium Junction",
+    "latitude": 12.9243,
+    "longitude": 80.1272,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Hospital traffic",
+      "Pedestrian movement",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "EVR Periyar Salai",
+    "highway": "Urban Road",
+    "location": "Egmore Junction",
+    "latitude": 13.0731,
+    "longitude": 80.2612,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Railway station traffic",
+      "Taxi congestion",
       "Pedestrian crossings"
     ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "North Usman Road",
+    "highway": "Urban Road",
+    "location": "T. Nagar Bus Terminus",
+    "latitude": 13.0416,
+    "longitude": 80.2336,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Heavy pedestrian movement",
+      "Illegal parking"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Dr. Radhakrishnan Salai",
+    "highway": "Urban Road",
+    "location": "Music Academy Junction",
+    "latitude": 13.0458,
+    "longitude": 80.2664,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Weekend crowd"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Kamarajar Salai",
+    "highway": "Urban Road",
+    "location": "War Memorial Junction",
+    "latitude": 13.0815,
+    "longitude": 80.2898,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Sharp turns",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Ennore Express Road",
+    "highway": "Port Road",
+    "location": "Manali Junction",
+    "latitude": 13.1665,
+    "longitude": 80.2663,
+    "risk_level": "Very High",
+    "road_type": "Port Connectivity Road",
+    "major_cause": [
+      "Container trucks",
+      "Industrial traffic",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Ennore Express Road",
+    "highway": "Port Road",
+    "location": "Ennore Port Entrance",
+    "latitude": 13.2164,
+    "longitude": 80.3205,
+    "risk_level": "Very High",
+    "road_type": "Port Connectivity Road",
+    "major_cause": [
+      "Heavy trailers",
+      "Blind turns",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Rajaji Salai",
+    "highway": "Urban Road",
+    "location": "Parrys Corner",
+    "latitude": 13.0908,
+    "longitude": 80.2885,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian congestion",
+      "Frequent stopping vehicles"
+    ]
+  },
+  {
+    "district": "Chennai",
+    "road_name": "Perambur High Road",
+    "highway": "Urban Road",
+    "location": "Perambur Railway Station Junction",
+    "latitude": 13.1074,
+    "longitude": 80.2448,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Railway commuters",
+      "Auto-rickshaw congestion",
+      "Heavy pedestrian movement"
+    ]
   }
+]

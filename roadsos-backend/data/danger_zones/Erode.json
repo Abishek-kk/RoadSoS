@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Erode",
     "road_name": "Salem-Coimbatore Road",
     "highway": "NH-544",
@@ -11,4 +12,605 @@
       "Overspeeding",
       "Heavy vehicles"
     ]
-}
+  },
+  {
+    "district": "Erode",
+    "road_name": "Salem-Coimbatore Highway",
+    "highway": "NH-544",
+    "location": "Perundurai Toll Plaza",
+    "latitude": 11.2748,
+    "longitude": 77.5869,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy trucks",
+      "Lane indiscipline"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Salem-Coimbatore Highway",
+    "highway": "NH-544",
+    "location": "Perundurai SIPCOT Junction",
+    "latitude": 11.2731,
+    "longitude": 77.6034,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Container trucks",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Salem-Coimbatore Highway",
+    "highway": "NH-544",
+    "location": "Chithode Junction",
+    "latitude": 11.3968,
+    "longitude": 77.5468,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy vehicle movement",
+      "Signal violations",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode-Sathyamangalam Road",
+    "highway": "NH-948",
+    "location": "Bhavani River Bridge",
+    "latitude": 11.3442,
+    "longitude": 77.7179,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Bridge approach",
+      "Overspeeding",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode-Sathyamangalam Road",
+    "highway": "NH-948",
+    "location": "Bannari Check Post",
+    "latitude": 11.5528,
+    "longitude": 77.2135,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Forest road",
+      "Sharp curves",
+      "Tourist traffic"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode-Sathyamangalam Road",
+    "highway": "NH-948",
+    "location": "Sathyamangalam Bus Stand",
+    "latitude": 11.5056,
+    "longitude": 77.2384,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Bus congestion"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode-Karur Road",
+    "highway": "NH-81",
+    "location": "Kodumudi Junction",
+    "latitude": 11.0785,
+    "longitude": 77.8836,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode-Karur Road",
+    "highway": "NH-81",
+    "location": "Unjalur",
+    "latitude": 11.1284,
+    "longitude": 77.9376,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Improper overtaking",
+      "Mixed traffic",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Bhavani-Mettur Road",
+    "highway": "SH-20",
+    "location": "Bhavani Bus Stand",
+    "latitude": 11.4451,
+    "longitude": 77.6827,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus traffic",
+      "Market congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Bhavani-Mettur Road",
+    "highway": "SH-20",
+    "location": "Bhavani Kooduthurai",
+    "latitude": 11.4426,
+    "longitude": 77.6848,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Improper parking",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Gobichettipalayam-Sathyamangalam Road",
+    "highway": "SH-15",
+    "location": "Gobichettipalayam Junction",
+    "latitude": 11.4546,
+    "longitude": 77.4427,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Gobichettipalayam-Sathyamangalam Road",
+    "highway": "SH-15",
+    "location": "Nambiyur Junction",
+    "latitude": 11.3598,
+    "longitude": 77.3228,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy trucks",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Perundurai-Kangeyam Road",
+    "highway": "SH-96",
+    "location": "Kunnathur Junction",
+    "latitude": 11.2128,
+    "longitude": 77.5217,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Sharp turns",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode-Dharapuram Road",
+    "highway": "SH-84",
+    "location": "Chennimalai Junction",
+    "latitude": 11.1619,
+    "longitude": 77.6035,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode-Dharapuram Road",
+    "highway": "SH-84",
+    "location": "Kangeyam Road Junction",
+    "latitude": 11.2364,
+    "longitude": 77.6648,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial vehicles",
+      "Village crossings",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode Ring Road",
+    "highway": "Urban Road",
+    "location": "Solar Junction",
+    "latitude": 11.3248,
+    "longitude": 77.7426,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy city traffic",
+      "Signal congestion",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode Ring Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 11.3418,
+    "longitude": 77.7281,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Pedestrian movement",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Mysore Trunk Road",
+    "highway": "Urban Road",
+    "location": "Surampatti Signal",
+    "latitude": 11.3535,
+    "longitude": 77.7186,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Signal violations",
+      "Bus movement"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Mysore Trunk Road",
+    "highway": "Urban Road",
+    "location": "Erode Railway Station Junction",
+    "latitude": 11.3424,
+    "longitude": 77.7348,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Railway commuters",
+      "Auto-rickshaw congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Sathyamangalam-Germalam Road",
+    "highway": "SH",
+    "location": "Germalam Forest Check Post",
+    "latitude": 11.6225,
+    "longitude": 77.0918,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Wildlife crossings",
+      "Dense fog"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Gobichettipalayam-Anthiyur Road",
+    "highway": "SH-81",
+    "location": "Anthiyur Bus Stand Junction",
+    "latitude": 11.5773,
+    "longitude": 77.5908,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Anthiyur-Bargur Road",
+    "highway": "SH-82",
+    "location": "Bargur Ghat Foothills",
+    "latitude": 11.6128,
+    "longitude": 77.4521,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Sharp curves",
+      "Heavy buses",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Bargur Ghat Road",
+    "highway": "SH-82",
+    "location": "Bargur Hairpin Bend 3",
+    "latitude": 11.6385,
+    "longitude": 77.4016,
+    "risk_level": "Very High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Hairpin bends",
+      "Fog",
+      "Steep gradient"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Sathyamangalam-Hasanur Road",
+    "highway": "NH-948",
+    "location": "Hasanur Check Post",
+    "latitude": 11.6915,
+    "longitude": 77.1146,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Forest road",
+      "Wildlife crossings",
+      "Sharp bends"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Sathyamangalam-Hasanur Road",
+    "highway": "NH-948",
+    "location": "Dhimbam Ghat Hairpin Bend",
+    "latitude": 11.6448,
+    "longitude": 77.1805,
+    "risk_level": "Very High",
+    "road_type": "Hill Highway",
+    "major_cause": [
+      "Hairpin bends",
+      "Heavy trucks",
+      "Brake failure"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Sathyamangalam-Talavadi Road",
+    "highway": "SH",
+    "location": "Talavadi Junction",
+    "latitude": 11.7424,
+    "longitude": 77.0735,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Hill traffic",
+      "Poor visibility",
+      "Sharp turns"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Gobichettipalayam-Kodiveri Road",
+    "highway": "SH",
+    "location": "Kodiveri Dam Entrance",
+    "latitude": 11.4782,
+    "longitude": 77.3289,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Weekend congestion",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Gobichettipalayam-Kodiveri Road",
+    "highway": "SH",
+    "location": "Kodiveri Bridge",
+    "latitude": 11.4804,
+    "longitude": 77.3335,
+    "risk_level": "Medium",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Narrow bridge",
+      "Heavy tourist vehicles",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Perundurai-Chennimalai Road",
+    "highway": "SH",
+    "location": "Vijayamangalam Junction",
+    "latitude": 11.1943,
+    "longitude": 77.5618,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Perundurai-Chennimalai Road",
+    "highway": "SH",
+    "location": "Perundurai Bus Stand",
+    "latitude": 11.2754,
+    "longitude": 77.5864,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Bus congestion"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode-Arachalur Road",
+    "highway": "SH",
+    "location": "Arachalur Junction",
+    "latitude": 11.1609,
+    "longitude": 77.6973,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Improper overtaking",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode-Modakurichi Road",
+    "highway": "SH",
+    "location": "Modakurichi Junction",
+    "latitude": 11.2412,
+    "longitude": 77.7178,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Bus movement",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Bhavani-Anthiyur Road",
+    "highway": "SH",
+    "location": "Athani Junction",
+    "latitude": 11.4218,
+    "longitude": 77.6035,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Market traffic",
+      "Pedestrian crossings",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Bhavani-Anthiyur Road",
+    "highway": "SH",
+    "location": "Kavindapadi",
+    "latitude": 11.4307,
+    "longitude": 77.5594,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial activity",
+      "Bus traffic",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Gobichettipalayam-Punjai Puliampatti Road",
+    "highway": "SH",
+    "location": "Punjai Puliampatti",
+    "latitude": 11.3515,
+    "longitude": 77.1662,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "NH-544 Service Road",
+    "highway": "NH-544",
+    "location": "Nasiyanur Junction",
+    "latitude": 11.3604,
+    "longitude": 77.6415,
+    "risk_level": "High",
+    "road_type": "Service Road",
+    "major_cause": [
+      "Improper merging",
+      "Heavy trucks",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "NH-544 Service Road",
+    "highway": "NH-544",
+    "location": "Vellode Junction",
+    "latitude": 11.3324,
+    "longitude": 77.6158,
+    "risk_level": "High",
+    "road_type": "Service Road",
+    "major_cause": [
+      "Service road entry",
+      "Mixed traffic",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Erode-Kangeyam Road",
+    "highway": "SH-84",
+    "location": "Ellispettai Junction",
+    "latitude": 11.2063,
+    "longitude": 77.6762,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Bhavani-Erode Road",
+    "highway": "SH",
+    "location": "Sakthi Nagar Junction",
+    "latitude": 11.3818,
+    "longitude": 77.7036,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Urban congestion",
+      "Signal violations",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Erode",
+    "road_name": "Sathyamangalam-Germalam Road",
+    "highway": "Forest Road",
+    "location": "Thengumarahada Diversion",
+    "latitude": 11.6127,
+    "longitude": 77.0683,
+    "risk_level": "Very High",
+    "road_type": "Forest Road",
+    "major_cause": [
+      "Wildlife crossings",
+      "Hairpin bends",
+      "Dense fog"
+    ]
+  }
+]

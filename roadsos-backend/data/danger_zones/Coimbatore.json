@@ -1,15 +1,602 @@
-{
+[
+  {
     "district": "Coimbatore",
     "road_name": "Avinashi Road",
     "highway": "NH-544",
-    "location": "Neelambur",
-    "latitude": 11.0402,
-    "longitude": 77.0395,
+    "location": "Neelambur Junction",
+    "latitude": 11.0415,
+    "longitude": 77.0397,
     "risk_level": "Very High",
     "road_type": "National Highway",
     "major_cause": [
-      "Dense traffic",
+      "Heavy traffic",
+      "Overspeeding",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Avinashi Road",
+    "highway": "NH-544",
+    "location": "Hope College Signal",
+    "latitude": 11.0286,
+    "longitude": 77.0014,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Signal violations",
+      "Heavy commuter traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Avinashi Road",
+    "highway": "NH-544",
+    "location": "Peelamedu",
+    "latitude": 11.0281,
+    "longitude": 76.9875,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Improper overtaking",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Trichy Road",
+    "highway": "NH-81",
+    "location": "Singanallur Junction",
+    "latitude": 10.9988,
+    "longitude": 77.0276,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Signal congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Trichy Road",
+    "highway": "NH-81",
+    "location": "Ondipudur",
+    "latitude": 10.9903,
+    "longitude": 77.0467,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Heavy vehicles",
+      "Wrong lane usage"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Mettupalayam Road",
+    "highway": "NH-181",
+    "location": "Thudiyalur Junction",
+    "latitude": 11.0794,
+    "longitude": 76.9417,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Improper U-turns",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Mettupalayam Road",
+    "highway": "NH-181",
+    "location": "Periyanaickenpalayam",
+    "latitude": 11.1438,
+    "longitude": 76.9382,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Bus traffic",
+      "Pedestrian crossings",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Sathy Road",
+    "highway": "NH-948",
+    "location": "Ganapathy",
+    "latitude": 11.0437,
+    "longitude": 76.9895,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy traffic",
+      "Signal jumping",
+      "Commercial vehicles"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Sathy Road",
+    "highway": "NH-948",
+    "location": "Saravanampatti Junction",
+    "latitude": 11.0818,
+    "longitude": 76.9962,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "IT traffic",
+      "Peak-hour congestion",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Palakkad Road",
+    "highway": "NH-544",
+    "location": "Madukkarai Junction",
+    "latitude": 10.9068,
+    "longitude": 76.9539,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy container trucks",
+      "Hill traffic",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Palakkad Road",
+    "highway": "NH-544",
+    "location": "L&T Bypass Junction",
+    "latitude": 10.9715,
+    "longitude": 76.9552,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Lane merging",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Pollachi Road",
+    "highway": "SH-19",
+    "location": "Eachanari Junction",
+    "latitude": 10.9385,
+    "longitude": 76.9897,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Heavy buses",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Pollachi Road",
+    "highway": "SH-19",
+    "location": "Sundarapuram",
+    "latitude": 10.9591,
+    "longitude": 76.9726,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Pedestrian crossings",
+      "Two-wheeler accidents"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Thadagam Road",
+    "highway": "SH-164",
+    "location": "Vadavalli Junction",
+    "latitude": 11.0203,
+    "longitude": 76.9068,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Narrow road",
+      "Sharp curves",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Marudamalai Road",
+    "highway": "Urban Road",
+    "location": "Bharathiar University Junction",
+    "latitude": 11.0387,
+    "longitude": 76.8762,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Student traffic",
+      "Sharp turns",
+      "Bus movement"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Avinashi Road",
+    "highway": "NH-544",
+    "location": "Codissia Signal",
+    "latitude": 11.0402,
+    "longitude": 77.0268,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Exhibition traffic",
+      "Heavy vehicles",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Cross Cut Road",
+    "highway": "Urban Road",
+    "location": "Gandhipuram Bus Stand",
+    "latitude": 11.0168,
+    "longitude": 76.9674,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus traffic",
+      "Pedestrian movement",
+      "Illegal parking"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "100 Feet Road",
+    "highway": "Urban Road",
+    "location": "Lakshmi Mills Junction",
+    "latitude": 11.0173,
+    "longitude": 76.9808,
+    "risk_level": "Very High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Major intersection",
+      "Signal violations",
+      "Heavy traffic"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Siruvani Road",
+    "highway": "SH-162",
+    "location": "Perur Junction",
+    "latitude": 10.9804,
+    "longitude": 76.9128,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Sharp bends",
+      "Two-wheelers"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Mettupalayam Road",
+    "highway": "NH-181",
+    "location": "Saibaba Colony Junction",
+    "latitude": 11.0284,
+    "longitude": 76.9449,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Peak-hour congestion",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Avinashi Road",
+    "highway": "NH-544",
+    "location": "PSG Tech Signal",
+    "latitude": 11.0243,
+    "longitude": 77.0024,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Student traffic",
+      "Signal jumping",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Avinashi Road",
+    "highway": "NH-544",
+    "location": "Fun Mall Junction",
+    "latitude": 11.0306,
+    "longitude": 77.0169,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Frequent U-turns",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Trichy Road",
+    "highway": "NH-81",
+    "location": "Ramanathapuram Signal",
+    "latitude": 11.0016,
+    "longitude": 76.9868,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Congestion",
+      "Bus traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Trichy Road",
+    "highway": "NH-81",
+    "location": "Ukkadam Flyover",
+    "latitude": 10.9928,
+    "longitude": 76.9605,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy traffic",
+      "Improper lane changes",
       "Signal violations"
     ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Mettupalayam Road",
+    "highway": "NH-181",
+    "location": "G.N. Mills Junction",
+    "latitude": 11.0604,
+    "longitude": 76.9517,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Overspeeding",
+      "Truck movement"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Mettupalayam Road",
+    "highway": "NH-181",
+    "location": "Kavundampalayam",
+    "latitude": 11.0518,
+    "longitude": 76.9443,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Improper overtaking",
+      "Bus movement"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Sathy Road",
+    "highway": "NH-948",
+    "location": "Prozone Mall Junction",
+    "latitude": 11.0617,
+    "longitude": 77.0162,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Shopping traffic",
+      "Frequent crossings",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Sathy Road",
+    "highway": "NH-948",
+    "location": "Kovilpalayam",
+    "latitude": 11.1262,
+    "longitude": 77.0421,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Heavy trucks",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Pollachi Road",
+    "highway": "SH-19",
+    "location": "Podanur Junction",
+    "latitude": 10.9625,
+    "longitude": 76.9724,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Railway crossing",
+      "Heavy buses",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Pollachi Road",
+    "highway": "SH-19",
+    "location": "Kinathukadavu",
+    "latitude": 10.8196,
+    "longitude": 77.0043,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy goods vehicles",
+      "Blind curves",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Thadagam Road",
+    "highway": "SH-164",
+    "location": "Veerakeralam Junction",
+    "latitude": 11.0247,
+    "longitude": 76.9098,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Narrow carriageway",
+      "Bus traffic",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Thadagam Road",
+    "highway": "SH-164",
+    "location": "Narasipuram",
+    "latitude": 10.9998,
+    "longitude": 76.8552,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp bends",
+      "Tourist traffic",
+      "Night visibility"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Siruvani Road",
+    "highway": "SH-162",
+    "location": "Madampatti",
+    "latitude": 10.9516,
+    "longitude": 76.8745,
+    "risk_level": "Low",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Fog",
+      "Rural traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Siruvani Road",
+    "highway": "SH-162",
+    "location": "Alanthurai",
+    "latitude": 10.9358,
+    "longitude": 76.8469,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp turns",
+      "Tourist vehicles",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Marudamalai Road",
+    "highway": "Urban Road",
+    "location": "Marudamalai Temple Foothills",
+    "latitude": 11.0469,
+    "longitude": 76.8608,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Tourist buses",
+      "Steep curves",
+      "Weekend traffic"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Athipalayam Road",
+    "highway": "Urban Road",
+    "location": "Chinnavedampatti Junction",
+    "latitude": 11.0688,
+    "longitude": 77.0135,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Residential traffic",
+      "School buses",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "L&T Bypass Road",
+    "highway": "NH-544 Bypass",
+    "location": "Chettipalayam Junction",
+    "latitude": 10.9472,
+    "longitude": 76.9413,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Overspeeding",
+      "Improper merging"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "L&T Bypass Road",
+    "highway": "NH-544 Bypass",
+    "location": "Madukkarai Toll Plaza",
+    "latitude": 10.9028,
+    "longitude": 76.9546,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Container traffic",
+      "High-speed corridor",
+      "Lane indiscipline"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Avinashi Road",
+    "highway": "NH-544",
+    "location": "Chinniyampalayam Junction",
+    "latitude": 11.0485,
+    "longitude": 77.0554,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Airport traffic",
+      "Heavy vehicles",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "road_name": "Sathy Road",
+    "highway": "NH-948",
+    "location": "KGISL Junction",
+    "latitude": 11.0842,
+    "longitude": 77.0047,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "IT traffic",
+      "Signal congestion",
+      "Frequent lane changes"
+    ]
   }
-  
+]

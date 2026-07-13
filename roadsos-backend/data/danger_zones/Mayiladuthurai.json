@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Mayiladuthurai",
     "road_name": "Mayiladuthurai-Chidambaram Road",
     "highway": "SH-64",
@@ -11,4 +12,605 @@
       "Two-wheeler accidents",
       "Village crossings"
     ]
-}
+},
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Chennai-Nagapattinam Highway",
+    "highway": "NH-32",
+    "location": "Mayiladuthurai Bypass Junction",
+    "latitude": 11.1038,
+    "longitude": 79.6554,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Chennai-Nagapattinam Highway",
+    "highway": "NH-32",
+    "location": "Sembanarkoil Junction",
+    "latitude": 11.1445,
+    "longitude": 79.7384,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Kumbakonam Road",
+    "highway": "SH-64",
+    "location": "Kuthalam Junction",
+    "latitude": 11.0863,
+    "longitude": 79.6445,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Market traffic",
+      "Heavy buses",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Kumbakonam Road",
+    "highway": "SH-64",
+    "location": "Komal Junction",
+    "latitude": 11.0576,
+    "longitude": 79.6034,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Sirkazhi Road",
+    "highway": "SH-22",
+    "location": "Vaithiswarankoil Junction",
+    "latitude": 11.1968,
+    "longitude": 79.7052,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Pedestrian crossings",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Sirkazhi Road",
+    "highway": "SH-22",
+    "location": "Anaikaranchatram Junction",
+    "latitude": 11.1518,
+    "longitude": 79.6825,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Improper overtaking",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Poompuhar Road",
+    "highway": "SH-23",
+    "location": "Tharangambadi Junction",
+    "latitude": 11.0275,
+    "longitude": 79.8538,
+    "risk_level": "High",
+    "road_type": "Coastal Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Sharp curves",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Poompuhar Road",
+    "highway": "SH-23",
+    "location": "Poompuhar Beach Junction",
+    "latitude": 11.1415,
+    "longitude": 79.8523,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Pedestrian crossings",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Manalmedu Road",
+    "highway": "SH",
+    "location": "Manalmedu Junction",
+    "latitude": 11.1426,
+    "longitude": 79.5898,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Manalmedu Road",
+    "highway": "SH",
+    "location": "Peralam Junction",
+    "latitude": 10.9998,
+    "longitude": 79.6285,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Night driving",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai City Road",
+    "highway": "Urban Road",
+    "location": "New Bus Stand Junction",
+    "latitude": 11.1015,
+    "longitude": 79.6548,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai City Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Junction",
+    "latitude": 11.1047,
+    "longitude": 79.6526,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Auto-rickshaws",
+      "Parking congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai City Road",
+    "highway": "Urban Road",
+    "location": "Clock Tower Junction",
+    "latitude": 11.1028,
+    "longitude": 79.6569,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Signal congestion",
+      "Commercial activity",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Sirkazhi-Poompuhar Road",
+    "highway": "SH",
+    "location": "Thiruvengadu Junction",
+    "latitude": 11.2427,
+    "longitude": 79.8074,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Village crossings",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Sirkazhi-Poompuhar Road",
+    "highway": "SH",
+    "location": "Keezhaperumpallam Junction",
+    "latitude": 11.1706,
+    "longitude": 79.8448,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist vehicles",
+      "Poor visibility",
+      "Sharp bends"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Akkur Road",
+    "highway": "MDR",
+    "location": "Akkur Junction",
+    "latitude": 11.0868,
+    "longitude": 79.7176,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Village traffic",
+      "Narrow roadway",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Tarangambadi Road",
+    "highway": "SH",
+    "location": "Porayar Junction",
+    "latitude": 11.0182,
+    "longitude": 79.8515,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Bridge approach",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Kollidam Road",
+    "highway": "SH",
+    "location": "Kollidam Bridge",
+    "latitude": 11.2558,
+    "longitude": 79.7764,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Narrow bridge",
+      "Heavy vehicles",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Kollidam Road",
+    "highway": "SH",
+    "location": "Manganallur Junction",
+    "latitude": 11.1824,
+    "longitude": 79.6936,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Agricultural vehicles",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Sembanarkoil Road",
+    "highway": "SH",
+    "location": "Dharmapuram Adheenam Junction",
+    "latitude": 11.1096,
+    "longitude": 79.6618,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Pedestrian crossings",
+      "Commercial congestion"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Sirkazhi-Chidambaram Road",
+    "highway": "NH-32",
+    "location": "Sirkazhi Old Bus Stand Junction",
+    "latitude": 11.2394,
+    "longitude": 79.7356,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Sirkazhi-Chidambaram Road",
+    "highway": "NH-32",
+    "location": "Pudupattinam Junction",
+    "latitude": 11.2276,
+    "longitude": 79.7582,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Heavy buses",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Sirkazhi Road",
+    "highway": "SH-22",
+    "location": "Thiruindalur Junction",
+    "latitude": 11.1098,
+    "longitude": 79.6661,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple visitors",
+      "Pedestrian crossings",
+      "Auto-rickshaws"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Sirkazhi Road",
+    "highway": "SH-22",
+    "location": "Konerirajapuram Junction",
+    "latitude": 11.1325,
+    "longitude": 79.6894,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Kuthalam Road",
+    "highway": "SH-64",
+    "location": "Therizhandur Junction",
+    "latitude": 11.0728,
+    "longitude": 79.6257,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Blind curves",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Kuthalam Road",
+    "highway": "SH-64",
+    "location": "Nalladai Junction",
+    "latitude": 11.0531,
+    "longitude": 79.6104,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village traffic",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Poompuhar Coastal Road",
+    "highway": "Coastal Road",
+    "location": "Vanagiri Junction",
+    "latitude": 11.1459,
+    "longitude": 79.8578,
+    "risk_level": "High",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Strong crosswinds",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Poompuhar Coastal Road",
+    "highway": "Coastal Road",
+    "location": "Chinnamedu Junction",
+    "latitude": 11.1183,
+    "longitude": 79.8476,
+    "risk_level": "Medium",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Fishing vehicles",
+      "Narrow roadway",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Porayar-Karaikal Road",
+    "highway": "SH",
+    "location": "Karaikal Border Junction",
+    "latitude": 10.9968,
+    "longitude": 79.8532,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Interstate traffic",
+      "Heavy buses",
+      "Commercial vehicles"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Porayar-Karaikal Road",
+    "highway": "SH",
+    "location": "Nedungadu Diversion",
+    "latitude": 11.0051,
+    "longitude": 79.8357,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Blind intersection",
+      "Heavy traffic",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai City Road",
+    "highway": "Urban Road",
+    "location": "Municipal Office Junction",
+    "latitude": 11.1034,
+    "longitude": 79.6578,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai City Road",
+    "highway": "Urban Road",
+    "location": "Mahalakshmi Nagar Junction",
+    "latitude": 11.1086,
+    "longitude": 79.6495,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Residential traffic",
+      "School buses",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai City Road",
+    "highway": "Urban Road",
+    "location": "Government Hospital Junction",
+    "latitude": 11.1061,
+    "longitude": 79.6542,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai Railway Station Road",
+    "highway": "Urban Road",
+    "location": "Railway Overbridge",
+    "latitude": 11.1078,
+    "longitude": 79.6507,
+    "risk_level": "Medium",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Narrow bridge",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Sembanarkoil-Akkur Road",
+    "highway": "MDR",
+    "location": "Thirukkadaiyur Junction",
+    "latitude": 11.0188,
+    "longitude": 79.8526,
+    "risk_level": "High",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Temple traffic",
+      "Tourist buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Sembanarkoil-Akkur Road",
+    "highway": "MDR",
+    "location": "Mangaimadam Junction",
+    "latitude": 11.1689,
+    "longitude": 79.7721,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Village traffic",
+      "Heavy buses",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Kollidam-Sirkazhi Road",
+    "highway": "SH",
+    "location": "Mahendrapalli Junction",
+    "latitude": 11.2746,
+    "longitude": 79.8015,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Mixed traffic",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Kollidam-Sirkazhi Road",
+    "highway": "SH",
+    "location": "Pudupattinam Bridge",
+    "latitude": 11.2484,
+    "longitude": 79.7829,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Bridge narrowing",
+      "Heavy vehicles",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Manalmedu Road",
+    "highway": "SH",
+    "location": "Injikudi Junction",
+    "latitude": 11.1275,
+    "longitude": 79.6032,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Agricultural vehicles",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Mayiladuthurai",
+    "road_name": "Mayiladuthurai-Tharangambadi Road",
+    "highway": "SH-23",
+    "location": "Thillaiyadi Junction",
+    "latitude": 11.0538,
+    "longitude": 79.7926,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "School zone",
+      "Pedestrian crossings",
+      "Mixed traffic"
+    ]
+  }
+]

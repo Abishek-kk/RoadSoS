@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Pudukkottai",
     "road_name": "Trichy-Pudukkottai Road",
     "highway": "NH-336",
@@ -11,4 +12,605 @@
       "Overtaking",
       "Bus traffic"
     ]
-}
+},
+  {
+    "district": "Pudukkottai",
+    "road_name": "Trichy-Rameswaram Highway",
+    "highway": "NH-336",
+    "location": "Pudukkottai Bypass Junction",
+    "latitude": 10.3835,
+    "longitude": 78.8206,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy trucks",
+      "Lane merging"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Trichy-Rameswaram Highway",
+    "highway": "NH-336",
+    "location": "Namanasamudram Junction",
+    "latitude": 10.3488,
+    "longitude": 78.8462,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Karaikudi Road",
+    "highway": "NH-336",
+    "location": "Thirumayam Junction",
+    "latitude": 10.2467,
+    "longitude": 78.7479,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Sharp curves",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Karaikudi Road",
+    "highway": "NH-336",
+    "location": "Thirumayam Fort Junction",
+    "latitude": 10.2446,
+    "longitude": 78.7465,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Pedestrian crossings",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Trichy Road",
+    "highway": "SH-71",
+    "location": "Keeranur Junction",
+    "latitude": 10.5681,
+    "longitude": 78.7862,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Trichy Road",
+    "highway": "SH-71",
+    "location": "Vellanur Junction",
+    "latitude": 10.4716,
+    "longitude": 78.8127,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Aranthangi Road",
+    "highway": "SH-26",
+    "location": "Aranthangi Bus Stand",
+    "latitude": 10.1714,
+    "longitude": 79.0018,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Commercial activity"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Aranthangi Road",
+    "highway": "SH-26",
+    "location": "Avudaiyarkoil Junction",
+    "latitude": 10.0537,
+    "longitude": 79.0528,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Heavy buses",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Alangudi Road",
+    "highway": "SH",
+    "location": "Alangudi Junction",
+    "latitude": 10.3588,
+    "longitude": 78.9896,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Market traffic",
+      "Mixed vehicles",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Alangudi Road",
+    "highway": "SH",
+    "location": "Vadakadu Junction",
+    "latitude": 10.3182,
+    "longitude": 78.9557,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai City Road",
+    "highway": "Urban Road",
+    "location": "New Bus Stand Junction",
+    "latitude": 10.3808,
+    "longitude": 78.8216,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai City Road",
+    "highway": "Urban Road",
+    "location": "Old Bus Stand Junction",
+    "latitude": 10.3786,
+    "longitude": 78.8179,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy traffic",
+      "Auto-rickshaws",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai City Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 10.3846,
+    "longitude": 78.8248,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai Railway Station Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Junction",
+    "latitude": 10.3814,
+    "longitude": 78.8335,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Auto-rickshaws",
+      "Parking congestion",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Gandarvakottai Road",
+    "highway": "SH",
+    "location": "Gandarvakottai Junction",
+    "latitude": 10.5254,
+    "longitude": 79.0028,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Gandarvakottai Road",
+    "highway": "SH",
+    "location": "Karambakudi Junction",
+    "latitude": 10.4582,
+    "longitude": 79.1405,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural traffic",
+      "Mixed vehicles",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Manamelkudi Road",
+    "highway": "SH",
+    "location": "Manamelkudi Junction",
+    "latitude": 10.0478,
+    "longitude": 79.2473,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Coastal traffic",
+      "Heavy buses",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Manamelkudi Road",
+    "highway": "SH",
+    "location": "Mimisal Junction",
+    "latitude": 10.1047,
+    "longitude": 79.3018,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Fishing vehicles",
+      "Poor visibility",
+      "Cyclone damage"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Ponnamaravathi Road",
+    "highway": "SH",
+    "location": "Ponnamaravathi Junction",
+    "latitude": 10.2815,
+    "longitude": 78.5362,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Ponnamaravathi Road",
+    "highway": "SH",
+    "location": "Annavasal Junction",
+    "latitude": 10.4598,
+    "longitude": 78.7035,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Cement trucks",
+      "Industrial traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Trichy Highway",
+    "highway": "SH-71",
+    "location": "Viralimalai Junction",
+    "latitude": 10.6014,
+    "longitude": 78.5468,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Temple traffic",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Trichy Highway",
+    "highway": "SH-71",
+    "location": "Kodumbalur Junction",
+    "latitude": 10.5128,
+    "longitude": 78.6915,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heritage tourism",
+      "Mixed traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Illuppur Road",
+    "highway": "SH",
+    "location": "Illuppur Bus Stand",
+    "latitude": 10.5146,
+    "longitude": 78.6248,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Illuppur Road",
+    "highway": "SH",
+    "location": "Rasathivalavu Junction",
+    "latitude": 10.4862,
+    "longitude": 78.6518,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Quarry trucks",
+      "Improper overtaking",
+      "Dust reducing visibility"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Kulathur Road",
+    "highway": "MDR",
+    "location": "Kulathur Junction",
+    "latitude": 10.5497,
+    "longitude": 78.7783,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Village crossings",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Kulathur Road",
+    "highway": "MDR",
+    "location": "Ammachathiram Junction",
+    "latitude": 10.5124,
+    "longitude": 78.7918,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Heavy buses",
+      "Blind intersections",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Aranthangi-Manamelkudi Road",
+    "highway": "SH",
+    "location": "Kattumavadi Junction",
+    "latitude": 10.1415,
+    "longitude": 79.1698,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Fishing trucks",
+      "Heavy buses",
+      "Sharp bends"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Aranthangi-Manamelkudi Road",
+    "highway": "SH",
+    "location": "Jegathapattinam Junction",
+    "latitude": 10.0908,
+    "longitude": 79.2267,
+    "risk_level": "Medium",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Fishing vehicles",
+      "Cyclone damage",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Avudaiyarkoil-Manamelkudi Road",
+    "highway": "SH",
+    "location": "Ammapattinam Junction",
+    "latitude": 10.0738,
+    "longitude": 79.2149,
+    "risk_level": "Medium",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Fishing traffic",
+      "Heavy buses",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Avudaiyarkoil-Manamelkudi Road",
+    "highway": "SH",
+    "location": "Kottaipattinam Junction",
+    "latitude": 10.1217,
+    "longitude": 79.2656,
+    "risk_level": "High",
+    "road_type": "Coastal Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Fishing trucks",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai City Road",
+    "highway": "Urban Road",
+    "location": "Thilagar Thidal Junction",
+    "latitude": 10.3805,
+    "longitude": 78.8202,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Signal congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai City Road",
+    "highway": "Urban Road",
+    "location": "Government Hospital Junction",
+    "latitude": 10.3858,
+    "longitude": 78.8265,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai City Road",
+    "highway": "Urban Road",
+    "location": "Marthandapuram Junction",
+    "latitude": 10.3746,
+    "longitude": 78.8294,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Residential traffic",
+      "School buses",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai City Road",
+    "highway": "Urban Road",
+    "location": "Bhuvaneswari Nagar Junction",
+    "latitude": 10.3912,
+    "longitude": 78.8186,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Mixed traffic",
+      "Signal congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Annavasal Road",
+    "highway": "SH",
+    "location": "Mathur Junction",
+    "latitude": 10.4337,
+    "longitude": 78.7426,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Cement lorries",
+      "Heavy vehicles",
+      "Dust reducing visibility"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Annavasal Road",
+    "highway": "SH",
+    "location": "Kulathupatti Junction",
+    "latitude": 10.4148,
+    "longitude": 78.7249,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Agricultural traffic",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Keeranur Road",
+    "highway": "SH-71",
+    "location": "Thondaiman Nagar Junction",
+    "latitude": 10.4218,
+    "longitude": 78.8047,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Keeranur Road",
+    "highway": "SH-71",
+    "location": "Sathiyamangalam Junction",
+    "latitude": 10.4485,
+    "longitude": 78.7981,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Poor visibility",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Manamelkudi Road",
+    "highway": "SH",
+    "location": "Kottaikadu Junction",
+    "latitude": 10.1465,
+    "longitude": 79.1884,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Cyclone-prone road",
+      "Heavy rain",
+      "Narrow carriageway"
+    ]
+  },
+  {
+    "district": "Pudukkottai",
+    "road_name": "Pudukkottai-Aranthangi Road",
+    "highway": "SH-26",
+    "location": "Merpanaikadu Junction",
+    "latitude": 10.2489,
+    "longitude": 78.9368,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
+  }
+]

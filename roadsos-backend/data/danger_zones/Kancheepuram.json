@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Kancheepuram",
     "road_name": "Chennai-Bengaluru Highway",
     "highway": "NH-48",
@@ -12,4 +13,605 @@
       "Container trucks",
       "High-speed corridor"
     ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Sriperumbudur Junction",
+    "latitude": 12.9674,
+    "longitude": 79.9416,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Heavy container trucks",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Walajabad Junction",
+    "latitude": 12.7928,
+    "longitude": 79.8235,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Overspeeding",
+      "Service road merging"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Kancheepuram Bypass",
+    "latitude": 12.8351,
+    "longitude": 79.7036,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Truck traffic",
+      "High-speed corridor",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Chengalpattu Road",
+    "highway": "SH-58",
+    "location": "Orikkai Junction",
+    "latitude": 12.8253,
+    "longitude": 79.7318,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Bus movement",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Chengalpattu Road",
+    "highway": "SH-58",
+    "location": "Uthiramerur Junction",
+    "latitude": 12.6158,
+    "longitude": 79.7573,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Improper overtaking",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Arakkonam Road",
+    "highway": "SH-48",
+    "location": "Nemili Junction",
+    "latitude": 12.7825,
+    "longitude": 79.6068,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Poor lighting",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Vandavasi Road",
+    "highway": "SH-116",
+    "location": "Ayyangarkulam",
+    "latitude": 12.7957,
+    "longitude": 79.6865,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp bends",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Vandavasi Road",
+    "highway": "SH-116",
+    "location": "Thenambakkam",
+    "latitude": 12.8069,
+    "longitude": 79.6832,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Cheyyar Road",
+    "highway": "SH",
+    "location": "Kavanthandalam",
+    "latitude": 12.7484,
+    "longitude": 79.6442,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Bus movement",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Walajabad-Sriperumbudur Road",
+    "highway": "SH",
+    "location": "Sunguvarchatram Junction",
+    "latitude": 12.9137,
+    "longitude": 79.9808,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Industrial vehicles",
+      "Container trucks",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Walajabad-Sriperumbudur Road",
+    "highway": "SH",
+    "location": "Padappai Junction",
+    "latitude": 12.8818,
+    "longitude": 80.0234,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Frequent U-turns",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram Ring Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 12.8398,
+    "longitude": 79.7045,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram Ring Road",
+    "highway": "Urban Road",
+    "location": "Bus Stand Junction",
+    "latitude": 12.8386,
+    "longitude": 79.7039,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial activity",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram Railway Station Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Entrance",
+    "latitude": 12.8332,
+    "longitude": 79.6991,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Auto-rickshaws",
+      "Parking congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Sriperumbudur-Oragadam Road",
+    "highway": "SH-57",
+    "location": "Oragadam SIPCOT Junction",
+    "latitude": 12.8437,
+    "longitude": 80.0124,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Container movement",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Sriperumbudur-Oragadam Road",
+    "highway": "SH-57",
+    "location": "Mannur Junction",
+    "latitude": 12.8945,
+    "longitude": 79.9917,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy vehicle movement",
+      "Improper lane changes",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Uthiramerur-Madurantakam Road",
+    "highway": "SH",
+    "location": "Karuveppampoondi",
+    "latitude": 12.5734,
+    "longitude": 79.7198,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Poor lighting",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Walajabad Road",
+    "highway": "SH",
+    "location": "Enathur Junction",
+    "latitude": 12.8542,
+    "longitude": 79.7446,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Student traffic",
+      "Bus movement",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "NH-48 Service Road",
+    "highway": "NH-48",
+    "location": "Baluchetty Chatram",
+    "latitude": 12.8796,
+    "longitude": 79.7814,
+    "risk_level": "High",
+    "road_type": "Service Road",
+    "major_cause": [
+      "Service road merging",
+      "Heavy trucks",
+      "High-speed traffic"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Cheyyar Road",
+    "highway": "SH",
+    "location": "Poonjeri Junction",
+    "latitude": 12.7816,
+    "longitude": 79.6649,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Blind turns",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Mambakkam Junction",
+    "latitude": 12.9524,
+    "longitude": 79.9185,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy container traffic",
+      "Overspeeding",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Chennai-Bengaluru Highway",
+    "highway": "NH-48",
+    "location": "Nazarethpettai Exit",
+    "latitude": 12.9758,
+    "longitude": 79.9698,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Slip road merging",
+      "Heavy trucks",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Sriperumbudur-Oragadam Road",
+    "highway": "SH-57",
+    "location": "Vallam Junction",
+    "latitude": 12.8726,
+    "longitude": 80.0281,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Industrial vehicles",
+      "Container trucks",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Sriperumbudur-Oragadam Road",
+    "highway": "SH-57",
+    "location": "Vallakkottai Murugan Temple Junction",
+    "latitude": 12.8528,
+    "longitude": 80.0415,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Weekend congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Oragadam-Walajabad Road",
+    "highway": "SH",
+    "location": "Mathur Junction",
+    "latitude": 12.8185,
+    "longitude": 79.9648,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Poor lighting",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Oragadam-Walajabad Road",
+    "highway": "SH",
+    "location": "Mathur SIPCOT Access",
+    "latitude": 12.8261,
+    "longitude": 79.9723,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Truck movement",
+      "Improper lane discipline"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Walajabad-Uthiramerur Road",
+    "highway": "SH",
+    "location": "Sirukaveripakkam",
+    "latitude": 12.7128,
+    "longitude": 79.8014,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Walajabad-Uthiramerur Road",
+    "highway": "SH",
+    "location": "Kunnavakkam Junction",
+    "latitude": 12.6885,
+    "longitude": 79.7863,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Uthiramerur Road",
+    "highway": "SH-58",
+    "location": "Salavakkam Junction",
+    "latitude": 12.6627,
+    "longitude": 79.8069,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Bus movement",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Uthiramerur Road",
+    "highway": "SH-58",
+    "location": "Perunagar Junction",
+    "latitude": 12.6986,
+    "longitude": 79.7741,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Poor visibility",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Arakkonam Road",
+    "highway": "SH-48",
+    "location": "Parandur Junction",
+    "latitude": 12.8673,
+    "longitude": 79.6726,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "High-speed traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Arakkonam Road",
+    "highway": "SH-48",
+    "location": "Thamal Junction",
+    "latitude": 12.9018,
+    "longitude": 79.6297,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Vandavasi Road",
+    "highway": "SH-116",
+    "location": "Agaram Junction",
+    "latitude": 12.7518,
+    "longitude": 79.6484,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp turns",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram-Vandavasi Road",
+    "highway": "SH-116",
+    "location": "Kilambi Junction",
+    "latitude": 12.8174,
+    "longitude": 79.6915,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Student traffic",
+      "Bus movement",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram City Road",
+    "highway": "Urban Road",
+    "location": "Ekambareswarar Temple Junction",
+    "latitude": 12.8476,
+    "longitude": 79.6994,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Pedestrian crossings",
+      "Commercial congestion"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram City Road",
+    "highway": "Urban Road",
+    "location": "Kamakshi Amman Temple Junction",
+    "latitude": 12.8416,
+    "longitude": 79.7031,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Temple visitors",
+      "Auto-rickshaw congestion",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Kancheepuram City Road",
+    "highway": "Urban Road",
+    "location": "Gandhi Road Signal",
+    "latitude": 12.8362,
+    "longitude": 79.7058,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Signal delays",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Sriperumbudur Industrial Road",
+    "highway": "Industrial Corridor",
+    "location": "Hyundai Motor India Junction",
+    "latitude": 12.9625,
+    "longitude": 79.9384,
+    "risk_level": "Very High",
+    "road_type": "Industrial Road",
+    "major_cause": [
+      "Container trucks",
+      "Shift change traffic",
+      "Frequent merging"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "Sriperumbudur Industrial Road",
+    "highway": "Industrial Corridor",
+    "location": "Nokia Factory Junction",
+    "latitude": 12.9514,
+    "longitude": 79.9518,
+    "risk_level": "High",
+    "road_type": "Industrial Road",
+    "major_cause": [
+      "Heavy employee traffic",
+      "Industrial vehicles",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Kancheepuram",
+    "road_name": "NH-48 Service Road",
+    "highway": "NH-48",
+    "location": "Sriperumbudur Toll Exit",
+    "latitude": 12.9689,
+    "longitude": 79.9445,
+    "risk_level": "High",
+    "road_type": "Service Road",
+    "major_cause": [
+      "Toll merging",
+      "Heavy trucks",
+      "Sudden braking"
+    ]
   }
+]

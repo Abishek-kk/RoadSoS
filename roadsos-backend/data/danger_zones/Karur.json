@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Karur",
     "road_name": "Karur-Trichy Road",
     "highway": "NH-81",
@@ -11,4 +12,605 @@
       "Sharp intersections",
       "Heavy buses"
     ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Salem Highway",
+    "highway": "NH-44",
+    "location": "Thanthoni Junction",
+    "latitude": 10.9604,
+    "longitude": 78.0585,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Overspeeding",
+      "Improper lane changes"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Salem Highway",
+    "highway": "NH-44",
+    "location": "Vengamedu Junction",
+    "latitude": 10.9735,
+    "longitude": 78.0954,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Signal congestion",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Trichy Road",
+    "highway": "NH-81",
+    "location": "Mayanur Junction",
+    "latitude": 10.9548,
+    "longitude": 78.2715,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy vehicle movement",
+      "Improper overtaking",
+      "Bridge traffic"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Trichy Road",
+    "highway": "NH-81",
+    "location": "Kattalai Bridge",
+    "latitude": 10.9126,
+    "longitude": 78.2368,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Bridge approach",
+      "Heavy trucks",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Dindigul Road",
+    "highway": "NH-83",
+    "location": "Aravakurichi Junction",
+    "latitude": 10.7768,
+    "longitude": 77.9082,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Market traffic",
+      "Heavy buses",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Dindigul Road",
+    "highway": "NH-83",
+    "location": "Pallapatti Junction",
+    "latitude": 10.7209,
+    "longitude": 77.8795,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Village crossings",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Erode Road",
+    "highway": "NH-81",
+    "location": "Pugalur Junction",
+    "latitude": 10.9458,
+    "longitude": 77.9916,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Heavy trucks",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Erode Road",
+    "highway": "NH-81",
+    "location": "Velayuthampalayam",
+    "latitude": 10.9297,
+    "longitude": 77.9738,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Bus movement",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Namakkal Road",
+    "highway": "SH-84",
+    "location": "Paramathi Junction",
+    "latitude": 10.9864,
+    "longitude": 78.0038,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Namakkal Road",
+    "highway": "SH-84",
+    "location": "Mohanur Road Junction",
+    "latitude": 10.9725,
+    "longitude": 78.0189,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Improper overtaking",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Kulithalai Road",
+    "highway": "SH-74",
+    "location": "Kulithalai Junction",
+    "latitude": 10.9342,
+    "longitude": 78.4145,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bridge traffic",
+      "Heavy buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Kulithalai Road",
+    "highway": "SH-74",
+    "location": "Krishnarayapuram",
+    "latitude": 10.9581,
+    "longitude": 78.4498,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Poor visibility",
+      "Sharp turns"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur City Ring Road",
+    "highway": "Urban Road",
+    "location": "Bus Stand Roundabout",
+    "latitude": 10.9609,
+    "longitude": 78.0762,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur City Ring Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 10.9588,
+    "longitude": 78.0825,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Peak-hour traffic"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur Railway Station Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Entrance",
+    "latitude": 10.9554,
+    "longitude": 78.0806,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Auto-rickshaws",
+      "Parking congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Pallapatti Road",
+    "highway": "SH",
+    "location": "Thanthonimalai Junction",
+    "latitude": 10.9485,
+    "longitude": 78.0632,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Pallapatti Road",
+    "highway": "SH",
+    "location": "Nerur Junction",
+    "latitude": 10.8846,
+    "longitude": 78.0327,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Poor road shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Manapparai Road",
+    "highway": "SH",
+    "location": "Kadavur Road Junction",
+    "latitude": 10.9063,
+    "longitude": 78.1542,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Sharp curves",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Aravakurichi Road",
+    "highway": "SH",
+    "location": "K.Paramathi Junction",
+    "latitude": 10.8842,
+    "longitude": 77.9468,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Heavy buses",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Pugalur Road",
+    "highway": "SH",
+    "location": "TNPL Paper Mill Junction",
+    "latitude": 10.9378,
+    "longitude": 77.9692,
+    "risk_level": "High",
+    "road_type": "Industrial Road",
+    "major_cause": [
+      "Container trucks",
+      "Industrial traffic",
+      "Frequent lane merging"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Erode Highway",
+    "highway": "NH-81",
+    "location": "Vangal Junction",
+    "latitude": 10.9792,
+    "longitude": 78.0201,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Erode Highway",
+    "highway": "NH-81",
+    "location": "Noyyal Bridge",
+    "latitude": 10.9486,
+    "longitude": 77.9624,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Bridge approach",
+      "Heavy trucks",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Salem Highway",
+    "highway": "NH-44",
+    "location": "Velur Junction",
+    "latitude": 10.9925,
+    "longitude": 78.1194,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy truck movement",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Salem Highway",
+    "highway": "NH-44",
+    "location": "Puliyur Junction",
+    "latitude": 10.9788,
+    "longitude": 78.0712,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Signal congestion",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Dindigul Highway",
+    "highway": "NH-83",
+    "location": "Esanatham Junction",
+    "latitude": 10.8356,
+    "longitude": 77.9785,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Dindigul Highway",
+    "highway": "NH-83",
+    "location": "K.Paramathi Bus Stand",
+    "latitude": 10.8612,
+    "longitude": 77.9418,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Bus congestion"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Kulithalai Road",
+    "highway": "SH-74",
+    "location": "Lalapet Junction",
+    "latitude": 10.9016,
+    "longitude": 78.3324,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Poor shoulders",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Kulithalai Road",
+    "highway": "SH-74",
+    "location": "Mayanur Barrage Road",
+    "latitude": 10.9542,
+    "longitude": 78.2868,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Bridge narrowing",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Musiri Road",
+    "highway": "SH",
+    "location": "Pettavayathalai Junction",
+    "latitude": 10.8813,
+    "longitude": 78.4208,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Village crossings",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Musiri Road",
+    "highway": "SH",
+    "location": "Kulithalai Railway Gate",
+    "latitude": 10.9348,
+    "longitude": 78.4136,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Railway crossing",
+      "Traffic congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur City Road",
+    "highway": "Urban Road",
+    "location": "Jawahar Bazaar Junction",
+    "latitude": 10.9605,
+    "longitude": 78.0782,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial activity",
+      "Pedestrian crossings",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur City Road",
+    "highway": "Urban Road",
+    "location": "Five Road Junction",
+    "latitude": 10.9641,
+    "longitude": 78.0858,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Signal congestion",
+      "Heavy traffic",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur City Road",
+    "highway": "Urban Road",
+    "location": "Light House Corner",
+    "latitude": 10.9588,
+    "longitude": 78.0808,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Vangal Road",
+    "highway": "SH",
+    "location": "Pasupathipalayam Junction",
+    "latitude": 10.9712,
+    "longitude": 78.0415,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Mixed traffic",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Vangal Road",
+    "highway": "SH",
+    "location": "Nanniyur Junction",
+    "latitude": 10.9873,
+    "longitude": 78.0338,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Rain",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Pugalur Road",
+    "highway": "Industrial Road",
+    "location": "Chettinad Cement Junction",
+    "latitude": 10.9394,
+    "longitude": 77.9868,
+    "risk_level": "High",
+    "road_type": "Industrial Road",
+    "major_cause": [
+      "Cement trucks",
+      "Industrial traffic",
+      "Dust reducing visibility"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Pugalur Road",
+    "highway": "Industrial Road",
+    "location": "Pugalur Railway Overbridge",
+    "latitude": 10.9462,
+    "longitude": 77.9815,
+    "risk_level": "Medium",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Heavy vehicles",
+      "Blind curve",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Aravakurichi Road",
+    "highway": "SH",
+    "location": "Rajapuram Junction",
+    "latitude": 10.8165,
+    "longitude": 77.9274,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural traffic",
+      "Village crossings",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Namakkal Road",
+    "highway": "SH-84",
+    "location": "Vangal Canal Bridge",
+    "latitude": 10.9869,
+    "longitude": 78.0127,
+    "risk_level": "Medium",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Narrow bridge",
+      "Heavy trucks",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Karur",
+    "road_name": "Karur-Erode Highway",
+    "highway": "NH-81",
+    "location": "Pugalur Toll Plaza",
+    "latitude": 10.9518,
+    "longitude": 77.9876,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Sudden braking",
+      "Toll congestion",
+      "Heavy commercial vehicles"
+    ]
   }
+]

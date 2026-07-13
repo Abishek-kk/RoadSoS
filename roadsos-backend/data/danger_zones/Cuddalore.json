@@ -1,14 +1,602 @@
-{
+[
+  {
     "district": "Cuddalore",
     "road_name": "Cuddalore-Chidambaram Road",
     "highway": "NH-32",
-    "location": "Semmandalam",
-    "latitude": 11.7462,
-    "longitude": 79.7644,
+    "location": "Semmandalam Junction",
+    "latitude": 11.7445,
+    "longitude": 79.7584,
     "risk_level": "High",
     "road_type": "National Highway",
     "major_cause": [
+      "Heavy traffic",
       "Pedestrian crossings",
+      "Signal violations"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Cuddalore-Chidambaram Road",
+    "highway": "NH-32",
+    "location": "Thirupapuliyur",
+    "latitude": 11.7487,
+    "longitude": 79.7688,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Congestion",
+      "Bus movement"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Cuddalore-Pondicherry Road",
+    "highway": "NH-332A",
+    "location": "Ariyankuppam Border",
+    "latitude": 11.8894,
+    "longitude": 79.8165,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Weekend traffic",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Cuddalore-Vriddhachalam Road",
+    "highway": "SH-9",
+    "location": "Panruti Junction",
+    "latitude": 11.7768,
+    "longitude": 79.5532,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus traffic",
+      "Improper overtaking",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Cuddalore-Vriddhachalam Road",
+    "highway": "SH-9",
+    "location": "Nellikuppam",
+    "latitude": 11.7744,
+    "longitude": 79.6702,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Pedestrian crossings",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "East Coast Road",
+    "highway": "ECR",
+    "location": "Silver Beach Junction",
+    "latitude": 11.7078,
+    "longitude": 79.7835,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Overspeeding",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "East Coast Road",
+    "highway": "ECR",
+    "location": "Devanampattinam",
+    "latitude": 11.7364,
+    "longitude": 79.7892,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Beach visitors",
+      "Pedestrian crossings",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Panruti-Neyveli Road",
+    "highway": "SH-69",
+    "location": "Neyveli Arch",
+    "latitude": 11.6108,
+    "longitude": 79.4763,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Industrial traffic",
+      "Heavy trucks",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Panruti-Neyveli Road",
+    "highway": "SH-69",
+    "location": "Block-1 Junction",
+    "latitude": 11.6012,
+    "longitude": 79.4925,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Employee traffic",
+      "Frequent turns",
+      "Bus movement"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Vriddhachalam-Salem Road",
+    "highway": "NH-79",
+    "location": "Vriddhachalam Bus Stand",
+    "latitude": 11.5193,
+    "longitude": 79.3245,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Pedestrian crossings",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Vriddhachalam-Salem Road",
+    "highway": "NH-79",
+    "location": "Mangalampet",
+    "latitude": 11.4627,
+    "longitude": 79.2403,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Village crossings",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Chidambaram-Sirkazhi Road",
+    "highway": "NH-32",
+    "location": "Chidambaram Bus Stand",
+    "latitude": 11.3994,
+    "longitude": 79.6938,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Heavy buses",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Chidambaram-Sirkazhi Road",
+    "highway": "NH-32",
+    "location": "Annamalai University Junction",
+    "latitude": 11.3926,
+    "longitude": 79.7144,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Student traffic",
+      "Signal congestion",
+      "Two-wheeler movement"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Bhuvanagiri Road",
+    "highway": "SH",
+    "location": "Bhuvanagiri Junction",
+    "latitude": 11.4421,
+    "longitude": 79.6375,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Market traffic",
+      "Heavy buses",
+      "Poor lane discipline"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Panruti-Cuddalore Road",
+    "highway": "SH",
+    "location": "Kadampuliyur",
+    "latitude": 11.7355,
+    "longitude": 79.4567,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Sharp curves",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Virudhachalam-Ulundurpet Road",
+    "highway": "NH-132",
+    "location": "Veppur",
+    "latitude": 11.4776,
+    "longitude": 79.1062,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Overspeeding",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Neyveli Township Road",
+    "highway": "Urban Road",
+    "location": "Township Circle",
+    "latitude": 11.6078,
+    "longitude": 79.4936,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Bus movement",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Cuddalore Port Road",
+    "highway": "Port Road",
+    "location": "Old Port Junction",
+    "latitude": 11.7006,
+    "longitude": 79.7778,
+    "risk_level": "High",
+    "road_type": "Port Road",
+    "major_cause": [
+      "Container trucks",
+      "Narrow roadway",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Chidambaram-Bhuvanagiri Road",
+    "highway": "SH",
+    "location": "Killai Junction",
+    "latitude": 11.4982,
+    "longitude": 79.7691,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Poor visibility",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Panruti-Cuddalore Road",
+    "highway": "SH",
+    "location": "Melpattampakkam",
+    "latitude": 11.7549,
+    "longitude": 79.6034,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Local traffic",
+      "Bus stops",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Cuddalore-Chidambaram Road",
+    "highway": "NH-32",
+    "location": "Alapakkam Junction",
+    "latitude": 11.6628,
+    "longitude": 79.7451,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Sharp curves",
+      "Heavy buses",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Cuddalore-Chidambaram Road",
+    "highway": "NH-32",
+    "location": "Parangipettai Junction",
+    "latitude": 11.4917,
+    "longitude": 79.7683,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Overspeeding",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "East Coast Road",
+    "highway": "ECR",
+    "location": "Parangipettai Bridge",
+    "latitude": 11.4954,
+    "longitude": 79.7731,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bridge approach",
+      "Heavy traffic",
+      "Rainy weather"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Panruti-Neyveli Road",
+    "highway": "SH-69",
+    "location": "Mandarakuppam",
+    "latitude": 11.5734,
+    "longitude": 79.4865,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy vehicles",
+      "Narrow road",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Panruti-Neyveli Road",
+    "highway": "SH-69",
+    "location": "Vadalur Junction",
+    "latitude": 11.5567,
+    "longitude": 79.5563,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Market traffic",
+      "Bus congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Vriddhachalam-Ulundurpet Road",
+    "highway": "NH-132",
+    "location": "Pennadam",
+    "latitude": 11.4046,
+    "longitude": 79.2305,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Poor lighting",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Vriddhachalam-Ulundurpet Road",
+    "highway": "NH-132",
+    "location": "Thozhudur Junction",
+    "latitude": 11.5436,
+    "longitude": 79.1344,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Sharp intersection",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Chidambaram-Kattumannarkoil Road",
+    "highway": "SH",
+    "location": "Kattumannarkoil",
+    "latitude": 11.2775,
+    "longitude": 79.5524,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Narrow bridge",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Chidambaram-Killai Road",
+    "highway": "SH",
+    "location": "Killai Bus Stand",
+    "latitude": 11.4931,
+    "longitude": 79.7718,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist movement",
+      "Bus traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Cuddalore-Vriddhachalam Road",
+    "highway": "SH-9",
+    "location": "Kurinjipadi",
+    "latitude": 11.5489,
+    "longitude": 79.5908,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Improper overtaking",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Kurinjipadi-Neyveli Road",
+    "highway": "MDR",
+    "location": "Vadalur Arch",
+    "latitude": 11.5512,
+    "longitude": 79.5604,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Local traffic",
+      "Frequent turns",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Neyveli Township Road",
+    "highway": "Urban Road",
+    "location": "Block-10 Signal",
+    "latitude": 11.6101,
+    "longitude": 79.4824,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Employee traffic",
+      "Peak-hour congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Neyveli Township Road",
+    "highway": "Urban Road",
+    "location": "Lignite Mine Entrance",
+    "latitude": 11.5938,
+    "longitude": 79.4685,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Mining trucks",
+      "Dust",
+      "Heavy machinery"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Cuddalore-Port Road",
+    "highway": "Port Road",
+    "location": "Cuddalore Harbour Entrance",
+    "latitude": 11.6958,
+    "longitude": 79.7796,
+    "risk_level": "High",
+    "road_type": "Port Road",
+    "major_cause": [
+      "Container movement",
+      "Heavy trailers",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Cuddalore-Panruti Road",
+    "highway": "SH",
+    "location": "Kandrakottai",
+    "latitude": 11.7169,
+    "longitude": 79.6254,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Poor shoulders",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Panruti-Vikravandi Road",
+    "highway": "SH",
+    "location": "Thiruvamur",
+    "latitude": 11.7961,
+    "longitude": 79.5128,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp bends",
+      "Night driving",
       "Mixed traffic"
     ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Chidambaram-Bhuvanagiri Road",
+    "highway": "SH",
+    "location": "Vandigate Junction",
+    "latitude": 11.4378,
+    "longitude": 79.6598,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Local traffic",
+      "School buses",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Panruti-Cuddalore Road",
+    "highway": "SH",
+    "location": "Pudupettai",
+    "latitude": 11.7368,
+    "longitude": 79.5824,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus stops",
+      "Pedestrian crossings",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Vriddhachalam-Ariyalur Road",
+    "highway": "SH",
+    "location": "Mangalampettai",
+    "latitude": 11.4856,
+    "longitude": 79.2718,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "High-speed vehicles",
+      "Village crossings",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Cuddalore",
+    "road_name": "Chidambaram-Pichavaram Road",
+    "highway": "SH",
+    "location": "Pichavaram Mangrove Entrance",
+    "latitude": 11.4292,
+    "longitude": 79.7895,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist buses",
+      "Weekend congestion",
+      "Improper parking"
+    ]
   }
+]

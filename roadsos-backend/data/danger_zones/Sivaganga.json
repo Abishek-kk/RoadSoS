@@ -1,4 +1,5 @@
- {
+ [
+  {
     "district": "Sivagangai",
     "road_name": "Madurai-Karaikudi Road",
     "highway": "NH-36",
@@ -11,4 +12,605 @@
       "Wrong-side driving",
       "Heavy buses"
     ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Madurai-Karaikudi Highway",
+    "highway": "NH-36",
+    "location": "Manamadurai Bypass Junction",
+    "latitude": 9.6948,
+    "longitude": 78.4715,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Overspeeding",
+      "Lane merging"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Madurai-Karaikudi Highway",
+    "highway": "NH-36",
+    "location": "Manamadurai Railway Overbridge",
+    "latitude": 9.6928,
+    "longitude": 78.4764,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Heavy buses",
+      "Poor visibility",
+      "Traffic congestion"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Madurai-Karaikudi Highway",
+    "highway": "NH-36",
+    "location": "Kalaiyarkoil Junction",
+    "latitude": 9.8474,
+    "longitude": 78.6308,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Heavy buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Madurai-Karaikudi Highway",
+    "highway": "NH-36",
+    "location": "Kallal Junction",
+    "latitude": 10.0045,
+    "longitude": 78.6178,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Improper overtaking",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Trichy Highway",
+    "highway": "NH-336",
+    "location": "Karaikudi Bypass",
+    "latitude": 10.0746,
+    "longitude": 78.7815,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Heavy trucks",
+      "Lane merging"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Trichy Highway",
+    "highway": "NH-336",
+    "location": "Kundrakudi Junction",
+    "latitude": 10.0948,
+    "longitude": 78.7602,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Sharp turns",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Devakottai Road",
+    "highway": "SH",
+    "location": "Devakottai Bus Stand",
+    "latitude": 9.9485,
+    "longitude": 78.8237,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Devakottai Road",
+    "highway": "SH",
+    "location": "Kannankudi Junction",
+    "latitude": 9.9867,
+    "longitude": 78.8458,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Sivaganga-Melur Road",
+    "highway": "SH",
+    "location": "Sivaganga Bus Stand",
+    "latitude": 9.8476,
+    "longitude": 78.4834,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Sivaganga-Melur Road",
+    "highway": "SH",
+    "location": "Collector Office Junction",
+    "latitude": 9.8498,
+    "longitude": 78.4867,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Sivaganga-Paramakudi Road",
+    "highway": "SH",
+    "location": "Ilayangudi Junction",
+    "latitude": 9.6298,
+    "longitude": 78.6254,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Sivaganga-Paramakudi Road",
+    "highway": "SH",
+    "location": "Nerkuppai Junction",
+    "latitude": 9.6847,
+    "longitude": 78.6028,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Mixed traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Pudukkottai Road",
+    "highway": "NH-336",
+    "location": "Pillayarpatti Junction",
+    "latitude": 10.0488,
+    "longitude": 78.7456,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Tourist buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Pudukkottai Road",
+    "highway": "NH-336",
+    "location": "Kandanur Junction",
+    "latitude": 10.0318,
+    "longitude": 78.7928,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy vehicles",
+      "Mixed traffic",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Sivaganga City Road",
+    "highway": "Urban Road",
+    "location": "New Bus Stand Junction",
+    "latitude": 9.8464,
+    "longitude": 78.4858,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Auto-rickshaws",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Sivaganga City Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Junction",
+    "latitude": 9.8427,
+    "longitude": 78.4786,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Railway traffic",
+      "Parking congestion",
+      "Mixed vehicles"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi City Road",
+    "highway": "Urban Road",
+    "location": "Five Lamps Junction",
+    "latitude": 10.0665,
+    "longitude": 78.7838,
+    "risk_level": "Very High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy traffic",
+      "Signal congestion",
+      "Commercial vehicles"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi City Road",
+    "highway": "Urban Road",
+    "location": "New Bus Stand Junction",
+    "latitude": 10.0724,
+    "longitude": 78.7865,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian movement",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi City Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Junction",
+    "latitude": 10.0728,
+    "longitude": 78.7944,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Railway traffic",
+      "Auto-rickshaws",
+      "Parking congestion"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Ramanathapuram Road",
+    "highway": "SH",
+    "location": "Sakkottai Junction",
+    "latitude": 10.0417,
+    "longitude": 78.8108,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Madurai-Karaikudi Highway",
+    "highway": "NH-36",
+    "location": "Tiruppuvanam Junction",
+    "latitude": 9.8245,
+    "longitude": 78.2587,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Madurai-Karaikudi Highway",
+    "highway": "NH-36",
+    "location": "Nattarasankottai Junction",
+    "latitude": 9.8892,
+    "longitude": 78.5156,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Village crossings",
+      "Overspeeding",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Tirupathur Road",
+    "highway": "SH",
+    "location": "Tirupathur Bus Stand",
+    "latitude": 10.1118,
+    "longitude": 78.6167,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Commercial traffic"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Tirupathur Road",
+    "highway": "SH",
+    "location": "Tirupathur Market Junction",
+    "latitude": 10.1134,
+    "longitude": 78.6215,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Market traffic",
+      "Improper parking",
+      "Mixed vehicles"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Tirupathur-Singampunari Road",
+    "highway": "SH",
+    "location": "Singampunari Junction",
+    "latitude": 10.1875,
+    "longitude": 78.4486,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Temple traffic",
+      "Sharp curves"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Singampunari-Melur Road",
+    "highway": "SH",
+    "location": "Muraiyur Junction",
+    "latitude": 10.1517,
+    "longitude": 78.4018,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Village crossings",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Devakottai Road",
+    "highway": "SH",
+    "location": "Kandadevi Junction",
+    "latitude": 9.9758,
+    "longitude": 78.8527,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Mixed traffic",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Devakottai-Thondi Road",
+    "highway": "SH",
+    "location": "Thiruvegampathur Junction",
+    "latitude": 9.9114,
+    "longitude": 78.9372,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Devakottai-Thondi Road",
+    "highway": "SH",
+    "location": "Sarugani Junction",
+    "latitude": 9.8628,
+    "longitude": 78.8116,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "School zone",
+      "Heavy buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Sivaganga-Melur Road",
+    "highway": "SH",
+    "location": "Padamathur Junction",
+    "latitude": 9.8846,
+    "longitude": 78.4432,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Village crossings",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Sivaganga-Manamadurai Road",
+    "highway": "SH",
+    "location": "Rajakambiram Junction",
+    "latitude": 9.7608,
+    "longitude": 78.4564,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Improper overtaking",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Sivaganga-Manamadurai Road",
+    "highway": "SH",
+    "location": "Idaikattur Junction",
+    "latitude": 9.7346,
+    "longitude": 78.3928,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Church visitors",
+      "Mixed traffic",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Chettinad Heritage Road",
+    "highway": "MDR",
+    "location": "Kanadukathan Junction",
+    "latitude": 10.1724,
+    "longitude": 78.7782,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Narrow roadway",
+      "Roadside parking"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Chettinad Heritage Road",
+    "highway": "MDR",
+    "location": "Pallathur Junction",
+    "latitude": 10.1512,
+    "longitude": 78.8045,
+    "risk_level": "Medium",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Mixed traffic",
+      "Blind intersections"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Chettinad Heritage Road",
+    "highway": "MDR",
+    "location": "Kothamangalam Junction",
+    "latitude": 10.0268,
+    "longitude": 78.8315,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi City Road",
+    "highway": "Urban Road",
+    "location": "Sekkalai Junction",
+    "latitude": 10.0798,
+    "longitude": 78.7896,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Commercial traffic",
+      "Signal congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi City Road",
+    "highway": "Urban Road",
+    "location": "Muthupattinam Junction",
+    "latitude": 10.0675,
+    "longitude": 78.8012,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Residential traffic",
+      "School buses",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi City Road",
+    "highway": "Urban Road",
+    "location": "Chettinad Hospital Junction",
+    "latitude": 10.0828,
+    "longitude": 78.7765,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Karaikudi-Kallal Road",
+    "highway": "SH",
+    "location": "Palavangudi Junction",
+    "latitude": 10.0186,
+    "longitude": 78.6547,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Mixed traffic",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Sivaganga",
+    "road_name": "Sivaganga-Ilayangudi Road",
+    "highway": "SH",
+    "location": "Pudur Junction",
+    "latitude": 9.7568,
+    "longitude": 78.5584,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
   }
+]

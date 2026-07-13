@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Perambalur",
     "road_name": "Trichy-Chennai Highway",
     "highway": "NH-38",
@@ -11,4 +12,605 @@
       "Overspeeding",
       "Truck traffic"
     ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Chennai-Trichy Highway",
+    "highway": "NH-45",
+    "location": "Perambalur Bypass Junction",
+    "latitude": 11.2337,
+    "longitude": 78.8764,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Overspeeding",
+      "Heavy trucks",
+      "Lane merging"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Chennai-Trichy Highway",
+    "highway": "NH-45",
+    "location": "Elambalur Junction",
+    "latitude": 11.2448,
+    "longitude": 78.8902,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Chennai-Trichy Highway",
+    "highway": "NH-45",
+    "location": "Siruvachur Junction",
+    "latitude": 11.2863,
+    "longitude": 78.9035,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Pedestrian crossings",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Ariyalur Road",
+    "highway": "SH-27",
+    "location": "Esanai Junction",
+    "latitude": 11.2084,
+    "longitude": 78.9547,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Ariyalur Road",
+    "highway": "SH-27",
+    "location": "Alathur Junction",
+    "latitude": 11.1729,
+    "longitude": 78.9863,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Attur Road",
+    "highway": "SH-30",
+    "location": "Veppanthattai Junction",
+    "latitude": 11.2982,
+    "longitude": 78.7396,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Sharp curves",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Attur Road",
+    "highway": "SH-30",
+    "location": "Poolambadi Junction",
+    "latitude": 11.2738,
+    "longitude": 78.7821,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Mixed vehicles",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Thuraiyur Road",
+    "highway": "SH-62",
+    "location": "Labbaikudikadu Junction",
+    "latitude": 11.1405,
+    "longitude": 78.8897,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial activity",
+      "Heavy buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Thuraiyur Road",
+    "highway": "SH-62",
+    "location": "Chettikulam Junction",
+    "latitude": 11.1836,
+    "longitude": 78.8468,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Improper overtaking",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Kunnam Road",
+    "highway": "SH",
+    "location": "Kunnam Junction",
+    "latitude": 11.1864,
+    "longitude": 79.0957,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Agricultural vehicles",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Kunnam Road",
+    "highway": "SH",
+    "location": "Pennakonam Junction",
+    "latitude": 11.2197,
+    "longitude": 79.0488,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Poor visibility",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur City Road",
+    "highway": "Urban Road",
+    "location": "New Bus Stand Junction",
+    "latitude": 11.2346,
+    "longitude": 78.8818,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur City Road",
+    "highway": "Urban Road",
+    "location": "Old Bus Stand Junction",
+    "latitude": 11.2328,
+    "longitude": 78.8752,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Heavy traffic",
+      "Auto-rickshaws",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur City Road",
+    "highway": "Urban Road",
+    "location": "Collector Office Junction",
+    "latitude": 11.2361,
+    "longitude": 78.8794,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur Railway Station Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Junction",
+    "latitude": 11.2258,
+    "longitude": 78.8675,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Auto-rickshaws",
+      "Parking congestion",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Vepur Road",
+    "highway": "MDR",
+    "location": "Vepur Junction",
+    "latitude": 11.3254,
+    "longitude": 78.9627,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Heavy buses",
+      "Village crossings",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Vepur Road",
+    "highway": "MDR",
+    "location": "Aranarai Junction",
+    "latitude": 11.2968,
+    "longitude": 78.9341,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Agricultural traffic",
+      "Improper overtaking",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Siruganur Road",
+    "highway": "SH",
+    "location": "Valikandapuram Junction",
+    "latitude": 11.2163,
+    "longitude": 78.8174,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Heavy buses",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Siruganur Road",
+    "highway": "SH",
+    "location": "Padalur Junction",
+    "latitude": 11.1418,
+    "longitude": 78.7864,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Commercial traffic",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Chettikulam Road",
+    "highway": "MDR",
+    "location": "Chettikulam Temple Junction",
+    "latitude": 11.1818,
+    "longitude": 78.8507,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Pedestrian crossings",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Chennai-Trichy Highway",
+    "highway": "NH-45",
+    "location": "Veppur Toll Plaza",
+    "latitude": 11.3362,
+    "longitude": 78.9715,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Sudden braking",
+      "Heavy trucks",
+      "Lane merging"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Chennai-Trichy Highway",
+    "highway": "NH-45",
+    "location": "V.Kalathur Junction",
+    "latitude": 11.1815,
+    "longitude": 78.9148,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Ariyalur Road",
+    "highway": "SH-27",
+    "location": "Kilumathur Junction",
+    "latitude": 11.2014,
+    "longitude": 78.9725,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Poor visibility",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Ariyalur Road",
+    "highway": "SH-27",
+    "location": "Nakkasalem Junction",
+    "latitude": 11.1872,
+    "longitude": 79.0146,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Heavy buses",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Attur Road",
+    "highway": "SH-30",
+    "location": "Arumbavur Junction",
+    "latitude": 11.3768,
+    "longitude": 78.7294,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Market traffic",
+      "Pedestrian crossings",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Attur Road",
+    "highway": "SH-30",
+    "location": "Kaikalathur Junction",
+    "latitude": 11.3147,
+    "longitude": 78.7613,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Thuraiyur Road",
+    "highway": "SH-62",
+    "location": "Kurumbalur Junction",
+    "latitude": 11.1578,
+    "longitude": 78.8612,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Improper overtaking",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Thuraiyur Road",
+    "highway": "SH-62",
+    "location": "Melapuliyur Junction",
+    "latitude": 11.1336,
+    "longitude": 78.8335,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village traffic",
+      "Poor lighting",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Kunnam Road",
+    "highway": "SH",
+    "location": "Sirukanpur Junction",
+    "latitude": 11.1984,
+    "longitude": 79.0726,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Mixed traffic",
+      "Blind intersections"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Kunnam Road",
+    "highway": "SH",
+    "location": "Perali Junction",
+    "latitude": 11.2148,
+    "longitude": 79.0824,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur City Road",
+    "highway": "Urban Road",
+    "location": "Four Road Junction",
+    "latitude": 11.2358,
+    "longitude": 78.8798,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Signal congestion",
+      "Commercial traffic",
+      "Frequent lane changes"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur City Road",
+    "highway": "Urban Road",
+    "location": "Government Hospital Junction",
+    "latitude": 11.2316,
+    "longitude": 78.8834,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur City Road",
+    "highway": "Urban Road",
+    "location": "District Court Junction",
+    "latitude": 11.2371,
+    "longitude": 78.8785,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Peak-hour congestion",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Elambalur Road",
+    "highway": "MDR",
+    "location": "Elambalur Lake Junction",
+    "latitude": 11.2465,
+    "longitude": 78.8878,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Narrow roadway",
+      "Rain",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Elambalur Road",
+    "highway": "MDR",
+    "location": "Perambalur Engineering College Junction",
+    "latitude": 11.2528,
+    "longitude": 78.8952,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Student crossings",
+      "Bus traffic",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Vepur Road",
+    "highway": "MDR",
+    "location": "Mangalamedu Junction",
+    "latitude": 11.2861,
+    "longitude": 78.9487,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Mixed traffic",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Vepur Road",
+    "highway": "MDR",
+    "location": "Koneripalayam Junction",
+    "latitude": 11.3084,
+    "longitude": 78.9563,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Village crossings",
+      "Poor shoulders",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Siruganur Road",
+    "highway": "SH",
+    "location": "Alambadi Junction",
+    "latitude": 11.1986,
+    "longitude": 78.8042,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Agricultural vehicles",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Siruganur Road",
+    "highway": "SH",
+    "location": "Siruganur Border Junction",
+    "latitude": 11.1042,
+    "longitude": 78.7368,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "High-speed traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Perambalur",
+    "road_name": "Perambalur-Chettikulam Road",
+    "highway": "MDR",
+    "location": "Perambalur Integrated Market Junction",
+    "latitude": 11.2298,
+    "longitude": 78.8725,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Market congestion",
+      "Loading vehicles",
+      "Pedestrian crossings"
+    ]
   }
+]

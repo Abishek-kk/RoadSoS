@@ -1,4 +1,5 @@
- {
+ [
+  {
     "district": "Dharmapuri",
     "road_name": "Salem-Krishnagiri Road",
     "highway": "NH-44",
@@ -11,5 +12,606 @@
       "Overtaking",
       "Mixed traffic"
     ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Bengaluru-Salem Highway",
+    "highway": "NH-44",
+    "location": "Thoppur Ghat",
+    "latitude": 11.8873,
+    "longitude": 78.0814,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Steep ghat section",
+      "Overspeeding",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Bengaluru-Salem Highway",
+    "highway": "NH-44",
+    "location": "Thoppur Toll Plaza",
+    "latitude": 11.9018,
+    "longitude": 78.0621,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Lane changes",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Bengaluru-Salem Highway",
+    "highway": "NH-44",
+    "location": "Nallampalli Junction",
+    "latitude": 12.0148,
+    "longitude": 78.1615,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Intersection traffic",
+      "Heavy buses",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Bengaluru-Salem Highway",
+    "highway": "NH-44",
+    "location": "Adhiyamankottai",
+    "latitude": 12.1386,
+    "longitude": 78.1721,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Service road merging",
+      "Fast-moving traffic",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Bengaluru-Salem Highway",
+    "highway": "NH-44",
+    "location": "Dharmapuri Bus Stand Junction",
+    "latitude": 12.1277,
+    "longitude": 78.1570,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Bus traffic",
+      "Pedestrian crossings",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Hogenakkal-Dharmapuri Road",
+    "highway": "SH-60",
+    "location": "Pennagaram Junction",
+    "latitude": 12.1368,
+    "longitude": 77.8956,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist traffic",
+      "Bus movement",
+      "Sharp turns"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Hogenakkal-Dharmapuri Road",
+    "highway": "SH-60",
+    "location": "Hogenakkal Falls Entrance",
+    "latitude": 12.1187,
+    "longitude": 77.7748,
+    "risk_level": "Very High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist vehicles",
+      "Weekend congestion",
+      "Sharp curves"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Harur Road",
+    "highway": "SH-60A",
+    "location": "Morappur Junction",
+    "latitude": 12.1274,
+    "longitude": 78.3826,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Poor visibility",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Harur Road",
+    "highway": "SH-60A",
+    "location": "Harur Bus Stand",
+    "latitude": 12.0498,
+    "longitude": 78.4841,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Pedestrian crossings",
+      "Bus congestion"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Palacode Road",
+    "highway": "SH",
+    "location": "Palacode Junction",
+    "latitude": 12.2976,
+    "longitude": 78.0714,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Mixed traffic",
+      "Market congestion",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Karimangalam Road",
+    "highway": "MDR",
+    "location": "Karimangalam",
+    "latitude": 12.1935,
+    "longitude": 78.2041,
+    "risk_level": "Medium",
+    "road_type": "Major District Road",
+    "major_cause": [
+      "Village crossings",
+      "Poor lighting",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "NH-844",
+    "highway": "NH-844",
+    "location": "Jittandahalli",
+    "latitude": 12.1864,
+    "longitude": 78.0952,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed corridor",
+      "Heavy trucks",
+      "Improper lane changes"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "NH-844",
+    "highway": "NH-844",
+    "location": "Adhiyamankottai Interchange",
+    "latitude": 12.1468,
+    "longitude": 78.1653,
+    "risk_level": "Very High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Flyover merging",
+      "Heavy vehicles",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Pennagaram-Hogenakkal Road",
+    "highway": "SH-60",
+    "location": "Hogenakkal Check Post",
+    "latitude": 12.1118,
+    "longitude": 77.7834,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist buses",
+      "Blind curves",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Harur-Pappireddipatti Road",
+    "highway": "SH",
+    "location": "Pappireddipatti",
+    "latitude": 11.9904,
+    "longitude": 78.2921,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus traffic",
+      "Narrow road",
+      "Village crossings"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri Inner Ring Road",
+    "highway": "Urban Road",
+    "location": "Collectorate Junction",
+    "latitude": 12.1168,
+    "longitude": 78.1662,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Signal congestion",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri Railway Station Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Entrance",
+    "latitude": 12.1216,
+    "longitude": 78.1548,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Auto-rickshaws",
+      "Pedestrian crossings",
+      "Peak-hour traffic"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Pennagaram Road",
+    "highway": "SH-60",
+    "location": "Sogathur Junction",
+    "latitude": 12.1017,
+    "longitude": 78.0673,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Poor shoulders",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Morappur Road",
+    "highway": "SH-60A",
+    "location": "Kadagathur",
+    "latitude": 12.1182,
+    "longitude": 78.2817,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp bends",
+      "Mixed traffic",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Pennagaram Road",
+    "highway": "SH-60",
+    "location": "Bikkampatti Junction",
+    "latitude": 12.1432,
+    "longitude": 78.0186,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy traffic",
+      "Improper overtaking",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Bengaluru-Salem Highway",
+    "highway": "NH-44",
+    "location": "Lakkiampatti Junction",
+    "latitude": 12.1498,
+    "longitude": 78.1452,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy truck movement",
+      "Signal violations",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Bengaluru-Salem Highway",
+    "highway": "NH-44",
+    "location": "A.J. Hospital Junction",
+    "latitude": 12.1186,
+    "longitude": 78.1637,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Hospital traffic",
+      "Pedestrian crossings",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Krishnagiri Road",
+    "highway": "NH-844",
+    "location": "Pulikarai Junction",
+    "latitude": 12.2334,
+    "longitude": 78.1325,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy vehicles",
+      "Poor visibility",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Krishnagiri Road",
+    "highway": "NH-844",
+    "location": "Kuppur Junction",
+    "latitude": 12.2718,
+    "longitude": 78.1036,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Improper overtaking",
+      "Heavy buses",
+      "Sharp curve"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Pennagaram Road",
+    "highway": "SH-60",
+    "location": "Indur Junction",
+    "latitude": 12.0894,
+    "longitude": 78.1187,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Bus traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Pennagaram Road",
+    "highway": "SH-60",
+    "location": "Mookanur",
+    "latitude": 12.0617,
+    "longitude": 78.0228,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Blind turns",
+      "Heavy vehicles",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Pennagaram-Hogenakkal Road",
+    "highway": "SH-60",
+    "location": "Nagamarai",
+    "latitude": 12.1296,
+    "longitude": 77.8465,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Tourist buses",
+      "Sharp bends",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Pennagaram-Hogenakkal Road",
+    "highway": "SH-60",
+    "location": "Koothapadi",
+    "latitude": 12.1035,
+    "longitude": 77.8214,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Narrow carriageway",
+      "Poor shoulders",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Harur-Morappur Road",
+    "highway": "SH-60A",
+    "location": "Kongarapatti",
+    "latitude": 12.0842,
+    "longitude": 78.4218,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Sharp curves",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Harur-Morappur Road",
+    "highway": "SH-60A",
+    "location": "Theerthamalai Road Junction",
+    "latitude": 12.0608,
+    "longitude": 78.5104,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Weekend congestion",
+      "Improper parking"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Palacode-Hosur Road",
+    "highway": "SH",
+    "location": "Belrampatti",
+    "latitude": 12.3475,
+    "longitude": 78.0216,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "High-speed traffic",
+      "Village crossings",
+      "Poor visibility"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Palacode-Hosur Road",
+    "highway": "SH",
+    "location": "Marandahalli",
+    "latitude": 12.3894,
+    "longitude": 77.9007,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Bus congestion",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Palacode Road",
+    "highway": "SH",
+    "location": "Settikarai",
+    "latitude": 12.2165,
+    "longitude": 78.1184,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Poor road shoulders",
+      "Rain",
+      "Livestock crossing"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Palacode Road",
+    "highway": "SH",
+    "location": "Errapatti Junction",
+    "latitude": 12.2543,
+    "longitude": 78.0916,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus traffic",
+      "Blind curves",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Harur Road",
+    "highway": "SH-60A",
+    "location": "Mukkanur",
+    "latitude": 12.0938,
+    "longitude": 78.3275,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Poor visibility",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri-Harur Road",
+    "highway": "SH-60A",
+    "location": "Sittilingi Junction",
+    "latitude": 12.0156,
+    "longitude": 78.5408,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Hill traffic",
+      "Sharp bends",
+      "Rain"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri Town Road",
+    "highway": "Urban Road",
+    "location": "Four Roads Junction",
+    "latitude": 12.1215,
+    "longitude": 78.1608,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Signal congestion",
+      "Heavy traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Dharmapuri Town Road",
+    "highway": "Urban Road",
+    "location": "Government Medical College Junction",
+    "latitude": 12.1324,
+    "longitude": 78.1716,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Congestion"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Bengaluru-Salem Highway",
+    "highway": "NH-44",
+    "location": "Sogathur Flyover",
+    "latitude": 12.1034,
+    "longitude": 78.1438,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "High-speed corridor",
+      "Improper lane changes",
+      "Heavy trucks"
+    ]
+  },
+  {
+    "district": "Dharmapuri",
+    "road_name": "Bengaluru-Salem Highway",
+    "highway": "NH-44",
+    "location": "Thadangam Junction",
+    "latitude": 12.1718,
+    "longitude": 78.1806,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Service road merging",
+      "Overspeeding",
+      "Poor visibility"
+    ]
   }
+]
   

@@ -1,4 +1,5 @@
- {
+ [
+  {
     "district": "Tenkasi",
     "road_name": "Tenkasi-Sengottai Road",
     "highway": "NH-744",
@@ -11,4 +12,605 @@
       "Tourist traffic",
       "Rain"
     ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Madurai-Tenkasi Highway",
+    "highway": "NH-744",
+    "location": "Tenkasi New Bus Stand Junction",
+    "latitude": 8.9598,
+    "longitude": 77.3156,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Madurai-Tenkasi Highway",
+    "highway": "NH-744",
+    "location": "Tenkasi Railway Overbridge",
+    "latitude": 8.9624,
+    "longitude": 77.3125,
+    "risk_level": "High",
+    "road_type": "Bridge Road",
+    "major_cause": [
+      "Traffic congestion",
+      "Poor visibility",
+      "Heavy vehicles"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Sengottai Highway",
+    "highway": "NH-744",
+    "location": "Sengottai Bus Stand Junction",
+    "latitude": 8.9735,
+    "longitude": 77.2496,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Interstate traffic",
+      "Heavy buses",
+      "Commercial vehicles"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Sengottai Highway",
+    "highway": "NH-744",
+    "location": "Puliyarai Check Post",
+    "latitude": 8.9537,
+    "longitude": 77.1716,
+    "risk_level": "Very High",
+    "road_type": "Border Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Steep gradient",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Courtallam Road",
+    "highway": "SH-39",
+    "location": "Courtallam Main Falls Junction",
+    "latitude": 8.9346,
+    "longitude": 77.2756,
+    "risk_level": "Very High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist traffic",
+      "Roadside parking",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Courtallam Road",
+    "highway": "SH-39",
+    "location": "Five Falls Junction",
+    "latitude": 8.9195,
+    "longitude": 77.2694,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist buses",
+      "Sharp curves",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Courtallam Hill Road",
+    "highway": "Hill Road",
+    "location": "Tiger Falls Junction",
+    "latitude": 8.9288,
+    "longitude": 77.2837,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Slippery roads",
+      "Tourist traffic",
+      "Blind curves"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Courtallam Hill Road",
+    "highway": "Hill Road",
+    "location": "Old Courtallam Junction",
+    "latitude": 8.9408,
+    "longitude": 77.2874,
+    "risk_level": "Medium",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Mixed traffic",
+      "Rain",
+      "Sharp turns"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Ambasamudram Road",
+    "highway": "SH",
+    "location": "Alangulam Junction",
+    "latitude": 8.8657,
+    "longitude": 77.5008,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Ambasamudram Road",
+    "highway": "SH",
+    "location": "Pottalpudur Junction",
+    "latitude": 8.8874,
+    "longitude": 77.4525,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Poor lighting"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Rajapalayam Road",
+    "highway": "SH-41",
+    "location": "Kadayanallur Bus Stand",
+    "latitude": 9.0735,
+    "longitude": 77.3418,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Pedestrian crossings",
+      "Commercial activity"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Rajapalayam Road",
+    "highway": "SH-41",
+    "location": "Puliyangudi Junction",
+    "latitude": 9.1736,
+    "longitude": 77.3967,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Market traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Puliyangudi-Sankarankovil Road",
+    "highway": "SH",
+    "location": "Vasudevanallur Junction",
+    "latitude": 9.2426,
+    "longitude": 77.4118,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Mixed traffic",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Kadayanallur-Sengottai Road",
+    "highway": "SH",
+    "location": "Achanpudur Junction",
+    "latitude": 8.9946,
+    "longitude": 77.2978,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Poor shoulders"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Kadayanallur-Sengottai Road",
+    "highway": "SH",
+    "location": "Ilanji Junction",
+    "latitude": 8.9478,
+    "longitude": 77.3035,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Temple traffic",
+      "Mixed vehicles",
+      "Sharp curves"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi City Road",
+    "highway": "Urban Road",
+    "location": "Old Bus Stand Junction",
+    "latitude": 8.9605,
+    "longitude": 77.3172,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus congestion",
+      "Commercial traffic",
+      "Pedestrian movement"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi City Road",
+    "highway": "Urban Road",
+    "location": "Kasi Viswanathar Temple Junction",
+    "latitude": 8.9591,
+    "longitude": 77.3152,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Pilgrim traffic",
+      "Improper parking",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi City Road",
+    "highway": "Urban Road",
+    "location": "Government Hospital Junction",
+    "latitude": 8.9642,
+    "longitude": 77.3205,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Hospital traffic",
+      "Auto-rickshaws",
+      "Peak-hour congestion"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi City Road",
+    "highway": "Urban Road",
+    "location": "Railway Station Junction",
+    "latitude": 8.9661,
+    "longitude": 77.3098,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Railway traffic",
+      "Parking congestion",
+      "Mixed vehicles"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Sengottai-Kerala Border Road",
+    "highway": "NH-744",
+    "location": "Aryankavu Border Junction",
+    "latitude": 8.9138,
+    "longitude": 77.1468,
+    "risk_level": "Very High",
+    "road_type": "Mountain Highway",
+    "major_cause": [
+      "Ghat curves",
+      "Heavy container trucks",
+      "Dense fog"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Tirunelveli Road",
+    "highway": "NH-744",
+    "location": "Melagaram Junction",
+    "latitude": 8.9448,
+    "longitude": 77.3276,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy buses",
+      "Commercial traffic",
+      "Signal congestion"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Tirunelveli Road",
+    "highway": "NH-744",
+    "location": "Pavoorchatram Junction",
+    "latitude": 8.9187,
+    "longitude": 77.3726,
+    "risk_level": "High",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Heavy trucks",
+      "Road merging",
+      "Overspeeding"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi-Tirunelveli Road",
+    "highway": "NH-744",
+    "location": "Keezhapavoor Junction",
+    "latitude": 8.9045,
+    "longitude": 77.3498,
+    "risk_level": "Medium",
+    "road_type": "National Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Surandai-Tenkasi Road",
+    "highway": "SH-39",
+    "location": "Surandai Bus Stand",
+    "latitude": 8.9758,
+    "longitude": 77.4205,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Bus congestion",
+      "Market traffic",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Surandai-Tenkasi Road",
+    "highway": "SH-39",
+    "location": "Veerasigamani Junction",
+    "latitude": 9.0126,
+    "longitude": 77.4478,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Poor visibility",
+      "Heavy buses"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Surandai-Alangulam Road",
+    "highway": "SH",
+    "location": "Keelapavoor Junction",
+    "latitude": 8.8964,
+    "longitude": 77.3567,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Mixed traffic",
+      "Improper overtaking"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Puliyangudi-Sivagiri Road",
+    "highway": "SH",
+    "location": "Sivagiri Bus Stand",
+    "latitude": 9.3438,
+    "longitude": 77.4316,
+    "risk_level": "High",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Commercial traffic",
+      "Heavy buses",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Puliyangudi-Sivagiri Road",
+    "highway": "SH",
+    "location": "Thalaivankottai Junction",
+    "latitude": 9.2918,
+    "longitude": 77.4197,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural traffic",
+      "Poor shoulders",
+      "Mixed vehicles"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Sengottai-Aryankavu Road",
+    "highway": "NH-744",
+    "location": "Mekkarai Junction",
+    "latitude": 8.9035,
+    "longitude": 77.1826,
+    "risk_level": "Very High",
+    "road_type": "Mountain Highway",
+    "major_cause": [
+      "Sharp curves",
+      "Dense fog",
+      "Heavy container trucks"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Sengottai-Aryankavu Road",
+    "highway": "NH-744",
+    "location": "Shencottah Ghat Section",
+    "latitude": 8.9368,
+    "longitude": 77.2125,
+    "risk_level": "Very High",
+    "road_type": "Ghat Road",
+    "major_cause": [
+      "Steep descent",
+      "Brake failure",
+      "Hairpin bends"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Courtallam Road",
+    "highway": "SH-39",
+    "location": "Small Falls Junction",
+    "latitude": 8.9268,
+    "longitude": 77.2764,
+    "risk_level": "High",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist parking",
+      "Pedestrian crossings",
+      "Weekend congestion"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Courtallam Road",
+    "highway": "SH-39",
+    "location": "Shenbaga Devi Falls Road",
+    "latitude": 8.9314,
+    "longitude": 77.2817,
+    "risk_level": "High",
+    "road_type": "Hill Road",
+    "major_cause": [
+      "Narrow roadway",
+      "Rain",
+      "Slippery surface"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Courtallam Road",
+    "highway": "SH-39",
+    "location": "Eco Park Junction",
+    "latitude": 8.9372,
+    "longitude": 77.2845,
+    "risk_level": "Medium",
+    "road_type": "Tourist Road",
+    "major_cause": [
+      "Tourist vehicles",
+      "Improper parking",
+      "Blind curves"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Kadayanallur-Tenkasi Road",
+    "highway": "SH",
+    "location": "Krishnapuram Junction",
+    "latitude": 9.0267,
+    "longitude": 77.3326,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Village crossings",
+      "Heavy buses",
+      "Night driving"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Kadayanallur-Tenkasi Road",
+    "highway": "SH",
+    "location": "Punnaiahpuram Junction",
+    "latitude": 9.0128,
+    "longitude": 77.3185,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Agricultural vehicles",
+      "Poor visibility",
+      "Mixed traffic"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi City Road",
+    "highway": "Urban Road",
+    "location": "Melagaram Bus Stand",
+    "latitude": 8.9478,
+    "longitude": 77.3268,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Bus traffic",
+      "Commercial activity",
+      "Pedestrian crossings"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi City Road",
+    "highway": "Urban Road",
+    "location": "Anna Statue Junction",
+    "latitude": 8.9587,
+    "longitude": 77.3188,
+    "risk_level": "High",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Signal congestion",
+      "Heavy traffic",
+      "Improper lane discipline"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi City Road",
+    "highway": "Urban Road",
+    "location": "Court Road Junction",
+    "latitude": 8.9618,
+    "longitude": 77.3214,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Office traffic",
+      "Pedestrian crossings",
+      "Auto-rickshaws"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Tenkasi City Road",
+    "highway": "Urban Road",
+    "location": "Tenkasi Collector Office Junction",
+    "latitude": 8.9675,
+    "longitude": 77.3257,
+    "risk_level": "Medium",
+    "road_type": "Urban Road",
+    "major_cause": [
+      "Government office traffic",
+      "Peak-hour congestion",
+      "Mixed vehicles"
+    ]
+  },
+  {
+    "district": "Tenkasi",
+    "road_name": "Puliyangudi-Vasudevanallur Road",
+    "highway": "SH",
+    "location": "Karivalamvandhanallur Junction",
+    "latitude": 9.2736,
+    "longitude": 77.4024,
+    "risk_level": "Medium",
+    "road_type": "State Highway",
+    "major_cause": [
+      "Heavy agricultural vehicles",
+      "Village crossings",
+      "Poor road shoulders"
+    ]
   }
+]
