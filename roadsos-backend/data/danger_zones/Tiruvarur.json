@@ -1,14 +1,2004 @@
-{
+[
+  {
+    "id": "TVR0101",
+    "road_name": "Nagapattinam - Gudalur Highway (NH-83) - Tiruvarur Town Approach",
+    "city": "Tiruvarur Urban Outskirts",
     "district": "Tiruvarur",
-    "road_name": "Tiruvarur-Nagapattinam Road",
-    "highway": "NH-83",
-    "location": "Koradacheri",
-    "latitude": 10.7685,
-    "longitude": 79.4834,
-    "risk_level": "Medium",
-    "road_type": "National Highway",
-    "major_cause": [
-      "Rain",
-      "Poor visibility"
+    "state": "Tamil Nadu",
+    "latitude": 10.7725,
+    "longitude": 79.6361,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Pedestrian Congestion near Temple Entrance",
+      "Narrow Carriage Lanes with Encroachments"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Reduce speed drastically when approaching the active market zones.",
+      "Watch closely for sudden pedestrian crossings and non-motorized vehicles.",
+      "Strictly avoid overtaking near the town entry choke points."
+    ]
+  },
+  {
+    "id": "TVR0102",
+    "road_name": "Tanjore - Velankanni Road (SH-63) - Needamangalam Railway Crossing Section",
+    "city": "Needamangalam",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7674,
+    "longitude": 79.4122,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Frequent Traffic Bottlenecks at Level Crossing",
+      "Erratic Lane Splitting by Two-Wheelers"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Expect long vehicle queues and stationary traffic near the railway gates.",
+      "Do not try to force your way into opposing lanes during traffic buildups.",
+      "Stay alert to sudden braking from commercial vehicles ahead."
+    ]
+  },
+  {
+    "id": "TVR0103",
+    "road_name": "Kumbakonam - Mannargudi Road (SH-66) - Vaduvur Lake Curve",
+    "city": "Vaduvur",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6953,
+    "longitude": 79.3194,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Blind Curve Parallel to Water Body",
+      "Lack of Proper Nighttime Retroreflective Edge Signage"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Dim high beams at night to prevent blinding oncoming traffic on the curve.",
+      "Maintain strict lane discipline and do not drift across center lines.",
+      "Be cautious of stray animals roaming near the lakeside banks."
+    ]
+  },
+  {
+    "id": "TVR0104",
+    "road_name": "Thiruthuraipoondi - Nagapattinam Road (SH-23) - Alathambadi Junction",
+    "city": "Alathambadi Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5911,
+    "longitude": 79.6744,
+    "danger_level": "High",
+    "danger_type": [
+      "Uncontrolled T-Junction Intersecting Rural Links",
+      "Low Visibility Caused by Agricultural Field Crop Linings"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Scan the roadside intersections carefully for merging farm tractors.",
+      "Sound your horn when approaching the blind link-road entry points.",
+      "Avoid speeding during early morning hours due to localized low mist."
+    ]
+  },
+  {
+    "id": "TVR0105",
+    "road_name": "Mannargudi - Muthupet Road (SH-146) - Kottur Blind S-Bend",
+    "city": "Kottur Village Stretch",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5428,
+    "longitude": 79.4419,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Reverse Sharp S-Curves",
+      "Slippery Road Surface Conditions Following Irrigation Canal Overflow"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Slow down significantly before entering the first phase of the S-bend.",
+      "Watch out for wet patches or mud deposits dragged onto the tarmac.",
+      "Keep a safe braking distance from heavy agricultural transport."
+    ]
+  },
+  {
+    "id": "TVR0106",
+    "road_name": "Tiruvarur - Mayiladuthurai Road (SH-23) - Nannilam Intersection Link",
+    "city": "Nannilam Rural Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8861,
+    "longitude": 79.6147,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Improper Merge Lanes from Secondary Town Roads",
+      "High-Speed Inter-District Bus Transit Movements"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Yield to fast-moving buses traversing the primary state highway corridors.",
+      "Use your turn signals early if transitioning off the main highway.",
+      "Check rear-view mirrors continuously for fast-approaching vehicles."
+    ]
+  },
+  {
+    "id": "TVR0107",
+    "road_name": "Kudavasal - Tiruvarur Road (SH-65) - Koradacheri Junction Core",
+    "city": "Koradacheri",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7786,
+    "longitude": 79.5025,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossroad Flow Without Active Traffic Lights",
+      "Encroaching Commercial Shops Distracting Driver Vision Lines"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the central junction cross-point with extreme defensive care.",
+      "Be prepared for two-wheelers pulling out abruptly from shop fronts.",
+      "Keep foot ready near the brake pedal while navigating the core zone."
+    ]
+  },
+  {
+    "id": "TVR0108",
+    "road_name": "Kumbakonam - Tiruvarur Road (SH-65) - Kudavasal Town Bridge Descent",
+    "city": "Kudavasal Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8744,
+    "longitude": 79.4892,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Steep Bridge Slope Ending Directly in a Sharp Turn",
+      "Narrow Guard Rails with Missing Structural Reflector Blocks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Shift to a lower gear to use engine braking when descending the bridge.",
+      "Do not attempt overtaking maneuvers anywhere on the narrow bridge span.",
+      "Stay centered to avoid scraping sides against the close concrete barriers."
+    ]
+  },
+  {
+    "id": "TVR0109",
+    "road_name": "Mannargudi - Thanjavur Highway (SH-63) - Pamani River Bridge Sector",
+    "city": "Mannargudi Northern Border",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6811,
+    "longitude": 79.4447,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Road Narrowing at Old Bridge Infrastructure entry",
+      "High Density of Heavy Sand Trucks Traveling from Delta Beds"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Give right-of-way to heavy incoming commercial transport on the bridge.",
+      "Look out for sudden road surface degradation near the structural joints.",
+      "Avoid tailgating large multi-axle freight trucks over the river stretch."
+    ]
+  },
+  {
+    "id": "TVR0110",
+    "road_name": "Thiruthuraipoondi - Muthupet Coastal Link (NH-32) - Edaiyur Straightaway",
+    "city": "Edaiyur Rural Section",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4289,
+    "longitude": 79.5114,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Straight Road Encouraging Excessive Over-Speeding",
+      "Unexpected Cattle Crossings from Adjoining Coastal Pastures"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "Medium",
+    "recommended_speed": 60,
+    "safety_tips": [
+      "Strictly adhere to cruise speed limits despite open road appearance.",
+      "Scan both sides of the horizon for livestock moving toward the road.",
+      "Take breaks if experiencing driving fatigue due to monotonous layouts."
+    ]
+  },
+  {
+    "id": "TVR0111",
+    "road_name": "Valangaiman - Papanasam Road (MDR-624) - Rural Canal Side Corridor",
+    "city": "Valangaiman Border Area",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9022,
+    "longitude": 79.3878,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Soft, Eroded Unpaved Shoulders Falling Into Agri Canals",
+      "Extremely Narrow Width Barely Allowing Two Large Vehicles to Pass"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Pull over onto stable ground and stop if a wide commercial vehicle approaches.",
+      "Avoid leaning too close to the left edge where shoulder dirt is loose.",
+      "Drive at highly reduced speeds during monsoonal cloudburst intervals."
+    ]
+  },
+  {
+    "id": "TVR0112",
+    "road_name": "East Coast Road Link (NH-32) - Muthupet Bypass Junction",
+    "city": "Muthupet Town Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4042,
+    "longitude": 79.4875,
+    "danger_level": "High",
+    "danger_type": [
+      "High-Speed Bypass Divergence with Complex Grade Markings",
+      "Inadequate Warning Signage for Drivers Entering the Local Ring Route"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Decelerate early when transitioning from the express bypass route.",
+      "Follow directional road markers strictly to avoid lane confusion.",
+      "Watch for local moped riders cutting across the high-speed lanes."
+    ]
+  },
+  {
+    "id": "TVR0113",
+    "road_name": "Needamangalam - Kumbakonam Link Route - Poyyamani Blind Curve",
+    "city": "Poyyamani Rural Sector",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8115,
+    "longitude": 79.4219,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Geometric Sharp Angle Curve",
+      "Dense Overhead Tree Canopy Causing Severe Shadow-Lighting Illusion"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Turn on low-beam headlights to combat the dim lighting under heavy trees.",
+      "Sound warnings when heading into the apex of the unviewable bend.",
+      "Watch out for fallen branches or leaves reducing tire traction."
+    ]
+  },
+  {
+    "id": "TVR0114",
+    "road_name": "Tiruvarur - Thanjavur Highway (NH-83) - Ammaiyappan Market Junction",
+    "city": "Ammaiyappan Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7812,
+    "longitude": 79.5543,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Bottleneck due to Roadside Weekly Market Stalls",
+      "Unregulated U-turns by Local Passenger Vans"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect sudden pedestrian movements across the central highway line.",
+      "Keep a safe distance from shared autos pulling over without signaling.",
+      "Avoid overtaking maneuvers within the village residential perimeter."
+    ]
+  },
+  {
+    "id": "TVR0115",
+    "road_name": "Mannargudi - Orathanadu Road (SH-146) - Vadaseri S-Bend Complex",
+    "city": "Vadaseri Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6341,
+    "longitude": 79.3512,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Blind Reverse Curves",
+      "Low Lateral Visibility due to Tall Sugarcane Crops"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn continuously before entering the blind curve apex.",
+      "Stay strictly within your lane marking to avoid oncoming heavy vehicles.",
+      "Be prepared for slow-moving bullock carts merging from farm tracks."
+    ]
+  },
+  {
+    "id": "TVR0116",
+    "road_name": "Mayiladuthurai - Thiruthuraipoondi Road (SH-23) - Peralam Junction",
+    "city": "Peralam Town Border",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9714,
+    "longitude": 79.6528,
+    "danger_level": "High",
+    "danger_type": [
+      "Criss-Cross Traffic from Intersecting Karaikal Link Roads",
+      "Lack of Channelizing Traffic Islands at Main Intersection"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Yield to inter-state heavy transport traffic originating from Karaikal.",
+      "Proceed only after checking both directions for speeding two-wheelers.",
+      "Maintain active foot coverage on your brake pedal through the junction."
+    ]
+  },
+  {
+    "id": "TVR0117",
+    "road_name": "Muthupet - Pattukottai Road (NH-32) - Thillaivilagam Rail Overbridge Approach",
+    "city": "Thillaivilagam Rural",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4125,
+    "longitude": 79.4311,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Steep Approach Gradient with Missing Edge Reflectors",
+      "High-Speed Heavy Vehicle Crossflow from Neighboring Districts"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Maintain a steady speed and do not attempt to overtake on the incline.",
+      "Watch for commercial trucks moving slowly up the bridge gradient.",
+      "Keep headlights on low beam during late evening runs for better surface clarity."
+    ]
+  },
+  {
+    "id": "TVR0118",
+    "road_name": "Tiruvarur - Kodavasal Road (SH-65) - Kangalanchery School Zone Corner",
+    "city": "Kangalanchery Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7989,
+    "longitude": 79.6014,
+    "danger_level": "High",
+    "danger_type": [
+      "High Vulnerability due to School Student Foot Traffic",
+      "Sharp Angular Turn Right after a Narrow Canal Bridge"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly follow school zone speed limits during morning and afternoon hours.",
+      "Keep a sharp eye out for cycles pulling out from side lanes.",
+      "Do not accelerate until completely clearing the canal bridge bottleneck."
+    ]
+  },
+  {
+    "id": "TVR0119",
+    "road_name": "Thiruthuraipoondi - Vedaranyam Road (SH-63) - Sannathi Street Intersection",
+    "city": "Thiruthuraipoondi Urban Center",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5347,
+    "longitude": 79.6425,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Extremely Narrow Road Width with Parked Vehicles on Both Sides",
+      "Heavy Pedestrian Congestion around Commercial Complex Core"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive defensively and expect sudden door openings from parked cars.",
+      "Give absolute right-of-way to pedestrians crossing the bazaar lines.",
+      "Avoid using high-decibel horns to prevent panic among local shoppers."
+    ]
+  },
+  {
+    "id": "TVR0120",
+    "road_name": "Kumbakonam - Mannargudi Road (SH-66) - Kalanjeri Blind Junction",
+    "city": "Kalanjeri Rural Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7314,
+    "longitude": 79.3367,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angle Intersection with Rural Agricultural Roads",
+      "Inadequate Street Light Illumination at Night"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Use high-beam flashes at night to signal your presence at the junction.",
+      "Be alert for unlit farm vehicles entering the main state highway.",
+      "Reduce speed if visibility is affected by smoke from agricultural burning."
+    ]
+  },
+  {
+    "id": "TVR0121",
+    "road_name": "Mannargudi - Thiruthuraipoondi Road (SH-146) - Ashesham Outer Curve",
+    "city": "Ashesham Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6511,
+    "longitude": 79.4589,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Deviating Curve immediately following a straight stretch",
+      "Loose Gravel Accumulation on Shoulders causing Skidding Risk"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Apply brakes well before entering the curvature, not while on it.",
+      "Avoid drifting onto the loose gravel shoulders on the outer edge.",
+      "Maintain a firm grip on the steering wheel to combat sudden surface shifts."
+    ]
+  },
+  {
+    "id": "TVR0122",
+    "road_name": "Nannilam - Nagore Link Route (MDR) - Srivanjiyam Temple Road Curve",
+    "city": "Srivanjiyam Rural Stretch",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9325,
+    "longitude": 79.6241,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Turn with Sight Obstruction from Dense Avenue Trees",
+      "Frequent Tourist Bus Parking Intruding on Main Carriage Way"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden stops from tourist vehicles ahead looking for parking.",
+      "Watch out for pilgrims walking along the edge of the unpaved road.",
+      "Keep speeds low during local religious festival days."
+    ]
+  },
+  {
+    "id": "TVR0123",
+    "road_name": "Needamangalam - Pandanallur Road - Koothanur Saraswathi Temple Curve",
+    "city": "Koothanur Village Zone",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9256,
+    "longitude": 79.5214,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Curve with Direct Pedestrian Inflow from Temple Entrance",
+      "Narrow Corridors Constrained by Ancient Brick Wall Structures"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Drive at walking speeds when passing directly by the temple gates.",
+      "Sound soft horn taps to warn oncoming traffic behind the structural walls.",
+      "Be highly patient with senior citizens crossing the lanes slowly."
+    ]
+  },
+  {
+    "id": "TVR0124",
+    "road_name": "Tiruvarur - Mayiladuthurai Highway (SH-23) - Vijayapuram Overbridge Entry",
+    "city": "Vijayapuram Suburbs",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7612,
+    "longitude": 79.6289,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Traffic Converging from Three Different Town Directions",
+      "Improper Merge Markings at the Bridge Ramp Base"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Carefully track vehicles merging from your left blind spot.",
+      "Signal your direction clearly well in advance of entering the ramp.",
+      "Do not try to switch lanes midway through the conversion merge point."
+    ]
+  },
+  {
+    "id": "TVR0125",
+    "road_name": "Kudavasal - Valangaiman Road (SH-65) - Maruvathur Irrigation Canal Bend",
+    "city": "Maruvathur Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8911,
+    "longitude": 79.4312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unprotected Road Edge Running Adjacent to Deep Water Canal",
+      "Slippery Asphalt caused by Algae and Water Spillover"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep a safe distance from the un-barricaded canal side edge.",
+      "Reduce speed significantly during monsoon months when the canal overflows.",
+      "Avoid sudden heavy braking which could cause your vehicle to fish-tail."
+    ]
+  },
+  {
+    "id": "TVR0126",
+    "road_name": "Muthupet Coastal Highway (NH-32) - Jambuvanodai Bridge Section",
+    "city": "Jambuvanodai Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4014,
+    "longitude": 79.5345,
+    "danger_level": "High",
+    "danger_type": [
+      "Extremely Narrow Structural Passable Area on Historical Bridge",
+      "High Structural Rubbing Risk from Multi-Axle Seafood Freight Trucks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Wait at the bridge approach line if a large multi-axle truck has already entered.",
+      "Fold in your side mirrors if passing another wide commercial vehicle.",
+      "Maintain a uniform steady speed until completely off the bridge span."
+    ]
+  },
+  {
+    "id": "TVR0140",
+    "road_name": "Tiruvarur - Thanjavur Highway (NH-83) - Pullamangalam Crossing",
+    "city": "Pullamangalam Rural",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7794,
+    "longitude": 79.5281,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossing Routes Used by Local Livestock and Farmers",
+      "High-Speed Passenger Car Traffic Creating Severe Contrast in Speeds"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Scan both shoulders of the highway continuously for moving animals.",
+      "Do not pass vehicles that have slowed down or stopped unexpectedly ahead.",
+      "Maintain a centered lane position to maximize your reaction space."
+    ]
+  },
+  {
+    "id": "TVR0141",
+    "road_name": "Mannargudi - Thiruvarur Road (SH-66) - Mavoor Junction Stretch",
+    "city": "Mavoor Suburbs",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7189,
+    "longitude": 79.5112,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Shaped Split Lacking Retroreflective Road Studs",
+      "Frequent Nighttime Freight Vehicle Deliveries to Agri Warehouses"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Reduce speed drastically at night to clearly read route directional markers.",
+      "Watch out for slow-moving or unlit trucks turning into field storage depots.",
+      "Signal your path intent early to alert any close tailgating vehicles."
+    ]
+  },
+  {
+    "id": "TVR0142",
+    "road_name": "Kumbakonam - Mannargudi Road (SH-66) - Haridranadhi Tank Outer Ring",
+    "city": "Mannargudi Urban Edge",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6692,
+    "longitude": 79.4384,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Circular Road Layout Encircling Large Water Body",
+      "High Volume of Two-Wheelers Splitting Lanes Erratically during Peak Hours"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Maintain absolute lane discipline and do not slide across lane markings.",
+      "Check your left and right side mirrors continuously for overtaking mopeds.",
+      "Be prepared to stop quickly for pedestrians walking along the outer tank wall."
+    ]
+  },
+  {
+    "id": "TVR0143",
+    "road_name": "Thiruthuraipoondi - Muthupet Road (NH-32) - Idumbavanam Bridge Decline",
+    "city": "Idumbavanam Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4583,
+    "longitude": 79.5289,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Slope Ending Directly in an Intersection with Rural Link Roads",
+      "Pavement Settling Leading to Uneven Surface Transitions"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Shift to a lower gear during the bridge descent to control vehicle speed.",
+      "Sound your horn to alert crossing traffic coming from the blind link roads.",
+      "Watch for loose gravel patch collections at the immediate base of the slope."
+    ]
+  },
+  {
+    "id": "TVR0144",
+    "road_name": "Nannilam - Kudavasal Road (MDR) - Anaivasal Dangerous Bend",
+    "city": "Anaivasal Rural Area",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8925,
+    "longitude": 79.5194,
+    "danger_level": "High",
+    "danger_type": [
+      "Acute Angular Left Hook Turn Lacking Proper Banking Structure",
+      "Sight Line Blockage and Blind Spot Caused by Dense Banana Plantations"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Brake completely before turning the steering wheel into the apex.",
+      "Alert oncoming drivers by giving a few short horn signals.",
+      "Keep close to the inside edge of your lane to avoid oncoming wide vehicles."
+    ]
+  },
+  {
+    "id": "TVR0145",
+    "road_name": "Needamangalam - Valangaiman Link Road - Muniyur Blind Curve",
+    "city": "Muniyur Village Stretch",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8341,
+    "longitude": 79.4012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Single Lane Width with Soft, Eroded Mud Shoulders",
+      "Overhanging Low Tree Branches Forcing Large Trucks to Center"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Bring your vehicle to a complete stop on solid ground if a truck approaches.",
+      "Do not force your tires onto the soft mud shoulders to prevent getting stuck.",
+      "Watch out for fallen debris or leaves reducing traction on wet days."
+    ]
+  },
+  {
+    "id": "TVR0146",
+    "road_name": "Peralam - Thiruvarur Road (SH-23) - Poonthottam Railway Gate Line",
+    "city": "Poonthottam Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9412,
+    "longitude": 79.6128,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Build-up Blocking Primary Highway Speeds",
+      "Aggressive Overtaking by Commuters Creating Serious Head-On Risks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Activate hazard warning lights if you are the last vehicle in a queue.",
+      "Do not cross into the oncoming traffic lane to bypass waiting lines.",
+      "Leave ample braking distance from the commercial vehicle waiting ahead of you."
+    ]
+  },
+  {
+    "id": "TVR0147",
+    "road_name": "Muthupet - Pattukottai Coastal Highway (NH-32) - Karpaganatharkulam Bend",
+    "city": "Karpaganatharkulam Rural",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.3956,
+    "longitude": 79.4147,
+    "danger_level": "High",
+    "danger_type": [
+      "High-Speed Sweeping Bend Facing Drastic Salt-Mist Corrosive Surface Wear",
+      "Sudden Crosswinds Coming Off Nearby Coastal Flats"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Hold the steering wheel firmly to counter unexpected crosswind shifts.",
+      "Reduce speed if driving in the early morning when dense coastal fog sets in.",
+      "Avoid harsh braking on sections showing signs of asphalt degradation."
+    ]
+  },
+  {
+    "id": "TVR0148",
+    "road_name": "Valangaiman - Papanasam Road (MDR-624) - Govindakudi Market Cluster",
+    "city": "Govindakudi Village Zone",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9145,
+    "longitude": 79.3725,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Dense Pedestrian Activity Combined with Haphazard Bike Parking",
+      "Lack of Clear Edge Demarcation and Warning Signage"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between bikes.",
+      "Avoid any overtaking actions within the village commercial core.",
+      "Use your horn sparingly to prevent confusing local pedestrians."
+    ]
+  },
+  {
+    "id": "TVR0149",
+    "road_name": "Kudavasal - Tiruvarur Road (SH-65) - Elavangargudi Junction Area",
+    "city": "Elavangargudi Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8122,
+    "longitude": 79.5244,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Four-Way Crossroad Intersecting Fast State Highway Corridors",
+      "Obstruction of View Line Caused by Local Ad Boards and Buildings"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down significantly and prepare to brake before entering the junction.",
+      "Check your left and right blind spots carefully for fast-merging mopeds.",
+      "Do not slide past heavy trucks that are slowing down to turn here."
+    ]
+  },
+  {
+    "id": "TVR0150",
+    "road_name": "Thiruthuraipoondi - Nagapattinam Road (SH-23) - Keelayur Canal Curve",
+    "city": "Keelayur Rural Section",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6028,
+    "longitude": 79.6791,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Right-Angle Bend Running alongside Unfenced Water Canal",
+      "Accumulation of Slick Mud Dragged from Surrounding Paddy Fields"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep your vehicle centered and stay well clear of the canal edge.",
+      "Look out for wet mud deposits that can cause unexpected tire slippage.",
+      "Use your headlights to signal your position during cloudy monsoon days."
+    ]
+  },
+  {
+    "id": "TVR0151",
+    "road_name": "Mannargudi - Muthupet Road (SH-146) - Palayur S-Curve Complex",
+    "city": "Palayur Village Stretch",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5714,
+    "longitude": 79.4456,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Narrow Blind Curvatures Lacking Center Medians",
+      "High Density of Inter-District Commercial Sand and Cargo Trucks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly maintain your lane position and do not cut across the corners.",
+      "Anticipate large oncoming trucks utilizing a portion of your lane to turn.",
+      "Reduce speed ahead of time and scan for any slow agricultural vehicles."
+    ]
+  },
+  {
+    "id": "TVR0152",
+    "road_name": "Tiruvarur - Mayiladuthurai Road (SH-23) - Nannilam Town Entry Bridge",
+    "city": "Nannilam Southern Border",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8711,
+    "longitude": 79.6189,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Span Incompatible with Modern Multi-Axle Vehicles",
+      "Abrupt Convergence of Town Pedestrian Flow at the Bridge Exit Base"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield the right-of-way if a large commercial bus has already entered the span.",
+      "Avoid any overtaking actions over the entire stretch of the bridge.",
+      "Keep a close watch for sudden pedestrian crossings at the town-side exit."
+    ]
+  },
+  {
+    "id": "TVR0153",
+    "road_name": "Tiruvarur - Thanjavur Highway (NH-83) - Sakkottai Bypass Intersection",
+    "city": "Sakkottai Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7711,
+    "longitude": 79.4622,
+    "danger_level": "High",
+    "danger_type": [
+      "High-Speed Divergence Lane Lacking Proper Impact Attenuators",
+      "Confusing Road Markings leading to Last-Minute Lane Swapping"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Decelerate early and position your vehicle in the correct lane before the split.",
+      "Check your side mirrors repeatedly for fast cars passing on the inside lane.",
+      "Strictly avoid turning across solid white lane markers at the diversion point."
+    ]
+  },
+  {
+    "id": "TVR0154",
+    "road_name": "Mannargudi - Pattukottai Road (SH-63) - Madukkur Border Bend",
+    "city": "Madukkur Rural Border",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5142,
+    "longitude": 79.3891,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Right-Hand Hook Turn with Limited Sight Lines",
+      "Obstruction from Dense Highway Avenue Trees Blocking Daylight Flashes"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound brief horn alerts when entering the blind curve to signal oncoming traffic.",
+      "Stay centered within your lane boundaries to avoid drifting onto dirt shoulders.",
+      "Watch out for oncoming heavy commercial trucks that may slightly cross the center line."
+    ]
+  },
+  {
+    "id": "TVR0155",
+    "road_name": "Kumbakonam - Tiruvarur Road (SH-65) - Enkan Blind Crossroad",
+    "city": "Enkan Village Zone",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8247,
+    "longitude": 79.5412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Rural Crossroads Hidden behind Residential Brick Walls",
+      "Erratic Outflow of Local Mopeds and Two-Wheelers onto the Highway"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Keep your foot hovering near the brake pedal when scanning this intersection.",
+      "Be highly prepared for local motorists merging without looking or signaling.",
+      "Avoid overtaking any vehicle right around the crossroad perimeter."
+    ]
+  },
+  {
+    "id": "TVR0156",
+    "road_name": "Thiruthuraipoondi - Mannargudi Road (SH-146) - Mauva Rural Straightaway",
+    "city": "Mauva Rural Section",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5989,
+    "longitude": 79.4822,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Flat Straight stretch encouraging extreme speeding",
+      "Sudden entry of low-speed farm tractors carrying sugarcane stacks"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "Medium",
+    "recommended_speed": 60,
+    "safety_tips": [
+      "Strictly respect the highway speed regulations despite the empty road view.",
+      "Maintain a wide safety buffer behind long, slow agricultural trailers.",
+      "Watch for protruding cargo or cane stacks from vehicles ahead."
+    ]
+  },
+  {
+    "id": "TVR0157",
+    "road_name": "Nannilam - Nagapattinam Link Road - Mudikondan River Bridge Approach",
+    "city": "Mudikondan Rural",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9125,
+    "longitude": 79.6414,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Bridge Ramp Structure with Eroded Asphalt Footings",
+      "High Risks of Structural Scraping due to Narrow Parapet Spacing"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry access to oncoming heavy vehicles that have reached the span first.",
+      "Do not try to force two large vehicles to cross side-by-side on this bridge.",
+      "Drive slow to absorb the sudden bumps at the bridge joint transitions."
+    ]
+  },
+  {
+    "id": "TVR0158",
+    "road_name": "Needamangalam - Kumbakonam Link Route - Podakkudi Market Stretch",
+    "city": "Podakkudi Village Center",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7914,
+    "longitude": 79.4389,
+    "danger_level": "High",
+    "danger_type": [
+      "Encroaching Commercial Shop Display Boards restricting carriage width",
+      "Dense Pedestrian Jams during morning bazaar hours"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Keep vehicle speeds to a minimum to handle unexpected pedestrian path deviations.",
+      "Watch for delivery boys stepping out abruptly from shop fronts.",
+      "Use indicators and low horn pulses to gently navigate through the core area."
+    ]
+  },
+  {
+    "id": "TVR0159",
+    "road_name": "Muthupet - Thiruthuraipoondi Coastal Highway (NH-32) - Voimedu Blind Corner",
+    "city": "Voimedu Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.3842,
+    "longitude": 79.5611,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Reverse Curve Layout with Poor Superelevation Banking",
+      "Slick Surface Conditions due to Coastal Salt Fog Condensation"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Apply braking effort purely on the straight section before turning the wheel.",
+      "Expect severe moisture film on the tarmac surface during early mornings.",
+      "Maintain a uniform, stable throttle input through the curve apex."
+    ]
+  },
+  {
+    "id": "TVR0160",
+    "road_name": "Valangaiman - Kudavasal Road (SH-65) - Regunathapuram Curve",
+    "city": "Regunathapuram Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9088,
+    "longitude": 79.4524,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve Running adjacent to Deep Field Drainage Ditches",
+      "Lack of Safety Guard Rails or Reflective Line Markers"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep your tires firmly centered on the asphalt lane to prevent ditch sliding.",
+      "Exercise double caution when driving through this stretch during rainy spells.",
+      "Dim your high beams promptly at night to easily spot the curve outline."
+    ]
+  },
+  {
+    "id": "TVR0161",
+    "road_name": "Tiruvarur - Mayiladuthurai Highway (SH-23) - Poonthottam College Crossing",
+    "city": "Poonthottam Suburbs",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9345,
+    "longitude": 79.6112,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Student Congestion Combined with Erratically Parked Minibuses",
+      "High Crossing Speed Variant between Highway Traffic and Pedestrians"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Reduce speeds sharply during the college opening and closure time frames.",
+      "Keep a keen eye open for student groups walking on the asphalt edge.",
+      "Avoid attempting any quick overtaking moves past parked student buses."
+    ]
+  },
+  {
+    "id": "TVR0162",
+    "road_name": "Thiruthuraipoondi - Nagapattinam Road (SH-23) - Kovilur Junction Core",
+    "city": "Kovilur Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5511,
+    "longitude": 79.6589,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex 4-Way Junction completely lacking working signals or roundabouts",
+      "Sight Line Blockage from Local Awning Roofs and Advertisements"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center crossway under total control with foot on brake pedal.",
+      "Yield right of way politely to clear existing traffic bottlenecks inside.",
+      "Always check both side blind spots before executing turn selections."
+    ]
+  },
+  {
+    "id": "TVR0163",
+    "road_name": "Mannargudi - Muthupet Road (SH-146) - Tillaivilagam Village Bend",
+    "city": "Tillaivilagam Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4312,
+    "longitude": 79.4688,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Geometric Blind Bend wrapped inside Dense Coconut Groves",
+      "Extreme Drop-Off between Tarmac Edges and Lower Agri Fields"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Maintain a stable speed and stay fully within your painted lane.",
+      "Use headlight flashing sequences at night to alert hidden vehicles around the grove.",
+      "Never push your tires off the pavement onto the unstable low shoulders."
+    ]
+  },
+  {
+    "id": "TVR0164",
+    "road_name": "Kudavasal - Tiruvarur Road (SH-65) - Adambar Junction Section",
+    "city": "Adambar Rural Link",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8414,
+    "longitude": 79.4989,
+    "danger_level": "High",
+    "danger_type": [
+      "Acute Angular T-Intersection with Weak Visual Guidance Signals",
+      "High Volume of Speeding Inter-District Public Transport Buses"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Give full priority to high-speed passenger buses traversing the primary highway line.",
+      "Initiate turning indicator lights early to signal your lane exit choices.",
+      "Carefully scan the merging lines for hidden or unlit local mopeds."
+    ]
+  },
+  {
+    "id": "TVR0165",
+    "road_name": "Tiruvarur - Nagapattinam Road (NH-83) - Velanganni Link Fork",
+    "city": "Tiruvarur Eastern Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7825,
+    "longitude": 79.6912,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Heavy Convergence of Tourist Buses and Pilgrim Foot Traffic",
+      "Sudden Bottlenecks during Seasonal Festival Journeys"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect significant, slow-moving tourist traffic and sudden crowd clusters.",
+      "Keep extreme focal awareness active for pedestrians traversing the carriageway.",
+      "Exercise immense driving patience and maintain large front safety gaps."
+    ]
+  },
+  {
+    "id": "TVR0166",
+    "road_name": "Tiruvarur - Mayiladuthurai Road (SH-23) - Peralam Market Choke Point",
+    "city": "Peralam Town Center",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9654,
+    "longitude": 79.6482,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Vendor Stalls",
+      "Erratic Stopping by Local Mini-Buses and Shared Autos"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a walking pace through the active commercial core.",
+      "Expect sudden door openings or lane-splitting maneuvers from parked vehicles.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes."
+    ]
+  },
+  {
+    "id": "TVR0167",
+    "road_name": "Mannargudi - Thanjavur Road (SH-63) - Edayarnatham Irrigation Canal Bend",
+    "city": "Edayarnatham Rural",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6845,
+    "longitude": 79.3981,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Reverse Curve running adjacent to an Unfenced Water Canal",
+      "Loose Gravel Accumulation along the Unpaved Left Shoulder"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid drifting close to the left boundary where the shoulder drops off.",
+      "Reduce your entrance speed well before committing to the steering angle.",
+      "Exercise high caution during monsoon spells when water spills onto the asphalt."
+    ]
+  },
+  {
+    "id": "TVR0168",
+    "road_name": "Thiruthuraipoondi - Muthupet Road (NH-32) - Kunniyur Rural Crossroad",
+    "city": "Kunniyur Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4812,
+    "longitude": 79.5447,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Intersecting Farm Roads Masked by Dense Vegetation",
+      "High Speed Differentials between Highway Transit and Local Tractors"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Scan both sides of the highway field links for emerging crop trailers.",
+      "Give a short, warning tap on your horn during daytime approaches.",
+      "Do not attempt any overtaking maneuvers within 100 meters of the crossway."
+    ]
+  },
+  {
+    "id": "TVR0169",
+    "road_name": "Kumbakonam - Tiruvarur Highway (SH-65) - Kalathur School Zone Curve",
+    "city": "Kalathur Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8419,
+    "longitude": 79.5218,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature directly fronting a Institutional Building Entrance",
+      "Lack of Overhead Warning Flashers or Pedestrian Crossing Strips"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly minimize speed during morning assembly and afternoon dispersal hours.",
+      "Look out for groups of students or cyclists moving along the edge line.",
+      "Maintain a wide safety buffer and avoid revving your engine near the gates."
+    ]
+  },
+  {
+    "id": "TVR0170",
+    "road_name": "Needamangalam - Mannargudi Road (SH-66) - Rishiyur S-Bend Stretch",
+    "city": "Rishiyur Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7256,
+    "longitude": 79.4241,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Consecutive Sharp S-Curves with Poor Superelevation Banking",
+      "Sight Lines Obstructed by Large Highway Avenue Trees"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Maintain active steering control and do not allow your vehicle to drift lanes.",
+      "Flash your headlights at night to gauge oncoming vehicles behind tree lines.",
+      "Slow down if the road surface is covered with wet, slippery fallen leaves."
+    ]
+  },
+  {
+    "id": "TVR0171",
+    "road_name": "Nannilam - Kudavasal Link Road - Ubhayavedandapuram Junction",
+    "city": "Ubhayavedandapuram",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8956,
+    "longitude": 79.5714,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Three-Way Fork with Inadequate Visual Separation",
+      "Frequent Turning Movements by Local Agricultural Cargo Mopeds"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Signal your route pathway direction well in advance of the fork entry.",
+      "Check your blind spots for local riders pulling out from village links.",
+      "Yield priority to fast-moving multi-district vehicles on the main lane."
+    ]
+  },
+  {
+    "id": "TVR0172",
+    "road_name": "Thiruthuraipoondi - Nagapattinam Road (SH-23) - Panaiyur Low Gradient Curve",
+    "city": "Panaiyur Rural Section",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5789,
+    "longitude": 79.6642,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Horizontal Curve at the Base of a Small Culvert Descent",
+      "Slick Mud Slick Formations Dragged from Adjacent Paddy Fields"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Utilize light engine braking rather than harsh braking down the culvert slope.",
+      "Scan the asphalt surface carefully for patches of slick, dried mud.",
+      "Keep a firm grip on the wheel to manage any sudden loss of tire grip."
+    ]
+  },
+  {
+    "id": "TVR0173",
+    "road_name": "Muthupet - Pattukottai Coastal Link (NH-32) - Idumbaivanam Edge Corridor",
+    "city": "Idumbaivanam Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4214,
+    "longitude": 79.4912,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Road Width over an Old Masonry Drainage Bridge Span",
+      "High Density of Fast-Moving Seafood Export Logistics Trucks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Allow wide, multi-axle incoming commercial freight to clear the bridge first.",
+      "Retract or adjust your side mirrors if space becomes exceptionally tight.",
+      "Avoid accelerating until both your front and rear wheels clear the bridge joints."
+    ]
+  },
+  {
+    "id": "TVR0174",
+    "road_name": "Valangaiman - Papanasam Road (MDR-624) - Melavidhi Blind Junction",
+    "city": "Valangaiman Town Edge",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9011,
+    "longitude": 79.3814,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Intersection formed by Narrow Residential Compound Walls",
+      "High Vulnerability to Haphazardly Parked Two-Wheelers near Shops"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner.",
+      "Be prepared to stop immediately for pedestrians emerging from side alleys.",
+      "Do not try to slip past delivery trucks unloading close to the junction corner."
+    ]
+  },
+  {
+    "id": "TVR0175",
+    "road_name": "Tiruvarur - Thanjavur Highway (NH-83) - Kidarankondan Junction Area",
+    "city": "Kidarankondan",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7688,
+    "longitude": 79.6114,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-Way Merging Streams without Clear Right-of-Way Rules",
+      "High Nighttime Risk due to Lack of High-Mast Luminary Systems"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down significantly and scan all entry lanes before moving through.",
+      "Use your directional indicators early to alert surrounding commuters.",
+      "Exercise extra defensive driving at night by relying on low-beam focus."
+    ]
+  },
+  {
+    "id": "TVR0176",
+    "road_name": "Mannargudi - Muthupet Road (SH-146) - Alathur Village Curve",
+    "city": "Alathur Rural Section",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5112,
+    "longitude": 79.4589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Right Curve wrapped inside Dense Coconut Plantations",
+      "Severe Drop-off from the Tarmac Edges to the Lower Field Boundaries"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Strictly ensure your tires remain centered on the paved asphalt lane.",
+      "Sound your horn to communicate your location across the blind orchard plot.",
+      "Do not risk drifting onto the soft, unstable unpaved shoulder strip."
+    ]
+  },
+  {
+    "id": "TVR0177",
+    "road_name": "Kudavasal - Tiruvarur Road (SH-65) - Tirucherai Temple Approach",
+    "district": "Tiruvarur",
+    "city": "Tirucherai Outskirts",
+    "state": "Tamil Nadu",
+    "latitude": 10.9312,
+    "longitude": 79.4647,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Pedestrian Congestion near Religious Landmark Entrance",
+      "Improperly Parked Out-of-Station Tourist Buses Constraining Lanes"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive with extreme patience, anticipating sudden devotee pedestrian movements.",
+      "Avoid utilizing high-decibel horn pulses to keep crowd movements predictable.",
+      "Watch closely for slow-moving senior citizens crossing the market lanes."
+    ]
+  },
+  {
+    "id": "TVR0178",
+    "road_name": "Tiruvarur - Nagapattinam Road (NH-83) - Vilamal Bridge Entrance",
+    "city": "Vilamal Suburban Border",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7742,
+    "longitude": 79.6456,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Lane Reduction Bottleneck at Old River Bridge Ingress",
+      "High Density of Inter-District Freight and Public Transport Operations"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Keep a uniform, conservative speed until you have fully exited the bottleneck."
+    ]
+  },
+  {
+    "id": "TVR0179",
+    "road_name": "Tiruvarur - Thanjavur Highway (NH-83) - Koradacheri Bypass Merge",
+    "city": "Koradacheri Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7765,
+    "longitude": 79.5124,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Merge Profile from Old Town Highway Links",
+      "High-Speed Commuter Vehicles Swapping Lanes without Visual Signals"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Check your right side blind spots before transitioning into the bypass flow.",
+      "Maintain a conservative speed to handle merging local moped traffic.",
+      "Strictly avoid rapid acceleration or tailgating near the entry junction."
+    ]
+  },
+  {
+    "id": "TVR0180",
+    "road_name": "Mannargudi - Thiruthuraipoondi Road (SH-146) - Tiruvalanjuli Canal Bend",
+    "city": "Tiruvalanjuli Rural",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6121,
+    "longitude": 79.4712,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Left Bend lacking Solid Concrete Safety Barriers",
+      "Slick Silt Accumulation on Asphalt from Active Farm Openings"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce entry velocities sharply prior to entering the steering alignment.",
+      "Never push your left tires off the pavement onto the soft mud shoulders.",
+      "Watch for slow-moving farm vehicles emerging from adjacent field tracks."
+    ]
+  },
+  {
+    "id": "TVR0181",
+    "road_name": "Kumbakonam - Mannargudi Road (SH-66) - Needamangalam North Junction",
+    "city": "Needamangalam Rural Border",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7812,
+    "longitude": 79.4089,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossroad flow Intersecting Heavy Commercial Corridors",
+      "Poor Sight Line visibility caused by Heavy Seasonal Crop Stacks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Scan both intersections actively with your foot covering the brake pedal.",
+      "Alert crossing local traffic by sounding short warning horn taps.",
+      "Refrain from initiating high-speed overtaking maneuvers near the merge lines."
+    ]
+  },
+  {
+    "id": "TVR0182",
+    "road_name": "Thiruthuraipoondi - Nagapattinam Road (SH-23) - Vadagal Market Curve",
+    "city": "Vadagal Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6289,
+    "longitude": 79.6911,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Geometric Bend masked by Roadside Commercial Shed Encroachments",
+      "High Density of Unregulated Pedestrian Crossings during Evening Hours"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Drive defensively and adjust speeds to handle abrupt customer movements.",
+      "Watch for parked delivery mopeds pulling out blindly from shops.",
+      "Rely on low-beam headlights to monitor the shoulder lines during night runs."
+    ]
+  },
+  {
+    "id": "TVR0183",
+    "road_name": "Nannilam - Nagore Link Route (MDR) - Achuthamangalam Rail Gate",
+    "city": "Achuthamangalam Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8989,
+    "longitude": 79.6312,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Backups on Narrow Inter-District Routes",
+      "Risk of Head-on Collisions from Aggressive Two-Wheeler Overtaking"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Engage your hazard warning lights if positioned at the rear of a queue.",
+      "Strictly maintain your lane order and do not enter oncoming lanes.",
+      "Expect significant vehicle delays and watch for pedestrian level crossings."
+    ]
+  },
+  {
+    "id": "TVR0184",
+    "road_name": "Muthupet - Thiruthuraipoondi Highway (NH-32) - Jambuvanodai Outer S-Bend",
+    "city": "Jambuvanodai Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4112,
+    "longitude": 79.5188,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Blind Reverse Curves with Eroded Structural Edges",
+      "High Salinity Coastal Rain Damage causing Asphalt Stripping"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Maintain a centered, secure path to stay clear of uneven outer pavement drops.",
+      "Avoid harsh braking inside the apex when the surface is wet from sea mist.",
+      "Anticipate wide multi-axle freight trucks hogging parts of the lane center."
+    ]
+  },
+  {
+    "id": "TVR0185",
+    "road_name": "Valangaiman - Papanasam Road (MDR-624) - Pookollai Blind Corner",
+    "city": "Pookollai Rural Stretch",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9188,
+    "longitude": 79.3645,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Dense Overhead Sub-Tropical Tree Canopy",
+      "Severe Drop-off Heights directly falling into Irrigation Field Links"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound clear horn warnings before heading past the hidden foliage core.",
+      "Ensure low beams are active to counter heavy midday shadow illusions.",
+      "Keep tires firmly tracking within the white pavement markers."
+    ]
+  },
+  {
+    "id": "TVR0186",
+    "road_name": "Kudavasal - Valangaiman Road (SH-65) - Pandaravadai Crossroad",
+    "city": "Pandaravadai Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8845,
+    "longitude": 79.4214,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Uncontrolled Four-Way Intersection inside Rural Zones",
+      "High Vulnerability due to Haphazard Two-Wheeler Parking layouts"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Slow down significantly and monitor all side links before crossing over.",
+      "Anticipate local farmers pulling out unexpectedly without signals.",
+      "Keep your distance from high-speed inter-district transport vans."
+    ]
+  },
+  {
+    "id": "TVR0187",
+    "road_name": "Tiruvarur - Mayiladuthurai Highway (SH-23) - Nannilam North Ingress Bridge",
+    "city": "Nannilam Northern Border",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8912,
+    "longitude": 79.6211,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Heritage Bridge Infrastructure with Limited Structural Width",
+      "Abrupt Convergence of Heavy Inter-District Logistics Freight Buses"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield right of way if a heavy truck has already claimed entry onto the span.",
+      "Avoid any lane shifting or overtaking across the bridge framework.",
+      "Maintain a uniform pace to easily clear structural joint bumps safely."
+    ]
+  },
+  {
+    "id": "TVR0188",
+    "road_name": "Mannargudi - Muthupet Road (SH-146) - Edakeezhiyur School Area Curve",
+    "city": "Edakeezhiyur Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5845,
+    "longitude": 79.4422,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature running directly past Primary School Entry Gates",
+      "Lack of Proper Pedestrian Safety Rails or Zone Warning Signposts"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop vehicle speed during morning arrival and evening departure hours.",
+      "Watch closely for children cycling or walking along the road asphalt edge.",
+      "Refrain from quick acceleration maneuvers within the school safety zone."
+    ]
+  },
+  {
+    "id": "TVR0189",
+    "road_name": "Thiruthuraipoondi - Muthupet Coastal Link (NH-32) - Alathur Canal Edge",
+    "city": "Alathur Coastal Section",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4489,
+    "longitude": 79.5312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Carriage Track with Steep, Unfenced Drops into Drainage Ditches",
+      "Extreme Skid Risks during Early Monsoon Wet Spillover Conditions"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Pull over onto stable high ground if large freight options approach from the front.",
+      "Maintain steady throttle input and avoid sharp, panicked braking moves.",
+      "Ensure optimal vehicle tire tread depths to prevent skidding on slick asphalt."
+    ]
+  },
+  {
+    "id": "TVR0190",
+    "road_name": "Kudavasal - Tiruvarur Road (SH-65) - Peralam Junction Link Fork",
+    "city": "Peralam Rural Suburbs",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9442,
+    "longitude": 79.6389,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking Retroreflective Route Stud Markings",
+      "High Nighttime Incident Rate due to Poor High-Mast Illumination"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Decelerate early to read directional indicators clearly during night runs.",
+      "Watch for local moped riders cutting aggressively across the split point.",
+      "Signal your path choices early to alert closely following vehicles."
+    ]
+  },
+  {
+    "id": "TVR0191",
+    "road_name": "Tiruvarur - Nagapattinam Road (NH-83) - Ammaiyappan East Junction",
+    "city": "Ammaiyappan Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7845,
+    "longitude": 79.5688,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Complex Convergence of Town Traffic and High-Speed National Highway Flows",
+      "Frequent Abrupt Stops by Shared Autos and Public Mini-Buses"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Maintain active brake preparation and a significant front safety buffer.",
+      "Anticipate sudden lane deviations from commercial commuter vans.",
+      "Avoid overtaking commercial choices right through the town merge lanes."
+    ]
+  },
+  {
+    "id": "TVR0192",
+    "road_name": "Tiruvarur - Thanjavur Highway (NH-83) - Pulivalam Junction Core",
+    "city": "Pulivalam Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 79.5989,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Turning Movements by Local Agriculture Trucks",
+      "Lack of Intersection Illumination and Channelizing Islands"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Reduce your vehicle speed and scan the crossroad boundaries carefully.",
+      "Flash your high beams at night to alert cross-traffic commuters.",
+      "Avoid close-tailgating or overtaking near the warehouse entry lanes."
+    ]
+  },
+  {
+    "id": "TVR0193",
+    "road_name": "Mannargudi - Thiruvarur Road (SH-66) - Kodikkalpalayam School Bend",
+    "city": "Kodikkalpalayam Village",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7414,
+    "longitude": 79.4912,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature immediately fronting a Local School Compound",
+      "High Volume of Student Pedestrians moving during Peak Hours"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop your vehicle speeds to the minimum during school hours.",
+      "Look out for young cyclists pulling onto the asphalt unpredictably.",
+      "Do not try to race past stationary institutional buses."
+    ]
+  },
+  {
+    "id": "TVR0194",
+    "road_name": "Kumbakonam - Mannargudi Road (SH-66) - Alathur Canal Side Strip",
+    "city": "Alathur Rural Section",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7112,
+    "longitude": 79.3589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac running closely alongside Unbarricaded Canal Ditches",
+      "Slick Mud Deposits dragged from nearby Wet Farming Plots"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Keep tires firmly centered on the asphalt lane to prevent ditch sliding.",
+      "Slow down when handling sections coated with sticky farming mud.",
+      "Yield space safely if broad commercial freight options approach."
+    ]
+  },
+  {
+    "id": "TVR0195",
+    "road_name": "Thiruthuraipoondi - Nagapattinam Road (SH-23) - Keelathirupanthuruthi Bend",
+    "city": "Keelathirupanthuruthi",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6412,
+    "longitude": 79.6845,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Curve with Direct Sight Blockage from Brick Wall Housing",
+      "Erratic Outflow of Local Commuters from Alleyway Paths"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Give several short warning taps on your horn before entering the apex.",
+      "Maintain strict lane boundary discipline without cutting the curve corner.",
+      "Be highly prepared to brake for crossing livestock or pedestrians."
+    ]
+  },
+  {
+    "id": "TVR0196",
+    "road_name": "Nannilam - Nagore Link Route (MDR) - Panangudi Railway Crossing",
+    "city": "Panangudi Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9125,
+    "longitude": 79.6488,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Build-up Blocking Primary Highway Speeds",
+      "Aggressive Lane Splitting by Two-Wheelers creating Head-on Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if positioned at the rear of a line.",
+      "Do not switch into opposite lanes to bypass waiting railway queues.",
+      "Stay highly alert for sudden braking movements from trucks ahead."
+    ]
+  },
+  {
+    "id": "TVR0197",
+    "road_name": "Muthupet - Thiruthuraipoondi Highway (NH-32) - Tholuthur S-Bend Line",
+    "city": "Tholuthur Village Area",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4345,
+    "longitude": 79.5241,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Blind Reverse Curves wrapped in Heavy Overhead Trees",
+      "Severe Pavement Edge Drop-off to Lower Agricultural Fields"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Brake completely on the straight block prior to entering the curvature.",
+      "Avoid leaning onto the unstable unpaved shoulder strip at all costs.",
+      "Use low-beam headlights during dark hours to clearly track lane markers."
+    ]
+  },
+  {
+    "id": "TVR0198",
+    "road_name": "Valangaiman - Papanasam Road (MDR-624) - Chandrasekarapuram Junction",
+    "city": "Chandrasekarapuram Rural",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9244,
+    "longitude": 79.3512,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angle Intersection with Unmarked Rural Crop Roads",
+      "Sight Line Obstructions from Tall Roadside Vegetation and Banners"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Scan the side link lanes actively for merging farm vehicles.",
+      "Sound soft horn pulses when passing close to hidden field entries.",
+      "Avoid high-speed overtaking moves anywhere inside the intersection perimeter."
+    ]
+  },
+  {
+    "id": "TVR0199",
+    "road_name": "Kudavasal - Valangaiman Road (SH-65) - Narthangudi Blind Curve",
+    "city": "Narthangudi Village Zone",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8912,
+    "longitude": 79.4447,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Right-Hand Hook Turn with Limited Lateral Sight Lines",
+      "Lack of Safety Guardrails along Low Ditch Boundaries"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Maintain a uniform steady speed and stay inside your lane markings.",
+      "Communicate your vehicle position across the curve with a horn blast.",
+      "Ensure headlights are dimmed to spot the curved outline easily at night."
+    ]
+  },
+  {
+    "id": "TVR0200",
+    "road_name": "Tiruvarur - Mayiladuthurai Highway (SH-23) - Peralam South Bridge Approach",
+    "city": "Peralam Southern Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9525,
+    "longitude": 79.6389,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Heritage Bridge Bridge Structure restricting overall width",
+      "High Density of Fast-Moving Inter-District Passenger Express Buses"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Allow wide oncoming freight vehicles to cross the bridge span first.",
+      "Strictly avoid any overtaking or lane-changing on the narrow stretch.",
+      "Slow down to absorb the abrupt bridge-to-road structural joint bumps."
+    ]
+  },
+  {
+    "id": "TVR0201",
+    "road_name": "Mannargudi - Muthupet Road (SH-146) - Kovilkalpalayam Crossroad",
+    "city": "Kovilkalpalayam",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.5589,
+    "longitude": 79.4512,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossway flow Intersecting Heavy Haul Freight Corridors",
+      "Frequent Nighttime Parking of Sand Trucks obstructing sight lines"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Approach the center cross-point under defensive brake control readiness.",
+      "Watch closely for pedestrians stepping out from behind parked trucks.",
+      "Signal your lane directions early to guide fast-moving tailgaters."
+    ]
+  },
+  {
+    "id": "TVR0202",
+    "road_name": "Thiruthuraipoondi - Muthupet Coastal Link (NH-32) - Edaiyur School Corner",
+    "city": "Edaiyur Village Zone",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4512,
+    "longitude": 79.5114,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Curvature running directly by local educational gate lines",
+      "Inadequate Warning Signage or Pedestrian Boundary Rail Blocks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Minimize vehicle speed significantly during morning and afternoon hours.",
+      "Scan both sides of the roadway edge for children walking on foot.",
+      "Maintain a wide tracking lane and avoid high-revving engine sounds."
+    ]
+  },
+  {
+    "id": "TVR0203",
+    "road_name": "Kudavasal - Tiruvarur Road (SH-65) - Ogai Market Junction Fork",
+    "city": "Ogai Rural Outskirts",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8211,
+    "longitude": 79.5145,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud markers",
+      "Haphazard Commercial Vehicle Parking layouts blocking merge lanes"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Watch for local moped riders cutting abruptly across the road lines.",
+      "Initiate indicators early to protect your space from trailing vehicles."
+    ]
+  },
+  {
+    "id": "TVR0204",
+    "road_name": "Tiruvarur - Nagapattinam Road (NH-83) - Kivalur Outskirts Curve",
+    "city": "Kivalur Border Stretch",
+    "district": "Tiruvarur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7811,
+    "longitude": 79.7122,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Complex Convergence of Fast National Highway Traffic and Town Flows",
+      "Abrupt Bottlenecks caused by Local Share-Autos stopping erratically"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Keep a significant front safety buffer from public transport vans.",
+      "Anticipate sudden, un-signaled lane deviations from local commuters.",
+      "Strictly refrain from overtaking maneuvers inside the town entry lanes."
     ]
   }
+]

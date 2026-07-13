@@ -1,14 +1,2136 @@
-{
+[
+  {
+    "id": "VEL0001",
+    "road_name": "Chennai - Bengaluru Highway (NH-48) - Green Circle Junction",
+    "city": "Vellore Urban Core",
     "district": "Vellore",
-    "road_name": "Chennai-Bengaluru Highway",
-    "highway": "NH-48",
-    "location": "Walajah",
-    "latitude": 12.9258,
-    "longitude": 79.3660,
-    "risk_level": "High",
-    "road_type": "National Highway",
-    "major_cause": [
-      "Speeding",
-      "Night driving"
+    "state": "Tamil Nadu",
+    "latitude": 12.9364,
+    "longitude": 79.1412,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Complex Multi-Lane Rotary Intersecting High-Speed Highway",
+      "Heavy Mix of Local Two-Wheelers and Inter-State Freight Trucks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield strictly to vehicles already navigating inside the roundabout.",
+      "Check blind spots continuously for lane-splitting local motorcyclists.",
+      "Avoid last-minute lane changes when approaching the bypass exits."
+    ]
+  },
+  {
+    "id": "VEL0002",
+    "road_name": "Vellore - Chittoor Highway (NH-75) - Katpadi Railway Station Bridge Descent",
+    "city": "Katpadi",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9691,
+    "longitude": 79.1422,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Slope Ending Directly in Narrow Urban Traffic Lanes",
+      "Severe Congestion from Auto-Rickshaws and Rail Commuters"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Utilize engine braking down the descent to avoid brake fade.",
+      "Anticipate sudden stops from city buses and share-autos at the bridge base.",
+      "Never attempt overtaking maneuvers on the narrow bridge span."
+    ]
+  },
+  {
+    "id": "VEL0003",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Ussoor Sand Truck Curve",
+    "city": "Ussoor Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8942,
+    "longitude": 79.0514,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Sweeping Curve with Poor Superelevation",
+      "High Volume of Fast-Moving Multi-Axle Commercial Sand Freighters"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Brake cleanly before committing to the steering angle into the curve.",
+      "Expect oncoming commercial trucks to partially hug or cross the center line.",
+      "Avoid tracking close to the soft, unpaved shoulders during monsoons."
+    ]
+  },
+  {
+    "id": "VEL0004",
+    "road_name": "Vellore - Tiruvannamalai Road (SH-9) - Kaniyambadi Blind Junction",
+    "city": "Kaniyambadi Rural",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8256,
+    "longitude": 79.1211,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossroad Hidden behind Local Institutional Walls",
+      "Abrupt Speed Variances between Highway Transit and Agri Mopeds"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Scan both intersections actively with your foot covering the brake pedal.",
+      "Give several short daytime horn taps to alert hidden merging traffic.",
+      "Strictly avoid overtaking actions within 100 meters of the intersection."
+    ]
+  },
+  {
+    "id": "VEL0005",
+    "road_name": "Chennai - Bengaluru Highway (NH-48) - Amrit Anand New Bypass Merge",
+    "city": "Pallikonda",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9114,
+    "longitude": 78.9482,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive High-Speed Merge Profile from Old Town Links",
+      "Inadequate Visibility due to Missing Retroreflective Edge Studs"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Signal your pathway transitions early to warn fast-approaching trucks.",
+      "Do not cut directly across solid white lane lines at the entry fork.",
+      "Rely heavily on low beams to clearly track the edge line variations at night."
+    ]
+  },
+  {
+    "id": "VEL0006",
+    "road_name": "Gudiyatham - Katpadi Road (SH-595) - Tharapadavedu Market Choke Point",
+    "city": "Tharapadavedu",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9512,
+    "longitude": 79.1589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Weekly Vendor Stalls",
+      "Haphazard Two-Wheeler Parking Constraining Active Carriage Width"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Avoid all overtaking maneuvers within the active market boundaries.",
+      "Keep a sharp lookout for sudden pedestrian crossings and handcarts."
+    ]
+  },
+  {
+    "id": "VEL0007",
+    "road_name": "Katpadi - Gudiyatham Highway (SH-59) - Kavanur S-Bend Complex",
+    "city": "Kavanur Rural Section",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9442,
+    "longitude": 79.0112,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Sharp Reverse Curves with Poor Horizontal Visibility",
+      "Sight Line Obstruction from Dense Roadside Coconut Plantations"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Maintain active lane discipline and do not slice across the corners.",
+      "Flash your high beams at night to alert drivers hidden behind the grove.",
+      "Be prepared for slow-moving agricultural trailers entering the main road."
+    ]
+  },
+  {
+    "id": "VEL0008",
+    "road_name": "Vellore - Arani Road (SH-4) - Pennathur School Zone Corner",
+    "city": "Pennathur Village",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8312,
+    "longitude": 79.1489,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature Running Directly past School Entry Gates",
+      "High Density of Student Pedestrians and Institutional Buses"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop speed during morning arrival and afternoon dismissal hours.",
+      "Watch closely for young cyclists moving along the edge of the tarmac.",
+      "Refrain from quick acceleration maneuvers within the school perimeter."
+    ]
+  },
+  {
+    "id": "VEL0009",
+    "road_name": "Gudiyatham - Pernambut Road (SH-59) - Melpatti Level Crossing Section",
+    "city": "Melpatti Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9212,
+    "longitude": 78.8125,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Backups Reaching High-Speed Highway Sectors",
+      "Erratic Lane Splitting by Two-Wheelers Creating Head-on Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Engage your hazard warning lights if positioned at the tail end of a queue.",
+      "Strictly maintain your lane order and do not enter oncoming lanes.",
+      "Expect significant vehicle delays and stay alert for sudden braking."
+    ]
+  },
+  {
+    "id": "VEL0010",
+    "road_name": "Anaicut - Odugathur Road (MDR) - Rural River Bed Edge Corridor",
+    "city": "Anaicut Border Area",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8122,
+    "longitude": 78.9145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac running closely along Unfenced Ditch Boundaries",
+      "Slippery Road Surface caused by Sand and Mud Spillover from Trucks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep tires firmly centered on the asphalt lane to prevent ditch sliding.",
+      "Slow down when handling sections coated with slick, loose sand patches.",
+      "Pull over onto stable ground and stop if a wide commercial vehicle approaches."
+    ]
+  },
+  {
+    "id": "VEL0011",
+    "road_name": "Vellore Old Bypass Road - Saidapet Junction Fork",
+    "city": "Saidapet Suburban Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9288,
+    "longitude": 79.1247,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking Clear Retroreflective Markings",
+      "Heavy Inflow of Local Mopeds and Public Mini-Buses stopping erratically"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Watch for local moped riders cutting aggressively across the split lines.",
+      "Initiate indicators early to protect your space from trailing vehicles."
+    ]
+  },
+  {
+    "id": "VEL0012",
+    "road_name": "Gudiyatham - Chittoor Link Road - Synagunda Ghat Section Ingress",
+    "city": "Synagunda Rural Foothills",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 13.0489,
+    "longitude": 78.9112,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Hairpin Bends with Steep Ascent Profiles",
+      "Low Visibility Caused by Rocky Terrain Projections"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear early to maintain steady power on the ascent.",
+      "Sound your horn continuously to alert opposing hidden drivers on bends.",
+      "Give absolute right-of-way to heavier trucks climbing uphill."
+    ]
+  },
+  {
+    "id": "VEL0013",
+    "road_name": "Vellore Inner Ring Road - Thorapadi Jail Corner Curve",
+    "city": "Thorapadi",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8912,
+    "longitude": 79.1145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Stone Compound Walls",
+      "Frequent Ad-Hoc Crossings by Local Pedestrians and Visitors"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner.",
+      "Be prepared to stop immediately for pedestrians emerging from the blind wall side.",
+      "Maintain a uniform steady speed and stay inside your lane markings."
+    ]
+  },
+  {
+    "id": "VEL0014",
+    "road_name": "Chennai - Bengaluru Highway (NH-48) - Pallikonda Toll Plaza Approach",
+    "city": "Pallikonda Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9089,
+    "longitude": 78.9345,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Backups of Multi-Axle Trucks and High-Speed Passenger Cars",
+      "Erratic Lane Changing by Drivers Avoiding RFID Scanner Lines"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce your speed significantly at least 500 meters before the plaza.",
+      "Stay strictly within your selected lane and avoid shifting lines at the last minute.",
+      "Watch out for pedestrians and vendors weaving through stationary traffic."
+    ]
+  },
+  {
+    "id": "VEL0015",
+    "road_name": "Vellore - Odugathur Road (SH-114) - Kaniyambadi S-Bend Curve",
+    "city": "Kaniyambadi Village",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8142,
+    "longitude": 79.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Sharp Reverse Curves wrapped in Dense Local Flora",
+      "Weak Lateral Road Banking causing Vehicles to Drift Outward"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Brake completely before entering the curvature, not while tracking it.",
+      "Sound your horn to communicate your location to vehicles behind the foliage.",
+      "Never push your left tires off the asphalt edge onto the soft dirt."
+    ]
+  },
+  {
+    "id": "VEL0016",
+    "road_name": "Katpadi - Vallimalai Road (MDR) - Christian Medical College (CMC) Campus Ingress",
+    "city": "Chittoor Bus Stand Area",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9567,
+    "longitude": 79.1389,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Heavy Pedestrian Congestion from Medical Visitors and Patients",
+      "Frequent Abrupt Stops by Ambulances, Auto-Rickshaws, and Inter-City Buses"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain walking pace speeds when passing directly by hospital entry gates.",
+      "Keep absolute focal readiness active for pedestrians crossing between vehicles.",
+      "Give absolute right-of-way to emergency medical transport vehicles."
+    ]
+  },
+  {
+    "id": "VEL0017",
+    "road_name": "Gudiyatham - Pernambut Road (SH-59) - Sathghar Hairpin Link",
+    "city": "Pernambut Foothills",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9412,
+    "longitude": 78.7345,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Structural Gradient with Sudden Blind Angular Hooks",
+      "Heavy Risk of Brake Failure for Downhill Loaded Freight Commercials"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Utilize lower gear shifts to activate engine braking when heading downhill.",
+      "Flash your headlights or blast your horn before committing to blind corners.",
+      "Yield entire inner lane loops to ascending trucks or heavy transport."
+    ]
+  },
+  {
+    "id": "VEL0018",
+    "road_name": "Vellore - Arani Road (SH-4) - Bagayam Junction Intersection",
+    "city": "Bagayam",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8789,
+    "longitude": 79.1312,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossroad Flow lacking working signals or roundabouts",
+      "Sight Line Blockage from Local Awning Roofs and Commercial Ad Boards"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center crossway under total control with your foot on the brake.",
+      "Check your left and right side mirrors for merging local mopeds.",
+      "Avoid all overtaking maneuvers inside the intersection perimeter zone."
+    ]
+  },
+  {
+    "id": "VEL0019",
+    "road_name": "Chennai - Bengaluru Highway (NH-48) - Latheri Bypass Fork",
+    "city": "Latheri Rural Section",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9645,
+    "longitude": 79.0312,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive High-Speed Merge Profile from Secondary Town Links",
+      "Complete Lack of Nighttime Overhead High-Mast Luminary Systems"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Initiate turning indicators early to signal your lane entry tracks.",
+      "Scan the merging lines carefully for hidden or unlit local tractors.",
+      "Strictly avoid rapid acceleration or close tailgating near the entry split."
+    ]
+  },
+  {
+    "id": "VEL0020",
+    "road_name": "Anaicut - Odugathur Road (MDR) - Peenjamandai Ghat Entry",
+    "city": "Anaicut Hills Ingress",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.7912,
+    "longitude": 78.8845,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Single Lane Width with Soft, Eroded Mud Shoulders",
+      "Low Visibility Caused by Rocky Cliff Projections and Overhanging Trees"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Bring your vehicle to a complete stop on solid ground if a heavy truck approaches.",
+      "Never push your tires onto loose gravel shoulders to avoid slipping into ditches.",
+      "Sound your horn continuously to alert opposing hidden drivers on bends."
+    ]
+  },
+  {
+    "id": "VEL0021",
+    "road_name": "Katpadi - Gudiyatham Road (SH-595) - Viruthampattu River Bridge Ingress",
+    "city": "Viruthampattu Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9489,
+    "longitude": 79.1314,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Roadway Narrowing Bottleneck at Old Bridge Entry Base",
+      "High Density of Inter-District Public Transport and Sand Freighters"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry access to oncoming heavy vehicles that have reached the span first.",
+      "Strictly avoid any overtaking or lane shifting across the narrow framework.",
+      "Maintain a uniform steady speed until you have fully exited the bottleneck."
+    ]
+  },
+  {
+    "id": "VEL0022",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Poigai Weekly Market Stretch",
+    "city": "Poigai Village Zone",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9022,
+    "longitude": 79.0189,
+    "danger_level": "High",
+    "danger_type": [
+      "Encroaching Commercial Shop Display Boards restricting carriage width",
+      "Heavy Mix of Unregulated Pedestrian Crossings and Agricultural Livestock"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect sudden pedestrian movements across the central highway line.",
+      "Keep a keen eye open for cattle pulling out from side lanes or markets.",
+      "Avoid using high-decibel horns to prevent panic among local shoppers."
+    ]
+  },
+  {
+    "id": "VEL0023",
+    "road_name": "Vellore Inner Ring Road - Sankaranpalayam Blind Corner",
+    "city": "Sankaranpalayam",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9188,
+    "longitude": 79.1089,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Residential Brick Wall Structures",
+      "Frequent Overtaking by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Do not try to force your way into opposing lanes during traffic buildups.",
+      "Be prepared to stop immediately for pedestrians emerging from the blind side."
+    ]
+  },
+  {
+    "id": "VEL0024",
+    "road_name": "Gudiyatham - Katpadi Road (SH-595) - Serkadu College Crossing",
+    "city": "Serkadu Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9812,
+    "longitude": 79.1645,
+    "danger_level": "High",
+    "danger_type": [
+      "High Density of Student Pedestrians and Institutional Transit Buses",
+      "Sharp Curvature immediately following an extended high-speed straight stretch"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly follow university zone speed limits during morning and afternoon hours.",
+      "Anticipate sudden stops from institution buses loading or unloading students.",
+      "Apply brakes well before entering the curvature, not while on it."
+    ]
+  },
+  {
+    "id": "VEL0025",
+    "road_name": "Vellore - Tiruvannamalai Road (SH-9) - Pennathur Lake Edge Corridor",
+    "city": "Pennathur Rural",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8345,
+    "longitude": 79.1388,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Sweeping Curve running adjacent to an Unfenced Water Canal",
+      "Slippery Asphalt caused by Algae and Water Spillover during Monsoons"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep a safe distance from the unbarricaded canal side edge layout.",
+      "Reduce speed significantly if the surface is wet from seasonal rainfall overflows.",
+      "Maintain strict lane discipline and do not drift across central lines."
+    ]
+  },
+  {
+    "id": "VEL0026",
+    "road_name": "Chennai - Bengaluru Highway (NH-48) - Melvisharam Industrial Crossflow",
+    "city": "Melvisharam Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9412,
+    "longitude": 79.2485,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Turning and Crossing Movements by Heavy Industrial Trailers",
+      "High Nighttime Risk from Low-Contrast Illumination and Airborne Dust"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Scan the highway shoulders continuously for slow-moving factory trucks.",
+      "Flash your high beams at night to alert heavy vehicle operators at turning bays.",
+      "Maintain a safe braking distance from commercial freight vehicles ahead."
+    ]
+  },
+  {
+    "id": "VEL0027",
+    "road_name": "Vellore - Chittoor Highway (NH-75) - Christian Medical College (CMC) Chittoor Campus Crossing",
+    "city": "Katpadi Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9989,
+    "longitude": 79.1356,
+    "danger_level": "Critical",
+    "danger_type": [
+      "High Speed Discrepancy Between Highway Express Traffic and Patient Crossflow",
+      "Unregulated Shared Auto-Rickshaw Drop-offs Constraining Left Lanes"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce speed sharply when approaching the designated hospital zone indicators.",
+      "Be prepared for sudden lane-splitting attempts by local transit motorcycles.",
+      "Give undisputed right-of-way to emergency medical transport units."
+    ]
+  },
+  {
+    "id": "VEL0028",
+    "road_name": "Katpadi - Gudiyatham Highway (SH-59) - Latteri Railway Gate Junction",
+    "city": "Latteri Town Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9621,
+    "longitude": 79.0345,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Traffic Backups Reaching Structural High-Speed Highway Segments",
+      "Improper Lane Markings Leading to Last-Minute Merging Chaos"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Activate your hazard lights if you are at the tail end of a sudden queue.",
+      "Do not cross over solid white center lines to bypass stationary gridlocks.",
+      "Keep a keen eye open for slow or stalled commercial vehicles."
+    ]
+  },
+  {
+    "id": "VEL0029",
+    "road_name": "Gudiyatham - Pernambut Road (SH-59) - Kailasagiri Hill Base Curve",
+    "city": "Kailasagiri Rural Section",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9341,
+    "longitude": 78.7812,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Right-Angle Blind Bend Facing Rocky Terrain Obstructions",
+      "Accumulation of Loose Gravel and Dirt Dislodged from High Slopes"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Apply uniform braking effort strictly before entering the curve apex.",
+      "Give brief daytime horn signals to warn opposing hidden motorists.",
+      "Avoid accelerating over sections showing loose aggregate or soil spillover."
+    ]
+  },
+  {
+    "id": "VEL0030",
+    "road_name": "Vellore - Tiruvannamalai Road (SH-9) - Adukkamparai Hospital Zone Corner",
+    "city": "Adukkamparai",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8456,
+    "longitude": 79.1289,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Pedestrian Congestion Combined with Erratically Parked Ambulances",
+      "Sharp Curvature Masking Ingress and Egress Paths of Emergency Vehicles"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Strictly follow the medical perimeter speed regulations at all times.",
+      "Scan both shoulders actively for pedestrians crossing between parked vehicles.",
+      "Avoid overtaking commercial transport or public buses near the gates."
+    ]
+  },
+  {
+    "id": "VEL0031",
+    "road_name": "Anaicut - Odugathur Road (MDR) - Vannanthangal Canal Edge Corridor",
+    "city": "Vannanthangal Village",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8012,
+    "longitude": 78.9345,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac with Severe Vertical Drops to Adjacent Low-lying Fields",
+      "Complete Lack of Steel Safety Guardrails or Retroreflective Studs"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Pull over onto stable ground and stop if a wide commercial truck approaches.",
+      "Keep your tires strictly tracking within the paved asphalt lane markings.",
+      "Exercise double caution when navigating this stretch during monsoonal downpours."
+    ]
+  },
+  {
+    "id": "VEL0032",
+    "road_name": "Gudiyatham - Katpadi Road (SH-595) - Melalathur School Zone Crossroad",
+    "city": "Melalathur",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9489,
+    "longitude": 79.0812,
+    "danger_level": "High",
+    "danger_type": [
+      "High Density of Student Pedestrians and Bicycle Traffic during Peak Hours",
+      "Unregulated Local Agricultural Vehicle Entry from Adjacent Rural Links"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Minimize vehicle speed significantly during morning assembly and school closure hours.",
+      "Watch closely for young cyclists pulling out from hidden side alleys.",
+      "Maintain a wide tracking distance and avoid high-revving engine sounds."
+    ]
+  },
+  {
+    "id": "VEL0033",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Kaniyambadi Railway Crossing Section",
+    "city": "Kaniyambadi Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8288,
+    "longitude": 79.1314,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Build-up Blocking Primary Highway Speeds",
+      "Erratic Overtaking by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if you are at the tail end of a sudden queue.",
+      "Do not switch into opposite lanes to bypass waiting railway line blocks.",
+      "Maintain a safe braking distance from the heavy vehicle waiting ahead."
+    ]
+  },
+  {
+    "id": "VEL0034",
+    "road_name": "Vellore Old Bypass Road - Konavattam Flyover Merge",
+    "city": "Konavattam Suburban Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9247,
+    "longitude": 79.1012,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Merge Angle Lacking Impact Attenuators and Proper Lighting",
+      "High-Speed Bypass Vehicles Swapping Lanes without Visual Signals"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Check your right-side blind spots carefully before merging into the main flow.",
+      "Initiate your turning indicators early to alert fast-approaching trucks.",
+      "Avoid any rapid acceleration maneuvers directly at the conversion point."
+    ]
+  },
+  {
+    "id": "VEL0035",
+    "road_name": "Gudiyatham - Chittoor Link Road - Paradarami Border Forest Curve",
+    "city": "Paradarami Rural Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 13.0812,
+    "longitude": 78.9412,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Curvatures Lacking Center Medians or Visual Markers",
+      "Sight Line Obstruction from Dense Forest Trees Blocking Daylights"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly ensure your tires remain centered on the paved asphalt lane.",
+      "Sound your horn continuously to alert oncoming traffic around the curves.",
+      "Watch out for stray wildlife or cattle roaming onto the roadway."
+    ]
+  },
+  {
+    "id": "VEL0036",
+    "road_name": "Vellore Inner Ring Road - Otteri Lake Bend Section",
+    "city": "Otteri Suburbs",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8989,
+    "longitude": 79.1245,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Sweeping Curvature Running Adjacent to Large Water Body",
+      "Slippery Road Surface Conditions Caused by Early Morning Moisture Film"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Dim your high beams promptly at night to easily spot the curve outline.",
+      "Avoid harsh braking inside the apex when the surface is wet from mist.",
+      "Maintain a uniform, stable throttle input through the entire curve."
+    ]
+  },
+  {
+    "id": "VEL0037",
+    "road_name": "Pernambut - Vaniyambadi Link Road (MDR) - Mettupalayam Junction",
+    "city": "Pernambut Southern Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9112,
+    "longitude": 78.7114,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex 4-Way Crossroad Lacking Active Signals or Channelizing Islands",
+      "Sight Line Blockage from Local Shop Fronts and Temporary Awnings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center crossroads under complete defensive brake readiness.",
+      "Watch closely for pedestrians stepping out from behind parked vehicles.",
+      "Signal your lane directions early to guide fast-moving tailgaters."
+    ]
+  },
+  {
+    "id": "VEL0038",
+    "road_name": "Chennai - Bengaluru Highway (NH-48) - Sathuvachari Intersection Core",
+    "city": "Sathuvachari Suburbs",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9492,
+    "longitude": 79.1611,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Unregulated Overtaking across Local Commercial Access Points",
+      "High Density of Local Two-Wheelers Cutting Across Express Lanes"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Stay in the center lane to avoid sudden local traffic pulling out from the left.",
+      "Check your side mirrors continuously when passing city layout breaks.",
+      "Strictly avoid acceleration spurts near the pedestrian crossing segments."
+    ]
+  },
+  {
+    "id": "VEL0039",
+    "road_name": "Vellore - Chittoor Highway (NH-75) - Katpadi Silk Mill Blind Curve",
+    "city": "Katpadi Northern Edge",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9814,
+    "longitude": 79.1447,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Angular Curve wrapped inside High Factory Compound Barriers",
+      "Slick Surface Conditions caused by Industrial Spillover and Dust"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn firmly before entering the apex of the unviewable bend.",
+      "Maintain your lane structure and do not drift across the center markings.",
+      "Watch closely for commercial transport logistics slow down actions."
+    ]
+  },
+  {
+    "id": "VEL0040",
+    "road_name": "Katpadi - Gudiyatham Highway (SH-595) - KV Kuppam Town Center Crossroad",
+    "city": "KV Kuppam",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9721,
+    "longitude": 79.0114,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Unregulated Crossroad Flow Without Active Traffic Control Signal Arrays",
+      "Encroaching Weekly Market Vendors Restricting Overall Carriage Width"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Approach the town center crossway under total defensive brake control readiness.",
+      "Expect sudden pedestrian crossings and non-motorized handcarts.",
+      "Do not attempt any overtaking maneuvers within the village commercial core."
+    ]
+  },
+  {
+    "id": "VEL0041",
+    "road_name": "Gudiyatham - Pernambut Road (SH-59) - Ambur Link Junction Fork",
+    "city": "Pernambut Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9289,
+    "longitude": 78.7212,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud guidance markers",
+      "High Volume of Speeding Inter-District Public Transport Buses"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Determine your route trajectory direction well before reaching the split point.",
+      "Signal your path intent early to protect your space from trailing trucks.",
+      "Yield priority to fast-moving multi-district vehicles on the main line."
+    ]
+  },
+  {
+    "id": "VEL0042",
+    "road_name": "Vellore - Tiruvannamalai Road (SH-9) - Ussoor Rural Link Curve",
+    "city": "Ussoor Village Stretch",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8711,
+    "longitude": 79.0812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Right Turn with Minimal Bank Angle Superelevation",
+      "Sight Line Obstruction from Dense Sub-Tropical Roadside Flora"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Lower your vehicle's speed before entering the curve apex to counter sliding risk.",
+      "Sound your horn to alert oncoming traffic that may be cutting the corner.",
+      "Watch for loose wet leaves or mud deposits during monsoon spells."
+    ]
+  },
+  {
+    "id": "VEL0043",
+    "road_name": "Anaicut - Odugathur Road (MDR) - Melarasampattu Canal Edge Strip",
+    "city": "Melarasampattu",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.7845,
+    "longitude": 78.9214,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Tarmac running closely along Unfenced Ditch Boundaries",
+      "Severe Drop-off Heights directly falling into Irrigation Field Links"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep tires firmly centered on the asphalt lane to prevent ditch sliding.",
+      "Pull over onto stable ground and stop if a wide commercial vehicle approaches.",
+      "Exercise double caution when driving through this stretch during rainy spells."
+    ]
+  },
+  {
+    "id": "VEL0044",
+    "road_name": "Vellore Old Bypass Road - Saidapet Market Core Choke Point",
+    "city": "Saidapet Urban Core",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9312,
+    "longitude": 79.1345,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Commercial Shop Fronts",
+      "Heavy Mix of Unregulated Pedestrian Crossings and Haphazard Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes.",
+      "Avoid using high-decibel horns to prevent panic among local pedestrians."
+    ]
+  },
+  {
+    "id": "VEL0045",
+    "road_name": "Gudiyatham - Chittoor Link Road - Paradarami School Zone Corner",
+    "city": "Paradarami Village Zone",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 13.0612,
+    "longitude": 78.9289,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature running directly past local educational gate lines",
+      "Lack of proper overhead warning flashers or pedestrian safety barriers"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Minimize vehicle speed significantly during morning and afternoon hours.",
+      "Scan both sides of the roadway edge for children walking on foot.",
+      "Refrain from quick acceleration maneuvers within the school perimeter."
+    ]
+  },
+  {
+    "id": "VEL0046",
+    "road_name": "Vellore Inner Ring Road - Thorapadi Hill Track Descent",
+    "city": "Thorapadi Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8842,
+    "longitude": 79.1212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Steep Approach Gradient ending in sudden Sharp Geometric Turns",
+      "Narrow Guard Rails with Missing Structural Reflector Blocks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear to use engine braking when descending the gradient.",
+      "Never attempt overtaking maneuvers anywhere on the narrow descending span.",
+      "Stay centered to avoid scraping sides against the close concrete barriers."
+    ]
+  },
+  {
+    "id": "VEL0047",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Pallikonda Link Crossroad",
+    "city": "Pallikonda Rural Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9125,
+    "longitude": 78.9642,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Three-Way Fork with Inadequate Visual Separation Signals",
+      "Frequent Nighttime Parking of Commercial Trucks obstructing sight lines"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Scan the side link lanes actively for merging local agricultural transit.",
+      "Use your directional indicators early to alert surrounding commuters.",
+      "Exercise extra defensive driving at night by relying on low-beam focus."
+    ]
+  },
+  {
+    "id": "VEL0048",
+    "road_name": "Katpadi - Vallimalai Road (MDR) - Old Katpadi Bridge Bottleneck",
+    "city": "Katpadi Urban Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9612,
+    "longitude": 79.1512,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Lane Reduction Bottleneck at Old River Structural Ingress",
+      "High Structural Rubbing Risk from Multi-Axle Freight Trucks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Fold in your side mirrors if passing another wide commercial vehicle."
+    ]
+  },
+  {
+    "id": "VEL0049",
+    "road_name": "Pernambut - Vaniyambadi Link Road (MDR) - Thottalam Canal Bend",
+    "city": "Thottalam Village Stretch",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8989,
+    "longitude": 78.7314,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Left Bend lacking Solid Concrete Safety Barriers",
+      "Pavement Surface Degradation from High Salinity and Coastal Rainfall"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid drifting close to the left boundary where the shoulder drops off.",
+      "Maintain a uniform, stable throttle input through the curve apex.",
+      "Reduce speed ahead of time and scan for any slow agricultural vehicles."
+    ]
+  },
+  {
+    "id": "VEL0050",
+    "road_name": "Chennai - Bengaluru Highway (NH-48) - Alamelumangapuram Bypass Crossing",
+    "city": "Alamelumangapuram Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9431,
+    "longitude": 79.1824,
+    "danger_level": "High",
+    "danger_type": [
+      "High-Speed Lane Merging From Rapidly Growing Residential Layouts",
+      "Lack of Grade-Separated U-Turns Forcing Local Two-Wheelers Across Expressways"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Keep to the middle lane to avoid sudden local traffic pulling out from side access points.",
+      "Check rear-view mirrors continuously for fast-approaching inter-state freight trucks.",
+      "Strictly avoid rapid lane changes without checking blind spots."
+    ]
+  },
+  {
+    "id": "VEL0051",
+    "road_name": "Vellore - Chittoor Highway (NH-75) - Kangeyanallur Village Junction",
+    "city": "Kangeyanallur",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9592,
+    "longitude": 79.1245,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Unregulated Turning Movements Near Educational and Temple Links",
+      "High Volume of Speeding Town Buses Obstructing Sight Lines"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce your vehicle speed and prepare to brake before crossing temple approach lines.",
+      "Watch closely for local moped riders cutting across the primary lanes without signaling.",
+      "Do not try to slip past stationary buses unloading passengers near the road edge."
+    ]
+  },
+  {
+    "id": "VEL0052",
+    "road_name": "Katpadi - Gudiyatham Highway (SH-595) - Tharapadavedu Lake Bund Road Curve",
+    "city": "Tharapadavedu Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9644,
+    "longitude": 79.1489,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Sweeping Curvature Running Parallel to an Unfenced Water Canal",
+      "Slippery Road Surfaces Caused by Algae Growth and Irrigation Spills"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Maintain strict lane discipline and do not drift across central lines.",
+      "Dim your high beams promptly at night to easily spot the curve outline.",
+      "Avoid harsh braking inside the apex when the surface is damp or muddy."
+    ]
+  },
+  {
+    "id": "VEL0053",
+    "road_name": "Gudiyatham - Pernambut Road (SH-59) - Melpatti High School Zone Bend",
+    "city": "Melpatti Village",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9234,
+    "longitude": 78.8012,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature Running Directly past School Entry Gates",
+      "High Density of Student Pedestrians and Bicycle Traffic during Peak Hours"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop speed during morning arrival and afternoon dismissal hours.",
+      "Watch closely for young cyclists pulling out from hidden side alleys.",
+      "Refrain from quick acceleration maneuvers within the school safety zone."
+    ]
+  },
+  {
+    "id": "VEL0054",
+    "road_name": "Vellore - Tiruvannamalai Road (SH-9) - Odugathur Junction Link",
+    "city": "Odugathur Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8089,
+    "longitude": 79.1122,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Split Lacking Retroreflective Road Stud Guidance Markers",
+      "High-Speed Inter-District Bus Transit Movements Swapping Lanes Erratically"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Determine your route trajectory direction well before reaching the split point.",
+      "Signal your path choices early to alert closely following vehicles.",
+      "Yield to fast-moving buses traversing the primary state highway corridors."
+    ]
+  },
+  {
+    "id": "VEL0055",
+    "road_name": "Anaicut - Odugathur Road (MDR) - Pallikonda Forest Range Curve",
+    "city": "Anaicut Rural Range",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.7989,
+    "longitude": 78.9012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Continuous Sharp Curvatures Lacking Center Medians or Visual Markers",
+      "Sight Line Obstruction from Dense Forest Canopy Blocking Daylight Vision"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly ensure your tires remain centered on the paved asphalt lane.",
+      "Sound your horn continuously to alert oncoming traffic around the curves.",
+      "Watch out for stray wildlife or livestock roaming onto the roadway."
+    ]
+  },
+  {
+    "id": "VEL0056",
+    "road_name": "Vellore Old Bypass Road - Phase 2 Sathuvachari Intersection",
+    "city": "Sathuvachari Urban Edge",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9414,
+    "longitude": 79.1567,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex 4-Way Crossroad Lacking Active Signal Arrays or Roundabouts",
+      "Sight Line Blockage from Local Shop Fronts and Temporary Awnings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center crossroads under complete defensive brake readiness.",
+      "Watch closely for pedestrians stepping out from behind parked vehicles.",
+      "Use your directional indicators early to alert surrounding commuters."
+    ]
+  },
+  {
+    "id": "VEL0057",
+    "road_name": "Gudiyatham - Chittoor Link Road - Paradarami Ghat Middle Section",
+    "city": "Paradarami Foothills",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 13.0721,
+    "longitude": 78.9345,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Hairpin Bends with Steep Ascent Profiles",
+      "Low Visibility Caused by Rocky Terrain Projections and Blind Cliffs"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear early to maintain steady power on the ascent.",
+      "Sound your horn continuously to alert opposing hidden drivers on bends.",
+      "Give absolute right-of-way to heavier trucks climbing uphill."
+    ]
+  },
+  {
+    "id": "VEL0058",
+    "road_name": "Vellore Inner Ring Road - Bagayam Police Station Curve",
+    "city": "Bagayam Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8812,
+    "longitude": 79.1345,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Compound Walls and Banners",
+      "Frequent Turning Movements by Local Police and Emergency Vehicles"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Be prepared to stop immediately for vehicles emerging from the blind side.",
+      "Maintain a uniform steady speed and stay inside your lane markings."
+    ]
+  },
+  {
+    "id": "VEL0059",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Ussoor Market Choke Point",
+    "city": "Ussoor Village Core",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8912,
+    "longitude": 79.0412,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Weekly Vendor Stalls",
+      "Haphazard Two-Wheeler Parking Constraining Active Carriage Width"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Avoid all overtaking maneuvers within the active market boundaries.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes."
+    ]
+  },
+  {
+    "id": "VEL0060",
+    "road_name": "Katpadi - Vallimalai Road (MDR) - Melpadi Railway Line Level Crossing",
+    "city": "Melpadi Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9712,
+    "longitude": 79.1712,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Build-up Blocking Primary Highway Speeds",
+      "Erratic Lane Splitting by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if you are at the tail end of a sudden queue.",
+      "Do not switch into opposite lanes to bypass waiting railway line blocks.",
+      "Maintain a safe braking distance from the heavy vehicle waiting ahead."
+    ]
+  },
+  {
+    "id": "VEL0061",
+    "road_name": "Pernambut - Vaniyambadi Link Road (MDR) - Ambur Rural Border Junction",
+    "city": "Pernambut Southern Edge",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8845,
+    "longitude": 78.7214,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Crossroad Hidden behind Local Brick Walls and Farmland",
+      "High Density of Fast-Moving Commercial Sand and Leather Freight Trucks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Scan both intersections actively with your foot covering the brake pedal.",
+      "Give several short daytime horn taps to alert hidden merging traffic.",
+      "Avoid close-tailgating or overtaking near the warehouse entry lanes."
+    ]
+  },
+  {
+    "id": "VEL0062",
+    "road_name": "Chennai - Bengaluru Highway (NH-48) - Perumugai Industrial Ingress",
+    "city": "Perumugai Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9465,
+    "longitude": 79.2012,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Abrupt Stopping by Industrial Freight Containers",
+      "Low Nighttime Visibility Intersecting Rural Commuter Pathways"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Keep a significant front safety buffer from large multi-axle freight trailers.",
+      "Scan the highway shoulders carefully for slow vehicles entering from factory zones.",
+      "Flash your high beams at night to communicate your position to merging vehicles."
+    ]
+  },
+  {
+    "id": "VEL0063",
+    "road_name": "Vellore - Chittoor Highway (NH-75) - VIT University Campus Crossway",
+    "city": "Katpadi Suburbs",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9694,
+    "longitude": 79.1558,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Heavy Inflow of Student Pedestrians and Institutional Transit Buses",
+      "Erratic Lane Splitting by Delivery Two-Wheelers during Peak Hours"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop vehicle speeds to the minimum during college rush hours.",
+      "Check blind spots continuously for lane-splitting local motorcyclists.",
+      "Avoid attempting any quick overtaking moves past parked student buses."
+    ]
+  },
+  {
+    "id": "VEL0064",
+    "road_name": "Katpadi - Gudiyatham Highway (SH-595) - Tiruvalam Bridge Junction",
+    "city": "Tiruvalam Town Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9511,
+    "longitude": 79.2412,
+    "danger_level": "High",
+    "danger_type": [
+      "Abrupt Traffic Backups reaching High-Speed Highway Sections",
+      "Sudden Road Narrowing Bottleneck at Old River Structural Ingress"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Activate your hazard lights if you are at the tail end of a sudden queue.",
+      "Never attempt overtaking maneuvers on the narrow bridge span framework."
+    ]
+  },
+  {
+    "id": "VEL0065",
+    "road_name": "Gudiyatham - Pernambut Road (SH-59) - Moroorkulam Rural Curve",
+    "city": "Moroorkulam Village",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9389,
+    "longitude": 78.7512,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Right Curve wrapped inside Dense Roadside Plantations",
+      "Severe Drop-off Heights directly falling into Irrigation Field Links"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Brake completely on the straight block prior to entering the curvature.",
+      "Maintain strict lane discipline and do not drift across central lines.",
+      "Never push your tires onto loose gravel shoulders to avoid slipping into ditches."
+    ]
+  },
+  {
+    "id": "VEL0066",
+    "road_name": "Vellore - Tiruvannamalai Road (SH-9) - Kannamangalam Border Straightaway",
+    "city": "Kaniyambadi Southern Edge",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.7889,
+    "longitude": 79.1414,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Flat Straight stretch encouraging extreme speeding",
+      "Sudden entry of low-speed farm tractors carrying agricultural loads"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly respect the highway speed regulations despite the empty road view.",
+      "Maintain a wide safety buffer behind long, slow agricultural trailers.",
+      "Scan both shoulders of the highway continuously for moving livestock."
+    ]
+  },
+  {
+    "id": "VEL0067",
+    "road_name": "Anaicut - Odugathur Road (MDR) - Odugathur Bazaar Entry Bottleneck",
+    "city": "Odugathur Town Core",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.7842,
+    "longitude": 78.8545,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Commercial Shop Fronts",
+      "Chaotic Commercial Parking Intruding onto Main Carriage Lanes"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Avoid all overtaking actions within the village commercial core layout.",
+      "Use your horn sparingly to prevent confusing local pedestrians."
+    ]
+  },
+  {
+    "id": "VEL0068",
+    "road_name": "Vellore Old Bypass Road - Konavattam Service Road Intersection",
+    "city": "Konavattam Urban Area",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9212,
+    "longitude": 79.0889,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-Way Merging Streams without Clear Right-of-Way Rules",
+      "Erratic Outflow of Local Mopeds and Two-Wheelers onto the Highway"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center cross-point under defensive brake control readiness.",
+      "Check your left and right side mirrors carefully for merging local traffic.",
+      "Signal your lane directions early to guide fast-moving tailgaters."
+    ]
+  },
+  {
+    "id": "VEL0069",
+    "road_name": "Gudiyatham - Chittoor Link Road - Synagunda Forest Range Outer Curve",
+    "city": "Synagunda Rural Section",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 13.0567,
+    "longitude": 78.9244,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Curvatures Lacking Center Medians or Visual Markers",
+      "Low Visibility Caused by Rocky Terrain Projections and Blind Cliffs"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear early to maintain steady power on the ascent.",
+      "Sound your horn continuously to alert opposing hidden drivers on bends.",
+      "Watch out for stray wildlife or cattle roaming onto the roadway."
+    ]
+  },
+  {
+    "id": "VEL0070",
+    "road_name": "Vellore Inner Ring Road - Thorapadi Market Junction Area",
+    "city": "Thorapadi",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8945,
+    "longitude": 79.1189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Encroaching Weekly Market Vendors Restricting Overall Carriage Width",
+      "Frequent Abrupt Stops by Shared Autos and Public Mini-Buses"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect sudden passenger transport movements across the central highway line.",
+      "Keep a safe distance from shared autos pulling over without signaling.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes."
+    ]
+  },
+  {
+    "id": "VEL0071",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Kaniyambadi Police Outpost Blind Curve",
+    "city": "Kaniyambadi Village Zone",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8311,
+    "longitude": 79.1247,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Stone Compound Walls",
+      "Lack of Safety Guardrails or Retroreflective Stud Line Markings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Maintain a uniform steady speed and stay inside your lane markings.",
+      "Dim your high beams promptly at night to easily spot the curve outline."
+    ]
+  },
+  {
+    "id": "VEL0072",
+    "road_name": "Katpadi - Vallimalai Road (MDR) - Serkadu Junction Ingress Fork",
+    "city": "Serkadu Rural Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9889,
+    "longitude": 79.1714,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud markers",
+      "High Volume of Fast-Moving Commercial Sand and Leather Freight Trucks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Signal your path choices early to alert closely following vehicles.",
+      "Avoid close-tailgating or overtaking near the warehouse entry lanes."
+    ]
+  },
+  {
+    "id": "VEL0073",
+    "road_name": "Pernambut - Vaniyambadi Link Road (MDR) - Pernambut Town Exit Bridge",
+    "city": "Pernambut Southern Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9014,
+    "longitude": 78.7189,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Heritage Bridge Infrastructure with Limited Structural Width",
+      "Abrupt Convergence of Town Pedestrian Flow at the Bridge Exit Base"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield right of way if a heavy truck has already claimed entry onto the span.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Keep a close watch for sudden pedestrian crossings at the town-side exit."
+    ]
+  },
+  {
+    "id": "VEL0074",
+    "road_name": "Chennai - Bengaluru Highway (NH-48) - Bramhapuram Village Crossing",
+    "city": "Katpadi Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9515,
+    "longitude": 79.1982,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossway Openings Encouraging Illegal Wrong-Way Driving",
+      "High-Speed Heavy Vehicle Crossflow from Adjacent Industrial Hubs"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Keep a keen lookout for two-wheelers driving against traffic on the shoulders.",
+      "Strictly maintain your lane and do not tailgate high-speed trucks.",
+      "Reduce speed during late night hours when visibility is reduced by dust."
+    ]
+  },
+  {
+    "id": "VEL0075",
+    "road_name": "Vellore - Chittoor Highway (NH-75) - Christian Medical College (CMC) Ranipet Link",
+    "city": "Katpadi Northern Border",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 13.0012,
+    "longitude": 79.1411,
+    "danger_level": "High",
+    "danger_type": [
+      "Abrupt Traffic Backups at the Intersection of Key Hospital Link Routes",
+      "Erratic Lane Swapping by Unregulated Taxi Fleet Operators"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Signal your lane transitions early when nearing the link-road divergence.",
+      "Always yield to emergency medical vehicles traversing the central route.",
+      "Keep foot ready near the brake pedal to counter sudden front stops."
+    ]
+  },
+  {
+    "id": "VEL0076",
+    "road_name": "Katpadi - Gudiyatham Highway (SH-595) - Senur Rural Crossroad",
+    "city": "Senur Village Zone",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9611,
+    "longitude": 79.1089,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Three-Way Fork Lacking Clear Vertical Signs or Studs",
+      "Frequent Merging of Slow Farming Tractors onto the Main Highway"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Give several short daytime horn taps when passing hidden farm entrances.",
+      "Scan both intersections actively to catch unlit local mopeds.",
+      "Avoid attempting any quick overtaking moves past turning agricultural units."
+    ]
+  },
+  {
+    "id": "VEL0077",
+    "road_name": "Gudiyatham - Pernambut Road (SH-59) - Chinnathottalam Market S-Bend",
+    "city": "Chinnathottalam",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9314,
+    "longitude": 78.7412,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive S-Curve Profile Right past Local Bazaar Sheds",
+      "Haphazard Two-Wheeler Parking Restricting Active Lane Trajectories"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Brake completely before entering the curvature, not while tracking it.",
+      "Watch closely for pedestrians stepping out from behind commercial vans.",
+      "Strictly avoid drifting across center lane lines to bypass shop fronts."
+    ]
+  },
+  {
+    "id": "VEL0078",
+    "road_name": "Vellore - Tiruvannamalai Road (SH-9) - Ussoor Lake Inflow Curve",
+    "city": "Ussoor Rural Section",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8612,
+    "longitude": 79.0689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Sweeping Curvature Running Adjacent to an Unfenced Catchment Ditch",
+      "Slippery Asphalt Patch Formations Caused by Seasonal Mud Spillover"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Maintain a centered line on the driving track layout blocks.",
+      "Never push your tires onto loose gravel shoulders to avoid ditch sliding.",
+      "Exercise high caution during monsoon spells when water spills onto the asphalt."
+    ]
+  },
+  {
+    "id": "VEL0079",
+    "road_name": "Anaicut - Odugathur Road (MDR) - Melasanthupatti Bridge Approach",
+    "city": "Melasanthupatti Village",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.7945,
+    "longitude": 78.8912,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Single-Lane Bridge Structure Across High Spurt Streams",
+      "Eroded Unpaved Shoulders Falling Directly Into Low Agri Canals"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry access to oncoming heavy vehicles that have reached the span first.",
+      "Do not try to force two large vehicles to cross side-by-side on this bridge.",
+      "Drive slow to absorb the sudden bumps at the bridge joint transitions."
+    ]
+  },
+  {
+    "id": "VEL0080",
+    "road_name": "Vellore Old Bypass Road - Abdullapuram Airport Link Junction",
+    "city": "Abdullapuram Suburbs",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9011,
+    "longitude": 79.0645,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-Way Merging Streams Lacking Roundabout Infrastructures",
+      "High Density of Inter-District Sand Trucks Driving at Night"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Approach the center cross-point under defensive brake control readiness.",
+      "Use your directional indicators early to alert surrounding commuters.",
+      "Flash your high beams at night to gauge oncoming vehicles behind tree lines."
+    ]
+  },
+  {
+    "id": "VEL0081",
+    "road_name": "Gudiyatham - Chittoor Link Road - Synagunda Upper Hairpin Hook",
+    "city": "Synagunda Hill Range",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 13.0645,
+    "longitude": 78.9189,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Continuous Sharp Hairpin Bends with Steep Descent Gradients",
+      "Low Lateral Visibility Caused by High Rocky Wall Formations"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Shift to a lower gear to use engine braking when descending the gradient.",
+      "Sound your horn continuously to alert opposing hidden drivers on bends.",
+      "Give undisputed right-of-way to loaded uphill freight trucks."
+    ]
+  },
+  {
+    "id": "VEL0082",
+    "road_name": "Vellore Inner Ring Road - Thorapadi Housing Board Crossing",
+    "city": "Thorapadi Urban Edge",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8889,
+    "longitude": 79.1245,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Residential Lane Entry Points Intersecting Core Ring Lines",
+      "Frequent Last-Minute Lane Swapping by Local Passenger Vans"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect sudden passenger transport movements across the central highway line.",
+      "Keep a safe distance from shared autos pulling over without signaling.",
+      "Maintain active lane discipline and do not slide across lane markings."
+    ]
+  },
+  {
+    "id": "VEL0083",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Pennathur Forest Checkpost Corner",
+    "city": "Pennathur Village",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8247,
+    "longitude": 79.1314,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Backups of Stationary Freight Vehicles Near Border Checkpoints",
+      "Acute Angular Right Curve Obscured by Tall Commercial Ad Boards"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the checkpoint area slowly as parked trucks create severe blind spots.",
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Watch for police officials or transport staff stepping into the active lanes."
+    ]
+  },
+  {
+    "id": "VEL0084",
+    "road_name": "Katpadi - Vallimalai Road (MDR) - Serkadu University Gate Crossing",
+    "city": "Serkadu",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9845,
+    "longitude": 79.1689,
+    "danger_level": "High",
+    "danger_type": [
+      "High Density of Student Pedestrians Crossing the Highway Strip",
+      "Lack of Overhead Warning Flashers or Pedestrian Barrier Rails"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly follow university zone speed limits during morning and afternoon hours.",
+      "Scan both sides of the roadway edge for children or students walking on foot.",
+      "Avoid attempting any quick overtaking moves past parked student buses."
+    ]
+  },
+  {
+    "id": "VEL0085",
+    "road_name": "Pernambut - Vaniyambadi Link Road (MDR) - Thottalam Bridge Slant",
+    "city": "Thottalam Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8912,
+    "longitude": 78.7289,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sudden Road Narrowing at Old Masonry Culvert Bridge Entry Base",
+      "High Rubbing Risk from Fast-Moving Commercial Leather Logistics Trucks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Fold in your side mirrors if passing another wide commercial vehicle.",
+      "Maintain a uniform steady speed until you have fully exited the bottleneck."
+    ]
+  },
+  {
+    "id": "VEL0086",
+    "road_name": "Chennai - Bengaluru Highway (NH-48) - Kangayanallur Outer Fork",
+    "city": "Katpadi Suburbs",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9498,
+    "longitude": 79.1389,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive High-Speed Merge Configuration from River Bed Links",
+      "Frequent Abrupt Lane Intersections by Sand-Freight Operations"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Scan the entry lanes carefully for slow-moving freight pulling into traffic.",
+      "Strictly avoid lane drifting around solid white channelization markings.",
+      "Maintain stable forward gaps to optimize reactive braking maneuvers."
+    ]
+  },
+  {
+    "id": "VEL0087",
+    "road_name": "Vellore - Chittoor Highway (NH-75) - Katpadi Water Tank Curve",
+    "city": "Katpadi Urban Edge",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9745,
+    "longitude": 79.1414,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Geometric Angle Wrapped close to Masonry Infrastructure",
+      "High Volume of Two-Wheelers Executing Erratic Turning Options"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Brake completely on the straight block before entering the curvature.",
+      "Check your blind spots continuously for lane-splitting local motorcyclists.",
+      "Tap your horn gently to communicate your location past the wall block."
+    ]
+  },
+  {
+    "id": "VEL0088",
+    "road_name": "Katpadi - Gudiyatham Highway (SH-595) - Senur Lake Bund Edge",
+    "city": "Senur Rural Section",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9642,
+    "longitude": 79.1124,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac with Severe Vertical Drops to Catchment Boundaries",
+      "Lack of Proper Nighttime Retroreflective Stud Line Markings"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep tires firmly centered on the asphalt lane to prevent ditch sliding.",
+      "Rely heavily on low beams to clearly track the edge line variations at night.",
+      "Avoid tracking close to the soft, unpaved shoulders during monsoons."
+    ]
+  },
+  {
+    "id": "VEL0089",
+    "road_name": "Gudiyatham - Pernambut Road (SH-59) - Melpatti Crossroad Complex",
+    "city": "Melpatti Commercial Center",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9245,
+    "longitude": 78.8188,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossroad Flow Without Active Traffic Control Signal Arrays",
+      "Sight Line Obstruction Caused by Local Commercial Ad Banners"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center cross-point under defensive brake control readiness.",
+      "Watch closely for local moped riders cutting across the primary lanes.",
+      "Avoid all overtaking maneuvers inside the intersection perimeter zone."
+    ]
+  },
+  {
+    "id": "VEL0090",
+    "road_name": "Vellore - Tiruvannamalai Road (SH-9) - Adukkamparai Outer S-Bend",
+    "city": "Adukkamparai Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8392,
+    "longitude": 79.1312,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Blind Reverse Curves wrapped in Heavy Overhead Trees",
+      "High-Speed Inter-District Bus Transit Movements Swapping Lanes"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Maintain active lane discipline and do not slice across the corners.",
+      "Yield to fast-moving buses traversing the primary state highway corridors.",
+      "Flash your high beams at night to alert drivers hidden behind tree lines."
+    ]
+  },
+  {
+    "id": "VEL0091",
+    "road_name": "Anaicut - Odugathur Road (MDR) - Vannanthangal Link Junction",
+    "city": "Vannanthangal Rural",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8045,
+    "longitude": 78.9289,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Three-Way Fork Lacking Clear Vertical Signs or Studs",
+      "Frequent Entry of Low-Speed Farm Tractors Carrying Agri Cargo"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Scan both intersections actively with your foot covering the brake pedal.",
+      "Give several short daytime horn taps when passing hidden farm entrances.",
+      "Maintain a wide safety buffer behind long, slow agricultural trailers."
+    ]
+  },
+  {
+    "id": "VEL0092",
+    "road_name": "Vellore Old Bypass Road - Phase 3 Sathuvachari Corner",
+    "city": "Sathuvachari Urban Core",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9447,
+    "longitude": 79.1612,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Weekly Vendor Stalls",
+      "Heavy Pedestrian Congestion around Commercial Complex Core"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes.",
+      "Avoid using high-decibel horns to prevent panic among local pedestrians."
+    ]
+  },
+  {
+    "id": "VEL0093",
+    "road_name": "Gudiyatham - Chittoor Link Road - Paradarami Lower Valley Slope",
+    "city": "Paradarami Foothills",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 13.0589,
+    "longitude": 78.9312,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Approach Gradient ending in sudden Sharp Geometric Turns",
+      "Continuous Sharp Hairpin Bends with Minimal Bank Angle"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Shift to a lower gear to use engine braking when descending the gradient.",
+      "Sound your horn continuously to alert opposing hidden drivers on bends.",
+      "Give absolute right-of-way to heavier trucks climbing uphill."
+    ]
+  },
+  {
+    "id": "VEL0094",
+    "road_name": "Vellore Inner Ring Road - Bagayam Colony Crossroad",
+    "city": "Bagayam Suburbs",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8845,
+    "longitude": 79.1289,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Residential Lane Entry Points Intersecting Ring Lines",
+      "Frequent Last-Minute Lane Swapping by Local Passenger Vans"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect sudden passenger transport movements across the central highway line.",
+      "Keep a safe distance from shared autos pulling over without signaling.",
+      "Use your directional indicators early to alert surrounding commuters."
+    ]
+  },
+  {
+    "id": "VEL0095",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Pennathur Bridge Descent",
+    "city": "Pennathur Village Zone",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8288,
+    "longitude": 79.1388,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Structure with Eroded Asphalt Footings",
+      "Abrupt Traffic Queue Backups Reaching High-Speed Highway Sectors"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry access to oncoming heavy vehicles that have reached the span first.",
+      "Turn on your hazard warning lights if you are at the tail end of a sudden queue.",
+      "Never attempt overtaking maneuvers on the narrow bridge span framework."
+    ]
+  },
+  {
+    "id": "VEL0096",
+    "road_name": "Katpadi - Vallimalai Road (MDR) - Serkadu Cross Link Fork",
+    "city": "Serkadu Rural Outskirts",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.9812,
+    "longitude": 79.1645,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking Retroreflective Route Stud Markings",
+      "High Volume of Fast-Moving Commercial Sand and Leather Freight Trucks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Signal your path choices early to alert closely following vehicles.",
+      "Avoid close-tailgating or overtaking near the warehouse entry lanes."
+    ]
+  },
+  {
+    "id": "VEL0097",
+    "road_name": "Pernambut - Vaniyambadi Link Road (MDR) - Thottalam Church Corner",
+    "city": "Thottalam Village",
+    "district": "Vellore",
+    "state": "Tamil Nadu",
+    "latitude": 12.8942,
+    "longitude": 78.7244,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Left Bend lacking Solid Concrete Safety Barriers",
+      "Frequent Ad-Hoc Crossings by Local Pedestrians and Visitors"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid drifting close to the left boundary where the shoulder drops off.",
+      "Be prepared to stop immediately for pedestrians emerging from the blind side.",
+      "Maintain a uniform steady speed and stay inside your lane markings."
     ]
   }
+]

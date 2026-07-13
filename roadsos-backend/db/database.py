@@ -132,3 +132,10 @@ def init_db():
     from db import models  # noqa: F401
     Base.metadata.create_all(bind=engine)
     _upgrade_sqlite_schema()
+    from app.services.ambulance_service import seed_ambulances
+
+    db = SessionLocal()
+    try:
+        seed_ambulances(db)
+    finally:
+        db.close()

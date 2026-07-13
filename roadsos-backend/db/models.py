@@ -205,6 +205,30 @@ class LocationLog(Base):
         return f"<LocationLog id={self.id!r} user_id={self.user_id!r} lat={self.lat!r} lng={self.lng!r}>"
 
 
+class Ambulance(Base):
+    __tablename__ = "ambulances"
+    __table_args__ = (
+        CheckConstraint("lat IS NULL OR (lat >= -90 AND lat <= 90)"),
+        CheckConstraint("lng IS NULL OR (lng >= -180 AND lng <= 180)"),
+        CheckConstraint("status IN ('available', 'busy')"),
+    )
+
+    id = Column(Integer, primary_key=True, index=True)
+    ambulance_id = Column(String(40), unique=True, nullable=False, index=True)
+    lat = Column(Float, nullable=True)
+    lng = Column(Float, nullable=True)
+    status = Column(String(20), nullable=False, default="available", server_default="available")
+    updated_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        onupdate=func.now(),
+        nullable=False,
+    )
+
+    def __repr__(self) -> str:
+        return f"<Ambulance ambulance_id={self.ambulance_id!r} status={self.status!r}>"
+
+
 class RoadAlert(Base):
     __tablename__ = "road_alerts"
     __table_args__ = (

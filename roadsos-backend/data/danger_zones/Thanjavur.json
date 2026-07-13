@@ -1,14 +1,2290 @@
- {
+[
+  {
+    "id": "TJ0001",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Sengipatti Junction",
+    "city": "Sengipatti Area",
     "district": "Thanjavur",
-    "road_name": "Thanjavur-Trichy Road",
-    "highway": "NH-83",
-    "location": "Vallam",
-    "latitude": 10.7196,
-    "longitude": 79.0947,
-    "risk_level": "High",
-    "road_type": "National Highway",
-    "major_cause": [
-      "Heavy buses",
-      "High traffic"
+    "state": "Tamil Nadu",
+    "latitude": 10.7412,
+    "longitude": 78.9345,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "High Velocity Merging Trajectories"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Pick your highway exit or loop lane path early to avoid sudden swerving.",
+      "Anticipate heavy commercial logistics freight trucks shifting tiers dynamically.",
+      "Do not accelerate aggressively to pass cars near the intersection openings."
+    ]
+  },
+  {
+    "id": "TJ0002",
+    "road_name": "Thanjavur - Kumbakonam Road (NH-36) - Papanasam S-Bend",
+    "city": "Papanasam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9245,
+    "longitude": 79.2845,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Centrifugal Blind Curve",
+      "Heavy Tourism Fleet Flow"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce approach velocity significantly before entering winding curves.",
+      "Honk repeatedly around blind canal-side turns to notify opposing traffic.",
+      "Strictly avoid crossing middle lines to pass slow commercial machinery."
+    ]
+  },
+  {
+    "id": "TJ0003",
+    "road_name": "Thanjavur Outer Bypass - Mariamman Kovil Junction Loop",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7889,
+    "longitude": 79.1689,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Intersecting Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Watch closely for regional pilgrim buses and tourist vans joining lanes.",
+      "Avoid close filtering or lane splitting around tight junction corners.",
+      "Check blind spots repeatedly before shifting positions across the layout track."
+    ]
+  },
+  {
+    "id": "TJ0004",
+    "road_name": "Kumbakonam - Mannargudi Road - Valayapettai Canal Curve",
+    "city": "Kumbakonam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9545,
+    "longitude": 79.3645,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Centrifugal Blind Curve",
+      "Eroded Water-Channel Shoulders"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Reduce approach velocity significantly before entering winding canal bank slopes.",
+      "Keep away from the weak, unpaved edge next to the running water channel.",
+      "Strictly avoid crossing middle lines to pass slow commercial machinery."
+    ]
+  },
+  {
+    "id": "TJ0005",
+    "road_name": "Thanjavur - Pattukkottai Road (SH-29) - Orathanadu Cross Road",
+    "city": "Orathanadu",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6212,
+    "longitude": 79.2456,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Heavy Paddy Fleets",
+      "Severe Asphalt Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect long tractor trailers carrying wide grain loads to pull out blindly.",
+      "Scan the asphalt fabric carefully for structural ruts and tire grooves.",
+      "Maintain large distance buffers from braking agricultural transport."
+    ]
+  },
+  {
+    "id": "TJ0006",
+    "road_name": "Kumbakonam - Tiruvarur Road - Railway Level Crossing Route",
+    "city": "Kumbakonam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9567,
+    "longitude": 79.4112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Multi-Lane Bottlenecks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto highway lanes when the gate closes.",
+      "Avoid close filtering or lane splitting among stopped heavy trucks.",
+      "Keep foot ready on brakes near commercial vehicle corridors."
+    ]
+  },
+  {
+    "id": "TJ0007",
+    "road_name": "Thanjavur Town Bazaar Road - Old Bus Stand Core Loop",
+    "city": "Thanjavur Town",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7845,
+    "longitude": 79.1312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through tight wholesale market structures.",
+      "Watch closely for opening doors on parked logistics delivery vans.",
+      "Exercise high patience while localized shopper bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TJ0008",
+    "road_name": "Kumbakonam Bazaar Main Street - Mahamaham Tank Square Corner",
+    "city": "Kumbakonam Town",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9612,
+    "longitude": 79.3889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pilgrim Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through tight historical shrine infrastructure tracks.",
+      "Watch out for opening car doors on parked delivery vehicles.",
+      "Exercise high patience while local pilgrim pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TJ0009",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Vennar River Bridge Approach",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8112,
+    "longitude": 79.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Approach",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Rely entirely on intense, clean low beam layouts during night transit.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Yield priority to oncoming heavy trucks negotiating the narrow bridge fabric."
+    ]
+  },
+  {
+    "id": "TJ0010",
+    "road_name": "Pattukkottai - Adirampattinam Coastal Link Highway",
+    "city": "Pattukkottai Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4112,
+    "longitude": 79.3312,
+    "danger_level": "High",
+    "danger_type": [
+      "Total Absence of High-Mast Lighting",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Avoid late evening or deep night travels along this isolated coastal stretch.",
+      "Strictly avoid crossing center lane markers to pass slow vehicle lines.",
+      "Use clean, intense low-beam focus patterns to map layout paths."
+    ]
+  },
+  {
+    "id": "TJ0011",
+    "road_name": "Thiruvaiyaru - Kumbakonam Highway (SH-22) - Kabisthalam Section",
+    "city": "Kabisthalam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9312,
+    "longitude": 79.2112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for sudden deep water-logged craters.",
+      "Avoid dropping tyres off asphalt onto soft unpaved soil edges.",
+      "Keep headlights on low beam to catch structural pavement variations."
+    ]
+  },
+  {
+    "id": "TJ0012",
+    "road_name": "Thanjavur to Saliyamangalam Route - Ammapettai Link Crossing",
+    "city": "Ammapettai Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 79.3145,
+    "danger_level": "High",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Heavy Delta Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Watch for local agricultural two-wheelers joining lanes at high speed.",
+      "Give immediate right of way to pedestrians navigating intersection lanes.",
+      "Signal transitions early before executing any detour lane deviations."
+    ]
+  },
+  {
+    "id": "TJ0013",
+    "road_name": "Kumbakonam - Thiruvaiyaru Road - Cauvery Basin Segment",
+    "city": "Thiruvaiyaru Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8889,
+    "longitude": 79.1989,
+    "danger_level": "Medium",
+    "danger_type": [
+      "River Bank Skidding Zone",
+      "Narrow Pavement Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Exercise extreme caution during active seasonal monsoon overflow periods.",
+      "Avoid dropping tyres off asphalt onto weak unpaved soil edges next to river paths.",
+      "Pull over or slow to a near crawl if a wide bus approaches."
+    ]
+  },
+  {
+    "id": "TJ0014",
+    "road_name": "Pattukkottai Main Road - Peravurani Link Junction",
+    "city": "Peravurani Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.2845,
+    "longitude": 79.1612,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Heavy Freight Inflow",
+      "Fatal Blind Spot Intersections"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Maintain wide spacing coordinates behind braking commercial freight trucks.",
+      "Check side blind spots thoroughly before executing bypass lane shifts.",
+      "Do not accelerate aggressively to pass cars near the intersection openings."
+    ]
+  },
+  {
+    "id": "TJ0015",
+    "road_name": "Budalur Town Main Road - Extended State Highway Section",
+    "city": "Budalur",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 78.9912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Commercial Parking",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden transit vehicles or share-autos to drop speed or swerve.",
+      "Use indicator turn signals early before leaving the main track lanes.",
+      "Exercise high patience while localized shopper bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TJ0016",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Vallam Town Inflow Track",
+    "city": "Vallam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7184,
+    "longitude": 79.0545,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Student Foot-Traffic",
+      "High Velocity Merging Trajectories"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Drive with extreme focus near university campus entry gates.",
+      "Expect sudden lane deviations from shared public transit vehicles.",
+      "Check side mirrors carefully before moving onto the main bypass corridor."
+    ]
+  },
+  {
+    "id": "TJ0017",
+    "road_name": "Thanjavur - Kumbakonam Road (NH-36) - Darasuram Heritage Curve",
+    "city": "Darasuram",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9412,
+    "longitude": 79.3545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Tourist Bus Swerving Clusters"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad tourist openings.",
+      "Avoid dropping tyres off the main asphalt track into unpaved margins.",
+      "Expect non-local holiday coaches to slow or pull over abruptly."
+    ]
+  },
+  {
+    "id": "TJ0018",
+    "road_name": "Thanjavur Outer Bypass - Vilar Junction Loop Route",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7456,
+    "longitude": 79.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Multi-Lane Bottlenecks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto the bypass when logistics streams merge.",
+      "Avoid close filtering or lane splitting among stopped industrial freight tracks.",
+      "Keep foot ready on brakes near commercial warehouse access slots."
+    ]
+  },
+  {
+    "id": "TJ0019",
+    "road_name": "Kumbakonam - Mannargudi Road - Needamangalam Delta Cross Track",
+    "city": "Kumbakonam Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8512,
+    "longitude": 79.4112,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Radial Blind Turn",
+      "Heavy Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce approach speed significantly before steering into successive turns.",
+      "Honk continuously when navigating around dense roadside tree lines.",
+      "Watch for slow sugarcane or paddy trailers entering from farm paths."
+    ]
+  },
+  {
+    "id": "TJ0020",
+    "road_name": "Thanjavur - Pattukkottai Road (SH-29) - Orathanadu Government College Cross",
+    "city": "Orathanadu Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6412,
+    "longitude": 79.2612,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Trajectories",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Pick your lane alignment early to avoid rapid lateral swerving across paths.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Watch for institutional transport executing sudden commuter drop-offs."
+    ]
+  },
+  {
+    "id": "TJ0021",
+    "road_name": "Thiruvaiyaru - Kumbakonam Highway (SH-22) - Swamimalai Shrine Link",
+    "city": "Swamimalai Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9512,
+    "longitude": 79.3212,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Absence of Center Barrier"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow pilgrimage fleets.",
+      "Stay centered inside your lane boundaries on straight highway stretches.",
+      "Slow down if oncoming tourist vehicles begin drifting over the middle line."
+    ]
+  },
+  {
+    "id": "TJ0022",
+    "road_name": "Kumbakonam - Tiruvarur Road - Sakkottai Rural Marketplace Link",
+    "city": "Kumbakonam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9389,
+    "longitude": 79.4312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect local agricultural machinery merging slowly from farm lanes.",
+      "Slow down near rural clearings where delta livestock routinely grazes.",
+      "Honk gently to clear the pathway of grazing herds comfortably."
+    ]
+  },
+  {
+    "id": "TJ0023",
+    "road_name": "Pattukkottai - Adirampattinam Coastal Route - Mallipattinam Link Track",
+    "city": "Pattukkottai Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.3545,
+    "longitude": 79.3812,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Marine Logistics Freight",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt port tracks.",
+      "Watch for deep grooves catching your wheel alignment parameters.",
+      "Maintain a wide spatial safety margin behind multi-axle freight lines."
+    ]
+  },
+  {
+    "id": "TJ0024",
+    "road_name": "Thanjavur Town Bazaar Road - South Rampart Cross Market",
+    "city": "Thanjavur Town",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 79.1245,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a crawl speed through tight commercial market loops.",
+      "Watch for opening side doors on parked utility delivery vans.",
+      "Exercise high patience while localized shopper bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TJ0025",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Grand Anicut (Kallanai) Bridge Inflow",
+    "city": "Thiruvaiyaru Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8245,
+    "longitude": 79.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Approach",
+      "Complex Multi-Way Crossings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Pick your loop lane trajectory early before negotiating historical masonry entries.",
+      "Do not attempt to pass other cars on the narrow structural paths.",
+      "Stay tightly down the center of the road fabric when track is clear."
+    ]
+  },
+  {
+    "id": "TJ0026",
+    "road_name": "Kumbakonam Bazaar Main Street - Nageswaran Temple Square Track",
+    "city": "Kumbakonam Town Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9556,
+    "longitude": 79.3812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pilgrim Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow market infrastructure tracks.",
+      "Watch out for opening car or delivery van doors on left margins.",
+      "Be patient with unexpected pedestrian walking patterns near bazaar points."
+    ]
+  },
+  {
+    "id": "TJ0027",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Thuvakudi Border Merge",
+    "city": "Sengipatti Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7512,
+    "longitude": 78.9112,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Centrifugal Blind Curves",
+      "Frequent Heavy Truck Breakdowns"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Downshift gears to control vehicle approach speed over structural loop tracks.",
+      "Yield immediate right-of-way to ascending commercial cargo trucks.",
+      "Refrain from overtaking around blind plantation curve turns."
+    ]
+  },
+  {
+    "id": "TJ00028",
+    "road_name": "Thanjavur - Kumbakonam Road (NH-36) - Cholapuram Signal Loop",
+    "city": "Kumbakonam Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9942,
+    "longitude": 79.4212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Volume Commuter Swerving",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect sudden lane switches from local moped riders near commercial lines.",
+      "Check blind spots thoroughly before executing inner lane shifts.",
+      "Keep a steady eye on the brake indicators of tracking vehicles ahead."
+    ]
+  },
+  {
+    "id": "TJ0029",
+    "road_name": "Kumbakonam - Tiruvarur Road - Sakkottai Cross Link Route",
+    "city": "Kumbakonam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9312,
+    "longitude": 79.4456,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad rural openings near fields.",
+      "Avoid dropping tyres off the main asphalt track into loose sand.",
+      "Slow down near ongoing village market access clearings."
+    ]
+  },
+  {
+    "id": "TJ0030",
+    "road_name": "Pattukkottai - Adirampattinam Coastal Route - Mallipattinam Harbor link",
+    "city": "Pattukkottai Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.3312,
+    "longitude": 79.3112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near coastal fishing margins.",
+      "Avoid late evening or deep night travels along this strip layout.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TJ0031",
+    "road_name": "Thanjavur Outer Bypass - Vilar Rail Level Gate Crossing Approach",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7412,
+    "longitude": 79.1589,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Multi-Lane Bottlenecks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto highway lanes when the gate closes.",
+      "Avoid close filtering or lane splitting among stopped heavy trucks.",
+      "Keep foot ready on brakes near commercial vehicle warehouse corridors."
+    ]
+  },
+  {
+    "id": "TJ0032",
+    "road_name": "Thanjavur - Pattukkottai Road (SH-29) - Orathanadu Bypass Link Zone",
+    "city": "Orathanadu Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6112,
+    "longitude": 79.2545,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Sudden Commercial Vehicle Slowdowns"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Check side blind spots thoroughly before executing bypass lane shifts.",
+      "Anticipate slow-moving agricultural trailers joining the highway tracking lines.",
+      "Maintain strict long-range vehicle safety braking spaces."
+    ]
+  },
+  {
+    "id": "TJ0033",
+    "road_name": "Thiruvaiyaru - Kumbakonam Highway (SH-22) - Kabisthalam Sugar Mill link track",
+    "city": "Kabisthalam Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9212,
+    "longitude": 79.2312,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Continuous Sugarcane Tractor Transit"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard vehicle suspension over deep asphalt sugarcane tracks.",
+      "Watch for deep structural grooves catching your alignment wheel parameters.",
+      "Sound your horn clearly before crossing crossroad clearings near cane fields."
+    ]
+  },
+  {
+    "id": "TJ0034",
+    "road_name": "Thanjavur Outer Bypass - Mariamman Kovil Bypass Loop (NH-83 Route)",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7845,
+    "longitude": 79.1745,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Pilgrim Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Drive with extreme focus near regional festival shrine perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing bypass lane shifts."
+    ]
+  },
+  {
+    "id": "TJ0035",
+    "road_name": "Pattukkottai Main Road - Peravurani Border Highway Link",
+    "city": "Peravurani Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.2512,
+    "longitude": 79.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Total Absence of High-Mast Lighting",
+      "Aggressive Private Bus Overtaking"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Avoid late evening or deep night travels along this isolated stretch.",
+      "Yield right of way immediately to fast-approaching public transit buses.",
+      "Rely entirely on intense, clean low beam layouts during night transit."
+    ]
+  },
+  {
+    "id": "TJ0036",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Vennar River Bridge Loop Junction",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8145,
+    "longitude": 79.1389,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Narrow Bridge Ramp Approach"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lane shifts near the bridge.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Give immediate right of way to moving heavy commercial convoys."
+    ]
+  },
+  {
+    "id": "TJ0037",
+    "road_name": "Kumbakonam - Thiruvaiyaru Road - Cauvery Basin Ferry Link Cross",
+    "city": "Thiruvaiyaru Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8812,
+    "longitude": 79.1912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Narrow Pavement Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Watch for local riders joining the highway from commercial tracks at high speed.",
+      "Avoid dropping tyres off asphalt onto weak unpaved soil edges.",
+      "Check your blind spots thoroughly before changing lane positions."
+    ]
+  },
+  {
+    "id": "TJ0038",
+    "road_name": "Thanjavur to Saliyamangalam Route - Main Delta Track Route",
+    "city": "Saliyamangalam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7812,
+    "longitude": 79.3012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Crumbled Road Edges",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Avoid steering onto the broken, dropped edges of the asphalt pavement.",
+      "Slow down to let wide sugarcane and paddy trailers pass by comfortably.",
+      "Be prepared for mud tracking onto the main road from local fields."
+    ]
+  },
+  {
+    "id": "TJ0039",
+    "road_name": "Thanjavur Town Bazaar Road - Old Bus Stand Core Commercial Loop",
+    "city": "Thanjavur Town",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7812,
+    "longitude": 79.1345,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow bazaar infrastructure tracks.",
+      "Watch out for opening car or delivery van doors on left margins.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TJ0040",
+    "road_name": "Grand Anicut Road - Kallanai Canal Bund Corridor",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8312,
+    "longitude": 78.6812,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Tourist Vehicle Slowdowns",
+      "Dense River Bank Mist"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the roadside carefully for slow-moving tourist cars trying to park near viewpoints.",
+      "Turn on fog lights early if visibility drops due to heavy delta moisture cloud cover.",
+      "Strictly avoid harsh acceleration or braking on steep, damp canal slopes."
+    ]
+  },
+  {
+    "id": "TJ0041",
+    "road_name": "Thanjavur - Kumbakonam Road (NH-36) - Darasuram Access Junction",
+    "city": "Darasuram Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9456,
+    "longitude": 79.3589,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding Corridor",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden lane cuts by local transit shared autos near heritage area entries.",
+      "Reduce speed during heavy downpours to mitigate skidding over smooth asphalt.",
+      "Keep a safe braking buffer from two-wheelers tracking closely ahead."
+    ]
+  },
+  {
+    "id": "TJ0042",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Sengipatti Link Cross",
+    "city": "Sengipatti",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7456,
+    "longitude": 78.9389,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Unregulated Median Gaps"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Do not maintain peak velocity past local village crossroad gaps.",
+      "Watch for commercial cargo trucks slowing to turn without indication.",
+      "Keep to the center-left lane unless actively overtaking slower vehicles."
+    ]
+  },
+  {
+    "id": "TJ0043",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Vennar Bridge Inflow Curve",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8145,
+    "longitude": 79.1312,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Centrifugal Skidding",
+      "Dense Roadside Vegetation Obstruction"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "De-accelerate significantly before carving the initial sweeping bend near the bridge.",
+      "Sound your horn repeatedly around blind curves wrapped in river foliage.",
+      "Strictly avoid lane splitting around transport trucks on corners."
+    ]
+  },
+  {
+    "id": "TJ0044",
+    "road_name": "Thanjavur - Pattukkottai Road (SH-29) - Orathanadu Toll Approach",
+    "city": "Orathanadu Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6112,
+    "longitude": 79.2489,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Freight Merges",
+      "Sharp Reverse Curve Sequence"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Yield right of way to multi-axle industrial cargo container carriers.",
+      "Reduce approach speed significantly before steering into successive bends.",
+      "Avoid overtaking commercial transport trucks near tight structural turns."
+    ]
+  },
+  {
+    "id": "TJ0045",
+    "road_name": "Kumbakonam - Tiruvarur Road - Sakkottai Terminal Loop",
+    "city": "Kumbakonam Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9312,
+    "longitude": 79.4412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Junction Crossings",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Honk significantly before crossroad blind spots near delta farming zones.",
+      "Expect slow paddy and sugarcane trailers to make sudden turning maneuvers.",
+      "Signal transitions early before turning off toward village links."
+    ]
+  },
+  {
+    "id": "TJ0046",
+    "road_name": "Pattukkottai - Adirampattinam Coastal Route - Peravurani Cross Link",
+    "city": "Pattukkottai Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.3312,
+    "longitude": 79.2812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Concrete Speed Breakers",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for crude rural village speed humps.",
+      "Slow down fully when moving past local household clearings.",
+      "Use your horn to clear the pathway of grazing cattle safely."
+    ]
+  },
+  {
+    "id": "TJ0047",
+    "road_name": "Thiruvaiyaru - Kumbakonam Highway (SH-22) - Kabisthalam Village Stretch",
+    "city": "Kabisthalam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9289,
+    "longitude": 79.2145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Width",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Avoid dropping tyres off the asphalt track onto soft soil edges.",
+      "Pull over or slow to a crawl if a heavy commercial vehicle approaches.",
+      "Keep speed low during evening commute and twilight hours."
+    ]
+  },
+  {
+    "id": "TJ0048",
+    "road_name": "Thanjavur Outer Bypass - Vilar Junction Intersecting Corridor",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7412,
+    "longitude": 79.1389,
+    "danger_level": "High",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Lighting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid night travel due to absolute darkness and lack of road reflectors.",
+      "Scan the tarmac closely for extensive, water-logged surface craters.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TJ0049",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Vadavar River Bank Segment",
+    "city": "Thanjavur Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8112,
+    "longitude": 79.1456,
+    "danger_level": "High",
+    "danger_type": [
+      "River Bank Skidding Zone",
+      "Continuous Heavy Tipper Transit"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Do not challenge aggressive construction material or sand tippers.",
+      "Keep away from the weak, unpaved edge next to the river channel.",
+      "Maintain strict lane discipline and avoid close-quarter overtaking."
+    ]
+  },
+  {
+    "id": "TJ0050",
+    "road_name": "Kumbakonam - Mannargudi Road - Needamangalam Segment Bends",
+    "city": "Kumbakonam Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8889,
+    "longitude": 79.4145,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Zig-Zag Hairpin Bends",
+      "Dense Tree Line Visibility Obstruction"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound your horn continuously around dense river-side blind curves.",
+      "Downshift to utilize engine braking on winding descent tracks.",
+      "Stay tightly within your designated border lane lines."
+    ]
+  },
+  {
+    "id": "TJ0051",
+    "road_name": "Thanjavur to Saliyamangalam Road - Ammapettai Crossing High Axis Link",
+    "city": "Ammapettai Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 79.3112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Crosswind Skidding",
+      "Heavy Grain and Cargo Tractor Movements"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep firm control of the steering wheel during high plain wind gusts across delta fields.",
+      "Yield right of way to heavily loaded commercial tractors and trailers.",
+      "Watch for loose soil runoff or sand layers swept onto the tarmac."
+    ]
+  },
+  {
+    "id": "TJ0052",
+    "road_name": "Thanjavur Town Bazaar Road - Old Bus Stand Overpass Loop",
+    "city": "Thanjavur Town Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7845,
+    "longitude": 79.1345,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Over-Speeding Zone",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow logistics queues.",
+      "Expect sudden tracking drift from non-local highway transit drivers.",
+      "De-accelerate safely before entering sweeping elevated radial curves."
+    ]
+  },
+  {
+    "id": "TJ0053",
+    "road_name": "Kumbakonam - Mannargudi Road - Valayapettai Bypass Link",
+    "city": "Kumbakonam Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9564,
+    "longitude": 79.3612,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Blind Spots",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossing crossroad clearings.",
+      "Avoid dropping tyres off the main asphalt track into loose sand.",
+      "Expect tourist transport or delta farm machinery to cross unexpectedly."
+    ]
+  },
+  {
+    "id": "TJ0054",
+    "road_name": "Grand Anicut Road - Kallanai Dam Access Corridor Link",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8345,
+    "longitude": 78.6812,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden lane cuts by local transit shared autos near the tourist entry paths.",
+      "Reduce speed during heavy downpours to mitigate high-speed skidding on damp slopes.",
+      "Keep a safe braking buffer from two-wheelers tracking closely ahead."
+    ]
+  },
+  {
+    "id": "TJ0055",
+    "road_name": "Thiruvaiyaru - Kumbakonam Highway (SH-22) - Kabisthalam Junction",
+    "city": "Kabisthalam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9312,
+    "longitude": 79.2112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Squeeze",
+      "Erratic Auto-Rickshaw Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Maintain a slow crawling velocity through narrow transit structures near the market.",
+      "Expect local auto-rickshaws to stop suddenly near commuter links.",
+      "Avoid overtaking commercial delivery vehicles from narrow left margins."
+    ]
+  },
+  {
+    "id": "TJ0056",
+    "road_name": "Thanjavur Outer Bypass - Mariamman Kovil Flyover Loop",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7845,
+    "longitude": 79.1689,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Rapid Intercity Bus Transit"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your lane trajectory early before navigating around the radial curves.",
+      "Do not challenge aggressive public transport coaches near junction openings.",
+      "Watch for two-wheelers jumping trailing amber traffic signal lights."
+    ]
+  },
+  {
+    "id": "TJ0057",
+    "road_name": "Kumbakonam Bazaar Main Street - Mahamaham Tank Inflow Route",
+    "city": "Kumbakonam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9612,
+    "longitude": 79.3889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at crawling speed through tight market bazaar loops.",
+      "Watch for opening side doors on parked delivery vehicles.",
+      "Exercise patience while local pilgrim pedestrian bottlenecks clear."
+    ]
+  },
+  {
+    "id": "TJ0058",
+    "road_name": "Pattukkottai - Adirampattinam Coastal Route - Harbor Cross",
+    "city": "Pattukkottai Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.4112,
+    "longitude": 79.3312,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Heavy Marine Freight Merging"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect long multi-axle trailers pulling out from harbor storage paths.",
+      "Avoid overtaking commercial delivery vehicles from the inner left margins.",
+      "Be alert for local transit mini-buses executing sudden commuter drops."
+    ]
+  },
+  {
+    "id": "TJ0059",
+    "road_name": "Thanjavur - Pattukkottai Road (SH-29) - Orathanadu Loop Section",
+    "city": "Orathanadu",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6212,
+    "longitude": 79.2456,
+    "danger_level": "High",
+    "danger_type": [
+      "Two-Wheeler Cluster Swerving",
+      "Unmarked Concrete Construction Steps"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Scan the dark asphalt carefully for sudden variations or potholes.",
+      "Signal intents early before executing any detour lane changes."
+    ]
+  },
+  {
+    "id": "TJ0060",
+    "road_name": "Thanjavur Outer Bypass - Vilar Junction Toll Bypass Inflow",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7456,
+    "longitude": 79.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Heavy Container Inflow",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow freight columns.",
+      "Keep wide spacing coordinates behind heavily loaded cargo trucks.",
+      "Roll up windows due to high airborne dust layers kicked up by logistics transport."
+    ]
+  },
+  {
+    "id": "TJ0061",
+    "road_name": "Kumbakonam - Tiruvarur Road - Sakkottai Access Corridor",
+    "city": "Kumbakonam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9312,
+    "longitude": 79.4412,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Tourism Freight Clusters",
+      "Oil Slick Vulnerability"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise high caution near valley exits due to dropped fuel residue ripples.",
+      "Maintain a massive tracking gap behind empty speeding tourist trailers.",
+      "Avoid harsh cornering or heavy braking inputs to prevent traction loss."
+    ]
+  },
+  {
+    "id": "TJ0062",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Vennar River Connection Link",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8112,
+    "longitude": 79.1412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Volume Commuter Swerving",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect local share-autos to brake or pull over blindly on the left lanes.",
+      "Check blind spots thoroughly before moving across the main bridge line.",
+      "Keep track of multiple accelerating two-wheelers from side village links."
+    ]
+  },
+  {
+    "id": "TJ0063",
+    "road_name": "Thanjavur Town Bazaar Road - Old Bus Stand Overpass Approach",
+    "city": "Thanjavur Town",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7845,
+    "longitude": 79.1312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Complex Multi-Way Crossings",
+      "Vulnerable Pedestrian Crossings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Do not speed past open median gaps or unstructured crossroads.",
+      "Anticipate local riders traveling against traffic on the road margins.",
+      "Give immediate right of way to pedestrians navigating intersection lanes."
+    ]
+  },
+  {
+    "id": "TJ0064",
+    "road_name": "Kumbakonam Bazaar Main Street - Nageswaran Temple Gate Segment",
+    "city": "Kumbakonam Town Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9556,
+    "longitude": 79.3812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Squeeze",
+      "High Pedestrian Density"
+    ],
+    "speed_limit": 35,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawling velocity through narrow checkpoint paths near the shrine.",
+      "Watch for shoppers stepping out unexpectedly behind parked tour vans.",
+      "Refrain from using high-decibel horns near local residential fields."
+    ]
+  },
+  {
+    "id": "TJ0065",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Grand Anicut Inflow Axis",
+    "city": "Thiruvaiyaru Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8245,
+    "longitude": 79.1112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Tourist Parking",
+      "Erratic Two-Wheeler Parking"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden holiday transport vans to drop speed or swerve near dams.",
+      "Use indicator turn signals early before leaving the main track lanes.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TJ0066",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Sengipatti Road Cross Loop",
+    "city": "Sengipatti Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7412,
+    "longitude": 78.9345,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Lane Bottlenecks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Anticipate sudden highway freight traffic backing up near delta connections.",
+      "Avoid close filtering or lane splitting among stopped interstate trucks.",
+      "Keep foot ready on brakes near heavy commercial vehicle service links."
+    ]
+  },
+  {
+    "id": "TJ0067",
+    "road_name": "Thanjavur - Kumbakonam Road (NH-36) - Papanasam Loop Approach",
+    "city": "Papanasam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9245,
+    "longitude": 79.2845,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Swerving",
+      "Heavy Tourism Fleet Flow"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "De-accelerate significantly before carving the initial canal bend.",
+      "Keep firmly within your designated tracking lane boundary marks.",
+      "Avoid overtaking or rapid throttling actions inside the narrow curves."
+    ]
+  },
+  {
+    "id": "TJ0068",
+    "road_name": "Thanjavur Outer Bypass - Mariamman Kovil Link Split",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7889,
+    "longitude": 79.1689,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lateral shifting.",
+      "Strictly avoid crossing center lane markings to pass slow pilgrim rows.",
+      "Blink your headlights when approaching the unlit cross intersection."
+    ]
+  },
+  {
+    "id": "TJ0069",
+    "road_name": "Kumbakonam - Mannargudi Road - Valayapettai Section",
+    "city": "Kumbakonam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9545,
+    "longitude": 79.3645,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Inter-District Freight Merges",
+      "High Velocity Merging Trajectories"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect heavy multi-axle trucks turning sharply from logistics roads.",
+      "Use explicit side indicator flashes early before navigating loops.",
+      "Maintain a massive tracking gap behind heavy industrial vehicles."
+    ]
+  },
+  {
+    "id": "TJ0070",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Vallam School Zone Area",
+    "city": "Vallam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7184,
+    "longitude": 79.0545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Student Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Drive with extreme focus near regional educational complex perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing lane shifts."
+    ]
+  },
+  {
+    "id": "TJ0071",
+    "road_name": "Thiruvaiyaru - Kumbakonam Highway (SH-22) - Kabisthalam Rural Track",
+    "city": "Kabisthalam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9312,
+    "longitude": 79.2112,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Culvert Squeezes",
+      "Eroded Asphalt Edges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down before negotiating old masonry brick culverts near the fields.",
+      "Keep tires firmly off the crumbled margins to prevent structural drops.",
+      "Signal intents early to trailing traffic blocks before stopping."
+    ]
+  },
+  {
+    "id": "TJ0072",
+    "road_name": "Thanjavur - Pattukkottai Road (SH-29) - Orathanadu High Curve Extension",
+    "city": "Orathanadu",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6212,
+    "longitude": 79.2456,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Speed Skidding Curves",
+      "Lack of Side Reflectors"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "De-accelerate well ahead of the sweeping open curves.",
+      "Utilize low-beam patterns during night transit windows.",
+      "Keep vehicle alignment centered in your respective tracking tier."
+    ]
+  },
+  {
+    "id": "TJ0073",
+    "road_name": "Thanjavur Town Bazaar Road - South Rampart Market Link Track",
+    "city": "Thanjavur Town",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 79.1245,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Blind Spots",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossing crossroad clearings.",
+      "Avoid dropping tyres off the main asphalt track into loose sand.",
+      "Expect agricultural machinery merging slowly from farm paths."
+    ]
+  },
+  {
+    "id": "TJ0074",
+    "road_name": "Kumbakonam - Tiruvarur Road - Sakkottai Village Inflow Link",
+    "city": "Kumbakonam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9312,
+    "longitude": 79.4412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near the delta channels.",
+      "Avoid late evening or deep night travels along this strip.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TJ0075",
+    "road_name": "Thanjavur to Saliyamangalam Route - Ammapettai Link Access (Near Market)",
+    "city": "Ammapettai Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 79.3145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Unmarked Earthen Speed Breakers"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto the approach lanes.",
+      "Keep eyes peeled for crude village speed humps near trading regions.",
+      "Honk gently to clear pathways of stray cattle or slow loaders."
+    ]
+  },
+  {
+    "id": "TJ0076",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Grand Anicut Mountain View Access Corridor",
+    "city": "Thiruvaiyaru Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8245,
+    "longitude": 79.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Tourism Freight Clusters",
+      "Oil Slick Vulnerability"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise high caution near dam loops due to potential wet residue drop.",
+      "Maintain a massive tracking gap behind empty speeding container trailers.",
+      "Avoid harsh cornering or heavy braking inputs to prevent traction loss."
+    ]
+  },
+  {
+    "id": "TJ0077",
+    "road_name": "Thanjavur Outer Bypass - Vilar Rail Level Gate Core Bridge Loops (Near Overpass)",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7412,
+    "longitude": 79.1589,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Complex Multi-Way Crossings"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lane shifts near the tracks.",
+      "Anticipate out-station omnibuses executing sharp lateral cuts.",
+      "Keep standard spacing parameters clear from the vehicle ahead."
+    ]
+  },
+  {
+    "id": "TJ0078",
+    "road_name": "Thanjavur Town Bazaar Road - Old Bus Stand Core Trading Street",
+    "city": "Thanjavur Town",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7845,
+    "longitude": 79.1312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at crawling speed through tight market bazaar loops.",
+      "Watch for opening side doors on parked delivery vehicles.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear."
+    ]
+  },
+  {
+    "id": "TJ0079",
+    "road_name": "Thiruvaiyaru - Kumbakonam Highway (SH-22) - Kabisthalam Town Market Area",
+    "city": "Kabisthalam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9334,
+    "longitude": 79.2112,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Turns",
+      "Asphalt Deformity"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Slow down near the main grain processing and transport parking gates.",
+      "Watch out for deep tire tracks molded into the soft asphalt by heavy loaders.",
+      "Give turning loaded sugarcane trucks and transport trailers a wide berth."
+    ]
+  },
+  {
+    "id": "TJ0080",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Vallam Town College Cross",
+    "city": "Vallam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7184,
+    "longitude": 79.0589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Intersection Crossings",
+      "Lack of Road Markings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound your horn before crossing minor educational institution access lanes.",
+      "Drive down the center of the road when oncoming lanes are clear of traffic.",
+      "Expect unexpected crossings by local students and regional commuters."
+    ]
+  },
+  {
+    "id": "TJ0081",
+    "road_name": "Thanjavur - Kumbakonam Road (NH-36) - Papanasam Junction Bend link",
+    "city": "Papanasam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9256,
+    "longitude": 79.2889,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Reverse Curve",
+      "High-Speed Over-Speeding Zone"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "De-accelerate before entering the initial left-hand bend near the canal bridge.",
+      "Stay well within your lane to avoid drifting into oncoming logistics traffic.",
+      "Avoid Overtaking long commercial transport trucks on this curve stretch."
+    ]
+  },
+  {
+    "id": "TJ0082",
+    "road_name": "Kumbakonam - Thiruvaiyaru Road - Cauvery Basin channel view link",
+    "city": "Thiruvaiyaru Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8812,
+    "longitude": 79.1989,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Eroded Road Shoulders",
+      "Pedestrian Footpath Encroachments"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep away from the weak, unpaved edge next to the running water channel.",
+      "Slow down when navigating past dense roadside commercial trading stalls.",
+      "Be prepared to stop if pedestrians step off the narrow path onto the tarmac."
+    ]
+  },
+  {
+    "id": "TJ0083",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Vennar River Bridge Loop Route",
+    "city": "Thanjavur Town Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8123,
+    "longitude": 79.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Hidden Curve Crests",
+      "Narrow Culvert Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Flash your high beams during evening trips around blind bridge access ramps.",
+      "Yield structural priority to wider incoming commercial trailers.",
+      "Approach old masonry pipe culverts with high caution."
+    ]
+  },
+  {
+    "id": "TJ0084",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Grand Anicut Viewpoint Descent Junction",
+    "city": "Thiruvaiyaru Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8289,
+    "longitude": 79.1112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Concrete Level Step",
+      "Pedestrian Foot-Traffic Inflow"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the dark asphalt for crude bridge approach infrastructure level differences.",
+      "Slow down near the historical dam viewpoint boundary walls.",
+      "Watch for pedestrians walking on the side margins due to high tourist congestion."
+    ]
+  },
+  {
+    "id": "TJ0085",
+    "road_name": "Thanjavur - Pattukkottai Road (SH-29) - Orathanadu S-Curve Link",
+    "city": "Orathanadu Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6212,
+    "longitude": 79.2445,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Zig-Zag S-Curve",
+      "Heavy Delta Freight Interferences"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Honk repeatedly to warn oncoming traffic before entering successive turns.",
+      "Do not attempt any sudden steering corrections on the bend fabric.",
+      "Keep your speed stable and low until the rural road completely straightens."
+    ]
+  },
+  {
+    "id": "TJ0086",
+    "road_name": "Thanjavur Town Bazaar Road - South Rampart Core Cross Link Loop",
+    "city": "Thanjavur Town",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7956,
+    "longitude": 79.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Delivery Trucks",
+      "Severe Smoke Clouds"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Turn on low beams if heavy vehicle exhaust lowers traffic visibility.",
+      "Maintain a massive tracking gap behind heavy multi-axle wholesale logistics.",
+      "Watch for loose agricultural loads dropping from uncovered commercial trailers."
+    ]
+  },
+  {
+    "id": "TJ0087",
+    "road_name": "Thiruvaiyaru - Kumbakonam Highway (SH-22) - Kabisthalam Village Main Extension",
+    "city": "Kabisthalam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9312,
+    "longitude": 79.2156,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sudden Commercial Pullovers",
+      "Merging Highway Lanes"
+    ],
+    "speed_limit": 55,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Anticipate erratic lane shifts from visiting out-station motorists.",
+      "Use proper indicator turn signals early before leaving the highway axis.",
+      "Keep your focus sharp on pedestrians crossing near rural marketplace hubs."
+    ]
+  },
+  {
+    "id": "TJ0088",
+    "road_name": "Thanjavur Outer Bypass - Mariamman Kovil Junction Route",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7889,
+    "longitude": 79.1645,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Lack of Center Divider"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Strictly avoid crossing the middle of the road to pass slow vehicle lines.",
+      "Stay centered inside your lane markers on straight highway stretches.",
+      "Slow down if oncoming vehicles begin drifting over the center line track."
+    ]
+  },
+  {
+    "id": "TJ0089",
+    "road_name": "Kumbakonam Bazaar Main Street - Mahamaham Tank Bridge Check Zone",
+    "city": "Kumbakonam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9612,
+    "longitude": 79.3889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Narrow Bridge Ramp Approach"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Watch for local riders joining the highway from commercial tracks at high speed.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Check your blind spots thoroughly before changing lane positions."
+    ]
+  },
+  {
+    "id": "TJ0090",
+    "road_name": "Thanjavur to Saliyamangalam Route - internal corridor road track",
+    "city": "Saliyamangalam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7845,
+    "longitude": 79.3089,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Crumbled Road Edges",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Avoid steering onto the broken, dropped edges of the asphalt pavement.",
+      "Slow down to let wide trailers pass by comfortably.",
+      "Be prepared for mud tracking onto the main road from local fields."
+    ]
+  },
+  {
+    "id": "TJ0091",
+    "road_name": "Pattukkottai Main Road - Peravurani Winding access link loop",
+    "city": "Peravurani Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.2845,
+    "longitude": 79.16456,
+    "danger_level": "High",
+    "danger_type": [
+      "Aggressive Private Bus Overtaking",
+      "Poor Night Visibility"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Yield right of way immediately to fast-approaching public transit buses.",
+      "Rely on low beams and look for side reflectors on night drives.",
+      "Maintain a safe braking distance from industrial vehicles traveling ahead."
+    ]
+  },
+  {
+    "id": "TJ0092",
+    "road_name": "Thanjavur Town Bazaar Road - Old Bus Stand Core Cross Junction Link",
+    "city": "Thanjavur Town",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7845,
+    "longitude": 79.1312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Commercial Encroachments",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a crawl speed through tight wholesale market bazaar structures.",
+      "Watch for opening car doors on parked delivery vehicles.",
+      "Exercise high patience while wholesale shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TJ0093",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Vennar Bridge Approach 2 Loop",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8112,
+    "longitude": 79.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Delta Truck Jackknifing",
+      "Severe Brake Fade Risk"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Strictly preserve low gear configurations on descending vectors near the bridge.",
+      "Do not attempt any overlapping overtaking past heavy sand trailers.",
+      "Stay highly centered within the lane structural boundaries."
+    ]
+  },
+  {
+    "id": "TJ0094",
+    "road_name": "Thiruvaiyaru - Kumbakonam Highway (SH-22) - Kabisthalam Crossing Depot Area",
+    "city": "Kabisthalam Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9312,
+    "longitude": 79.2112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Soft Sandy Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Honk clearly before crossroad blind spots near plantation borders.",
+      "Keep tyres firmly on the asphalt track layout.",
+      "Avoid overtaking near muddy local farm routes."
+    ]
+  },
+  {
+    "id": "TJ0095",
+    "road_name": "Pattukkottai Main Road - Peravurani Link Road - Rice Section Stretch",
+    "city": "Peravurani Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.2845,
+    "longitude": 79.1612,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding",
+      "Lack of Side Reflectors"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Reduce speed on the sweeping open curves past town bounds.",
+      "Utilize low-beam patterns during night transits.",
+      "Maintain a safe tracking gap between commuter vehicles."
+    ]
+  },
+  {
+    "id": "TJ0096",
+    "road_name": "Thanjavur Outer Bypass - Mariamman Kovil Road - Internal Cross Link",
+    "city": "Thanjavur Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7889,
+    "longitude": 79.1645,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for craters near rural farming areas.",
+      "Do not travel at high speeds at night along unlit lines.",
+      "Yield to opposing trucks to safely pass road pavement cracks."
+    ]
+  },
+  {
+    "id": "TJ0097",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Sengipatti Overpass Flyover Loops",
+    "city": "Sengipatti Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7412,
+    "longitude": 78.9345,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Reverse S-Curve",
+      "Dense Tree Obstructions"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "De-accelerate before entering the winding lane sequence.",
+      "Sound horn continuously around blind bushes.",
+      "Stay tightly within your designated border lane."
+    ]
+  },
+  {
+    "id": "TJ0098",
+    "road_name": "Thanjavur - Thiruvaiyaru Road - Grand Anicut Basin Ferry Link Bridge Inflow",
+    "city": "Thiruvaiyaru Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8245,
+    "longitude": 79.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "River Bank Skidding Risk",
+      "Narrow Pavement Width"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise strict caution during heavy monsoon runoff spikes near the dam channel.",
+      "Do not attempt any pass on the narrow bund track.",
+      "Slow to a crawl if a public transit bus approaches."
+    ]
+  },
+  {
+    "id": "TJ0099",
+    "road_name": "Thanjavur to Saliyamangalam Route - Main Track Market Loop Sector",
+    "city": "Saliyamangalam",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.7845,
+    "longitude": 79.3012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Erratic Shared-Auto Pullovers",
+      "Two-Wheeler Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden transit vehicle halts near village hubs.",
+      "Keep a safe radius from two-wheelers ahead.",
+      "Check side mirrors carefully before turning."
+    ]
+  },
+  {
+    "id": "TJ0100",
+    "road_name": "Thanjavur - Pattukkottai Road (SH-29) - Orathanadu Sugar Factory Access Corridor",
+    "city": "Orathanadu",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.6212,
+    "longitude": 79.2456,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Tractor Corridor",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt agricultural tracks.",
+      "Watch for deep grooves catching your wheel alignment parameters.",
+      "Maintain a massive distance behind industrial delta freight fleets."
+    ]
+  },
+  {
+    "id": "TJ0101",
+    "road_name": "Kumbakonam Bazaar Main Street - Mahamaham Tank Crossing Access",
+    "city": "Kumbakonam Town",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9612,
+    "longitude": 79.3889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Earthen Speed Breakers",
+      "Domestic Animal Crossings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep eyes peeled for crude village speed humps over the asphalt.",
+      "Slow down near rural properties and pilgrim rest perimeters.",
+      "Honk gently to clear pathways of stray local livestock."
+    ]
+  },
+  {
+    "id": "TJ0102",
+    "road_name": "Kumbakonam - Thiruvaiyaru Road - Cauvery Winding River Access Loop",
+    "city": "Thiruvaiyaru Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.8889,
+    "longitude": 79.1989,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Inter-District Buses",
+      "Sudden Intersection Merges"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Refrain from maximum speeds past open crossroad clearings near river valleys.",
+      "Anticipate slow-moving paddy tractors joining the delta tracking fabric.",
+      "Keep low beams functional during twilight or dusk hours."
+    ]
+  },
+  {
+    "id": "TJ0103",
+    "road_name": "Pattukkottai - Adirampattinam Coastal Route - Mallipattinam Bridge Corner Loop",
+    "city": "Pattukkottai Outskirts",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.3312,
+    "longitude": 79.3112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Culvert Squeezes",
+      "Eroded Asphalt Edges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down before old concrete culvert structures near the coastal link.",
+      "Keep tires clear of fractured road borders to prevent drop-off skids.",
+      "Signal intents early to trailing maritime logistics traffic blocks."
+    ]
+  },
+  {
+    "id": "TJ0104",
+    "road_name": "Kumbakonam Bazaar Main Street - Mahamaham Tank Core Extension Link Route",
+    "city": "Kumbakonam Town Area",
+    "district": "Thanjavur",
+    "state": "Tamil Nadu",
+    "latitude": 10.9556,
+    "longitude": 79.3812,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Hairpin Bends",
+      "Tree Line Visibility Obstruction"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Cut down speed significantly before entry curves around busy temple intersections.",
+      "Maintain a centered line on the driving track layout.",
+      "Sound your horn to alert opposing hidden urban motorists."
     ]
   }
+]

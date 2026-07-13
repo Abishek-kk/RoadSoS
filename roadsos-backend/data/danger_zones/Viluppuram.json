@@ -1,14 +1,2378 @@
-{
-    "district": "Villupuram",
-    "road_name": "Chennai-Trichy Highway",
-    "highway": "NH-45",
-    "location": "Vikravandi",
-    "latitude": 12.0364,
-    "longitude": 79.5457,
-    "risk_level": "Very High",
-    "road_type": "National Highway",
-    "major_cause": [
-      "High-speed vehicles",
-      "Lane merging"
+[
+  {
+    "id": "VPM0001",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Vikravandi Toll Plaza Junction",
+    "city": "Vikravandi Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0324,
+    "longitude": 79.5512,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Traffic Backups of High-Speed Express Buses and Freight Trucks",
+      "Erratic Lane Cutting by Commuters Changing Lanes to Find Fastag Plazas"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce travel speed sharply at least 500 meters prior to entering the plaza lines.",
+      "Strictly maintain your chosen queue and avoid sudden lane switching.",
+      "Watch out for pedestrian toll-workers or vendors moving across the vehicle track."
+    ]
+  },
+  {
+    "id": "VPM0002",
+    "road_name": "Viluppuram - Puducherry Highway (NH-45A) - Valavanur Market Corridor",
+    "city": "Valavanur",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9161,
+    "longitude": 79.5845,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Bazaar Shed Stalls",
+      "Heavy Mix of High-Speed Inter-State Buses and Local Pedestrians"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Drive defensively at highly reduced speeds through the commercial core block.",
+      "Expect local commuters and shared autos to stop or pull over abruptly.",
+      "Give absolute right-of-way to pedestrians crossing the marketplace layout lanes."
+    ]
+  },
+  {
+    "id": "VPM0003",
+    "road_name": "Tindivanam - Tiruvannamalai Road (NH-77) - Gingee Fort Hill Pass Curve",
+    "city": "Gingee Town Edge",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2514,
+    "longitude": 79.4124,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Sweeping Curvatures Locked tightly between Steep Rocky Outcrops",
+      "Low Lateral Sight Distance Caused by Ancient Structural Fortifications"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Brake completely on the straight approach before committing to the steering curve.",
+      "Sound your horn firmly to alert oncoming drivers hidden past the rock walls.",
+      "Stay centered in your lane and watch for tourist buses reversing near the track."
+    ]
+  },
+  {
+    "id": "VPM0004",
+    "road_name": "Viluppuram - Tiruvannamalai Road (NH-332) - Mambalapattu Rail Crossing",
+    "city": "Mambalapattu Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9812,
+    "longitude": 79.3889,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Build-up Reaching Fast Highway Transit Corridors",
+      "Aggressive Lane Splitting by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if positioned at the tail end of a line layout.",
+      "Do not cross into the oncoming traffic lane to bypass waiting gate lines.",
+      "Keep a highly safe braking buffer from large freight options waiting ahead."
+    ]
+  },
+  {
+    "id": "VPM0005",
+    "road_name": "Tindivanam - Puducherry Highway (NH-66) - Kootteripattu Junction Fork",
+    "city": "Kootteripattu Rural",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1124,
+    "longitude": 79.6456,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive High-Speed Merge Profile from Regional Link Roads",
+      "Lack of Intersection Illumination and Channelizing Grade Islands"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Signal your pathway transitions early to warn fast-approaching highway trucks.",
+      "Scan merging shoulder tracks actively for hidden or unlit local agricultural units.",
+      "Strictly avoid rapid lane switching options directly around the convergence split."
+    ]
+  },
+  {
+    "id": "VPM0006",
+    "road_name": "Tindivanam Bypass Link (NH-45) - Kidangal School Zone Crossing",
+    "city": "Tindivanam Suburbs",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2345,
+    "longitude": 79.6642,
+    "danger_level": "High",
+    "danger_type": [
+      "High Density of Student Pedestrians Crossing High-Speed Express Lanes",
+      "Lack of Overhead Warning Flashers or Structural Pedestrian Footbridges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Strictly follow local school zone speed regulations during peak morning/evening hours.",
+      "Scan both road shoulders actively for children cycling or walking on foot.",
+      "Avoid attempting any quick overtaking moves past stationary transit buses."
+    ]
+  },
+  {
+    "id": "VPM0007",
+    "road_name": "Viluppuram - Trichy Link Route - Koliyanur Crossroad Complex",
+    "city": "Koliyanur Village Zone",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9042,
+    "longitude": 79.5188,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated 4-Way Crossroad Lacking Active Signal Arrays or Roundabouts",
+      "Sight Line Blockage from Local Shop Fronts and Temporary Awning Units"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Approach the center crossroads under complete defensive brake readiness.",
+      "Watch closely for local moped riders cutting aggressively across the split lines.",
+      "Use your directional indicators early to alert surrounding highway commuters."
+    ]
+  },
+  {
+    "id": "VPM0008",
+    "road_name": "Gingee - Desur Road (SH-113) - Melmalayanur Temple Approach Bend",
+    "city": "Melmalayanur",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.3512,
+    "longitude": 79.3545,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature directly fronting a major Pilgrim Landmark Gate",
+      "Frequent Ad-Hoc Parking of Out-of-Station Tourist Buses Constraining Lanes"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive with extreme patience, anticipating sudden devotee pedestrian movements.",
+      "Avoid utilizing high-decibel horn pulses to keep crowd actions predictable.",
+      "Watch closely for slow-moving senior citizens crossing near the temple limits."
+    ]
+  },
+  {
+    "id": "VPM0009",
+    "road_name": "Vikravandi - Kumbakonam Highway (NH-36) - Panruti Link Ingress Curve",
+    "city": "Vikravandi Rural Section",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9689,
+    "longitude": 79.5312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Right Turn with Minimal Bank Angle Superelevation Layout",
+      "Slick Surface Conditions caused by Heavy Haul Sugar Trucks from Delta Beds"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Lower your vehicle speed before entering the curve apex to counter sliding risk.",
+      "Expect oncoming commercial trucks to partially hug or cross the center line.",
+      "Watch out for sticky sugar-cane juice residues making the tarmac slick."
+    ]
+  },
+  {
+    "id": "VPM0010",
+    "road_name": "Marakkanam Coastal Road (ECR) - Thennampakkam Salt Flats Straightaway",
+    "city": "Marakkanam Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1889,
+    "longitude": 79.9412,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Flat Straight stretch encouraging extreme over-speeding",
+      "Slick Surface Moisture films caused by Salt-Mist Fog and Coastal Rain"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 55,
+    "safety_tips": [
+      "Strictly respect the highway speed regulations despite the open road view appearance.",
+      "Hold the steering wheel firmly to counter unexpected coastal crosswind shifts.",
+      "Reduce speed sharply if driving in the early morning when dense mist sets in."
+    ]
+  },
+  {
+    "id": "VPM0011",
+    "road_name": "Tindivanam - Marakkanam Road (SH-134) - Bramhadesam Canal Edge Strip",
+    "city": "Bramhadesam Village",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1525,
+    "longitude": 79.7812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac running closely along Unfenced Drainage Ditch Boundaries",
+      "Eroded Unpaved Shoulders Falling Directly Into Low-lying Paddy Fields"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep tires firmly centered on the asphalt lane to prevent ditch sliding.",
+      "Pull over onto stable high ground and stop if a wide heavy freighter approaches.",
+      "Exercise double caution when driving through this stretch during rainy spells."
+    ]
+  },
+  {
+    "id": "VPM0012",
+    "road_name": "Viluppuram Inner Bypass Road - Kandamadi Intersection Bridge Ingress",
+    "city": "Viluppuram Urban Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9345,
+    "longitude": 79.4889,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Lane Reduction Bottleneck at Old Structural Ingress Ramps",
+      "High Density of Inter-District Sand Trucks and Express Logistics Operations"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Strictly refrain from changing lanes or overtaking on the bridge span structure.",
+      "Maintain a uniform steady speed until you have fully exited the bottleneck stretch."
+    ]
+  },
+  {
+    "id": "VPM0013",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Mundiyampakkam Hospital Junction",
+    "city": "Mundiyampakkam",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9912,
+    "longitude": 79.5245,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Turning Movements of Emergency Vehicles and Patient Foot Traffic",
+      "High-Speed Express Bus Traffic Overlapping with Local Suburban Transit"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Drop your speed immediately when passing the hospital zone visual markers.",
+      "Give undisputed right-of-way to emergency medical transport vehicles.",
+      "Avoid overtaking or changing lanes within the medical core perimeter."
+    ]
+  },
+  {
+    "id": "VPM0014",
+    "road_name": "Tindivanam - Tiruvannamalai Road (NH-77) - Gingee Bazaar Choke Point",
+    "city": "Gingee Urban Core",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2489,
+    "longitude": 79.4188,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Extreme Carriage Narrowing Caused by Roadside Shop Front Encroachments",
+      "Heavy Inflow of Tourist Foot Traffic and Haphazard Moped Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow, defensive speeds and anticipate sudden pedestrian movements.",
+      "Watch closely for local delivery bikes pulling out blindly from between shops.",
+      "Refrain from using high-decibel horns to prevent panic in the dense crowd."
+    ]
+  },
+  {
+    "id": "VPM0015",
+    "road_name": "Viluppuram - Puducherry Highway (NH-45A) - Koliyanur Bypass Fork",
+    "city": "Koliyanur Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9188,
+    "longitude": 79.5244,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout Lacking Retroreflective Lane Stud Markings",
+      "High Nighttime Collision Risks due to Poor High-Mast Illumination"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route pathway well before reaching the division fork.",
+      "Initiate your indicators early to protect your space from trailing trucks.",
+      "Watch out for local moped riders cutting aggressively across the split point."
+    ]
+  },
+  {
+    "id": "VPM0016",
+    "road_name": "Vikravandi - Kumbakonam Highway (NH-36) - Ennayiram Rural Crossroad",
+    "city": "Ennayiram Village Zone",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0845,
+    "longitude": 79.4892,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Three-Way Junction Obscured by Tall Sugarcane Crop Fields",
+      "Abrupt Speed Variances between Highway Freighters and Local Agri Tractors"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Scan both intersections actively with your foot covering the brake pedal.",
+      "Give several short daytime horn taps to alert hidden merging farm transit.",
+      "Maintain a wide safety buffer behind slow-moving trailers carrying sugarcane."
+    ]
+  },
+  {
+    "id": "VPM0017",
+    "road_name": "Tindivanam - Puducherry Highway (NH-66) - Mailam Temple Cross Road",
+    "city": "Mailam Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1288,
+    "longitude": 79.6145,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-Way Convergence of Pilgrim Traffic and Fast Highway Flow",
+      "Frequent Abrupt Stops by Inter-District Vans and Shared Auto-Rickshaws"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Approach the temple merge lane with high defensive care and awareness.",
+      "Anticipate sudden, un-signaled lane deviations from local commuter vans.",
+      "Strictly avoid overtaking actions near the designated pedestrian drop zones."
+    ]
+  },
+  {
+    "id": "VPM0018",
+    "road_name": "East Coast Road (ECR) - Marakkanam Bridge Approach Descent",
+    "city": "Marakkanam Town Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2012,
+    "longitude": 79.9489,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Slope Ending Directly in Narrow Heritage Bridge Framework Lanes",
+      "High Density of Inter-State Tourist Traffic Driving at Excessive Speeds"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Utilize light engine braking down the descent to retain absolute vehicle control.",
+      "Yield entry rights to large vehicles that have claimed the narrow span first.",
+      "Strictly refrain from changing lanes or overtaking on the entire bridge span."
+    ]
+  },
+  {
+    "id": "VPM0019",
+    "road_name": "Tindivanam - Marakkanam Road (SH-134) - Alankuppam School Curve",
+    "city": "Alankuppam Village",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1812,
+    "longitude": 79.8456,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature Running Directly past Local Educational Gates",
+      "High Vulnerability due to Student Pedestrian and Bicycle Traffic Clustered on Edges"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Minimize vehicle speed significantly during school opening and closure hours.",
+      "Scan both sides of the roadway edge for children walking on foot.",
+      "Apply braking effort purely on the straight section before turning the wheel."
+    ]
+  },
+  {
+    "id": "VPM0020",
+    "road_name": "Gingee - Desur Road (SH-113) - Devadanapatti Blind S-Bend",
+    "city": "Devadanapatti Rural Section",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.3112,
+    "longitude": 79.3889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Consecutive Sharp Reverse Curves wrapped in Dense Coconut Orchards",
+      "Severe Drop-Off Heights directly falling into Irrigation Drainage Ditches"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Maintain active lane discipline and do not slide across center lines.",
+      "Sound your horn continuously to alert oncoming traffic across the blind orchard plot.",
+      "Never push your tires off the pavement onto unstable low dirt shoulders."
+    ]
+  },
+  {
+    "id": "VPM0021",
+    "road_name": "Viluppuram - Tiruvannamalai Road (NH-332) - Venkatesapuram Industrial Ingress",
+    "city": "Viluppuram Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9465,
+    "longitude": 79.4524,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Turning and Crossing Movements by Heavy Multi-Axle Logistics Freight",
+      "Low Nighttime Visibility Intersecting Rural Commuter Access Tracks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep a significant front safety buffer from large industrial containers.",
+      "Scan the highway shoulders continuously for slow vehicles entering from factory loops.",
+      "Flash your high beams at night to communicate your position to turning vehicles."
+    ]
+  },
+  {
+    "id": "VPM0022",
+    "road_name": "Tindivanam Bypass Link (NH-45) - Salavathi River Bridge Ingress",
+    "city": "Tindivanam Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2145,
+    "longitude": 79.6247,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Roadway Narrowing Bottleneck at Old Structural Ingress Point",
+      "High Density of Fast-Moving Inter-State Commercial Freight Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Avoid any lane shifting or overtaking across the bridge framework.",
+      "Slow down to absorb the abrupt bridge-to-road structural joint bumps safely."
+    ]
+  },
+  {
+    "id": "VPM0023",
+    "road_name": "Marakkanam Coastal Road (ECR) - Salt Factory Blind Junction",
+    "city": "Marakkanam Rural Edge",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1645,
+    "longitude": 79.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve Obscured by Ancient Compound Walls and Banners",
+      "Frequent Ad-Hoc Crossings by Local Salt-Field Workers and Cargo Vehicles"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Be prepared to stop immediately for workers emerging from the blind wall side.",
+      "Ensure low beams are active to counter heavy coastal shadow illusions at twilight."
+    ]
+  },
+  {
+    "id": "VPM0024",
+    "road_name": "Viluppuram Inner Bypass Road - Salamedu Weekly Market Crossroad",
+    "city": "Salamedu Urban Edge",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9112,
+    "longitude": 79.4989,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex 4-Way Crossroad Lacking Active Signal Arrays or Roundabouts",
+      "Encroaching Weekly Market Vendor Sheds Restricting Active Carriage Width"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Approach the center crossroads under complete defensive brake readiness.",
+      "Watch closely for pedestrians stepping out from behind parked vehicles.",
+      "Avoid all overtaking maneuvers within the village commercial core layout."
+    ]
+  },
+  {
+    "id": "VPM0025",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Vikravandi Sugar Mill Crossing",
+    "city": "Vikravandi Suburbs",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0145,
+    "longitude": 79.5412,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Turning Movements of Long Multi-Axle Cane Trailers",
+      "Slick Asphalt Conditions Caused by Crushed Organic Crop Debris"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Scan the highway shoulders continuously for slow-moving sugarcane trucks.",
+      "Avoid harsh braking on sections showing organic residues or slick patches.",
+      "Maintain stable forward gaps to optimize reactive braking maneuvers."
+    ]
+  },
+  {
+    "id": "VPM0026",
+    "road_name": "Tindivanam - Tiruvannamalai Road (NH-77) - Konalur Blind Junction",
+    "city": "Konalur Rural Section",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2189,
+    "longitude": 79.2891,
+    "danger_level": "High",
+    "danger_type": [
+      "Uncontrolled T-Junction Masked by Thick Roadside Vegetation",
+      "High Speed Variance Between Highway Transit and Local Agri Motorists"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Scan both intersections actively with your foot covering the brake pedal.",
+      "Give several short daytime horn taps when passing hidden farm entrances.",
+      "Strictly avoid overtaking actions within 100 meters of the intersection."
+    ]
+  },
+  {
+    "id": "VPM0027",
+    "road_name": "Viluppuram - Puducherry Highway (NH-45A) - Valavanur Railway Gate approach",
+    "city": "Valavanur Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9212,
+    "longitude": 79.5914,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Backups Reaching Fast Highway Transit Corridors",
+      "Erratic Lane Splitting by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if positioned at the tail end of a line.",
+      "Do not cross into the oncoming traffic lane to bypass waiting gate lines.",
+      "Expect significant vehicle delays and stay alert for sudden braking."
+    ]
+  },
+  {
+    "id": "VPM0028",
+    "road_name": "Vikravandi - Kumbakonam Highway (NH-36) - Nemur Market Choke Point",
+    "city": "Nemur Village Core",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9845,
+    "longitude": 79.5112,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Weekly Vendor Stalls",
+      "Haphazard Two-Wheeler Parking Constraining Active Carriage Width"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Avoid all overtaking maneuvers within the active market boundaries.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes."
+    ]
+  },
+  {
+    "id": "VPM0029",
+    "road_name": "Tindivanam - Puducherry Highway (NH-66) - Perani Rural Curve",
+    "city": "Perani Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0889,
+    "longitude": 79.6112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Sweeping Curvature Lacking Proper Retroreflective Visual Markers",
+      "Severe Drop-off Heights directly falling into Irrigation Field Links"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Maintain a centered line on the driving track layout blocks.",
+      "Never push your tires onto loose gravel shoulders to avoid ditch sliding.",
+      "Dim your high beams promptly at night to easily spot the curve outline."
+    ]
+  },
+  {
+    "id": "VPM0030",
+    "road_name": "East Coast Road (ECR) - Koonimedu Village Straightaway",
+    "city": "Koonimedu Coastal Section",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1112,
+    "longitude": 79.9145,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Flat Straight stretch encouraging extreme over-speeding",
+      "Unexpected Livestock Crossings from Adjoining Coastal Pastures"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 60,
+    "safety_tips": [
+      "Strictly respect the highway speed regulations despite the open road appearance.",
+      "Scan both sides of the horizon for livestock moving toward the road.",
+      "Hold the steering wheel firmly to counter unexpected coastal crosswind shifts."
+    ]
+  },
+  {
+    "id": "VPM0031",
+    "road_name": "Tindivanam - Marakkanam Road (SH-134) - Endiyur Crossroad",
+    "city": "Endiyur Village Zone",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2114,
+    "longitude": 79.7125,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Uncontrolled Four-Way Intersection inside Rural Zones",
+      "Sight Line Obstruction from Local Shop Fronts and Temporary Awnings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Slow down significantly and monitor all side links before crossing over.",
+      "Anticipate local farmers pulling out unexpectedly without signals.",
+      "Use your directional indicators early to alert surrounding commuters."
+    ]
+  },
+  {
+    "id": "VPM0032",
+    "road_name": "Gingee - Desur Road (SH-113) - Kamakkur Blind S-Bend",
+    "city": "Kamakkur",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2989,
+    "longitude": 79.3945,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Sharp Reverse Curves with Poor Horizontal Visibility",
+      "Narrow Road Width over an Old Masonry Drainage Bridge Span"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Brake completely on the straight block prior to entering the curvature.",
+      "Allow wide oncoming freight vehicles to cross the bridge span first.",
+      "Maintain active lane discipline and do not slide across center lines."
+    ]
+  },
+  {
+    "id": "VPM0033",
+    "road_name": "Viluppuram - Tiruvannamalai Road (NH-332) - Ayandur School Corner",
+    "city": "Ayandur Village",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9612,
+    "longitude": 79.3414,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature Running Directly past School Entry Gates",
+      "Lack of Overhead Warning Flashers or Pedestrian Crossing Strips"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop speed during morning arrival and afternoon dismissal hours.",
+      "Watch closely for young cyclists moving along the edge of the tarmac.",
+      "Refrain from quick acceleration maneuvers within the school perimeter."
+    ]
+  },
+  {
+    "id": "VPM0034",
+    "road_name": "Tindivanam Bypass Link (NH-45) - Ongur Bridge Decline",
+    "city": "Tindivanam Northern Edge",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2612,
+    "longitude": 79.6147,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Blind Slope Ending Directly in an Intersection with Rural Link Roads",
+      "High Density of Inter-District Freight and Public Transport Operations"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Utilize light engine braking down the descent to retain absolute vehicle control.",
+      "Sound your horn to alert crossing traffic coming from the blind link roads.",
+      "Strictly refrain from changing lanes or overtaking on the descending stretch."
+    ]
+  },
+  {
+    "id": "VPM0035",
+    "road_name": "Marakkanam Coastal Road (ECR) - Mandavai Junction Fork",
+    "city": "Mandavai Rural Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1489,
+    "longitude": 79.8842,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deceptive Y-Fork Layout Lacking Clear Visual Lane Separation",
+      "High-Speed Bypass Vehicles Swapping Lanes without Visual Signals"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Signal your path choices early to alert closely following vehicles.",
+      "Check your right-side blind spots carefully before merging into the main flow."
+    ]
+  },
+  {
+    "id": "VPM0036",
+    "road_name": "Viluppuram Inner Bypass Road - GTR Hospital Crossroad",
+    "city": "Viluppuram Urban Edge",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9288,
+    "longitude": 79.4647,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-Way Merging Streams without Clear Right-of-Way Rules",
+      "Frequent Turning Movements of Emergency Vehicles and Patient Foot Traffic"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center crossroads under complete defensive brake readiness.",
+      "Give undisputed right-of-way to emergency medical transport vehicles.",
+      "Avoid all overtaking maneuvers inside the intersection perimeter zone."
+    ]
+  },
+  {
+    "id": "VPM0037",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Janakipuram Bypass Junction",
+    "city": "Viluppuram Northern Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9641,
+    "longitude": 79.5089,
+    "danger_level": "High",
+    "danger_type": [
+      "High-Speed Merge Congestion from Local Suburb Feeder Links",
+      "Frequent Unregulated Overtaking across Bypass Access Breaches"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Keep to the center lane to avoid sudden local traffic pulling out from side access tracks.",
+      "Check your side mirrors continuously when traversing highway layout breaks.",
+      "Strictly avoid rapid lane changes without checking front and rear safety buffers."
+    ]
+  },
+  {
+    "id": "VPM0038",
+    "road_name": "Tindivanam - Tiruvannamalai Road (NH-77) - Thenpalai Rural Crossroad",
+    "city": "Thenpalai Village Zone",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2312,
+    "longitude": 79.3142,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Three-Way Fork with Inadequate Visual Separation Signals",
+      "Frequent Merging of Slow Farming Tractors onto the Main Highway"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Scan both intersections actively with your foot hovering near the brake pedal.",
+      "Give several short daytime horn taps when passing hidden farm entrances.",
+      "Avoid attempting any quick overtaking moves past turning agricultural units."
+    ]
+  },
+  {
+    "id": "VPM0039",
+    "road_name": "Viluppuram - Puducherry Highway (NH-45A) - Thiruamathur Temple Bend",
+    "city": "Thiruamathur Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9442,
+    "longitude": 79.5489,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Stone Compound Structures",
+      "Heavy Inflow of Tourist Vehicles and Devotees during Festival Days"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Be prepared to stop immediately for pedestrians emerging from the blind wall side.",
+      "Maintain a uniform steady speed and stay strictly inside your lane markings."
+    ]
+  },
+  {
+    "id": "VPM0040",
+    "road_name": "Vikravandi - Kumbakonam Highway (NH-36) - Panayapuram Market Stretch",
+    "city": "Panayapuram Village",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0112,
+    "longitude": 79.5289,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Weekly Vendor Stalls",
+      "Frequent Abrupt Stops by Shared Autos and Public Mini-Buses"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect sudden passenger transport movements across the central highway line.",
+      "Keep a safe distance from shared autos pulling over without signaling.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes."
+    ]
+  },
+  {
+    "id": "VPM0041",
+    "road_name": "Tindivanam - Puducherry Highway (NH-66) - Mailam Intersection Slant",
+    "city": "Mailam Rural Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1412,
+    "longitude": 79.6247,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Shaped Split Lacking Retroreflective Road Studs",
+      "High Volume of Speeding Inter-District Public Transport Buses"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Determine your route trajectory direction well before reaching the split point.",
+      "Signal your path intent early to protect your space from trailing trucks.",
+      "Yield priority to fast-moving multi-district vehicles on the main line."
+    ]
+  },
+  {
+    "id": "VPM0042",
+    "road_name": "East Coast Road (ECR) - Vasavankuppam Salt Bed Curve",
+    "city": "Marakkanam Border Area",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2145,
+    "longitude": 79.9512,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Sweeping Curvature Running Parallel to an Unfenced Catchment Ditch",
+      "Slick Surface Moisture films caused by Salt-Mist Fog and Coastal Rain"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Reduce speed sharply if driving in the early morning when dense mist sets in.",
+      "Hold the steering wheel firmly to counter unexpected coastal crosswind shifts.",
+      "Never push your tires onto loose gravel shoulders to avoid ditch sliding."
+    ]
+  },
+  {
+    "id": "VPM0043",
+    "road_name": "Tindivanam - Marakkanam Road (SH-134) - Kilbazar School Corner",
+    "city": "Kilbazar Village Zone",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1912,
+    "longitude": 79.7489,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature running directly past local educational gate lines",
+      "Lack of proper overhead warning flashers or pedestrian safety barriers"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Minimize vehicle speed significantly during morning and afternoon hours.",
+      "Scan both sides of the roadway edge for children walking on foot.",
+      "Refrain from quick acceleration maneuvers within the school perimeter."
+    ]
+  },
+  {
+    "id": "VPM0044",
+    "road_name": "Gingee - Desur Road (SH-113) - Avalurpet Rural Link S-Bend",
+    "city": "Avalurpet Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2842,
+    "longitude": 79.3612,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Consecutive Sharp Reverse Curves with Poor Horizontal Visibility",
+      "Severe Drop-off Heights directly falling into Irrigation Field Links"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Brake completely on the straight block prior to entering the curvature.",
+      "Maintain active lane discipline and do not slide across lane markings.",
+      "Exercise double caution when driving through this stretch during rainy spells."
+    ]
+  },
+  {
+    "id": "VPM0045",
+    "road_name": "Viluppuram - Tiruvannamalai Road (NH-332) - Kandachipuram Bridge Approach",
+    "city": "Kandachipuram Rural",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9989,
+    "longitude": 79.2845,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Structure with Eroded Asphalt Footings",
+      "Abrupt Traffic Queue Backups Reaching High-Speed Highway Sectors"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Yield entry access to oncoming heavy vehicles that have reached the span first.",
+      "Turn on your hazard warning lights if you are at the tail end of a sudden queue.",
+      "Never attempt overtaking maneuvers on the narrow bridge span framework."
+    ]
+  },
+  {
+    "id": "VPM0046",
+    "road_name": "Tindivanam Bypass Link (NH-45) - Pappanapattu Level Crossing Link",
+    "city": "Tindivanam Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2412,
+    "longitude": 79.6488,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Build-up Blocking Primary Highway Speeds",
+      "Erratic Lane Splitting by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if you are at the tail end of a sudden queue.",
+      "Do not switch into opposite lanes to bypass waiting railway line blocks.",
+      "Maintain a safe braking distance from the heavy vehicle waiting ahead."
+    ]
+  },
+  {
+    "id": "VPM0047",
+    "road_name": "Marakkanam Coastal Road (ECR) - Chettikuppam Intersection Fork",
+    "city": "Chettikuppam Rural Section",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1314,
+    "longitude": 79.8642,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud markers",
+      "High Volume of Fast-Moving Commercial Sand and Grain Freight Trucks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Signal your path choices early to alert closely following vehicles.",
+      "Avoid close-tailgating or overtaking near the warehouse entry lanes."
+    ]
+  },
+  {
+    "id": "VPM0048",
+    "road_name": "Viluppuram Inner Bypass Road - Gudalur Canal Edge Corridor",
+    "city": "Viluppuram Suburbs",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9189,
+    "longitude": 79.4412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac running closely along Unfenced Ditch Boundaries",
+      "Complete Lack of Steel Safety Guardrails or Retroreflective Studs"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Pull over onto stable ground and stop if a wide commercial truck approaches.",
+      "Keep your tires strictly tracking within the paved asphalt lane markings.",
+      "Exercise double caution when navigating this stretch during monsoonal downpours."
+    ]
+  },
+  {
+    "id": "VPM0049",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Panoor Industrial Ingress",
+    "city": "Vikravandi Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0465,
+    "longitude": 79.5212,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Abrupt Stopping by Heavy Multi-Axle Freight Containers",
+      "Low Nighttime Visibility Intersecting Rural Commuter Access Tracks"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Keep a significant front safety buffer from large industrial containers.",
+      "Scan the highway shoulders carefully for slow vehicles entering from factory loops.",
+      "Flash your high beams at night to communicate your position to turning vehicles."
+    ]
+  },
+  {
+    "id": "VPM0050",
+    "road_name": "Tindivanam - Tiruvannamalai Road (NH-77) - Gingee College Zone Curve",
+    "city": "Gingee Suburbs",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2694,
+    "longitude": 79.4358,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Heavy Inflow of Student Pedestrians and Institutional Transit Buses",
+      "Sharp Curvature immediately following an extended high-speed straight stretch"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly drop vehicle speeds to the minimum during college rush hours.",
+      "Apply brakes well before entering the curvature, not while on it.",
+      "Avoid attempting any quick overtaking moves past parked student buses."
+    ]
+  },
+  {
+    "id": "VPM0051",
+    "road_name": "Viluppuram - Puducherry Highway (NH-45A) - Valavanur New Bypass Merge",
+    "city": "Valavanur Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9311,
+    "longitude": 79.6112,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive High-Speed Merge Angle Lacking Impact Attenuators",
+      "High-Speed Bypass Vehicles Swapping Lanes without Visual Signals"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Check your right-side blind spots carefully before merging into the main flow.",
+      "Initiate your turning indicators early to alert fast-approaching trucks.",
+      "Avoid any rapid acceleration maneuvers directly at the conversion point."
+    ]
+  },
+  {
+    "id": "VPM0052",
+    "road_name": "Vikravandi - Kumbakonam Highway (NH-36) - Nemur Canal Side Strip",
+    "city": "Nemur Village Zone",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9712,
+    "longitude": 79.4989,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac running closely alongside Unfenced Ditch Boundaries",
+      "Slippery Asphalt caused by Algae and Water Spillover during Monsoons"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep a safe distance from the unbarricaded canal side edge layout.",
+      "Reduce speed significantly if the surface is wet from seasonal rainfall overflows.",
+      "Maintain strict lane discipline and do not drift across central lines."
+    ]
+  },
+  {
+    "id": "VPM0053",
+    "road_name": "Tindivanam - Puducherry Highway (NH-66) - Perani School Zone Corner",
+    "city": "Perani Village",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0712,
+    "longitude": 79.5889,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature Running Directly past School Entry Gates",
+      "High Density of Student Pedestrians and Bicycle Traffic during Peak Hours"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop speed during morning arrival and afternoon dismissal hours.",
+      "Watch closely for young cyclists pulling out from hidden side alleys.",
+      "Refrain from quick acceleration maneuvers within the school safety zone."
+    ]
+  },
+  {
+    "id": "VPM0054",
+    "road_name": "East Coast Road (ECR) - Marakkanam Salt Factory Ingress Fork",
+    "city": "Marakkanam Rural Section",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1812,
+    "longitude": 79.9244,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud markers",
+      "High Volume of Fast-Moving Commercial Sand and Salt Freight Trucks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Signal your path choices early to alert closely following vehicles.",
+      "Avoid close-tailgating or overtaking near the warehouse entry lanes."
+    ]
+  },
+  {
+    "id": "VPM0055",
+    "road_name": "Tindivanam - Marakkanam Road (SH-134) - Endiyur Market Choke Point",
+    "city": "Endiyur Village Core",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2242,
+    "longitude": 79.6945,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Weekly Vendor Stalls",
+      "Haphazard Two-Wheeler Parking Constraining Active Carriage Width"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Avoid all overtaking maneuvers within the active market boundaries.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes."
+    ]
+  },
+  {
+    "id": "VPM0056",
+    "road_name": "Gingee - Desur Road (SH-113) - Kamakkur Village Blind Curve",
+    "city": "Kamakkur Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.3111,
+    "longitude": 79.4214,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Compound Walls and Banners",
+      "Lack of Safety Guardrails or Retroreflective Stud Line Markings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Maintain a uniform steady speed and stay inside your lane markings.",
+      "Dim your high beams promptly at night to easily spot the curve outline."
+    ]
+  },
+  {
+    "id": "VPM0057",
+    "road_name": "Viluppuram - Tiruvannamalai Road (NH-332) - Mambalapattu Outskirts Straightaway",
+    "city": "Mambalapattu Rural",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9945,
+    "longitude": 79.4114,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Flat Straight stretch encouraging extreme speeding",
+      "Sudden entry of low-speed farm tractors carrying agricultural loads"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly respect the highway speed regulations despite the empty road view.",
+      "Maintain a wide safety buffer behind long, slow agricultural trailers.",
+      "Scan both shoulders of the highway continuously for moving livestock."
+    ]
+  },
+  {
+    "id": "VPM0058",
+    "road_name": "Tindivanam Bypass Link (NH-45) - Kidangal Bridge Exit Base",
+    "city": "Tindivanam Southern Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2112,
+    "longitude": 79.6389,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Heritage Bridge Infrastructure with Limited Structural Width",
+      "Abrupt Convergence of Town Pedestrian Flow at the Bridge Exit Base"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield right of way if a heavy truck has already claimed entry onto the span.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Keep a close watch for sudden pedestrian crossings at the town-side exit."
+    ]
+  },
+  {
+    "id": "VPM0059",
+    "road_name": "Marakkanam Coastal Road (ECR) - Koonimedu Rail Overbridge Approach",
+    "city": "Koonimedu Rural Area",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1247,
+    "longitude": 79.8942,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Approach Gradient ending in sudden Sharp Geometric Turns",
+      "Narrow Guard Rails with Missing Structural Reflector Blocks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear to use engine braking when descending the gradient.",
+      "Never attempt overtaking maneuvers anywhere on the narrow descending span.",
+      "Stay centered to avoid scraping sides against the close concrete barriers."
+    ]
+  },
+  {
+    "id": "VPM0060",
+    "road_name": "Viluppuram Inner Bypass Road - Kandamadi Railway Line Level Crossing",
+    "city": "Viluppuram Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9412,
+    "longitude": 79.4645,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Build-up Blocking Primary Highway Speeds",
+      "Erratic Lane Splitting by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if you are at the tail end of a sudden queue.",
+      "Do not switch into opposite lanes to bypass waiting railway line blocks.",
+      "Maintain a safe braking distance from the heavy vehicle waiting ahead."
+    ]
+  },
+  {
+    "id": "VPM0061",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Koliyanur Crossroad Divergence",
+    "city": "Koliyanur Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9221,
+    "longitude": 79.5142,
+    "danger_level": "High",
+    "danger_type": [
+      "High-Speed Bypass Divergence Lacking Impact Attenuators",
+      "Confusing Road Markings Leading to Last-Minute Lane Swapping"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Decelerate early and position your vehicle in the correct lane before the split.",
+      "Check your side mirrors repeatedly for fast cars passing on the inside lane.",
+      "Strictly avoid turning across solid white lane markers at the diversion point."
+    ]
+  },
+  {
+    "id": "VPM0062",
+    "road_name": "Tindivanam - Tiruvannamalai Road (NH-77) - Vallam Rural S-Bend Complex",
+    "city": "Vallam Village Stretch",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2814,
+    "longitude": 79.3589,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Blind Reverse Curves with Poor Horizontal Visibility",
+      "Low Lateral Visibility due to Tall Sugarcane Crop Fields"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn continuously before entering the blind curve apex.",
+      "Stay strictly within your lane marking to avoid oncoming heavy vehicles.",
+      "Be prepared for slow-moving bullock carts merging from farm tracks."
+    ]
+  },
+  {
+    "id": "VPM0063",
+    "road_name": "Viluppuram - Puducherry Highway (NH-45A) - Valavanur Substation Junction",
+    "city": "Valavanur Urban Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9254,
+    "longitude": 79.5989,
+    "danger_level": "High",
+    "danger_type": [
+      "Improper Merge Lanes from Secondary Town Roads",
+      "High-Speed Inter-State Bus Transit Movements"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Yield to fast-moving buses traversing the primary state highway corridors.",
+      "Use your turn signals early if transitioning off the main highway.",
+      "Check rear-view mirrors continuously for fast-approaching vehicles."
+    ]
+  },
+  {
+    "id": "VPM0064",
+    "road_name": "Vikravandi - Kumbakonam Highway (NH-36) - Panayapuram School Crossroad",
+    "city": "Panayapuram Village Zone",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0165,
+    "longitude": 79.5342,
+    "danger_level": "High",
+    "danger_type": [
+      "High Vulnerability due to School Student Foot Traffic",
+      "Unregulated Crossroad Flow Without Active Traffic Lights"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly follow school zone speed limits during morning and afternoon hours.",
+      "Keep a sharp eye out for cycles pulling out from side lanes.",
+      "Maintain active foot coverage on your brake pedal through the zone."
+    ]
+  },
+  {
+    "id": "VPM0065",
+    "road_name": "Tindivanam - Puducherry Highway (NH-66) - Mailam Forest Range Bend",
+    "city": "Mailam Foothills",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1389,
+    "longitude": 79.5945,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Geometric Blind Bend Wrapped Inside Heavy Tree Canopy",
+      "Extreme Drop-Off Between Tarmac Edges and Lower Agricultural Fields"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Maintain a stable speed and stay fully within your painted lane.",
+      "Use headlight flashing sequences at night to alert hidden vehicles around the grove.",
+      "Never push your tires off the pavement onto the unstable low shoulders."
+    ]
+  },
+  {
+    "id": "VPM0066",
+    "road_name": "East Coast Road (ECR) - Marakkanam Salt Pan Open Straight",
+    "city": "Marakkanam Coastal Belt",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1912,
+    "longitude": 79.9314,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Straight Road Encouraging Excessive Over-Speeding",
+      "Sudden Crosswinds Coming Off Nearby Salt Pan Flats"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "Medium",
+    "recommended_speed": 60,
+    "safety_tips": [
+      "Strictly adhere to cruise speed limits despite open road appearance.",
+      "Hold the steering wheel firmly to counter unexpected crosswind shifts.",
+      "Take breaks if experiencing driving fatigue due to monotonous layouts."
+    ]
+  },
+  {
+    "id": "VPM0067",
+    "road_name": "Tindivanam - Marakkanam Road (SH-134) - Bramhadesam T-Junction Fork",
+    "city": "Bramhadesam Rural Area",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1611,
+    "longitude": 79.7942,
+    "danger_level": "High",
+    "danger_type": [
+      "Acute Angle T-Intersection with Weak Visual Guidance Signals",
+      "Two-Wheelers Cutting Across Main Traffic Flows Erratically"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route pathway well before reaching the junction point.",
+      "Initiate turning indicator lights early to signal your lane exit choices.",
+      "Carefully scan the merging lines for hidden or unlit local mopeds."
+    ]
+  },
+  {
+    "id": "VPM0068",
+    "road_name": "Gingee - Desur Road (SH-113) - Avalurpet Market Bottleneck",
+    "city": "Avalurpet Commercial Core",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2912,
+    "longitude": 79.3745,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Bottleneck due to Roadside Weekly Market Stalls",
+      "Chaotic Commercial Parking Intruding onto Main Carriage Lanes"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Avoid any overtaking actions within the village commercial core.",
+      "Use your horn sparingly to prevent confusing local pedestrians."
+    ]
+  },
+  {
+    "id": "VPM0069",
+    "road_name": "Viluppuram - Tiruvannamalai Road (NH-332) - Ayandur Irrigation Canal Edge",
+    "city": "Ayandur Village Stretch",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9742,
+    "longitude": 79.3512,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unprotected Road Edge Running Adjacent to Deep Water Canal",
+      "Slippery Asphalt caused by Mud Dragged from Surrounding Paddy Fields"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep a safe distance from the un-barricaded canal side edge.",
+      "Look out for wet mud deposits that can cause unexpected tire slippage.",
+      "Reduce speed significantly during monsoon months when the canal overflows."
+    ]
+  },
+  {
+    "id": "VPM0070",
+    "road_name": "Tindivanam Bypass Link (NH-45) - Kidangal Suburb Merge Ramp",
+    "city": "Tindivanam Northern Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2489,
+    "longitude": 79.6211,
+    "danger_level": "High",
+    "danger_type": [
+      "Improper Merge Markings at the Flyover Ramp Base",
+      "High-Speed Express Vehicles Swapping Lanes without Visual Signals"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Carefully track vehicles merging from your left blind spot.",
+      "Signal your direction clearly well in advance of entering the ramp.",
+      "Do not try to switch lanes midway through the conversion merge point."
+    ]
+  },
+  {
+    "id": "VPM0071",
+    "road_name": "Marakkanam Coastal Road (ECR) - Koonimedu Blind River Bridge",
+    "city": "Koonimedu Suburban Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1312,
+    "longitude": 79.8889,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Lane Reduction Bottleneck at Old River Bridge Ingress",
+      "High Density of Inter-State Tourist Buses and Seafood Logistics Trucks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Fold in your side mirrors if passing another wide commercial vehicle."
+    ]
+  },
+  {
+    "id": "VPM0072",
+    "road_name": "Viluppuram Inner Bypass Road - Salamedu Residential Crossroad",
+    "city": "Salamedu Urban Core",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9088,
+    "longitude": 79.4845,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossroad Flow Without Active Traffic Control Signal Arrays",
+      "Unregulated U-turns by Local Passenger Vans and Auto-Rickshaws"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the central junction cross-point with extreme defensive care.",
+      "Keep a safe distance from shared autos pulling over without signaling.",
+      "Keep foot ready near the brake pedal while navigating the core zone."
+    ]
+  },
+  {
+    "id": "VPM0073",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Vikravandi Toll Plaza Access Way",
+    "city": "Vikravandi Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0298,
+    "longitude": 79.5489,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Frequent Backups of Multi-Axle Trucks and High-Speed Passenger Cars",
+      "Erratic Lane Changing by Drivers Avoiding Fastag Scanner Lines"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce your speed significantly at least 500 meters before the plaza entries.",
+      "Stay strictly within your selected lane and avoid shifting lines at the last minute.",
+      "Watch out for pedestrians and vendors weaving through stationary traffic."
+    ]
+  },
+  {
+    "id": "VPM0074",
+    "road_name": "Tindivanam - Tiruvannamalai Road (NH-77) - Konalur S-Bend Curve",
+    "city": "Konalur Rural Section",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2212,
+    "longitude": 79.2945,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Sharp Reverse Curves wrapped in Dense Local Flora",
+      "Weak Lateral Road Banking causing Vehicles to Drift Outward"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Brake completely before entering the curvature, not while tracking it.",
+      "Sound your horn to communicate your location to vehicles behind the foliage.",
+      "Never push your left tires off the asphalt edge onto the soft dirt."
+    ]
+  },
+  {
+    "id": "VPM0075",
+    "road_name": "Viluppuram - Puducherry Highway (NH-45A) - Valavanur School Zone Ingress",
+    "city": "Valavanur",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9194,
+    "longitude": 79.5912,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Heavy Pedestrian Congestion from Local Students and Medical Visitors",
+      "Frequent Abrupt Stops by Ambulances, Auto-Rickshaws, and Inter-City Buses"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain walking pace speeds when passing directly by school entry gates.",
+      "Keep absolute focal readiness active for pedestrians crossing between vehicles.",
+      "Give absolute right-of-way to school buses and passenger transit transport."
+    ]
+  },
+  {
+    "id": "VPM0076",
+    "road_name": "Vikravandi - Kumbakonam Highway (NH-36) - Nemur Market S-Bend Hook",
+    "city": "Nemur Village Core",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9812,
+    "longitude": 79.5089,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Approach Gradient with Sudden Blind Angular Hooks",
+      "Heavy Risk of Brake Failure for Downhill Loaded Freight Commercials"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Utilize lower gear shifts to activate engine braking when heading downhill.",
+      "Flash your headlights or blast your horn before committing to blind corners.",
+      "Yield entire inner lane loops to ascending trucks or heavy transport."
+    ]
+  },
+  {
+    "id": "VPM0077",
+    "road_name": "Tindivanam - Puducherry Highway (NH-66) - Mailam Junction Intersection",
+    "city": "Mailam Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1312,
+    "longitude": 79.6112,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossroad Flow lacking working signals or roundabouts",
+      "Sight Line Blockage from Local Awning Roofs and Commercial Ad Boards"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center crossway under total control with your foot on the brake.",
+      "Check your left and right side mirrors for merging local mopeds.",
+      "Avoid all overtaking maneuvers inside the intersection perimeter zone."
+    ]
+  },
+  {
+    "id": "VPM0078",
+    "road_name": "East Coast Road (ECR) - Koonimedu Bypass Fork Link",
+    "city": "Koonimedu Rural Section",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1212,
+    "longitude": 79.8989,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive High-Speed Merge Profile from Secondary Town Links",
+      "Complete Lack of Nighttime Overhead High-Mast Luminary Systems"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Initiate turning indicators early to signal your lane entry tracks.",
+      "Scan the merging lines carefully for hidden or unlit local tractors.",
+      "Strictly avoid rapid acceleration or close tailgating near the entry split."
+    ]
+  },
+  {
+    "id": "VPM0079",
+    "road_name": "Tindivanam - Marakkanam Road (SH-134) - Bramhadesam Canal Edge Strip",
+    "city": "Bramhadesam Village",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1589,
+    "longitude": 79.7842,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Single Lane Width with Soft, Eroded Mud Shoulders",
+      "Low Visibility Caused by High Crop Formations and Overhanging Trees"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Bring your vehicle to a complete stop on solid ground if a heavy truck approaches.",
+      "Never push your tires onto loose gravel shoulders to avoid slipping into ditches.",
+      "Sound your horn continuously to alert opposing hidden drivers on bends."
+    ]
+  },
+  {
+    "id": "VPM0080",
+    "road_name": "Gingee - Desur Road (SH-113) - Avalurpet Bridge Ingress Slant",
+    "city": "Avalurpet Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2889,
+    "longitude": 79.3645,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Roadway Narrowing Bottleneck at Old Bridge Entry Base",
+      "High Density of Inter-District Public Transport and Sugarcane Freighters"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry access to oncoming heavy vehicles that have reached the span first.",
+      "Strictly avoid any overtaking or lane shifting across the narrow framework.",
+      "Maintain a uniform steady speed until you have fully exited the bottleneck."
+    ]
+  },
+  {
+    "id": "VPM0081",
+    "road_name": "Viluppuram - Tiruvannamalai Road (NH-332) - Ayandur Market Stretch",
+    "city": "Ayandur Village Zone",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9644,
+    "longitude": 79.3442,
+    "danger_level": "High",
+    "danger_type": [
+      "Encroaching Commercial Shop Display Boards restricting carriage width",
+      "Heavy Mix of Unregulated Pedestrian Crossings and Agricultural Livestock"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect sudden pedestrian movements across the central highway line.",
+      "Keep a keen eye open for cattle pulling out from side lanes or markets.",
+      "Avoid using high-decibel horns to prevent panic among local shoppers."
+    ]
+  },
+  {
+    "id": "VPM0082",
+    "road_name": "Tindivanam Bypass Link (NH-45) - Kidangal Blind Corner Curve",
+    "city": "Tindivanam Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2345,
+    "longitude": 79.6456,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Residential Brick Wall Structures",
+      "Frequent Overtaking by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Do not try to force your way into opposing lanes during traffic buildups.",
+      "Be prepared to stop immediately for pedestrians emerging from the blind side."
+    ]
+  },
+  {
+    "id": "VPM0083",
+    "road_name": "Marakkanam Coastal Road (ECR) - Koonimedu College Crossing",
+    "city": "Koonimedu Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1345,
+    "longitude": 79.8912,
+    "danger_level": "High",
+    "danger_type": [
+      "High Density of Student Pedestrians and Institutional Transit Buses",
+      "Sharp Curvature immediately following an extended high-speed straight stretch"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly follow college zone speed limits during morning and afternoon hours.",
+      "Anticipate sudden stops from institution buses loading or unloading students.",
+      "Apply brakes well before entering the curvature, not while on it."
+    ]
+  },
+  {
+    "id": "VPM0084",
+    "road_name": "Viluppuram Inner Bypass Road - Salamedu Canal Edge Corridor",
+    "city": "Salamedu Urban Edge",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9012,
+    "longitude": 79.4647,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Sweeping Curve running adjacent to an Unfenced Water Canal",
+      "Slippery Asphalt caused by Algae and Water Spillover during Monsoons"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep a safe distance from the unbarricaded canal side edge layout.",
+      "Reduce speed significantly if the surface is wet from seasonal rainfall overflows.",
+      "Maintain strict lane discipline and do not drift across central lines."
+    ]
+  },
+  {
+    "id": "VPM0085",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Vikravandi Urban Interchange",
+    "city": "Vikravandi Town Core",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0256,
+    "longitude": 79.5445,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Unregulated Overtaking across Local Commercial Access Points",
+      "High Density of Local Two-Wheelers Cutting Across Express Lanes"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Stay in the center lane to avoid sudden local traffic pulling out from the left.",
+      "Check your side mirrors continuously when passing city layout breaks.",
+      "Strictly avoid acceleration spurts near the pedestrian crossing segments."
+    ]
+  },
+  {
+    "id": "VPM0086",
+    "road_name": "Tindivanam - Tiruvannamalai Road (NH-77) - Gingee Fort Rear Pass Curve",
+    "city": "Gingee Rural Edge",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2568,
+    "longitude": 79.4089,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Angular Curve wrapped inside High Stone Compound Barriers",
+      "Slick Surface Conditions caused by Mountain Stream Runoffs and Mud"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn firmly before entering the apex of the unviewable bend.",
+      "Maintain your lane structure and do not drift across the center markings.",
+      "Watch closely for tourist vehicles slowing down abruptly near historical spots."
+    ]
+  },
+  {
+    "id": "VPM0087",
+    "road_name": "Viluppuram - Puducherry Highway (NH-45A) - Koliyanur Market Core Crossroad",
+    "city": "Koliyanur Town Center",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9145,
+    "longitude": 79.5112,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Unregulated Crossroad Flow Without Active Traffic Control Signal Arrays",
+      "Encroaching Weekly Market Vendors Restricting Overall Carriage Width"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Approach the town center crossway under total defensive brake control readiness.",
+      "Expect sudden pedestrian crossings and non-motorized handcarts.",
+      "Do not attempt any overtaking maneuvers within the village commercial core."
+    ]
+  },
+  {
+    "id": "VPM0088",
+    "road_name": "Vikravandi - Kumbakonam Highway (NH-36) - Panayapuram Rural Link Fork",
+    "city": "Panayapuram Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0089,
+    "longitude": 79.5212,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud guidance markers",
+      "High Volume of Speeding Inter-District Public Transport Buses"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Determine your route trajectory direction well before reaching the split point.",
+      "Signal your path intent early to protect your space from trailing trucks.",
+      "Yield priority to fast-moving multi-district vehicles on the main line."
+    ]
+  },
+  {
+    "id": "VPM0089",
+    "road_name": "Tindivanam - Puducherry Highway (NH-66) - Mailam Hill Link Curve",
+    "city": "Mailam Village Stretch",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1345,
+    "longitude": 79.6189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Right Turn with Minimal Bank Angle Superelevation",
+      "Sight Line Obstruction from Dense Sub-Tropical Roadside Flora"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Lower your vehicle's speed before entering the curve apex to counter sliding risk.",
+      "Sound your horn to alert oncoming traffic that may be cutting the corner.",
+      "Watch for loose wet leaves or mud deposits during monsoon spells."
+    ]
+  },
+  {
+    "id": "VPM0090",
+    "road_name": "East Coast Road (ECR) - Koonimedu Swamp Drainage Edge Strip",
+    "city": "Koonimedu",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1289,
+    "longitude": 79.9114,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Tarmac running closely along Unfenced Ditch Boundaries",
+      "Severe Drop-off Heights directly falling into Estuary Backwaters"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep tires firmly centered on the asphalt lane to prevent ditch sliding.",
+      "Pull over onto stable ground and stop if a wide commercial vehicle approaches.",
+      "Exercise double caution when driving through this stretch during coastal storms."
+    ]
+  },
+  {
+    "id": "VPM0091",
+    "road_name": "Tindivanam - Marakkanam Road (SH-134) - Bramhadesam Bazaar Choke Point",
+    "city": "Bramhadesam Urban Core",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1645,
+    "longitude": 79.7889,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Commercial Shop Fronts",
+      "Heavy Mix of Unregulated Pedestrian Crossings and Haphazard Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes.",
+      "Avoid using high-decibel horns to prevent panic among local pedestrians."
+    ]
+  },
+  {
+    "id": "VPM0092",
+    "road_name": "Gingee - Desur Road (SH-113) - Avalurpet School Zone Corner",
+    "city": "Avalurpet Village Zone",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2945,
+    "longitude": 79.3689,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature running directly past local educational gate lines",
+      "Lack of proper overhead warning flashers or pedestrian safety barriers"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Minimize vehicle speed significantly during morning and afternoon hours.",
+      "Scan both sides of the roadway edge for children walking on foot.",
+      "Refrain from quick acceleration maneuvers within the school perimeter."
+    ]
+  },
+  {
+    "id": "VPM0093",
+    "road_name": "Viluppuram - Tiruvannamalai Road (NH-332) - Mambalapattu Rail Bridge Descent",
+    "city": "Mambalapattu Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9845,
+    "longitude": 79.3912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Steep Approach Gradient ending in sudden Sharp Geometric Turns",
+      "Narrow Guard Rails with Missing Structural Reflector Blocks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear to use engine braking when descending the gradient.",
+      "Never attempt overtaking maneuvers anywhere on the narrow descending span.",
+      "Stay centered to avoid scraping sides against the close concrete barriers."
+    ]
+  },
+  {
+    "id": "VPM0094",
+    "road_name": "Tindivanam Bypass Link (NH-45) - Kidangal Rural Link Crossroad",
+    "city": "Tindivanam Rural Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2389,
+    "longitude": 79.6412,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Three-Way Fork with Inadequate Visual Separation Signals",
+      "Frequent Nighttime Parking of Commercial Trucks obstructing sight lines"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Scan the side link lanes actively for merging local agricultural transit.",
+      "Use your directional indicators early to alert surrounding commuters.",
+      "Exercise extra defensive driving at night by relying on low-beam focus."
+    ]
+  },
+  {
+    "id": "VPM0095",
+    "road_name": "Marakkanam Coastal Road (ECR) - Koonimedu Bridge Bottleneck",
+    "city": "Koonimedu Urban Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1389,
+    "longitude": 79.8945,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Lane Reduction Bottleneck at Old River Structural Ingress",
+      "High Structural Rubbing Risk from Multi-Axle Freight Trucks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Fold in your side mirrors if passing another wide commercial vehicle."
+    ]
+  },
+  {
+    "id": "VPM0096",
+    "road_name": "Viluppuram Inner Bypass Road - Salamedu Irrigation Canal Bend",
+    "city": "Salamedu Village Stretch",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9045,
+    "longitude": 79.4714,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Left Bend lacking Solid Concrete Safety Barriers",
+      "Pavement Surface Degradation from High Salinity and Standing Monsoon Water"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid drifting close to the left boundary where the shoulder drops off.",
+      "Maintain a uniform, stable throttle input through the curve apex.",
+      "Reduce speed ahead of time and scan for any slow agricultural vehicles."
+    ]
+  },
+  {
+    "id": "VPM0097",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Asur Industrial Estate Merge",
+    "city": "Vikravandi Borders",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0511,
+    "longitude": 79.5114,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Turning and Crossing Movements by Heavy Industrial Trailers",
+      "Low Nighttime Visibility Intersecting Rural Commuter Pathways"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Keep a significant front safety buffer from large multi-axle freight trailers.",
+      "Scan the highway shoulders carefully for slow vehicles entering from factory zones.",
+      "Flash your high beams at night to communicate your position to merging vehicles."
+    ]
+  },
+  {
+    "id": "VPM0098",
+    "road_name": "Tindivanam - Tiruvannamalai Road (NH-77) - Gingee College Crossing",
+    "city": "Gingee Suburbs",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2745,
+    "longitude": 79.4412,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Heavy Inflow of Student Pedestrians and Institutional Transit Buses",
+      "Erratic Lane Splitting by Delivery Two-Wheelers during Peak Hours"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop vehicle speeds to the minimum during college rush hours.",
+      "Check blind spots continuously for lane-splitting local motorcyclists.",
+      "Avoid attempting any quick overtaking moves past parked student buses."
+    ]
+  },
+  {
+    "id": "VPM0099",
+    "road_name": "Viluppuram - Puducherry Highway (NH-45A) - Valavanur River Bridge Junction",
+    "city": "Valavanur Town Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9345,
+    "longitude": 79.6189,
+    "danger_level": "High",
+    "danger_type": [
+      "Abrupt Traffic Backups reaching High-Speed Highway Sections",
+      "Sudden Road Narrowing Bottleneck at Old River Structural Ingress"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Activate your hazard lights if you are at the tail end of a sudden queue.",
+      "Never attempt overtaking maneuvers on the narrow bridge span framework."
+    ]
+  },
+  {
+    "id": "VPM0100",
+    "road_name": "Vikravandi - Kumbakonam Highway (NH-36) - Panayapuram Rural Curve",
+    "city": "Panayapuram Village",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.0145,
+    "longitude": 79.5447,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Right Curve wrapped inside Dense Roadside Plantations",
+      "Severe Drop-off Heights directly falling into Irrigation Field Links"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Brake completely on the straight block prior to entering the curvature.",
+      "Maintain strict lane discipline and do not drift across central lines.",
+      "Never push your tires onto loose gravel shoulders to avoid slipping into ditches."
+    ]
+  },
+  {
+    "id": "VPM0101",
+    "road_name": "Tindivanam - Puducherry Highway (NH-66) - Mailam Border Straightaway",
+    "city": "Mailam Southern Edge",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1489,
+    "longitude": 79.6414,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Flat Straight stretch encouraging extreme speeding",
+      "Sudden entry of low-speed farm tractors carrying agricultural loads"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly respect the highway speed regulations despite the empty road view.",
+      "Maintain a wide safety buffer behind long, slow agricultural trailers.",
+      "Scan both shoulders of the highway continuously for moving livestock."
+    ]
+  },
+  {
+    "id": "VPM0102",
+    "road_name": "East Coast Road (ECR) - Koonimedu Market Entry Bottleneck",
+    "city": "Koonimedu Town Core",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1389,
+    "longitude": 79.9247,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Commercial Shop Fronts",
+      "Chaotic Commercial Parking Intruding onto Main Carriage Lanes"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Avoid all overtaking actions within the village commercial core layout.",
+      "Use your horn sparingly to prevent confusing local pedestrians."
+    ]
+  },
+  {
+    "id": "VPM0103",
+    "road_name": "Tindivanam - Marakkanam Road (SH-134) - Endiyur Service Road Intersection",
+    "city": "Endiyur Urban Area",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2212,
+    "longitude": 79.7244,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-Way Merging Streams without Clear Right-of-Way Rules",
+      "Erratic Outflow of Local Mopeds and Two-Wheelers onto the Highway"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center cross-point under defensive brake control readiness.",
+      "Check your left and right side mirrors carefully for merging local traffic.",
+      "Signal your lane directions early to guide fast-moving tailgaters."
+    ]
+  },
+  {
+    "id": "VPM0104",
+    "road_name": "Gingee - Desur Road (SH-113) - Kamakkur Forest Range Outer Curve",
+    "city": "Kamakkur Rural Section",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.3112,
+    "longitude": 79.4312,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Curvatures Lacking Center Medians or Visual Markers",
+      "Low Visibility Caused by Rocky Terrain Projections and Blind Cliffs"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear early to maintain steady power on the ascent.",
+      "Sound your horn continuously to alert opposing hidden drivers on bends.",
+      "Watch out for stray wildlife or cattle roaming onto the roadway."
+    ]
+  },
+  {
+    "id": "VPM0105",
+    "road_name": "Viluppuram - Tiruvannamalai Road (NH-332) - Mambalapattu Market Junction Area",
+    "city": "Mambalapattu",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9889,
+    "longitude": 79.4145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Encroaching Weekly Market Vendors Restricting Overall Carriage Width",
+      "Frequent Abrupt Stops by Shared Autos and Public Mini-Buses"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect sudden passenger transport movements across the central highway line.",
+      "Keep a safe distance from shared autos pulling over without signaling.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes."
+    ]
+  },
+  {
+    "id": "VPM0106",
+    "road_name": "Tindivanam Bypass Link (NH-45) - Kidangal Police Outpost Blind Curve",
+    "city": "Tindivanam Village Zone",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.2412,
+    "longitude": 79.6589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Stone Compound Walls",
+      "Lack of Safety Guardrails or Retroreflective Stud Line Markings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Maintain a uniform steady speed and stay inside your lane markings.",
+      "Dim your high beams promptly at night to easily spot the curve outline."
+    ]
+  },
+  {
+    "id": "VPM0107",
+    "road_name": "Marakkanam Coastal Road (ECR) - Koonimedu Junction Ingress Fork",
+    "city": "Koonimedu Rural Outskirts",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 12.1314,
+    "longitude": 79.9112,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud markers",
+      "High Volume of Fast-Moving Commercial Sand and Leather Freight Trucks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Signal your path choices early to alert closely following vehicles.",
+      "Avoid close-tailgating or overtaking near the warehouse entry lanes."
+    ]
+  },
+  {
+    "id": "VPM0108",
+    "road_name": "Viluppuram Inner Bypass Road - Salamedu Town Exit Bridge",
+    "city": "Salamedu Southern Border",
+    "district": "Viluppuram",
+    "state": "Tamil Nadu",
+    "latitude": 11.9112,
+    "longitude": 79.4889,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Heritage Bridge Infrastructure with Limited Structural Width",
+      "Abrupt Convergence of Town Pedestrian Flow at the Bridge Exit Base"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield right of way if a heavy truck has already claimed entry onto the span.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Keep a close watch for sudden pedestrian crossings at the town-side exit."
     ]
   }
+]

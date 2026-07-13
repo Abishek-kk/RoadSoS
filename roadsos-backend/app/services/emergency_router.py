@@ -49,6 +49,7 @@ def build_emergency_block(
     lines.append(f"Emergency numbers: {', '.join(primary.get('emergency_numbers') or ['112', '108'])}")
 
     for label, category in (
+        ("Nearest ambulance", "ambulance"),
         ("Nearest hospital", "hospital"),
         ("Nearest police station", "police_station"),
         ("Nearest towing service", "towing_service"),
@@ -105,6 +106,7 @@ def emergency_documents(
         )
 
     for label, category in (
+        ("Nearest ambulance", "ambulance"),
         ("Nearest hospital", "hospital"),
         ("Nearest police station", "police_station"),
         ("Nearest towing service", "towing_service"),

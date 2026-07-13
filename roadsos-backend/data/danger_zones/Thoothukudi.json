@@ -1,4 +1,5 @@
-{
+[
+  {
     "district": "Thoothukudi",
     "road_name": "Tuticorin-Tirunelveli Road",
     "highway": "NH-138",
@@ -11,4 +12,2293 @@
       "Industrial trucks",
       "High speed"
     ]
+  },
+  {
+    "id": "TK0001",
+    "road_name": "Tirunelveli - Thoothukudi Highway (NH-138) - Vagaikulam Junction",
+    "city": "Vagaikulam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7245,
+    "longitude": 78.0212,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Heavy Port Container Traffic"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Pick your loop bypass trajectory early to avoid sudden lane swerving near airport access.",
+      "Strictly avoid tailgating multi-axle freight containers braking near industrial loops.",
+      "Check blind spots thoroughly before executing bypass lane shifts."
+    ]
+  },
+  {
+    "id": "TK0002",
+    "road_name": "Thoothukudi Port Access Road - Madurai NH Crossing Loop",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7889,
+    "longitude": 78.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Intersecting Traffic",
+      "Heavy Industrial Freight Merges"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Watch out for multi-axle maritime logistics carriers turning aggressively near warehouse zones.",
+      "Avoid close filtering or lane splitting around tight industrial junction corners.",
+      "Do not accelerate aggressively to beat amber flashing traffic loops."
+    ]
+  },
+  {
+    "id": "TK0003",
+    "road_name": "East Coast Road (NH-32) - Salt Pan Canal Sweeping Bend",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.8212,
+    "longitude": 78.1456,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Centrifugal Blind Curve",
+      "Corrosive Moisture Blindness"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Drop approach velocity significantly before entering the sweeping coastal bend.",
+      "Strictly avoid crossing middle lines to attempt Overtaking near salt marsh drops.",
+      "Rely on low beam patterns during dense morning coastal fog seasons."
+    ]
+  },
+  {
+    "id": "TK0004",
+    "road_name": "Madurai - Thoothukudi Highway (NH-38) - Kurukkuchalai Junction",
+    "city": "Kurukkuchalai Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.9245,
+    "longitude": 78.0545,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Rapid Intercity Bus Transit"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markings to pass long container cargo streams.",
+      "Stay centered inside your lane markers on straight highway stretches.",
+      "Keep standard spacing parameters clear from fast-approaching public transit omnibuses."
+    ]
+  },
+  {
+    "id": "TK0005",
+    "road_name": "Kovilpatti - Ettayapuram Road (SH-44) - Ettayapuram Junction",
+    "city": "Ettayapuram",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1512,
+    "longitude": 77.9912,
+    "danger_level": "High",
+    "danger_type": [
+      "Two-Wheeler Cluster Swerving",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Watch for local agricultural and town two-wheelers joining lanes at high speed.",
+      "Expect slow farming wagons to make sudden unindicated turning maneuvers.",
+      "Signal transitions early before executing any detour lane deviations."
+    ]
+  },
+  {
+    "id": "TK0006",
+    "road_name": "Thoothukudi Town Bazaar Road - Old Bus Stand Core Loop",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7912,
+    "longitude": 78.1345,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through tight wholesale harbor market loops.",
+      "Watch closely for opening side doors on parked utility delivery vans.",
+      "Exercise high patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TK0007",
+    "road_name": "Tiruchendur - Thoothukudi Road (SH-176) - Authoor River Bridge Approach",
+    "city": "Authoor Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6212,
+    "longitude": 78.0712,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Approach",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Rely entirely on intense, clean low beam layouts during night pilgrim transit.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Yield priority to oncoming heavy trucks negotiating the narrow bridge fabric."
+    ]
+  },
+  {
+    "id": "TK0008",
+    "road_name": "Tiruchendur Bazaar Main Street - Subramanya Swamy Temple Square Corner",
+    "city": "Tiruchendur Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.4889,
+    "longitude": 78.1212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pilgrim Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow historical shrine infrastructure tracks.",
+      "Watch out for opening car or tourist coach doors on the left margin.",
+      "Exercise high patience while pilgrim pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TK0009",
+    "road_name": "Srivaikuntam - Tiruchendur Road - Thamirabarani Basin Segment",
+    "city": "Srivaikuntam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6345,
+    "longitude": 77.9412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "River Bank Skidding Zone",
+      "Narrow Pavement Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Exercise extreme caution during active seasonal monsoon river overflow periods.",
+      "Avoid dropping tyres off asphalt onto weak unpaved soil edges next to river paths.",
+      "Pull over or slow to a near crawl if a wide public transport bus approaches."
+    ]
+  },
+  {
+    "id": "TK0010",
+    "road_name": "Vilathikulam - Ettayapuram Link Highway Border Route",
+    "city": "Vilathikulam Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1389,
+    "longitude": 78.1612,
+    "danger_level": "High",
+    "danger_type": [
+      "Total Absence of High-Mast Lighting",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Avoid late evening or deep night travels along this isolated arid stretch.",
+      "Strictly avoid crossing center lane markers to pass slow vehicle lines.",
+      "Use clean, intense low-beam focus patterns to map layout paths."
+    ]
+  },
+  {
+    "id": "TK0011",
+    "road_name": "Sathankulam - Nazerath Road - Intermediate Rural Route link",
+    "city": "Sathankulam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.4412,
+    "longitude": 77.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for sudden deep water-logged craters.",
+      "Avoid dropping tyres off asphalt onto soft unpaved sand edges.",
+      "Keep headlights on low beam to catch structural pavement variations."
+    ]
+  },
+  {
+    "id": "TK0012",
+    "road_name": "Kovilpatti Town Bypass - National Highway Access Loop (NH-44 Route)",
+    "city": "Kovilpatti Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1712,
+    "longitude": 77.8545,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Frequent Match Factory Freight Merges"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Check side blind spots thoroughly before executing bypass lane shifts.",
+      "Anticipate industrial goods trucks slowing to turn or merge at lower speeds.",
+      "Maintain strict long-range vehicle safety braking spaces."
+    ]
+  },
+  {
+    "id": "TK0013",
+    "road_name": "Udangudi - Kulasekarapattinam Road - Dasara Festival Link Axis",
+    "city": "Kulasekarapattinam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.4112,
+    "longitude": 78.0545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect local mini-vans or shared auto-rickshaws to stop suddenly near transit links.",
+      "Slow down near rural clearings where coastal livestock or goats graze.",
+      "Honk gently to clear the pathway of grazing herds comfortably."
+    ]
+  },
+  {
+    "id": "TK0014",
+    "road_name": "Kayalpattinam - Arumuganeri Coastal Link Track Route",
+    "city": "Arumuganeri Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.5667,
+    "longitude": 78.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Chemical Industrial Freight",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt chemical plant tracks.",
+      "Watch for deep grooves catching your wheel alignment parameters.",
+      "Maintain a wide spatial safety margin behind multi-axle freight lines."
+    ]
+  },
+  {
+    "id": "TK0015",
+    "road_name": "Ottapidaram - Panchalankurichi Historical Access Road",
+    "city": "Ottapidaram",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.9112,
+    "longitude": 78.0123,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Unmarked Concrete Speed Breakers"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad rural openings near villages.",
+      "Scan the dark asphalt surface for crude rural village speed humps.",
+      "Expect unexpected crossings from local moped riders cutting across tracking paths."
+    ]
+  },
+  {
+    "id": "TK0016",
+    "road_name": "Madurai - Thoothukudi Highway (NH-38) - Eppodumvenran Reservoir Crossing",
+    "city": "Eppodumvenran",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.9745,
+    "longitude": 78.0312,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Crosswind Skidding Corridor",
+      "High Velocity Merging Trajectories"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Hold the steering firmly when moving past open plain reservoir margins.",
+      "Expect sudden tracking drift from non-local maritime transit containers.",
+      "Check side mirrors carefully before moving past layout tracking points."
+    ]
+  },
+  {
+    "id": "TK0017",
+    "road_name": "Tirunelveli - Thoothukudi Highway (NH-138) - Seydunganallur Market Junction",
+    "city": "Seydunganallur Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6812,
+    "longitude": 77.8545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad suburban bazaar openings.",
+      "Avoid dropping tyres off the main asphalt track into unpaved margins.",
+      "Expect local transit units to brake hard near community hub spots."
+    ]
+  },
+  {
+    "id": "TK0018",
+    "road_name": "Thoothukudi Port Bypass - Harbour Access Road Loop Route",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7456,
+    "longitude": 78.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Multi-Lane Bottlenecks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up when long maritime freight streams merge.",
+      "Avoid close filtering or lane splitting among stopped heavy trucks.",
+      "Keep foot ready on brakes near harbor container cargo corridors."
+    ]
+  },
+  {
+    "id": "TK0019",
+    "road_name": "Tiruchendur - Thoothukudi Road (SH-176) - Veerapandiyanpatnam Blind Turn",
+    "city": "Tiruchendur Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.5112,
+    "longitude": 78.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Radial Blind Turn",
+      "Heavy Pilgrim Caravan Traffic"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Reduce approach speed significantly before steering into successive bends.",
+      "Honk continuously when navigating around dense coastal roadside structures.",
+      "Watch for tourist vans slowing to pull over abruptly without indication."
+    ]
+  },
+  {
+    "id": "TK0020",
+    "road_name": "Ettayapuram - Vilathikulam Link Road - Nagalapuram Cross Junction",
+    "city": "Nagalapuram Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1112,
+    "longitude": 78.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Trajectories",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your lane alignment early to avoid rapid lateral swerving across tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Watch for local agricultural transit units executing sudden turning maneuvers."
+    ]
+  },
+  {
+    "id": "TK0021",
+    "road_name": "Kovilpatti Main Road - Pasuvandanai Link - Match Factory Sector",
+    "city": "Pasuvandanai",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.9412,
+    "longitude": 77.9412,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Absence of Center Barrier"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow freight trailers.",
+      "Stay centered inside your lane boundaries on straight highway stretches.",
+      "Slow down if oncoming vehicles begin drifting over the middle line."
+    ]
+  },
+  {
+    "id": "TK0022",
+    "road_name": "Sathankulam - Nazerath Link Road - Puthan Tharuvaikulam Basin link",
+    "city": "Sathankulam Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.3912,
+    "longitude": 77.9612,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect local agricultural machinery merging slowly from farm paths.",
+      "Slow down near rural clearings where coastal livestock or goats graze.",
+      "Honk gently to clear the pathway of grazing herds comfortably."
+    ]
+  },
+  {
+    "id": "TK0023",
+    "road_name": "Kayalpattinam Coastal Route - DCW Factory Access Corridor Link",
+    "city": "Kayalpattinam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.5545,
+    "longitude": 78.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Industrial Heavy Freight",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt factory access tracks.",
+      "Watch for deep grooves catching your wheel alignment parameters.",
+      "Maintain a wide spatial safety margin behind multi-axle freight lines."
+    ]
+  },
+  {
+    "id": "TK0024",
+    "road_name": "Thoothukudi Town Bazaar Road - Palayamkottai Link Cross Market",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7912,
+    "longitude": 78.1189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a crawl speed through tight harbor town market loops.",
+      "Watch for opening side doors on parked utility delivery vans.",
+      "Exercise high patience while localized shopper bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TK0025",
+    "road_name": "Tiruchendur Main Road - Authoor River Bridge Inflow Loop",
+    "city": "Authoor Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6112,
+    "longitude": 78.0512,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Approach",
+      "Complex Multi-Way Crossings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Pick your loop lane trajectory early before negotiating bridge entry structures.",
+      "Do not attempt to pass other cars on the narrow structural bridge paths.",
+      "Stay tightly down the center of the road fabric when track is clear."
+    ]
+  },
+  {
+    "id": "TK0026",
+    "road_name": "Kvilpatti Town Bazaar Main Street - Match Factory Link Square Track",
+    "city": "Kovilpatti Town Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1745,
+    "longitude": 77.8689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow market infrastructure tracks.",
+      "Watch out for opening car or delivery van doors on left margins.",
+      "Be patient with unexpected pedestrian walking patterns near bazaar points."
+    ]
+  },
+  {
+    "id": "TK0027",
+    "road_name": "Tirunelveli - Thoothukudi Highway (NH-138) - Vagaikulam Airport Split",
+    "city": "Vagaikulam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7212,
+    "longitude": 78.0189,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Centrifugal Blind Curves",
+      "Frequent Heavy Port Container Breakdowns"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Downshift gears to control vehicle approach speed over structural loop tracks.",
+      "Yield immediate right-of-way to accelerating multi-axle freight containers.",
+      "Refrain from overtaking around blind highway merging lines."
+    ]
+  },
+  {
+    "id": "TK0028",
+    "road_name": "Thoothukudi Port Access Road - Tuticorin Thermal Power Plant Loop",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7645,
+    "longitude": 78.1612,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Volume Industrial Swerving",
+      "Heavy Fly-Ash Coal Tipper Swerving"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect sudden braking or wide turns from coal transport tippers near plant lines.",
+      "Check blind spots thoroughly before executing inner lane shifts.",
+      "Keep a steady eye on the brake indicators of tracking logistics vehicles ahead."
+    ]
+  },
+  {
+    "id": "TK0029",
+    "road_name": "Madurai - Thoothukudi Highway (NH-38) - Kurukkuchalai Village Link Cross",
+    "city": "Kurukkuchalai Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.9212,
+    "longitude": 78.0589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad rural openings near dry crop fields.",
+      "Avoid dropping tyres off the main asphalt track into loose sandy margins.",
+      "Slow down near ongoing village market access clearings."
+    ]
+  },
+  {
+    "id": "TK0030",
+    "road_name": "East Coast Road (NH-32) - Salt Pan Canal Lower Internal Link",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.8189,
+    "longitude": 78.1412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near salt pan factory margins.",
+      "Avoid late evening or deep night travels along this strip layout due to poor road visibility.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TK0031",
+    "road_name": "Tiruchendur - Thoothukudi Road (SH-176) - Authoor Bridge Crossing Approach",
+    "city": "Authoor Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6245,
+    "longitude": 78.0789,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Multi-Lane Bottlenecks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto highway lanes when single-lane restrictions apply.",
+      "Avoid close filtering or lane splitting among stopped heavy trucks.",
+      "Keep foot ready on brakes near heavy commercial vehicle bridge perimeters."
+    ]
+  },
+  {
+    "id": "TK0032",
+    "road_name": "Kovilpatti Town Bypass - Ettayapuram Road Link Zone",
+    "city": "Kovilpatti Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1689,
+    "longitude": 77.8589,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Sudden Commercial Match Factory Slowdowns"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Check side blind spots thoroughly before executing bypass lane shifts.",
+      "Anticipate slow-moving commercial trailers or machinery joining the highway tracking lines.",
+      "Maintain strict long-range vehicle safety braking spaces."
+    ]
+  },
+  {
+    "id": "TK0033",
+    "road_name": "Srivaikuntam - Tiruchendur Road - Alwarthirunagari Cross Link Track",
+    "city": "Srivaikuntam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6112,
+    "longitude": 77.9456,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Continuous Paddy Tractor Transit"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard vehicle suspension over deep asphalt agricultural tracks.",
+      "Watch for deep structural grooves catching your alignment wheel parameters.",
+      "Sound your horn clearly before crossing crossroad clearings near paddy fields."
+    ]
+  },
+  {
+    "id": "TK0034",
+    "road_name": "Tiruchendur Bazaar Main Street - Murugan Temple Access Merge Route",
+    "city": "Tiruchendur Town Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.4845,
+    "longitude": 78.1189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Pilgrim Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Drive with extreme focus near regional festival shrine perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing bypass lane shifts."
+    ]
+  },
+  {
+    "id": "TK0035",
+    "road_name": "Sathankulam - Nazerath Link Road - Border Highway Link Corridor",
+    "city": "Sathankulam Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.4112,
+    "longitude": 77.9145,
+    "danger_level": "High",
+    "danger_type": [
+      "Total Absence of High-Mast Lighting",
+      "Aggressive Private Bus Overtaking"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Avoid late evening or deep night travels along this isolated arid stretch.",
+      "Yield right of way immediately to fast-approaching public transit buses.",
+      "Rely entirely on intense, clean low beam layouts during night transit."
+    ]
+  },
+  {
+    "id": "TK0036",
+    "road_name": "Srivaikuntam - Tiruchendur Road - Thamirabarani River Bridge Loop Junction",
+    "city": "Srivaikuntam Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6312,
+    "longitude": 77.9389,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Narrow Bridge Ramp Approach"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lane shifts near the bridge.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Give immediate right of way to moving heavy commercial convoys."
+    ]
+  },
+  {
+    "id": "TK0037",
+    "road_name": "Vilathikulam - Ettayapuram Link Highway - Cotton Field Basin Ferry Link Cross",
+    "city": "Vilathikulam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1412,
+    "longitude": 78.1589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Narrow Pavement Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Watch for local riders joining the highway from agricultural tracks at high speed.",
+      "Avoid dropping tyres off asphalt onto weak unpaved soil edges.",
+      "Check your blind spots thoroughly before changing lane positions."
+    ]
+  },
+  {
+    "id": "TK0038",
+    "road_name": "Kovilpatti - Ettayapuram Road (SH-44) - Main Industrial Track Route",
+    "city": "Ettayapuram Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1556,
+    "longitude": 77.9889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Crumbled Road Edges",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Avoid steering onto the broken, dropped edges of the asphalt pavement.",
+      "Slow down to let wide farming trailers pass by comfortably.",
+      "Be prepared for loose dirt tracking onto the main road from local fields."
+    ]
+  },
+  {
+    "id": "TK0039",
+    "road_name": "Thoothukudi Town Bazaar Road - Old Bus Stand Core Commercial Loop Track",
+    "city": "Thoothukudi Town Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7889,
+    "longitude": 78.1312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow bazaar infrastructure tracks.",
+      "Watch out for opening car or delivery van doors on left margins.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TK0040",
+    "road_name": "East Coast Road (NH-32) - Kallamozhi Salt Basin Corridor",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.8312,
+    "longitude": 78.1489,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Commercial Vehicle Slowdowns",
+      "Dense Coastal Moisture Mist"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the roadside carefully for slow-moving trucks trying to park near salt pan entries.",
+      "Turn on fog lights early if visibility drops due to heavy coastal moisture and cloud cover.",
+      "Strictly avoid harsh acceleration or braking on slick, salt-sprayed margins."
+    ]
+  },
+  {
+    "id": "TK0041",
+    "road_name": "Tiruchendur - Thoothukudi Road (SH-176) - Arumuganeri Access Junction",
+    "city": "Arumuganeri Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.5689,
+    "longitude": 78.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding Corridor",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden lane cuts by local transit shared autos near industrial plant entries.",
+      "Reduce speed during heavy downpours to mitigate skidding over smooth asphalt.",
+      "Keep a safe braking buffer from two-wheelers tracking closely ahead."
+    ]
+  },
+  {
+    "id": "TK0042",
+    "road_name": "Tirunelveli - Thoothukudi Highway (NH-138) - Seydunganallur Link Cross",
+    "city": "Seydunganallur",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6845,
+    "longitude": 77.8589,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Unregulated Median Gaps"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Do not maintain peak velocity past local village crossroad gaps.",
+      "Watch for commercial cargo trucks slowing to turn without indication.",
+      "Keep to the center-left lane unless actively overtaking slower vehicles."
+    ]
+  },
+  {
+    "id": "TK0043",
+    "road_name": "Srivaikuntam - Tiruchendur Road - Thamirabarani Bridge Inflow Curve",
+    "city": "Srivaikuntam Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6312,
+    "longitude": 77.9412,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Centrifugal Skidding",
+      "Dense Roadside Vegetation Obstruction"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "De-accelerate significantly before carving the initial sweeping bend near the bridge.",
+      "Sound your horn repeatedly around blind curves wrapped in riverbank foliage.",
+      "Strictly avoid lane splitting around transport trucks on corners."
+    ]
+  },
+  {
+    "id": "TK0044",
+    "road_name": "Kovilpatti Town Bypass - Pasuvandanai Road Toll Approach",
+    "city": "Kovilpatti Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1689,
+    "longitude": 77.8545,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Freight Merges",
+      "Sharp Reverse Curve Sequence"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Yield right of way to multi-axle industrial cargo container carriers.",
+      "Reduce approach speed significantly before steering into successive bends.",
+      "Avoid overtaking commercial transport trucks near tight structural turns."
+    ]
+  },
+  {
+    "id": "TK0045",
+    "road_name": "Vilathikulam - Ettayapuram Link Road - Nagalapuram Terminal Loop",
+    "city": "Vilathikulam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1112,
+    "longitude": 78.1145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Junction Crossings",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Honk significantly before crossroad blind spots near agricultural zones.",
+      "Expect slow cotton and grain trailers to make sudden turning maneuvers.",
+      "Signal transitions early before turning off toward village links."
+    ]
+  },
+  {
+    "id": "TK0046",
+    "road_name": "Sathankulam - Nazerath Link Road - Puthan Tharuvaikulam Cross Route",
+    "city": "Sathankulam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.3912,
+    "longitude": 77.9612,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Concrete Speed Breakers",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for crude rural village speed humps.",
+      "Slow down fully when moving past local household clearings.",
+      "Use your horn to clear the pathway of grazing cattle safely."
+    ]
+  },
+  {
+    "id": "TK0047",
+    "road_name": "Kayalpattinam Coastal Route - DCW Plant Extended Stretch",
+    "city": "Kayalpattinam Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.5545,
+    "longitude": 78.1212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Width",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Avoid dropping tyres off the asphalt track onto soft soil edges.",
+      "Pull over or slow to a crawl if a heavy commercial vehicle approaches.",
+      "Keep speed low during evening commute and twilight hours."
+    ]
+  },
+  {
+    "id": "TK0048",
+    "road_name": "Thoothukudi Port Access Road - Thermal Plant Intersecting Corridor",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7645,
+    "longitude": 78.1612,
+    "danger_level": "High",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Lighting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid night travel due to absolute darkness and lack of road reflectors.",
+      "Scan the tarmac closely for extensive, heavy heavy-vehicle craters.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TK0049",
+    "road_name": "Srivaikuntam Main Highway - Thamirabarani River Bank Segment",
+    "city": "Srivaikuntam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6345,
+    "longitude": 77.9412,
+    "danger_level": "High",
+    "danger_type": [
+      "River Bank Skidding Zone",
+      "Continuous Heavy Tipper Transit"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Do not challenge aggressive construction material or sand tippers.",
+      "Keep away from the weak, unpaved edge next to the river channel.",
+      "Maintain strict lane discipline and avoid close-quarter overtaking."
+    ]
+  },
+  {
+    "id": "TK0050",
+    "road_name": "Vilathikulam - Ettayapuram Link Highway - Winding Arid Segment Bends",
+    "city": "Vilathikulam Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1389,
+    "longitude": 78.1612,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Zig-Zag Hairpin Bends",
+      "Dense Scrub Visibility Obstruction"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound your horn continuously around dense scrub-side blind curves.",
+      "Downshift to utilize engine braking on winding tracks.",
+      "Stay tightly within your designated border lane lines."
+    ]
+  },
+  {
+    "id": "TK0051",
+    "road_name": "Kovilpatti Town Bypass - National Highway Crossing High Axis Link",
+    "city": "Kovilpatti Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1712,
+    "longitude": 77.8545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Crosswind Skidding",
+      "Heavy Cargo Transport Movements"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep firm control of the steering wheel during high plain wind gusts.",
+      "Yield right of way to heavily loaded commercial trucks and trailers.",
+      "Watch for loose soil runoff or sand layers swept onto the tarmac."
+    ]
+  },
+  {
+    "id": "TK0052",
+    "road_name": "Thoothukudi Town Bazaar Road - Palayamkottai Link Overpass Loop",
+    "city": "Thoothukudi Town Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7912,
+    "longitude": 78.1189,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Over-Speeding Zone",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass pass slow logistics queues.",
+      "Expect sudden tracking drift from non-local port transit drivers.",
+      "De-accelerate safely before entering sweeping elevated radial curves."
+    ]
+  },
+  {
+    "id": "TK0053",
+    "road_name": "Srivaikuntam - Tiruchendur Road - Alwarthirunagari Cross Link Intersection",
+    "city": "Srivaikuntam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6112,
+    "longitude": 77.9456,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Blind Spots",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossing crossroad clearings.",
+      "Avoid dropping tyres off the main asphalt track into loose sand.",
+      "Expect agricultural machinery or regional public transport to cross unexpectedly."
+    ]
+  },
+  {
+    "id": "TK0054",
+    "road_name": "East Coast Road (NH-32) - Salt Pan Factory Access Corridor Link",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.8212,
+    "longitude": 78.1456,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden lane cuts by local transit shared autos near salt pan facility tracks.",
+      "Reduce speed during heavy downpours to mitigate high-speed skidding on damp slopes.",
+      "Keep a safe braking buffer from two-wheelers tracking closely ahead."
+    ]
+  },
+  {
+    "id": "TK0055",
+    "road_name": "Tiruchendur - Thoothukudi Road (SH-176) - Authoor Junction",
+    "city": "Authoor Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6212,
+    "longitude": 78.0712,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Squeeze",
+      "Erratic Auto-Rickshaw Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Maintain a slow crawling velocity through narrow transit structures near the market.",
+      "Expect local auto-rickshaws to stop suddenly near commuter links.",
+      "Avoid overtaking commercial delivery vehicles from narrow left margins."
+    ]
+  },
+  {
+    "id": "TK0056",
+    "road_name": "Thoothukudi Port Access Road - Madurai NH Crossing Flyover Loop",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7889,
+    "longitude": 78.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Rapid Intercity Bus Transit"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your lane trajectory early before navigating around the radial curves.",
+      "Do not challenge aggressive public transport coaches near junction openings.",
+      "Watch for two-wheelers jumping trailing amber traffic signal lights."
+    ]
+  },
+  {
+    "id": "TK0057",
+    "road_name": "Thoothukudi Town Bazaar Road - Palayamkottai Foot Inflow Route",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7912,
+    "longitude": 78.1189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at crawling speed through tight market bazaar loops.",
+      "Watch for opening side doors on parked delivery vehicles.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear."
+    ]
+  },
+  {
+    "id": "TK0058",
+    "road_name": "Kayalpattinam Coastal Route - DCW Plant Cross",
+    "city": "Kayalpattinam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.5545,
+    "longitude": 78.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Heavy Industrial Freight Merging"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect long multi-axle trailers pulling out from industrial warehouse storage paths.",
+      "Avoid overtaking commercial delivery vehicles from the inner left margins.",
+      "Be alert for local transit mini-buses executing sudden commuter drops."
+    ]
+  },
+  {
+    "id": "TK0059",
+    "road_name": "Kovilpatti Town Bypass - Ettayapuram Road Loop Section",
+    "city": "Kovilpatti Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1689,
+    "longitude": 77.8589,
+    "danger_level": "High",
+    "danger_type": [
+      "Two-Wheeler Cluster Swerving",
+      "Unmarked Concrete Construction Steps"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Scan the dark asphalt carefully for sudden variations or potholes.",
+      "Signal intents early before executing any detour lane changes."
+    ]
+  },
+  {
+    "id": "TK0060",
+    "road_name": "Thoothukudi Port Bypass - Harbour Access Toll Bypass Inflow",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7456,
+    "longitude": 78.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Heavy Container Inflow",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow freight columns.",
+      "Keep wide spacing coordinates behind heavily loaded cargo trucks.",
+      "Roll up windows due to high airborne dust layers kicked up by logistics transport."
+    ]
+  },
+  {
+    "id": "TK0061",
+    "road_name": "Tiruchendur Bazaar Main Street - Murugan Temple Access Corridor",
+    "city": "Tiruchendur Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.4845,
+    "longitude": 78.1189,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Tourism Freight Clusters",
+      "Oil Slick Vulnerability"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise high caution near beach loops due to potential wet sand and residue drop.",
+      "Maintain a massive tracking gap behind empty speeding tourist trailers.",
+      "Avoid harsh cornering or heavy braking inputs to prevent traction loss."
+    ]
+  },
+  {
+    "id": "TK0062",
+    "road_name": "Kovilpatti - Ettayapuram Road (SH-44) - Ettayapuram Connection Link",
+    "city": "Ettayapuram",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1512,
+    "longitude": 77.9912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Volume Commuter Swerving",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect local share-autos to brake or pull over blindly on the left lanes.",
+      "Check blind spots thoroughly before moving across the main tracking lines.",
+      "Keep track of multiple accelerating two-wheelers from side village links."
+    ]
+  },
+  {
+    "id": "TK0063",
+    "road_name": "Thoothukudi Town Bazaar Road - Palayamkottai Overpass Approach",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7912,
+    "longitude": 78.1189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Complex Multi-Way Crossings",
+      "Vulnerable Pedestrian Crossings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Do not speed past open median gaps or unstructured crossroads.",
+      "Anticipate local riders traveling against traffic on the road margins.",
+      "Give immediate right of way to pedestrians navigating intersection lanes."
+    ]
+  },
+  {
+    "id": "TK0064",
+    "road_name": "Kvilpatti Town Bazaar Main Street - Match Factory Gate Segment",
+    "city": "Kovilpatti Town Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1745,
+    "longitude": 77.8689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Squeeze",
+      "High Pedestrian Density"
+    ],
+    "speed_limit": 35,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawling velocity through narrow checkpoint paths near the bazaar.",
+      "Watch for shoppers stepping out unexpectedly behind parked factory cargo vans.",
+      "Refrain from using high-decibel horns near local residential fields."
+    ]
+  },
+  {
+    "id": "TK0065",
+    "road_name": "Tiruchendur Main Road - Authoor River Bridge Inflow Axis",
+    "city": "Authoor Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6112,
+    "longitude": 78.0512,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Tourist Parking",
+      "Erratic Two-Wheeler Parking"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden holiday transport vans to drop speed or swerve near bridge structures.",
+      "Use indicator turn signals early before leaving the main track lanes.",
+      "Exercise patience while local pilgrim pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TK0066",
+    "road_name": "Tirunelveli - Thoothukudi Highway (NH-138) - Vagaikulam Road Cross Loop",
+    "city": "Vagaikulam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7242,
+    "longitude": 78.0212,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Lane Bottlenecks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Anticipate sudden highway freight traffic backing up near industrial and port logistics connections.",
+      "Avoid close filtering or lane splitting among stopped port container carriers.",
+      "Keep foot ready on brakes near heavy commercial vehicle service links."
+    ]
+  },
+  {
+    "id": "TK0067",
+    "road_name": "East Coast Road (NH-32) - Salt Pan Canal Loop Approach",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.8212,
+    "longitude": 78.1456,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Swerving",
+      "Heavy Port Freight flow"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "De-accelerate significantly before carving the initial salt pan marsh bend.",
+      "Keep firmly within your designated tracking lane boundary marks.",
+      "Avoid overtaking or rapid throttling actions inside the narrow maritime tracks."
+    ]
+  },
+  {
+    "id": "TK0068",
+    "road_name": "Madurai - Thoothukudi Highway (NH-38) - Kurukkuchalai Link Split",
+    "city": "Kurukkuchalai Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.9245,
+    "longitude": 78.0545,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lateral shifting.",
+      "Strictly avoid crossing center lane markings to pass slow container rows.",
+      "Blink your headlights when approaching the unlit cross intersection."
+    ]
+  },
+  {
+    "id": "TK0069",
+    "road_name": "Kayalpattinam Coastal Route - DCW Plant Section",
+    "city": "Kayalpattinam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.5545,
+    "longitude": 78.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Inter-State Freight Merges",
+      "High Velocity Merging Trajectories"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect heavy multi-axle trucks turning sharply from plant gates.",
+      "Use explicit side indicator flashes early before navigating loops.",
+      "Maintain a massive tracking gap behind heavy industrial vehicles."
+    ]
+  },
+  {
+    "id": "TK0070",
+    "road_name": "Thoothukudi Town Bazaar Road - Palayamkottai Link School Zone Area",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7912,
+    "longitude": 78.1189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Student Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Drive with extreme focus near regional educational complex perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing lane shifts."
+    ]
+  },
+  {
+    "id": "TK0071",
+    "road_name": "Srivaikuntam - Tiruchendur Road - Thamirabarani Basin Rural Track",
+    "city": "Srivaikuntam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6345,
+    "longitude": 77.9412,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Culvert Squeezes",
+      "Eroded Asphalt Edges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down before negotiating old masonry brick culverts near the fields.",
+      "Keep tires firmly off the crumbled margins to prevent structural drops.",
+      "Signal intents early to trailing traffic blocks before stopping."
+    ]
+  },
+  {
+    "id": "TK0072",
+    "road_name": "Sathankulam - Nazerath Link Road - Border High Curve Extension",
+    "city": "Sathankulam Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.4112,
+    "longitude": 77.9145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Speed Skidding Curves",
+      "Lack of Side Reflectors"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "De-accelerate well ahead of the sweeping open curves.",
+      "Utilize low-beam patterns during night transit windows.",
+      "Keep vehicle alignment centered in your respective tracking tier."
+    ]
+  },
+  {
+    "id": "TK0073",
+    "road_name": "Tiruchendur Bazaar Main Street - Murugan Temple Market Link Track",
+    "city": "Tiruchendur Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.4845,
+    "longitude": 78.1189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Blind Spots",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossing crossroad clearings.",
+      "Avoid dropping tyres off the main asphalt track into loose sand.",
+      "Expect pilgrim transit mini-buses or vans to turn unexpectedly."
+    ]
+  },
+  {
+    "id": "TK0074",
+    "road_name": "Vilathikulam - Ettayapuram Link Highway - Nagalapuram Village Inflow Link",
+    "city": "Nagalapuram Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1112,
+    "longitude": 78.1145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near the arid margins.",
+      "Avoid late evening or deep night travels along this isolated strip.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TK0075",
+    "road_name": "Thoothukudi Town Bazaar Road - Palayamkottai Link Access (Near Market)",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7912,
+    "longitude": 78.1189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Unmarked Earthen Speed Breakers"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto the approach lanes near wholesale zones.",
+      "Keep eyes peeled for crude village speed humps near trading checkpoints.",
+      "Honk gently to clear pathways of stray loaders or heavy equipment."
+    ]
+  },
+  {
+    "id": "TK0076",
+    "road_name": "Tiruchendur Main Road - Authoor River Bridge Mountain View Access Corridor",
+    "city": "Authoor Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6112,
+    "longitude": 78.0512,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Tourism Freight Clusters",
+      "Oil Slick Vulnerability"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise high caution near bridge loops due to potential wet residue or sand drift drop.",
+      "Maintain a massive tracking gap behind empty speeding tourist trailers.",
+      "Avoid harsh cornering or heavy braking inputs to prevent traction loss."
+    ]
+  },
+  {
+    "id": "TK0077",
+    "road_name": "Thoothukudi Port Access Road - Madurai NH Crossing Core Bridge Loops (Near Overpass)",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7889,
+    "longitude": 78.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Complex Multi-Way Crossings"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lane shifts near the overpass structures.",
+      "Anticipate multi-axle maritime logistics carriers executing sharp lateral cuts.",
+      "Keep standard spacing parameters clear from the vehicle ahead."
+    ]
+  },
+  {
+    "id": "TK0078",
+    "road_name": "Thoothukudi Town Bazaar Road - Old Bus Stand Core Trading Street",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7912,
+    "longitude": 78.1345,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at crawling speed through tight market bazaar loops.",
+      "Watch for opening side doors on parked delivery vehicles.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear."
+    ]
+  },
+  {
+    "id": "TK0079",
+    "road_name": "Kayalpattinam Coastal Route - DCW Plant Town Market Area",
+    "city": "Kayalpattinam",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.5512,
+    "longitude": 78.1245,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Turns",
+      "Asphalt Deformity"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Slow down near the main chemical processing and logistics parking gates.",
+      "Watch out for deep tire tracks molded into the soft asphalt by heavy tankers.",
+      "Give turning multi-axle freight carriers and transport trailers a wide berth."
+    ]
+  },
+  {
+    "id": "TK0080",
+    "road_name": "Tirunelveli - Thoothukudi Highway (NH-138) - Vagaikulam Town College Cross",
+    "city": "Vagaikulam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7289,
+    "longitude": 78.0245,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Intersection Crossings",
+      "Lack of Road Markings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound your horn before crossing minor educational institution access lanes.",
+      "Drive down the center of the road when oncoming lanes are clear of traffic.",
+      "Expect unexpected crossings by local students and regional commuters."
+    ]
+  },
+  {
+    "id": "TK0081",
+    "road_name": "East Coast Road (NH-32) - Salt Pan Canal Junction Bend link",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.8245,
+    "longitude": 78.1489,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Reverse Curve",
+      "High-Speed Over-Speeding Zone"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "De-accelerate before entering the initial left-hand bend near the salt canal bridge.",
+      "Stay well within your lane to avoid drifting into oncoming logistics traffic.",
+      "Avoid overtaking long commercial transport trucks on this curve stretch."
+    ]
+  },
+  {
+    "id": "TK0082",
+    "road_name": "Srivaikuntam - Tiruchendur Road - Thamirabarani Basin view link",
+    "city": "Srivaikuntam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6312,
+    "longitude": 77.9489,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Eroded Road Shoulders",
+      "Pedestrian Footpath Encroachments"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep away from the weak, unpaved edge next to the running water channel.",
+      "Slow down when navigating past dense roadside commercial trading stalls.",
+      "Be prepared to stop if pedestrians step off the narrow path onto the tarmac."
+    ]
+  },
+  {
+    "id": "TK0083",
+    "road_name": "Thoothukudi Port Access Road - Madurai NH Crossing Loop Route",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7812,
+    "longitude": 78.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "Hidden Curve Crests",
+      "Narrow Culvert Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Flash your high beams during evening trips around blind bridge access ramps.",
+      "Yield structural priority to wider incoming commercial trailers.",
+      "Approach old masonry pipe culverts with high caution."
+    ]
+  },
+  {
+    "id": "TK0084",
+    "road_name": "Tiruchendur Main Road - Authoor River Bridge Viewpoint Descent Junction",
+    "city": "Authoor Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6289,
+    "longitude": 78.0712,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Concrete Level Step",
+      "Pedestrian Foot-Traffic Inflow"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the dark asphalt for crude bridge approach infrastructure level differences.",
+      "Slow down near the historical river viewpoint boundary walls.",
+      "Watch for pedestrians walking on the side margins due to high pilgrim congestion."
+    ]
+  },
+  {
+    "id": "TK0085",
+    "road_name": "Kovilpatti Town Bypass - Ettayapuram Road S-Curve Link",
+    "city": "Kovilpatti Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1645,
+    "longitude": 77.8545,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Zig-Zag S-Curve",
+      "Heavy Match Factory Freight Interferences"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Honk repeatedly to warn oncoming traffic before entering successive turns.",
+      "Do not attempt any sudden steering corrections on the bend fabric.",
+      "Keep your speed stable and low until the rural road completely straightens."
+    ]
+  },
+  {
+    "id": "TK0086",
+    "road_name": "Thoothukudi Town Bazaar Road - Palayamkottai Link Core Cross Link Loop",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7956,
+    "longitude": 78.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Delivery Trucks",
+      "Severe Smoke Clouds"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Turn on low beams if heavy vehicle exhaust lowers traffic visibility near the port.",
+      "Maintain a massive tracking gap behind heavy multi-axle wholesale logistics.",
+      "Watch for loose commercial loads dropping from uncovered trailers."
+    ]
+  },
+  {
+    "id": "TK0087",
+    "road_name": "Tiruchendur Bazaar Main Street - Murugan Temple Village Main Extension",
+    "city": "Tiruchendur Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.4845,
+    "longitude": 78.11456,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sudden Commercial Pullovers",
+      "Merging Highway Lanes"
+    ],
+    "speed_limit": 55,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Anticipate erratic lane shifts from visiting out-station motorists.",
+      "Use proper indicator turn signals early before leaving the highway axis.",
+      "Keep your focus sharp on pedestrians crossing near pilgrim marketplace hubs."
+    ]
+  },
+  {
+    "id": "TK0088",
+    "road_name": "Thoothukudi Port Bypass - Harbour Access Junction Route",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7456,
+    "longitude": 78.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Lack of Center Divider"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Strictly avoid crossing the middle of the road to pass slow container vehicle lines.",
+      "Stay centered inside your lane markers on straight highway stretches.",
+      "Slow down if oncoming vehicles begin drifting over the center line track."
+    ]
+  },
+  {
+    "id": "TK0089",
+    "road_name": "Kvilpatti Town Bazaar Main Street - Match Factory Link Bridge Check Zone",
+    "city": "Kovilpatti Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1745,
+    "longitude": 77.8689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Narrow Bridge Ramp Approach"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Watch for local riders joining the highway from commercial tracks at high speed.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Check your blind spots thoroughly before changing lane positions."
+    ]
+  },
+  {
+    "id": "TK0090",
+    "road_name": "Kovilpatti - Ettayapuram Road (SH-44) - internal corridor road track",
+    "city": "Ettayapuram",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1512,
+    "longitude": 77.9989,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Crumbled Road Edges",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Avoid steering onto the broken, dropped edges of the asphalt pavement.",
+      "Slow down to let wide trailers pass by comfortably.",
+      "Be prepared for mud or loose soil tracking onto the main road from local fields."
+    ]
+  },
+  {
+    "id": "TK0091",
+    "road_name": "Vilathikulam - Ettayapuram Link Highway - Nagalapuram Winding access link loop",
+    "city": "Nagalapuram Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1112,
+    "longitude": 78.11456,
+    "danger_level": "High",
+    "danger_type": [
+      "Aggressive Private Bus Overtaking",
+      "Poor Night Visibility"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Yield right of way immediately to fast-approaching public transit buses.",
+      "Rely on low beams and look for side reflectors on night drives.",
+      "Maintain a safe braking distance from commercial vehicles traveling ahead."
+    ]
+  },
+  {
+    "id": "TK0092",
+    "road_name": "Thoothukudi Town Bazaar Road - Old Bus Stand Core Cross Junction Link",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7912,
+    "longitude": 78.1345,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Commercial Encroachments",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a crawl speed through tight wholesale market bazaar structures.",
+      "Watch for opening car doors on parked delivery vehicles.",
+      "Exercise high patience while wholesale shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TK0093",
+    "road_name": "Tiruchendur Main Road - Authoor River Bridge Approach 2 Loop",
+    "city": "Authoor Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6212,
+    "longitude": 78.0712,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Port Truck Jackknifing",
+      "Severe Brake Fade Risk"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Strictly preserve low gear configurations on descending vectors near the river bridge.",
+      "Do not attempt any overlapping overtaking past heavy container trailers.",
+      "Stay highly centered within the lane structural boundaries."
+    ]
+  },
+  {
+    "id": "TK0094",
+    "road_name": "Kovilpatti - Ettayapuram Road (SH-44) - Ettayapuram Crossing Depot Area",
+    "city": "Ettayapuram Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1512,
+    "longitude": 77.9912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Soft Sandy Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Honk clearly before crossroad blind spots near plantation borders.",
+      "Keep tyres firmly on the asphalt track layout.",
+      "Avoid overtaking near muddy local farm routes."
+    ]
+  },
+  {
+    "id": "TK0095",
+    "road_name": "Kayalpattinam Coastal Route - DCW Plant Link Road - Cargo Section Stretch",
+    "city": "Kayalpattinam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.5545,
+    "longitude": 78.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding",
+      "Lack of Side Reflectors"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Reduce speed on the sweeping open curves past plant boundaries.",
+      "Utilize low-beam patterns during night transits.",
+      "Maintain a safe tracking gap between heavy logistics vehicles."
+    ]
+  },
+  {
+    "id": "TK0096",
+    "road_name": "Thoothukudi Port Access Road - Power Plant Loops - Internal Cross Link",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7645,
+    "longitude": 78.1612,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for craters near heavy industrial complexes.",
+      "Do not travel at high speeds at night along unlit lines.",
+      "Yield to opposing trucks to safely pass road pavement cracks."
+    ]
+  },
+  {
+    "id": "TK0097",
+    "road_name": "Tirunelveli - Thoothukudi Highway (NH-138) - Vagaikulam Junction Overpass Flyover Loops",
+    "city": "Vagaikulam Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7245,
+    "longitude": 78.0212,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Reverse S-Curve",
+      "Dense Scrub Obstructions"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "De-accelerate before entering the winding flyover merge sequence.",
+      "Sound horn continuously around blind roadside vegetation layers.",
+      "Stay tightly within your designated border lane markers."
+    ]
+  },
+  {
+    "id": "TK0098",
+    "road_name": "Srivaikuntam - Tiruchendur Road - Thamirabarani Basin Link Bridge Inflow",
+    "city": "Srivaikuntam Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.6345,
+    "longitude": 77.9412,
+    "danger_level": "High",
+    "danger_type": [
+      "River Bank Skidding Risk",
+      "Narrow Pavement Width"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise strict caution during heavy monsoon runoff spikes near the river basin.",
+      "Do not attempt any pass on the narrow bund track sections.",
+      "Slow to a crawl if a wide public transit bus approaches."
+    ]
+  },
+  {
+    "id": "TK0099",
+    "road_name": "Kvilpatti Town Bazaar Main Street - Match Factory Link - Market Loop Sector",
+    "city": "Kovilpatti Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1745,
+    "longitude": 77.8689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Erratic Shared-Auto Pullovers",
+      "Two-Wheeler Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden transit vehicle halts near matches processing units.",
+      "Keep a safe radius from commuter two-wheelers ahead.",
+      "Check side mirrors carefully before turning off the commercial path."
+    ]
+  },
+  {
+    "id": "TK0100",
+    "road_name": "East Coast Road (NH-32) - Salt Pan Canal Access Corridor",
+    "city": "Thoothukudi Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.8212,
+    "longitude": 78.1456,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Freight Corridor",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt salt pan tracks.",
+      "Watch for deep grooves catching your wheel alignment parameters.",
+      "Maintain a massive distance behind industrial maritime freight fleets."
+    ]
+  },
+  {
+    "id": "TK0101",
+    "road_name": "Tiruchendur Bazaar Main Street - Murugan Temple Crossing Access",
+    "city": "Tiruchendur Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.4845,
+    "longitude": 78.1189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Earthen Speed Breakers",
+      "Domestic Animal Crossings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep eyes peeled for crude village speed humps over the tarmac segments.",
+      "Slow down near rural properties and pilgrim rest borders.",
+      "Honk gently to clear pathways of stray local livestock units."
+    ]
+  },
+  {
+    "id": "TK0102",
+    "road_name": "Vilathikulam - Ettayapuram Link Highway - Nagalapuram Winding Access Loop",
+    "city": "Nagalapuram Outskirts",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 9.1112,
+    "longitude": 78.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Inter-District Buses",
+      "Sudden Intersection Merges"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Refrain from maximum speeds past open crossroad clearings near plains fields.",
+      "Anticipate slow-moving agricultural tractors joining the layout track fabric.",
+      "Keep low beams functional during twilight or dusk tracking hours."
+    ]
+  },
+  {
+    "id": "TK0103",
+    "road_name": "Madurai - Thoothukudi Highway (NH-38) - Kurukkuchalai Bridge Corner Loop",
+    "city": "Kurukkuchalai Area",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.9245,
+    "longitude": 78.0545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Culvert Squeezes",
+      "Eroded Asphalt Edges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down before old concrete culvert structures near the village links.",
+      "Keep tires clear of fractured road borders to prevent drop-off skids.",
+      "Signal intents early to trailing port logistics traffic columns."
+    ]
+  },
+  {
+    "id": "TK0104",
+    "road_name": "Thoothukudi Town Bazaar Road - Old Bus Stand Core Extension Link Route",
+    "city": "Thoothukudi Town",
+    "district": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "latitude": 8.7912,
+    "longitude": 78.1345,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Hairpin Bends",
+      "Tree Line Visibility Obstruction"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Cut down speed significantly before entry curves around busy market intersections.",
+      "Maintain a centered line on the driving track layout blocks.",
+      "Sound your horn to alert opposing hidden port logistics drivers."
+    ]
   }
+]

@@ -6,8 +6,11 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Any
 
+from sqlalchemy.orm import Session
+
 from app.ai.retrieval import nearby_safety_snapshot
 from app.ai.risk_scorer import nearby_danger_zones
+from app.services import ambulance_service
 from app.services.hospital_service import HospitalService
 from app.services.police_service import PoliceService
 from app.services.puncture_shop_service import PunctureShopService
@@ -39,6 +42,8 @@ class NearbyPlace:
     eta: str | None = None
     availability: str | None = None
     officer: str | None = None
+    status: str | None = None
+    ambulance_id: str | None = None
 
     def as_context_dict(self) -> dict[str, Any]:
         return {
@@ -56,6 +61,8 @@ class NearbyPlace:
             "eta": self.eta,
             "availability": self.availability,
             "officer": self.officer,
+            "status": self.status,
+            "ambulance_id": self.ambulance_id,
         }
 
 
@@ -110,11 +117,12 @@ def build_live_context(
     radius_km: float | None = None,
     nearby_places: list[dict[str, Any]] | None = None,
     collect_places: bool = True,
+    db: Session | None = None,
 ) -> LiveContext:
     radius = radius_km if radius_km and radius_km > 0 else LIVE_CONTEXT_RADIUS_KM
     places = normalize_nearby_places(nearby_places)
     if collect_places and not places and lat is not None and lng is not None:
-        places = collect_nearby_places(lat, lng, radius_km=radius)
+        places = collect_nearby_places(lat, lng, radius_km=radius, db=db)
 
     inferred_city, inferred_state, inferred_country = infer_location_parts(
         location_name=location_name,
@@ -202,7 +210,7 @@ def build_location_services_block(profile: QueryProfile, live_context: LiveConte
         return (
             "LOCATION SERVICES\n"
             "User coordinates are unavailable. Do not guess nearest hospitals, police stations, "
-            "towing services, showrooms, puncture shops, safe routes, or danger zones. "
+            "ambulances, towing services, showrooms, puncture shops, safe routes, or danger zones. "
             "Ask the user to share or allow location."
         )
 
@@ -314,10 +322,32 @@ def build_nearby_place_reply(category: str, profile: QueryProfile, live_context:
     matches = live_context.places_for_category(category)
     label = category_label(category)
     if not matches:
+        if category == "ambulance":
+            return "No nearby ambulance is currently available."
         return f"I do not have any {label} entries in my knowledge base for this location."
     selected = matches[:requested_limit(profile.clean_question, default=1 if "nearest" in profile.normalized_question else 5)]
+    if category == "ambulance":
+        return format_ambulance_reply(selected[:3])
     intro = f"Nearest {label}:" if len(selected) == 1 else f"Nearest {label}s:"
     return intro + "\n" + "\n".join(f"- {format_place_plain(place)}" for place in selected)
+
+
+def format_ambulance_reply(places: list[NearbyPlace]) -> str:
+    if not places:
+        return "No nearby ambulance is currently available."
+    lines = ["🚑 Nearby Ambulances", ""]
+    for index, place in enumerate(places, start=1):
+        lines.extend(
+            [
+                f"{index}.",
+                f"Ambulance ID : {place.ambulance_id or place.name}",
+                f"Distance : {distance_text(place.distance_km)}",
+                f"Status : {(place.status or place.availability or 'available').title()}",
+            ]
+        )
+        if index != len(places):
+            lines.append("-------------------------")
+    return "\n".join(lines)
 
 
 def format_live_context_block(live_context: LiveContext) -> str:
@@ -337,9 +367,14 @@ def format_live_context_block(live_context: LiveContext) -> str:
     )
 
 
-def collect_nearby_places(lat: float, lng: float, radius_km: float = LIVE_CONTEXT_RADIUS_KM) -> list[NearbyPlace]:
+def collect_nearby_places(
+    lat: float,
+    lng: float,
+    radius_km: float = LIVE_CONTEXT_RADIUS_KM,
+    db: Session | None = None,
+) -> list[NearbyPlace]:
     cache_key = (round(float(lat), 5), round(float(lng), 5), round(float(radius_km or LIVE_CONTEXT_RADIUS_KM), 2))
-    if cache_key in _NEARBY_PLACE_CACHE:
+    if db is None and cache_key in _NEARBY_PLACE_CACHE:
         return list(_NEARBY_PLACE_CACHE[cache_key])
 
     service_config = [
@@ -380,8 +415,28 @@ def collect_nearby_places(lat: float, lng: float, radius_km: float = LIVE_CONTEX
                 )
             )
 
+    if db is not None:
+        for row in ambulance_service.find_nearest(db, lat, lng, limit=MAX_LIVE_PLACES_PER_CATEGORY):
+            places.append(
+                NearbyPlace(
+                    name=clean_optional(row.get("name") or row.get("ambulance_id")) or "Ambulance",
+                    category="ambulance",
+                    distance_km=parse_float(row.get("distance_km")),
+                    address=clean_optional(row.get("address")) or "Live GPS location",
+                    phone=clean_optional(row.get("phone")),
+                    lat=parse_float(row.get("lat")),
+                    lng=parse_float(row.get("lng")),
+                    eta_minutes=parse_int(row.get("eta_minutes")),
+                    eta=clean_optional(row.get("eta")),
+                    availability=clean_optional(row.get("availability")),
+                    status=clean_optional(row.get("status")),
+                    ambulance_id=clean_optional(row.get("ambulance_id") or row.get("id")),
+                )
+            )
+
     sorted_places_result = sorted_places(places)
-    _NEARBY_PLACE_CACHE[cache_key] = sorted_places_result
+    if db is None:
+        _NEARBY_PLACE_CACHE[cache_key] = sorted_places_result
     return list(sorted_places_result)
 
 
@@ -412,6 +467,8 @@ def normalize_nearby_places(rows: list[dict[str, Any]] | None) -> list[NearbyPla
                 eta=clean_optional(row.get("eta")),
                 availability=clean_optional(row.get("availability")),
                 officer=clean_optional(row.get("officer")),
+                status=clean_optional(row.get("status")),
+                ambulance_id=clean_optional(row.get("ambulance_id")),
             )
         )
     return sorted_places(places)
@@ -444,7 +501,7 @@ def infer_location_parts(
 
 def requested_categories(profile: QueryProfile) -> list[str]:
     if profile.emergency_detected:
-        return ["hospital", "police_station", "towing_service"]
+        return ["ambulance", "hospital", "police_station", "towing_service"]
     category = place_category_for_profile(profile)
     if category:
         return [category]
@@ -454,6 +511,7 @@ def requested_categories(profile: QueryProfile) -> list[str]:
 def place_category_for_intent(intent: str) -> str | None:
     return {
         "hospital": "hospital",
+        "ambulance": "ambulance",
         "police": "police_station",
         "towing": "towing_service",
         "showroom": "showroom",
@@ -494,7 +552,7 @@ def is_location_question(profile: QueryProfile) -> bool:
     # (hospital, police, towing, route, danger_zone, alert, showroom,
     # puncture_shop), this is NEVER
     # a pure location question, even if it contains words like "my location".
-    if profile.intent in {"hospital", "police", "towing", "route", "danger_zone", "alert", "showroom", "puncture_shop"}:
+    if profile.intent in {"ambulance", "hospital", "police", "towing", "route", "danger_zone", "alert", "showroom", "puncture_shop"}:
         return False
 
     # Guard 2: if the text contains any service-related word, it's asking
@@ -549,6 +607,8 @@ def normalize_place_category(value: Any) -> str | None:
         "hospitals": "hospital",
         "medical": "hospital",
         "clinic": "hospital",
+        "ambulance": "ambulance",
+        "ambulances": "ambulance",
         "police": "police_station",
         "police station": "police_station",
         "police stations": "police_station",
@@ -589,6 +649,7 @@ def normalize_place_category(value: Any) -> str | None:
 def category_label(category: str) -> str:
     return {
         "hospital": "hospital",
+        "ambulance": "ambulance",
         "police_station": "police station",
         "towing_service": "towing service",
         "showroom": "showroom",
@@ -599,6 +660,11 @@ def category_label(category: str) -> str:
 
 
 def format_place_plain(place: NearbyPlace) -> str:
+    if place.category == "ambulance":
+        name = place.ambulance_id or place.name
+        status = f", status {place.status.title()}" if place.status else ""
+        eta = f", ETA {place.eta}" if place.eta else ""
+        return f"{name} - {distance_text(place.distance_km)}, live GPS location{status}{eta}"
     distance = "distance unknown"
     if place.distance_km is not None:
         distance = f"{format_distance(place.distance_km)} km"
@@ -607,6 +673,12 @@ def format_place_plain(place: NearbyPlace) -> str:
     availability = f", availability {place.availability}" if place.availability else ""
     officer = f", officer {place.officer}" if place.officer else ""
     return f"{place.name} - {distance}, {place.address}{phone}{eta}{availability}{officer}"
+
+
+def distance_text(value: float | None) -> str:
+    if value is None:
+        return "distance unknown"
+    return f"{format_distance(value)} km"
 
 
 def format_distance(value: float) -> str:

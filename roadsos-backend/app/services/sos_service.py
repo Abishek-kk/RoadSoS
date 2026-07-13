@@ -5,6 +5,7 @@ from typing import Any
 from sqlalchemy.orm import Session
 
 from app.models.sos import SOSCreate
+from app.services import ambulance_service
 from app.services import location_service
 from app.services.notification_service import notify_emergency_contacts, NotificationResult
 from app.services.route_service import get_route_between_points
@@ -62,7 +63,7 @@ def trigger_sos_workflow(db: Session, payload: SOSCreate) -> dict[str, Any]:
 
     results = notify_emergency_contacts(contact_list, user_name, payload.lat, payload.lng, payload.note)
     crud.create_sos_event(db, payload)
-    emergency_context = build_emergency_context(payload)
+    emergency_context = build_emergency_context(db, payload)
 
     return {
         "ok": True,
@@ -77,7 +78,8 @@ def trigger_sos_workflow(db: Session, payload: SOSCreate) -> dict[str, Any]:
     }
 
 
-def build_emergency_context(payload: SOSCreate) -> dict[str, Any]:
+def build_emergency_context(db: Session, payload: SOSCreate) -> dict[str, Any]:
+    nearest_ambulance = safe_first_result("ambulance", ambulance_service.find_nearest, db, payload.lat, payload.lng)
     nearest_hospital = safe_first_result("hospital", location_service.findNearestHospital, payload.lat, payload.lng)
     nearest_police = safe_first_result("police", location_service.findNearestPolice, payload.lat, payload.lng)
     nearest_tow = safe_first_result("towing", location_service.findNearestTow, payload.lat, payload.lng)
@@ -98,6 +100,7 @@ def build_emergency_context(payload: SOSCreate) -> dict[str, Any]:
 
     return {
         "user_location": {"lat": payload.lat, "lng": payload.lng},
+        "nearest_ambulance": nearest_ambulance,
         "nearest_hospital": nearest_hospital,
         "nearest_police": nearest_police,
         "nearest_tow": nearest_tow,
@@ -109,9 +112,9 @@ def first_result(results: list[dict[str, Any]]) -> dict[str, Any] | None:
     return results[0] if results else None
 
 
-def safe_first_result(label: str, finder, lat: float, lng: float) -> dict[str, Any] | None:
+def safe_first_result(label: str, finder, *args) -> dict[str, Any] | None:
     try:
-        return first_result(finder(lat, lng, limit=1))
+        return first_result(finder(*args, limit=1))
     except Exception as exc:
         logger.warning("SOS %s lookup failed. Error: %s", label, exc)
         return None

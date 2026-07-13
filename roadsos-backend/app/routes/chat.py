@@ -99,6 +99,7 @@ async def chat(payload: ChatPayload, db: Session = DbSession):
                     radius_km=payload.radius_km,
                     nearby_places=[place.model_dump() for place in (payload.nearby_places or [])],
                     emergency_contacts=emergency_contacts,
+                    db=db,
                 )
             )
     except TimeoutError:
@@ -137,7 +138,7 @@ async def chat_stream(payload: ChatPayload, db: Session = DbSession):
     emergency_contacts = load_emergency_contacts(db)
 
     return StreamingResponse(
-        stream_chat_events(payload, user_message, location_name, emergency_contacts),
+        stream_chat_events(payload, user_message, location_name, emergency_contacts, db),
         media_type="application/x-ndjson",
     )
 
@@ -147,6 +148,7 @@ async def stream_chat_events(
     user_message: str,
     location_name: str | None,
     emergency_contacts: list[dict[str, Any]],
+    db: Session,
 ):
     event_queue: Queue[dict[str, Any] | None] = Queue()
 
@@ -173,6 +175,7 @@ async def stream_chat_events(
                 nearby_places=[place.model_dump() for place in (payload.nearby_places or [])],
                 emergency_contacts=emergency_contacts,
                 on_token=on_token,
+                db=db,
             )
             emit(
                 {

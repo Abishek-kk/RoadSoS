@@ -1,10 +1,11 @@
-{
+[
+  {
     "district": "Tiruvallur",
     "road_name": "Chennai Outer Ring Road",
     "highway": "SH",
     "location": "Puzhal Junction",
-    "latitude": 13.1640,
-    "longitude": 80.2000,
+    "latitude": 13.164,
+    "longitude": 80.2,
     "risk_level": "High",
     "road_type": "State Highway",
     "major_cause": [
@@ -12,4 +13,2291 @@
       "Poor visibility",
       "Sharp merging"
     ]
+  },
+  {
+    "id": "TVL0001",
+    "road_name": "Chennai - Tiruttani - Renigunta Highway (NH-716) - Thirupachur Junction",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1412,
+    "longitude": 79.8845,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Heavy Inter-State Freight Interferences"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Pick your highway exit or loop lane path early to avoid sudden swerving near industrial zones.",
+      "Anticipate heavy commercial multi-axle trailers shifting tiers dynamically without clear signaling.",
+      "Check blind spots repeatedly before executing bypass lane changes."
+    ]
+  },
+  {
+    "id": "TVL0002",
+    "road_name": "Ennore Port Access Road - Minjur Outer Ring Road Loop",
+    "city": "Minjur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.2812,
+    "longitude": 80.2645,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Heavy Container Columns",
+      "Sudden Multi-Lane Bottlenecks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect sudden heavy container trucks turning sharply into logistics terminal yards.",
+      "Avoid close filtering or lane splitting among rows of stopped multi-axle trailers.",
+      "Maintain a massive tracking gap behind heavy port logistics vehicles."
+    ]
+  },
+  {
+    "id": "TVL0003",
+    "road_name": "Chennai Outer Ring Road (ORR) - Nemilichery Junction Interchange",
+    "city": "Nemilichery",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1056,
+    "longitude": 80.0289,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Intersecting Traffic",
+      "High Velocity Merging Trajectories"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Watch closely for high-speed intercity traffic executing late merges onto the main loop.",
+      "Avoid rapid lateral swerving across lanes near elevated cloverleaf structures.",
+      "Ensure turn indicators are active well ahead of changing your bypass positioning."
+    ]
+  },
+  {
+    "id": "TVL0004",
+    "road_name": "Grand Northern Trunk Road (NH-16) - Karanodai Bridge Approach S-Bend",
+    "city": "Karanodai Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.2545,
+    "longitude": 80.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Approach",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Do not attempt to pass other vehicles on the narrow bridge approach structure.",
+      "Strictly avoid crossing center lane markers to pass slow freight columns.",
+      "Keep standard spacing parameters clear from fast-approaching commercial transit."
+    ]
+  },
+  {
+    "id": "TVL0005",
+    "road_name": "Tiruvallur - Sriperumbudur Road (SH-50) - Perambakkam Cross Junction",
+    "city": "Perambakkam Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0212,
+    "longitude": 79.7912,
+    "danger_level": "High",
+    "danger_type": [
+      "Two-Wheeler Cluster Swerving",
+      "Industrial Industrial Freight Merges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Watch closely for manufacturing shift buses and shift workers joining lanes.",
+      "Avoid close filtering or lane splitting around tight industrial warehouse corners.",
+      "Signal transitions early before executing any detour lane deviations."
+    ]
+  },
+  {
+    "id": "TVL0006",
+    "road_name": "Poonamallee - Pattabiram Road - Sekkadu Rail Gate Crossing Approach",
+    "city": "Pattabiram Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1112,
+    "longitude": 80.0567,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto highway lanes when the rail gate closes.",
+      "Scan the asphalt carefully for deep structural grooves catching your wheel alignment.",
+      "Keep foot ready on brakes near heavy public transit bottlenecks."
+    ]
+  },
+  {
+    "id": "TVL0007",
+    "road_name": "Tiruvallur Town Bazaar Road - Thiruvallur Railway Station Loop",
+    "city": "Tiruvallur Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through tight city market and transit structures.",
+      "Watch closely for opening side doors on parked utility delivery vans.",
+      "Exercise high patience while localized shopper bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVL0008",
+    "road_name": "Gummidipoondi SIPCOT Industrial Road - NH-16 Access Loop",
+    "city": "Gummidipoondi",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4112,
+    "longitude": 80.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Steel and Chemical Freight",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid late evening or deep night travels along this unlit factory manufacturing track.",
+      "Rely entirely on intense, clean low beam layouts during dark twilight shifts.",
+      "Yield priority to oncoming multi-axle steel trailers carrying heavy wide cargo loads."
+    ]
+  },
+  {
+    "id": "TVL0009",
+    "road_name": "Tiruttani - Nagari Road - Subramanya Swamy Temple Inflow Segment",
+    "city": "Tiruttani Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1889,
+    "longitude": 79.6112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Commercial Festival Parking",
+      "High Pilgrim Density Zone"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect sudden transit mini-buses or festival vans to drop speed or swerve near shrine bases.",
+      "Watch out for shoppers stepping out unexpectedly behind parked tour coaches.",
+      "Exercise patience while pilgrim pedestrian bottlenecks clear out smoothly."
+    ]
+  },
+  {
+    "id": "TVL0010",
+    "road_name": "Red Hills - Thiruvallur High Road (SH-114) - Puzhal Basin Canal Bend",
+    "city": "Red Hills Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1945,
+    "longitude": 80.1689,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Centrifugal Blind Curve",
+      "Eroded Water-Channel Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce approach velocity significantly before entering sweeping reservoir canal banks.",
+      "Keep away from the weak, unpaved edge next to running water channel channels.",
+      "Strictly avoid crossing center lane lines to pass slow logistics vectors."
+    ]
+  },
+  {
+    "id": "TVL0011",
+    "road_name": "Ponneri - Pulicat Road - Pazhaverkadu Estuary Access Segment",
+    "city": "Pulicat Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4245,
+    "longitude": 80.3112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Soft Unpaved Sandy Shoulders"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt fabric carefully for sudden deep water-logged craters near coastal zones.",
+      "Avoid dropping wheels off the asphalt track onto soft unpaved sandy edges.",
+      "Keep speed low during evening commute and twilight return windows."
+    ]
+  },
+  {
+    "id": "TVL0012",
+    "road_name": "Thirumazhisai - Uthukottai Road (SH-50A) - Outer Bypass Intersecting Corridor",
+    "city": "Thirumazhisai Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0545,
+    "longitude": 79.9912,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Unregulated Median Gaps"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Do not maintain peak velocity past local village crossroad layout gaps.",
+      "Watch for industrial cargo transport trucks turning across medians without indication.",
+      "Maintain strict long-range vehicle safety braking spaces."
+    ]
+  },
+  {
+    "id": "TVL0013",
+    "road_name": "Minjur - Kattupalli Port Road - L&T Shipyard Access Corridor Route",
+    "city": "Kattupalli Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3112,
+    "longitude": 80.3312,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Port Industrial Heavy Freight",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Watch for deep grooves catching your wheel alignment parameters on rattered port roads.",
+      "Maintain a wide spatial safety margin behind multi-axle shipping container trailers."
+    ]
+  },
+  {
+    "id": "TVL0014",
+    "road_name": "Avadi - Poonamallee High Road (SH-55) - Govardhanagiri Cross Junction",
+    "city": "Avadi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0912,
+    "longitude": 80.1112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad suburban openings near commercial layouts.",
+      "Avoid dropping tyres off the main asphalt track into loose sandy margins.",
+      "Slow down near ongoing infrastructure or local market access clearings."
+    ]
+  },
+  {
+    "id": "TVL0015",
+    "road_name": "Tiruttani - Podatturpettai Road - Intermediate Agricultural Route",
+    "city": "Podatturpet Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.2112,
+    "longitude": 79.5145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect local agricultural machinery or power tillers merging slowly from farm paths.",
+      "Slow down near rural clearings where grazing delta livestock routinely wanders.",
+      "Honk gently to clear the pathway of local cattle herds comfortably."
+    ]
+  },
+  {
+    "id": "TVL0016",
+    "road_name": "Chennai Outer Ring Road (ORR) - Minjur Inflow Junction Loop Track",
+    "city": "Minjur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.2645,
+    "longitude": 80.2456,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Port Container Traffic",
+      "High Speed Skidding Corridor"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Anticipate heavy commercial port container trucks shifting tracking lanes dynamically.",
+      "Reduce speed safely during twilight hours to map out unstructured layout edges.",
+      "Maintain strict long-range vehicle safety braking spaces on sweeping highway turns."
+    ]
+  },
+  {
+    "id": "TVL0017",
+    "road_name": "Grand Northern Trunk Road (NH-16) - Janappanchatram Intersecting Split",
+    "city": "Janappanchatram Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3012,
+    "longitude": 80.1545,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Heavy Inter-District Bus Swerving"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Pick your lane trajectory early before navigating around the multi-way divider gaps.",
+      "Anticipate sudden lane shifts from state transport buses exiting towards town links.",
+      "Keep foot ready on brakes near heavy commercial vehicle service bottlenecks."
+    ]
+  },
+  {
+    "id": "TVL0018",
+    "road_name": "Poonamallee High Road (NH-4) - Nazarathpettai Cloverleaf Access Loop",
+    "city": "Poonamallee Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0456,
+    "longitude": 80.0812,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Merging Trajectories",
+      "Frequent Warehouse Logistics Queues"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Anticipate heavy industrial cargo trucks merging onto the bypass loop at low speeds.",
+      "Avoid close filtering or lane splitting among stopped heavy cargo containers.",
+      "Strictly avoid lane-changing maneuvers inside elevated curve boundaries."
+    ]
+  },
+  {
+    "id": "TVL0019",
+    "road_name": "Uthukottai - Tiruvallur Road (SH-50) - Periyapalayam Temple Bypass Route",
+    "city": "Periyapalayam Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3212,
+    "longitude": 79.9389,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Pilgrim Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Drive with extreme focus near regional festival shrine perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing bypass lane shifts."
+    ]
+  },
+  {
+    "id": "TVL0020",
+    "road_name": "Ambattur - Red Hills High Road (SH-114) - Surapet Warehouse Sector Access",
+    "city": "Surapet Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1512,
+    "longitude": 80.1889,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Industrial Heavy Freight",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt tracks molded by heavy loaders.",
+      "Watch for deep grooves catching your wheel alignment parameters on rattered asphalt.",
+      "Maintain a wide spatial safety margin behind multi-axle industrial trailers."
+    ]
+  },
+  {
+    "id": "TVL0021",
+    "road_name": "Chennai - Tiruttani Highway (NH-716) - Pattabiram Bridge Approach Corner",
+    "city": "Pattabiram Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1189,
+    "longitude": 80.0612,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Rapid Intercity Bus Transit"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow freight columns.",
+      "Stay centered inside your lane markers on straight highway bypass stretches.",
+      "Keep standard spacing parameters clear from fast-approaching public transport omnibuses."
+    ]
+  },
+  {
+    "id": "TVL0022",
+    "road_name": "Ponneri High Road - Andarkuppam Checkpost Internal Access Route",
+    "city": "Ponneri Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3312,
+    "longitude": 80.2012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near regional industrial blocks.",
+      "Avoid late evening or deep night travels along this strip layout due to poor road visibility.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TVL0023",
+    "road_name": "Thirumazhisai Bazaar Main Street - Sri Jagannatha Perumal Temple Loop",
+    "city": "Thirumazhisai Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0512,
+    "longitude": 79.9989,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a crawl speed through tight regional commercial market loops.",
+      "Watch for opening side doors on parked utility delivery vans.",
+      "Exercise patience while localized shopper or industrial worker bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVL0024",
+    "road_name": "Ennore Expressway - Ernavoor Bridge Inflow Link Corridor Route",
+    "city": "Ennore Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1689,
+    "longitude": 80.3112,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Maritime Port Heavy Freight",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Watch for deep grooves catching your wheel alignment parameters on rattered port roads.",
+      "Maintain a wide spatial safety margin behind multi-axle shipping container trailers.",
+      "Be alert for loose industrial cargo residue swept onto the tarmac markers."
+    ]
+  },
+  {
+    "id": "TVL0025",
+    "road_name": "Tiruvallur Outer Bypass Road - Single-Lane Bridge Ramp Approach",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1456,
+    "longitude": 79.9012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow market infrastructure tracks near the bypass.",
+      "Watch out for opening car or delivery van doors on left lane margins.",
+      "Be patient with unexpected pedestrian walking patterns near bazaar points."
+    ]
+  },
+  {
+    "id": "TVL0026",
+    "road_name": "Gummidipoondi Outer Bypass Route - Palar River Basin Approach Loop",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Approach",
+      "Complex Multi-Way Crossings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Pick your loop lane trajectory early before negotiating old bridge entries.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks."
+    ]
+  },
+  {
+    "id": "TVL0027",
+    "road_name": "Chennai - Tiruttani - Renigunta Highway (NH-716) - Thirupachur Western Ridge Loop",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1415,
+    "longitude": 79.8812,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Centrifugal Blind Curves",
+      "Frequent Heavy Inter-State Cargo Breakdowns"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Downshift gears to control vehicle approach speed over structural loop tracks.",
+      "Yield immediate right-of-way to accelerating industrial cargo trailers.",
+      "Refrain from overtaking around blind factory curve turns."
+    ]
+  },
+  {
+    "id": "TVL0028",
+    "road_name": "Ennore Port Access Road - Minjur Outer Ring Road Signal Loop",
+    "city": "Minjur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.2842,
+    "longitude": 80.2612,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Volume Commuter Swerving",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect sudden lane switches from local moped riders near industrial lines.",
+      "Check blind spots thoroughly before executing inner lane shifts.",
+      "Keep a steady eye on the brake indicators of tracking logistics vehicles ahead."
+    ]
+  },
+  {
+    "id": "TVL0029",
+    "road_name": "Tiruvallur - Sriperumbudur Road (SH-50) - Perambakkam Cross Link Route",
+    "city": "Perambakkam Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0189,
+    "longitude": 79.7845,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad rural openings near dry field tracts.",
+      "Avoid dropping tyres off the main asphalt track into loose sandy margins.",
+      "Slow down near ongoing village market access clearings."
+    ]
+  },
+  {
+    "id": "TVL0030",
+    "road_name": "Poonamallee - Pattabiram Road - Sekkadu Rail Gate Lower Internal link",
+    "city": "Pattabiram Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1112,
+    "longitude": 80.0512,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near factory margins.",
+      "Avoid late evening or deep night travels along this strip layout due to poor road visibility.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TVL0031",
+    "road_name": "Poonamallee - Pattabiram Road - Sekkadu Rail Gate Approach Loop",
+    "city": "Pattabiram Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1089,
+    "longitude": 80.0545,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Multi-Lane Bottlenecks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto highway lanes when the rail gate closes.",
+      "Avoid close filtering or lane splitting among stopped heavy trucks.",
+      "Keep foot ready on brakes near heavy commercial vehicle storage corridors."
+    ]
+  },
+  {
+    "id": "TVL0032",
+    "road_name": "Chennai Outer Ring Road (ORR) - Nemilichery Southern Merge Link Zone",
+    "city": "Nemilichery",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1012,
+    "longitude": 80.0245,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Sudden Commercial Vehicle Slowdowns"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Check side blind spots thoroughly before executing bypass lane shifts.",
+      "Anticipate slow-moving industrial trailers or machinery joining the highway tracking lines.",
+      "Maintain strict long-range vehicle safety braking spaces."
+    ]
+  },
+  {
+    "id": "TVL0033",
+    "road_name": "Gummidipoondi SIPCOT Industrial Road - NH-16 Access Cluster Cross Link Track",
+    "city": "Gummidipoondi",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4145,
+    "longitude": 80.1189,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Continuous Raw Material Tractor Transit"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard vehicle suspension over deep asphalt mill tracks.",
+      "Watch for deep structural grooves catching your alignment wheel parameters.",
+      "Sound your horn clearly before crossing crossroad clearings near industrial fields."
+    ]
+  },
+  {
+    "id": "TVL0034",
+    "road_name": "Tiruvallur Town Bazaar Road - Railway Station Access Merge Route",
+    "city": "Tiruvallur Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1345,
+    "longitude": 79.9145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Passenger Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Drive with extreme focus near regional market commuter perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing bypass lane shifts."
+    ]
+  },
+  {
+    "id": "TVL0035",
+    "road_name": "Thirumazhisai - Uthukottai Road (SH-50A) - Border Highway Link Corridor Route",
+    "city": "Thirumazhisai Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0512,
+    "longitude": 79.9889,
+    "danger_level": "High",
+    "danger_type": [
+      "Total Absence of High-Mast Lighting",
+      "Aggressive Private Bus Overtaking"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Avoid late evening or deep night travels along this isolated stretch.",
+      "Yield right of way immediately to fast-approaching public transit buses.",
+      "Rely entirely on intense, clean low beam layouts during night transit."
+    ]
+  },
+  {
+    "id": "TVL0036",
+    "road_name": "Grand Northern Trunk Road (NH-16) - Karanodai Bridge Loop Junction Link",
+    "city": "Karanodai Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.2512,
+    "longitude": 80.1389,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Narrow Bridge Ramp Approach"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lane shifts near the bridge.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Give immediate right of way to moving heavy commercial convoys."
+    ]
+  },
+  {
+    "id": "TVL0037",
+    "road_name": "Ponneri - Pulicat Road - Pazhaverkadu Estuary Link Ferry Link Cross",
+    "city": "Pulicat Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.3089,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Narrow Pavement Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Watch for local riders joining the highway from coastal tracks at high speed.",
+      "Avoid dropping tyres off asphalt onto weak unpaved soil edges near the estuary.",
+      "Check your blind spots thoroughly before changing lane positions."
+    ]
+  },
+  {
+    "id": "TVL0038",
+    "road_name": "Ponneri - Pulicat Road - Main Coastal Track Route",
+    "city": "Pulicat Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.3089,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Crumbled Road Edges",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Avoid steering onto the broken, dropped edges of the asphalt pavement.",
+      "Slow down to let wide trailers pass by comfortably.",
+      "Be prepared for mud or loose soil tracking onto the main road from local fields."
+    ]
+  },
+  {
+    "id": "TVL0039",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Core Commercial Loop Track",
+    "city": "Tiruvallur Town Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1289,
+    "longitude": 79.9089,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow bazaar infrastructure tracks.",
+      "Watch out for opening car or delivery van doors on left margins.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVL0040",
+    "road_name": "Grand Northern Trunk Road (NH-16) - Karanodai Basin Windmill Corridor",
+    "city": "Karanodai Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.2545,
+    "longitude": 80.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Commercial Vehicle Slowdowns",
+      "Severe Plain Crosswind Gusts"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Keep firm control of the steering wheel during high plain wind gusts across valley segments.",
+      "Scan the roadside for heavy transport vehicles carrying structural industrial machinery.",
+      "Strictly avoid rapid lane modifications or sharp braking inputs on open highway lanes."
+    ]
+  },
+  {
+    "id": "TVL0041",
+    "road_name": "Thirumazhisai - Uthukottai Road (SH-50A) - Periyapalayam Access Junction",
+    "city": "Periyapalayam Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3212,
+    "longitude": 79.9389,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding Corridor",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden lane cuts by local transit shared autos near industrial and pilgrim entries.",
+      "Reduce speed during heavy downpours to mitigate skidding over smooth highway asphalt.",
+      "Keep a safe braking buffer from two-wheelers tracking closely ahead."
+    ]
+  },
+  {
+    "id": "TVL0042",
+    "road_name": "Tiruvallur - Sriperumbudur Road (SH-50) - Perambakkam Link Cross",
+    "city": "Perambakkam Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0212,
+    "longitude": 79.7912,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Unregulated Median Gaps"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Do not maintain peak velocity past local village crossroad gaps.",
+      "Watch for commercial cargo trucks slowing to turn without indication.",
+      "Keep to the center-left lane unless actively overtaking slower vehicles."
+    ]
+  },
+  {
+    "id": "TVL0043",
+    "road_name": "Ponneri - Pulicat Road - Pazhaverkadu Estuary Bridge Inflow Curve",
+    "city": "Pulicat Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.3089,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Centrifugal Skidding",
+      "Dense Roadside Vegetation Obstruction"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "De-accelerate significantly before carving the initial sweeping bend near the bridge.",
+      "Sound your horn repeatedly around blind curves wrapped in dense riverbank foliage.",
+      "Strictly avoid lane splitting around transport trucks on corners."
+    ]
+  },
+  {
+    "id": "TVL0044",
+    "road_name": "Thirumazhisai - Uthukottai Road (SH-50A) - Toll Plaza Approach",
+    "city": "Thirumazhisai Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0545,
+    "longitude": 79.9912,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Freight Merges",
+      "Sharp Reverse Curve Sequence"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Yield right of way to multi-axle industrial cargo container carriers.",
+      "Reduce approach speed significantly before steering into successive bends.",
+      "Avoid overtaking commercial transport trucks near tight structural turns."
+    ]
+  },
+  {
+    "id": "TVL0045",
+    "road_name": "Gummidipoondi Outer Bypass Route - SIPCOT Industrial Terminal Loop",
+    "city": "Gummidipoondi",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4112,
+    "longitude": 80.1212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Junction Crossings",
+      "Industrial Freight Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Honk significantly before crossroad blind spots near industrial manufacturing zones.",
+      "Expect slow raw material trailers and equipment to make sudden turning maneuvers.",
+      "Signal transitions early before turning off toward industrial loops."
+    ]
+  },
+  {
+    "id": "TVL0046",
+    "road_name": "Poonamallee - Pattabiram Road - Sekkadu Rail Cross Route Link",
+    "city": "Pattabiram Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1112,
+    "longitude": 80.0567,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Concrete Speed Breakers",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for crude rural village speed humps.",
+      "Slow down fully when moving past local household clearings.",
+      "Use your horn to clear the pathway of grazing cattle safely."
+    ]
+  },
+  {
+    "id": "TVL0047",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Hosiery Cluster Factory Village Stretch",
+    "city": "Tiruvallur Town Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Width",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Avoid dropping tyres off the asphalt track onto soft soil edges.",
+      "Pull over or slow to a crawl if a heavy commercial vehicle approaches.",
+      "Keep speed low during evening commute and twilight hours."
+    ]
+  },
+  {
+    "id": "TVL0048",
+    "road_name": "Tiruvallur Outer Bypass Road - Palar River Junction Intersecting Corridor",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1456,
+    "longitude": 79.9012,
+    "danger_level": "High",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Lighting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid night travel due to absolute darkness and lack of road reflectors.",
+      "Scan the tarmac closely for extensive, water-logged surface craters.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TVL0049",
+    "road_name": "Ponneri - Pulicat Road - Estuary Canal Bank Segment",
+    "city": "Pulicat Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.3089,
+    "danger_level": "High",
+    "danger_type": [
+      "River Bank Skidding Zone",
+      "Continuous Heavy Tipper Transit"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Do not challenge aggressive construction material or sand tippers.",
+      "Keep away from the weak, unpaved edge next to the river channel.",
+      "Maintain strict lane discipline and avoid close-quarter overtaking."
+    ]
+  },
+  {
+    "id": "TVL0050",
+    "road_name": "Gummidipoondi Outer Bypass Route - SIPCOT Industrial Segment Bends",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4112,
+    "longitude": 80.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Zig-Zag Hairpin Bends",
+      "Dense Tree Line Visibility Obstruction"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound your horn continuously around dense industrial-side blind curves.",
+      "Downshift to utilize engine braking on winding descent tracks.",
+      "Stay tightly within your designated border lane lines."
+    ]
+  },
+  {
+    "id": "TVL0051",
+    "road_name": "Tiruvallur Town Bazaar Road - Station High Axis Link",
+    "city": "Tiruvallur Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Crosswind Skidding",
+      "Heavy Grain and Cargo Tractor Movements"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep firm control of the steering wheel during high plain wind gusts across fields.",
+      "Yield right of way to heavily loaded commercial tractors and trailers.",
+      "Watch for loose soil runoff or sand layers swept onto the tarmac."
+    ]
+  },
+  {
+    "id": "TVL0052",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Overpass Loop",
+    "city": "Tiruvallur Town Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Over-Speeding Zone",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow logistics queues.",
+      "Expect sudden tracking drift from non-local highway transit drivers.",
+      "De-accelerate safely before entering sweeping elevated radial curves."
+    ]
+  },
+  {
+    "id": "TVL0053",
+    "road_name": "Tiruvallur - Sriperumbudur Road (SH-50) - Perambakkam Cross Link Intersection",
+    "city": "Perambakkam Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0189,
+    "longitude": 79.7845,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Blind Spots",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossing crossroad clearings near industrial valleys.",
+      "Avoid dropping tyres off the main asphalt track into loose sand margins.",
+      "Expect heavy transit transport or manufacturing shift buses to cross unexpectedly."
+    ]
+  },
+  {
+    "id": "TVL0054",
+    "road_name": "Chennai - Tiruttani - Renigunta Highway (NH-716) - Thirupachur Bypass Corridor Link",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1412,
+    "longitude": 79.8845,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding Corridor",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden lane cuts by local transit shared autos near industrial facility tracks.",
+      "Reduce speed during heavy downpours to mitigate high-speed skidding on damp paths.",
+      "Keep a safe braking buffer from two-wheelers tracking closely ahead."
+    ]
+  },
+  {
+    "id": "TVL0055",
+    "road_name": "Poonamallee - Pattabiram Road - Sekkadu Junction Corner",
+    "city": "Pattabiram Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1112,
+    "longitude": 80.0567,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Squeeze",
+      "Erratic Auto-Rickshaw Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Maintain a slow crawling velocity through narrow transit structures near the market town.",
+      "Expect local auto-rickshaws to stop suddenly near neighborhood community rail commuter links.",
+      "Avoid overtaking commercial delivery vehicles from narrow left margins."
+    ]
+  },
+  {
+    "id": "TVL0056",
+    "road_name": "Chennai - Tiruttani - Renigunta Highway (NH-716) - Thirupachur Western Ridge Flyover Loop",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1415,
+    "longitude": 79.8812,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Rapid Intercity Bus Transit"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your lane trajectory early before navigating around the bypass loops.",
+      "Do not challenge aggressive public transport coaches near junction openings.",
+      "Watch for two-wheelers jumping trailing amber traffic signal lights."
+    ]
+  },
+  {
+    "id": "TVL0057",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Core Inflow Route",
+    "city": "Tiruvallur Town Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at crawling speed through tight market bazaar loops near city points.",
+      "Watch for opening side doors on parked delivery vehicles.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVL0058",
+    "road_name": "Thirumazhisai - Uthukottai Road (SH-50A) - Outer Bypass Industrial Cross",
+    "city": "Thirumazhisai Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0545,
+    "longitude": 79.9912,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Heavy Logistics Freight Merging"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect long multi-axle trailers pulling out from warehouse storage paths.",
+      "Avoid Overtaking commercial delivery vehicles from the inner left margins.",
+      "Be alert for local transit mini-buses executing sudden passenger drops."
+    ]
+  },
+  {
+    "id": "TVL0059",
+    "road_name": "Gummidipoondi Outer Bypass Route - SIPCOT Industrial Loop Section",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4112,
+    "longitude": 80.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Two-Wheeler Cluster Swerving",
+      "Unmarked Concrete Construction Steps"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Scan the dark asphalt carefully for sudden variations or deep craters.",
+      "Signal intents early before executing any detour lane deviations."
+    ]
+  },
+  {
+    "id": "TVL0060",
+    "road_name": "Minjur - Kattupalli Port Road - L&T Shipyard Loop Merge Axis",
+    "city": "Kattupalli Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3112,
+    "longitude": 80.3312,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Heavy Container Inflow",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow freight columns.",
+      "Keep wide spacing coordinates behind heavily loaded cargo trucks.",
+      "Roll up windows due to high airborne dust layers kicked up by logistics transport."
+    ]
+  },
+  {
+    "id": "TVL0061",
+    "road_name": "Gummidipoondi Outer Bypass Route - Palar River Basin Access Corridor",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Freight Clusters",
+      "Oil Slick Vulnerability"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise high caution near valley exits due to dropped fuel residue ripples from heavy loaders.",
+      "Maintain a massive tracking gap behind empty speeding cargo trailers.",
+      "Avoid harsh cornering or heavy braking inputs to prevent traction loss."
+    ]
+  },
+  {
+    "id": "TVL0062",
+    "road_name": "Poonamallee - Pattabiram Road - Sekkadu Market Connection Link",
+    "city": "Pattabiram Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1112,
+    "longitude": 80.0567,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Volume Commuter Swerving",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect local share-autos to brake or pull over blindly on the left lanes.",
+      "Check blind spots thoroughly before moving across main market corridors.",
+      "Keep track of multiple accelerating two-wheelers from suburban commuter links."
+    ]
+  },
+  {
+    "id": "TVL0063",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Overpass Approach",
+    "city": "Tiruvallur Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Complex Multi-Way Crossings",
+      "Vulnerable Pedestrian Crossings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Do not speed past open median gaps or unstructured crossroads.",
+      "Anticipate local riders traveling against traffic on the road margins.",
+      "Give immediate right of way to pedestrians navigating intersection lanes."
+    ]
+  },
+  {
+    "id": "TVL0064",
+    "road_name": "Minjur - Kattupalli Port Road - L&T Shipyard Access Gate Segment",
+    "city": "Kattupalli Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3112,
+    "longitude": 80.3312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Squeeze",
+      "High Pedestrian Density"
+    ],
+    "speed_limit": 35,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawling velocity through narrow checkpoint paths near factory blocks.",
+      "Watch for shippers stepping out unexpectedly behind parked shipping container vans.",
+      "Refrain from using high-decibel horns near local residential fields."
+    ]
+  },
+  {
+    "id": "TVL0065",
+    "road_name": "Gummidipoondi Outer Bypass Route - Palar River Basin Overpass Access Bridge Inflow Axis",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.1145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Tourist Parking",
+      "Erratic Two-Wheeler Parking"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden holiday transport vans to drop speed or swerve near bridges.",
+      "Use indicator turn signals early before leaving the main track lanes.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVL0066",
+    "road_name": "Chennai - Tiruttani - Renigunta Highway (NH-716) - Thirupachur Road Cross Loop",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1412,
+    "longitude": 79.8845,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Lane Bottlenecks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Anticipate sudden highway freight traffic backing up near warehouse connections.",
+      "Avoid close filtering or lane splitting among stopped industrial trailers.",
+      "Keep foot ready on brakes near heavy commercial vehicle service links."
+    ]
+  },
+  {
+    "id": "TVL0067",
+    "road_name": "Minjur - Kattupalli Port Road - L&T Shipyard Loop Approach",
+    "city": "Kattupalli Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3112,
+    "longitude": 80.3312,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Swerving",
+      "Heavy Port Container Columns"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "De-accelerate significantly before carving the initial manufacturing bend.",
+      "Keep firmly within your designated tracking lane boundary marks.",
+      "Avoid overtaking or rapid throttling actions inside the port approaches."
+    ]
+  },
+  {
+    "id": "TVL0068",
+    "road_name": "Thirumazhisai - Uthukottai Road (SH-50A) - Outer Bypass Access Split Route",
+    "city": "Thirumazhisai Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0545,
+    "longitude": 79.9912,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lateral shifting.",
+      "Strictly avoid crossing center lane markings to pass slow container rows.",
+      "Blink your headlights when approaching the unlit cross intersection."
+    ]
+  },
+  {
+    "id": "TVL0069",
+    "road_name": "Gummidipoondi Outer Bypass Route - SIPCOT Industrial Section",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4112,
+    "longitude": 80.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Inter-State Freight Merges",
+      "High Velocity Merging Trajectories"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect heavy multi-axle logistics trucks turning sharply from manufacturing paths.",
+      "Use explicit side indicator flashes early before navigating loops.",
+      "Maintain a massive tracking gap behind heavy industrial vectors."
+    ]
+  },
+  {
+    "id": "TVL0070",
+    "road_name": "Poonamallee - Pattabiram Road - Sekkadu Link School Zone Area",
+    "city": "Pattabiram Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1112,
+    "longitude": 80.0567,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Student Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Drive with extreme focus near regional educational complex perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing lane shifts."
+    ]
+  },
+  {
+    "id": "TVL0071",
+    "road_name": "Gummidipoondi Outer Bypass Route - Palar River Basin Single-Lane Bridge Rural Track",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Culvert Squeezes",
+      "Eroded Asphalt Edges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down before negotiating old masonry brick culverts near factory fields.",
+      "Keep tires firmly off the crumbled margins to prevent structural drops.",
+      "Signal intents early to trailing traffic blocks before stopping."
+    ]
+  },
+  {
+    "id": "TVL0072",
+    "road_name": "Tiruvallur - Sriperumbudur Road (SH-50) - Perambakkam High Curve Extension Route",
+    "city": "Perambakkam Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0212,
+    "longitude": 79.7912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Speed Skidding Curves",
+      "Lack of Side Reflectors"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "De-accelerate well ahead of the sweeping open curves.",
+      "Utilize low-beam patterns during night transit windows.",
+      "Keep vehicle alignment centered in your respective tracking tier."
+    ]
+  },
+  {
+    "id": "TVL0073",
+    "road_name": "Tiruvallur Outer Bypass Road - Palar River Merge Access Market Link Track",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1456,
+    "longitude": 79.9012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Blind Spots",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossing crossroad clearings.",
+      "Avoid dropping tyres off the main asphalt track into loose sand.",
+      "Expect logistics trailers or industrial machinery merging slowly from lanes."
+    ]
+  },
+  {
+    "id": "TVL0074",
+    "road_name": "Tiruvallur Outer Bypass Road - Palar Lower Merge Village Inflow Link",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1456,
+    "longitude": 79.9012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near the rural margins.",
+      "Avoid late evening or deep night travels along this isolated strip.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TVL0075",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Link Access (Near Market)",
+    "city": "Tiruvallur Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Unmarked Earthen Speed Breakers"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto the approach lanes near wholesale zones.",
+      "Keep eyes peeled for crude village speed humps near trading checkpoints.",
+      "Honk gently to clear pathways of stray loaders or heavy equipment."
+    ]
+  },
+  {
+    "id": "TVL0076",
+    "road_name": "Gummidipoondi Outer Bypass Route - Palar River Basin Access Flyover Mountain View Access Corridor",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Tourism Freight Clusters",
+      "Oil Slick Vulnerability"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise high caution near loop structures due to potential wet residue drop.",
+      "Maintain a massive tracking gap behind empty speeding container trailers.",
+      "Avoid harsh cornering or heavy braking inputs to prevent traction loss."
+    ]
+  },
+  {
+    "id": "TVL0077",
+    "road_name": "Gummidipoondi Outer Bypass Route - Palar River Basin Overpass Core Loops (Near Overpass)",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Complex Multi-Way Crossings"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lane shifts near the overpass structures.",
+      "Anticipate multi-axle freight logistics carriers executing sharp lateral cuts.",
+      "Keep standard spacing parameters clear from the vehicle ahead."
+    ]
+  },
+  {
+    "id": "TVL0078",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Core Trading Street",
+    "city": "Tiruvallur Town Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at crawling speed through tight market bazaar loops.",
+      "Watch for opening side doors on parked delivery vehicles.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear."
+    ]
+  },
+  {
+    "id": "TVL0079",
+    "road_name": "Minjur - Kattupalli Port Road - L&T Shipyard Town Market Area",
+    "city": "Kattupalli Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3112,
+    "longitude": 80.3312,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Turns",
+      "Asphalt Deformity"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Slow down near the main shipyard processing and heavy logistics parking gates.",
+      "Watch out for deep tire tracks molded into the soft asphalt by heavy container loaders.",
+      "Give turning maritime freight trucks and transport trailers a wide berth."
+    ]
+  },
+  {
+    "id": "TVL0080",
+    "road_name": "Chennai - Tiruttani - Renigunta Highway (NH-716) - Thirupachur Town College Cross",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1412,
+    "longitude": 79.8845,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Intersection Crossings",
+      "Lack of Road Markings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound your horn before crossing minor educational institution access lanes.",
+      "Drive down the center of the road when oncoming lanes are clear of traffic.",
+      "Expect unexpected crossings by local students and regional commuters."
+    ]
+  },
+  {
+    "id": "TVL0081",
+    "road_name": "Thirumazhisai - Uthukottai Road (SH-50A) - Periyapalayam Junction Bend link",
+    "city": "Periyapalayam Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3212,
+    "longitude": 79.9389,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Reverse Curve",
+      "High-Speed Over-Speeding Zone"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "De-accelerate before entering the initial left-hand bend near the temple access loops.",
+      "Stay well within your lane to avoid drifting into oncoming logistics traffic.",
+      "Avoid overtaking long commercial transport trucks on this curve stretch."
+    ]
+  },
+  {
+    "id": "TVL0082",
+    "road_name": "Ponneri - Pulicat Road - Estuary Basin view link",
+    "city": "Pulicat Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.3089,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Eroded Road Shoulders",
+      "Pedestrian Footpath Encroachments"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep away from the weak, unpaved edge next to the running water channel.",
+      "Slow down when navigating past dense roadside commercial trading stalls.",
+      "Be prepared to stop if pedestrians step off the narrow path onto the tarmac."
+    ]
+  },
+  {
+    "id": "TVL0083",
+    "road_name": "Gummidipoondi Outer Bypass Route - Palar River Basin Loop Route",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "Hidden Curve Crests",
+      "Narrow Culvert Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Flash your high beams during evening trips around blind bridge access ramps.",
+      "Yield structural priority to wider incoming commercial trailers.",
+      "Approach old masonry pipe culverts with high caution."
+    ]
+  },
+  {
+    "id": "TVL0084",
+    "road_name": "Tiruvallur Outer Bypass Road - Palar River Merge Viewpoint Descent Junction",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1456,
+    "longitude": 79.9012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Concrete Level Step",
+      "Pedestrian Foot-Traffic Inflow"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the dark asphalt for crude bridge approach infrastructure level differences.",
+      "Slow down near the historical bypass viewpoint boundary walls.",
+      "Watch for pedestrians walking on the side margins due to high commuter congestion."
+    ]
+  },
+  {
+    "id": "TVL0085",
+    "road_name": "Gummidipoondi Outer Bypass Route - SIPCOT Industrial S-Curve Link",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4112,
+    "longitude": 80.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Zig-Zag S-Curve",
+      "Heavy Industrial Freight Interferences"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Honk repeatedly to warn oncoming traffic before entering successive turns.",
+      "Do not attempt any sudden steering corrections on the bend fabric.",
+      "Keep your speed stable and low until the industrial road completely straightens."
+    ]
+  },
+  {
+    "id": "TVL0086",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Link Core Cross Link Loop",
+    "city": "Tiruvallur Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Delivery Trucks",
+      "Severe Smoke Clouds"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Turn on low beams if heavy vehicle exhaust lowers traffic visibility near transit hubs.",
+      "Maintain a massive tracking gap behind heavy multi-axle wholesale logistics.",
+      "Watch for loose commercial loads dropping from uncovered trailers."
+    ]
+  },
+  {
+    "id": "TVL0087",
+    "road_name": "Tiruttani Town Bazaar Main Street - Subramanya Swamy Temple Village Main Extension",
+    "city": "Tiruttani Town Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1889,
+    "longitude": 79.6112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sudden Commercial Pullovers",
+      "Merging Highway Lanes"
+    ],
+    "speed_limit": 55,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Anticipate erratic lane shifts from visiting out-station motorists.",
+      "Use proper indicator turn signals early before leaving the highway axis.",
+      "Keep your focus sharp on pedestrians crossing near pilgrim marketplace hubs."
+    ]
+  },
+  {
+    "id": "TVL0088",
+    "road_name": "Gummidipoondi Outer Bypass Route - Palar River Basin Roundabout Junction Route",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Lack of Center Divider"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Strictly avoid crossing the middle of the road to pass slow freight columns.",
+      "Stay centered inside your lane markers on straight highway bypass stretches.",
+      "Slow down if oncoming vehicles begin drifting over the center line track."
+    ]
+  },
+  {
+    "id": "TVL0089",
+    "road_name": "Poonamallee - Pattabiram Road - Sekkadu Rail Gate Check Zone",
+    "city": "Pattabiram Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1112,
+    "longitude": 80.0567,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Narrow Bridge Ramp Approach"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Watch for local riders joining the highway from commercial tracks at high speed.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Check your blind spots thoroughly before changing lane positions."
+    ]
+  },
+  {
+    "id": "TVL0090",
+    "road_name": "Ponneri - Pulicat Road - internal corridor coastal road track",
+    "city": "Pulicat Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.3089,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Crumbled Road Edges",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Avoid steering onto the broken, dropped edges of the asphalt pavement.",
+      "Slow down to let wide trailers pass by comfortably.",
+      "Be prepared for mud or loose soil tracking onto the main road from local fields."
+    ]
+  },
+  {
+    "id": "TVL0091",
+    "road_name": "Tiruvallur - Sriperumbudur Road (SH-50) - Perambakkam Winding access link loop",
+    "city": "Perambakkam Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0212,
+    "longitude": 79.7912,
+    "danger_level": "High",
+    "danger_type": [
+      "Aggressive Private Bus Overtaking",
+      "Poor Night Visibility"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Yield right of way immediately to fast-approaching public transit buses.",
+      "Rely on low beams and look for side reflectors on night drives.",
+      "Maintain a safe braking distance from commercial vehicles traveling ahead."
+    ]
+  },
+  {
+    "id": "TVL0092",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Core Cross Junction Link",
+    "city": "Tiruvallur Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Commercial Encroachments",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a crawl speed through tight wholesale market bazaar structures.",
+      "Watch for opening car doors on parked delivery vehicles.",
+      "Exercise high patience while town shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVL0093",
+    "road_name": "Gummidipoondi Outer Bypass Route - Palar River Bridge Approach 2 Loop",
+    "city": "Gummidipoondi Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.1145,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Jackknifing",
+      "Severe Brake Fade Risk"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Strictly preserve low gear configurations on descending vectors near the river bridge.",
+      "Do not attempt any overlapping overtaking past heavy cargo trailers.",
+      "Stay highly centered within the lane structural boundaries."
+    ]
+  },
+  {
+    "id": "TVL0094",
+    "road_name": "Ponneri - Pulicat Road - Estuary Crossing Depot Area",
+    "city": "Pulicat Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.3089,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Soft Sandy Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Honk clearly before crossroad blind spots near plantation borders.",
+      "Keep tyres firmly on the asphalt track layout.",
+      "Avoid overtaking near muddy local farm routes."
+    ]
+  },
+  {
+    "id": "TVL0095",
+    "road_name": "Minjur - Kattupalli Port Road - L&T Shipyard Access Road - Cargo Section Stretch",
+    "city": "Kattupalli Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.3112,
+    "longitude": 80.3312,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding",
+      "Lack of Side Reflectors"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Reduce speed on the sweeping open curves past shipyard boundaries.",
+      "Utilize low-beam patterns during night transits.",
+      "Maintain a safe tracking gap between heavy logistics container vehicles."
+    ]
+  },
+  {
+    "id": "TVL0096",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Links - Internal Cross Link",
+    "city": "Tiruvallur Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for craters near heavy trading complexes.",
+      "Do not travel at high speeds at night along unlit lines.",
+      "Yield to opposing trucks to safely pass road pavement cracks."
+    ]
+  },
+  {
+    "id": "TVL0097",
+    "road_name": "Chennai - Tiruttani - Renigunta Highway (NH-716) - Thirupachur Junction Overpass Flyover Loops",
+    "city": "Tiruvallur Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1412,
+    "longitude": 79.8845,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Reverse S-Curve",
+      "Dense Scrub Obstructions"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "De-accelerate before entering the winding flyover merge sequence.",
+      "Sound horn continuously around blind roadside vegetation layers.",
+      "Stay tightly within your designated border lane markers."
+    ]
+  },
+  {
+    "id": "TVL0098",
+    "road_name": "Ponneri - Pulicat Road - Estuary Basin Link Bridge Inflow",
+    "city": "Pulicat Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.3089,
+    "danger_level": "High",
+    "danger_type": [
+      "River Bank Skidding Risk",
+      "Narrow Pavement Width"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise strict caution during heavy monsoon runoff spikes near the river basin.",
+      "Do not attempt any pass on the narrow bund track sections.",
+      "Slow to a crawl if a wide public transit bus approaches."
+    ]
+  },
+  {
+    "id": "TVL0099",
+    "road_name": "Thirumazhisai Bazaar Main Street - Sri Jagannatha Perumal Temple Cross - Market Loop Sector",
+    "city": "Thirumazhisai Town",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0512,
+    "longitude": 79.9989,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Erratic Shared-Auto Pullovers",
+      "Two-Wheeler Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden transit vehicle halts near commercial trading blocks.",
+      "Keep a safe radius from commuter two-wheelers ahead.",
+      "Check side mirrors carefully before turning off the commercial path."
+    ]
+  },
+  {
+    "id": "TVL0100",
+    "road_name": "Thirumazhisai - Uthukottai Road (SH-50A) - Outer Bypass Roundabout Access Corridor",
+    "city": "Thirumazhisai Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.0545,
+    "longitude": 79.9912,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Freight Corridor",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt bypass tracks.",
+      "Watch for deep grooves catching your wheel alignment parameters.",
+      "Maintain a massive distance behind industrial manufacturing freight fleets."
+    ]
+  },
+  {
+    "id": "TVL0101",
+    "road_name": "Tiruttani Town Bazaar Main Street - Subramanya Swamy Temple Crossing Access",
+    "city": "Tiruttani Town Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1889,
+    "longitude": 79.6112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Earthen Speed Breakers",
+      "Domestic Animal Crossings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep eyes peeled for crude village speed humps over the tarmac segments.",
+      "Slow down near pilgrim properties and regional rest perimeters.",
+      "Honk gently to clear pathways of stray local livestock units."
+    ]
+  },
+  {
+    "id": "TVL0102",
+    "road_name": "Ponneri - Pulicat Road - internal corridor coastal Winding River Access Loop",
+    "city": "Pulicat Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.4212,
+    "longitude": 80.3089,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Inter-District Buses",
+      "Sudden Intersection Merges"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Refrain from maximum speeds past open crossroad clearings near valleys.",
+      "Anticipate slow-moving industrial trailers joining the layout tracking fabric.",
+      "Keep low beams functional during twilight or dusk tracking hours."
+    ]
+  },
+  {
+    "id": "TVL0103",
+    "road_name": "Poonamallee - Pattabiram Road - Sekkadu Rail Gate Bridge Corner Loop",
+    "city": "Pattabiram Outskirts",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1112,
+    "longitude": 80.0567,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Culvert Squeezes",
+      "Eroded Asphalt Edges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down before old concrete culvert structures near the industrial links.",
+      "Keep tires clear of fractured road borders to prevent drop-off skids.",
+      "Signal intents early to trailing commercial logistics traffic columns."
+    ]
+  },
+  {
+    "id": "TVL0104",
+    "road_name": "Tiruvallur Town Bazaar Road - Station Core Extension Link Route",
+    "city": "Tiruvallur Town Area",
+    "district": "Tiruvallur",
+    "state": "Tamil Nadu",
+    "latitude": 13.1312,
+    "longitude": 79.9112,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Hairpin Bends",
+      "Tree Line Visibility Obstruction"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Cut down speed significantly before entry curves around busy market intersections.",
+      "Maintain a centered line on the driving track layout blocks.",
+      "Sound your horn to alert opposing hidden city logistics drivers."
+    ]
   }
+]

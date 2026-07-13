@@ -1,14 +1,2289 @@
- {
+[
+  {
+    "id": "TR0001",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Thuvakudi Junction",
+    "city": "Thuvakudi Area",
     "district": "Tiruchirappalli",
-    "road_name": "Trichy-Dindigul Road",
-    "highway": "NH-83",
-    "location": "Panjapur",
-    "latitude": 10.7483,
-    "longitude": 78.6570,
-    "risk_level": "Very High",
-    "road_type": "National Highway",
-    "major_cause": [
-      "Urban traffic",
-      "Pedestrian movement"
+    "state": "Tamil Nadu",
+    "latitude": 10.7512,
+    "longitude": 78.8112,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Heavy BHEL Industrial Logistics Freight"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Pick your highway exit or loop lane path early to avoid sudden swerving near industrial zones.",
+      "Anticipate heavy commercial multi-axle trailers shifting tiers dynamically without clear signaling.",
+      "Check blind spots repeatedly before executing bypass lane changes."
+    ]
+  },
+  {
+    "id": "TR0002",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Samayapuram Toll Plaza Loop",
+    "city": "Samayapuram Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9289,
+    "longitude": 78.7245,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Intersecting Traffic",
+      "Heavy Tourism Fleet Flow"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Watch closely for regional pilgrim buses and tourist vans braking suddenly near temple exits.",
+      "Avoid close filtering or lane splitting around tight toll queue configurations.",
+      "Do not accelerate aggressively to pass slow multi-axle freight trucks."
+    ]
+  },
+  {
+    "id": "TR0003",
+    "road_name": "Trichy Semi-Ring Road Bypass - Mathur Roundabout Connection",
+    "city": "Mathur Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7112,
+    "longitude": 78.7456,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding Corridor",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Maintain strict long-range vehicle safety braking spaces on straight bypass tracks.",
+      "Strictly avoid crossing center lane markers to pass slow multi-axle logistics columns.",
+      "Reduce speed drastically when approaching unlit crossing layouts at night."
+    ]
+  },
+  {
+    "id": "TR0004",
+    "road_name": "Trichy - Dindigul Highway (NH-83) - Ramji Nagar S-Bend",
+    "city": "Ramji Nagar",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7412,
+    "longitude": 78.6112,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Centrifugal Blind Curve",
+      "High Volume Commuter Swerving"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce approach velocity significantly before entering winding curves past industrial units.",
+      "Sound your horn ahead of blind turns to notify opposing moped tracking flows.",
+      "Stay centered inside your lane markers to prevent cross-lane drifting skids."
+    ]
+  },
+  {
+    "id": "TR0005",
+    "road_name": "Trichy - Karur Highway (NH-81) - Jeeyapuram Canal Curve Route",
+    "city": "Jeeyapuram Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8545,
+    "longitude": 78.5912,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Centrifugal Blind Curve",
+      "Eroded Water-Channel Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep away from the weak, unpaved edge next to the running irrigation channel tracks.",
+      "De-accelerate well ahead of the sweeping open curve paths near the rail tracks.",
+      "Signal transitions early before attempting to overtake heavy cargo transport lines."
+    ]
+  },
+  {
+    "id": "TR0006",
+    "road_name": "Trichy - Madurai Highway (NH-38) - Manikandam Junction Split",
+    "city": "Manikandam Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7184,
+    "longitude": 78.6545,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Merging Trajectories",
+      "Rapid Intercity Bus Transit"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Do not maintain peak velocity past local village crossroad layout gaps.",
+      "Yield immediate structural priority to fast-approaching public transit omnibuses.",
+      "Check blind spots thoroughly before moving onto the main bypass corridor axis."
+    ]
+  },
+  {
+    "id": "TR0007",
+    "road_name": "Trichy Town Main Bazaar Road - Chatram Bus Stand Core Loop",
+    "city": "Trichy Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8389,
+    "longitude": 78.6945,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through tight city market and transit structure blocks.",
+      "Watch closely for opening doors on parked logistics delivery vans.",
+      "Exercise high patience while localized shopper bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TR0008",
+    "road_name": "Trichy to Thiruvanaikoil Link Road - Old Kaveri River Bridge Approach",
+    "city": "Srirangam Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8567,
+    "longitude": 78.7112,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Approach",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Rely entirely on intense, clean low beam layouts during dark twilight transit windows.",
+      "Yield priority to oncoming heavy passenger coaches negotiating the narrow bridge fabric."
+    ]
+  },
+  {
+    "id": "TR0009",
+    "road_name": "Srirangam Bazaar Main Street - Ranganathaswamy Temple Square Corner",
+    "city": "Srirangam Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8645,
+    "longitude": 78.6889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pilgrim Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through tight historical shrine infrastructure tracks.",
+      "Watch out for opening car or tourist coach doors on left lane margins.",
+      "Exercise high patience while local pilgrim pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TR0010",
+    "road_name": "Lalgudi - Anbil State Highway - Kollidam River Bank Segment",
+    "city": "Lalgudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8889,
+    "longitude": 78.8245,
+    "danger_level": "Medium",
+    "danger_type": [
+      "River Bank Skidding Zone",
+      "Narrow Pavement Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Exercise extreme caution during active seasonal monsoon delta river overflow periods.",
+      "Avoid dropping tyres off asphalt onto weak unpaved soil edges next to pools.",
+      "Pull over or slow to a near crawl if a wide commercial transport vehicle approaches."
+    ]
+  },
+  {
+    "id": "TR0011",
+    "road_name": "Thuraiyur - Perambalur Road (SH-142) - Pachamalai Foothill Cross",
+    "city": "Thuraiyur Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 11.1412,
+    "longitude": 78.6112,
+    "danger_level": "High",
+    "danger_type": [
+      "Total Absence of High-Mast Lighting",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Avoid late evening or deep night travels along this isolated rural stretch.",
+      "Strictly avoid crossing center lane markers to pass slow agricultural vehicle lines.",
+      "Use clean, intense low-beam focus patterns to map layout paths."
+    ]
+  },
+  {
+    "id": "TR0012",
+    "road_name": "Trichy - Pudukkottai Road (NH-336) - Airport Terminal Link Crossing",
+    "city": "Trichy Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7645,
+    "longitude": 78.7212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Cluster Swerving",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Expect local transit mini-buses and share-autos to stop suddenly near transit links.",
+      "Check mirrors carefully before exiting toward airport service loops."
+    ]
+  },
+  {
+    "id": "TR0013",
+    "road_name": "Manapparai - Thuvarankurichi Intermediate Road - Rice Mill Access Sector",
+    "city": "Manapparai Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.6112,
+    "longitude": 78.4112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for sudden deep water-logged craters.",
+      "Avoid dropping tyres off asphalt onto soft unpaved sand or field edges."
+    ]
+  },
+  {
+    "id": "TR0014",
+    "road_name": "Musiri - Kulithalai Road - Cauvery Iron Bridge Western Approach",
+    "city": "Musiri Town Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9512,
+    "longitude": 78.4412,
+    "danger_level": "High",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Continuous Heavy Sand and Agro Fleets"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Watch for local agricultural moped riders joining lanes at high speed near river routes.",
+      "Give immediate right of way to pedestrians navigating intersection lanes.",
+      "Signal transitions early before executing any detour lane deviations."
+    ]
+  },
+  {
+    "id": "TR0015",
+    "road_name": "Trichy Town Bazaar Road - Central Bus Stand Entry Corner Loop",
+    "city": "Trichy Town Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 78.6812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Commercial Parking",
+      "Unmarked Concrete Speed Breakers"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden transit vehicles or transport coaches to drop speed or swerve near terminals.",
+      "Use indicator turn signals early before leaving the main track layout lanes.",
+      "Exercise high patience while localized shopper bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TR0016",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - NIT Trichy Entrance Gate",
+    "city": "Thuvakudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7589,
+    "longitude": 78.8245,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding Corridor",
+      "Vulnerable Student Pedestrian Crossings"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden braking from highway transit units near institution entry clusters.",
+      "Watch for students crossing despite the presence of physical highway medians.",
+      "Maintain a wide spatial distance from accelerating moped traffic columns."
+    ]
+  },
+  {
+    "id": "TR0017",
+    "road_name": "Chennai - Trichy Highway (NH-45) - No-1 Tollgate Intersection Split",
+    "city": "Trichy Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8745,
+    "longitude": 78.7189,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Heavy Inter-District Bus Swerving"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your lane trajectory early before approaching the multi-way divider gaps.",
+      "Anticipate sudden lane changes from state transport buses exiting towards Lalgudi link.",
+      "Keep foot ready on brakes near heavy commercial vehicle service bottlenecks."
+    ]
+  },
+  {
+    "id": "TR0018",
+    "road_name": "Trichy Semi-Ring Road Bypass - Jeeyapuram Flyover Loop Merge",
+    "city": "Jeeyapuram Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8456,
+    "longitude": 78.5812,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Merging Trajectories",
+      "Frequent Heavy Truck Queues"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Anticipate heavy commercial freight trucks merging onto the bypass loop at low speeds.",
+      "Avoid close filtering or lane splitting among stopped heavy cargo containers.",
+      "Strictly avoid lane-changing maneuvers inside elevated curve boundaries."
+    ]
+  },
+  {
+    "id": "TR0019",
+    "road_name": "Trichy - Dindigul Highway (NH-83) - Inamkulathur Junction Cross",
+    "city": "Manapparai Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7112,
+    "longitude": 78.5545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad rural openings near dry lake tracts.",
+      "Avoid dropping tyres off the main asphalt track into loose sandy margins.",
+      "Slow down near ongoing village housing layout entrances."
+    ]
+  },
+  {
+    "id": "TR0020",
+    "road_name": "Trichy - Karur Highway (NH-81) - Pettavaithalai Sugar Mill Sector",
+    "city": "Pettavaithalai",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8912,
+    "longitude": 78.4912,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Heavy Sugarcane Fleets",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt tracks molded by heavy loaders.",
+      "Expect long sugarcane trailers to make sudden turning maneuvers into gates.",
+      "Maintain large distance buffers from braking industrial cargo trailers."
+    ]
+  },
+  {
+    "id": "TR0021",
+    "road_name": "Trichy - Madurai Highway (NH-38) - Thuvarankurichi Town Bypass",
+    "city": "Thuvarankurichi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.4112,
+    "longitude": 78.3312,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Rapid Intercity Bus Transit"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow freight columns.",
+      "Stay centered inside your lane markers on straight highway bypass stretches.",
+      "Keep standard spacing parameters clear from fast-approaching public transport omnibuses."
+    ]
+  },
+  {
+    "id": "TR0022",
+    "road_name": "Lalgudi Main Road - Poovalur Cross Junction Segment",
+    "city": "Lalgudi Town Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8989,
+    "longitude": 78.8412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect local agricultural machinery merging slowly from unpaved farm paths.",
+      "Slow down near rural residential clearings where delta cattle graze.",
+      "Honk gently to clear the pathway of grazing animal herds safely."
+    ]
+  },
+  {
+    "id": "TR0023",
+    "road_name": "Thuraiyur Town Main Road - Perambalur Road Cross Market",
+    "city": "Thuraiyur Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 11.1345,
+    "longitude": 78.6012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a crawl speed through tight regional commercial market loops.",
+      "Watch for opening side doors on parked utility delivery vans.",
+      "Exercise patience while localized shopper bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TR0024",
+    "road_name": "Trichy - Pudukkottai Road (NH-336) - Gundur Industrial Area Link",
+    "city": "Trichy Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7412,
+    "longitude": 78.7456,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Industrial Heavy Freight",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Watch for deep grooves catching your wheel alignment parameters on rattered asphalt.",
+      "Maintain a wide spatial safety margin behind multi-axle industrial trailers.",
+      "Be alert for loose industrial cargo residue swept onto the tarmac markers."
+    ]
+  },
+  {
+    "id": "TR0025",
+    "road_name": "Manapparai Town Bazaar - Viralimalai Link Axis Corridor",
+    "city": "Manapparai Town Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.6056,
+    "longitude": 78.4312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow commercial infrastructure tracks.",
+      "Watch out for opening car or delivery van doors on left margins.",
+      "Be patient with unexpected pedestrian walking patterns near bazaar points."
+    ]
+  },
+  {
+    "id": "TR0026",
+    "road_name": "Musiri - Thuraiyur Road - Thathiengarpet Cross Overpass Loop",
+    "city": "Musiri Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9645,
+    "longitude": 78.4512,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Approach",
+      "Complex Multi-Way Crossings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Pick your loop lane trajectory early before negotiating old bridge entries.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Stay tightly down the center of the road fabric when track is clear."
+    ]
+  },
+  {
+    "id": "TR0027",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Thuvakudi Western Ridge Loop",
+    "city": "Thuvakudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7512,
+    "longitude": 78.8112,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Centrifugal Blind Curves",
+      "Frequent Heavy Industrial Breakdowns"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Downshift gears to control vehicle approach speed over structural loop tracks.",
+      "Yield immediate right-of-way to ascending industrial cargo trailers.",
+      "Refrain from overtaking around blind factory curve turns."
+    ]
+  },
+  {
+    "id": "TR0028",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Samayapuram Temple Access Signal Loop",
+    "city": "Samayapuram Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9242,
+    "longitude": 78.7212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Volume Pilgrim Swerving",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect sudden lane switches from local moped riders near festival rows.",
+      "Check blind spots thoroughly before executing inner lane shifts.",
+      "Keep a steady eye on the brake indicators of tracking tourist vehicles ahead."
+    ]
+  },
+  {
+    "id": "TR0029",
+    "road_name": "Trichy Semi-Ring Road Bypass - Mathur Roundabout Cross Link",
+    "city": "Mathur Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7145,
+    "longitude": 78.7489,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad rural openings near dry lake tracts.",
+      "Avoid dropping tyres off the main asphalt track into loose sandy margins.",
+      "Slow down near ongoing highway construction access clearings."
+    ]
+  },
+  {
+    "id": "TR0030",
+    "road_name": "Trichy - Dindigul Highway (NH-83) - Ramji Nagar Lower Internal link",
+    "city": "Ramji Nagar Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7412,
+    "longitude": 78.6112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near factory margins.",
+      "Avoid late evening or deep night travels along this strip layout due to poor road visibility.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TR0031",
+    "road_name": "Trichy - Karur Highway (NH-81) - Jeeyapuram Level Crossing Approach",
+    "city": "Jeeyapuram Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 8.8545,
+    "longitude": 78.5912,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Multi-Lane Bottlenecks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto highway lanes when the rail gate closes.",
+      "Avoid close filtering or lane splitting among stopped heavy trucks.",
+      "Keep foot ready on brakes near heavy commercial vehicle storage corridors."
+    ]
+  },
+  {
+    "id": "TR0032",
+    "road_name": "Trichy - Madurai Highway (NH-38) - Manikandam Bypass Link Zone",
+    "city": "Manikandam Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7112,
+    "longitude": 78.6545,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Sudden Commercial Vehicle Slowdowns"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Check side blind spots thoroughly before executing bypass lane shifts.",
+      "Anticipate slow-moving industrial trailers or machinery joining the highway tracking lines.",
+      "Maintain strict long-range vehicle safety braking spaces."
+    ]
+  },
+  {
+    "id": "TR0033",
+    "road_name": "Trichy - Karur Highway (NH-81) - Pettavaithalai Cross Link Track",
+    "city": "Pettavaithalai Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8912,
+    "longitude": 78.4912,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Continuous Sugarcane Tractor Transit"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard vehicle suspension over deep asphalt sugarcane tracks.",
+      "Watch for deep structural grooves catching your alignment wheel parameters.",
+      "Sound your horn clearly before crossing crossroad clearings near cane fields."
+    ]
+  },
+  {
+    "id": "TR0034",
+    "road_name": "Srirangam Town - Thiruvanaikoil Bridge Access Merge Route (NH-45 Route)",
+    "city": "Srirangam Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8567,
+    "longitude": 78.7112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Pilgrim Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Drive with extreme focus near regional festival shrine perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing bypass lane shifts."
+    ]
+  },
+  {
+    "id": "TR0035",
+    "road_name": "Thuraiyur - Perambalur Road (SH-142) - Border Highway Link Corridor",
+    "city": "Thuraiyur Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 11.1412,
+    "longitude": 78.6112,
+    "danger_level": "High",
+    "danger_type": [
+      "Total Absence of High-Mast Lighting",
+      "Aggressive Private Bus Overtaking"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Avoid late evening or deep night travels along this isolated stretch.",
+      "Yield right of way immediately to fast-approaching public transit buses.",
+      "Rely entirely on intense, clean low beam layouts during night transit."
+    ]
+  },
+  {
+    "id": "TR0036",
+    "road_name": "Trichy to Thiruvanaikoil Link Road - Old Kaveri River Bridge Loop Junction",
+    "city": "Srirangam Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8567,
+    "longitude": 78.7112,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Narrow Bridge Ramp Approach"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lane shifts near the bridge.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Give immediate right of way to moving heavy commercial convoys."
+    ]
+  },
+  {
+    "id": "TR0037",
+    "road_name": "Lalgudi - Anbil State Highway - Kollidam Basin Link Ferry Link Cross",
+    "city": "Lalgudi Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8889,
+    "longitude": 78.8245,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Narrow Pavement Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Watch for local riders joining the highway from agricultural tracks at high speed.",
+      "Avoid dropping tyres off asphalt onto weak unpaved soil edges near the river bank.",
+      "Check your blind spots thoroughly before changing lane positions."
+    ]
+  },
+  {
+    "id": "TR0038",
+    "road_name": "Musiri - Kulithalai Road - Main Delta Track Route",
+    "city": "Musiri Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9512,
+    "longitude": 78.4412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Crumbled Road Edges",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Avoid steering onto the broken, dropped edges of the asphalt pavement.",
+      "Slow down to let wide trailers pass by comfortably.",
+      "Be prepared for mud or loose soil tracking onto the main road from local fields."
+    ]
+  },
+  {
+    "id": "TR0039",
+    "road_name": "Trichy Town Main Bazaar Road - Chatram Bus Stand Core Commercial Loop Track",
+    "city": "Trichy Town Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8389,
+    "longitude": 78.6945,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow bazaar infrastructure tracks.",
+      "Watch out for opening car or delivery van doors on left margins.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TR0040",
+    "road_name": "Trichy - Karur Highway (NH-81) - Kambarasampettai Intake Corridor",
+    "city": "Jeeyapuram Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8412,
+    "longitude": 78.6312,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Commercial Vehicle Slowdowns",
+      "Dense River Bank Moisture Mist"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the roadside carefully for slow-moving trucks trying to park near pumping stations.",
+      "Turn on fog lights early if visibility drops due to heavy delta moisture cloud cover.",
+      "Strictly avoid harsh acceleration or braking on slick, sand-sprayed margins near the bank."
+    ]
+  },
+  {
+    "id": "TR0041",
+    "road_name": "Trichy - Pudukkottai Road (NH-336) - Central University Junction",
+    "city": "Trichy Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7245,
+    "longitude": 78.7112,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding Corridor",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden lane cuts by local transit shared autos near educational area entries.",
+      "Reduce speed during heavy downpours to mitigate skidding over smooth highway asphalt.",
+      "Keep a safe braking buffer from two-wheelers tracking closely ahead."
+    ]
+  },
+  {
+    "id": "TR0042",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Sengipatti Border Link Cross",
+    "city": "Thuvakudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7456,
+    "longitude": 78.9112,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Unregulated Median Gaps"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Do not maintain peak velocity past local village crossroad gaps.",
+      "Watch for commercial cargo trucks slowing to turn without indication.",
+      "Keep to the center-left lane unless actively overtaking slower vehicles."
+    ]
+  },
+  {
+    "id": "TR0043",
+    "road_name": "Lalgudi - Anbil State Highway - Kollidam Bridge Inflow Curve",
+    "city": "Lalgudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8745,
+    "longitude": 78.8112,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Centrifugal Skidding",
+      "Dense Roadside Vegetation Obstruction"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "De-accelerate significantly before carving the initial sweeping bend near the bridge.",
+      "Sound your horn repeatedly around blind curves wrapped in dense riverbank foliage.",
+      "Strictly avoid lane splitting around transport trucks on corners."
+    ]
+  },
+  {
+    "id": "TR0044",
+    "road_name": "Thuraiyur - Perambalur Road (SH-142) - Toll Plaza Approach",
+    "city": "Thuraiyur Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 11.1456,
+    "longitude": 78.6389,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Freight Merges",
+      "Sharp Reverse Curve Sequence"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Yield right of way to multi-axle industrial cargo container carriers.",
+      "Reduce approach speed significantly before steering into successive bends.",
+      "Avoid overtaking commercial transport trucks near tight structural turns."
+    ]
+  },
+  {
+    "id": "TR0045",
+    "road_name": "Musiri - Kulithalai Road - Pettavaithalai Terminal Loop",
+    "city": "Musiri Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9389,
+    "longitude": 78.4712,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Junction Crossings",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Honk significantly before crossroad blind spots near delta farming zones.",
+      "Expect slow paddy and sugarcane trailers to make sudden turning maneuvers.",
+      "Signal transitions early before turning off toward village links."
+    ]
+  },
+  {
+    "id": "TR0046",
+    "road_name": "Manapparai - Thuvarankurichi Intermediate Road - Cross Route Link",
+    "city": "Manapparai Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.5845,
+    "longitude": 78.4212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Concrete Speed Breakers",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for crude rural village speed humps.",
+      "Slow down fully when moving past local household clearings.",
+      "Use your horn to clear the pathway of grazing cattle safely."
+    ]
+  },
+  {
+    "id": "TR0047",
+    "road_name": "Trichy - Karur Highway (NH-81) - Pettavaithalai Village Stretch",
+    "city": "Pettavaithalai Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8889,
+    "longitude": 78.4812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Width",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Avoid dropping tyres off the asphalt track onto soft soil edges.",
+      "Pull over or slow to a crawl if a heavy commercial vehicle approaches.",
+      "Keep speed low during evening commute and twilight hours."
+    ]
+  },
+  {
+    "id": "TR0048",
+    "road_name": "Trichy Semi-Ring Road Bypass - Mathur Junction Intersecting Corridor",
+    "city": "Mathur Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7145,
+    "longitude": 78.7412,
+    "danger_level": "High",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Lighting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid night travel due to absolute darkness and lack of road reflectors.",
+      "Scan the tarmac closely for extensive, water-logged surface craters.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TR0049",
+    "road_name": "Trichy - Karur Highway (NH-81) - Jeeyapuram River Bank Segment",
+    "city": "Jeeyapuram Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8512,
+    "longitude": 78.5989,
+    "danger_level": "High",
+    "danger_type": [
+      "River Bank Skidding Zone",
+      "Continuous Heavy Tipper Transit"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Do not challenge aggressive construction material or sand tippers.",
+      "Keep away from the weak, unpaved edge next to the river channel.",
+      "Maintain strict lane discipline and avoid close-quarter overtaking."
+    ]
+  },
+  {
+    "id": "TR0050",
+    "road_name": "Musiri - Thuraiyur Road - Thathiengarpet Segment Bends",
+    "city": "Musiri Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9612,
+    "longitude": 78.4489,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Zig-Zag Hairpin Bends",
+      "Dense Tree Line Visibility Obstruction"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound your horn continuously around dense mountain-side blind curves.",
+      "Downshift to utilize engine braking on winding descent tracks.",
+      "Stay tightly within your designated border lane lines."
+    ]
+  },
+  {
+    "id": "TR0051",
+    "road_name": "Trichy Town Bazaar Road - Central Bus Stand High Axis Link",
+    "city": "Trichy Town Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7889,
+    "longitude": 78.6845,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Crosswind Skidding",
+      "Heavy Grain and Cargo Tractor Movements"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep firm control of the steering wheel during high plain wind gusts across fields.",
+      "Yield right of way to heavily loaded commercial tractors and trailers.",
+      "Watch for loose soil runoff or sand layers swept onto the tarmac."
+    ]
+  },
+  {
+    "id": "TR0052",
+    "road_name": "Trichy Town Main Bazaar Road - Chatram Bus Stand Overpass Loop",
+    "city": "Trichy Town Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8345,
+    "longitude": 78.6912,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Over-Speeding Zone",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow logistics queues.",
+      "Expect sudden tracking drift from non-local highway transit drivers.",
+      "De-accelerate safely before entering sweeping elevated radial curves."
+    ]
+  },
+  {
+    "id": "TR0053",
+    "road_name": "Trichy - Karur Highway (NH-81) - Jeeyapuram Bypass Link Route",
+    "city": "Jeeyapuram Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8512,
+    "longitude": 78.5889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Blind Spots",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossing crossroad clearings near fields.",
+      "Avoid dropping tyres off the main asphalt track into loose sand margins.",
+      "Expect heavy transit transport or agricultural machinery to cross unexpectedly."
+    ]
+  },
+  {
+    "id": "TR0054",
+    "road_name": "Trichy - Karur Highway (NH-81) - Kambarasampettai Intake Corridor Link",
+    "city": "Jeeyapuram Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8456,
+    "longitude": 78.6345,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding Corridor",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden lane cuts by local transit shared autos near pumping station entries.",
+      "Reduce speed during heavy downpours to mitigate high-speed skidding on damp paths.",
+      "Keep a safe braking buffer from two-wheelers tracking closely ahead."
+    ]
+  },
+  {
+    "id": "TR0055",
+    "road_name": "Lalgudi - Anbil State Highway - Kollidam Junction Corner",
+    "city": "Lalgudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8845,
+    "longitude": 78.8212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Squeeze",
+      "Erratic Auto-Rickshaw Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Maintain a slow crawling velocity through narrow transit structures near the market town.",
+      "Expect local auto-rickshaws to stop suddenly near neighborhood community commuter links.",
+      "Avoid overtaking commercial delivery vehicles from narrow left margins."
+    ]
+  },
+  {
+    "id": "TR0056",
+    "road_name": "Trichy Semi-Ring Road Bypass - Mathur Roundabout Flyover Loop",
+    "city": "Mathur Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7145,
+    "longitude": 78.7489,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Rapid Intercity Bus Transit"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your lane trajectory early before navigating around the bypass loops.",
+      "Do not challenge aggressive public transport coaches near junction openings.",
+      "Watch for two-wheelers jumping trailing amber traffic signal lights."
+    ]
+  },
+  {
+    "id": "TR0057",
+    "road_name": "Srirangam Bazaar Main Street - Ranganathaswamy Temple Inflow Route",
+    "city": "Srirangam",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8612,
+    "longitude": 78.6889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at crawling speed through tight market bazaar loops near shrines.",
+      "Watch for opening side doors on parked delivery vehicles.",
+      "Exercise patience while local pilgrim pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TR0058",
+    "road_name": "Trichy - Pudukkottai Road (NH-336) - Airport Industrial Cross",
+    "city": "Trichy Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7612,
+    "longitude": 78.7189,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Heavy Logistics Freight Merging"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect long multi-axle trailers pulling out from warehouse storage paths.",
+      "Avoid overtaking commercial delivery vehicles from the inner left margins.",
+      "Be alert for local transit mini-buses executing sudden passenger drops."
+    ]
+  },
+  {
+    "id": "TR0059",
+    "road_name": "Thuraiyur - Perambalur Road (SH-142) - Pachamalai Loop Section",
+    "city": "Thuraiyur Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 11.1412,
+    "longitude": 78.6112,
+    "danger_level": "High",
+    "danger_type": [
+      "Two-Wheeler Cluster Swerving",
+      "Unmarked Concrete Construction Steps"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Scan the dark asphalt carefully for sudden variations or deep craters.",
+      "Signal intents early before executing any detour lane deviations."
+    ]
+  },
+  {
+    "id": "TR0060",
+    "road_name": "Trichy Semi-Ring Road Bypass - Jeeyapuram Flyover Loop Merge Axis",
+    "city": "Jeeyapuram Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8412,
+    "longitude": 78.5812,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Heavy Container Inflow",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow freight columns.",
+      "Keep wide spacing coordinates behind heavily loaded cargo trucks.",
+      "Roll up windows due to high airborne dust layers kicked up by logistics transport."
+    ]
+  },
+  {
+    "id": "TR0061",
+    "road_name": "Trichy to Thiruvanaikoil Link Road - Old Kaveri River Access Corridor",
+    "city": "Srirangam Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8545,
+    "longitude": 78.7145,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Tourism Freight Clusters",
+      "Oil Slick Vulnerability"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise high caution near river gaps due to potential wet sand and residue drop.",
+      "Maintain a massive tracking gap behind empty speeding tourist trailers.",
+      "Avoid harsh cornering or heavy braking inputs to prevent traction loss."
+    ]
+  },
+  {
+    "id": "TR0062",
+    "road_name": "Trichy Town Main Bazaar Road - Chatram Bus Stand Connection Link",
+    "city": "Trichy Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8345,
+    "longitude": 78.6912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Volume Commuter Swerving",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect local share-autos to brake or pull over blindly on the left lanes.",
+      "Check blind spots thoroughly before moving across main market corridors.",
+      "Keep track of multiple accelerating two-wheelers from side town links."
+    ]
+  },
+  {
+    "id": "TR0063",
+    "road_name": "Trichy Town Bazaar Road - Central Bus Stand Entry Overpass Approach",
+    "city": "Trichy Town Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 78.6812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Complex Multi-Way Crossings",
+      "Vulnerable Pedestrian Crossings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Do not speed past open median gaps or unstructured crossroads.",
+      "Anticipate local riders traveling against traffic on the road margins.",
+      "Give immediate right of way to pedestrians navigating intersection lanes."
+    ]
+  },
+  {
+    "id": "TR0064",
+    "road_name": "Manapparai Town Bazaar - Viralimalai Link Gate Segment",
+    "city": "Manapparai Town Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.6056,
+    "longitude": 78.4312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Squeeze",
+      "High Pedestrian Density"
+    ],
+    "speed_limit": 35,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawling velocity through narrow checkpoint paths near market blocks.",
+      "Watch for shoppers stepping out unexpectedly behind parked factory cargo vans.",
+      "Refrain from using high-decibel horns near local residential fields."
+    ]
+  },
+  {
+    "id": "TR0065",
+    "road_name": "Musiri - Thuraiyur Road - Thathiengarpet Access Bridge Inflow Axis",
+    "city": "Musiri Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9612,
+    "longitude": 78.4489,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Tourist Parking",
+      "Erratic Two-Wheeler Parking"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden holiday transport vans to drop speed or swerve near bridges.",
+      "Use indicator turn signals early before leaving the main track lanes.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TR0066",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Thuvakudi Road Cross Loop",
+    "city": "Thuvakudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7512,
+    "longitude": 78.8112,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Lane Bottlenecks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Anticipate sudden highway freight traffic backing up near industrial connections.",
+      "Avoid close filtering or lane splitting among stopped heavy cargo trailers.",
+      "Keep foot ready on brakes near heavy commercial vehicle service links."
+    ]
+  },
+  {
+    "id": "TR0067",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Samayapuram Loop Approach",
+    "city": "Samayapuram Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9289,
+    "longitude": 78.7245,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Swerving",
+      "Heavy Tourism Fleet Flow"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "De-accelerate significantly before carving the initial toll plaza bend.",
+      "Keep firmly within your designated tracking lane boundary marks.",
+      "Avoid overtaking or rapid throttling actions inside the temple approaches."
+    ]
+  },
+  {
+    "id": "TR0068",
+    "road_name": "Chennai - Trichy Highway (NH-45) - No-1 Tollgate Link Split",
+    "city": "Trichy Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8745,
+    "longitude": 78.7189,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lateral shifting.",
+      "Strictly avoid crossing center lane markings to pass slow commuter rows.",
+      "Blink your headlights when approaching the unlit cross intersection."
+    ]
+  },
+  {
+    "id": "TR0069",
+    "road_name": "Trichy - Karur Highway (NH-81) - Pettavaithalai Sugar Mill Section",
+    "city": "Pettavaithalai",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8912,
+    "longitude": 78.4912,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Inter-State Freight Merges",
+      "High Velocity Merging Trajectories"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect heavy multi-axle trucks turning sharply from plant logistics roads.",
+      "Use explicit side indicator flashes early before navigating loops.",
+      "Maintain a massive tracking gap behind heavy industrial vehicles."
+    ]
+  },
+  {
+    "id": "TR0070",
+    "road_name": "Trichy - Pudukkottai Road (NH-336) - Airport Terminal Link School Zone Area",
+    "city": "Trichy Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7645,
+    "longitude": 78.7212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Student Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Drive with extreme focus near regional educational complex perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing lane shifts."
+    ]
+  },
+  {
+    "id": "TR0071",
+    "road_name": "Musiri - Kulithalai Road - Cauvery Iron Bridge Rural Track",
+    "city": "Musiri Town Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9512,
+    "longitude": 78.4412,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Culvert Squeezes",
+      "Eroded Asphalt Edges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down before negotiating old masonry brick culverts near the fields.",
+      "Keep tires firmly off the crumbled margins to prevent structural drops.",
+      "Signal intents early to trailing traffic blocks before stopping."
+    ]
+  },
+  {
+    "id": "TR0072",
+    "road_name": "Thuraiyur - Perambalur Road (SH-142) - Border High Curve Extension",
+    "city": "Thuraiyur Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 11.1412,
+    "longitude": 78.6112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Speed Skidding Curves",
+      "Lack of Side Reflectors"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "De-accelerate well ahead of the sweeping open curves.",
+      "Utilize low-beam patterns during night transit windows.",
+      "Keep vehicle alignment centered in your respective tracking tier."
+    ]
+  },
+  {
+    "id": "TR0073",
+    "road_name": "Manapparai Town Bazaar - Viralimalai Link Market Link Track",
+    "city": "Manapparai Town Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.6056,
+    "longitude": 78.4312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Blind Spots",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossing crossroad clearings.",
+      "Avoid dropping tyres off the main asphalt track into loose sand.",
+      "Expect agricultural machinery merging slowly from farm paths."
+    ]
+  },
+  {
+    "id": "TR0074",
+    "road_name": "Trichy - Dindigul Highway (NH-83) - Inamkulathur Village Inflow Link",
+    "city": "Manapparai Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7112,
+    "longitude": 78.5545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near the rural margins.",
+      "Avoid late evening or deep night travels along this strip.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TR0075",
+    "road_name": "Trichy Town Bazaar Road - Central Bus Stand Link Access (Near Market)",
+    "city": "Trichy Town Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 78.6812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Unmarked Earthen Speed Breakers"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto the approach lanes near wholesale zones.",
+      "Keep eyes peeled for crude village speed humps near trading checkpoints.",
+      "Honk gently to clear pathways of stray loaders or heavy equipment."
+    ]
+  },
+  {
+    "id": "TR0076",
+    "road_name": "Trichy - Karur Highway (NH-81) - Jeeyapuram Flyover Mountain View Access Corridor",
+    "city": "Jeeyapuram Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8456,
+    "longitude": 78.5812,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Tourism Freight Clusters",
+      "Oil Slick Vulnerability"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise high caution near loop structures due to potential wet residue drop.",
+      "Maintain a massive tracking gap behind empty speeding container trailers.",
+      "Avoid harsh cornering or heavy braking inputs to prevent traction loss."
+    ]
+  },
+  {
+    "id": "TR0077",
+    "road_name": "Trichy Semi-Ring Road Bypass - Jeeyapuram Flyover Core Bridge Loops (Near Overpass)",
+    "city": "Jeeyapuram Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8456,
+    "longitude": 78.5812,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Complex Multi-Way Crossings"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lane shifts near the flyover structures.",
+      "Anticipate multi-axle freight logistics carriers executing sharp lateral cuts.",
+      "Keep standard spacing parameters clear from the vehicle ahead."
+    ]
+  },
+  {
+    "id": "TR0078",
+    "road_name": "Trichy Town Main Bazaar Road - Chatram Bus Stand Core Trading Street",
+    "city": "Trichy Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8389,
+    "longitude": 78.6945,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at crawling speed through tight market bazaar loops.",
+      "Watch for opening side doors on parked delivery vehicles.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear."
+    ]
+  },
+  {
+    "id": "TR0079",
+    "road_name": "Trichy - Karur Highway (NH-81) - Pettavaithalai Sugar Mill Town Market Area",
+    "city": "Pettavaithalai",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8912,
+    "longitude": 78.4912,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Turns",
+      "Asphalt Deformity"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Slow down near the main refinery processing and logistics parking gates.",
+      "Watch out for deep tire tracks molded into the soft asphalt by heavy loaders.",
+      "Give turning loaded sugarcane trucks and transport trailers a wide berth."
+    ]
+  },
+  {
+    "id": "TR0080",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - NIT Trichy Town College Cross",
+    "city": "Thuvakudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7589,
+    "longitude": 78.8245,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Intersection Crossings",
+      "Lack of Road Markings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound your horn before crossing minor educational institution access lanes.",
+      "Drive down the center of the road when oncoming lanes are clear of traffic.",
+      "Expect unexpected crossings by local students and regional commuters."
+    ]
+  },
+  {
+    "id": "TR0081",
+    "road_name": "Chennai - Trichy Highway (NH-45) - Samayapuram Toll Plaza Junction Bend link",
+    "city": "Samayapuram Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9289,
+    "longitude": 78.7245,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Reverse Curve",
+      "High-Speed Over-Speeding Zone"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "De-accelerate before entering the initial left-hand bend near the toll barriers.",
+      "Stay well within your lane to avoid drifting into oncoming logistics traffic.",
+      "Avoid overtaking long commercial transport trucks on this curve stretch."
+    ]
+  },
+  {
+    "id": "TR0082",
+    "road_name": "Lalgudi - Anbil State Highway - Kollidam Basin view link",
+    "city": "Lalgudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8889,
+    "longitude": 78.8245,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Eroded Road Shoulders",
+      "Pedestrian Footpath Encroachments"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep away from the weak, unpaved edge next to the running water channel.",
+      "Slow down when navigating past dense roadside commercial trading stalls.",
+      "Be prepared to stop if pedestrians step off the narrow path onto the tarmac."
+    ]
+  },
+  {
+    "id": "TR0083",
+    "road_name": "Trichy to Thiruvanaikoil Link Road - Old Kaveri River Bridge Loop Route",
+    "city": "Srirangam Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8567,
+    "longitude": 78.7112,
+    "danger_level": "High",
+    "danger_type": [
+      "Hidden Curve Crests",
+      "Narrow Culvert Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Flash your high beams during evening trips around blind bridge access ramps.",
+      "Yield structural priority to wider incoming commercial trailers.",
+      "Approach old masonry pipe culverts with high caution."
+    ]
+  },
+  {
+    "id": "TR0084",
+    "road_name": "Trichy Town Bazaar Road - Central Bus Stand Viewpoint Descent Junction",
+    "city": "Trichy Town Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7912,
+    "longitude": 78.6812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Concrete Level Step",
+      "Pedestrian Foot-Traffic Inflow"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the dark asphalt for crude bridge approach infrastructure level differences.",
+      "Slow down near the historical city terminal boundary walls.",
+      "Watch for pedestrians walking on the side margins due to high commuter congestion."
+    ]
+  },
+  {
+    "id": "TR0085",
+    "road_name": "Thuraiyur Town Main Road - Perambalur Road S-Curve Link",
+    "city": "Thuraiyur Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 11.1345,
+    "longitude": 78.6012,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Zig-Zag S-Curve",
+      "Heavy Agricultural Freight Interferences"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Honk repeatedly to warn oncoming traffic before entering successive turns.",
+      "Do not attempt any sudden steering corrections on the bend fabric.",
+      "Keep your speed stable and low until the rural road completely straightens."
+    ]
+  },
+  {
+    "id": "TR0086",
+    "road_name": "Trichy - Pudukkottai Road (NH-336) - Airport Terminal Link Core Cross Link Loop",
+    "city": "Trichy Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7645,
+    "longitude": 78.7212,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Delivery Trucks",
+      "Severe Smoke Clouds"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Turn on low beams if heavy vehicle exhaust lowers traffic visibility near transit hubs.",
+      "Maintain a massive tracking gap behind heavy multi-axle wholesale logistics.",
+      "Watch for loose commercial loads dropping from uncovered trailers."
+    ]
+  },
+  {
+    "id": "TR0087",
+    "road_name": "Srirangam Bazaar Main Street - Ranganathaswamy Temple Village Main Extension",
+    "city": "Srirangam Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8645,
+    "longitude": 78.6889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sudden Commercial Pullovers",
+      "Merging Highway Lanes"
+    ],
+    "speed_limit": 55,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Anticipate erratic lane shifts from visiting out-station motorists.",
+      "Use proper indicator turn signals early before leaving the highway axis.",
+      "Keep your focus sharp on pedestrians crossing near pilgrim marketplace hubs."
+    ]
+  },
+  {
+    "id": "TR0088",
+    "road_name": "Trichy Semi-Ring Road Bypass - Mathur Roundabout Junction Route",
+    "city": "Mathur Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7112,
+    "longitude": 78.7456,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Lack of Center Divider"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Strictly avoid crossing the middle of the road to pass slow freight columns.",
+      "Stay centered inside your lane markers on straight highway bypass stretches.",
+      "Slow down if oncoming vehicles begin drifting over the center line track."
+    ]
+  },
+  {
+    "id": "TR0089",
+    "road_name": "Manapparai Town Bazaar - Viralimalai Link Bridge Check Zone",
+    "city": "Manapparai Town Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.6056,
+    "longitude": 78.4312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Narrow Bridge Ramp Approach"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Watch for local riders joining the highway from commercial tracks at high speed.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Check your blind spots thoroughly before changing lane positions."
+    ]
+  },
+  {
+    "id": "TR0090",
+    "road_name": "Musiri - Kulithalai Road - internal corridor road track",
+    "city": "Musiri Town Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.9512,
+    "longitude": 78.4412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Crumbled Road Edges",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Avoid steering onto the broken, dropped edges of the asphalt pavement.",
+      "Slow down to let wide farming trailers pass by comfortably.",
+      "Be prepared for mud or loose soil tracking onto the main road from local fields."
+    ]
+  },
+  {
+    "id": "TR0091",
+    "road_name": "Trichy - Dindigul Highway (NH-83) - Inamkulathur Winding access link loop",
+    "city": "Manapparai Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7112,
+    "longitude": 78.5545,
+    "danger_level": "High",
+    "danger_type": [
+      "Aggressive Private Bus Overtaking",
+      "Poor Night Visibility"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Yield right of way immediately to fast-approaching public transit buses.",
+      "Rely on low beams and look for side reflectors on night drives.",
+      "Maintain a safe braking distance from commercial vehicles traveling ahead."
+    ]
+  },
+  {
+    "id": "TR0092",
+    "road_name": "Trichy Town Main Bazaar Road - Chatram Bus Stand Core Cross Junction Link",
+    "city": "Trichy Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8389,
+    "longitude": 78.6945,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Commercial Encroachments",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a crawl speed through tight wholesale market bazaar structures.",
+      "Watch for opening car doors on parked delivery vehicles.",
+      "Exercise high patience while town shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TR0093",
+    "road_name": "Trichy to Thiruvanaikoil Link Road - Old Kaveri River Bridge Approach 2 Loop",
+    "city": "Srirangam Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8567,
+    "longitude": 78.7112,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Delta Truck Jackknifing",
+      "Severe Brake Fade Risk"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Strictly preserve low gear configurations on descending vectors near the river bridge.",
+      "Do not attempt any overlapping overtaking past heavy sand trailers.",
+      "Stay highly centered within the lane structural boundaries."
+    ]
+  },
+  {
+    "id": "TR0094",
+    "road_name": "Lalgudi - Anbil State Highway - Kollidam Crossing Depot Area",
+    "city": "Lalgudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8889,
+    "longitude": 78.8245,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Soft Sandy Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Honk clearly before crossroad blind spots near plantation borders.",
+      "Keep tyres firmly on the asphalt track layout.",
+      "Avoid overtaking near muddy local farm routes."
+    ]
+  },
+  {
+    "id": "TR0095",
+    "road_name": "Trichy - Pudukkottai Road (NH-336) - Airport Terminal Link Road - Cargo Section Stretch",
+    "city": "Trichy Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7645,
+    "longitude": 78.7212,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding",
+      "Lack of Side Reflectors"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Reduce speed on the sweeping open curves past transit boundaries.",
+      "Utilize low-beam patterns during night transits.",
+      "Maintain a safe tracking gap between heavy logistics vehicles."
+    ]
+  },
+  {
+    "id": "TR0096",
+    "road_name": "Trichy - Karur Highway (NH-81) - Pettavaithalai Sugar Mill Loops - Internal Cross Link",
+    "city": "Pettavaithalai",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8912,
+    "longitude": 78.4912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for craters near heavy industrial complexes.",
+      "Do not travel at high speeds at night along unlit lines.",
+      "Yield to opposing trucks to safely pass road pavement cracks."
+    ]
+  },
+  {
+    "id": "TR0097",
+    "road_name": "Tiruchirappalli - Thanjavur Highway (NH-83) - Thuvakudi Junction Overpass Flyover Loops",
+    "city": "Thuvakudi Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7512,
+    "longitude": 78.8112,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Reverse S-Curve",
+      "Dense Scrub Obstructions"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "De-accelerate before entering the winding flyover merge sequence.",
+      "Sound horn continuously around blind roadside vegetation layers.",
+      "Stay tightly within your designated border lane markers."
+    ]
+  },
+  {
+    "id": "TR0098",
+    "road_name": "Lalgudi - Anbil State Highway - Kollidam Basin Link Bridge Inflow",
+    "city": "Lalgudi Outskirts",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8889,
+    "longitude": 78.8245,
+    "danger_level": "High",
+    "danger_type": [
+      "River Bank Skidding Risk",
+      "Narrow Pavement Width"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise strict caution during heavy monsoon runoff spikes near the river basin.",
+      "Do not attempt any pass on the narrow bund track sections.",
+      "Slow to a crawl if a wide public transit bus approaches."
+    ]
+  },
+  {
+    "id": "TR0099",
+    "road_name": "Thuraiyur Town Main Road - Perambalur Road Cross - Market Loop Sector",
+    "city": "Thuraiyur Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 11.1345,
+    "longitude": 78.6012,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Erratic Shared-Auto Pullovers",
+      "Two-Wheeler Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden transit vehicle halts near regional agricultural trade blocks.",
+      "Keep a safe radius from commuter two-wheelers ahead.",
+      "Check side mirrors carefully before turning off the commercial path."
+    ]
+  },
+  {
+    "id": "TR0100",
+    "road_name": "Trichy Semi-Ring Road Bypass - Mathur Roundabout Access Corridor",
+    "city": "Mathur Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7112,
+    "longitude": 78.7456,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Freight Corridor",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt bypass tracks.",
+      "Watch for deep grooves catching your wheel alignment parameters.",
+      "Maintain a massive distance behind industrial maritime freight fleets."
+    ]
+  },
+  {
+    "id": "TR0101",
+    "road_name": "Srirangam Bazaar Main Street - Ranganathaswamy Temple Crossing Access",
+    "city": "Srirangam Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8645,
+    "longitude": 78.6889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Earthen Speed Breakers",
+      "Domestic Animal Crossings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep eyes peeled for crude village speed humps over the tarmac segments.",
+      "Slow down near regional properties and pilgrim rest perimeters.",
+      "Honk gently to clear pathways of stray local livestock units."
+    ]
+  },
+  {
+    "id": "TR0102",
+    "road_name": "Trichy - Karur Highway (NH-81) - Jeeyapuram Winding River Access Loop",
+    "city": "Jeeyapuram Area",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8545,
+    "longitude": 78.5912,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Inter-District Buses",
+      "Sudden Intersection Merges"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Refrain from maximum speeds past open crossroad clearings near river valleys.",
+      "Anticipate slow-moving sand tractors joining the delta tracking fabric.",
+      "Keep low beams functional during twilight or dusk tracking hours."
+    ]
+  },
+  {
+    "id": "TR0103",
+    "road_name": "Trichy - Dindigul Highway (NH-83) - Ramji Nagar Bridge Corner Loop",
+    "city": "Ramji Nagar",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.7412,
+    "longitude": 78.6112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Culvert Squeezes",
+      "Eroded Asphalt Edges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down before old concrete culvert structures near the industrial links.",
+      "Keep tires clear of fractured road borders to prevent drop-off skids.",
+      "Signal intents early to trailing factory logistics traffic columns."
+    ]
+  },
+  {
+    "id": "TR0104",
+    "road_name": "Trichy Town Main Bazaar Road - Chatram Bus Stand Core Extension Link Route",
+    "city": "Trichy Town",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "latitude": 10.8389,
+    "longitude": 78.6945,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Hairpin Bends",
+      "Tree Line Visibility Obstruction"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Cut down speed significantly before entry curves around busy market intersections.",
+      "Maintain a centered line on the driving track layout blocks.",
+      "Sound your horn to alert opposing hidden city logistics drivers."
     ]
   }
+]

@@ -165,7 +165,7 @@ def classify_query(question: str, history: list[ConversationTurn] | None = None)
         emergency_keywords=emergency_keywords,
         location_intent=location_intent,
         needs_location_services=location_intent
-        or intent in {"hospital", "police", "towing", "route", "danger_zone", "showroom", "puncture_shop"},
+        or intent in {"ambulance", "hospital", "police", "towing", "route", "danger_zone", "showroom", "puncture_shop"},
         greeting=normalized in GREETING_TEXTS,
         casual_chat=normalized in CASUAL_TEXTS,
         thanks=normalized in THANKS_TEXTS,
@@ -176,7 +176,20 @@ def classify_query(question: str, history: list[ConversationTurn] | None = None)
 
 
 def detect_intent(text: str, tokens: set[str]) -> str:
-    if tokens & {"hospital", "hospitals", "ambulance", "doctor", "medical", "clinic"}:
+    if "ambulance" in tokens or any(
+        phrase in text
+        for phrase in {
+            "need ambulance",
+            "nearby ambulance",
+            "closest ambulance",
+            "emergency ambulance",
+            "ambulance near me",
+            "find ambulance",
+            "call ambulance",
+        }
+    ):
+        return "ambulance"
+    if tokens & {"hospital", "hospitals", "doctor", "medical", "clinic"}:
         return "hospital"
     if tokens & {"showroom", "showrooms", "dealer", "dealership"} or "bike shop" in text:
         return "showroom"
@@ -212,6 +225,8 @@ def detect_category(text: str, tokens: set[str], intent: str, emergency_detected
         return "Emergency"
     if intent == "route":
         return "Navigation"
+    if intent == "ambulance":
+        return "Ambulance"
     if intent == "hospital":
         return "Hospital"
     if intent == "police":
@@ -230,7 +245,7 @@ def detect_category(text: str, tokens: set[str], intent: str, emergency_detected
 
 
 def detect_location_intent(text: str, intent: str) -> bool:
-    if intent in {"hospital", "police", "towing", "route", "danger_zone", "alert", "showroom", "puncture_shop"}:
+    if intent in {"ambulance", "hospital", "police", "towing", "route", "danger_zone", "alert", "showroom", "puncture_shop"}:
         return True
     return any(term in text for term in LOCATION_TERMS)
 

@@ -77,6 +77,21 @@ export type TowingService = {
   route_waypoints?: RoutePoint[];
 };
 
+export type Ambulance = {
+  id: string;
+  ambulance_id: string;
+  name: string;
+  lat: number | null;
+  lng: number | null;
+  phone: string;
+  status: "available" | "busy";
+  distance_km?: number | null;
+  eta?: string | null;
+  eta_minutes?: number | null;
+  updated_at?: string | null;
+  route_waypoints?: RoutePoint[];
+};
+
 export type RoutePoint = { lat: number; lng: number };
 
 export type ServiceRoute = {
@@ -98,6 +113,7 @@ export type NearestResponse<T> = {
 
 export type EmergencyContext = {
   user_location?: RoutePoint;
+  nearest_ambulance?: Ambulance | null;
   nearest_hospital?: Hospital | null;
   nearest_police?: PoliceStation | null;
   nearest_tow?: TowingService | null;
@@ -212,6 +228,9 @@ export const api = {
   towing: (lat?: number, lng?: number) =>
     request<TowingService[]>(`/api/towing${locationQuery(lat, lng)}`),
 
+  ambulances: (lat: number, lng: number, limit = 3) =>
+    request<Ambulance[]>(`/api/ambulances${ambulanceQuery(lat, lng, limit)}`),
+
   nearestHospital: async (lat: number, lng: number, limit = 3) => ({
     ok: true,
     results: (await request<Hospital[]>(`/api/hospitals${locationQuery(lat, lng)}`)).slice(0, limit),
@@ -225,6 +244,11 @@ export const api = {
   nearestTow: async (lat: number, lng: number, limit = 3) => ({
     ok: true,
     results: (await request<TowingService[]>(`/api/towing${locationQuery(lat, lng)}`)).slice(0, limit),
+  }),
+
+  nearestAmbulances: async (lat: number, lng: number, limit = 3) => ({
+    ok: true,
+    results: await request<Ambulance[]>(`/api/ambulances${ambulanceQuery(lat, lng, limit)}`),
   }),
 
   locationRoute: (lat: number, lng: number, service = "hospital") =>
@@ -270,6 +294,11 @@ export const api = {
 
 function routeQuery(lat: number, lng: number, service: string) {
   const params = new URLSearchParams({ lat: String(lat), lng: String(lng), service });
+  return `?${params.toString()}`;
+}
+
+function ambulanceQuery(lat: number, lng: number, limit: number) {
+  const params = new URLSearchParams({ lat: String(lat), lng: String(lng), limit: String(limit) });
   return `?${params.toString()}`;
 }
 

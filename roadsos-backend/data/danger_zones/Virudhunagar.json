@@ -1,14 +1,2378 @@
-{
+[
+  {
+    "id": "VNR0001",
+    "road_name": "Madurai - Tirunelveli Highway (NH-44) - Virudhunagar Collectorate Junction",
+    "city": "Virudhunagar Outskirts",
     "district": "Virudhunagar",
-    "road_name": "Madurai-Kayathar Road",
-    "highway": "NH-44",
-    "location": "Pullalakkottai",
-    "latitude": 9.5882,
-    "longitude": 77.9574,
-    "risk_level": "Very High",
-    "road_type": "National Highway",
-    "major_cause": [
-      "High-speed corridor",
-      "Poor pedestrian crossing"
+    "state": "Tamil Nadu",
+    "latitude": 9.5912,
+    "longitude": 77.9645,
+    "danger_level": "Critical",
+    "danger_type": [
+      "High-Speed Express Transit Intersecting Heavy Local Government Traffic",
+      "Lack of Grade-Separated Roundabouts Forcing Abrupt U-Turns Across Highway Lanes"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Stay strictly in the middle or right lane to dodge local traffic pulling out from side access points.",
+      "Check your side mirrors continuously when passing the collectorate layout breaks.",
+      "Strictly avoid quick acceleration spurts near the pedestrian crossing segments."
     ]
-}
+  },
+  {
+    "id": "VNR0002",
+    "road_name": "Thirumangalam - Rajapalayam Road (NH-744) - Srivilliputhur Temple Car Street Curve",
+    "city": "Srivilliputhur Urban Core",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5089,
+    "longitude": 77.6312,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing near Heritage Landmark Entrances",
+      "Heavy Mix of Fast-Moving Inter-District Trucks and Local Pilgrim Foot Traffic"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at highly reduced, walking pace speeds when passing the active market perimeters.",
+      "Watch closely for sudden pedestrian crossings and non-motorized festival handcarts.",
+      "Strictly avoid overtaking any vehicle near the historic town bottleneck points."
+    ]
+  },
+  {
+    "id": "VNR0003",
+    "road_name": "Sivakasi - Virudhunagar Road (SH-42) - Amatthur Cracker Factory Ingress Bend",
+    "city": "Amatthur Village",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5512,
+    "longitude": 77.8845,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Sweeping Curvatures Locked tightly past High Factory Compound Barriers",
+      "Low Nighttime Visibility Intersecting Heavy Multi-Axle Industrial Freight Trucks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Brake completely on the straight approach before committing to the steering curve.",
+      "Flash your high beams at night to alert heavy warehouse vehicles at turning bays.",
+      "Avoid tracking close to the unpaved shoulders where industrial gravel settles."
+    ]
+  },
+  {
+    "id": "VNR0004",
+    "road_name": "Rajapalayam - Tenkasi Road (NH-744) - Chatrapatti Level Crossing Section",
+    "city": "Chatrapatti Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4112,
+    "longitude": 77.4889,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Build-up Reaching Fast Highway Transit Corridors",
+      "Erratic Lane Splitting by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if positioned at the tail end of a sudden queue.",
+      "Do not switch into opposite lanes to bypass waiting railway line blocks.",
+      "Maintain a safe braking distance from the heavy vehicle waiting ahead on the slant."
+    ]
+  },
+  {
+    "id": "VPM0005",
+    "road_name": "Aruppukottai - Sayalgudi Road (SH-38) - Pandalgudi Rural Crossroad Fork",
+    "city": "Pandalgudi Rural Section",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4312,
+    "longitude": 78.1114,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking Retroreflective Route Stud Markings",
+      "Frequent Merging of Slow Farming Tractors onto High-Speed State Links"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Signal your path choices early to alert closely following heavy transport vehicles.",
+      "Scan both intersections actively with your foot covering the brake pedal."
+    ]
+  },
+  {
+    "id": "VNR0006",
+    "road_name": "Sattur - Sivakasi Road (SH-112) - Thayilpatti Firework Zone Choke Point",
+    "city": "Thayilpatti",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4145,
+    "longitude": 77.8112,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Commercial Shop Front Displays",
+      "Haphazard Two-Wheeler Parking Constraining Active Carriage Trajectories"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate pedestrian workers stepping out abruptly.",
+      "Avoid all overtaking maneuvers within the active manufacturing hub center.",
+      "Use your horn sparingly to prevent causing panic or confusion to local foot traffic."
+    ]
+  },
+  {
+    "id": "VNR0007",
+    "road_name": "Sivakasi - Srivilliputhur Road (SH-42) - Mamsapuram School Corner Curve",
+    "city": "Mamsapuram Village Zone",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4889,
+    "longitude": 77.5912,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature running directly past local educational gate lines",
+      "Lack of Proper Overhead Warning Flashers or Pedestrian Barrier Rails"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Minimize vehicle speed significantly during morning and afternoon school hours.",
+      "Scan both sides of the roadway edge for children cycling or walking on foot.",
+      "Refrain from quick acceleration maneuvers within the school perimeter limits."
+    ]
+  },
+  {
+    "id": "VNR0008",
+    "road_name": "Madurai - Tirunelveli Highway (NH-44) - Sattur Vaippar River Bridge Approach",
+    "city": "Sattur Town Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3512,
+    "longitude": 77.9112,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Lane Reduction Bottleneck at Old River Structural Ingress Base",
+      "High Density of Fast-Moving Inter-State Commercial Freight Containers"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure span.",
+      "Slow down to absorb the abrupt bridge-to-road structural joint bumps safely."
+    ]
+  },
+  {
+    "id": "VNR0009",
+    "road_name": "Virudhunagar - Aruppukottai Road (SH-42) - Kalkurichi Irrigation Canal Bend",
+    "city": "Kalkurichi Rural",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5447,
+    "longitude": 78.0412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Left Bend lacking Solid Concrete Safety Barriers",
+      "Slippery Asphalt caused by Algae and Water Spillover during Monsoons"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid drifting close to the left boundary where the shoulder drops into ditches.",
+      "Maintain a uniform, stable throttle input through the entire curve apex.",
+      "Reduce speed significantly if the surface is wet from seasonal rainfall overflows."
+    ]
+  },
+  {
+    "id": "VNR0010",
+    "road_name": "Aruppukottai - Tiruchuli Link Route (SH-84) - Mandapasalai Straightaway",
+    "city": "Mandapasalai Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4845,
+    "longitude": 78.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Flat Straight stretch encouraging extreme over-speeding",
+      "Unexpected Cattle Crossings from Adjoining Rural Pastures and Farms"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly respect the highway speed regulations despite the empty open road view.",
+      "Scan both shoulders of the highway continuously for moving livestock blocks.",
+      "Maintain a wide safety buffer behind long, slow agricultural trailers."
+    ]
+  },
+  {
+    "id": "VNR0011",
+    "road_name": "Sivakasi Inner Ring Road - Thiruthangal Railway Overbridge Slant",
+    "city": "Thiruthangal",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4714,
+    "longitude": 77.8289,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Approach Gradient ending in sudden Sharp Geometric Blind Turns",
+      "Narrow Guard Rails with Missing Structural Reflector Block Elements"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear to use engine braking when descending the bridge incline.",
+      "Never attempt overtaking maneuvers anywhere on the narrow descending span stretch.",
+      "Stay centered to avoid scraping sides against the close concrete barriers."
+    ]
+  },
+  {
+    "id": "VNR0012",
+    "road_name": "Rajapalayam Bypass Link Route - Sundaranacharpuram Blind Corner",
+    "city": "Rajapalayam Rural Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4244,
+    "longitude": 77.5112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Compound Stone Walls",
+      "Frequent Turning Movements by Local Agriculture Trucks and Vans"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Be prepared to stop immediately for vehicles emerging from the blind wall side.",
+      "Maintain active lane discipline and do not slide across central markings."
+    ]
+  },
+  {
+    "id": "VNR0013",
+    "road_name": "Madurai - Tirunelveli Highway (NH-44) - Sattur Toll Plaza Approach",
+    "city": "Sattur Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3325,
+    "longitude": 77.9312,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Backups of Multi-Axle Logistics Freight Containers and Inter-City Buses",
+      "Erratic Lane Swapping by High-Speed Drivers Avoiding Slow Scanner Queues"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce travel speed sharply at least 500 meters prior to entering the plaza lines.",
+      "Strictly maintain your chosen queue and avoid sudden lane switching actions.",
+      "Watch out for pedestrian toll workers or vendors weaving through waiting traffic."
+    ]
+  },
+  {
+    "id": "VNR0014",
+    "road_name": "Thirumangalam - Rajapalayam Road (NH-744) - Alangulam Cement Factory Crossing",
+    "city": "Alangulam Rural",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5214,
+    "longitude": 77.6845,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Inflow of Industrial Material Trucks and Multi-Axle Raw Cargo Tippers",
+      "Low Visibility Caused by Airborne Fine Material and Industrial Dust Deposits"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Scan the highway shoulders continuously for slow-moving factory freight haulers.",
+      "Flash your high beams during dim hours to alert turning heavy vehicle operators.",
+      "Maintain a large, safe braking distance from industrial multi-axle trucks ahead."
+    ]
+  },
+  {
+    "id": "VNR0015",
+    "road_name": "Sivakasi - Virudhunagar Road (SH-42) - Viswanatham Junction Fork",
+    "city": "Sivakasi Urban Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4622,
+    "longitude": 77.8114,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Split Lacking Proper Retroreflective Route Stud Guides",
+      "High Volume of Two-Wheelers Executing Last-Minute Lane Swapping Maneuvers"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Clearly determine your route direction well before reaching the split fork.",
+      "Signal your pathway transitions early to alert fast-approaching trailing trucks.",
+      "Watch closely for local moped riders cutting aggressively across the split lines."
+    ]
+  },
+  {
+    "id": "VNR0016",
+    "road_name": "Rajapalayam - Srivilliputhur Road (NH-744) - Watrap Link Crossroad",
+    "city": "Srivilliputhur Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5312,
+    "longitude": 77.6189,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Unregulated Crossroad Flow Intersecting a High-Speed National Highway Strip",
+      "Frequent Abrupt Stops by Shared Auto-Rickshaws and Inter-District Vans"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Approach the center cross-point under total defensive brake control readiness.",
+      "Anticipate sudden, un-signaled lane deviations from local commuter public vans.",
+      "Avoid all overtaking maneuvers within 100 meters of the intersection zone."
+    ]
+  },
+  {
+    "id": "VNR0017",
+    "road_name": "Aruppukottai - Kamuthi Road (SH-38) - Kurunthadam Rural S-Bend",
+    "city": "Kurunthadam Village Section",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4447,
+    "longitude": 78.1345,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Consecutive Sharp Reverse Curves with Weak Horizontal Lateral View Lines",
+      "Low Visual Visibility Caused by High Roadside Agricultural Crop Screens"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Brake completely on the straight block before entering the curvature apex.",
+      "Give brief daytime horn signals to warn opposing hidden motorists past fields.",
+      "Maintain active lane discipline and do not slide across center lines."
+    ]
+  },
+  {
+    "id": "VNR0018",
+    "road_name": "Sattur - Kovilpatti Link Route (NH-44) - O.Kovilpatti Market Choke",
+    "city": "Sattur Rural Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3112,
+    "longitude": 77.8942,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Weekly Vendor Stalls",
+      "Haphazard Two-Wheeler Parking Constraining Active Carriage Width Blocks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate pedestrian workers stepping out between bikes.",
+      "Avoid all overtaking maneuvers within the active village marketplace layout.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes."
+    ]
+  },
+  {
+    "id": "VNR0019",
+    "road_name": "Sivakasi - Vembakottai Road (SH-112) - Seithur Canal Edge Corridor",
+    "city": "Vembakottai Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3889,
+    "longitude": 77.7412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac Running Closely Along Unfenced Dam Discharge Channels",
+      "Eroded Unpaved Shoulders Falling Directly Into Low-Lying Drainage Ditches"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep tires firmly centered on the asphalt lane to prevent ditch sliding.",
+      "Pull over onto stable ground and stop if a wide commercial truck approaches.",
+      "Exercise double caution when driving through this stretch during rainy spells."
+    ]
+  },
+  {
+    "id": "VNR0020",
+    "road_name": "Virudhunagar Inner Ring Road - Allampatti Railway Gate Section",
+    "city": "Allampatti Urban Edge",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5789,
+    "longitude": 77.9489,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Backups Reaching Primary High-Speed Ring Corridors",
+      "Aggressive Lane Splitting by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if positioned at the tail end of a line.",
+      "Do not cross into the oncoming traffic lane to bypass waiting gate lines.",
+      "Expect significant vehicle delays and stay alert for sudden front braking."
+    ]
+  },
+  {
+    "id": "VNR0021",
+    "road_name": "Srivilliputhur - Sivakasi Highway (SH-42) - Malli School Zone Corner",
+    "city": "Malli Village Zone",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5112,
+    "longitude": 77.7125,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature Running Directly past Local School Assembly Gates",
+      "Lack of Overhead Warning Flashers or Structural Pedestrian Barrier Rails"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Minimize vehicle speed significantly during school opening and closure hours.",
+      "Scan both sides of the roadway edge carefully for student groups on foot.",
+      "Refrain from quick acceleration maneuvers within the school perimeter limits."
+    ]
+  },
+  {
+    "id": "VNR0022",
+    "road_name": "Aruppukottai Bypass Link Route - Palavanatham Industrial Ingress",
+    "city": "Aruppukottai Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5244,
+    "longitude": 78.0645,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Turning and Crossing Movements by Heavy Textile Freight Containers",
+      "Low Nighttime Visibility Intersecting Rural Commuter Access Tracks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep a significant front safety buffer from large industrial containers.",
+      "Scan the highway shoulders continuously for slow vehicles entering from factory loops.",
+      "Flash your high beams at night to communicate your position to turning trucks."
+    ]
+  },
+  {
+    "id": "VNR0023",
+    "road_name": "Thiruthangal - Sivakasi Link Route - Sengamalanachiyarpuram Blind Bend",
+    "city": "Thiruthangal Suburban Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4812,
+    "longitude": 77.8456,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve Obscured by Tall Commercial Compound Outwalls",
+      "Frequent Last-Minute Lane Swapping by Local Commuter Passenger Vans"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Be prepared to stop immediately for pedestrians emerging from the blind wall side.",
+      "Keep a safe distance from shared autos pulling over without signaling."
+    ]
+  },
+  {
+    "id": "VNR0024",
+    "road_name": "Rajapalayam Inner Ring Link - Mudangiar Road Bridge approach",
+    "city": "Rajapalayam Urban Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4412,
+    "longitude": 77.5345,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Lane Reduction Bottleneck at Old Masonry Culvert Bridge Base",
+      "High Density of Town Commuter Traffic Merging Without Right-of-Way Rules"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Keep foot ready near the brake pedal while navigating the core zone."
+    ]
+  },
+  {
+    "id": "VNR0025",
+    "road_name": "Madurai - Tirunelveli Highway (NH-44) - Allampatti Flyover Base Ingress",
+    "city": "Virudhunagar Suburbs",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5765,
+    "longitude": 77.9612,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive High-Speed Merge Configuration from Town Service Roads",
+      "Frequent Abrupt Lane Intersections by Multi-Axle Industrial Freight Carriers"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Check your left-side blind spots carefully before merging past the flyover base.",
+      "Strictly avoid lane drifting around solid white channelization markings.",
+      "Maintain a uniform steady speed until you have fully entered the main highway."
+    ]
+  },
+  {
+    "id": "VNR0026",
+    "road_name": "Thirumangalam - Rajapalayam Road (NH-744) - T. Managaseri Blind Junction",
+    "city": "Srivilliputhur Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5212,
+    "longitude": 77.6514,
+    "danger_level": "High",
+    "danger_type": [
+      "Uncontrolled T-Junction Masked by Thick Roadside Vegetation and Banners",
+      "High Speed Variance Between Highway Transit and Local Agri Motorists"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Scan both intersections actively with your foot covering the brake pedal.",
+      "Give several short daytime horn taps when passing hidden farm entrances.",
+      "Strictly avoid overtaking actions within 100 meters of the intersection."
+    ]
+  },
+  {
+    "id": "VNR0027",
+    "road_name": "Sivakasi - Srivilliputhur Road (SH-42) - Alamarathupatti Market Bend",
+    "city": "Alamarathupatti Village",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4745,
+    "longitude": 77.7489,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Sweeping Curvature Right past Local Bazaar Shed Stalls",
+      "Haphazard Two-Wheeler Parking Constraining Active Lane Trajectories"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Brake completely on the straight approach before entering the curvature apex.",
+      "Watch closely for pedestrians stepping out from behind commercial vans.",
+      "Strictly avoid drifting across center lane lines to bypass shop fronts."
+    ]
+  },
+  {
+    "id": "VNR0028",
+    "road_name": "Rajapalayam - Tenkasi Road (NH-744) - Seithur Bazaar Core Choke Point",
+    "city": "Seithur Town Center",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3512,
+    "longitude": 77.4412,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Extreme Carriage Narrowing Caused by Roadside Shop Front Encroachments",
+      "Heavy Mix of High-Speed Inter-State Buses and Local Pedestrians"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow, defensive speeds and anticipate sudden pedestrian movements.",
+      "Watch closely for local delivery bikes pulling out blindly from between shops.",
+      "Refrain from using high-decibel horns to prevent panic in the dense crowd."
+    ]
+  },
+  {
+    "id": "VNR0029",
+    "road_name": "Sattur - Sivakasi Road (SH-112) - Venkatachalapuram Rural S-Bend",
+    "city": "Venkatachalapuram",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3989,
+    "longitude": 77.8312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Consecutive Sharp Reverse Curves with Poor Horizontal Lateral View Lines",
+      "Sight Line Obstruction Caused by Local Commercial Ad Banners"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Maintain active lane discipline and do not slice across the corners.",
+      "Brake completely on the straight block before entering the curvature apex.",
+      "Ensure low beams are active to counter road outline illusions at night."
+    ]
+  },
+  {
+    "id": "VNR0030",
+    "road_name": "Aruppukottai - Tiruchuli Road (SH-84) - M. Reddiapatti High School Bend",
+    "city": "M. Reddiapatti",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4912,
+    "longitude": 78.1114,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature running directly past local educational gate lines",
+      "High Density of Student Pedestrians and Bicycle Traffic during Peak Hours"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop speed during morning arrival and afternoon dismissal hours.",
+      "Scan both sides of the roadway edge for children walking on foot.",
+      "Refrain from quick acceleration maneuvers within the school safety zone."
+    ]
+  },
+  {
+    "id": "VNR0031",
+    "road_name": "Sivakasi Inner Ring Route - Soolakkarai Industrial Crossflow",
+    "city": "Soolakkarai Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5465,
+    "longitude": 77.9412,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Turning and Crossing Movements by Heavy Match/Print Cargo Trucks",
+      "Low Nighttime Visibility Intersecting Rural Commuter Access Tracks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep a significant front safety buffer from large industrial containers.",
+      "Scan the highway shoulders continuously for slow vehicles entering from factory loops.",
+      "Flash your high beams at night to communicate your position to turning trucks."
+    ]
+  },
+  {
+    "id": "VNR0032",
+    "road_name": "Aruppukottai - Sayalgudi Road (SH-38) - Kurandi Canal Edge Strip",
+    "city": "Kurandi Village Zone",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4245,
+    "longitude": 78.1642,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac running closely along Unfenced Drainage Ditch Boundaries",
+      "Eroded Unpaved Shoulders Falling Directly Into Low-lying Paddy Fields"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep tires firmly centered on the asphalt lane to prevent ditch sliding.",
+      "Pull over onto stable ground and stop if a wide commercial truck approaches.",
+      "Exercise double caution when navigating this stretch during rainy spells."
+    ]
+  },
+  {
+    "id": "VNR0033",
+    "road_name": "Virudhunagar - Melur Link Route - Kallikudi Border Straightaway",
+    "city": "Kallikudi Rural Section",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.6414,
+    "longitude": 77.9889,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Flat Straight stretch encouraging extreme speeding",
+      "Sudden entry of low-speed farm tractors carrying agricultural loads"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly respect the highway speed regulations despite the empty road view.",
+      "Maintain a wide safety buffer behind long, slow agricultural trailers.",
+      "Scan both shoulders of the highway continuously for moving livestock."
+    ]
+  },
+  {
+    "id": "VNR0034",
+    "road_name": "Sattur Bypass Link (NH-44) - Nalli River Bridge Ingress",
+    "city": "Sattur Northern Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3889,
+    "longitude": 77.9247,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Roadway Narrowing Bottleneck at Old Structural Ingress Point",
+      "High Density of Fast-Moving Inter-State Commercial Freight Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Avoid any lane shifting or overtaking across the bridge framework.",
+      "Slow down to absorb the abrupt bridge-to-road structural joint bumps safely."
+    ]
+  },
+  {
+    "id": "VNR0035",
+    "road_name": "Srivilliputhur - Watrap Road (MDR) - Khansa Puram Blind Curve",
+    "city": "Khansa Puram Rural",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5589,
+    "longitude": 77.6488,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Stone Compound Walls",
+      "Lack of Safety Guardrails or Retroreflective Stud Line Markings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Maintain a uniform steady speed and stay inside your lane markings.",
+      "Dim your high beams promptly at night to easily spot the curve outline."
+    ]
+  },
+  {
+    "id": "VNR0036",
+    "road_name": "Rajapalayam Inner Bypass Road - Chettiyarpatti Weekly Market Crossroad",
+    "city": "Chettiyarpatti Urban Edge",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4112,
+    "longitude": 77.4989,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex 4-Way Crossroad Lacking Active Signal Arrays or Roundabouts",
+      "Encroaching Weekly Market Vendor Sheds Restricting Active Carriage Width"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Approach the center crossroads under complete defensive brake readiness.",
+      "Watch closely for pedestrians stepping out from behind parked vehicles.",
+      "Avoid all overtaking maneuvers within the active market layout zone."
+    ]
+  },
+  {
+    "id": "VNR0037",
+    "road_name": "Madurai - Tirunelveli Highway (NH-44) - Sivakasi Intersection Overpass Ingress",
+    "city": "Virudhunagar Urban Edge",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5841,
+    "longitude": 77.9512,
+    "danger_level": "High",
+    "danger_type": [
+      "High-Speed Merge Congestion from Local Industrial Link Feeder Tracks",
+      "Frequent Unregulated Overtaking across Overpass Access Breaches"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Keep to the center lane to avoid sudden local traffic pulling out from side access ramps.",
+      "Check your side mirrors continuously when traversing highway layout breaks.",
+      "Strictly avoid rapid lane changes without checking front and rear safety buffers."
+    ]
+  },
+  {
+    "id": "VNR0038",
+    "road_name": "Thirumangalam - Rajapalayam Road (NH-744) - Nathampatti Rural Crossroad",
+    "city": "Nathampatti Village Zone",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5412,
+    "longitude": 77.7112,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Three-Way Fork with Inadequate Visual Separation Signals",
+      "Frequent Merging of Slow Industrial Raw Material Cargo Tippers"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Scan both intersections actively with your foot hovering near the brake pedal.",
+      "Give several short daytime horn taps when passing hidden farm or factory entrances.",
+      "Avoid attempting any quick overtaking moves past turning commercial freight units."
+    ]
+  },
+  {
+    "id": "VNR0039",
+    "road_name": "Sivakasi - Srivilliputhur Road (SH-42) - Thiruthangal Temple Hill Bend",
+    "city": "Thiruthangal Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4812,
+    "longitude": 77.8189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Stone Compound Structures",
+      "Heavy Inflow of Pilgrim Vehicles and Pedestrians during Religious Days"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Be prepared to stop immediately for pedestrians emerging from the blind wall side.",
+      "Maintain a uniform steady speed and stay strictly inside your lane markings."
+    ]
+  },
+  {
+    "id": "VNR0040",
+    "road_name": "Sattur - Sivakasi Road (SH-112) - Pallapatti Firework Factory Curve",
+    "city": "Pallapatti Village",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4312,
+    "longitude": 77.7989,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Factory Access Gates",
+      "Frequent Abrupt Stops by Employee Shuttles and Heavy Material Transport Vans"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect sudden commercial van transport movements across the central highway line.",
+      "Keep a safe distance from company buses pulling over near manufacturing blocks.",
+      "Strictly avoid overtaking actions near the designated factory entry choke points."
+    ]
+  },
+  {
+    "id": "VNR0041",
+    "road_name": "Aruppukottai - Sayalgudi Road (SH-38) - Kurandi Junction Split",
+    "city": "Kurandi Rural Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4112,
+    "longitude": 78.1412,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Shaped Split Lacking Retroreflective Road Stud Markings",
+      "High Volume of Speeding Inter-District Public Transport Buses"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Determine your route trajectory direction well before reaching the split point.",
+      "Signal your path intent early to protect your space from trailing heavy trucks.",
+      "Yield priority to fast-moving multi-district vehicles on the main line."
+    ]
+  },
+  {
+    "id": "VNR0042",
+    "road_name": "Aruppukottai - Tiruchuli Road (SH-84) - Narikudi Link Canal Curve",
+    "city": "Narikudi Border Area",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4989,
+    "longitude": 78.1812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Sweeping Curvature Running Parallel to an Unfenced Reservoir Catchment",
+      "Slippery Asphalt Patch Formations Caused by Seasonal Mud Spillover from Tractors"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Maintain a centered line on the driving track layout blocks to avoid edge sliding.",
+      "Never push your tires onto loose gravel shoulders running close to the waterway.",
+      "Exercise high caution during monsoon spells when field water spills onto the asphalt."
+    ]
+  },
+  {
+    "id": "VNR0043",
+    "road_name": "Sivakasi Inner Ring Route - Viswanatham School Zone Corner",
+    "city": "Viswanatham Village Zone",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4712,
+    "longitude": 77.8012,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature running directly past local educational gate lines",
+      "Lack of proper overhead warning flashers or pedestrian safety barriers"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Minimize vehicle speed significantly during morning arrival and school closure hours.",
+      "Scan both sides of the roadway edge for children walking on foot.",
+      "Refrain from quick acceleration maneuvers within the institutional perimeter."
+    ]
+  },
+  {
+    "id": "VNR0044",
+    "road_name": "Rajapalayam - Srivilliputhur Road (NH-744) - Sundaranacharpuram S-Bend Link",
+    "city": "Rajapalayam Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4524,
+    "longitude": 77.5512,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Consecutive Sharp Reverse Curves with Poor Horizontal Visibility",
+      "Severe Drop-off Heights directly falling into Industrial Drainage Ditches"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Brake completely on the straight block prior to entering the curvature apex.",
+      "Maintain active lane discipline and do not slide across lane markings.",
+      "Exercise double caution when driving through this stretch during rainy spells."
+    ]
+  },
+  {
+    "id": "VNR0045",
+    "road_name": "Srivilliputhur - Watrap Road (MDR) - Koomapatti Bridge Approach Slant",
+    "city": "Koomapatti Rural",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.6112,
+    "longitude": 77.6345,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Structure with Eroded Asphalt Footings",
+      "Abrupt Traffic Queue Backups Reaching High-Speed Rural Highway Sectors"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Yield entry access to oncoming heavy vehicles that have reached the span first.",
+      "Turn on your hazard warning lights if you are at the tail end of a sudden queue.",
+      "Never attempt overtaking maneuvers on the narrow bridge span framework."
+    ]
+  },
+  {
+    "id": "VNR0046",
+    "road_name": "Sattur Inner Bypass Route - Vaippar River Level Crossing Link",
+    "city": "Sattur Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3412,
+    "longitude": 77.9012,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Build-up Blocking Primary Highway Speeds",
+      "Erratic Lane Splitting by Two-Wheelers Creating Head-on Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if you are at the tail end of a sudden queue.",
+      "Do not switch into opposite lanes to bypass waiting railway line blocks.",
+      "Maintain a safe braking distance from the heavy vehicle waiting ahead."
+    ]
+  },
+  {
+    "id": "VNR0047",
+    "road_name": "Aruppukottai Bypass Link Route - Gopalapuram Intersection Fork",
+    "city": "Aruppukottai Rural Section",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5112,
+    "longitude": 78.0412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud markers",
+      "High Volume of Fast-Moving Commercial Textile and Agri Freight Trucks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Signal your path choices early to alert closely following vehicles.",
+      "Avoid close-tailgating or overtaking near the warehouse entry lanes."
+    ]
+  },
+  {
+    "id": "VNR0048",
+    "road_name": "Rajapalayam Inner Bypass Road - Sanjeevi Hills Drainage Edge Strip",
+    "city": "Rajapalayam Suburbs",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4288,
+    "longitude": 77.5145,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac running closely along Unfenced Ditch Boundaries",
+      "Complete Lack of Steel Safety Guardrails or Retroreflective Studs"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Pull over onto stable ground and stop if a wide commercial truck approaches.",
+      "Keep your tires strictly tracking within the paved asphalt lane markings.",
+      "Exercise double caution when navigating this stretch during monsoonal downpours."
+    ]
+  },
+  {
+    "id": "VNR0049",
+    "road_name": "Madurai - Tirunelveli Highway (NH-44) - Melamaruthur Industrial Ingress",
+    "city": "Virudhunagar Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.6124,
+    "longitude": 77.9712,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Abrupt Stopping by Heavy Multi-Axle Freight Containers",
+      "Low Nighttime Visibility Intersecting Rural Commuter Access Tracks"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Keep a significant front safety buffer from large industrial containers.",
+      "Scan the highway shoulders continuously for slow vehicles entering from factory loops.",
+      "Flash your high beams at night to communicate your position to turning vehicles."
+    ]
+  },
+  {
+    "id": "VNR0050",
+    "road_name": "Thirumangalam - Rajapalayam Road (NH-744) - T. Sedapatti College Zone Curve",
+    "city": "Srivilliputhur Suburbs",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5345,
+    "longitude": 77.6589,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Heavy Inflow of Student Pedestrians and Institutional Transit Buses",
+      "Sharp Curvature immediately following an extended high-speed straight stretch"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly drop vehicle speeds to the minimum during college rush hours.",
+      "Apply brakes well before entering the curvature, not while on it.",
+      "Avoid attempting any quick overtaking moves past parked student buses."
+    ]
+  },
+  {
+    "id": "VNR0051",
+    "road_name": "Sivakasi - Srivilliputhur Road (SH-42) - Viswanatham New Bypass Merge",
+    "city": "Sivakasi Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4711,
+    "longitude": 77.8189,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive High-Speed Merge Angle Lacking Impact Attenuators",
+      "High-Speed Bypass Vehicles Swapping Lanes without Visual Signals"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Check your right-side blind spots carefully before merging into the main flow.",
+      "Initiate your turning indicators early to alert fast-approaching trucks.",
+      "Avoid any rapid acceleration maneuvers directly at the conversion point."
+    ]
+  },
+  {
+    "id": "VNR0052",
+    "road_name": "Rajapalayam - Tenkasi Road (NH-744) - Alagapuri Canal Side Strip",
+    "city": "Rajapalayam Rural Section",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3812,
+    "longitude": 77.4524,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Tarmac running closely alongside Unfenced Ditch Boundaries",
+      "Slippery Asphalt caused by Algae and Water Spillover during Monsoons"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep a safe distance from the unbarricaded canal side edge layout.",
+      "Reduce speed significantly if the surface is wet from seasonal rainfall overflows.",
+      "Maintain strict lane discipline and do not drift across central lines."
+    ]
+  },
+  {
+    "id": "VNR0053",
+    "road_name": "Sattur - Sivakasi Road (SH-112) - Elayirampannai School Zone Corner",
+    "city": "Elayirampannai Village",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3725,
+    "longitude": 77.8415,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature Running Directly past School Entry Gates",
+      "High Density of Student Pedestrians and Bicycle Traffic during Peak Hours"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop speed during morning arrival and afternoon dismissal hours.",
+      "Watch closely for young cyclists pulling out from hidden side alleys.",
+      "Refrain from quick acceleration maneuvers within the school safety zone."
+    ]
+  },
+  {
+    "id": "VNR0054",
+    "road_name": "Aruppukottai - Sayalgudi Road (SH-38) - Pandalgudi Quarry Ingress Fork",
+    "city": "Pandalgudi Rural Section",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4124,
+    "longitude": 78.0989,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud markers",
+      "High Volume of Fast-Moving Commercial Stone and Limestone Freight Trucks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Signal your path choices early to alert closely following vehicles.",
+      "Avoid close-tailgating or overtaking near the warehouse entry lanes."
+    ]
+  },
+  {
+    "id": "VNR0055",
+    "road_name": "Aruppukottai - Tiruchuli Road (SH-84) - Mandapasalai Market Choke Point",
+    "city": "Mandapasalai Village Core",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4645,
+    "longitude": 78.1112,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Weekly Vendor Stalls",
+      "Haphazard Two-Wheeler Parking Constraining Active Carriage Width"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Avoid all overtaking maneuvers within the active market boundaries.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes."
+    ]
+  },
+  {
+    "id": "VNR0056",
+    "road_name": "Sivakasi Inner Ring Route - Thayilpatti Village Blind Curve",
+    "city": "Thayilpatti Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4345,
+    "longitude": 77.8214,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Compound Walls and Banners",
+      "Lack of Safety Guardrails or Retroreflective Stud Line Markings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Maintain a uniform steady speed and stay inside your lane markings.",
+      "Dim your high beams promptly at night to easily spot the curve outline."
+    ]
+  },
+  {
+    "id": "VNR0057",
+    "road_name": "Virudhunagar - Melur Link Route - Aviyoor Outskirts Straightaway",
+    "city": "Aviyoor Rural",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.6189,
+    "longitude": 78.0114,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Flat Straight stretch encouraging extreme speeding",
+      "Sudden entry of low-speed farm tractors carrying agricultural loads"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly respect the highway speed regulations despite the empty road view.",
+      "Maintain a wide safety buffer behind long, slow agricultural trailers.",
+      "Scan both shoulders of the highway continuously for moving livestock."
+    ]
+  },
+  {
+    "id": "VNR0058",
+    "road_name": "Sattur Bypass Link (NH-44) - Sattur North Bridge Exit Base",
+    "city": "Sattur Northern Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3642,
+    "longitude": 77.9345,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Heritage Bridge Infrastructure with Limited Structural Width",
+      "Abrupt Convergence of Town Pedestrian Flow at the Bridge Exit Base"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield right of way if a heavy truck has already claimed entry onto the span.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Keep a close watch for sudden pedestrian crossings at the town-side exit."
+    ]
+  },
+  {
+    "id": "VNR0059",
+    "road_name": "Srivilliputhur - Watrap Road (MDR) - Nathampatti Rail Overbridge Approach",
+    "city": "Nathampatti Rural Area",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5489,
+    "longitude": 77.6812,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Approach Gradient ending in sudden Sharp Geometric Turns",
+      "Narrow Guard Rails with Missing Structural Reflector Blocks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear to use engine braking when descending the gradient.",
+      "Never attempt overtaking maneuvers anywhere on the narrow descending span.",
+      "Stay centered to avoid scraping sides against the close concrete barriers."
+    ]
+  },
+  {
+    "id": "VNR0060",
+    "road_name": "Rajapalayam Inner Bypass Road - Chatrapatti Railway Line Level Crossing",
+    "city": "Chatrapatti Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4212,
+    "longitude": 77.5124,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Abrupt Traffic Queue Build-up Blocking Primary Highway Speeds",
+      "Erratic Lane Splitting by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Turn on your hazard warning lights if you are at the tail end of a sudden queue.",
+      "Do not switch into opposite lanes to bypass waiting railway line blocks.",
+      "Maintain a safe braking distance from the heavy vehicle waiting ahead."
+    ]
+  },
+  {
+    "id": "VNR0061",
+    "road_name": "Madurai - Tirunelveli Highway (NH-44) - Rosalpatti Crossroad Divergence",
+    "city": "Virudhunagar Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5621,
+    "longitude": 77.9542,
+    "danger_level": "High",
+    "danger_type": [
+      "High-Speed Bypass Divergence Lacking Impact Attenuators",
+      "Confusing Road Markings Leading to Last-Minute Lane Swapping"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Decelerate early and position your vehicle in the correct lane before the split.",
+      "Check your side mirrors repeatedly for fast cars passing on the inside lane.",
+      "Strictly avoid turning across solid white lane markers at the diversion point."
+    ]
+  },
+  {
+    "id": "VNR0062",
+    "road_name": "Thirumangalam - Rajapalayam Road (NH-744) - S. Ramachandrapuram S-Bend Complex",
+    "city": "Srivilliputhur Rural Stretch",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5114,
+    "longitude": 77.6389,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Blind Reverse Curves with Poor Horizontal Visibility",
+      "Low Lateral Visibility due to Tall Sugarcane Crop Fields"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn continuously before entering the blind curve apex.",
+      "Stay strictly within your lane marking to avoid oncoming heavy vehicles.",
+      "Be prepared for slow-moving bullock carts merging from farm tracks."
+    ]
+  },
+  {
+    "id": "VNR0063",
+    "road_name": "Sivakasi - Srivilliputhur Road (SH-42) - Thiruthangal Substation Junction",
+    "city": "Thiruthangal Urban Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4754,
+    "longitude": 77.8089,
+    "danger_level": "High",
+    "danger_type": [
+      "Improper Merge Lanes from Secondary Town Roads",
+      "High-Speed Inter-District Public Bus Transit Movements"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Yield to fast-moving buses traversing the primary state highway corridors.",
+      "Use your turn signals early if transitioning off the main highway.",
+      "Check rear-view mirrors continuously for fast-approaching vehicles."
+    ]
+  },
+  {
+    "id": "VNR0064",
+    "road_name": "Sattur - Sivakasi Road (SH-112) - Pallapatti School Crossroad",
+    "city": "Pallapatti Village Zone",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4265,
+    "longitude": 77.7842,
+    "danger_level": "High",
+    "danger_type": [
+      "High Vulnerability due to School Student Foot Traffic",
+      "Unregulated Crossroad Flow Without Active Traffic Lights"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly follow school zone speed limits during morning and afternoon hours.",
+      "Keep a sharp eye out for cycles pulling out from side lanes.",
+      "Maintain active foot coverage on your brake pedal through the zone."
+    ]
+  },
+  {
+    "id": "VNR0065",
+    "road_name": "Aruppukottai - Sayalgudi Road (SH-38) - Kurandi Forest Range Bend",
+    "city": "Kurandi Foothills",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4289,
+    "longitude": 78.1545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Geometric Blind Bend Wrapped Inside Heavy Tree Canopy",
+      "Extreme Drop-Off Between Tarmac Edges and Lower Agricultural Fields"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Maintain a stable speed and stay fully within your painted lane.",
+      "Use headlight flashing sequences at night to alert hidden vehicles around the grove.",
+      "Never push your tires off the pavement onto the unstable low shoulders."
+    ]
+  },
+  {
+    "id": "VNR0066",
+    "road_name": "Aruppukottai - Tiruchuli Road (SH-84) - Narikudi Dry River Straight",
+    "city": "Narikudi Rural Belt",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5012,
+    "longitude": 78.1914,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Straight Road Encouraging Excessive Over-Speeding",
+      "Sudden Crosswinds Coming Off Nearby Open River Beds"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "Medium",
+    "recommended_speed": 60,
+    "safety_tips": [
+      "Strictly adhere to cruise speed limits despite open road appearance.",
+      "Hold the steering wheel firmly to counter unexpected crosswind shifts.",
+      "Take breaks if experiencing driving fatigue due to monotonous layouts."
+    ]
+  },
+  {
+    "id": "VNR0067",
+    "road_name": "Sivakasi Inner Ring Route - Viswanatham T-Junction Fork",
+    "city": "Viswanatham Rural Area",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4611,
+    "longitude": 77.7942,
+    "danger_level": "High",
+    "danger_type": [
+      "Acute Angle T-Intersection with Weak Visual Guidance Signals",
+      "Two-Wheelers Cutting Across Main Traffic Flows Erratically"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route pathway well before reaching the junction point.",
+      "Initiate turning indicator lights early to signal your lane exit choices.",
+      "Carefully scan the merging lines for hidden or unlit local mopeds."
+    ]
+  },
+  {
+    "id": "VNR0068",
+    "road_name": "Rajapalayam - Srivilliputhur Road (NH-744) - Sundaranacharpuram Market Bottleneck",
+    "city": "Sundaranacharpuram Commercial Core",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4412,
+    "longitude": 77.5445,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Bottleneck due to Roadside Weekly Market Stalls",
+      "Chaotic Commercial Parking Intruding onto Main Carriage Lanes"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Avoid any overtaking actions within the village commercial core.",
+      "Use your horn sparingly to prevent confusing local pedestrians."
+    ]
+  },
+  {
+    "id": "VNR0069",
+    "road_name": "Srivilliputhur - Watrap Road (MDR) - Koomapatti Irrigation Canal Edge",
+    "city": "Koomapatti Village Stretch",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5942,
+    "longitude": 77.6212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unprotected Road Edge Running Adjacent to Deep Water Canal",
+      "Slippery Asphalt caused by Mud Dragged from Surrounding Paddy Fields"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep a safe distance from the un-barricaded canal side edge.",
+      "Look out for wet mud deposits that can cause unexpected tire slippage.",
+      "Reduce speed significantly during monsoon months when the canal overflows."
+    ]
+  },
+  {
+    "id": "VNR0070",
+    "road_name": "Sattur Inner Bypass Route - Vaippar Bridge Merge Ramp",
+    "city": "Sattur Northern Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3589,
+    "longitude": 77.9111,
+    "danger_level": "High",
+    "danger_type": [
+      "Improper Merge Markings at the Flyover Ramp Base",
+      "High-Speed Express Vehicles Swapping Lanes without Visual Signals"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Carefully track vehicles merging from your left blind spot.",
+      "Signal your direction clearly well in advance of entering the ramp.",
+      "Do not try to switch lanes midway through the conversion merge point."
+    ]
+  },
+  {
+    "id": "VNR0071",
+    "road_name": "Aruppukottai Bypass Link Route - Gopalapuram Blind River Bridge",
+    "city": "Gopalapuram Suburban Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5212,
+    "longitude": 78.0589,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Lane Reduction Bottleneck at Old River Bridge Ingress",
+      "High Density of Inter-District Freight and Textile Logistics Trucks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Fold in your side mirrors if passing another wide commercial vehicle."
+    ]
+  },
+  {
+    "id": "VNR0072",
+    "road_name": "Rajapalayam Inner Bypass Road - Sanjeevi Hills Residential Crossroad",
+    "city": "Sanjeevi Hills Urban Core",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4388,
+    "longitude": 77.5245,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossroad Flow Without Active Traffic Control Signal Arrays",
+      "Unregulated U-turns by Local Passenger Vans and Auto-Rickshaws"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the central junction cross-point with extreme defensive care.",
+      "Keep a safe distance from shared autos pulling over without signaling.",
+      "Keep foot ready near the brake pedal while navigating the core zone."
+    ]
+  },
+  {
+    "id": "VNR0073",
+    "road_name": "Madurai - Tirunelveli Highway (NH-44) - Rosalpatti Toll Plaza Entrance Link",
+    "city": "Virudhunagar Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5598,
+    "longitude": 77.9489,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Frequent Backups of Multi-Axle Trucks and High-Speed Passenger Cars",
+      "Erratic Lane Changing by Drivers Avoiding RFID Scanner Lines"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Reduce your speed significantly at least 500 meters before the plaza entries.",
+      "Stay strictly within your selected lane and avoid shifting lines at the last minute.",
+      "Watch out for pedestrians and vendors weaving through stationary traffic."
+    ]
+  },
+  {
+    "id": "VNR0074",
+    "road_name": "Thirumangalam - Rajapalayam Road (NH-744) - S. Ramachandrapuram Curve",
+    "city": "Srivilliputhur Rural Stretch",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5012,
+    "longitude": 77.6245,
+    "danger_level": "High",
+    "danger_type": [
+      "Consecutive Sharp Reverse Curves wrapped in Dense Local Flora",
+      "Weak Lateral Road Banking causing Vehicles to Drift Outward"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Brake completely before entering the curvature, not while tracking it.",
+      "Sound your horn to communicate your location to vehicles behind the foliage.",
+      "Never push your left tires off the asphalt edge onto the soft dirt."
+    ]
+  },
+  {
+    "id": "VNR0075",
+    "road_name": "Sivakasi - Srivilliputhur Road (SH-42) - Thiruthangal School Zone Crossing",
+    "city": "Thiruthangal",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4694,
+    "longitude": 77.7912,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Heavy Pedestrian Congestion from Local Students and Industrial Workers",
+      "Frequent Abrupt Stops by Ambulances, Auto-Rickshaws, and Inter-City Buses"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain walking pace speeds when passing directly by school entry gates.",
+      "Keep absolute focal readiness active for pedestrians crossing between vehicles.",
+      "Give absolute right-of-way to school buses and passenger transit transport."
+    ]
+  },
+  {
+    "id": "VNR0076",
+    "road_name": "Sattur - Sivakasi Road (SH-112) - Pallapatti Market S-Bend Hook",
+    "city": "Pallapatti Village",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4212,
+    "longitude": 77.7789,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Approach Gradient with Sudden Blind Angular Hooks",
+      "Heavy Risk of Brake Failure for Downhill Loaded Freight Commercials"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Utilize lower gear shifts to activate engine braking when heading downhill.",
+      "Flash your headlights or blast your horn before committing to blind corners.",
+      "Yield entire inner lane loops to ascending trucks or heavy transport."
+    ]
+  },
+  {
+    "id": "VNR0077",
+    "road_name": "Aruppukottai - Sayalgudi Road (SH-38) - Kurandi Junction Crossroad",
+    "city": "Kurandi Foothills",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4112,
+    "longitude": 78.1312,
+    "danger_level": "High",
+    "danger_type": [
+      "Unregulated Crossroad Flow lacking working signals or roundabouts",
+      "Sight Line Blockage from Local Awning Roofs and Commercial Ad Boards"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center crossway under total control with your foot on the brake.",
+      "Check your left and right side mirrors for merging local mopeds.",
+      "Avoid all overtaking maneuvers inside the intersection perimeter zone."
+    ]
+  },
+  {
+    "id": "VNR0078",
+    "road_name": "Aruppukottai - Tiruchuli Road (SH-84) - Narikudi Bypass Fork Link",
+    "city": "Narikudi Rural Section",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4912,
+    "longitude": 78.1889,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive High-Speed Merge Profile from Secondary Town Links",
+      "Complete Lack of Nighttime Overhead High-Mast Luminary Systems"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Initiate turning indicators early to signal your lane entry tracks.",
+      "Scan the merging lines carefully for hidden or unlit local tractors.",
+      "Strictly avoid rapid acceleration or close tailgating near the entry split."
+    ]
+  },
+  {
+    "id": "VNR0079",
+    "road_name": "Sivakasi Inner Ring Route - Viswanatham Canal Edge Strip",
+    "city": "Viswanatham Rural",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4589,
+    "longitude": 77.7842,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Single Lane Width with Soft, Eroded Mud Shoulders",
+      "Low Visibility Caused by High Crop Formations and Overhanging Trees"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Bring your vehicle to a complete stop on solid ground if a heavy truck approaches.",
+      "Never push your tires onto loose gravel shoulders to avoid slipping into ditches.",
+      "Sound your horn continuously to alert opposing hidden drivers on bends."
+    ]
+  },
+  {
+    "id": "VNR0080",
+    "road_name": "Rajapalayam - Srivilliputhur Road (NH-744) - Sundaranacharpuram Bridge Ingress",
+    "city": "Sundaranacharpuram",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4388,
+    "longitude": 77.53645,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Roadway Narrowing Bottleneck at Old Bridge Entry Base",
+      "High Density of Inter-District Public Transport and Commercial Logistics Trucks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry access to oncoming heavy vehicles that have reached the span first.",
+      "Strictly avoid any overtaking or lane shifting across the narrow framework.",
+      "Maintain a uniform steady speed until you have fully exited the bottleneck."
+    ]
+  },
+  {
+    "id": "VNR0081",
+    "road_name": "Srivilliputhur - Watrap Road (MDR) - Koomapatti Market Stretch",
+    "city": "Koomapatti Village Zone",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5844,
+    "longitude": 77.6142,
+    "danger_level": "High",
+    "danger_type": [
+      "Encroaching Commercial Shop Display Boards restricting carriage width",
+      "Heavy Mix of Unregulated Pedestrian Crossings and Agricultural Livestock"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect sudden pedestrian movements across the central highway line.",
+      "Keep a keen eye open for cattle pulling out from side lanes or markets.",
+      "Avoid using high-decibel horns to prevent panic among local shoppers."
+    ]
+  },
+  {
+    "id": "VNR0082",
+    "road_name": "Sattur Inner Bypass Route - Vaippar Blind Corner Curve",
+    "city": "Sattur Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3445,
+    "longitude": 77.8956,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Residential Brick Wall Structures",
+      "Frequent Overtaking by Two-Wheelers Creating Head-on Collision Risks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Do not try to force your way into opposing lanes during traffic buildups.",
+      "Be prepared to stop immediately for pedestrians emerging from the blind side."
+    ]
+  },
+  {
+    "id": "VNR0083",
+    "road_name": "Aruppukottai Bypass Link Route - Gopalapuram College Crossing",
+    "city": "Gopalapuram Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5145,
+    "longitude": 78.04912,
+    "danger_level": "High",
+    "danger_type": [
+      "High Density of Student Pedestrians and Institutional Transit Buses",
+      "Sharp Curvature immediately following an extended high-speed straight stretch"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly follow college zone speed limits during morning and afternoon hours.",
+      "Anticipate sudden stops from institution buses loading or unloading students.",
+      "Apply brakes well before entering the curvature, not while on it."
+    ]
+  },
+  {
+    "id": "VNR0084",
+    "road_name": "Rajapalayam Inner Bypass Road - Sanjeevi Hills Canal Edge Corridor",
+    "city": "Sanjeevi Hills Urban Edge",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4212,
+    "longitude": 77.51467,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sharp Sweeping Curve running adjacent to an Unfenced Water Canal",
+      "Slippery Asphalt caused by Algae and Water Spillover during Monsoons"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep a safe distance from the unbarricaded canal side edge layout.",
+      "Reduce speed significantly if the surface is wet from seasonal rainfall overflows.",
+      "Maintain strict lane discipline and do not drift across central lines."
+    ]
+  },
+  {
+    "id": "VNR0085",
+    "road_name": "Madurai - Tirunelveli Highway (NH-44) - Allampatti Town Core Junction",
+    "city": "Virudhunagar Urban Edge",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5825,
+    "longitude": 77.9589,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Unregulated Overtaking across Local Commercial Access Points",
+      "High Density of Local Two-Wheelers Cutting Across Express Lanes"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Stay in the center lane to avoid sudden local traffic pulling out from the left.",
+      "Check your side mirrors continuously when passing city layout breaks.",
+      "Strictly avoid acceleration bursts near the pedestrian crossing segments."
+    ]
+  },
+  {
+    "id": "VNR0086",
+    "road_name": "Thirumangalam - Rajapalayam Road (NH-744) - Srivilliputhur Forest Pass Curve",
+    "city": "Srivilliputhur Rural Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5142,
+    "longitude": 77.6112,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Angular Curve wrapped inside High Stone Compound Barriers",
+      "Slick Surface Conditions caused by Mountain Stream Runoffs and Mud"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn firmly before entering the apex of the unviewable bend.",
+      "Maintain your lane structure and do not drift across the center markings.",
+      "Watch closely for tourist vehicles slowing down abruptly near scenic spots."
+    ]
+  },
+  {
+    "id": "VNR0087",
+    "road_name": "Sivakasi - Srivilliputhur Road (SH-42) - Thiruthangal Market Core Crossroad",
+    "city": "Thiruthangal Town Center",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4712,
+    "longitude": 77.8045,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Unregulated Crossroad Flow Without Active Traffic Control Signal Arrays",
+      "Encroaching Weekly Market Vendors Restricting Overall Carriage Width"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Approach the town center crossway under total defensive brake control readiness.",
+      "Expect sudden pedestrian crossings and non-motorized handcarts.",
+      "Do not attempt any overtaking maneuvers within the commercial core."
+    ]
+  },
+  {
+    "id": "VNR0088",
+    "road_name": "Sattur - Sivakasi Road (SH-112) - Pallapatti Rural Link Fork",
+    "city": "Pallapatti Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4288,
+    "longitude": 77.7912,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud guidance markers",
+      "High Volume of Speeding Inter-District Public Transport Buses"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Determine your route trajectory direction well before reaching the split point.",
+      "Signal your path intent early to protect your space from trailing trucks.",
+      "Yield priority to fast-moving multi-district vehicles on the main line."
+    ]
+  },
+  {
+    "id": "VNR0089",
+    "road_name": "Aruppukottai - Sayalgudi Road (SH-38) - Kurandi Valley Link Curve",
+    "city": "Kurandi Village Stretch",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4189,
+    "longitude": 78.1489,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Right Turn with Minimal Bank Angle Superelevation",
+      "Sight Line Obstruction from Dense Sub-Tropical Roadside Flora"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Lower your vehicle's speed before entering the curve apex to counter sliding risk.",
+      "Sound your horn to alert oncoming traffic that may be cutting the corner.",
+      "Watch for loose wet leaves or mud deposits during monsoon spells."
+    ]
+  },
+  {
+    "id": "VNR0090",
+    "road_name": "Aruppukottai - Tiruchuli Road (SH-84) - Narikudi Drainage Edge Strip",
+    "city": "Narikudi",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4945,
+    "longitude": 78.1845,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Tarmac running closely along Unfenced Ditch Boundaries",
+      "Severe Drop-off Heights directly falling into Seasonal River Streams"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep tires firmly centered on the asphalt lane to prevent ditch sliding.",
+      "Pull over onto stable ground and stop if a wide commercial vehicle approaches.",
+      "Exercise double caution when driving through this stretch during storms."
+    ]
+  },
+  {
+    "id": "VNR0091",
+    "road_name": "Sivakasi Inner Ring Route - Viswanatham Bazaar Choke Point",
+    "city": "Viswanatham Urban Core",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4645,
+    "longitude": 77.7989,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Commercial Shop Fronts",
+      "Heavy Mix of Unregulated Pedestrian Crossings and Haphazard Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes.",
+      "Avoid using high-decibel horns to prevent panic among local pedestrians."
+    ]
+  },
+  {
+    "id": "VNR0092",
+    "road_name": "Rajapalayam - Srivilliputhur Road (NH-744) - Sundaranacharpuram School Zone Corner",
+    "city": "Sundaranacharpuram Village",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4445,
+    "longitude": 77.5489,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Curvature running directly past local educational gate lines",
+      "Lack of proper overhead warning flashers or pedestrian safety barriers"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Minimize vehicle speed significantly during morning and afternoon hours.",
+      "Scan both sides of the roadway edge for children walking on foot.",
+      "Refrain from quick acceleration maneuvers within the school perimeter."
+    ]
+  },
+  {
+    "id": "VNR0093",
+    "road_name": "Srivilliputhur - Watrap Road (MDR) - Koomapatti Bridge Descent",
+    "city": "Koomapatti Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5889,
+    "longitude": 77.6189,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Steep Approach Gradient ending in sudden Sharp Geometric Turns",
+      "Narrow Guard Rails with Missing Structural Reflector Blocks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear to use engine braking when descending the gradient.",
+      "Never attempt overtaking maneuvers anywhere on the narrow descending span.",
+      "Stay centered to avoid scraping sides against the close concrete barriers."
+    ]
+  },
+  {
+    "id": "VNR0094",
+    "road_name": "Sattur Inner Bypass Route - Vaippar Rural Link Crossroad",
+    "city": "Sattur Rural Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3489,
+    "longitude": 77.9112,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Three-Way Fork with Inadequate Visual Separation Signals",
+      "Frequent Nighttime Parking of Commercial Trucks obstructing sight lines"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Scan the side link lanes actively for merging local agricultural transit.",
+      "Use your directional indicators early to alert surrounding commuters.",
+      "Exercise extra defensive driving at night by relying on low-beam focus."
+    ]
+  },
+  {
+    "id": "VNR0095",
+    "road_name": "Aruppukottai Bypass Link Route - Gopalapuram Bridge Bottleneck",
+    "city": "Gopalapuram Urban Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5189,
+    "longitude": 78.0512,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Sudden Lane Reduction Bottleneck at Old River Structural Ingress",
+      "High Structural Rubbing Risk from Multi-Axle Freight Trucks"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Fold in your side mirrors if passing another wide commercial vehicle."
+    ]
+  },
+  {
+    "id": "VNR0096",
+    "road_name": "Rajapalayam Inner Bypass Road - Sanjeevi Hills Irrigation Canal Bend",
+    "city": "Sanjeevi Hills Stretch",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4245,
+    "longitude": 77.5212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Left Bend lacking Solid Concrete Safety Barriers",
+      "Pavement Surface Degradation from standing monsoon rain layers"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid drifting close to the left boundary where the shoulder drops off.",
+      "Maintain a uniform, stable throttle input through the curve apex.",
+      "Reduce speed ahead of time and scan for any slow agricultural vehicles."
+    ]
+  },
+  {
+    "id": "VNR0097",
+    "road_name": "Madurai - Tirunelveli Highway (NH-44) - Soolakkarai Industrial Estate Merge",
+    "city": "Virudhunagar South Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5511,
+    "longitude": 77.9689,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Turning and Crossing Movements by Heavy Industrial Trailers",
+      "Low Nighttime Visibility Intersecting Rural Commuter Pathways"
+    ],
+    "speed_limit": 80,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Keep a significant front safety buffer from large multi-axle freight trailers.",
+      "Scan the highway shoulders carefully for slow vehicles entering from factory zones.",
+      "Flash your high beams at night to communicate your position to merging vehicles."
+    ]
+  },
+  {
+    "id": "VNR0098",
+    "road_name": "Thirumangalam - Rajapalayam Road (NH-744) - Watrap Junction Ingress",
+    "city": "Srivilliputhur Suburbs",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5342,
+    "longitude": 77.6414,
+    "danger_level": "Critical",
+    "danger_type": [
+      "Heavy Inflow of Student Pedestrians and Institutional Transit Buses",
+      "Erratic Lane Splitting by Delivery Two-Wheelers during Peak Hours"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Strictly drop vehicle speeds to the minimum during college rush hours.",
+      "Check blind spots continuously for lane-splitting local motorcyclists.",
+      "Avoid attempting any quick overtaking moves past parked student buses."
+    ]
+  },
+  {
+    "id": "VNR0099",
+    "road_name": "Sivakasi - Srivilliputhur Road (SH-42) - Alamarathupatti River Bridge Junction",
+    "city": "Alamarathupatti Town Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4812,
+    "longitude": 77.7545,
+    "danger_level": "High",
+    "danger_type": [
+      "Abrupt Traffic Backups reaching High-Speed Highway Sections",
+      "Sudden Road Narrowing Bottleneck at Old River Structural Ingress"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Yield entry rights to large commercial vehicles that have arrived at the neck first.",
+      "Activate your hazard lights if you are at the tail end of a sudden queue.",
+      "Never attempt overtaking maneuvers on the narrow bridge span framework."
+    ]
+  },
+  {
+    "id": "VNR0100",
+    "road_name": "Rajapalayam - Tenkasi Road (NH-744) - Seithur Rural Curve",
+    "city": "Seithur Village",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3545,
+    "longitude": 77.4489,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Right Curve wrapped inside Dense Roadside Plantations",
+      "Severe Drop-off Heights directly falling into Irrigation Field Links"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Brake completely on the straight block prior to entering the curvature.",
+      "Maintain strict lane discipline and do not drift across central lines.",
+      "Never push your tires onto loose gravel shoulders to avoid slipping into ditches."
+    ]
+  },
+  {
+    "id": "VNR0101",
+    "road_name": "Sattur - Sivakasi Road (SH-112) - Venkatachalapuram Border Straightaway",
+    "city": "Venkatachalapuram Southern Edge",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3912,
+    "longitude": 77.8247,
+    "danger_level": "High",
+    "danger_type": [
+      "Monotonous Flat Straight stretch encouraging extreme speeding",
+      "Sudden entry of low-speed farm tractors carrying agricultural loads"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly respect the highway speed regulations despite the empty road view.",
+      "Maintain a wide safety buffer behind long, slow agricultural trailers.",
+      "Scan both shoulders of the highway continuously for moving livestock."
+    ]
+  },
+  {
+    "id": "VNR0102",
+    "road_name": "Aruppukottai - Sayalgudi Road (SH-38) - Pandalgudi Market Entry Bottleneck",
+    "city": "Pandalgudi Town Core",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4145,
+    "longitude": 78.1012,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Roadway Narrowing due to Encroaching Commercial Shop Fronts",
+      "Chaotic Commercial Parking Intruding onto Main Carriage Lanes"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at slow speeds and anticipate people stepping out between parked bikes.",
+      "Avoid all overtaking actions within the village commercial core layout.",
+      "Use your horn sparingly to prevent confusing local pedestrians."
+    ]
+  },
+  {
+    "id": "VNR0103",
+    "road_name": "Aruppukottai - Tiruchuli Road (SH-84) - Mandapasalai Service Road Intersection",
+    "city": "Mandapasalai Urban Area",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4714,
+    "longitude": 78.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-Way Merging Streams without Clear Right-of-Way Rules",
+      "Erratic Outflow of Local Mopeds and Two-Wheelers onto the Highway"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Approach the center cross-point under defensive brake control readiness.",
+      "Check your left and right side mirrors carefully for merging local traffic.",
+      "Signal your lane directions early to guide fast-moving tailgaters."
+    ]
+  },
+  {
+    "id": "VNR0104",
+    "road_name": "Sivakasi Inner Ring Route - Thayilpatti Forest Range Outer Curve",
+    "city": "Thayilpatti Rural Section",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4312,
+    "longitude": 77.8345,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Curvatures Lacking Center Medians or Visual Markers",
+      "Low Visibility Caused by Rocky Terrain Projections and Blind Cliffs"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Shift to a lower gear early to maintain steady power on the ascent.",
+      "Sound your horn continuously to alert opposing hidden drivers on bends.",
+      "Watch out for stray wildlife or cattle roaming onto the roadway."
+    ]
+  },
+  {
+    "id": "VNR0105",
+    "road_name": "Virudhunagar - Melur Link Route - Aviyoor Market Junction Area",
+    "city": "Aviyoor",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.6112,
+    "longitude": 77.9945,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Encroaching Weekly Market Vendors Restricting Overall Carriage Width",
+      "Frequent Abrupt Stops by Shared Autos and Public Mini-Buses"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect sudden passenger transport movements across the central highway line.",
+      "Keep a safe distance from shared autos pulling over without signaling.",
+      "Give absolute right-of-way to shoppers crossing the marketplace lanes."
+    ]
+  },
+  {
+    "id": "VNR0106",
+    "road_name": "Sattur Bypass Link (NH-44) - Sattur North Police Outpost Blind Curve",
+    "city": "Sattur Village Zone",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.3512,
+    "longitude": 77.9247,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Acute Angular Curve obscured by Ancient Stone Compound Walls",
+      "Lack of Safety Guardrails or Retroreflective Stud Line Markings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Tap your horn lightly to announce your vehicle's presence at the corner apex.",
+      "Maintain a uniform steady speed and stay inside your lane markings.",
+      "Dim your high beams promptly at night to easily spot the curve outline."
+    ]
+  },
+  {
+    "id": "VNR0107",
+    "road_name": "Srivilliputhur - Watrap Road (MDR) - Nathampatti Junction Ingress Fork",
+    "city": "Nathampatti Rural Outskirts",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.5412,
+    "longitude": 77.6612,
+    "danger_level": "High",
+    "danger_type": [
+      "Deceptive Y-Fork Layout lacking retroreflective road stud markers",
+      "High Volume of Fast-Moving Commercial Sand and Leather Freight Trucks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Clearly plan your route fork pathway prior to reaching the division point.",
+      "Signal your path choices early to alert closely following vehicles.",
+      "Avoid close-tailgating or overtaking near the warehouse entry lanes."
+    ]
+  },
+  {
+    "id": "VNR0108",
+    "road_name": "Rajapalayam Inner Bypass Road - Chatrapatti Town Exit Bridge",
+    "city": "Chatrapatti Southern Border",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "latitude": 9.4112,
+    "longitude": 77.5012,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Heritage Bridge Infrastructure with Limited Structural Width",
+      "Abrupt Convergence of Town Pedestrian Flow at the Bridge Exit Base"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Yield right of way if a heavy truck has already claimed entry onto the span.",
+      "Strictly refrain from changing lanes or overtaking on the bridge structure.",
+      "Keep a close watch for sudden pedestrian crossings at the town-side exit."
+    ]
+  }
+]

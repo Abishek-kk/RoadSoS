@@ -8,6 +8,8 @@ from collections.abc import Callable
 from dataclasses import dataclass, field
 from typing import Any
 
+from sqlalchemy.orm import Session
+
 from app.ai.retrieval import requested_limit
 from app.services.context_builder import (
     ContextPackage,
@@ -26,7 +28,7 @@ from app.services.retriever import RetrievalDocument, retrieve
 
 
 logger = logging.getLogger("roadsos.ai")
-VERIFIED_LOCATION_INTENTS = {"hospital", "police", "towing", "route", "danger_zone"}
+VERIFIED_LOCATION_INTENTS = {"ambulance", "hospital", "police", "towing", "route", "danger_zone"}
 PROMPT_HISTORY_LIMIT = 8
 DEFAULT_RETRIEVAL_TOP_K = 6
 EMERGENCY_RETRIEVAL_TOP_K = 12
@@ -91,6 +93,7 @@ def run_rag_pipeline(
     nearby_places: list[dict[str, Any]] | None = None,
     emergency_contacts: list[dict[str, Any]] | None = None,
     on_token: Callable[[str], None] | None = None,
+    db: Session | None = None,
 ) -> RagResult:
     started = time.perf_counter()
     clean_question = (question or "").strip()
@@ -118,6 +121,7 @@ def run_rag_pipeline(
         radius_km=radius_km,
         nearby_places=nearby_places,
         collect_places=should_collect_nearby_places(profile, nearby_places),
+        db=db,
     )
 
     direct_reply = fast_direct_reply(profile, live_context)
@@ -324,6 +328,8 @@ def should_include_safety_snapshot(profile: QueryProfile) -> bool:
 
 
 def fast_direct_reply(profile: QueryProfile, live_context: LiveContext) -> str | None:
+    if profile.intent == "ambulance" and profile.needs_location_services:
+        return verified_direct_answer(profile, live_context)
     if profile.social_only or profile.datetime_intent or is_location_question(profile):
         return verified_direct_answer(profile, live_context)
     return None
@@ -532,7 +538,7 @@ def location_context_missing(profile: QueryProfile, live_context: LiveContext) -
         return ""
     if live_context.has_coordinates() or live_context.nearby_places:
         return ""
-    if profile.intent in {"hospital", "police", "towing", "route", "danger_zone"}:
+    if profile.intent in {"ambulance", "hospital", "police", "towing", "route", "danger_zone"}:
         return (
             "I don't have enough verified information to answer that. "
             "Share or allow your location so I can use verified nearby RoadSoS data."

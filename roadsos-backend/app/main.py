@@ -9,12 +9,14 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.trustedhost import TrustedHostMiddleware
 from fastapi.responses import JSONResponse
 import uvicorn
+import asyncio
 import logging
 import time
 
 # --- Route imports ---
 from app.routes import (
     alerts,
+    ambulances,
     chat,
     contacts,
     hospitals,
@@ -28,6 +30,7 @@ from app.routes import (
     towing,
 )
 from app.config import get_llm_provider, get_ollama_model
+from app.services.ambulance_service import run_ambulance_simulator
 import os
 import subprocess
 
@@ -61,6 +64,24 @@ from db.database import init_db
 def startup_db_client():
     init_db()
     logger.info("Database initialized (all tables created).")
+
+
+@app.on_event("startup")
+async def startup_ambulance_simulator():
+    app.state.ambulance_simulator_stop = asyncio.Event()
+    app.state.ambulance_simulator_task = asyncio.create_task(
+        run_ambulance_simulator(app.state.ambulance_simulator_stop)
+    )
+
+
+@app.on_event("shutdown")
+async def shutdown_ambulance_simulator():
+    stop_event = getattr(app.state, "ambulance_simulator_stop", None)
+    task = getattr(app.state, "ambulance_simulator_task", None)
+    if stop_event is not None:
+        stop_event.set()
+    if task is not None:
+        await task
 
 # -------------------------------------------------------------------
 # Middleware
@@ -127,6 +148,12 @@ app.include_router(
     hospitals.router,
     prefix="/api",
     tags=["Hospitals"],
+)
+
+app.include_router(
+    ambulances.router,
+    prefix="/api",
+    tags=["Ambulances"],
 )
 
 app.include_router(
@@ -235,6 +262,7 @@ async def api_status():
             "location":  "/api/location",
             "sos":       "/api/sos",
             "hospitals": "/api/hospitals",
+            "ambulances": "/api/ambulances",
             "police":    "/api/police",
             "puncture_shops": "/api/puncture-shops",
             "showrooms": "/api/showrooms",

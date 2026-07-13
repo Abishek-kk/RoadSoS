@@ -1,14 +1,2289 @@
-{
+[
+  {
+    "id": "TVM0001",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Junction",
+    "city": "Kilpennathur Outskirts",
     "district": "Tiruvannamalai",
-    "road_name": "Chengam Road",
-    "highway": "SH-4",
-    "location": "Chengam",
-    "latitude": 12.3085,
-    "longitude": 78.7936,
-    "risk_level": "Medium",
-    "road_type": "State Highway",
-    "major_cause": [
-      "Curves",
-      "Mixed traffic"
+    "state": "Tamil Nadu",
+    "latitude": 12.2456,
+    "longitude": 79.2212,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Heavy Inter-State Commercial Freight"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Pick your highway exit or loop lane path early to avoid sudden swerving near checking sectors.",
+      "Anticipate heavy multi-axle freight logistics trucks shifting tiers dynamically.",
+      "Check blind spots thoroughly before executing bypass lane changes."
+    ]
+  },
+  {
+    "id": "TVM0002",
+    "road_name": "Tiruvannamalai Girivalam Path Inner Loop - Chengam Road Cross",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2184,
+    "longitude": 79.0545,
+    "danger_level": "High",
+    "danger_type": [
+      "Extreme Pilgrim Foot-Traffic Density",
+      "Erratic Shared Auto-Rickshaw Swerving"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through high-density spiritual pedestrian clusters.",
+      "Expect sudden transit vehicles or shared autos to stop blindly near ashram exits.",
+      "Strictly avoid lane filtering or close pass cuts around tight walkway entries."
+    ]
+  },
+  {
+    "id": "TVM0003",
+    "road_name": "Vellore - Thoothukudi Highway (NH-38 Link) - Polur Bypass Roundabout",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Intersecting Traffic",
+      "High Velocity Merging Trajectories"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Watch closely for long-distance transport coaches executing sudden turning angles.",
+      "Do not accelerate aggressively to pass slow multi-axle cargo vehicles within the loop.",
+      "Ensure proper turn indicator alignment before executing bypass detour track switches."
+    ]
+  },
+  {
+    "id": "TVM0004",
+    "road_name": "Jawadhu Hills Ghat Road - Jamunamarathur Mountain Section",
+    "city": "Jamunamarathur Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6345,
+    "longitude": 78.8889,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Hairpin Bends",
+      "Severe Landslide Vulnerability"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Sound your horn continuously around dense mountain-side forest blind curves.",
+      "Downshift to use low gears for maximum engine braking control on steep descents.",
+      "Never attempt any form of overtaking over successive narrow mountain tracks."
+    ]
+  },
+  {
+    "id": "TVM0005",
+    "road_name": "Tiruvannamalai - Harur Road (SH-188) - Chengam Town Junction Split",
+    "city": "Chengam Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.3012,
+    "longitude": 78.7912,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markings to pass columns of slow farm machinery.",
+      "Expect slow farming wagons to make sudden unindicated turning maneuvers into properties.",
+      "Stay centered inside your lane markers on straight highway stretches."
+    ]
+  },
+  {
+    "id": "TVM0006",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Arani Bazaar Core Junction Loop",
+    "city": "Arani Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6745,
+    "longitude": 79.2845,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through tight silk market and trade infrastructure blocks.",
+      "Watch closely for opening doors on parked logistics delivery vans.",
+      "Exercise high patience while localized shopper bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVM0007",
+    "road_name": "Tiruvannamalai - Kanchipuram Road (SH-4) - Cheyyar Town Outer Loop",
+    "city": "Cheyyar Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6567,
+    "longitude": 79.5412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad rural openings near dry field tracts.",
+      "Avoid dropping tyres off the main asphalt track into loose sand margins.",
+      "Slow down near ongoing village market access clearings."
+    ]
+  },
+  {
+    "id": "TVM0008",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Car Street Loop",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pilgrim Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through tight historical shrine infrastructure tracks.",
+      "Watch out for opening car or tourist coach doors on left lane margins.",
+      "Exercise high patience while pilgrim pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVM0009",
+    "road_name": "Polur - Chetpet Road - Cheyyar Basin River Bridge Approach",
+    "city": "Chetpet Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4412,
+    "longitude": 79.3545,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Approach",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Rely entirely on intense, clean low beam layouts during dark night transits.",
+      "Yield priority to oncoming heavy trucks negotiating the narrow bridge fabric."
+    ]
+  },
+  {
+    "id": "TVM0010",
+    "road_name": "Vandavasi - Tindivanam Road - Intermediate Rural Route link",
+    "city": "Vandavasi Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4812,
+    "longitude": 79.6112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for sudden deep water-logged craters.",
+      "Avoid dropping tyres off asphalt onto soft unpaved sand or field edges.",
+      "Keep headlights on low beam to catch structural pavement variations."
+    ]
+  },
+  {
+    "id": "TVM0011",
+    "road_name": "Tiruvannamalai Outer Ring Road Bypass - Thenimalai Girivalam Cross Axis",
+    "city": "Tiruvannamalai Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2012,
+    "longitude": 79.0345,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Frequent Tourist Vehicle Queues"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Check side blind spots thoroughly before executing bypass lane shifts.",
+      "Anticipate slow-moving pilgrim transit units or vans joining the tracking lines.",
+      "Maintain strict long-range vehicle safety braking spaces."
+    ]
+  },
+  {
+    "id": "TVM0012",
+    "road_name": "Sathanur Dam Access Road - River Basin Sector Segment",
+    "city": "Sathanur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.1889,
+    "longitude": 78.8412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "River Bank Skidding Zone",
+      "Narrow Pavement Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Exercise extreme caution during active seasonal monsoon river water overflow periods.",
+      "Avoid dropping tyres off asphalt onto weak unpaved soil edges next to reservoirs.",
+      "Pull over or slow to a near crawl if a wide tourist coach approaches."
+    ]
+  },
+  {
+    "id": "TVM0013",
+    "road_name": "Arani Town Bazaar Main Street - Silk Weaving Cluster link",
+    "city": "Arani Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6689,
+    "longitude": 79.2945,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Industrial Heavy Freight",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Watch for deep grooves catching your wheel alignment parameters on rattered asphalt.",
+      "Maintain a wide spatial safety margin behind multi-axle material trailers.",
+      "Be alert for loose industrial cargo residue swept onto the tarmac markers."
+    ]
+  },
+  {
+    "id": "TVM0014",
+    "road_name": "Kalasapakkam - Polur Link Road - Railway Level Crossing Approach Track",
+    "city": "Polur Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4245,
+    "longitude": 79.0912,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Multi-Lane Bottlenecks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto highway lanes when the gate closes.",
+      "Avoid close filtering or lane splitting among stopped heavy trucks.",
+      "Keep foot ready on brakes near heavy commercial vehicle corridors."
+    ]
+  },
+  {
+    "id": "TVM0015",
+    "road_name": "Tiruvannamalai Town High Road - Central Bus Stand Entry Corner Loop",
+    "city": "Tiruvannamalai Town Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2312,
+    "longitude": 79.0712,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Commercial Parking",
+      "Unmarked Concrete Speed Breakers"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden transit vehicles or passenger coaches to drop speed or swerve near terminals.",
+      "Use indicator turn signals early before leaving the main track layout lanes.",
+      "Exercise high patience while localized pilgrim commuter bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVM0016",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Bypass Merge Loop",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2412,
+    "longitude": 79.2245,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Merging Trajectories",
+      "Frequent Inter-State Freight Queues"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Pick your highway exit lane path early before entering village checkpoint perimeters.",
+      "Anticipate heavy commercial logistics freight trucks shifting lanes dynamically without signaling.",
+      "Check side mirrors carefully before moving past layout bypass points."
+    ]
+  },
+  {
+    "id": "TVM0017",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Polur Road Bridge Link Split",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5156,
+    "longitude": 79.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Heavy Inter-District Bus Swerving"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lateral shifting across pathways.",
+      "Strictly avoid crossing center lane markings to pass slow moving lines near bridge ramps.",
+      "Keep foot ready on brakes near heavy commercial vehicle service bottlenecks."
+    ]
+  },
+  {
+    "id": "TVM0018",
+    "road_name": "Jawadhu Hills Ghat Road - Ponneri Foothill Loop Merge Axis",
+    "city": "Jamunamarathur Foothills",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5945,
+    "longitude": 78.9112,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Frequent Tourist Vehicle Queues"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate out-station tourist transport vehicles slowing down suddenly near loops.",
+      "Avoid close filtering or lane splitting among stopped holiday buses or vans.",
+      "Strictly avoid lane-changing maneuvers inside elevated curve boundaries."
+    ]
+  },
+  {
+    "id": "TVM0019",
+    "road_name": "Tiruvannamalai - Harur Road (SH-188) - Chengam Rural Internal Link",
+    "city": "Chengam Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.3089,
+    "longitude": 78.7845,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad rural openings near dry field tracts.",
+      "Avoid dropping tyres off the main asphalt track into loose sandy margins.",
+      "Slow down near ongoing village market access clearings."
+    ]
+  },
+  {
+    "id": "TVM0020",
+    "road_name": "Arani Town Bazaar Main Street - Kalavai Road Industry Link Corridor",
+    "city": "Arani Town Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6712,
+    "longitude": 79.2912,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Heavy Factory Fleets",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt tracks molded by heavy loaders.",
+      "Expect long material trailers to make sudden turning maneuvers into silk mill gates.",
+      "Maintain large distance buffers from braking industrial cargo trailers."
+    ]
+  },
+  {
+    "id": "TVM0021",
+    "road_name": "Tiruvannamalai - Kanchipuram Road (SH-4) - Cheyyar River Bridge Bypass Route",
+    "city": "Cheyyar Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6512,
+    "longitude": 79.5456,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Rapid Intercity Bus Transit"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow moving vehicle columns.",
+      "Stay centered inside your lane markers on straight highway bypass stretches.",
+      "Keep standard spacing parameters clear from fast-approaching public transport omnibuses."
+    ]
+  },
+  {
+    "id": "TVM0022",
+    "road_name": "Polur - Chetpet Road - Devikapuram Market Junction Segment",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4389,
+    "longitude": 79.2112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect local agricultural machinery merging slowly from unpaved farm paths.",
+      "Slow down near rural residential clearings where local cattle or goats graze.",
+      "Honk gently to clear the pathway of grazing animal herds safely."
+    ]
+  },
+  {
+    "id": "TVM0023",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Chengam Road Cross Market link",
+    "city": "Tiruvannamalai Town Core",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2145,
+    "longitude": 79.0589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a crawl speed through tight regional commercial market loops.",
+      "Watch for opening side doors on parked utility delivery vans.",
+      "Exercise patience while localized shopper or pilgrim bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVM0024",
+    "road_name": "Tiruvannamalai Outer Ring Road Bypass - Thenimalai Connection Link Track Route",
+    "city": "Tiruvannamalai Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2045,
+    "longitude": 79.0312,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Wholesale Heavy Freight",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Watch for deep grooves catching your wheel alignment parameters on rattered asphalt.",
+      "Maintain a wide spatial safety margin behind multi-axle cargo trailers.",
+      "Be alert for loose industrial or commercial cargo residue swept onto the tarmac markers."
+    ]
+  },
+  {
+    "id": "TVM0025",
+    "road_name": "Polur - Chetpet Road - Single-Lane Bridge Ramp Approach Link",
+    "city": "Chetpet Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4456,
+    "longitude": 79.3512,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow market infrastructure tracks near the bridge.",
+      "Watch out for opening car or delivery van doors on left lane margins.",
+      "Be patient with unexpected pedestrian walking patterns near bazaar points."
+    ]
+  },
+  {
+    "id": "TVM0026",
+    "road_name": "Vandavasi - Tindivanam Road - Desur Overpass Approach Loop",
+    "city": "Vandavasi Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4545,
+    "longitude": 79.5812,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Bridge Ramp Approach",
+      "Complex Multi-Way Crossings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Pick your loop lane trajectory early before negotiating old bridge entries.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Stay tightly down the center of the road fabric when track is clear."
+    ]
+  },
+  {
+    "id": "TVM0027",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Western Ridge Loop",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2415,
+    "longitude": 79.2112,
+    "danger_level": "High",
+    "danger_type": [
+      "Steep Centrifugal Blind Curves",
+      "Frequent Heavy Inter-State Cargo Breakdowns"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Downshift gears to control vehicle approach speed over structural loop tracks.",
+      "Yield immediate right-of-way to accelerating industrial cargo trailers.",
+      "Refrain from overtaking around blind factory curve turns."
+    ]
+  },
+  {
+    "id": "TVM0028",
+    "road_name": "Tiruvannamalai Girivalam Path Inner Loop - Ashram Access Signal Loop",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2112,
+    "longitude": 79.0512,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Volume Pilgrim Swerving",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect sudden lane switches from local moped riders near ashram zones.",
+      "Check blind spots thoroughly before executing inner lane shifts."
+    ]
+  },
+  {
+    "id": "TVM0029",
+    "road_name": "Tiruvannamalai - Harur Road (SH-188) - Chengam Cross Link Route",
+    "city": "Chengam Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.3012,
+    "longitude": 78.7945,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Merges",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Sound your horn clearly before crossroad rural openings near dry field tracts.",
+      "Avoid dropping tyres off the main asphalt track into loose sandy margins.",
+      "Slow down near ongoing village market access clearings."
+    ]
+  },
+  {
+    "id": "TVM0030",
+    "road_name": "Tiruvannamalai Outer Ring Road Bypass - Thenimalai Lower Internal Link",
+    "city": "Tiruvannamalai Town Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2012,
+    "longitude": 79.0389,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near regional city limits.",
+      "Avoid late evening or deep night travels along this strip layout due to poor road visibility.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TVM0031",
+    "road_name": "Kalasapakkam - Polur Link Road - Railway Level Crossing Approach Loop",
+    "city": "Polur Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4212,
+    "longitude": 79.0889,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Multi-Lane Bottlenecks"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto highway lanes when the rail gate closes.",
+      "Avoid close filtering or lane splitting among stopped heavy trucks.",
+      "Keep foot ready on brakes near heavy commercial vehicle storage corridors."
+    ]
+  },
+  {
+    "id": "TVM0032",
+    "road_name": "Tiruvannamalai Outer Ring Road Bypass - Southern Merge Link Zone",
+    "city": "Tiruvannamalai Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2045,
+    "longitude": 79.0345,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Corridor Merge",
+      "Sudden Commercial Vehicle Slowdowns"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Check side blind spots thoroughly before executing bypass lane shifts.",
+      "Anticipate slow-moving industrial trailers or machinery joining the highway tracking lines.",
+      "Maintain strict long-range vehicle safety braking spaces."
+    ]
+  },
+  {
+    "id": "TVM0033",
+    "road_name": "Arani Town Bazaar Main Street - Silk Weaving Cluster Cross Link Track",
+    "city": "Arani Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6645,
+    "longitude": 79.2912,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Continuous Raw Material Tractor Transit"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard vehicle suspension over deep asphalt mill tracks.",
+      "Watch for deep structural grooves catching your alignment wheel parameters.",
+      "Sound your horn clearly before crossing crossroad clearings near industrial fields."
+    ]
+  },
+  {
+    "id": "TVM0034",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Access Merge Route",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2212,
+    "longitude": 79.0645,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Passenger Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "Medium",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Drive with extreme focus near regional market commuter perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing bypass lane shifts."
+    ]
+  },
+  {
+    "id": "TVM0035",
+    "road_name": "Vandavasi - Tindivanam Road - Border Highway Link Corridor Route",
+    "city": "Vandavasi Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4812,
+    "longitude": 79.6145,
+    "danger_level": "High",
+    "danger_type": [
+      "Total Absence of High-Mast Lighting",
+      "Aggressive Private Bus Overtaking"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Avoid late evening or deep night travels along this isolated stretch.",
+      "Yield right of way immediately to fast-approaching public transit buses.",
+      "Rely entirely on intense, clean low beam layouts during night transit."
+    ]
+  },
+  {
+    "id": "TVM0036",
+    "road_name": "Polur - Chetpet Road - Cheyyar Basin River Bridge Loop Junction Link",
+    "city": "Chetpet Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4412,
+    "longitude": 79.3512,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Narrow Bridge Ramp Approach"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lane shifts near the bridge.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Give immediate right of way to moving heavy commercial convoys."
+    ]
+  },
+  {
+    "id": "TVM0037",
+    "road_name": "Tiruvannamalai Girivalam Path Inner Loop - Chengam Road Link Ferry Link Cross",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2112,
+    "longitude": 79.0545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Narrow Pavement Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Watch for local riders joining the highway from secondary tracks at high speed.",
+      "Avoid dropping tyres off asphalt onto weak unpaved soil edges near walkway margins.",
+      "Check your blind spots thoroughly before changing lane positions."
+    ]
+  },
+  {
+    "id": "TVM0038",
+    "road_name": "Tiruvannamalai - Harur Road (SH-188) - Main Forest Track Route",
+    "city": "Chengam Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.3012,
+    "longitude": 78.7912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Crumbled Road Edges",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Avoid steering onto the broken, dropped edges of the asphalt pavement.",
+      "Slow down to let wide trailers pass by comfortably.",
+      "Be prepared for mud or loose soil tracking onto the main road from local fields."
+    ]
+  },
+  {
+    "id": "TVM0039",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Core Commercial Loop Track",
+    "city": "Tiruvannamalai Town Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0612,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "High Pedestrian Density Zone"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawl speed through narrow bazaar infrastructure tracks.",
+      "Watch out for opening car or delivery van doors on left margins.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVM0040",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Windmill Corridor",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2456,
+    "longitude": 79.2212,
+    "danger_level": "High",
+    "danger_type": [
+      "Sudden Commercial Vehicle Slowdowns",
+      "Severe Plain Crosswind Gusts"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Keep firm control of the steering wheel during high plain wind gusts across valley segments.",
+      "Scan the roadside for heavy transport vehicles carrying structural industrial machinery.",
+      "Strictly avoid rapid lane modifications or sharp braking inputs on open highway lanes."
+    ]
+  },
+  {
+    "id": "TVM0041",
+    "road_name": "Vellore - Thoothukudi Highway (NH-38 Link) - Polur Access Junction",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding Corridor",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden lane cuts by local transit shared autos near railway staff colony entries.",
+      "Reduce speed during heavy downpours to mitigate skidding over smooth highway asphalt.",
+      "Keep a safe braking buffer from two-wheelers tracking closely ahead."
+    ]
+  },
+  {
+    "id": "TVM0042",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Link Cross",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2456,
+    "longitude": 79.2212,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Unregulated Median Gaps"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Do not maintain peak velocity past local village crossroad gaps.",
+      "Watch for commercial cargo trucks slowing to turn without indication.",
+      "Keep to the center-left lane unless actively overtaking slower vehicles."
+    ]
+  },
+  {
+    "id": "TVM0043",
+    "road_name": "Polur - Chetpet Road - Cheyyar River Bridge Inflow Curve",
+    "city": "Chetpet Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4412,
+    "longitude": 79.3545,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Centrifugal Skidding",
+      "Dense Roadside Vegetation Obstruction"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "De-accelerate significantly before carving the initial sweeping bend near the bridge.",
+      "Sound your horn repeatedly around blind curves wrapped in dense riverbank foliage.",
+      "Strictly avoid lane splitting around transport trucks on corners."
+    ]
+  },
+  {
+    "id": "TVM0044",
+    "road_name": "Vandavasi - Tindivanam Road - Toll Plaza Approach",
+    "city": "Vandavasi Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4812,
+    "longitude": 79.6112,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Freight Merges",
+      "Sharp Reverse Curve Sequence"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Yield right of way to multi-axle industrial cargo container carriers.",
+      "Reduce approach speed significantly before steering into successive bends.",
+      "Avoid overtaking commercial transport trucks near tight structural turns."
+    ]
+  },
+  {
+    "id": "TVM0045",
+    "road_name": "Jawadhu Hills Ghat Road - Jamunamarathur Foothill Terminal Loop",
+    "city": "Jamunamarathur Foothills",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6345,
+    "longitude": 78.8889,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Junction Crossings",
+      "Tourist Transit Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Honk significantly before crossroad blind spots near forest resort zones.",
+      "Expect slow holiday wagons and trailers to make sudden turning maneuvers.",
+      "Signal transitions early before turning off toward mountain links."
+    ]
+  },
+  {
+    "id": "TVM0046",
+    "road_name": "Tiruvannamalai Outer Ring Road Bypass - Cross Route Link",
+    "city": "Tiruvannamalai Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2012,
+    "longitude": 79.0345,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Concrete Speed Breakers",
+      "Stray Livestock Corridors"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for crude rural village speed humps.",
+      "Slow down fully when moving past local household clearings.",
+      "Use your horn to clear the pathway of grazing cattle safely."
+    ]
+  },
+  {
+    "id": "TVM0047",
+    "road_name": "Arani Town Bazaar Main Street - Silk Weaving Factory Village Stretch",
+    "city": "Arani Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6745,
+    "longitude": 79.2845,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Width",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Avoid dropping tyres off the asphalt track onto soft soil edges.",
+      "Pull over or slow to a crawl if a heavy commercial vehicle approaches.",
+      "Keep speed low during evening commute and twilight hours."
+    ]
+  },
+  {
+    "id": "TVM0048",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Junction Intersecting Corridor",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "High",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Lighting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Avoid night travel due to absolute darkness and lack of road reflectors.",
+      "Scan the tarmac closely for extensive, water-logged surface craters.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TVM0049",
+    "road_name": "Sathanur Dam Access Road - River Bank Segment",
+    "city": "Sathanur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.1889,
+    "longitude": 78.8412,
+    "danger_level": "High",
+    "danger_type": [
+      "River Bank Skidding Zone",
+      "Continuous Heavy Tipper Transit"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Do not challenge aggressive construction material or sand tippers.",
+      "Keep away from the weak, unpaved edge next to the river channel.",
+      "Maintain strict lane discipline and avoid close-quarter overtaking."
+    ]
+  },
+  {
+    "id": "TVM0050",
+    "road_name": "Jawadhu Hills Ghat Road - Winding Mountain Segment Bends",
+    "city": "Jamunamarathur Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6345,
+    "longitude": 78.8889,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Zig-Zag Hairpin Bends",
+      "Dense Tree Line Visibility Obstruction"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound your horn continuously around dense mountain-side blind curves.",
+      "Downshift to utilize engine braking on winding descent tracks.",
+      "Stay tightly within your designated border lane lines."
+    ]
+  },
+  {
+    "id": "TVM0051",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple High Axis Link",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Crosswind Skidding",
+      "Heavy Grain and Cargo Tractor Movements"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Keep firm control of the steering wheel during high plain wind gusts across fields.",
+      "Yield right of way to heavily loaded commercial tractors and trailers.",
+      "Watch for loose soil runoff or sand layers swept onto the tarmac."
+    ]
+  },
+  {
+    "id": "TVM0052",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Overpass Loop",
+    "city": "Tiruvannamalai Town Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Over-Speeding Zone",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow logistics queues.",
+      "Expect sudden tracking drift from non-local highway transit drivers.",
+      "De-accelerate safely before entering sweeping elevated radial curves."
+    ]
+  },
+  {
+    "id": "TVM0053",
+    "road_name": "Arani Town Bazaar Main Street - Silk Weaving Cluster Cross Link Intersection",
+    "city": "Arani Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6645,
+    "longitude": 79.2912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Blind Spots",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossing crossroad clearings near river valleys.",
+      "Avoid dropping tyres off the main asphalt track into loose sand margins.",
+      "Expect heavy transit transport or manufacturing shift buses to cross unexpectedly."
+    ]
+  },
+  {
+    "id": "TVM0054",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Bypass Corridor Link",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2456,
+    "longitude": 79.2212,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding Corridor",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Expect sudden lane cuts by local transit shared autos near industrial facility tracks.",
+      "Reduce speed during heavy downpours to mitigate high-speed skidding on damp paths.",
+      "Keep a safe braking buffer from two-wheelers tracking closely ahead."
+    ]
+  },
+  {
+    "id": "TVM0055",
+    "road_name": "Polur - Chetpet Road - Devikapuram Junction Corner",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4389,
+    "longitude": 79.2112,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Squeeze",
+      "Erratic Auto-Rickshaw Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Maintain a slow crawling velocity through narrow transit structures near the market town.",
+      "Expect local auto-rickshaws to stop suddenly near neighborhood community commuter links.",
+      "Avoid overtaking commercial delivery vehicles from narrow left margins."
+    ]
+  },
+  {
+    "id": "TVM0056",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Western Ridge Flyover Loop",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2415,
+    "longitude": 79.2112,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Rapid Intercity Bus Transit"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your lane trajectory early before navigating around the bypass loops.",
+      "Do not challenge aggressive public transport coaches near junction openings.",
+      "Watch for two-wheelers jumping trailing amber traffic signal lights."
+    ]
+  },
+  {
+    "id": "TVM0057",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Core Inflow Route",
+    "city": "Tiruvannamalai Town Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Encroachments",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at crawling speed through tight market bazaar loops near city points.",
+      "Watch for opening side doors on parked delivery vehicles.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVM0058",
+    "road_name": "Tiruvannamalai - Kanchipuram Road (SH-4) - Cheyyar River Bridge Industrial Cross",
+    "city": "Cheyyar Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6512,
+    "longitude": 79.5456,
+    "danger_level": "High",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Heavy Logistics Freight Merging"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Expect long multi-axle trailers pulling out from warehouse storage paths.",
+      "Avoid overtaking commercial delivery vehicles from the inner left margins.",
+      "Be alert for local transit mini-buses executing sudden passenger drops."
+    ]
+  },
+  {
+    "id": "TVM0059",
+    "road_name": "Jawadhu Hills Ghat Road - Jamunamarathur Mountain Loop Section",
+    "city": "Jamunamarathur Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6345,
+    "longitude": 78.8889,
+    "danger_level": "High",
+    "danger_type": [
+      "Two-Wheeler Cluster Swerving",
+      "Unmarked Concrete Construction Steps"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Scan the dark asphalt carefully for sudden variations or deep craters.",
+      "Signal intents early before executing any detour lane deviations."
+    ]
+  },
+  {
+    "id": "TVM0060",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Polur Road Bridge Loop Merge Axis",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5156,
+    "longitude": 79.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Heavy Container Inflow",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Strictly avoid crossing center lane markers to pass slow freight columns.",
+      "Keep wide spacing coordinates behind heavily loaded cargo trucks.",
+      "Roll up windows due to high airborne dust layers kicked up by logistics transport."
+    ]
+  },
+  {
+    "id": "TVM0061",
+    "road_name": "Jawadhu Hills Ghat Road - Ponneri Foothill Access Corridor",
+    "city": "Jamunamarathur Foothills",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5945,
+    "longitude": 78.9112,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Tourism Freight Clusters",
+      "Oil Slick Vulnerability"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise high caution near valley exits due to dropped fuel residue ripples from tourist buses.",
+      "Maintain a massive tracking gap behind empty speeding holiday coaches.",
+      "Avoid harsh cornering or heavy braking inputs to prevent traction loss."
+    ]
+  },
+  {
+    "id": "TVM0062",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Chengam Road Cross Connection Link",
+    "city": "Tiruvannamalai Town Core",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2145,
+    "longitude": 79.0589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Volume Commuter Swerving",
+      "Erratic Shared Auto-Rickshaw Stops"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Expect local share-autos to brake or pull over blindly on the left lanes.",
+      "Check blind spots thoroughly before moving across main market corridors.",
+      "Keep track of multiple accelerating two-wheelers from suburban commuter links."
+    ]
+  },
+  {
+    "id": "TVM0063",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Overpass Approach",
+    "city": "Tiruvannamalai Town Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Complex Multi-Way Crossings",
+      "Vulnerable Pedestrian Crossings"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Do not speed past open median gaps or unstructured crossroads.",
+      "Anticipate local riders traveling against traffic on the road margins.",
+      "Give immediate right of way to pedestrians navigating intersection lanes."
+    ]
+  },
+  {
+    "id": "TVM0064",
+    "road_name": "Arani Town Bazaar Main Street - Silk Weaving Cluster Access Gate Segment",
+    "city": "Arani Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6645,
+    "longitude": 79.2912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Pavement Squeeze",
+      "High Pedestrian Density"
+    ],
+    "speed_limit": 35,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Maintain a slow crawling velocity through narrow checkpoint paths near factory blocks.",
+      "Watch for shoppers stepping out unexpectedly behind parked manufacturing vans.",
+      "Refrain from using high-decibel horns near local residential fields."
+    ]
+  },
+  {
+    "id": "TVM0065",
+    "road_name": "Vandavasi - Tindivanam Road - Desur Overpass Access Bridge Inflow Axis",
+    "city": "Vandavasi Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4545,
+    "longitude": 79.5812,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unregulated Tourist Parking",
+      "Erratic Two-Wheeler Parking"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden holiday transport vans to drop speed or swerve near bridges.",
+      "Use indicator turn signals early before leaving the main track lanes.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVM0066",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Road Cross Loop",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2456,
+    "longitude": 79.2212,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Sudden Lane Bottlenecks"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Anticipate sudden highway freight traffic backing up near commercial connections.",
+      "Avoid close filtering or lane splitting among stopped industrial trailers.",
+      "Keep foot ready on brakes near heavy commercial vehicle service links."
+    ]
+  },
+  {
+    "id": "TVM0067",
+    "road_name": "Arani Town Bazaar Main Street - Kalavai Road Loop Approach",
+    "city": "Arani Town Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6712,
+    "longitude": 79.2912,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Swerving",
+      "Heavy Factory Fleet Flow"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "De-accelerate significantly before carving the initial manufacturing bend.",
+      "Keep firmly within your designated tracking lane boundary marks.",
+      "Avoid overtaking or rapid throttling actions inside the mill approaches."
+    ]
+  },
+  {
+    "id": "TVM0068",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Polur Road Bridge Access Split Route",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5156,
+    "longitude": 79.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Complex Multi-way Crossings",
+      "Head-on Overtaking Risks"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lateral shifting.",
+      "Strictly avoid crossing center lane markings to pass slow moving lines near bridge ramps.",
+      "Blink your headlights when approaching the unlit cross intersection."
+    ]
+  },
+  {
+    "id": "TVM0069",
+    "road_name": "Tiruvannamalai - Kanchipuram Road (SH-4) - Cheyyar River Bridge Section",
+    "city": "Cheyyar Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6512,
+    "longitude": 79.5456,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Inter-State Freight Merges",
+      "High Velocity Merging Trajectories"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Expect heavy multi-axle logistics trucks turning sharply from manufacturing paths.",
+      "Use explicit side indicator flashes early before navigating loops.",
+      "Maintain a massive tracking gap behind heavy industrial vectors."
+    ]
+  },
+  {
+    "id": "TVM0070",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Chengam Road Cross Market Link School Zone Area",
+    "city": "Tiruvannamalai Town Core",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2145,
+    "longitude": 79.0589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Student Foot-Traffic",
+      "Two-Wheeler Cluster Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Drive with extreme focus near regional educational complex perimeter tracks.",
+      "Keep a sharp buffer radius from two-wheelers tracking closely ahead.",
+      "Check blind spots thoroughly before executing lane shifts."
+    ]
+  },
+  {
+    "id": "TVM0071",
+    "road_name": "Polur - Chetpet Road - Cheyyar Basin River Bridge Single-Lane Bridge Rural Track",
+    "city": "Chetpet Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4412,
+    "longitude": 79.3545,
+    "danger_level": "High",
+    "danger_type": [
+      "Narrow Culvert Squeezes",
+      "Eroded Asphalt Edges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down before negotiating old masonry brick culverts near factory fields.",
+      "Keep tires firmly off the crumbled margins to prevent structural drops.",
+      "Signal intents early to trailing traffic blocks before stopping."
+    ]
+  },
+  {
+    "id": "TVM0072",
+    "road_name": "Tiruvannamalai - Harur Road (SH-188) - Chengam Town Junction High Curve Extension Route",
+    "city": "Chengam Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.3012,
+    "longitude": 78.7912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "High Speed Skidding Curves",
+      "Lack of Side Reflectors"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "Medium",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "De-accelerate well ahead of the sweeping open curves.",
+      "Utilize low-beam patterns during night transit windows.",
+      "Keep vehicle alignment centered in your respective tracking tier."
+    ]
+  },
+  {
+    "id": "TVM0073",
+    "road_name": "Tiruvannamalai Outer Ring Road Bypass - Thenimalai Girivalam Cross Axis Market Link Track",
+    "city": "Tiruvannamalai Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2012,
+    "longitude": 79.0345,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Crossroad Blind Spots",
+      "Soft Unpaved Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Sound your horn clearly before crossing crossroad clearings.",
+      "Avoid dropping tyres off the main asphalt track into loose sand.",
+      "Expect logistics trailers or industrial machinery merging slowly from lanes."
+    ]
+  },
+  {
+    "id": "TVM0074",
+    "road_name": "Tiruvannamalai Outer Ring Road Bypass - Thenimalai Connection Link Lower Merge Village Inflow Link",
+    "city": "Tiruvannamalai Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2045,
+    "longitude": 79.0312,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Night Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for deep craters near the rural margins.",
+      "Avoid late evening or deep night travels along this isolated strip.",
+      "Keep headlights on low beam to catch structural pavement drops."
+    ]
+  },
+  {
+    "id": "TVM0075",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Car Street Loop Link Access (Near Market)",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Frequent Heavy Truck Queues",
+      "Unmarked Earthen Speed Breakers"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Anticipate sudden traffic backing up onto the approach lanes near wholesale zones.",
+      "Keep eyes peeled for crude village speed humps near trading checkpoints.",
+      "Honk gently to clear pathways of stray loaders or heavy equipment."
+    ]
+  },
+  {
+    "id": "TVM0076",
+    "road_name": "Jawadhu Hills Ghat Road - Jamunamarathur Mountain View Access Corridor",
+    "city": "Jamunamarathur Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6345,
+    "longitude": 78.8889,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Tourism Freight Clusters",
+      "Oil Slick Vulnerability"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise high caution near loop structures due to potential wet residue drop.",
+      "Maintain a massive tracking gap behind empty speeding container trailers.",
+      "Avoid harsh cornering or heavy braking inputs to prevent traction loss."
+    ]
+  },
+  {
+    "id": "TVM0077",
+    "road_name": "Vellore - Thoothukudi Highway (NH-38 Link) - Polur Bypass Roundabout Core Loops (Near Overpass)",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "danger_level": "High",
+    "danger_type": [
+      "High Velocity Through-Traffic",
+      "Complex Multi-Way Crossings"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Pick your loop lane alignment early to avoid rapid lane shifts near the overpass structures.",
+      "Anticipate multi-axle freight logistics carriers executing sharp lateral cuts.",
+      "Keep standard spacing parameters clear from the vehicle ahead."
+    ]
+  },
+  {
+    "id": "TVM0078",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Car Street Loop Core Trading Street",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Severe Commercial Congestion",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at crawling speed through tight market bazaar loops.",
+      "Watch for opening side doors on parked delivery vehicles.",
+      "Exercise patience while local shopper pedestrian bottlenecks clear."
+    ]
+  },
+  {
+    "id": "TVM0079",
+    "road_name": "Arani Town Bazaar Main Street - Silk Weaving Cluster Town Market Area",
+    "city": "Arani Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6689,
+    "longitude": 79.2945,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Heavy Truck Turns",
+      "Asphalt Deformity"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Slow down near the main refinery processing and logistics parking gates.",
+      "Watch out for deep tire tracks molded into the soft asphalt by heavy loaders.",
+      "Give turning loaded sugarcane trucks and transport trailers a wide berth."
+    ]
+  },
+  {
+    "id": "TVM0080",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Junction Town College Cross",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2456,
+    "longitude": 79.2212,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Intersection Crossings",
+      "Lack of Road Markings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Sound your horn before crossing minor educational institution access lanes.",
+      "Drive down the center of the road when oncoming lanes are clear of traffic.",
+      "Expect unexpected crossings by local students and regional commuters."
+    ]
+  },
+  {
+    "id": "TVM0081",
+    "road_name": "Cuddalore - Chittoor Road (SH-9) - Polur Road Bridge Junction Bend link",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5156,
+    "longitude": 79.1212,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Reverse Curve",
+      "High-Speed Over-Speeding Zone"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "De-accelerate before entering the initial left-hand bend near the bridge structures.",
+      "Stay well within your lane to avoid drifting into oncoming logistics traffic.",
+      "Avoid overtaking long commercial transport trucks on this curve stretch."
+    ]
+  },
+  {
+    "id": "TVM0082",
+    "road_name": "Polur - Chetpet Road - Cheyyar Basin view link",
+    "city": "Chetpet Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4412,
+    "longitude": 79.3545,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Eroded Road Shoulders",
+      "Pedestrian Footpath Encroachments"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep away from the weak, unpaved edge next to the running water channel.",
+      "Slow down when navigating past dense roadside commercial trading stalls.",
+      "Be prepared to stop if pedestrians step off the narrow path onto the tarmac."
+    ]
+  },
+  {
+    "id": "TVM0083",
+    "road_name": "Jawadhu Hills Ghat Road - Jamunamarathur Mountain Loop Route",
+    "city": "Jamunamarathur Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6345,
+    "longitude": 78.8889,
+    "danger_level": "High",
+    "danger_type": [
+      "Hidden Curve Crests",
+      "Narrow Culvert Squeeze"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Flash your high beams during evening trips around blind bridge access ramps.",
+      "Yield structural priority to wider incoming commercial trailers.",
+      "Approach old masonry pipe culverts with high caution."
+    ]
+  },
+  {
+    "id": "TVM0084",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Chengam Road Cross Market Viewpoint Descent Junction",
+    "city": "Tiruvannamalai Town Core",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2145,
+    "longitude": 79.0589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Concrete Level Step",
+      "Pedestrian Foot-Traffic Inflow"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Scan the dark asphalt for crude bridge approach infrastructure level differences.",
+      "Slow down near the historical town terminal boundary walls.",
+      "Watch for pedestrians walking on the side margins due to high pilgrim congestion."
+    ]
+  },
+  {
+    "id": "TVM0085",
+    "road_name": "Tiruvannamalai Outer Ring Road Bypass - Thenimalai Connection Link S-Curve Link",
+    "city": "Tiruvannamalai Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2045,
+    "longitude": 79.0312,
+    "danger_level": "High",
+    "danger_type": [
+      "Blind Zig-Zag S-Curve",
+      "Heavy Industrial Freight Interferences"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Honk repeatedly to warn oncoming traffic before entering successive turns.",
+      "Do not attempt any sudden steering corrections on the bend fabric.",
+      "Keep your speed stable and low until the rural road completely straightens."
+    ]
+  },
+  {
+    "id": "TVM0086",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Car Street Loop Core Cross Link Loop",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Delivery Trucks",
+      "Severe Smoke Clouds"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Turn on low beams if heavy vehicle exhaust lowers traffic visibility near transit hubs.",
+      "Maintain a massive tracking gap behind heavy multi-axle wholesale logistics.",
+      "Watch for loose commercial loads dropping from uncovered trailers."
+    ]
+  },
+  {
+    "id": "TVM0087",
+    "road_name": "Arani Town Bazaar Main Street - Silk Weaving Cluster Village Main Extension",
+    "city": "Arani Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6689,
+    "longitude": 79.2945,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Sudden Commercial Pullovers",
+      "Merging Highway Lanes"
+    ],
+    "speed_limit": 55,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Anticipate erratic lane shifts from visiting out-station motorists.",
+      "Use proper indicator turn signals early before leaving the highway axis.",
+      "Keep your focus sharp on pedestrians crossing near regional marketplace hubs."
+    ]
+  },
+  {
+    "id": "TVM0088",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Junction Roundabout Junction Route",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2456,
+    "longitude": 79.2212,
+    "danger_level": "High",
+    "danger_type": [
+      "Head-on Collision Prone Corridor",
+      "Lack of Center Divider"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 45,
+    "safety_tips": [
+      "Strictly avoid crossing the middle of the road to pass slow freight columns.",
+      "Stay centered inside your lane markers on straight highway bypass stretches.",
+      "Slow down if oncoming vehicles begin drifting over the center line track."
+    ]
+  },
+  {
+    "id": "TVM0089",
+    "road_name": "Polur - Chetpet Road - Single-Lane Bridge Ramp Approach Link Check Zone",
+    "city": "Chetpet Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4456,
+    "longitude": 79.3512,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Two-Wheeler Merging Speed",
+      "Narrow Bridge Ramp Approach"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Watch for local riders joining the highway from commercial tracks at high speed.",
+      "Do not attempt to pass other cars on the steep bridge ramp tracks.",
+      "Check your blind spots thoroughly before changing lane positions."
+    ]
+  },
+  {
+    "id": "TVM0090",
+    "road_name": "Tiruvannamalai - Harur Road (SH-188) - internal corridor road track",
+    "city": "Chengam Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.3012,
+    "longitude": 78.7912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Crumbled Road Edges",
+      "Agricultural Tractor Traffic"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Avoid steering onto the broken, dropped edges of the asphalt pavement.",
+      "Slow down to let wide trailers pass by comfortably.",
+      "Be prepared for mud or loose soil tracking onto the main road from local fields."
+    ]
+  },
+  {
+    "id": "TVM0091",
+    "road_name": "Vellore - Thoothukudi Highway (NH-38 Link) - Polur Access Junction Winding access link loop",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "danger_level": "High",
+    "danger_type": [
+      "Aggressive Private Bus Overtaking",
+      "Poor Night Visibility"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Yield right of way immediately to fast-approaching public transit buses.",
+      "Rely on low beams and look for side reflectors on night drives.",
+      "Maintain a safe braking distance from commercial vehicles traveling ahead."
+    ]
+  },
+  {
+    "id": "TVM0092",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Car Street Loop Core Cross Junction Link",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Commercial Encroachments",
+      "Erratic Two-Wheeler Side Parking"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "Medium",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Drive at a crawl speed through tight wholesale market bazaar structures.",
+      "Watch for opening car doors on parked delivery vehicles.",
+      "Exercise high patience while town shopper pedestrian bottlenecks clear out."
+    ]
+  },
+  {
+    "id": "TVM0093",
+    "road_name": "Polur - Chetpet Road - Cheyyar Basin River Bridge Loop Approach 2 Loop",
+    "city": "Chetpet Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4412,
+    "longitude": 79.3545,
+    "danger_level": "High",
+    "danger_type": [
+      "Frequent Delta Truck Jackknifing",
+      "Severe Brake Fade Risk"
+    ],
+    "speed_limit": 30,
+    "accident_frequency": "High",
+    "recommended_speed": 15,
+    "safety_tips": [
+      "Strictly preserve low gear configurations on descending vectors near the river bridge.",
+      "Do not attempt any overlapping overtaking past heavy sand trailers.",
+      "Stay highly centered within the lane structural boundaries."
+    ]
+  },
+  {
+    "id": "TVM0094",
+    "road_name": "Tiruvannamalai - Kanchipuram Road (SH-4) - Cheyyar Town Outer Loop Crossing Depot Area",
+    "city": "Cheyyar Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6567,
+    "longitude": 79.5412,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Blind Agricultural Junctions",
+      "Soft Sandy Shoulders"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Honk clearly before crossroad blind spots near plantation borders.",
+      "Keep tyres firmly on the asphalt track layout.",
+      "Avoid overtaking near muddy local farm routes."
+    ]
+  },
+  {
+    "id": "TVM0095",
+    "road_name": "Tiruvannamalai Outer Ring Road Bypass - Thenimalai Girivalam Cross Axis Road - Cargo Section Stretch",
+    "city": "Tiruvannamalai Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2012,
+    "longitude": 79.0345,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Skidding",
+      "Lack of Side Reflectors"
+    ],
+    "speed_limit": 60,
+    "accident_frequency": "High",
+    "recommended_speed": 40,
+    "safety_tips": [
+      "Reduce speed on the sweeping open curves past transit boundaries.",
+      "Utilize low-beam patterns during night transits.",
+      "Maintain a safe tracking gap between heavy logistics vehicles."
+    ]
+  },
+  {
+    "id": "TVM0096",
+    "road_name": "Arani Town Bazaar Main Street - Silk Weaving Cluster Loops - Internal Cross Link",
+    "city": "Arani Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6689,
+    "longitude": 79.2945,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Deep Pothole Clusters",
+      "Total Absence of Lighting"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Scan the dark asphalt surface for craters near heavy industrial complexes.",
+      "Do not travel at high speeds at night along unlit lines.",
+      "Yield to opposing trucks to safely pass road pavement cracks."
+    ]
+  },
+  {
+    "id": "TVM0097",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Junction Overpass Flyover Loops",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2456,
+    "longitude": 79.2212,
+    "danger_level": "High",
+    "danger_type": [
+      "Sharp Reverse S-Curve",
+      "Dense Scrub Obstructions"
+    ],
+    "speed_limit": 45,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "De-accelerate before entering the winding flyover merge sequence.",
+      "Sound horn continuously around blind roadside vegetation layers.",
+      "Stay tightly within your designated border lane markers."
+    ]
+  },
+  {
+    "id": "TVM0098",
+    "road_name": "Polur - Chetpet Road - Cheyyar Basin River Bridge Link Bridge Inflow",
+    "city": "Chetpet Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.4412,
+    "longitude": 79.3545,
+    "danger_level": "High",
+    "danger_type": [
+      "River Bank Skidding Risk",
+      "Narrow Pavement Width"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 20,
+    "safety_tips": [
+      "Exercise strict caution during heavy monsoon runoff spikes near the river basin.",
+      "Do not attempt any pass on the narrow bund track sections.",
+      "Slow to a crawl if a wide public transit bus approaches."
+    ]
+  },
+  {
+    "id": "TVM0099",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Chengam Road Cross Market Loop Sector",
+    "city": "Tiruvannamalai Town Core",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2145,
+    "longitude": 79.0589,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Erratic Shared-Auto Pullovers",
+      "Two-Wheeler Swerving"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Expect sudden transit vehicle halts near regional trade blocks.",
+      "Keep a safe radius from commuter two-wheelers ahead.",
+      "Check side mirrors carefully before turning off the commercial path."
+    ]
+  },
+  {
+    "id": "TVM0100",
+    "road_name": "Vellore - Thoothukudi Highway (NH-38 Link) - Polur Bypass Roundabout Access Corridor",
+    "city": "Polur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.5112,
+    "longitude": 79.1245,
+    "danger_level": "High",
+    "danger_type": [
+      "Heavy Industrial Freight Corridor",
+      "Severe Bitumen Rutting"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "High",
+    "recommended_speed": 30,
+    "safety_tips": [
+      "Drive slow to safeguard suspension over deep asphalt bypass tracks.",
+      "Watch for deep grooves catching your wheel alignment parameters.",
+      "Maintain a massive distance behind industrial maritime freight fleets."
+    ]
+  },
+  {
+    "id": "TVM0101",
+    "road_name": "Tiruvannamalai Town Bazaar Road - Annamalaiyar Temple Car Street Loop Crossing Access",
+    "city": "Tiruvannamalai Town",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2245,
+    "longitude": 79.0689,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Unmarked Earthen Speed Breakers",
+      "Domestic Animal Crossings"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "Medium",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Keep eyes peeled for crude village speed humps over the tarmac segments.",
+      "Slow down near regional properties and pilgrim rest perimeters.",
+      "Honk gently to clear pathways of stray local livestock units."
+    ]
+  },
+  {
+    "id": "TVM0102",
+    "road_name": "Jawadhu Hills Ghat Road - Jamunamarathur Winding Mountain Access Loop",
+    "city": "Jamunamarathur Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.6345,
+    "longitude": 78.8889,
+    "danger_level": "High",
+    "danger_type": [
+      "High Speed Inter-District Buses",
+      "Sudden Intersection Merges"
+    ],
+    "speed_limit": 70,
+    "accident_frequency": "High",
+    "recommended_speed": 50,
+    "safety_tips": [
+      "Refrain from maximum speeds past open crossroad clearings near mountain valleys.",
+      "Anticipate slow-moving plantation tractors joining the tracking fabric.",
+      "Keep low beams functional during twilight or dusk tracking hours."
+    ]
+  },
+  {
+    "id": "TVM0103",
+    "road_name": "Tiruvannamalai - Harur Road (SH-188) - Chengam Town Junction Bridge Corner Loop",
+    "city": "Chengam Area",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.3012,
+    "longitude": 78.7912,
+    "danger_level": "Medium",
+    "danger_type": [
+      "Narrow Culvert Squeezes",
+      "Eroded Asphalt Edges"
+    ],
+    "speed_limit": 50,
+    "accident_frequency": "Medium",
+    "recommended_speed": 35,
+    "safety_tips": [
+      "Slow down before old concrete culvert structures near the industrial links.",
+      "Keep tires clear of fractured road borders to prevent drop-off skids.",
+      "Signal intents early to trailing factory logistics traffic columns."
+    ]
+  },
+  {
+    "id": "TVM0104",
+    "road_name": "Tindivanam - Krishnagiri Highway (NH-77) - Kilpennathur Junction Core Extension Link Route",
+    "city": "Kilpennathur Outskirts",
+    "district": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "latitude": 12.2456,
+    "longitude": 79.2212,
+    "danger_level": "High",
+    "danger_type": [
+      "Continuous Sharp Hairpin Bends",
+      "Tree Line Visibility Obstruction"
+    ],
+    "speed_limit": 40,
+    "accident_frequency": "High",
+    "recommended_speed": 25,
+    "safety_tips": [
+      "Cut down speed significantly before entry curves around busy market intersections.",
+      "Maintain a centered line on the driving track layout blocks.",
+      "Sound your horn to alert opposing hidden regional transport drivers."
     ]
   }
+]
