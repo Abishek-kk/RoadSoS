@@ -1,8 +1,9 @@
 // Location service priority:
-//   1. Fresh saved location cache (30 minutes)
-//   2. Browser Geolocation API (high accuracy, then low accuracy retry)
-//   3. IP-based geolocation (ipapi.co)
-//   4. Hardcoded fallback (Madurai - 9.9252, 78.1198)
+//   1. Manual saved location override, until explicitly reset
+//   2. Fresh auto-detected location cache (30 minutes)
+//   3. Browser Geolocation API (high accuracy, then low accuracy retry)
+//   4. IP-based geolocation (ipapi.co)
+//   5. Hardcoded fallback (Madurai - 9.9252, 78.1198)
 
 const STORAGE_KEY = "roadsos_user_location";
 const SAVED_LOCATION_MAX_AGE_MS = 30 * 60 * 1000;
@@ -47,9 +48,15 @@ export async function getLocation(options: GetLocationOptions = {}): Promise<Coo
   return { lat: result.lat, lng: result.lng };
 }
 
-export async function getLocationDetails(options: GetLocationOptions = {}): Promise<LocationResult> {
+export async function getLocationDetails(
+  options: GetLocationOptions = {},
+): Promise<LocationResult> {
+  const saved = readSavedLocation();
+  if (saved?.source === "manual") {
+    return { lat: saved.lat, lng: saved.lng, source: "saved", status: "saved" };
+  }
+
   if (!options.forceRefresh && !options.browserOnly) {
-    const saved = readSavedLocation();
     if (saved) {
       return { lat: saved.lat, lng: saved.lng, source: "saved", status: "saved" };
     }
@@ -120,7 +127,10 @@ function placeLabelFromAddress(address: unknown): string | null {
   return primary;
 }
 
-function firstAddressValue(values: Record<string, unknown>, keys: readonly string[]): string | null {
+function firstAddressValue(
+  values: Record<string, unknown>,
+  keys: readonly string[],
+): string | null {
   for (const key of keys) {
     const value = cleanAddressValue(values[key]);
     if (value) return value;
@@ -165,7 +175,9 @@ function requestBrowserPosition(options: PositionOptions): Promise<BrowserAttemp
   });
 }
 
-function geolocationErrorStatus(error: GeolocationPositionError): Exclude<BrowserGeolocationStatus, "success"> {
+function geolocationErrorStatus(
+  error: GeolocationPositionError,
+): Exclude<BrowserGeolocationStatus, "success"> {
   switch (error.code) {
     case 1:
       return "denied";
@@ -196,6 +208,9 @@ async function tryIPGeolocation(): Promise<Coordinates | null> {
 
 export function saveLocation(lat: number, lng: number, source: SavedLocationSource = "manual") {
   if (typeof window !== "undefined") {
+    if (source !== "manual" && readSavedLocation()?.source === "manual") {
+      return;
+    }
     const payload: SavedLocation = { lat, lng, source, timestamp: Date.now() };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
   }
@@ -219,7 +234,7 @@ function readSavedLocation(): SavedLocation | null {
       localStorage.removeItem(STORAGE_KEY);
       return null;
     }
-    if (Date.now() - parsed.timestamp > SAVED_LOCATION_MAX_AGE_MS) {
+    if (parsed.source !== "manual" && Date.now() - parsed.timestamp > SAVED_LOCATION_MAX_AGE_MS) {
       localStorage.removeItem(STORAGE_KEY);
       return null;
     }

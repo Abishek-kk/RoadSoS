@@ -99,6 +99,8 @@ function showLocationStatusToast(result: LocationResult, refreshed = false) {
 function Dashboard() {
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [alerts, setAlerts] = useState<RoadAlert[]>([]);
+  const [dangerZoneAlerts, setDangerZoneAlerts] = useState<DangerZoneAlert[]>([]);
+  const [dangerZonesChecked, setDangerZonesChecked] = useState(false);
   const [risk, setRisk] = useState<RiskAssessment | null>(null);
   const [sosActive, setSosActive] = useState(false);
   const [countdown, setCountdown] = useState(0);
@@ -196,6 +198,8 @@ function Dashboard() {
     if (!coords) return;
     let cancelled = false;
     warnedDangerZonesRef.current.clear();
+    setDangerZonesChecked(false);
+    setDangerZoneAlerts([]);
 
     const showDangerZoneWarnings = (dangerZoneAlerts: DangerZoneAlert[] = []) => {
       for (const alert of dangerZoneAlerts) {
@@ -209,13 +213,25 @@ function Dashboard() {
       }
     };
 
-    const pollLocationAlerts = () => {
-      api
-        .postLocation(coords.lat, coords.lng)
-        .then((response) => showDangerZoneWarnings(response.alerts))
-        .catch(() => {
-          // Keep proactive polling quiet on transient backend/network failures.
-        });
+    const pollLocationAlerts = async () => {
+      try {
+        const [locationResponse, dangerRoadsResponse] = await Promise.all([
+          api.postLocation(coords.lat, coords.lng),
+          api.nearbyDangerRoads(coords.lat, coords.lng, 8, 10),
+        ]);
+        if (cancelled) return;
+
+        const liveAlerts = dangerRoadsResponse.results ?? locationResponse.alerts ?? [];
+        setDangerZoneAlerts(liveAlerts);
+        setDangerZonesChecked(true);
+        showDangerZoneWarnings(locationResponse.alerts ?? liveAlerts);
+      } catch {
+        if (!cancelled) {
+          setDangerZoneAlerts([]);
+          setDangerZonesChecked(true);
+        }
+        // Keep proactive polling quiet on transient backend/network failures.
+      }
     };
 
     pollLocationAlerts();
@@ -678,20 +694,34 @@ function Dashboard() {
       <Card className="p-5">
         <div className="font-semibold mb-3">Recent danger zone alerts</div>
         <div className="divide-y divide-border">
-          {alerts.map((a) => (
-            <div key={a.id} className="py-3 flex items-center gap-3">
-              <SeverityDot s={a.severity} />
-              <div className="flex-1 min-w-0">
-                <div className="text-sm font-medium truncate">
-                  {a.type} · {formatDistance(a.distance_km)}
+          {dangerZoneAlerts.length ? (
+            dangerZoneAlerts.map((a) => (
+              <div
+                key={a.zone_id || `${a.zone_name}-${a.distance_km}`}
+                className="py-3 flex items-center gap-3"
+              >
+                <SeverityDot s={normalizeRiskSeverity(a.risk_level)} />
+                <div className="flex-1 min-w-0">
+                  <div className="text-sm font-medium truncate">
+                    {a.road_name || a.zone_name} / {formatDistance(a.distance_km)}
+                  </div>
+                  <div className="text-xs text-muted-foreground truncate">
+                    {a.message}
+                    {a.district ? ` / ${a.district}` : ""}
+                  </div>
                 </div>
-                <div className="text-xs text-muted-foreground truncate">{a.message}</div>
+                <Badge variant="outline" className="capitalize">
+                  {a.risk_level}
+                </Badge>
               </div>
-              <Badge variant="outline" className="capitalize">
-                {a.severity}
-              </Badge>
+            ))
+          ) : (
+            <div className="py-3 text-sm text-muted-foreground">
+              {dangerZonesChecked
+                ? "No live danger-zone alerts near your current location."
+                : "Checking live danger zones near your location..."}
             </div>
-          ))}
+          )}
         </div>
       </Card>
     </div>
@@ -753,4 +783,13 @@ function formatDistance(distance?: number | null) {
 
 function formatRiskLevel(riskLevel?: string) {
   return riskLevel ? riskLevel.charAt(0).toUpperCase() + riskLevel.slice(1) : "Unknown";
+}
+
+function normalizeRiskSeverity(riskLevel?: string) {
+  const normalized = String(riskLevel ?? "").toLowerCase();
+  if (normalized === "critical" || normalized === "very high") return "critical";
+  if (normalized === "high" || normalized === "medium" || normalized === "low") {
+    return normalized;
+  }
+  return "medium";
 }

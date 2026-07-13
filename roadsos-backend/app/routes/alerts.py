@@ -1,6 +1,9 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends, Query
+from sqlalchemy.orm import Session
 
 from app.routes._data import distance_km, load_json
+from db import crud
+from db.database import get_db
 
 
 router = APIRouter(prefix="/alerts", tags=["Alerts"])
@@ -29,3 +32,34 @@ async def list_alerts(lat: float | None = None, lng: float | None = None):
     if lat is not None and lng is not None:
         alerts.sort(key=lambda row: row["distance_km"])
     return alerts
+
+
+@router.get("/recent")
+async def recent_danger_zone_alerts(
+    user_id: int = Query(...),
+    limit: int = Query(20, ge=1, le=100),
+    db: Session = Depends(get_db),
+):
+    events = crud.get_recent_danger_zone_alerts(db, user_id, limit=limit)
+    return {
+        "ok": True,
+        "alerts": [
+            {
+                "id": e.id,
+                "zone_id": e.zone_id,
+                "zone_name": e.zone_name,
+                "risk_level": e.risk_level,
+                "risk_score": e.risk_score,
+                "distance_km": e.distance_km,
+                "inside_zone": e.inside_zone,
+                "message": e.message,
+                "advisory": e.advisory,
+                "lat": e.lat,
+                "lng": e.lng,
+                "notified_push": e.notified_push,
+                "notified_sms": e.notified_sms,
+                "created_at": e.created_at.isoformat(),
+            }
+            for e in events
+        ],
+    }

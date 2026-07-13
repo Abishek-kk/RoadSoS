@@ -1,8 +1,9 @@
 # crud.py — DB read/write operations
 from sqlalchemy.orm import Session
 from sqlalchemy import desc
-from datetime import datetime
+from datetime import UTC, datetime, timedelta
 from typing import List, Optional
+from app.config import get_danger_zone_sms_cooldown_minutes
 from db import models
 from app.models import user as user_schema, sos as sos_schema, location as location_schema
 
@@ -226,6 +227,80 @@ def get_latest_user_location(db: Session, user_id: int) -> Optional[models.Locat
         .filter(models.LocationLog.user_id == user_id)\
         .order_by(desc(models.LocationLog.timestamp))\
         .first()
+
+
+# -------------------------------------------------------------------
+# Danger Zone Alert Event CRUD Operations
+# -------------------------------------------------------------------
+
+def log_danger_zone_alert_event(
+    db: Session,
+    user_id: int,
+    alert: dict,
+    lat: float,
+    lng: float,
+    notified_push: bool = False,
+    notified_sms: bool = False,
+) -> models.DangerZoneAlertEvent:
+    """Persist one danger-zone proximity event, deduped by user/zone cooldown."""
+    zone_id = str(alert.get("zone_id") or alert.get("id") or "").strip()
+    if not zone_id:
+        raise ValueError("danger-zone alert event requires zone_id")
+
+    existing = (
+        db.query(models.DangerZoneAlertEvent)
+        .filter(
+            models.DangerZoneAlertEvent.user_id == user_id,
+            models.DangerZoneAlertEvent.zone_id == zone_id,
+        )
+        .order_by(desc(models.DangerZoneAlertEvent.created_at))
+        .first()
+    )
+    if existing and _is_within_danger_zone_cooldown(existing.created_at):
+        return existing
+
+    event = models.DangerZoneAlertEvent(
+        user_id=user_id,
+        zone_id=zone_id,
+        zone_name=str(alert.get("zone_name") or alert.get("name") or zone_id),
+        risk_level=str(alert.get("risk_level") or "unknown"),
+        risk_score=alert.get("risk_score"),
+        distance_km=alert.get("distance_km"),
+        inside_zone=bool(alert.get("inside_zone")),
+        message=alert.get("message"),
+        advisory=alert.get("advisory"),
+        lat=lat,
+        lng=lng,
+        notified_push=notified_push,
+        notified_sms=notified_sms,
+    )
+    db.add(event)
+    db.commit()
+    db.refresh(event)
+    return event
+
+
+def get_recent_danger_zone_alerts(
+    db: Session,
+    user_id: int,
+    limit: int = 20,
+) -> List[models.DangerZoneAlertEvent]:
+    """Retrieve recent persisted danger-zone proximity events for a user."""
+    return (
+        db.query(models.DangerZoneAlertEvent)
+        .filter(models.DangerZoneAlertEvent.user_id == user_id)
+        .order_by(desc(models.DangerZoneAlertEvent.created_at))
+        .limit(limit)
+        .all()
+    )
+
+
+def _is_within_danger_zone_cooldown(created_at: datetime | None) -> bool:
+    if not created_at:
+        return False
+    if created_at.tzinfo is None:
+        created_at = created_at.replace(tzinfo=UTC)
+    return datetime.now(UTC) - created_at <= timedelta(minutes=get_danger_zone_sms_cooldown_minutes())
 
 
 # -------------------------------------------------------------------

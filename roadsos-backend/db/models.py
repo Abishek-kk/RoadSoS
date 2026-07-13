@@ -77,6 +77,12 @@ class User(Base, TimestampMixin):
         cascade="all, delete-orphan",
         passive_deletes=True,
     )
+    danger_zone_alert_events = relationship(
+        "DangerZoneAlertEvent",
+        back_populates="user",
+        cascade="all, delete-orphan",
+        passive_deletes=True,
+    )
 
     def __repr__(self) -> str:
         return f"<User id={self.id!r} phone={self.phone!r}>"
@@ -337,3 +343,33 @@ class DangerZone(Base):
 
     def __repr__(self) -> str:
         return f"<DangerZone id={self.id!r} risk_level={self.risk_level!r}>"
+
+
+class DangerZoneAlertEvent(Base):
+    __tablename__ = "danger_zone_alert_events"
+    __table_args__ = (
+        CheckConstraint("lat >= -90 AND lat <= 90"),
+        CheckConstraint("lng >= -180 AND lng <= 180"),
+        Index("ix_dz_alert_events_user_created", "user_id", "created_at"),
+    )
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False, index=True)
+    zone_id = Column(String(80), nullable=False, index=True)
+    zone_name = Column(String(160), nullable=False)
+    risk_level = Column(String(40), nullable=False)
+    risk_score = Column(Float, nullable=True)
+    distance_km = Column(Float, nullable=True)
+    inside_zone = Column(Boolean, nullable=False, default=False, server_default="0")
+    message = Column(Text, nullable=True)
+    advisory = Column(Text, nullable=True)
+    lat = Column(Float, nullable=False)
+    lng = Column(Float, nullable=False)
+    notified_push = Column(Boolean, nullable=False, default=False, server_default="0")
+    notified_sms = Column(Boolean, nullable=False, default=False, server_default="0")
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False, index=True)
+
+    user = relationship("User", back_populates="danger_zone_alert_events")
+
+    def __repr__(self) -> str:
+        return f"<DangerZoneAlertEvent id={self.id!r} user_id={self.user_id!r} zone_id={self.zone_id!r}>"

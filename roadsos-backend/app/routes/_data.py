@@ -266,7 +266,7 @@ def normalize_dataset_row(
             "city": normalized.get("city") or district,
             "state": normalized.get("state") or "Tamil Nadu",
             "type": normalized.get("road_type") or (causes[0] if causes else "Danger Zone"),
-            "radius_km": normalized.get("radius_km") or 2.0,
+            "radius_km": normalized.get("radius_km") or default_danger_zone_radius_km(normalized),
             "risk_level": risk_level,
             "risk_score": normalized.get("risk_score") or risk_score_map.get(risk_level, 5.0),
             "primary_causes": causes,
@@ -278,6 +278,27 @@ def normalize_dataset_row(
         }
 
     return normalized
+
+
+def default_danger_zone_radius_km(row: dict[str, Any]) -> float:
+    """
+    Pick a conservative radius for point-based danger-zone data.
+
+    District JSON records often describe one junction, bridge, station road, or
+    flyover point. A blanket 2 km radius makes dense city records overlap and
+    labels nearby users as "inside" hazards they are not actually on.
+    """
+    road_type = str(row.get("road_type") or row.get("highway") or "").lower()
+    road_name = str(row.get("road_name") or "").lower()
+    text = f"{road_type} {road_name}"
+
+    if any(term in text for term in ("urban", "city road", "bridge", "flyover", "station")):
+        return 0.25
+    if "ring road" in text:
+        return 0.5
+    if any(term in text for term in ("national highway", "state highway", "nh-", "sh-")):
+        return 1.0
+    return 0.5
 
 
 def build_danger_zone_advisory(row: dict[str, Any], causes: list[Any]) -> str:

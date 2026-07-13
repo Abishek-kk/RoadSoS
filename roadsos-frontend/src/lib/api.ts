@@ -151,13 +151,42 @@ export type DangerZoneAlert = {
   inside_zone: boolean;
   message: string;
   advisory?: string;
+  road_name?: string;
+  city?: string | null;
+  district?: string | null;
+  danger_type?: string[];
+  lat?: number;
+  lng?: number;
+};
+
+export type NearbyDangerRoadsResponse = {
+  ok: boolean;
+  radius_km: number;
+  results: DangerZoneAlert[];
+};
+
+export type RecentDangerZoneAlert = {
+  id: number;
+  zone_id: string;
+  zone_name: string;
+  risk_level: string;
+  risk_score: number | null;
+  distance_km: number | null;
+  inside_zone: boolean;
+  message: string | null;
+  advisory: string | null;
+  lat: number;
+  lng: number;
+  notified_push: boolean;
+  notified_sms: boolean;
+  created_at: string;
 };
 
 export type PostLocationResponse = {
   ok: boolean;
   alerts?: DangerZoneAlert[];
   risk?: unknown;
-  location?: unknown;
+  location?: { user_id?: number | null } | unknown;
 };
 
 export type Contact = {
@@ -259,6 +288,20 @@ export const api = {
   alerts: (lat?: number, lng?: number) =>
     request<RoadAlert[]>(`/api/alerts${locationQuery(lat, lng)}`, undefined, MOCK_ALERTS),
 
+  nearbyDangerRoads: (lat: number, lng: number, radiusKm = 8, limit = 50) =>
+    request<NearbyDangerRoadsResponse>(
+      `/api/location/danger-zones${dangerRoadQuery(lat, lng, radiusKm, limit)}`,
+      undefined,
+      { ok: true, radius_km: radiusKm, results: [] },
+    ),
+
+  recentDangerZoneAlerts: (userId: number, limit = 20) =>
+    request<{ ok: boolean; alerts: RecentDangerZoneAlert[] }>(
+      `/api/alerts/recent?user_id=${userId}&limit=${limit}`,
+      undefined,
+      { ok: true, alerts: [] },
+    ),
+
   risk: (lat: number, lng: number) =>
     request<RiskAssessment>(`/api/risk${locationQuery(lat, lng)}`),
 
@@ -299,6 +342,16 @@ function routeQuery(lat: number, lng: number, service: string) {
 
 function ambulanceQuery(lat: number, lng: number, limit: number) {
   const params = new URLSearchParams({ lat: String(lat), lng: String(lng), limit: String(limit) });
+  return `?${params.toString()}`;
+}
+
+function dangerRoadQuery(lat: number, lng: number, radiusKm: number, limit: number) {
+  const params = new URLSearchParams({
+    lat: String(lat),
+    lng: String(lng),
+    radius_km: String(radiusKm),
+    limit: String(limit),
+  });
   return `?${params.toString()}`;
 }
 

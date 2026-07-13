@@ -139,6 +139,35 @@ def _upgrade_sqlite_schema():
             """))
             conn.execute(text("CREATE INDEX IF NOT EXISTS ix_push_subscriptions_user_id ON push_subscriptions (user_id)"))
 
+        if "danger_zone_alert_events" not in existing_tables:
+            conn.execute(text("""
+                CREATE TABLE danger_zone_alert_events (
+                    id INTEGER NOT NULL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    zone_id VARCHAR(80) NOT NULL,
+                    zone_name VARCHAR(160) NOT NULL,
+                    risk_level VARCHAR(40) NOT NULL,
+                    risk_score FLOAT,
+                    distance_km FLOAT,
+                    inside_zone BOOLEAN NOT NULL DEFAULT 0,
+                    message TEXT,
+                    advisory TEXT,
+                    lat FLOAT NOT NULL,
+                    lng FLOAT NOT NULL,
+                    notified_push BOOLEAN NOT NULL DEFAULT 0,
+                    notified_sms BOOLEAN NOT NULL DEFAULT 0,
+                    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                    CHECK (lat >= -90 AND lat <= 90),
+                    CHECK (lng >= -180 AND lng <= 180),
+                    FOREIGN KEY(user_id) REFERENCES users (id) ON DELETE CASCADE
+                )
+            """))
+            conn.execute(text("CREATE INDEX IF NOT EXISTS ix_danger_zone_alert_events_id ON danger_zone_alert_events (id)"))
+            conn.execute(text("CREATE INDEX IF NOT EXISTS ix_danger_zone_alert_events_user_id ON danger_zone_alert_events (user_id)"))
+            conn.execute(text("CREATE INDEX IF NOT EXISTS ix_danger_zone_alert_events_zone_id ON danger_zone_alert_events (zone_id)"))
+            conn.execute(text("CREATE INDEX IF NOT EXISTS ix_danger_zone_alert_events_created_at ON danger_zone_alert_events (created_at)"))
+            conn.execute(text("CREATE INDEX IF NOT EXISTS ix_dz_alert_events_user_created ON danger_zone_alert_events (user_id, created_at)"))
+
         if "ambulances" in existing_tables:
             existing_cols = {col["name"] for col in inspector.get_columns("ambulances")}
             if "phone" not in existing_cols:

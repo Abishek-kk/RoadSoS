@@ -33,14 +33,32 @@ def notify_for_alerts(
         if not zone_id:
             continue
 
+        notified_push = False
+        notified_sms = False
+
         if risk_level in PUSH_RISK_LEVELS and _claim_cooldown(user_id, zone_id, "push", cooldown_minutes()):
             send_pushes(db, user_id, alert)
+            notified_push = True
 
         if risk_level in SMS_RISK_LEVELS and has_real_phone(user) and _claim_cooldown(user_id, zone_id, "sms", cooldown_minutes()):
             try:
                 notification_service.notify_user_of_danger_zone(user.phone, alert, lat, lng)
+                notified_sms = True
             except Exception:
                 logger.error("Danger-zone SMS/WhatsApp notification failed for zone %s", zone_id, exc_info=True)
+
+        try:
+            crud.log_danger_zone_alert_event(
+                db,
+                user_id,
+                alert,
+                lat,
+                lng,
+                notified_push=notified_push,
+                notified_sms=notified_sms,
+            )
+        except Exception:
+            logger.error("Danger-zone alert event persistence failed for zone %s", zone_id, exc_info=True)
 
 
 def send_pushes(db: Session, user_id: int, alert: dict) -> None:
