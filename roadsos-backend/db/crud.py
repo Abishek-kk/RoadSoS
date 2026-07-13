@@ -17,6 +17,12 @@ def get_user(db: Session, user_id: int) -> Optional[models.User]:
 
 
 DEFAULT_SYSTEM_USER_PHONE = "+10000000000"
+DEFAULT_EMERGENCY_CONTACTS = (
+    {"name": "Mom", "phone": "+919843947069", "relation": "Family", "is_primary": True, "priority": 1},
+    {"name": "Dad", "phone": "+917305647064", "relation": "Family", "priority": 2},
+    {"name": "Friend 1", "phone": "+919915625185", "relation": "Friend", "priority": 3},
+    {"name": "Friend 2", "phone": "+916284170998", "relation": "Friend", "priority": 4},
+)
 
 
 def get_user_by_phone(db: Session, phone: str) -> Optional[models.User]:
@@ -94,6 +100,30 @@ def delete_user(db: Session, user_id: int) -> bool:
 def get_emergency_contacts(db: Session, user_id: int) -> List[models.EmergencyContact]:
     """Retrieve all emergency contacts associated with a user."""
     return db.query(models.EmergencyContact).filter(models.EmergencyContact.user_id == user_id).all()
+
+
+def ensure_default_emergency_contacts(db: Session, user_id: int) -> List[models.EmergencyContact]:
+    """Seed demo emergency contacts for the shared anonymous user when none exist."""
+    contacts = get_emergency_contacts(db, user_id)
+    if contacts:
+        return contacts
+
+    for contact in DEFAULT_EMERGENCY_CONTACTS:
+        db.add(
+            models.EmergencyContact(
+                user_id=user_id,
+                name=contact["name"],
+                phone=contact["phone"],
+                relation=contact["relation"],
+                is_primary=bool(contact.get("is_primary", False)),
+                priority=int(contact.get("priority", 1)),
+                notify_sms=True,
+                notify_whatsapp=True,
+                notify_call=False,
+            )
+        )
+    db.commit()
+    return get_emergency_contacts(db, user_id)
 
 
 def create_emergency_contact(db: Session, contact: user_schema.ContactCreate, user_id: int) -> models.EmergencyContact:

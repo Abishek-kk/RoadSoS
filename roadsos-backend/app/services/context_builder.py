@@ -580,7 +580,11 @@ def is_location_question(profile: QueryProfile) -> bool:
 
 def summarize_emergency_block(block: str) -> str:
     lines = [line for line in block.splitlines() if line and not line.endswith("CONTEXT")]
-    nearest = [line for line in lines if line.startswith("Nearest ")]
+    nearest = [
+        line
+        for line in lines
+        if line.startswith("Nearest ") and "coordinates unavailable" not in line and "no verified local entry found" not in line
+    ]
     emergency_type = next((line.split(": ", 1)[1] for line in lines if line.startswith("Emergency type: ")), "Emergency")
     numbers = next((line.split(": ", 1)[1] for line in lines if line.startswith("Emergency numbers: ")), "112, 108")
     number_text = "/".join(part.strip() for part in numbers.split(",") if part.strip())

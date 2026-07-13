@@ -1,4 +1,4 @@
-import { getSavedLocation } from "@/lib/location";
+import { getSavedLocation, getSavedLocationName } from "@/lib/location";
 
 const BASE = (import.meta as any).env?.VITE_API_URL ?? "http://127.0.0.1:8000";
 
@@ -357,11 +357,12 @@ function dangerRoadQuery(lat: number, lng: number, radiusKm: number, limit: numb
 
 function chatPayload(messages: ChatMessage[], coords?: { lat: number; lng: number } | null, locationName?: string | null) {
   const resolvedCoords = coords ?? getSavedLocation();
+  const resolvedLocationName = locationName ?? getSavedLocationName();
   return {
     messages,
     ...(resolvedCoords ?? {}),
-    ...locationPartsFromLabel(locationName),
-    location_name: locationName ?? undefined,
+    ...locationPartsFromLabel(resolvedLocationName),
+    location_name: resolvedLocationName ?? undefined,
     current_datetime: new Date().toString(),
   };
 }

@@ -162,9 +162,9 @@ function Dashboard() {
         const item = data[0];
         const lat = parseFloat(item.lat);
         const lng = parseFloat(item.lon);
-        saveLocation(lat, lng);
-        setCoords({ lat, lng });
         const name = item.display_name.split(",")[0];
+        saveLocation(lat, lng, "manual", name);
+        setCoords({ lat, lng });
         setLocationName(name);
         setSearchQuery("");
         setShowSetup(false);

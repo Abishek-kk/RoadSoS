@@ -327,9 +327,7 @@ def latest_user_message(messages: list[ChatMessage]) -> str:
 def load_emergency_contacts(db: Session) -> list[dict[str, Any]]:
     if not hasattr(db, "query"):
         return []
-    user = crud.get_system_user(db)
-    if not user:
-        return []
+    user = crud.get_or_create_system_user(db)
     return [
         {
             "id": contact.id,
@@ -340,7 +338,7 @@ def load_emergency_contacts(db: Session) -> list[dict[str, Any]]:
             "notify_whatsapp": contact.notify_whatsapp,
             "notify_call": contact.notify_call,
         }
-        for contact in crud.get_emergency_contacts(db, user.id)
+        for contact in crud.ensure_default_emergency_contacts(db, user.id)
     ]
 
 

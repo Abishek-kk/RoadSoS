@@ -18,12 +18,14 @@ export type LocationResult = Coordinates & {
   source: LocationSource;
   status: LocationStatus;
   browserStatus?: BrowserGeolocationStatus;
+  label?: string;
 };
 
 type SavedLocationSource = "manual" | "browser" | "ip" | "fallback";
 type SavedLocation = Coordinates & {
   timestamp: number;
   source?: SavedLocationSource;
+  label?: string;
 };
 type GetLocationOptions = { forceRefresh?: boolean; browserOnly?: boolean };
 
@@ -53,12 +55,12 @@ export async function getLocationDetails(
 ): Promise<LocationResult> {
   const saved = readSavedLocation();
   if (saved?.source === "manual") {
-    return { lat: saved.lat, lng: saved.lng, source: "saved", status: "saved" };
+    return { lat: saved.lat, lng: saved.lng, source: "saved", status: "saved", label: saved.label };
   }
 
   if (!options.forceRefresh && !options.browserOnly) {
     if (saved) {
-      return { lat: saved.lat, lng: saved.lng, source: "saved", status: "saved" };
+      return { lat: saved.lat, lng: saved.lng, source: "saved", status: "saved", label: saved.label };
     }
   }
 
@@ -206,12 +208,14 @@ async function tryIPGeolocation(): Promise<Coordinates | null> {
   return null;
 }
 
-export function saveLocation(lat: number, lng: number, source: SavedLocationSource = "manual") {
+export function saveLocation(lat: number, lng: number, source: SavedLocationSource = "manual", label?: string | null) {
   if (typeof window !== "undefined") {
     if (source !== "manual" && readSavedLocation()?.source === "manual") {
       return;
     }
     const payload: SavedLocation = { lat, lng, source, timestamp: Date.now() };
+    const cleanLabel = label?.trim();
+    if (cleanLabel) payload.label = cleanLabel;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
   }
 }
@@ -219,6 +223,10 @@ export function saveLocation(lat: number, lng: number, source: SavedLocationSour
 export function getSavedLocation(): Coordinates | null {
   const saved = readSavedLocation();
   return saved ? { lat: saved.lat, lng: saved.lng } : null;
+}
+
+export function getSavedLocationName(): string | null {
+  return readSavedLocation()?.label ?? null;
 }
 
 function readSavedLocation(): SavedLocation | null {
@@ -243,6 +251,7 @@ function readSavedLocation(): SavedLocation | null {
       lng: parsed.lng,
       timestamp: parsed.timestamp,
       source: parsed.source,
+      label: typeof parsed.label === "string" && parsed.label.trim() ? parsed.label.trim() : undefined,
     };
   } catch {
     localStorage.removeItem(STORAGE_KEY);

@@ -1,12 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Bot, Copy, LoaderCircle, MapPin, RotateCcw, Send, Sparkles, Trash2, User } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { api, apiErrorMessage, type ChatMessage } from "@/lib/api";
-import { getLocation, getLocationDetails, reverseGeocode } from "@/lib/location";
+import { getLocationDetails, getSavedLocationName, reverseGeocode } from "@/lib/location";
 
 export const Route = createFileRoute("/chat")({ component: Chat });
 
@@ -74,11 +74,17 @@ function Chat() {
   const [busy, setBusy] = useState(false);
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [locationReady, setLocationReady] = useState(false);
-  const [locationName, setLocationName] = useState<string | null>(null);
+  const [locationName, setLocationName] = useState<string | null>(() => getSavedLocationName());
   const bottomRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
 
   const latestAssistant = [...messages].reverse().find((message) => message.role === "assistant");
   const activeSuggestions = latestAssistant?.suggestions?.filter(Boolean).slice(0, 3) ?? [];
+  const focusInput = useCallback(() => {
+    requestAnimationFrame(() => {
+      inputRef.current?.focus({ preventScroll: true });
+    });
+  }, []);
   const warmLocationName = (position: { lat: number; lng: number }) => {
     void reverseGeocode(position.lat, position.lng).then((name) => {
       if (name) setLocationName(name);
@@ -104,8 +110,11 @@ function Chat() {
         const currentCoords = { lat: result.lat, lng: result.lng };
         setCoords(currentCoords);
         rememberLocation(currentCoords);
-        // mark locationReady only when we obtained a browser geolocation
-        setLocationReady(result.source === "browser");
+        setLocationReady(result.source === "browser" || result.source === "saved");
+        if (result.label) {
+          setLocationName(result.label);
+          return;
+        }
         const name = await reverseGeocode(result.lat, result.lng);
         if (!cancelled && name) setLocationName(name);
       })
@@ -117,6 +126,10 @@ function Chat() {
     };
   }, []);
 
+  useEffect(() => {
+    if (!busy) focusInput();
+  }, [busy, focusInput]);
+
   const resolveCoords = async (options: { liveOnly?: boolean } = {}) => {
     if (coords && !options.liveOnly) return coords;
     try {
@@ -124,8 +137,12 @@ function Chat() {
       const currentCoords = { lat: result.lat, lng: result.lng };
       setCoords(currentCoords);
       rememberLocation(currentCoords);
-      setLocationReady(result.source === "browser");
-      if (!locationName) warmLocationName(currentCoords);
+      setLocationReady(result.source === "browser" || result.source === "saved");
+      if (result.label) {
+        setLocationName(result.label);
+      } else if (!locationName) {
+        warmLocationName(currentCoords);
+      }
       return currentCoords;
     } catch {
       setLocationReady(false);
@@ -149,7 +166,7 @@ function Chat() {
       if (!currentCoords && !shouldWaitForLocation) {
         void resolveCoords();
       }
-      let currentLocationName = locationName;
+      let currentLocationName = locationName ?? getSavedLocationName();
       if (!currentLocationName && currentCoords) {
         currentLocationName = await reverseGeocode(currentCoords.lat, currentCoords.lng);
         if (currentLocationName) setLocationName(currentLocationName);
@@ -269,6 +286,7 @@ function Chat() {
         }
       });
       setInput("");
+      focusInput();
       return;
     }
 
@@ -301,6 +319,7 @@ function Chat() {
     if (busy) return;
     setMessages([initialMessage]);
     setInput("");
+    focusInput();
   };
 
   return (
@@ -394,6 +413,7 @@ function Chat() {
           >
             <div className="flex items-end gap-2">
               <Textarea
+                ref={inputRef}
                 value={input}
                 onChange={(event) => setInput(event.target.value)}
                 onKeyDown={(event) => {

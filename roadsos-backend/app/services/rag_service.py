@@ -124,6 +124,28 @@ def run_rag_pipeline(
         db=db,
     )
 
+    contact_reply = direct_contact_reply(profile, emergency_contacts or [])
+    if contact_reply:
+        empty_context = ContextPackage(
+            context="",
+            retrieved_context="",
+            live_context=live_context,
+            location_services_block="",
+            safety_snapshot_block="",
+            confidence=1.0,
+            documents=[],
+        )
+        return finalize(
+            reply=contact_reply,
+            context_package=empty_context,
+            profile=profile,
+            emergency_context=EmergencyContext(detected=False),
+            used_llm=False,
+            llm_provider="none",
+            response_source="direct",
+            started=started,
+        )
+
     direct_reply = fast_direct_reply(profile, live_context)
     if direct_reply:
         empty_context = ContextPackage(
@@ -325,6 +347,96 @@ def should_collect_nearby_places(
 
 def should_include_safety_snapshot(profile: QueryProfile) -> bool:
     return profile.emergency_detected or profile.needs_location_services
+
+
+def direct_contact_reply(profile: QueryProfile, contacts: list[dict[str, Any]]) -> str | None:
+    if not contacts:
+        return None
+
+    text = profile.normalized_question or ""
+    if not looks_like_contact_lookup(text):
+        return None
+
+    matches = matching_contacts(text, contacts)
+    if not matches and asks_for_all_contacts(text):
+        matches = contacts
+    if not matches:
+        return "I could not find that person in your saved emergency contacts."
+
+    if len(matches) == 1:
+        contact = matches[0]
+        name = clean_contact_value(contact.get("name")) or "That contact"
+        phone = clean_contact_value(contact.get("phone")) or "not listed"
+        relation = clean_contact_value(contact.get("relation"))
+        relation_text = f" ({relation})" if relation else ""
+        return f"{name}{relation_text}'s phone number is {phone}."
+
+    lines = ["Saved emergency contacts:"]
+    for contact in matches:
+        name = clean_contact_value(contact.get("name")) or "Emergency contact"
+        phone = clean_contact_value(contact.get("phone")) or "not listed"
+        relation = clean_contact_value(contact.get("relation"))
+        relation_text = f" ({relation})" if relation else ""
+        lines.append(f"- {name}{relation_text}: {phone}")
+    return "\n".join(lines)
+
+
+def looks_like_contact_lookup(text: str) -> bool:
+    if not text:
+        return False
+    tokens = set(text.split())
+    identity_words = {
+        "mom",
+        "mother",
+        "mum",
+        "mummy",
+        "amma",
+        "dad",
+        "father",
+        "appa",
+        "friend",
+        "friends",
+    }
+    explicit_contact_words = {
+        "contact",
+        "contacts",
+        "saved contacts",
+        "emergency contacts",
+    }
+    phone_request_words = {"number", "phone", "mobile", "call", "dial"}
+    return bool(tokens & identity_words and tokens & phone_request_words) or any(
+        phrase in text for phrase in explicit_contact_words
+    )
+
+
+def asks_for_all_contacts(text: str) -> bool:
+    return "contacts" in text or "emergency contacts" in text or "saved contacts" in text
+
+
+def matching_contacts(text: str, contacts: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    query_tokens = set(text.split())
+    relation_aliases = {
+        "mom": {"mom", "mother", "mum", "mummy", "amma"},
+        "dad": {"dad", "father", "daddy", "appa"},
+        "friend": {"friend", "friends"},
+    }
+    matches: list[dict[str, Any]] = []
+    for contact in contacts:
+        name = clean_contact_value(contact.get("name")).lower()
+        relation = clean_contact_value(contact.get("relation")).lower()
+        haystack_tokens = set(re.sub(r"[^a-z0-9]+", " ", f"{name} {relation}").split())
+        if query_tokens & haystack_tokens:
+            matches.append(contact)
+            continue
+        for canonical, aliases in relation_aliases.items():
+            if query_tokens & aliases and (canonical in haystack_tokens or haystack_tokens & aliases):
+                matches.append(contact)
+                break
+    return matches
+
+
+def clean_contact_value(value: Any) -> str:
+    return str(value or "").strip()
 
 
 def fast_direct_reply(profile: QueryProfile, live_context: LiveContext) -> str | None:

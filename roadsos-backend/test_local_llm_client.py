@@ -161,6 +161,54 @@ def test_pipeline_allows_general_help_question_to_reach_llm(monkeypatch):
     assert result.reply == "Stay calm and pull over safely."
 
 
+def test_pipeline_answers_saved_mom_number_without_llm(monkeypatch):
+    def fail_generate(*args, **kwargs):
+        raise AssertionError("Contact lookups should not require the LLM")
+
+    monkeypatch.setattr(rag_service, "generate", fail_generate)
+
+    result = rag_service.run_rag_pipeline(
+        "what is my mom number",
+        emergency_contacts=[
+            {"id": 1, "name": "Mom", "phone": "+919843947069", "relation": "Family"},
+            {"id": 2, "name": "Dad", "phone": "+917305647064", "relation": "Family"},
+        ],
+    )
+
+    assert result.used_llm is False
+    assert result.response_source == "direct"
+    assert "+919843947069" in result.reply
+
+
+def test_pipeline_does_not_treat_emergency_number_as_contact_lookup(monkeypatch):
+    def fake_retrieve(*args, **kwargs):
+        return RetrievalResult(
+            documents=[
+                RetrievalDocument(
+                    title="Emergency Numbers",
+                    content="In India, call 112 for emergencies.",
+                    source="emergency_guides.txt",
+                    score=80.0,
+                )
+            ],
+            confidence=0.95,
+            query="emergency number",
+        )
+
+    monkeypatch.setattr(rag_service, "retrieve", fake_retrieve)
+
+    result = rag_service.run_rag_pipeline(
+        "what is the emergency number",
+        emergency_contacts=[
+            {"id": 1, "name": "Mom", "phone": "+919843947069", "relation": "Family"},
+        ],
+        use_llm=False,
+    )
+
+    assert "I could not find that person" not in result.reply
+    assert "Emergency Numbers" in result.reply
+
+
 def test_collect_nearby_places_reuses_cached_results_for_same_location(monkeypatch):
     calls = {"hospital": 0, "police_station": 0, "towing_service": 0}
 

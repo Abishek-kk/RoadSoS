@@ -34,7 +34,7 @@ def _format_contact(contact: crud.models.EmergencyContact) -> dict[str, str | in
 @router.get("")
 async def list_contacts(db: Session = DbSession):
     user = crud.get_or_create_system_user(db)
-    contacts = crud.get_emergency_contacts(db, user.id)
+    contacts = crud.ensure_default_emergency_contacts(db, user.id)
     return [_format_contact(contact) for contact in contacts]
 
 
