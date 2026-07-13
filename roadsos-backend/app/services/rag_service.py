@@ -410,7 +410,17 @@ def looks_like_contact_lookup(text: str) -> bool:
 
 
 def asks_for_all_contacts(text: str) -> bool:
-    return "contacts" in text or "emergency contacts" in text or "saved contacts" in text
+    return any(
+        phrase in text
+        for phrase in {
+            "contact",
+            "contacts",
+            "emergency contact",
+            "emergency contacts",
+            "saved contact",
+            "saved contacts",
+        }
+    )
 
 
 def matching_contacts(text: str, contacts: list[dict[str, Any]]) -> list[dict[str, Any]]:

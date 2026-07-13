@@ -180,6 +180,44 @@ def test_pipeline_answers_saved_mom_number_without_llm(monkeypatch):
     assert "+919843947069" in result.reply
 
 
+def test_pipeline_answers_saved_mom_number_with_repeated_word(monkeypatch):
+    def fail_generate(*args, **kwargs):
+        raise AssertionError("Contact lookups should not require the LLM")
+
+    monkeypatch.setattr(rag_service, "generate", fail_generate)
+
+    result = rag_service.run_rag_pipeline(
+        "what is my my mom number",
+        emergency_contacts=[
+            {"id": 1, "name": "Mom", "phone": "+919843947069", "relation": "Family"},
+            {"id": 2, "name": "Dad", "phone": "+917305647064", "relation": "Family"},
+        ],
+    )
+
+    assert result.used_llm is False
+    assert result.response_source == "direct"
+    assert result.reply == "Mom (Family)'s phone number is +919843947069."
+
+
+def test_pipeline_lists_saved_contacts_for_singular_contact_request(monkeypatch):
+    def fail_generate(*args, **kwargs):
+        raise AssertionError("Contact lookups should not require the LLM")
+
+    monkeypatch.setattr(rag_service, "generate", fail_generate)
+
+    result = rag_service.run_rag_pipeline(
+        "show my emergency contact",
+        emergency_contacts=[
+            {"id": 1, "name": "Mom", "phone": "+919843947069", "relation": "Family"},
+            {"id": 2, "name": "Dad", "phone": "+917305647064", "relation": "Family"},
+        ],
+    )
+
+    assert result.used_llm is False
+    assert "Mom (Family): +919843947069" in result.reply
+    assert "Dad (Family): +917305647064" in result.reply
+
+
 def test_pipeline_does_not_treat_emergency_number_as_contact_lookup(monkeypatch):
     def fake_retrieve(*args, **kwargs):
         return RetrievalResult(
