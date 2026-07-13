@@ -9,7 +9,8 @@ import { getLocationDetails } from "@/lib/location";
 export const Route = createFileRoute("/alerts")({ component: Alerts });
 
 type Coords = { lat: number; lng: number };
-const DANGER_ALERT_RADIUS_KM = 8;
+const DANGER_ALERT_RADIUS_KM = 10;
+const RECENT_ALERT_RADIUS_KM = 25;
 
 const sev: Record<string, string> = {
   critical: "bg-red-500/15 text-red-400 border-red-500/30",
@@ -49,7 +50,7 @@ function Alerts() {
     let cancelled = false;
 
     const refreshRecent = (resolvedUserId: number) => {
-      api.recentDangerZoneAlerts(resolvedUserId).then((response) => {
+      api.recentDangerZoneAlerts(resolvedUserId, coords.lat, coords.lng, 20, RECENT_ALERT_RADIUS_KM).then((response) => {
         if (!cancelled) setRecentAlerts(response.alerts);
       });
     };
@@ -118,7 +119,7 @@ function Alerts() {
       <section className="space-y-3">
         <SectionHeader
           title="Recent Danger Zone Alerts"
-          description="Persisted proximity history from live danger-zone checks."
+          description={`Persisted proximity history within ${RECENT_ALERT_RADIUS_KM} km of your selected location.`}
         />
         <Card className="p-0 overflow-hidden">
           {recentAlerts.length ? (

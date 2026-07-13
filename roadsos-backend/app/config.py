@@ -26,7 +26,7 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
 OSRM_BASE_URL = os.getenv("OSRM_BASE_URL", "")
-DANGER_ZONE_ALERT_RADIUS_KM = os.getenv("DANGER_ZONE_ALERT_RADIUS_KM", "5.0")
+DANGER_ZONE_ALERT_RADIUS_KM = os.getenv("DANGER_ZONE_ALERT_RADIUS_KM", "10.0")
 DANGER_ZONE_SMS_COOLDOWN_MINUTES = os.getenv("DANGER_ZONE_SMS_COOLDOWN_MINUTES", "45")
 
 
@@ -107,7 +107,7 @@ def get_int_setting(name: str, default: int) -> int:
 
 def get_danger_zone_alert_radius_km() -> float:
     """Return total danger-zone detection radius without requiring restart."""
-    return max(0.0, get_float_setting("DANGER_ZONE_ALERT_RADIUS_KM", 5.0))
+    return max(0.0, get_float_setting("DANGER_ZONE_ALERT_RADIUS_KM", 10.0))
 
 
 def get_danger_zone_sms_cooldown_minutes() -> int:

@@ -38,9 +38,19 @@ async def list_alerts(lat: float | None = None, lng: float | None = None):
 async def recent_danger_zone_alerts(
     user_id: int = Query(...),
     limit: int = Query(20, ge=1, le=100),
+    lat: float | None = Query(None, ge=-90, le=90),
+    lng: float | None = Query(None, ge=-180, le=180),
+    radius_km: float = Query(25.0, gt=0, le=500),
     db: Session = Depends(get_db),
 ):
-    events = crud.get_recent_danger_zone_alerts(db, user_id, limit=limit)
+    events = crud.get_recent_danger_zone_alerts(
+        db,
+        user_id,
+        limit=limit,
+        lat=lat,
+        lng=lng,
+        radius_km=radius_km if lat is not None and lng is not None else None,
+    )
     return {
         "ok": True,
         "alerts": [

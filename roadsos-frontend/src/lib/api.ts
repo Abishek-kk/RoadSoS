@@ -295,9 +295,9 @@ export const api = {
       { ok: true, radius_km: radiusKm, results: [] },
     ),
 
-  recentDangerZoneAlerts: (userId: number, limit = 20) =>
+  recentDangerZoneAlerts: (userId: number, lat?: number, lng?: number, limit = 20, radiusKm = 25) =>
     request<{ ok: boolean; alerts: RecentDangerZoneAlert[] }>(
-      `/api/alerts/recent?user_id=${userId}&limit=${limit}`,
+      `/api/alerts/recent${recentDangerAlertsQuery(userId, limit, lat, lng, radiusKm)}`,
       undefined,
       { ok: true, alerts: [] },
     ),
@@ -352,6 +352,19 @@ function dangerRoadQuery(lat: number, lng: number, radiusKm: number, limit: numb
     radius_km: String(radiusKm),
     limit: String(limit),
   });
+  return `?${params.toString()}`;
+}
+
+function recentDangerAlertsQuery(userId: number, limit: number, lat?: number, lng?: number, radiusKm = 25) {
+  const params = new URLSearchParams({
+    user_id: String(userId),
+    limit: String(limit),
+  });
+  if (lat !== undefined && lng !== undefined) {
+    params.set("lat", String(lat));
+    params.set("lng", String(lng));
+    params.set("radius_km", String(radiusKm));
+  }
   return `?${params.toString()}`;
 }
 

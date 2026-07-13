@@ -6,6 +6,7 @@ Team Accelerate | IIT Madras Road Safety Hackathon 2026
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.trustedhost import TrustedHostMiddleware
 from fastapi.responses import JSONResponse
 import uvicorn
@@ -41,6 +42,8 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
 )
 logger = logging.getLogger("roadsos")
+BACKEND_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BEEP_AUDIO_DIR = os.path.join(BACKEND_DIR, "beap")
 
 # -------------------------------------------------------------------
 # App initialisation
@@ -198,6 +201,9 @@ app.include_router(
     prefix="/api",
     tags=["Emergency Contacts"],
 )
+
+if os.path.isdir(BEEP_AUDIO_DIR):
+    app.mount("/beap", StaticFiles(directory=BEEP_AUDIO_DIR), name="beap")
 
 app.include_router(
     push.router,

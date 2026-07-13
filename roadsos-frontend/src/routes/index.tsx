@@ -47,6 +47,11 @@ type BrowserSpeechRecognition = {
 
 type BrowserSpeechRecognitionConstructor = new () => BrowserSpeechRecognition;
 
+const API_BASE = (import.meta as any).env?.VITE_API_URL ?? "http://127.0.0.1:8000";
+const SOS_ALARM_URL = `${API_BASE}/beap/alaramsound.wav`;
+const SOS_SAFE_WINDOW_SECONDS = 10;
+const DANGER_ALERT_RADIUS_KM = 10;
+
 function getSpeechRecognitionConstructor(): BrowserSpeechRecognitionConstructor | null {
   if (typeof window === "undefined") return null;
   const speechWindow = window as typeof window & {
@@ -107,6 +112,7 @@ function Dashboard() {
   const [locationName, setLocationName] = useState<string | null>(null);
   const sosTimerRef = useRef<number | null>(null);
   const recognitionRef = useRef<BrowserSpeechRecognition | null>(null);
+  const beepAudioRef = useRef<HTMLAudioElement | null>(null);
   const warnedDangerZonesRef = useRef<Set<string>>(new Set());
   const [speechSupported, setSpeechSupported] = useState(false);
   const [listeningForSOS, setListeningForSOS] = useState(false);
@@ -120,6 +126,29 @@ function Dashboard() {
   const [nearestHospitalDist, setNearestHospitalDist] = useState<string>("Calculating…");
   const [nearestPoliceDist, setNearestPoliceDist] = useState<string>("Calculating…");
   const [nearestTowingDist, setNearestTowingDist] = useState<string>("Calculating...");
+
+  const stopSosBeep = useCallback(() => {
+    const audio = beepAudioRef.current;
+    if (!audio) return;
+    audio.pause();
+    audio.currentTime = 0;
+  }, []);
+
+  const startSosBeep = useCallback(() => {
+    if (typeof window === "undefined") return;
+
+    const audio = beepAudioRef.current;
+    if (!audio) return;
+
+    stopSosBeep();
+    audio.currentTime = 0;
+    audio.loop = true;
+    void audio.play().catch(() => {
+      toast.error("SOS alarm could not play", {
+        description: "Check browser audio permission or restart the backend, then try again.",
+      });
+    });
+  }, [stopSosBeep]);
 
   // On mount, load location and check if user needs to set one
   useEffect(() => {
@@ -140,8 +169,9 @@ function Dashboard() {
     return () => {
       if (sosTimerRef.current) window.clearTimeout(sosTimerRef.current);
       recognitionRef.current?.abort();
+      stopSosBeep();
     };
-  }, []);
+  }, [stopSosBeep]);
 
   useEffect(() => {
     setSpeechSupported(Boolean(getSpeechRecognitionConstructor()));
@@ -217,7 +247,7 @@ function Dashboard() {
       try {
         const [locationResponse, dangerRoadsResponse] = await Promise.all([
           api.postLocation(coords.lat, coords.lng),
-          api.nearbyDangerRoads(coords.lat, coords.lng, 8, 10),
+          api.nearbyDangerRoads(coords.lat, coords.lng, DANGER_ALERT_RADIUS_KM, 10),
         ]);
         if (cancelled) return;
 
@@ -289,9 +319,11 @@ function Dashboard() {
   const triggerSOS = useCallback(
     async (note = "Manual SOS") => {
       if (sosTimerRef.current || countdown > 0) return;
-      setCountdown(3);
+      startSosBeep();
+      setCountdown(SOS_SAFE_WINDOW_SECONDS);
       sosTimerRef.current = window.setTimeout(async () => {
         sosTimerRef.current = null;
+        stopSosBeep();
         try {
           const currentCoords = coords ?? (await getLocation());
           setCoords(currentCoords);
@@ -329,9 +361,9 @@ function Dashboard() {
         } finally {
           setCountdown(0);
         }
-      }, 3000);
+      }, SOS_SAFE_WINDOW_SECONDS * 1000);
     },
-    [coords, countdown],
+    [coords, countdown, startSosBeep, stopSosBeep],
   );
 
   const stopVoiceSOS = useCallback(() => {
@@ -360,7 +392,7 @@ function Dashboard() {
         recognition.stop();
         setListeningForSOS(false);
         toast.error("Voice SOS detected", {
-          description: "Starting emergency countdown from your voice command.",
+          description: "Mark safe within 10 seconds to stop emergency messages.",
         });
         triggerSOS("Voice SOS: help accident happened");
       }
@@ -386,6 +418,7 @@ function Dashboard() {
   }, [listeningForSOS, speechSupported, triggerSOS]);
 
   const cancelSOS = () => {
+    stopSosBeep();
     recognitionRef.current?.abort();
     setListeningForSOS(false);
     if (sosTimerRef.current) {
@@ -401,6 +434,7 @@ function Dashboard() {
 
   return (
     <div className="p-4 md:p-8 space-y-6 max-w-7xl mx-auto">
+      <audio ref={beepAudioRef} src={SOS_ALARM_URL} preload="auto" />
       {/* ──── Location Setup Prompt (first visit or when manually opened) ──── */}
       {showSetup && (
         <Card className="p-5 border-primary/40 bg-gradient-to-r from-primary/10 to-primary/5 relative">
@@ -547,7 +581,7 @@ function Dashboard() {
                   LNG: {coords.lng.toFixed(5)}
                 </div>
                 <div className="text-[10px] text-primary font-medium mt-0.5">
-                  Proactive Danger Radius: 3-6 km
+                    Proactive Danger Radius: {DANGER_ALERT_RADIUS_KM} km
                 </div>
               </div>
 
@@ -601,9 +635,11 @@ function Dashboard() {
           {countdown > 0 ? (
             <>
               <div className="text-6xl font-bold text-primary mb-2">{countdown}</div>
-              <div className="text-sm text-muted-foreground mb-4">Sending SOS…</div>
+              <div className="text-sm text-muted-foreground mb-4">
+                SOS will message everyone unless you mark safe
+              </div>
               <Button variant="outline" onClick={cancelSOS}>
-                Cancel
+                Mark Safe
               </Button>
             </>
           ) : sosActive ? (

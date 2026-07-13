@@ -45,6 +45,22 @@ def test_madurai_point_records_do_not_create_broad_inside_zones():
     assert simmakkal["distance_km"] > 0.25
 
 
+def test_poonthandalam_location_has_nearby_danger_roads():
+    cache_clear()
+
+    with TestClient(app) as client:
+        response = client.get("/api/location/danger-zones?lat=12.9716&lng=80.0435&radius_km=10&limit=10")
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["ok"] is True
+    assert body["results"]
+    assert any(
+        "Nazarethpettai" in alert["zone_name"] or "Sriperumbudur" in alert["zone_name"]
+        for alert in body["results"]
+    )
+
+
 def test_location_notifications_are_cooled_down(monkeypatch):
     danger_zone_notification_service.clear_cooldowns()
     zone = {
@@ -161,6 +177,62 @@ def test_log_danger_zone_alert_event_persists_and_dedupes(monkeypatch):
     assert first.zone_name == "Dedupe Test Zone"
     assert first.notified_push is True
     assert count == 1
+
+
+def test_recent_danger_zone_alerts_can_filter_by_current_location():
+    init_db()
+    poonthandalam = (12.9716, 80.0435)
+    madurai = (9.9252, 78.1198)
+    zone_ids = ["zone-poonthandalam-history", "zone-madurai-history"]
+
+    db = SessionLocal()
+    try:
+        user = crud.get_or_create_system_user(db)
+        db.query(models.DangerZoneAlertEvent).filter(
+            models.DangerZoneAlertEvent.user_id == user.id,
+            models.DangerZoneAlertEvent.zone_id.in_(zone_ids),
+        ).delete(synchronize_session=False)
+        db.commit()
+
+        crud.log_danger_zone_alert_event(
+            db,
+            user.id,
+            {
+                "zone_id": zone_ids[0],
+                "zone_name": "Poonthandalam nearby test zone",
+                "risk_level": "high",
+                "distance_km": 1.4,
+            },
+            poonthandalam[0],
+            poonthandalam[1],
+        )
+        crud.log_danger_zone_alert_event(
+            db,
+            user.id,
+            {
+                "zone_id": zone_ids[1],
+                "zone_name": "Madurai stale test zone",
+                "risk_level": "high",
+                "distance_km": 2.0,
+            },
+            madurai[0],
+            madurai[1],
+        )
+        user_id = user.id
+    finally:
+        db.close()
+
+    with TestClient(app) as client:
+        response = client.get(
+            "/api/alerts/recent"
+            f"?user_id={user_id}&lat={poonthandalam[0]}&lng={poonthandalam[1]}&radius_km=25&limit=20"
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    returned_zone_ids = {alert["zone_id"] for alert in body["alerts"]}
+    assert zone_ids[0] in returned_zone_ids
+    assert zone_ids[1] not in returned_zone_ids
 
 
 def test_missing_notification_credentials_do_not_change_location_response(monkeypatch):

@@ -2,6 +2,7 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import desc
 from datetime import UTC, datetime, timedelta
+import math
 from typing import List, Optional
 from app.config import get_danger_zone_sms_cooldown_minutes
 from db import models
@@ -314,15 +315,31 @@ def get_recent_danger_zone_alerts(
     db: Session,
     user_id: int,
     limit: int = 20,
+    lat: float | None = None,
+    lng: float | None = None,
+    radius_km: float | None = None,
 ) -> List[models.DangerZoneAlertEvent]:
     """Retrieve recent persisted danger-zone proximity events for a user."""
-    return (
+    query = (
         db.query(models.DangerZoneAlertEvent)
         .filter(models.DangerZoneAlertEvent.user_id == user_id)
         .order_by(desc(models.DangerZoneAlertEvent.created_at))
-        .limit(limit)
-        .all()
     )
+
+    if lat is None or lng is None or radius_km is None:
+        return query.limit(limit).all()
+
+    # Fetch a wider recent window before applying precise haversine filtering in
+    # Python. SQLite test/dev databases do not consistently expose trig funcs.
+    candidates = query.limit(max(limit * 10, 100)).all()
+    nearby = [
+        event
+        for event in candidates
+        if event.lat is not None
+        and event.lng is not None
+        and _distance_km(lat, lng, float(event.lat), float(event.lng)) <= radius_km
+    ]
+    return nearby[:limit]
 
 
 def _is_within_danger_zone_cooldown(created_at: datetime | None) -> bool:
@@ -331,6 +348,19 @@ def _is_within_danger_zone_cooldown(created_at: datetime | None) -> bool:
     if created_at.tzinfo is None:
         created_at = created_at.replace(tzinfo=UTC)
     return datetime.now(UTC) - created_at <= timedelta(minutes=get_danger_zone_sms_cooldown_minutes())
+
+
+def _distance_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
+    radius = 6371.0
+    d_lat = math.radians(lat2 - lat1)
+    d_lng = math.radians(lng2 - lng1)
+    a = (
+        math.sin(d_lat / 2) ** 2
+        + math.cos(math.radians(lat1))
+        * math.cos(math.radians(lat2))
+        * math.sin(d_lng / 2) ** 2
+    )
+    return radius * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
 
 # -------------------------------------------------------------------
