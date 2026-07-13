@@ -243,7 +243,7 @@ def normalize_dataset_row(
             else normalized.get("is_24_hours"),
         }
     elif dataset_dir == "danger_zones":
-        risk_level = str(normalized.get("risk_level") or "medium").lower()
+        risk_level = str(normalized.get("risk_level") or normalized.get("danger_level") or "medium").lower()
         risk_score_map = {
             "critical": 9.0,
             "very high": 8.5,
@@ -251,11 +251,11 @@ def normalize_dataset_row(
             "medium": 5.0,
             "low": 2.5,
         }
-        causes = normalized.get("major_cause") or []
+        causes = normalized.get("major_cause") or normalized.get("danger_type") or []
         if not isinstance(causes, list):
             causes = [str(causes)]
         road_name = normalized.get("road_name") or normalized.get("highway") or "Unknown road"
-        location = normalized.get("location") or ""
+        location = normalized.get("location") or normalized.get("city") or ""
         district = normalized.get("district") or district_hint or ""
         name_parts = [part for part in [road_name, location] if part]
         normalized = {
@@ -263,24 +263,35 @@ def normalize_dataset_row(
             "id": normalized.get("id") or f"DZ-{district}-{road_name}-{location}".replace(" ", "-"),
             "name": " - ".join(name_parts) or f"Danger zone in {district}",
             "road": road_name,
-            "city": district,
+            "city": normalized.get("city") or district,
             "state": normalized.get("state") or "Tamil Nadu",
-            "type": normalized.get("road_type") or "highway",
+            "type": normalized.get("road_type") or (causes[0] if causes else "Danger Zone"),
             "radius_km": normalized.get("radius_km") or 2.0,
+            "risk_level": risk_level,
             "risk_score": normalized.get("risk_score") or risk_score_map.get(risk_level, 5.0),
             "primary_causes": causes,
             "accident_history": normalized.get("accident_history") or {},
             "peak_risk_hours": normalized.get("peak_risk_hours") or [],
             "weather_sensitivity": normalized.get("weather_sensitivity") or [],
-            "advisory": normalized.get("advisory") or (
-                f"Known risk factors: {', '.join(causes)}. Reduce speed and stay alert."
-                if causes
-                else "Reduce speed and stay alert in this area."
-            ),
+            "advisory": normalized.get("advisory") or build_danger_zone_advisory(normalized, causes),
             "reported_by": normalized.get("reported_by") or "RoadSoS district road-safety data",
         }
 
     return normalized
+
+
+def build_danger_zone_advisory(row: dict[str, Any], causes: list[Any]) -> str:
+    tips = row.get("safety_tips") or []
+    if isinstance(tips, list) and tips:
+        return " ".join(str(tip) for tip in tips[:2])
+
+    recommended_speed = row.get("recommended_speed")
+    if recommended_speed is not None:
+        return f"Reduce speed to around {recommended_speed} km/h and stay alert in this area."
+
+    if causes:
+        return f"Known risk factors: {', '.join(causes)}. Reduce speed and stay alert."
+    return "Reduce speed and stay alert in this area."
 
 
 def clean_phone_number(phone_str: Any, default_fallback: str) -> str:

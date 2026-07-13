@@ -123,3 +123,48 @@ def test_missing_notification_credentials_do_not_change_location_response(monkey
     body = response.json()
     assert body["ok"] is True
     assert body["alerts"][0]["zone_id"] == "zone-high-no-creds"
+
+
+def test_nearby_danger_zones_route_returns_district_road_records(monkeypatch):
+    monkeypatch.setattr(
+        "app.services.danger_zone_service.load_danger_zones",
+        lambda: [
+            {
+                "id": "TVR0101",
+                "road_name": "Nagapattinam - Gudalur Highway (NH-83) - Tiruvarur Town Approach",
+                "name": "Nagapattinam - Gudalur Highway (NH-83) - Tiruvarur Town Approach - Tiruvarur Urban Outskirts",
+                "city": "Tiruvarur Urban Outskirts",
+                "district": "Tiruvarur",
+                "lat": 10.7725,
+                "lng": 79.6361,
+                "radius_km": 2.0,
+                "risk_level": "high",
+                "risk_score": 7.5,
+                "danger_type": [
+                    "Heavy Pedestrian Congestion near Temple Entrance",
+                    "Narrow Carriage Lanes with Encroachments",
+                ],
+                "recommended_speed": 25,
+                "safety_tips": ["Reduce speed drastically when approaching the active market zones."],
+            },
+            {
+                "id": "far-away",
+                "name": "Far Away Zone",
+                "lat": 11.5,
+                "lng": 79.6,
+                "radius_km": 2.0,
+                "risk_level": "critical",
+            },
+        ],
+    )
+
+    with TestClient(app) as client:
+        response = client.get("/api/location/danger-zones?lat=10.7725&lng=79.6361&radius_km=5")
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["ok"] is True
+    assert len(body["results"]) == 1
+    assert body["results"][0]["zone_id"] == "TVR0101"
+    assert body["results"][0]["road_name"].startswith("Nagapattinam - Gudalur Highway")
+    assert body["results"][0]["recommended_speed"] == 25

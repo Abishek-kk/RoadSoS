@@ -238,6 +238,8 @@ class Ambulance(Base):
     ambulance_id = Column(String(40), unique=True, nullable=False, index=True)
     lat = Column(Float, nullable=True)
     lng = Column(Float, nullable=True)
+    phone = Column(String(20), nullable=True)
+    distance_km = Column(Float, nullable=True)
     status = Column(String(20), nullable=False, default="available", server_default="available")
     updated_at = Column(
         DateTime(timezone=True),

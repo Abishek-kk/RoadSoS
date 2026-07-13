@@ -231,6 +231,15 @@ def active_geofence_alerts(
                 "inside_zone": match.inside,
                 "message": message,
                 "advisory": zone.metadata.get("advisory", ""),
+                "road_name": zone.metadata.get("road_name") or zone.metadata.get("road") or zone.name,
+                "city": zone.metadata.get("city"),
+                "district": zone.metadata.get("district"),
+                "danger_type": zone.metadata.get("danger_type") or zone.metadata.get("primary_causes") or [],
+                "speed_limit": zone.metadata.get("speed_limit"),
+                "recommended_speed": zone.metadata.get("recommended_speed"),
+                "safety_tips": zone.metadata.get("safety_tips") or [],
+                "lat": zone.lat,
+                "lng": zone.lng,
             }
         )
     return alerts

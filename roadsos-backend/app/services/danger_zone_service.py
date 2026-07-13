@@ -55,6 +55,28 @@ def get_road_risk_assessment(
     )
 
 
+def get_nearby_danger_roads(
+    lat: float,
+    lng: float,
+    radius_km: float = 5.0,
+    limit: int = 20,
+) -> List[dict[str, Any]]:
+    """
+    Return dangerous road records within radius_km of a live user location.
+
+    This uses the same alert selection as POST /location, so API previews and
+    background notifications agree on which nearby roads are dangerous.
+    """
+    zones = load_danger_zones()
+    alerts = active_geofence_alerts(
+        lat,
+        lng,
+        zones,
+        max_total_radius_km=radius_km,
+    )
+    return alerts[:limit]
+
+
 def check_danger_zone_entry(
     previous_lat: float,
     previous_lng: float,

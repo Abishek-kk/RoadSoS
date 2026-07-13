@@ -88,6 +88,7 @@ class LiveContext:
         return sorted(
             [place for place in self.nearby_places if place.category == category],
             key=lambda place: (
+                ambulance_status_rank(place) if category == "ambulance" else 0,
                 place.distance_km is None,
                 place.distance_km if place.distance_km is not None else float("inf"),
                 place.name.lower(),
@@ -335,14 +336,17 @@ def build_nearby_place_reply(category: str, profile: QueryProfile, live_context:
 def format_ambulance_reply(places: list[NearbyPlace]) -> str:
     if not places:
         return "No nearby ambulance is currently available."
-    lines = ["🚑 Nearby Ambulances", ""]
+    lines = ["Nearby Ambulances", ""]
     for index, place in enumerate(places, start=1):
+        status = (place.status or place.availability or "available").title()
         lines.extend(
             [
                 f"{index}.",
                 f"Ambulance ID : {place.ambulance_id or place.name}",
+                f"Phone : {place.phone or '108'}",
                 f"Distance : {distance_text(place.distance_km)}",
-                f"Status : {(place.status or place.availability or 'available').title()}",
+                f"Status : {status}",
+                f"ETA : {place.eta or 'ETA unavailable'}",
             ]
         )
         if index != len(places):
@@ -592,6 +596,7 @@ def sorted_places(places: list[NearbyPlace]) -> list[NearbyPlace]:
     return sorted(
         places,
         key=lambda place: (
+            ambulance_status_rank(place) if place.category == "ambulance" else 0,
             place.distance_km is None,
             place.distance_km if place.distance_km is not None else float("inf"),
             place.category,
@@ -664,7 +669,8 @@ def format_place_plain(place: NearbyPlace) -> str:
         name = place.ambulance_id or place.name
         status = f", status {place.status.title()}" if place.status else ""
         eta = f", ETA {place.eta}" if place.eta else ""
-        return f"{name} - {distance_text(place.distance_km)}, live GPS location{status}{eta}"
+        phone = f", phone {place.phone}" if place.phone else ""
+        return f"{name} - {distance_text(place.distance_km)}, mock fleet{phone}{status}{eta}"
     distance = "distance unknown"
     if place.distance_km is not None:
         distance = f"{format_distance(place.distance_km)} km"
@@ -683,6 +689,11 @@ def distance_text(value: float | None) -> str:
 
 def format_distance(value: float) -> str:
     return f"{value:.1f}".rstrip("0").rstrip(".")
+
+
+def ambulance_status_rank(place: NearbyPlace) -> int:
+    status = str(place.status or place.availability or "").lower()
+    return 1 if status == "busy" else 0
 
 
 def current_datetime_text() -> str:

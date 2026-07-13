@@ -82,6 +82,25 @@ async def nearest_tow(
     }
 
 
+@router.get("/danger-zones")
+async def nearby_danger_zones(
+    lat: float = Query(..., ge=-90, le=90),
+    lng: float = Query(..., ge=-180, le=180),
+    radius_km: float = Query(5.0, gt=0, le=50),
+    limit: int = Query(20, ge=1, le=100),
+) -> dict[str, Any]:
+    return {
+        "ok": True,
+        "radius_km": radius_km,
+        "results": danger_zone_service.get_nearby_danger_roads(
+            lat,
+            lng,
+            radius_km=radius_km,
+            limit=limit,
+        ),
+    }
+
+
 @router.get("/route")
 async def route_to_service(
     lat: float = Query(..., ge=-90, le=90),

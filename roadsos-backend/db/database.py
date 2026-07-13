@@ -139,6 +139,13 @@ def _upgrade_sqlite_schema():
             """))
             conn.execute(text("CREATE INDEX IF NOT EXISTS ix_push_subscriptions_user_id ON push_subscriptions (user_id)"))
 
+        if "ambulances" in existing_tables:
+            existing_cols = {col["name"] for col in inspector.get_columns("ambulances")}
+            if "phone" not in existing_cols:
+                conn.execute(text("ALTER TABLE ambulances ADD COLUMN phone VARCHAR(20)"))
+            if "distance_km" not in existing_cols:
+                conn.execute(text("ALTER TABLE ambulances ADD COLUMN distance_km FLOAT"))
+
 
 def init_db():
     """

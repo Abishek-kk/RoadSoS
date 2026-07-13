@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import asyncio
 import logging
-import math
 import os
 import random
 from datetime import datetime, timezone
@@ -10,7 +9,6 @@ from typing import Any
 
 from sqlalchemy.orm import Session
 
-from app.algorithms.haversine import distance_km
 from app.services.structured_service import (
     estimate_eta_minutes,
     format_eta,
@@ -23,29 +21,40 @@ from db.database import SessionLocal
 logger = logging.getLogger("roadsos.ambulances")
 DEFAULT_AMBULANCE_UPDATE_SECONDS = 20
 AMBULANCE_SPEED_KMPH = 45.0
-AMBULANCE_PHONE = "108"
+EMERGENCY_AMBULANCE_PHONE = "108"
+MIN_MOCK_DISTANCE_KM = 3.0
+MAX_MOCK_DISTANCE_KM = 8.0
 
 SEED_AMBULANCES = [
-    ("AMB001", 13.0506113, 80.0986529),
-    ("AMB002", 13.043097, 80.2452985),
-    ("AMB003", 12.9823769, 80.1938473),
-    ("AMB004", 13.048103, 80.245059),
-    ("AMB005", 13.1137635, 80.2861987),
+    ("AMB001", "7305647064"),
+    ("AMB002", "9843947069"),
+    ("AMB003", "9176271135"),
 ]
 
 
 def seed_ambulances(db: Session) -> None:
-    if db.query(models.Ambulance).first():
-        return
-    for ambulance_id, lat, lng in SEED_AMBULANCES:
-        db.add(
-            models.Ambulance(
-                ambulance_id=ambulance_id,
-                lat=lat,
-                lng=lng,
-                status="available",
-            )
-        )
+    seeded_ids = {ambulance_id for ambulance_id, _phone in SEED_AMBULANCES}
+    busy_id = random.choice(tuple(seeded_ids))
+    existing = {
+        ambulance.ambulance_id: ambulance
+        for ambulance in db.query(models.Ambulance).all()
+    }
+    for ambulance in existing.values():
+        if ambulance.ambulance_id not in seeded_ids:
+            db.delete(ambulance)
+
+    now = datetime.now(timezone.utc)
+    for ambulance_id, phone in SEED_AMBULANCES:
+        ambulance = existing.get(ambulance_id)
+        if ambulance is None:
+            ambulance = models.Ambulance(ambulance_id=ambulance_id)
+            db.add(ambulance)
+        ambulance.phone = phone
+        ambulance.lat = None
+        ambulance.lng = None
+        ambulance.status = "busy" if ambulance_id == busy_id else "available"
+        ambulance.distance_km = random_distance_km()
+        ambulance.updated_at = now
     db.commit()
 
 
@@ -62,46 +71,42 @@ class AmbulanceService:
         self.db = db
 
     def find_nearest(self, lat: float, lng: float, limit: int = 3) -> list[dict[str, Any]]:
-        ranked: list[tuple[models.Ambulance, float]] = []
-        for ambulance in self.db.query(models.Ambulance).all():
-            ambulance_lat = parse_float(ambulance.lat)
-            ambulance_lng = parse_float(ambulance.lng)
-            if ambulance_lat is None or ambulance_lng is None:
-                continue
-            ranked.append((ambulance, distance_km(lat, lng, ambulance_lat, ambulance_lng)))
-
-        ranked.sort(
-            key=lambda item: (
-                status_rank(item[0].status),
-                float(item[1]) if item[1] is not None else math.inf,
-                item[0].ambulance_id,
-            )
+        refresh_mock_fleet(self.db)
+        ambulances = sorted(
+            self.db.query(models.Ambulance).all(),
+            key=lambda ambulance: (
+                status_rank(ambulance.status),
+                ambulance.distance_km if ambulance.distance_km is not None else float("inf"),
+                ambulance.ambulance_id,
+            ),
         )
-        return [self.format_result(ambulance, distance) for ambulance, distance in ranked[:limit]]
+        return [self.format_result(ambulance) for ambulance in ambulances]
 
     def format_result(self, ambulance: models.Ambulance, distance: float | None = None) -> dict[str, Any]:
         lat = parse_float(ambulance.lat)
         lng = parse_float(ambulance.lng)
-        eta_minutes = estimate_eta_minutes(distance, self.average_speed_kmph)
+        distance_km = round(float(distance), 1) if distance is not None else parse_float(ambulance.distance_km)
+        eta_minutes = estimate_eta_minutes(distance_km, self.average_speed_kmph)
         status = normalize_status(ambulance.status)
+        phone = str(ambulance.phone or EMERGENCY_AMBULANCE_PHONE)
         result: dict[str, Any] = {
             "id": ambulance.ambulance_id,
             "ambulance_id": ambulance.ambulance_id,
             "name": f"Ambulance {ambulance.ambulance_id}",
             "category": self.category,
             "type": "Ambulance",
-            "address": "Live GPS location",
+            "address": "Mock ambulance fleet",
             "lat": lat,
             "lng": lng,
             "gps": {"lat": lat, "lng": lng} if lat is not None and lng is not None else None,
-            "phone": AMBULANCE_PHONE,
-            "emergency_phone": AMBULANCE_PHONE,
-            "distance_km": distance,
+            "phone": phone,
+            "emergency_phone": EMERGENCY_AMBULANCE_PHONE,
+            "distance_km": distance_km,
             "eta_minutes": eta_minutes,
             "eta": format_eta(eta_minutes),
             "status": status,
             "availability": status.title(),
-            "call_url": f"tel:{AMBULANCE_PHONE}",
+            "call_url": f"tel:{phone}",
             "updated_at": ambulance.updated_at.isoformat() if ambulance.updated_at else None,
         }
         if lat is not None and lng is not None:
@@ -115,6 +120,22 @@ def status_rank(value: str | None) -> int:
 
 def normalize_status(value: str | None) -> str:
     return "busy" if str(value or "").lower() == "busy" else "available"
+
+
+def refresh_mock_fleet(db: Session) -> None:
+    seed_ambulances(db)
+    ambulances = db.query(models.Ambulance).all()
+    if not ambulances:
+        return
+    busy_id = random.choice([ambulance.ambulance_id for ambulance in ambulances])
+    now = datetime.now(timezone.utc)
+    for ambulance in ambulances:
+        ambulance.status = "busy" if ambulance.ambulance_id == busy_id else "available"
+        ambulance.distance_km = random_distance_km()
+        ambulance.lat = None
+        ambulance.lng = None
+        ambulance.updated_at = now
+    db.commit()
 
 
 async def run_ambulance_simulator(stop_event: asyncio.Event | None = None) -> None:
@@ -135,17 +156,7 @@ async def run_ambulance_simulator(stop_event: asyncio.Event | None = None) -> No
 def update_ambulance_positions() -> None:
     db = SessionLocal()
     try:
-        seed_ambulances(db)
-        for ambulance in db.query(models.Ambulance).all():
-            if ambulance.lat is None or ambulance.lng is None:
-                continue
-            # Small jitter keeps the asset moving without jumping implausibly far in dev.
-            ambulance.lat = clamp(float(ambulance.lat) + random.uniform(-0.0015, 0.0015), -90.0, 90.0)
-            ambulance.lng = clamp(float(ambulance.lng) + random.uniform(-0.0015, 0.0015), -180.0, 180.0)
-            if random.random() < 0.12:
-                ambulance.status = "busy" if normalize_status(ambulance.status) == "available" else "available"
-            ambulance.updated_at = datetime.now(timezone.utc)
-        db.commit()
+        refresh_mock_fleet(db)
     except Exception:
         logger.exception("Ambulance simulator update failed.")
         db.rollback()
@@ -161,5 +172,5 @@ def ambulance_update_interval_seconds() -> int:
         return DEFAULT_AMBULANCE_UPDATE_SECONDS
 
 
-def clamp(value: float, minimum: float, maximum: float) -> float:
-    return max(minimum, min(maximum, value))
+def random_distance_km() -> float:
+    return round(random.uniform(MIN_MOCK_DISTANCE_KM, MAX_MOCK_DISTANCE_KM), 1)
