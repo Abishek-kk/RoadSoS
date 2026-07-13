@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState, useCallback, useRef } from "react";
 import {
   AlertTriangle,
+  Ambulance,
   Hospital,
   MapPin,
   Mic,
@@ -12,6 +13,8 @@ import {
   Search,
   RotateCcw,
   Truck,
+  WifiOff,
+  Wrench,
   X,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -24,6 +27,7 @@ import { toast } from "sonner";
 import {
   getLocation,
   getLocationDetails,
+  getSavedLocation,
   saveLocation,
   clearSavedLocation,
   hasSavedLocation,
@@ -51,6 +55,18 @@ const API_BASE = (import.meta as any).env?.VITE_API_URL ?? "http://127.0.0.1:800
 const SOS_ALARM_URL = `${API_BASE}/beap/alaramsound.wav`;
 const SOS_SAFE_WINDOW_SECONDS = 10;
 const DANGER_ALERT_RADIUS_KM = 10;
+const EMERGENCY_SNAPSHOT_KEY = "roadsos_emergency_snapshot";
+
+type EmergencySnapshot = {
+  location: { lat: number; lng: number; label?: string | null };
+  hospitalDistance: string;
+  policeDistance: string;
+  ambulanceDistance: string;
+  towingDistance: string;
+  punctureDistance: string;
+  dangerRadius: string;
+  updatedAt: number;
+};
 
 function getSpeechRecognitionConstructor(): BrowserSpeechRecognitionConstructor | null {
   if (typeof window === "undefined") return null;
@@ -72,6 +88,29 @@ function isVoiceSOSPhrase(transcript: string) {
 
 function coordsFromLocationResult(result: LocationResult) {
   return { lat: result.lat, lng: result.lng };
+}
+
+function isBrowserOnline() {
+  return typeof navigator === "undefined" ? true : navigator.onLine;
+}
+
+function readEmergencySnapshot(): EmergencySnapshot | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const parsed = JSON.parse(localStorage.getItem(EMERGENCY_SNAPSHOT_KEY) ?? "null");
+    if (!parsed || typeof parsed !== "object") return null;
+    if (!parsed.location || typeof parsed.location.lat !== "number" || typeof parsed.location.lng !== "number") {
+      return null;
+    }
+    return parsed as EmergencySnapshot;
+  } catch {
+    return null;
+  }
+}
+
+function saveEmergencySnapshot(snapshot: EmergencySnapshot) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(EMERGENCY_SNAPSHOT_KEY, JSON.stringify(snapshot));
 }
 
 function showLocationStatusToast(result: LocationResult, refreshed = false) {
@@ -103,6 +142,7 @@ function showLocationStatusToast(result: LocationResult, refreshed = false) {
 
 function Dashboard() {
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
+  const [hasCachedLocation, setHasCachedLocation] = useState(false);
   const [alerts, setAlerts] = useState<RoadAlert[]>([]);
   const [dangerZoneAlerts, setDangerZoneAlerts] = useState<DangerZoneAlert[]>([]);
   const [dangerZonesChecked, setDangerZonesChecked] = useState(false);
@@ -126,6 +166,20 @@ function Dashboard() {
   const [nearestHospitalDist, setNearestHospitalDist] = useState<string>("Calculating…");
   const [nearestPoliceDist, setNearestPoliceDist] = useState<string>("Calculating…");
   const [nearestTowingDist, setNearestTowingDist] = useState<string>("Calculating...");
+  const [emergencySnapshot, setEmergencySnapshot] = useState<EmergencySnapshot | null>(() =>
+    readEmergencySnapshot(),
+  );
+  const [isOnline, setIsOnline] = useState(isBrowserOnline);
+
+  useEffect(() => {
+    const updateOnlineState = () => setIsOnline(isBrowserOnline());
+    window.addEventListener("online", updateOnlineState);
+    window.addEventListener("offline", updateOnlineState);
+    return () => {
+      window.removeEventListener("online", updateOnlineState);
+      window.removeEventListener("offline", updateOnlineState);
+    };
+  }, []);
 
   const stopSosBeep = useCallback(() => {
     const audio = beepAudioRef.current;
@@ -156,6 +210,7 @@ function Dashboard() {
       const location = await getLocationDetails();
       const c = coordsFromLocationResult(location);
       setCoords(c);
+      setHasCachedLocation(location.source !== "fallback" || Boolean(getSavedLocation()));
 
       if (!hasSavedLocation() && location.source !== "browser") {
         setShowSetup(true);
@@ -195,6 +250,7 @@ function Dashboard() {
         const name = item.display_name.split(",")[0];
         saveLocation(lat, lng, "manual", name);
         setCoords({ lat, lng });
+        setHasCachedLocation(true);
         setLocationName(name);
         setSearchQuery("");
         setShowSetup(false);
@@ -217,6 +273,7 @@ function Dashboard() {
     const location = await getLocationDetails({ forceRefresh: true });
     const c = coordsFromLocationResult(location);
     setCoords(c);
+    setHasCachedLocation(location.source !== "fallback" || Boolean(getSavedLocation()));
     setShowSetup(location.source !== "browser");
     const name = await reverseGeocode(c.lat, c.lng);
     if (name) setLocationName(name);
@@ -271,34 +328,37 @@ function Dashboard() {
     api.risk(coords.lat, coords.lng).then(setRisk).catch(() => setRisk(null));
 
     const loadNearestServices = async () => {
-      const [hospitalResult, policeResult, towResult] = await Promise.allSettled([
+      const [hospitalResult, policeResult, towResult, ambulanceResult, punctureResult] = await Promise.allSettled([
         api.hospitals(coords.lat, coords.lng),
         api.police(coords.lat, coords.lng),
         api.towing(coords.lat, coords.lng),
+        api.ambulances(coords.lat, coords.lng, 1),
+        api.punctureShops(coords.lat, coords.lng, 1),
       ]);
       if (cancelled) return;
 
-      setNearestHospitalDist(
-        hospitalResult.status === "fulfilled"
-          ? hospitalResult.value[0]
-            ? formatDistance(hospitalResult.value[0].distance_km)
-            : "None nearby"
-          : "Error",
-      );
-      setNearestPoliceDist(
-        policeResult.status === "fulfilled"
-          ? policeResult.value[0]
-            ? formatDistance(policeResult.value[0].distance_km)
-            : "None nearby"
-          : "Error",
-      );
-      setNearestTowingDist(
-        towResult.status === "fulfilled"
-          ? towResult.value[0]
-            ? formatDistance(towResult.value[0].distance_km)
-            : "None nearby"
-          : "Error",
-      );
+      const hospitalDistance = serviceDistanceFromResult(hospitalResult);
+      const policeDistance = serviceDistanceFromResult(policeResult);
+      const towingDistance = serviceDistanceFromResult(towResult);
+      const ambulanceDistance = serviceDistanceFromResult(ambulanceResult);
+      const punctureDistance = serviceDistanceFromResult(punctureResult);
+
+      setNearestHospitalDist(hospitalDistance);
+      setNearestPoliceDist(policeDistance);
+      setNearestTowingDist(towingDistance);
+
+      const snapshot: EmergencySnapshot = {
+        location: { lat: coords.lat, lng: coords.lng, label: locationName },
+        hospitalDistance,
+        policeDistance,
+        ambulanceDistance,
+        towingDistance,
+        punctureDistance,
+        dangerRadius: `${DANGER_ALERT_RADIUS_KM} km`,
+        updatedAt: Date.now(),
+      };
+      setEmergencySnapshot(snapshot);
+      saveEmergencySnapshot(snapshot);
     };
 
     void loadNearestServices();
@@ -307,7 +367,7 @@ function Dashboard() {
       cancelled = true;
       window.clearInterval(pollingId);
     };
-  }, [coords]);
+  }, [coords, locationName]);
 
   // SOS countdown timer
   useEffect(() => {
@@ -435,6 +495,12 @@ function Dashboard() {
   return (
     <div className="p-4 md:p-8 space-y-6 max-w-7xl mx-auto">
       <audio ref={beepAudioRef} src={SOS_ALARM_URL} preload="auto" />
+      {!isOnline && (
+        <Card className="p-3 border-yellow-500/40 bg-yellow-500/10 text-yellow-100 text-sm flex items-center gap-2">
+          <WifiOff className="h-4 w-4 shrink-0" />
+          Offline Mode - Emergency information is being served from cached data.
+        </Card>
+      )}
       {/* ──── Location Setup Prompt (first visit or when manually opened) ──── */}
       {showSetup && (
         <Card className="p-5 border-primary/40 bg-gradient-to-r from-primary/10 to-primary/5 relative">
@@ -550,7 +616,15 @@ function Dashboard() {
       {/* ──── Map + SOS ──── */}
       <div className="grid md:grid-cols-3 gap-4">
         <Card className="md:col-span-2 p-0 overflow-hidden h-72 relative border border-border">
-          {coords ? (
+          <div className="h-full transition-opacity duration-300 ease-out opacity-100">
+          {!isOnline ? (
+            <OfflineEmergencyMap
+              coords={coords}
+              locationName={locationName}
+              snapshot={emergencySnapshot}
+              hasCachedLocation={hasCachedLocation}
+            />
+          ) : coords ? (
             <>
               <iframe
                 title="Live GPS Tracking Map"
@@ -629,6 +703,7 @@ function Dashboard() {
               </div>
             </>
           )}
+          </div>
         </Card>
 
         <Card className="p-6 flex flex-col items-center justify-center text-center">
@@ -764,6 +839,123 @@ function Dashboard() {
   );
 }
 
+function OfflineEmergencyMap({
+  coords,
+  locationName,
+  snapshot,
+  hasCachedLocation,
+}: {
+  coords: { lat: number; lng: number } | null;
+  locationName: string | null;
+  snapshot: EmergencySnapshot | null;
+  hasCachedLocation: boolean;
+}) {
+  const cachedLocation = snapshot?.location ?? coords;
+  const canShowCachedLocation = Boolean(cachedLocation && (hasCachedLocation || snapshot));
+  const displayName = locationName ?? snapshot?.location.label ?? "Last Known Location";
+
+  if (!canShowCachedLocation || !cachedLocation) {
+    return (
+      <div className="relative h-full overflow-hidden bg-card">
+        <OfflineMapBackground />
+        <div className="relative h-full flex items-center justify-center p-6 text-center">
+          <div className="max-w-md">
+            <div className="mx-auto mb-4 h-14 w-14 rounded-full border border-yellow-500/30 bg-yellow-500/15 flex items-center justify-center">
+              <WifiOff className="h-6 w-6 text-yellow-300" />
+            </div>
+            <Badge variant="outline" className="mb-3 border-yellow-500/50 text-yellow-200 bg-yellow-500/10">
+              Offline Mode
+            </Badge>
+            <div className="font-semibold text-base">No cached location available.</div>
+            <p className="mt-2 text-sm text-muted-foreground">
+              Connect to the internet once to download nearby emergency services.
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const items = [
+    { label: "Nearby Hospital", value: snapshot?.hospitalDistance ?? "Cached data unavailable", icon: Hospital },
+    { label: "Nearby Police", value: snapshot?.policeDistance ?? "Cached data unavailable", icon: Shield },
+    { label: "Nearby Ambulance", value: snapshot?.ambulanceDistance ?? "Cached data unavailable", icon: Ambulance },
+    { label: "Nearby Towing", value: snapshot?.towingDistance ?? "Cached data unavailable", icon: Truck },
+    { label: "Nearby Puncture Shop", value: snapshot?.punctureDistance ?? "Cached data unavailable", icon: Wrench },
+    { label: "Danger Radius", value: snapshot?.dangerRadius ?? `${DANGER_ALERT_RADIUS_KM} km`, icon: AlertTriangle },
+  ];
+
+  return (
+    <div className="relative h-full overflow-hidden bg-card">
+      <OfflineMapBackground />
+      <div className="relative h-full p-3 flex flex-col gap-2">
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <Badge variant="outline" className="border-yellow-500/50 text-yellow-200 bg-yellow-500/10">
+              <WifiOff className="h-3 w-3 mr-1" />
+              Offline Mode
+            </Badge>
+            <div className="mt-1 text-base font-bold leading-tight">Offline Emergency Map</div>
+            <div className="text-xs text-muted-foreground">Using Cached Emergency Data</div>
+          </div>
+          <div className="text-right text-xs text-muted-foreground">
+            <div className="font-medium text-foreground">{displayName}</div>
+            <div>Last Known Location</div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 gap-2 text-xs">
+          <OfflineMetric label="Latitude" value={cachedLocation.lat.toFixed(5)} icon={MapPin} />
+          <OfflineMetric label="Longitude" value={cachedLocation.lng.toFixed(5)} icon={Navigation} />
+        </div>
+
+        <div className="grid grid-cols-3 gap-2 min-h-0">
+          {items.map((item) => (
+            <OfflineMetric key={item.label} {...item} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function OfflineMapBackground() {
+  return (
+    <>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(234,179,8,0.16),transparent_32%),radial-gradient(circle_at_80%_70%,rgba(220,38,38,0.16),transparent_36%)]" />
+      <div
+        className="absolute inset-0 opacity-35"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.07) 1px, transparent 1px)",
+          backgroundSize: "36px 36px",
+        }}
+      />
+      <div className="absolute left-1/2 top-1/2 h-28 w-28 -translate-x-1/2 -translate-y-1/2 rounded-full border border-primary/30 bg-primary/5" />
+    </>
+  );
+}
+
+function OfflineMetric({
+  icon: Icon,
+  label,
+  value,
+}: {
+  icon: LucideIcon;
+  label: string;
+  value: string;
+}) {
+  return (
+    <div className="rounded-lg border border-white/10 bg-black/35 backdrop-blur-sm p-2 min-w-0">
+      <div className="flex items-center gap-1.5 text-[10px] text-muted-foreground">
+        <Icon className="h-3.5 w-3.5 shrink-0 text-primary" />
+        <span className="truncate">{label}</span>
+      </div>
+      <div className="mt-1 font-semibold text-xs truncate">{value}</div>
+    </div>
+  );
+}
+
 function QuickCard({
   to,
   icon: Icon,
@@ -815,6 +1007,14 @@ function RiskBadge({ risk }: { risk: RiskAssessment }) {
 
 function formatDistance(distance?: number | null) {
   return distance == null ? "nearby" : `${distance} km`;
+}
+
+function serviceDistanceFromResult<T extends { distance_km?: number | null }>(
+  result: PromiseSettledResult<T[]>,
+) {
+  if (result.status !== "fulfilled") return "Error";
+  const nearest = result.value[0];
+  return nearest ? formatDistance(nearest.distance_km) : "None nearby";
 }
 
 function formatRiskLevel(riskLevel?: string) {

@@ -77,6 +77,23 @@ export type TowingService = {
   route_waypoints?: RoutePoint[];
 };
 
+export type PunctureShop = {
+  id: string;
+  name: string;
+  district?: string;
+  state?: string;
+  address: string;
+  phone: string;
+  type?: string;
+  open_24x7?: boolean;
+  lat: number | null;
+  lng: number | null;
+  distance_km?: number | null;
+  eta?: string | null;
+  eta_minutes?: number | null;
+  route_waypoints?: RoutePoint[];
+};
+
 export type Ambulance = {
   id: string;
   ambulance_id: string;
@@ -257,6 +274,9 @@ export const api = {
   towing: (lat?: number, lng?: number) =>
     request<TowingService[]>(`/api/towing${locationQuery(lat, lng)}`),
 
+  punctureShops: (lat?: number, lng?: number, limit = 20) =>
+    request<PunctureShop[]>(`/api/puncture-shops${punctureShopQuery(lat, lng, limit)}`),
+
   ambulances: (lat: number, lng: number, limit = 3) =>
     request<Ambulance[]>(`/api/ambulances${ambulanceQuery(lat, lng, limit)}`),
 
@@ -342,6 +362,13 @@ function routeQuery(lat: number, lng: number, service: string) {
 
 function ambulanceQuery(lat: number, lng: number, limit: number) {
   const params = new URLSearchParams({ lat: String(lat), lng: String(lng), limit: String(limit) });
+  return `?${params.toString()}`;
+}
+
+function punctureShopQuery(lat?: number, lng?: number, limit = 20) {
+  const params = new URLSearchParams({ limit: String(limit) });
+  if (lat !== undefined) params.set("lat", String(lat));
+  if (lng !== undefined) params.set("lng", String(lng));
   return `?${params.toString()}`;
 }
 
