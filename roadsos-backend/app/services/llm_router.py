@@ -36,15 +36,18 @@ def generate(
     gemini_available = bool(get_gemini_api_key())
     providers = []
     if selected_provider == "ollama":
+        logger.info("LLM route: ollama forced (LLM_PROVIDER=ollama override)")
         providers.append(("ollama", local_llm_client))
         if gemini_available:
             providers.append(("gemini", gemini_client))
     else:
         if gemini_available:
+            logger.info("LLM route: gemini preferred (api key present)")
             providers.append(("gemini", gemini_client))
+            providers.append(("ollama", local_llm_client))
         else:
-            logger.info("LLM selected: local fallback because Gemini key is missing")
-        providers.append(("ollama", local_llm_client))
+            logger.info("LLM route: ollama fallback (Gemini key missing)")
+            providers.append(("ollama", local_llm_client))
 
     last_error = ""
     for provider_name, client in providers:
