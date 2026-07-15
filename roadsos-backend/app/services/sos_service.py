@@ -49,13 +49,14 @@ def trigger_sos_workflow(db: Session, payload: SOSCreate) -> dict[str, Any]:
         contacts = crud.get_emergency_contacts(db, payload.user_id)
     else:
         system_user = crud.get_or_create_system_user(db)
-        contacts = crud.get_emergency_contacts(db, system_user.id)
+        contacts = crud.ensure_default_emergency_contacts(db, system_user.id)
 
     contact_list = [
         {
             "name": contact.name,
             "phone": contact.phone,
             "relation": contact.relation,
+            "notify_sms": contact.notify_sms,
             "notify_whatsapp": contact.notify_whatsapp,
         }
         for contact in contacts

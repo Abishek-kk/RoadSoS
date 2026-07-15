@@ -17,6 +17,7 @@ class GenerationResult:
     provider: str
     used_llm: bool
     error: str = ""
+    fallback_reason: str = ""
 
 
 def generate(
@@ -27,7 +28,8 @@ def generate(
     max_output_tokens: int = gemini_client.MAX_CHAT_OUTPUT_TOKENS,
 ) -> GenerationResult:
     """
-    Generate with the configured LLM provider first, then the other provider.
+    Generate with Gemini first when it is configured, then use Ollama only as
+    the fallback if Gemini fails or is unavailable.
 
     Callers receive a structured failure instead of exceptions so routes never
     leak stack traces to users.
@@ -35,19 +37,16 @@ def generate(
     selected_provider = get_llm_provider()
     gemini_available = bool(get_gemini_api_key())
     providers = []
-    if selected_provider == "ollama":
-        logger.info("LLM route: ollama forced (LLM_PROVIDER=ollama override)")
-        providers.append(("ollama", local_llm_client))
-        if gemini_available:
-            providers.append(("gemini", gemini_client))
-    else:
-        if gemini_available:
-            logger.info("LLM route: gemini preferred (api key present)")
-            providers.append(("gemini", gemini_client))
-            providers.append(("ollama", local_llm_client))
+    if gemini_available:
+        if selected_provider == "ollama":
+            logger.info("LLM route: ignoring LLM_PROVIDER=ollama because Gemini is configured")
         else:
-            logger.info("LLM route: ollama fallback (Gemini key missing)")
-            providers.append(("ollama", local_llm_client))
+            logger.info("LLM route: gemini preferred (api key present)")
+        providers.append(("gemini", gemini_client))
+        providers.append(("ollama", local_llm_client))
+    else:
+        logger.info("LLM route: ollama fallback (Gemini key missing)")
+        providers.append(("ollama", local_llm_client))
 
     last_error = ""
     for provider_name, client in providers:
@@ -84,7 +83,12 @@ def generate(
 
         if is_successful_reply(reply):
             logger.info("Generation completed with %s", provider_name)
-            return GenerationResult(reply=reply.strip(), provider=provider_name, used_llm=True)
+            return GenerationResult(
+                reply=reply.strip(),
+                provider=provider_name,
+                used_llm=True,
+                fallback_reason=last_error if provider_name != "gemini" else "",
+            )
         last_error = reply or f"{provider_name} returned an empty response"
         logger.warning("%s generation failed: %s", provider_name, last_error[:300])
 

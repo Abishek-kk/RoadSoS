@@ -219,6 +219,7 @@ export type ChatResponse = {
   intent?: string;
   used_llm?: boolean;
   llm_provider?: string;
+  llm_fallback_reason?: string;
   response_source?: string | null;
   suggestions?: string[];
 };

@@ -104,7 +104,6 @@ def send_sms(contact_name: str, phone: str, message: str) -> NotificationResult:
     if not twilio_sms_configured():
         logger.info("SMS dry run to %s: %s", phone, message)
         return NotificationResult(contact_name, phone, "sms", "dry_run", error="TWILIO_PHONE_NUMBER is not configured")
-
     try:
         client = twilio_client()
         sent = client.messages.create(
@@ -114,7 +113,22 @@ def send_sms(contact_name: str, phone: str, message: str) -> NotificationResult:
         )
         return NotificationResult(contact_name, phone, "sms", sent.status or "submitted", sid=sent.sid)
     except Exception as exc:
-        logger.error("Failed to send SMS to %s", phone, exc_info=True)
+        # Try to extract Twilio-specific error details when available
+        try:
+            from twilio.base.exceptions import TwilioRestException
+            if isinstance(exc, TwilioRestException):
+                logger.error(
+                    "Twilio SMS error sending to %s: status=%s code=%s msg=%s more_info=%s",
+                    phone,
+                    getattr(exc, "status", None),
+                    getattr(exc, "code", None),
+                    getattr(exc, "msg", None),
+                    getattr(exc, "more_info", None),
+                )
+            else:
+                logger.error("Failed to send SMS to %s", phone, exc_info=True)
+        except Exception:
+            logger.error("Failed to send SMS to %s", phone, exc_info=True)
         return NotificationResult(contact_name, phone, "sms", "failed", error=str(exc))
 
 
@@ -132,7 +146,31 @@ def send_whatsapp(contact_name: str, phone: str, message: str) -> NotificationRe
         )
         return NotificationResult(contact_name, phone, "whatsapp", sent.status or "submitted", sid=sent.sid)
     except Exception as exc:
-        logger.error("Failed to send WhatsApp to %s", phone, exc_info=True)
+        # Log Twilio error details when available and attempt SMS fallback
+        try:
+            from twilio.base.exceptions import TwilioRestException
+            if isinstance(exc, TwilioRestException):
+                logger.error(
+                    "Twilio WhatsApp error sending to %s: status=%s code=%s msg=%s more_info=%s",
+                    phone,
+                    getattr(exc, "status", None),
+                    getattr(exc, "code", None),
+                    getattr(exc, "msg", None),
+                    getattr(exc, "more_info", None),
+                )
+            else:
+                logger.error("Failed to send WhatsApp to %s", phone, exc_info=True)
+        except Exception:
+            logger.error("Failed to send WhatsApp to %s", phone, exc_info=True)
+
+        # Attempt SMS fallback if SMS is configured
+        try:
+            if twilio_sms_configured():
+                logger.info("WhatsApp failed for %s, attempting SMS fallback", phone)
+                return send_sms(contact_name, phone, message)
+        except Exception:
+            logger.warning("SMS fallback attempt failed for %s", phone, exc_info=True)
+
         return NotificationResult(contact_name, phone, "whatsapp", "failed", error=str(exc))
 
 

@@ -51,8 +51,17 @@ def load_json(name: str) -> list[dict[str, Any]]:
     if dataset_dir and (DATA_DIR / dataset_dir).is_dir():
         data: list[dict[str, Any]] = []
         for path in sorted((DATA_DIR / dataset_dir).glob("*.json")):
-            with path.open("r", encoding="utf-8") as f:
-                district_data = json.load(f)
+            # Be tolerant of district files that may contain multiple JSON arrays
+            # concatenated together (malformed exports). Try a normal json.load
+            # first, and fall back to extracting individual objects.
+            try:
+                with path.open("r", encoding="utf-8") as f:
+                    district_data = json.load(f)
+            except Exception:
+                with path.open("r", encoding="utf-8") as f:
+                    text = f.read()
+                district_data = _extract_objects_from_text(text)
+
             if isinstance(district_data, list):
                 data.extend(
                     normalize_dataset_row(row, dataset_dir, path.stem)
@@ -70,8 +79,13 @@ def load_json(name: str) -> list[dict[str, Any]]:
         _JSON_CACHE[name] = data
         return _JSON_CACHE[name]
 
-    with (DATA_DIR / name).open("r", encoding="utf-8") as f:
-        data = json.load(f)
+    try:
+        with (DATA_DIR / name).open("r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        with (DATA_DIR / name).open("r", encoding="utf-8") as f:
+            text = f.read()
+        data = _extract_objects_from_text(text)
 
     if isinstance(data, list):
         _JSON_CACHE[name] = [
@@ -90,6 +104,46 @@ def load_json(name: str) -> list[dict[str, Any]]:
 
     _JSON_CACHE[name] = data
     return _JSON_CACHE[name]
+
+
+def _extract_objects_from_text(text: str) -> list[dict[str, Any]]:
+    """
+    Extract top-level JSON objects from a text blob that may contain
+    multiple JSON arrays or concatenated objects (malformed exports).
+
+    Returns a list of dicts parsed from any top-level JSON objects found.
+    """
+    objs: list[dict[str, Any]] = []
+    i = 0
+    length = len(text)
+    while i < length:
+        # Find the next object start
+        if text[i] == '{':
+            start = i
+            depth = 0
+            j = i
+            while j < length:
+                if text[j] == '{':
+                    depth += 1
+                elif text[j] == '}':
+                    depth -= 1
+                    if depth == 0:
+                        obj_text = text[start : j + 1]
+                        try:
+                            parsed = json.loads(obj_text)
+                            if isinstance(parsed, dict):
+                                objs.append(parsed)
+                        except Exception:
+                            # ignore parse errors for individual objects
+                            pass
+                        i = j + 1
+                        break
+                j += 1
+            else:
+                break
+        else:
+            i += 1
+    return objs
 
 
 def distance_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:

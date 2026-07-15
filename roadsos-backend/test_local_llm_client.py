@@ -65,16 +65,16 @@ def test_ollama_client_returns_error_on_connection_failure(monkeypatch):
     assert reply.startswith("Error:")
 
 
-def test_llm_router_tries_ollama_first_when_configured(monkeypatch):
+def test_llm_router_tries_gemini_first_even_when_ollama_configured(monkeypatch):
     calls = []
 
     def fake_ollama_generate(*args, **kwargs):
         calls.append("ollama")
-        return "Error: ollama unavailable"
+        return "Ollama should only be fallback"
 
     def fake_gemini_generate(*args, **kwargs):
         calls.append("gemini")
-        return "Gemini fallback"
+        return "Gemini response"
 
     monkeypatch.setattr(llm_router, "get_llm_provider", lambda: "ollama")
     monkeypatch.setattr(llm_router, "get_gemini_api_key", lambda: "test-key")
@@ -84,8 +84,32 @@ def test_llm_router_tries_ollama_first_when_configured(monkeypatch):
     result = llm_router.generate("Prompt", "Context", "System")
 
     assert result.provider == "gemini"
-    assert result.reply == "Gemini fallback"
-    assert calls == ["ollama", "gemini"]
+    assert result.reply == "Gemini response"
+    assert calls == ["gemini"]
+
+
+def test_llm_router_uses_ollama_only_after_gemini_failure(monkeypatch):
+    calls = []
+
+    def fake_gemini_generate(*args, **kwargs):
+        calls.append("gemini")
+        return "Error: gemini unavailable"
+
+    def fake_ollama_generate(*args, **kwargs):
+        calls.append("ollama")
+        return "Ollama fallback"
+
+    monkeypatch.setattr(llm_router, "get_llm_provider", lambda: "gemini")
+    monkeypatch.setattr(llm_router, "get_gemini_api_key", lambda: "test-key")
+    monkeypatch.setattr(llm_router.gemini_client, "generate_chat_response", fake_gemini_generate)
+    monkeypatch.setattr(llm_router.local_llm_client, "generate_chat_response", fake_ollama_generate)
+
+    result = llm_router.generate("Prompt", "Context", "System")
+
+    assert result.provider == "ollama"
+    assert result.reply == "Ollama fallback"
+    assert result.fallback_reason == "Error: gemini unavailable"
+    assert calls == ["gemini", "ollama"]
 
 
 def test_llm_router_keeps_gemini_key_gate(monkeypatch):
@@ -122,6 +146,20 @@ def test_chat_response_payload_includes_llm_provider():
 
     assert payload["used_llm"] is True
     assert payload["llm_provider"] == "ollama"
+
+
+def test_chat_response_payload_summarizes_gemini_quota_fallback():
+    payload = chat_route.response_payload(
+        reply="Use hazard lights.",
+        intent="general",
+        used_llm=True,
+        llm_provider="ollama",
+        lat=None,
+        lng=None,
+        llm_fallback_reason="Error: Gemini api key invalid or quota exceeded (429 RESOURCE_EXHAUSTED)",
+    )
+
+    assert payload["llm_fallback_reason"] == "Gemini quota was exhausted, so RoadSoS used Ollama fallback."
 
 
 def test_pipeline_blocks_unverified_non_social_query_before_llm(monkeypatch):

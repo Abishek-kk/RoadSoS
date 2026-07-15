@@ -61,6 +61,7 @@ class RagResult:
     llm_provider: str = "none"
     retrieval_confidence: float = 0.0
     response_source: str = "direct"
+    llm_fallback_reason: str = ""
 
     def as_dict(self) -> dict[str, Any]:
         return {
@@ -73,6 +74,7 @@ class RagResult:
             "llm_provider": self.llm_provider,
             "retrieval_confidence": self.retrieval_confidence,
             "response_source": self.response_source,
+            "llm_fallback_reason": self.llm_fallback_reason,
         }
 
 
@@ -289,6 +291,7 @@ def run_rag_pipeline(
             used_llm=True,
             llm_provider=generation.provider,
             response_source="llm",
+            llm_fallback_reason=generation.fallback_reason,
             started=started,
         )
 
@@ -300,6 +303,7 @@ def run_rag_pipeline(
         used_llm=False,
         llm_provider=generation.provider,
         response_source="fallback",
+        llm_fallback_reason=generation.error,
         started=started,
     )
 
@@ -450,7 +454,8 @@ def clean_contact_value(value: Any) -> str:
 
 
 def fast_direct_reply(profile: QueryProfile, live_context: LiveContext) -> str | None:
-    if profile.intent == "ambulance" and profile.needs_location_services:
+    direct_service_intents = {"ambulance", "hospital", "police", "towing", "showroom", "puncture_shop"}
+    if profile.intent in direct_service_intents and profile.needs_location_services:
         return verified_direct_answer(profile, live_context)
     if profile.social_only or profile.datetime_intent or is_location_question(profile):
         return verified_direct_answer(profile, live_context)
@@ -632,6 +637,7 @@ def finalize(
     llm_provider: str,
     started: float,
     response_source: str = "direct",
+    llm_fallback_reason: str = "",
 ) -> RagResult:
     elapsed_ms = round((time.perf_counter() - started) * 1000, 2)
     logger.info(
@@ -650,6 +656,7 @@ def finalize(
         llm_provider=llm_provider,
         retrieval_confidence=context_package.confidence,
         response_source=response_source,
+        llm_fallback_reason=llm_fallback_reason,
     )
 
 

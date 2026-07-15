@@ -133,6 +133,7 @@ async def chat(payload: ChatPayload, db: Session = DbSession):
         retrieval_confidence=getattr(result, "retrieval_confidence", None),
         sources=[source.as_dict() for source in getattr(result, "sources", [])],
         response_source=getattr(result, "response_source", None),
+        llm_fallback_reason=getattr(result, "llm_fallback_reason", ""),
     )
 
 
@@ -197,6 +198,7 @@ async def stream_chat_events(
                         retrieval_confidence=getattr(result, "retrieval_confidence", None),
                         sources=[source.as_dict() for source in getattr(result, "sources", [])],
                         response_source=getattr(result, "response_source", None),
+                        llm_fallback_reason=getattr(result, "llm_fallback_reason", ""),
                     ),
                 }
             )
@@ -359,6 +361,7 @@ def response_payload(
     retrieval_confidence: float | None = None,
     sources: list[dict[str, Any]] | None = None,
     response_source: str | None = None,
+    llm_fallback_reason: str = "",
 ) -> dict[str, Any]:
     payload: dict[str, Any] = {
         "reply": reply,
@@ -369,11 +372,25 @@ def response_payload(
     }
     # response_source: one of 'direct' (deterministic), 'llm' (AI), 'fallback' (LLM attempted but failed)
     payload["response_source"] = response_source
+    if llm_fallback_reason:
+        payload["llm_fallback_reason"] = summarize_llm_fallback_reason(llm_fallback_reason)
     if retrieval_confidence is not None:
         payload["retrieval_confidence"] = retrieval_confidence
     if sources is not None:
         payload["sources"] = sources
     return payload
+
+
+def summarize_llm_fallback_reason(reason: str) -> str:
+    normalized = " ".join((reason or "").split())
+    lowered = normalized.lower()
+    if "429" in lowered or "resource_exhausted" in lowered or "quota" in lowered:
+        return "Gemini quota was exhausted, so RoadSoS used Ollama fallback."
+    if "api key" in lowered or "unauthorized" in lowered or "401" in lowered or "403" in lowered:
+        return "Gemini authentication failed, so RoadSoS used Ollama fallback."
+    if "timeout" in lowered or "transient" in lowered:
+        return "Gemini timed out, so RoadSoS used Ollama fallback."
+    return "Gemini failed, so RoadSoS used Ollama fallback."
 
 
 def suggested_prompts(

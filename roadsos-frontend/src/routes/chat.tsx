@@ -15,6 +15,7 @@ type UiMessage = ChatMessage & {
   intent?: string;
   usedLlm?: boolean;
   llmProvider?: string;
+  llmFallbackReason?: string;
   response_source?: string | null;
   suggestions?: string[];
   error?: boolean;
@@ -233,6 +234,7 @@ function Chat() {
                   intent: res.intent,
                   usedLlm: res.used_llm,
                   llmProvider: res.llm_provider,
+                  llmFallbackReason: res.llm_fallback_reason,
                   response_source: res.response_source ?? (res.used_llm ? "llm" : "direct"),
                   suggestions: res.suggestions,
                   streaming: false,
@@ -339,7 +341,8 @@ function Chat() {
               {latestAssistant?.response_source && (
                 <span>
                   {latestAssistant.response_source === "direct" && "Instant answer"}
-                  {latestAssistant.response_source === "llm" && llmProviderLabel(latestAssistant.llmProvider)}
+                  {latestAssistant.response_source === "llm" &&
+                    llmProviderLabel(latestAssistant.llmProvider, latestAssistant.llmFallbackReason)}
                   {latestAssistant.response_source === "fallback" && "Offline fallback — AI unavailable"}
                 </span>
               )}
@@ -438,8 +441,9 @@ function Chat() {
   );
 }
 
-function llmProviderLabel(provider?: string) {
+function llmProviderLabel(provider?: string, fallbackReason?: string) {
   const normalized = provider?.trim().toLowerCase();
+  if (normalized === "ollama" && fallbackReason) return fallbackReason;
   if (normalized === "ollama") return "Ollama response";
   if (normalized === "gemini") return "Gemini response";
   return "LLM response";
